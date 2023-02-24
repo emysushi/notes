@@ -11,13 +11,28 @@
             "id": "f9544ce0eabc9df4",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg"
+                "file": "Template/tpl-test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1fb926d10555da7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/Sans titre.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg",
+                "file": "Template/Sans titre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg",
+                "file": "Template/Sans titre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg"
+                "file": "Template/Sans titre.md"
               }
             }
           },
@@ -203,18 +218,19 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "f9544ce0eabc9df4",
+  "active": "b1fb926d10555da7",
   "lastOpenFiles": [
+    "Template/tpl-test.md",
+    "Template/Sans titre.md",
+    "FicheLecture/fiche_L'Enfant multiple.md",
+    "PhysiqueChimie/Untitled Diagram.svg",
     "README.md",
     "Sans titre.canvas",
-    "Template/tpl-test.md",
     "Template/tpl-livre.md",
     "Template/tpl-expose.md",
     "Template/test.md",
-    "PhysiqueChimie/Untitled Diagram.svg",
     "Anglais/Verbes.md",
     "FicheLecture/fiche_Optique géométrique.md",
-    "FicheLecture/fiche_L'Enfant multiple.md",
     "Anglais/Dossier/Expose_massachusset.md",
     "Anglais/Glossaire.md",
     "Anglais/Dossier/Expose_massachussets.md",
