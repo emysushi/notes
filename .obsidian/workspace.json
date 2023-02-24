@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "6814ec6b0a1a2187",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a7248454bc322d0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d32a8f4fce73728e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c7851dc6d53e4271",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a9f239d4b295cad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6742ed8853b78b41",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a5f9a633e3fd2af",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#📚Book",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "32c10102c33f44bf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "be52fe062cae92c3",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "de72a87206515b52",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee2250b28fc2614e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0384a097f7e1407",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Template/test.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d68bc29e87c4ff6f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Template/test.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d2f672a9cfbc3914",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "6bab969d0d096703",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Template/test.md"
+              }
+            }
+          },
+          {
+            "id": "825572e900f1aedb",
+            "type": "leaf",
+            "state": {
+              "type": "trello-plugin",
+              "state": {}
+            }
+          },
+          {
+            "id": "5883242f4e5b52d0",
+            "type": "leaf",
+            "state": {
+              "type": "online.tokuhirom.obsidian-pomodoro-plugin",
+              "state": {}
+            }
+          },
+          {
+            "id": "9bf63b99b8c5dad3",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7898c38f4104a60d",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-map-view:Open map view": false,
+      "obsidian-gallery:Gallery": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "templater-obsidian:Templater": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-translator:Translate": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+    }
+  },
+  "active": "d32a8f4fce73728e",
+  "lastOpenFiles": [
+    "FicheLecture/fiche_Optique géométrique.md",
+    "FicheLecture/fiche_L'Enfant multiple.md",
+    "Template/tpl-livre.md",
+    "Template/tpl-expose.md",
+    "Anglais/Dossier/Expose_massachusset.md",
+    "Template/test.md",
+    "Template/tpl-test.md",
+    "Anglais/Glossaire.md",
+    "Sans titre.canvas",
+    "Anglais/Verbes.md",
+    "Anglais/Dossier/Expose_massachussets.md",
+    "Anglais/Dossier",
+    "Svt",
+    "PhysiqueChimie",
+    "Anglais",
+    "Francais",
+    "Notes/livre1 2023-02-24.md",
+    "Gallery/Untitled.md",
+    "Template/Untitled.md",
+    "Notes",
+    "FicheLecture",
+    "Gallery/Sans titre",
+    "Template/Script",
+    "Template"
+  ]
+}

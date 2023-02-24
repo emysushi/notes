@@ -1,0 +1,13 @@
+{
+  "folder": "FicheLecture",
+  "fileNameFormat": "fiche_{{title}}",
+  "frontmatter": "",
+  "content": "",
+  "useDefaultFrontmatter": true,
+  "defaultFrontmatterKeyType": "Camel Case",
+  "templateFile": "Template/tpl-livre.md",
+  "serviceProvider": "google",
+  "naverClientId": "",
+  "naverClientSecret": "",
+  "localePreference": "fr"
+}
