@@ -13,4 +13,8 @@ date: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 
 ---
 
-Resumer de texte : [lien](https://resoomer.com/)
+
+-   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
+-   [SMMRY](https://smmry.com/) : en ligne, anglais
+-   [Text Summarizer](http://textsummarization.net/text-summarizer) : en ligne, anglais
+-   [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais
