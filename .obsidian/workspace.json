@@ -11,11 +11,9 @@
             "id": "f9544ce0eabc9df4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diagram",
               "state": {
-                "file": "Template/tpl-expose.md",
-                "mode": "source",
-                "source": false
+                "file": "PhysiqueChimie/Untitled Diagram.svg"
               }
             }
           }
@@ -104,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-expose.md",
+                "file": "PhysiqueChimie/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-expose.md",
+                "file": "PhysiqueChimie/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-expose.md"
+                "file": "PhysiqueChimie/Untitled Diagram.svg"
               }
             }
           },
@@ -181,11 +179,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 741.5
+    "width": 283.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,17 +205,18 @@
   },
   "active": "f9544ce0eabc9df4",
   "lastOpenFiles": [
+    "README.md",
+    "Sans titre.canvas",
+    "Template/tpl-test.md",
+    "Template/tpl-livre.md",
+    "Template/tpl-expose.md",
     "Template/test.md",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Anglais/Verbes.md",
     "FicheLecture/fiche_Optique géométrique.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
-    "Template/tpl-livre.md",
-    "Template/tpl-expose.md",
     "Anglais/Dossier/Expose_massachusset.md",
-    "Template/tpl-test.md",
     "Anglais/Glossaire.md",
-    "Sans titre.canvas",
     "Anglais/Dossier/Expose_massachussets.md",
     "Anglais/Dossier",
     "Svt",
