@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b1fb926d10555da7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/Sans titre.md",
+                "file": "Template/tpl-expose.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Sans titre.md",
+                "file": "Template/tpl-expose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Sans titre.md",
+                "file": "Template/tpl-expose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Sans titre.md"
+                "file": "Template/tpl-expose.md"
               }
             }
           },
@@ -218,10 +205,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "b1fb926d10555da7",
+  "active": "f9544ce0eabc9df4",
   "lastOpenFiles": [
-    "Template/tpl-test.md",
     "Template/Sans titre.md",
+    "Template/tpl-test.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "PhysiqueChimie/Untitled Diagram.svg",
     "README.md",

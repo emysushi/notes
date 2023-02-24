@@ -13,3 +13,4 @@ date: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 
 ---
 
+Resumer de texte : [lien](https://resoomer.com/)
