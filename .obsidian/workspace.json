@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "2a7248454bc322d0",
+        "id": "1d97109f526713eb",
         "type": "tabs",
         "children": [
           {
-            "id": "d32a8f4fce73728e",
+            "id": "f9544ce0eabc9df4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/test.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -36,9 +32,9 @@
             "id": "6742ed8853b78b41",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "diagram-edit",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "Untitled Diagram.svg"
               }
             }
           },
@@ -78,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 1188.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -94,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/test.md",
+                "file": "Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +107,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/test.md",
+                "file": "Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/test.md"
+                "file": "Untitled Diagram.svg"
               }
             }
           },
@@ -196,14 +192,15 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "d32a8f4fce73728e",
+  "active": "be52fe062cae92c3",
   "lastOpenFiles": [
+    "Template/test.md",
+    "Untitled Diagram.svg",
     "FicheLecture/fiche_Optique géométrique.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Template/tpl-livre.md",
     "Template/tpl-expose.md",
     "Anglais/Dossier/Expose_massachusset.md",
-    "Template/test.md",
     "Template/tpl-test.md",
     "Anglais/Glossaire.md",
     "Sans titre.canvas",

@@ -1,0 +1,13 @@
+{
+  "api_key": "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",
+  "file_exclusions": "",
+  "folder_exclusions": "",
+  "header_exclusions": "",
+  "path_only": "",
+  "show_full_path": false,
+  "log_render": false,
+  "log_render_files": false,
+  "skip_sections": false,
+  "results_count": 50,
+  "failed_files": []
+}
