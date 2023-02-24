@@ -1,6 +1,6 @@
 {
   "settings": {
-    "token": "",
+    "token": "ATTA55d94dd17fccdb7afd2d44e23a4aad8aedfd7539e265aca34245e0a20004458dDA21FC42",
     "customUi": {
       "global": {
         "checklists": true,
@@ -11,7 +11,13 @@
         "title": true
       }
     },
-    "selectedBoards": [],
+    "selectedBoards": [
+      {
+        "id": "63722ae807d5fd02b2b92859",
+        "name": "EMY-BOARD",
+        "url": "https://trello.com/b/H6D4jq2h/emy-board"
+      }
+    ],
     "openToSide": "right",
     "newCardPosition": "top",
     "movedCardPosition": "top",
@@ -19,5 +25,10 @@
   },
   "version": "1.6.0",
   "firstRun": false,
-  "connectedCards": {}
+  "connectedCards": {
+    "vCDiHCHqr3zQEugglRxXD": {
+      "cardId": "63ea595256ca01f16c90985d",
+      "boardId": "63722ae807d5fd02b2b92859"
+    }
+  }
 }

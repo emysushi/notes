@@ -11,8 +11,12 @@
             "id": "f9544ce0eabc9df4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-expose.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -34,7 +38,7 @@
             "state": {
               "type": "diagram-edit",
               "state": {
-                "file": "Untitled Diagram.svg"
+                "file": "PhysiqueChimie/Untitled Diagram.svg"
               }
             }
           },
@@ -68,13 +72,23 @@
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "cc433e56d726fa8d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 1188.5
+    "width": 636.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -90,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled Diagram.svg",
+                "file": "Template/tpl-expose.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled Diagram.svg",
+                "file": "Template/tpl-expose.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled Diagram.svg"
+                "file": "Template/tpl-expose.md"
               }
             }
           },
@@ -167,11 +181,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 741.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +195,6 @@
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
@@ -192,10 +205,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "be52fe062cae92c3",
+  "active": "f9544ce0eabc9df4",
   "lastOpenFiles": [
     "Template/test.md",
-    "Untitled Diagram.svg",
+    "PhysiqueChimie/Untitled Diagram.svg",
+    "Anglais/Verbes.md",
     "FicheLecture/fiche_Optique géométrique.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Template/tpl-livre.md",
@@ -204,7 +218,6 @@
     "Template/tpl-test.md",
     "Anglais/Glossaire.md",
     "Sans titre.canvas",
-    "Anglais/Verbes.md",
     "Anglais/Dossier/Expose_massachussets.md",
     "Anglais/Dossier",
     "Svt",
