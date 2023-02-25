@@ -20,11 +20,11 @@ updated: 2023-02-24 18:32:26
 andree chedid
 - nationalité : sybro libanaise
 - date naissance/mort :1920 /2011
-- contexte historique :
+- contexte historique :poetesse
 - grandes etapes de sa vie :
-	- etape1
-	- etape2
-	- etape3
+	- etape1 : 
+	- etape2 : 
+	- etape3 : 
 - profession :
 - courant littéraire predilection : 
 
