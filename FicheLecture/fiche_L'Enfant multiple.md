@@ -29,9 +29,9 @@ andree chedid
 - courant littéraire predilection : 
 
 # Genre 
-- genre de l ouvrage :
-- place de l ouvrage dans la vie de l auteur :
-- chronologie : 
+- genre de l ouvrage :roman / fiction
+- place de l ouvrage dans la vie de l auteur :guerre du liban
+- chronologie : 1987
 
 # Le cadre :
 - contexte politique et social :
