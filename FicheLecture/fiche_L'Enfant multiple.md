@@ -41,11 +41,13 @@ andree chedid
 
 # Les personnages principaux :
 
-- liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
--Omar jo : fils d'un musulman et d'une chretienne libanaise
+- liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
+-Omar Jo : fils d'un musulman et d'une chrétienne libanaise
+-Omar : père d'Omar Jo
 -Maxime : son ami qui vient de paris
--Tante rosie : tante d'Omar jo
--Oncle antoine : oncle d'Omar jo
+-Rosie : tante d'Omar Jo
+-Antoine : oncle d'Omar Jo
+-Joseph :grand père d'Omar Jo
 -
 résumé bref :
 
