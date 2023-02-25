@@ -44,6 +44,8 @@ andree chedid
 - liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
 -Omar jo : fils d'un musulman et d'une chretienne libanaise
 -Maxime : son ami qui vient de paris
+-Tante rosie : tante d'Omar jo
+-Oncle antoine : oncle d'Omar jo
 -
 résumé bref :
 
