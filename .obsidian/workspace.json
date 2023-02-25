@@ -84,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -173,7 +173,7 @@
             }
           },
           {
-            "id": "7898c38f4104a60d",
+            "id": "3ba3adba1658d64e",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -181,7 +181,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -189,6 +189,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templates:Insérer le modèle": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-gallery:Gallery": false,
       "switcher:Ouvrir le sélecteur rapide": false,
@@ -205,7 +206,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "f9544ce0eabc9df4",
+  "active": "3ba3adba1658d64e",
   "lastOpenFiles": [
     "Template/Sans titre.md",
     "Template/tpl-test.md",
