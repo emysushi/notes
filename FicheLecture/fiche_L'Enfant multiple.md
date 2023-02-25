@@ -43,6 +43,8 @@ updated: 2023-02-24 18:32:26
 
 - liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
 
+
+
 # Résumé bref :
 
 
