@@ -35,17 +35,17 @@ andree chedid
 
 # Le cadre :
 - contexte politique et social :
-- periode historique :
+- periode historique : guerre du liban
 - evênements historiques :
 
 
 # Les personnages principaux :
 
 - liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
-
-
-
-# Résumé bref :
+-Omar jo : fils d'un musulman et d'une chretienne libanaise
+-Maxime : son ami qui vient de paris
+-
+résumé bref :
 
 
 
