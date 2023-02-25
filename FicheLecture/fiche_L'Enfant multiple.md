@@ -22,10 +22,10 @@ andree chedid
 - date naissance/mort :1920 /2011
 - contexte historique :poetesse
 - grandes etapes de sa vie :
-	- etape1 : 
-	- etape2 : 
-	- etape3 : 
-- profession :
+	- etape1 : mise en pension au sacres coeur a l'age de 10 ans 
+	- etape2 : elle gagne l'europe a 14 ans
+	- etape3 : puis revient au caire pour etudier dans une universite ameriquaine
+- profession :declare son humanisme 
 - courant littéraire predilection : 
 
 # Genre 
