@@ -17,9 +17,9 @@ updated: 2023-02-24 18:32:26
 
 
 # Auteur
-
-- nationalité : 
-- date naissance/mort :
+andree chedid
+- nationalité : sybro libanaise
+- date naissance/mort :1920 /2011
 - contexte historique :
 - grandes etapes de sa vie :
 	- etape1
