@@ -36,19 +36,20 @@ andree chedid
 # Le cadre :
 - contexte politique et social :
 - periode historique : guerre du liban
-- evênements historiques :
+- évênements historiques :
 
 
-# Les personnages principaux :
+ Les personnages principaux :
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
 -Omar Jo : fils d'un musulman et d'une chrétienne libanaise
 -Omar : père d'Omar Jo
--Maxime : son ami qui vient de paris
+-Annette : mère d'Omar Jo
+-Maxime : son  ami qui vient de paris rencontré à un manège
 -Rosie : tante d'Omar Jo
 -Antoine : oncle d'Omar Jo
 -Joseph :grand père d'Omar Jo
--
+-Adèle : grand mère d' Omar Jo
 résumé bref :
 
 
