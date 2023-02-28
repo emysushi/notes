@@ -50,7 +50,9 @@ andree chedid
 -Antoine : oncle d'Omar Jo
 -Joseph :grand père d'Omar Jo
 -Adèle : grand mère d' Omar Jo
-résumé bref :
+-Nawal : amour secret de Joseph
+-
+-
 
 
 
