@@ -34,5 +34,7 @@
   "obsidian-textgenerator-plugin",
   "cmdr",
   "metaedit",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-commits",
+  "obsidian-memos"
 ]
