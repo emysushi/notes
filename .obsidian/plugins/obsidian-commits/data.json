@@ -35,7 +35,7 @@
       "links": 0
     },
     "Anglais/Verbes.md": {
-      "size": 15,
+      "size": 23980,
       "tags": 0,
       "links": 0
     },
@@ -60,7 +60,7 @@
       "Refactor": 3,
       "Create": 3,
       "Link": 2,
-      "Expand": 0
+      "Expand": 1
     }
   },
   "dailyCommits": {
@@ -81,7 +81,7 @@
       "13": 0,
       "14": 0,
       "15": 0,
-      "16": 2,
+      "16": 3,
       "17": 0,
       "18": 6,
       "19": 0,
@@ -99,12 +99,14 @@
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-      "Sun": 2
+      "Sun": 3
     }
   },
   "recentCommits": {
     "/": {
-      "Expanded": [],
+      "Expanded": [
+        "<a class=\"internal-link\" href=\"Anglais/Verbes.md\"> Verbes </a>"
+      ],
       "Created": [
         "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
         "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",

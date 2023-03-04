@@ -1,5 +1,209 @@
 
+| Anglais      | Français             |
+|--------------|----------------------|
+| accept       | accepter             |
+| acquire      | acheter              |
+| add          | ajouter              |
+| admire       | admirer              |
+| admit        | admettre             |
+| afford       | s’offrir             |
+| agree        | être d’accord        |
+| allow        | autoriser            |
+| answer       | répondre             |
+| apologise    | excuser              |
+| appear       | apparaître           |
+| ask          | demander             |
+| avoid        | éviter               |
+| be *         | être                 |
+| beat *       | battre               |
+| become *     | devenir              |
+| begin *      | commencer            |
+| behave       | se comporter         |
+| believe      | croire               |
+| belong       | appartenir           |
+| bend *       | plier                |
+| bet *        | parier               |
+| block        | bloquer              |
+| book         | réserver             |
+| borrow       | emprunter            |
+| break *      | casser               |
+| bring *      | apporter             |
+| broadcast *  | diffuser, émettre    |
+| build *      | construire           |
+| burn *       | brûler               |
+| buy *        | acheter              |
+| call         | appeler              |
+| cancel       | annuler              |
+| carry        | porter               |
+| catch *      | attraper             |
+| change       | changer              |
+| check        | vérifier             |
+| choose *     | choisir              |
+| come *       | venir                |
+| come back *  | revenir              |
+| concern      | concerner            |
+| confirm      | confirmer            |
+| consider     | considérer           |
+| contact      | contacter            |
+| continue     | continuer            |
+| convince     | convaincre           |
+| cook         | cuisiner             |
+| copy         | copier               |
+| correct      | corriger             |
+| cost *       | coûter               |
+| cover        | couvrir              |
+| create       | créer                |
+| cut *        | couper               |
+| dance        | danser               |
+| decide       | décider              |
+| delay        | retarder             |
+| deliver      | livrer               |
+| die          | mourir               |
+| disappoint   | décevoir             |
+| do *         | faire                |
+| doubt        | douter               |
+| earn         | gagner (de l’argent) |
+| expect       | s’attendre à         |
+| fall *       | tomber               |
+| fear         | craindre             |
+| feel *       | sentir               |
+| find *       | trouver              |
+| fly *        | voler                |
+| follow       | suivre               |
+| forbid *     | interdire            |
+| forecast *   | prévoir              |
+| forget *     | oublier              |
+| forgive *    | pardonner            |
+| freeze *     | geler                |
+| gather       | rassembler           |
+| get *        | obtenir              |
+| give *       | donner               |
+| give back *  | rendre               |
+| go *         | aller                |
+| grow *       | grandir              |
+| hang *       | tenir, pendre        |
+| happen       | arriver              |
+| hate         | détester             |
+| have *       | avoir                |
+| hear *       | entendre             |
+| help         | aider                |
+| highlight    | mettre en évidence   |
+| hit *        | atteindre            |
+| hold *       | tenir                |
+| hope         | espérer              |
+| hurt *       | blesser              |
+| ignore       | ignorer              |
+| implement    | mettre en place      |
+| impress      | impressionner        |
+| include      | inclure              |
+| intend       | avoir l’intention de |
+| involve      | impliquer            |
+| iron         | repasser             |
+| keep *       | garder               |
+| kill         | tuer                 |
+| kiss         | embrasser            |
+| know *       | savoir               |
+| lead *       | mener                |
+| learn *      | apprendre            |
+| leave *      | quitter, laisser     |
+| let *        | laisser              |
+| light *      | allumer              |
+| like         | aimer                |
+| live         | vivre                |
+| load         | charger              |
+| look         | regarder             |
+| lose *       | perdre               |
+| love         | aimer                |
+| make *       | faire                |
+| mean *       | vouloir dire         |
+| meet *       | rencontrer           |
+| move         | bouger               |
+| need         | avoir besoin         |
+| offer        | offrir               |
+| open         | ouvrir               |
+| overcome *   | surmonter            |
+| pass         | passer               |
+| paste        | coller               |
+| pay *        | payer                |
+| play         | jouer                |
+| promise      | promettre            |
+| provide      | fournir              |
+| put          | mettre               |
+| push *       | pousser              |
+| quit *       | quitter              |
+| raise        | augmenter            |
+| reach        | atteindre            |
+| read *       | lire                 |
+| remain       | rester               |
+| remember     | se souvenir          |
+| report       | signaler             |
+| request      | demander             |
+| require      | demander             |
+| reward       | récompenser          |
+| ring *       | sonner               |
+| rise *       | lever                |
+| run *        | courir               |
+| say *        | dire                 |
+| see *        | voir                 |
+| seem         | sembler              |
+| sell *       | vendre               |
+| send *       | envoyer              |
+| serve        | servir               |
+| set *        | mettre               |
+| shake *      | secouer              |
+| show *       | montrer              |
+| sit *        | asseoir              |
+| speak *      | parler               |
+| spend *      | dépenser             |
+| spit *       | cracher              |
+| spoil *      | gâcher               |
+| spread *     | répandre             |
+| stand *      | se tenir debout      |
+| start        | commencer            |
+| stay         | rester               |
+| stink *      | puer                 |
+| stop         | arrêter              |
+| strike *     | frapper              |
+| strive *     | s’efforcer           |
+| study        | étudier              |
+| submit       | soumettre            |
+| succeed      | réussir              |
+| suffer       | souffrir             |
+| suggest      | suggérer             |
+| supply       | fournir              |
+| support      | supporter            |
+| survive      | survivre             |
+| swear *      | jurer                |
+| sweat *      | transpirer           |
+| sweep *      | balayer              |
+| swim *       | nager                |
+| take *       | prendre              |
+| talk         | parler               |
+| teach *      | enseigner            |
+| tear *       | déchirer             |
+| tell *       | dire                 |
+| thank        | remercier            |
+| think *      | penser               |
+| throw *      | jeter                |
+| trust        | faire confiance      |
+| try          | essayer              |
+| turn         | tourner              |
+| understand * | comprendre           |
+| use          | utiliser             |
+| wait         | attendre             |
+| walk         | marcher              |
+| want         | vouloir              |
+| wash         | laver                |
+| watch        | regarder             |
+| wet *        | mouiller             |
+| win *        | gagner               |
+| withdraw *   | retirer              |
+| witness      | être témoin          |
+| work         | travailler           |
+| write *      | écrire               |
 
+
+les verbes suivis de (*) sont des verbes irréguliers.
 
 
 # Verbes irréguliers
