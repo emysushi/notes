@@ -96,8 +96,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "PhysiqueChimie/Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "PhysiqueChimie/Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "PhysiqueChimie/Untitled Diagram.svg"
               }
             }
           },
@@ -220,10 +219,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "9695315abe8bef93",
+  "active": "6742ed8853b78b41",
   "lastOpenFiles": [
-    "PhysiqueChimie/Untitled Diagram.svg",
     "conflict-files-obsidian-git.md",
+    "PhysiqueChimie/Untitled Diagram.svg",
     "Gallery/massachussets_embleme.png",
     "Anglais/Dossier/Expose_massachusset.md",
     "FicheLecture/fiche_L'Enfant multiple.md",

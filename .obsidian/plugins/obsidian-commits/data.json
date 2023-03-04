@@ -30,12 +30,17 @@
       "links": 1
     },
     "FicheLecture/fiche_L'Enfant multiple.md": {
-      "size": 1709,
+      "size": 1716,
+      "tags": 1,
+      "links": 0
+    },
+    "DayilyNotes/2023-03-01.md": {
+      "size": 36,
       "tags": 1,
       "links": 0
     },
     "Anglais/Verbes.md": {
-      "size": 23980,
+      "size": 24435,
       "tags": 0,
       "links": 0
     },
@@ -45,28 +50,17 @@
       "links": 0
     },
     "Anglais/Dossier/Expose_massachusset.md": {
-      "size": 513,
+      "size": 1555,
       "tags": 0,
-      "links": 7
-    },
-    "DayilyNotes/2023-03-01.md": {
-      "size": 34,
-      "tags": 1,
-      "links": 0
+      "links": 11
     }
   },
   "commitTypes": {
     "/": {
-<<<<<<< HEAD
-      "Refactor": 4,
-      "Create": 4,
-      "Link": 2,
-=======
-      "Refactor": 3,
-      "Create": 3,
-      "Link": 3,
->>>>>>> origin/main
-      "Expand": 1
+      "Refactor": 1,
+      "Create": 0,
+      "Link": 0,
+      "Expand": 0
     }
   },
   "dailyCommits": {
@@ -87,13 +81,9 @@
       "13": 0,
       "14": 0,
       "15": 0,
-<<<<<<< HEAD
-      "16": 5,
-=======
-      "16": 4,
->>>>>>> origin/main
+      "16": 1,
       "17": 0,
-      "18": 6,
+      "18": 0,
       "19": 0,
       "20": 0,
       "21": 0,
@@ -105,43 +95,24 @@
     "/": {
       "Mon": 0,
       "Tue": 0,
-      "Wed": 6,
+      "Wed": 0,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-<<<<<<< HEAD
-      "Sun": 5
-=======
-      "Sun": 4
->>>>>>> origin/main
+      "Sun": 1
     }
   },
   "recentCommits": {
     "/": {
-      "Expanded": [
-        "<a class=\"internal-link\" href=\"Anglais/Verbes.md\"> Verbes </a>"
-      ],
-      "Created": [
-        "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
-        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
-        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
-      ],
+      "Expanded": [],
+      "Created": [],
       "Renamed": [],
-      "Tagged": [
-        "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
-        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>"
-      ],
+      "Tagged": [],
       "Refactored": [],
       "Deleted": [
-        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Optique géométrique.md\"> fiche_Optique géométrique </a>",
-        "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
-        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
-      "Linked": [
-        "<a class=\"internal-link\" href=\"Anglais/Dossier/Expose_massachusset.md\"> Expose_massachusset </a>"
-      ],
+      "Linked": [],
       "Removed Tags from": [],
       "Removed Links from": []
     }
