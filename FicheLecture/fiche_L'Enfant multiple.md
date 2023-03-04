@@ -45,10 +45,11 @@ Andrée Chedid
 -Omar Jo : fils d'un musulman et d'une chrétienne libanaise
    perdu ces parents et son bras 
 -Omar et Annette : parents d'Omar Jo
-   morts de l'explosion de leur maison
+  morts de l'explosion de leur maison
 -Maxime : ami d'Omar Jo propriétaire d'un manège
 -Cheranne : métisse américaine amoureuse de Maxime  
    "la femme coquelicot "
+ -Thérèse : la fille de Cheranne  
 -Joseph : grand père d'Omar Jo 
 -Rosie et Antoine : cousins d'Omar Jo
 -
