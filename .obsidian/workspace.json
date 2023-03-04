@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Dossier/Expose_massachusset.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9695315abe8bef93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Anglais/Verbes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,11 +83,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 636.5
+    "width": 200
   },
   "right": {
     "id": "de72a87206515b52",
@@ -116,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg",
+                "file": "Anglais/Verbes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg",
+                "file": "Anglais/Verbes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg"
+                "file": "Anglais/Verbes.md"
               }
             }
           },
@@ -219,12 +207,14 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "6742ed8853b78b41",
+  "active": "11a5d5d86c7dfd52",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "PhysiqueChimie/Untitled Diagram.svg",
-    "Gallery/massachussets_embleme.png",
+    "Anglais/Glossaire.md",
+    "Anglais/Verbes.md",
     "Anglais/Dossier/Expose_massachusset.md",
+    "PhysiqueChimie/Untitled Diagram.svg",
+    "conflict-files-obsidian-git.md",
+    "Gallery/massachussets_embleme.png",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "DayilyNotes/2023-03-01.md",
     "DayilyNotes",
@@ -235,9 +225,7 @@
     "Sans titre.canvas",
     "Template/tpl-livre.md",
     "Template/test.md",
-    "Anglais/Verbes.md",
     "FicheLecture/fiche_Optique géométrique.md",
-    "Anglais/Glossaire.md",
     "Anglais/Dossier/Expose_massachussets.md",
     "Anglais/Dossier",
     "Svt",
