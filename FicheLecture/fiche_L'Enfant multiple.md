@@ -43,7 +43,7 @@ Andrée Chedid
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
 -OMAR JO : 
-fils d'un musulman et d'une chrétienne libanaise perdu ces parents et son bras 
+fils d'un musulman et d'une chrétienne libanaise perdu ces parents et son bras habite au manège de Maxime
 -OMAR et ANNETTE :
 parents d'Omar Jo morts de l'explosion de leur maison
 -MAXIME :: 
@@ -51,12 +51,12 @@ ami d'Omar Jo propriétaire d'un manège
 -ANNE :
 métisse américaine amoureuse de Maxime "la femme coquelicot "
 -THERESE : 
- la fille de Anne  
+la fille de Anne  
 -JOSEPH :
 grand père d'Omar Jo 
 -ROSIE et ANTOINE : 
-: cousins d'Omar Jo
--
+cousins d'Omar Jo
+
 
 
 
