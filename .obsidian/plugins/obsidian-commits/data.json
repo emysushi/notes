@@ -57,8 +57,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 3,
-      "Create": 3,
+      "Refactor": 4,
+      "Create": 4,
       "Link": 2,
       "Expand": 1
     }
@@ -81,7 +81,7 @@
       "13": 0,
       "14": 0,
       "15": 0,
-      "16": 3,
+      "16": 5,
       "17": 0,
       "18": 6,
       "19": 0,
@@ -99,7 +99,7 @@
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-      "Sun": 3
+      "Sun": 5
     }
   },
   "recentCommits": {
@@ -110,7 +110,8 @@
       "Created": [
         "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
         "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
-        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>"
+        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [],
       "Tagged": [
@@ -121,7 +122,8 @@
       "Deleted": [
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Optique géométrique.md\"> fiche_Optique géométrique </a>",
         "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
-        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>"
+        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [],
       "Removed Tags from": [],
