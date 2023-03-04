@@ -45,12 +45,7 @@ andree chedid
 -Omar Jo : fils d'un musulman et d'une chrétienne libanaise
 -Omar : père d'Omar Jo
 -Annette : mère d'Omar Jo
--Maxime : son  ami qui vient de paris rencontré à un manège
--Rosie : tante d'Omar Jo
--Antoine : oncle d'Omar Jo
--Joseph :grand père d'Omar Jo
--Adèle : grand mère d' Omar Jo
--Nawal : amour secret de Joseph
+-Maxime :
 -
 -
 
