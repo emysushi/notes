@@ -1,0 +1,141 @@
+{
+  "initialized": true,
+  "trackedProjects": [
+    "/"
+  ],
+  "filesCheckpoint": {
+    "Template/tpl-test.md": {
+      "size": 330,
+      "tags": 0,
+      "links": 0
+    },
+    "Template/tpl-livre.md": {
+      "size": 935,
+      "tags": 0,
+      "links": 1
+    },
+    "Template/tpl-expose.md": {
+      "size": 568,
+      "tags": 0,
+      "links": 0
+    },
+    "README.md": {
+      "size": 7,
+      "tags": 0,
+      "links": 0
+    },
+    "Gallery/Untitled.md": {
+      "size": 934,
+      "tags": 0,
+      "links": 1
+    },
+    "FicheLecture/fiche_L'Enfant multiple.md": {
+      "size": 1709,
+      "tags": 1,
+      "links": 0
+    },
+    "Anglais/Verbes.md": {
+      "size": 23980,
+      "tags": 0,
+      "links": 0
+    },
+    "Anglais/Glossaire.md": {
+      "size": 11,
+      "tags": 0,
+      "links": 0
+    },
+    "Anglais/Dossier/Expose_massachusset.md": {
+      "size": 513,
+      "tags": 0,
+      "links": 0
+    },
+    "DayilyNotes/2023-03-01.md": {
+      "size": 34,
+      "tags": 1,
+      "links": 0
+    }
+  },
+  "commitTypes": {
+    "/": {
+      "Refactor": 3,
+      "Create": 3,
+      "Link": 2,
+      "Expand": 1
+    }
+  },
+  "dailyCommits": {
+    "/": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 3,
+      "17": 0,
+      "18": 6,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0
+    }
+  },
+  "weeklyCommits": {
+    "/": {
+      "Mon": 0,
+      "Tue": 0,
+      "Wed": 6,
+      "Thu": 0,
+      "Fri": 0,
+      "Sat": 0,
+      "Sun": 3
+    }
+  },
+  "recentCommits": {
+    "/": {
+      "Expanded": [
+        "<a class=\"internal-link\" href=\"Anglais/Verbes.md\"> Verbes </a>"
+      ],
+      "Created": [
+        "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
+        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
+        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>"
+      ],
+      "Renamed": [],
+      "Tagged": [
+        "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
+        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>"
+      ],
+      "Refactored": [],
+      "Deleted": [
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Optique géométrique.md\"> fiche_Optique géométrique </a>",
+        "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
+        "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>"
+      ],
+      "Linked": [],
+      "Removed Tags from": [],
+      "Removed Links from": []
+    }
+  },
+  "ignoreList": [],
+  "divWidth": 50,
+  "divHeight": 400,
+  "divAlign": "left",
+  "topCommits": 2,
+  "commitThreshold": 2000,
+  "commitPerc": 15,
+  "fillColor": "rgba(51, 153, 204, 0.4)",
+  "borderColor": "rgba(51, 153, 204, 1)",
+  "gridColor": "grey"
+}

@@ -22,11 +22,11 @@ andree chedid
 - date naissance/mort :1920 /2011
 - contexte historique :poetesse
 - grandes etapes de sa vie :
-	- etape1 : mise en pension au sacres coeur a l'age de 10 ans 
-	- etape2 : elle gagne l'europe a 14 ans
-	- etape3 : puis revient au caire pour etudier dans une universite ameriquaine
-- profession :declare son humanisme 
-- courant littéraire predilection : 
+	- etape1 : mise en pension au sacres cœur a l'age de 10 ans 
+	- etape2 : elle gagne l’Europe a 14 ans
+	- etape3 : puis revient au Caire pour étudier dans une université américaine
+- profession :déclare son humanisme 
+- courant littéraire prédilection : 
 
 # Genre 
 - genre de l ouvrage :roman / fiction
@@ -35,8 +35,8 @@ andree chedid
 
 # Le cadre :
 - contexte politique et social :
-- periode historique : guerre du liban
-- évênements historiques :
+- période historique : guerre du liban
+- événements historiques :
 
 
  Les personnages principaux :

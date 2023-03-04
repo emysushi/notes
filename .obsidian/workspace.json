@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1d97109f526713eb",
+        "id": "fbc99f79887acf56",
         "type": "tabs",
         "children": [
           {
-            "id": "f9544ce0eabc9df4",
+            "id": "11a5d5d86c7dfd52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FicheLecture/fiche_L'Enfant multiple.md",
+                "file": "Anglais/Dossier/Expose_massachusset.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "472494956910119b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +83,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -114,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg",
+                "file": "Anglais/Dossier/Expose_massachusset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg",
+                "file": "Anglais/Dossier/Expose_massachusset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg"
+                "file": "Anglais/Dossier/Expose_massachusset.md"
               }
             }
           },
@@ -216,10 +206,13 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "6742ed8853b78b41",
+  "active": "11a5d5d86c7dfd52",
   "lastOpenFiles": [
-    "PhysiqueChimie/Untitled Diagram.svg",
     "FicheLecture/fiche_L'Enfant multiple.md",
+    "conflict-files-obsidian-git.md",
+    "PhysiqueChimie/Untitled Diagram.svg",
+    "DayilyNotes/2023-03-01.md",
+    "DayilyNotes",
     "Template/tpl-expose.md",
     "Template/Sans titre.md",
     "Template/tpl-test.md",
@@ -243,7 +236,6 @@
     "Notes",
     "FicheLecture",
     "Gallery/Sans titre",
-    "Template/Script",
-    "Template"
+    "Template/Script"
   ]
 }

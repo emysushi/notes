@@ -29,10 +29,12 @@
   "obsidian-trello",
   "obsidian-pomodoro-plugin",
   "obsidian-sakana-widget",
-  "smart-connections",
   "obsidian-translator",
   "obsidian-textgenerator-plugin",
   "cmdr",
   "metaedit",
-  "obsidian-linter"
+  "obsidian-linter",
+  "obsidian-commits",
+  "obsidian-memos",
+  "obsidian-excel-to-markdown-table"
 ]
