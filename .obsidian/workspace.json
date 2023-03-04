@@ -36,10 +36,8 @@
             "id": "6742ed8853b78b41",
             "type": "leaf",
             "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "PhysiqueChimie/Untitled Diagram.svg"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -84,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
