@@ -46,7 +46,10 @@ Andrée Chedid
 -Omar : père d'Omar Jo
 -Annette : mère d'Omar Jo
 -Maxime : ami d'Omar Jo propriétaire d'un manège
--Chéranne : métisse américaine amoureuse de Maxime  
+-Cheranne : métisse américaine amoureuse de Maxime  
+-Joseph : grand père d'Omar Jo 
+-Rosie : cousine d'Omar Jo
+-Antoine : cousin d'Omar Jo
 -
 
 
