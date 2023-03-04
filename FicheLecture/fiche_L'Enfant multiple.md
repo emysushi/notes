@@ -48,6 +48,7 @@ Andrée Chedid
    morts de l'explosion de leur maison
 -Maxime : ami d'Omar Jo propriétaire d'un manège
 -Cheranne : métisse américaine amoureuse de Maxime  
+   "la femme coquelicot "
 -Joseph : grand père d'Omar Jo 
 -Rosie et Antoine : cousins d'Omar Jo
 -
