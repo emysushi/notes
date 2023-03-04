@@ -47,7 +47,7 @@
     "Anglais/Dossier/Expose_massachusset.md": {
       "size": 513,
       "tags": 0,
-      "links": 0
+      "links": 7
     },
     "DayilyNotes/2023-03-01.md": {
       "size": 34,
@@ -59,7 +59,7 @@
     "/": {
       "Refactor": 3,
       "Create": 3,
-      "Link": 2,
+      "Link": 3,
       "Expand": 1
     }
   },
@@ -81,7 +81,7 @@
       "13": 0,
       "14": 0,
       "15": 0,
-      "16": 3,
+      "16": 4,
       "17": 0,
       "18": 6,
       "19": 0,
@@ -99,7 +99,7 @@
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-      "Sun": 3
+      "Sun": 4
     }
   },
   "recentCommits": {
@@ -123,7 +123,9 @@
         "<a class=\"internal-link\" href=\"2023-03-01.md\"> 2023-03-01 </a>",
         "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>"
       ],
-      "Linked": [],
+      "Linked": [
+        "<a class=\"internal-link\" href=\"Anglais/Dossier/Expose_massachusset.md\"> Expose_massachusset </a>"
+      ],
       "Removed Tags from": [],
       "Removed Links from": []
     }
