@@ -35,21 +35,21 @@ Andrée Chedid
 
 # Le cadre :
 - contexte politique et social :
-- période historique : guerre du Liban
-- événements historiques :
+- période historique : 1987
+- événements historiques :guerre du Liban 
 
 
  Les personnages principaux :
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
 -Omar Jo : fils d'un musulman et d'une chrétienne libanaise
--Omar : père d'Omar Jo
--Annette : mère d'Omar Jo
+   perdu ces parents et son bras 
+-Omar et Annette : parents d'Omar Jo
+   morts de l'explosion de leur maison
 -Maxime : ami d'Omar Jo propriétaire d'un manège
 -Cheranne : métisse américaine amoureuse de Maxime  
 -Joseph : grand père d'Omar Jo 
--Rosie : cousine d'Omar Jo
--Antoine : cousin d'Omar Jo
+-Rosie et Antoine : cousins d'Omar Jo
 -
 
 
