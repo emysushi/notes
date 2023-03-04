@@ -55,6 +55,11 @@ Andrée Chedid
 
 
 # passage marquants :
+Omar Jo a perdu ses parents et son bras dans une explosion de leur maison 
+il est allé a Paris chez sont grand père joseph 
+ il a rencontré maxime qui  possédait un manège et a accepte de travailler pour lui  
+ 
+
 
 
 
