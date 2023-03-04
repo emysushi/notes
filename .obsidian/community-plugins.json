@@ -36,5 +36,6 @@
   "obsidian-linter",
   "obsidian-commits",
   "obsidian-memos",
-  "obsidian-excel-to-markdown-table"
+  "obsidian-excel-to-markdown-table",
+  "obsidian-plugin-toc"
 ]
