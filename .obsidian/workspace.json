@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "472494956910119b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,7 +183,7 @@
             }
           },
           {
-            "id": "84006ea896fb1c17",
+            "id": "bd57c00706339f74",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -207,8 +218,8 @@
   },
   "active": "6742ed8853b78b41",
   "lastOpenFiles": [
-    "FicheLecture/fiche_L'Enfant multiple.md",
     "PhysiqueChimie/Untitled Diagram.svg",
+    "FicheLecture/fiche_L'Enfant multiple.md",
     "Template/tpl-expose.md",
     "Template/Sans titre.md",
     "Template/tpl-test.md",
