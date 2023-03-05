@@ -34,7 +34,7 @@ Andrée Chedid
 - chronologie : 1987
 
 # Le cadre :
-- contexte politique et social : 1975 à 1990 guerre du Liban
+- contexte politique et social : 1975 à 1990 guerre du Liban, confessionnalisme, ville pauvre
 - période historique : 20ème siècle 
 - événements historiques : guerre du Liban 
 
