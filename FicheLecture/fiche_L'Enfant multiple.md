@@ -49,7 +49,7 @@ parents d'Omar Jo morts de l'explosion de leur maison à cause de la guerre du L
 -MAXIME :
  forain qui a perdu la joie de vivre mais l'a retrouver grâce à d'Omar Jo, propriétaire d'un manège qui l'a embaucher, amoureux de Anne, renverser par une voiture mais s'en est sortit, à adopter Omar Jo
 -SUGAR : 
-
+musicien noir de Los Angeles vit à Paris depuis 2 ans, ami d'Anne, compose sa propre musique et Anne les chansons 
 -ANNE :
 métisse américaine avant amoureuse de Steve mais maintenant de Maxime surnommée :  "la femme coquelicot "
 -THERESE : 
@@ -58,6 +58,9 @@ l'enfant que garde Anne , un peut capricieuse
 grand père d'Omar Jo , mort de vieillesse juste avant d'avoir termine de construire un manège dans son jardin 
 -ROSIE et ANTOINE : 
 cousins d'Omar Jo qui l'a accueillit dans leur maison à Paris 
+-LYSIA :
+elle a embaucher Annette pour travailler chez elle 
+
 
 
 
