@@ -29,12 +29,12 @@ Andrée Chedid
 - courant littéraire prédilection : humanisme
 
 # Genre 
-- genre de l ouvrage :roman / fiction
-- place de l ouvrage dans la vie de l auteur :migration du Caire à la France
+- genre de l'ouvrage :roman / fiction
+- place de l'ouvrage dans la vie de l auteur :migration du Caire à la France
 - chronologie : 1987
 
 # Le cadre :
-- contexte politique et social :1975 à 1990 guerre du Liban 
+- contexte politique et social :1975 à 1990 guerre du Liban
 - période historique : 20ème siècle 
 - événements historiques :guerre du Liban 
 
