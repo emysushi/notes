@@ -47,7 +47,7 @@ fils d'un musulman et d'une chrétienne libanaise perdu ces parents et son bras 
 -OMAR et ANNETTE :
 parents d'Omar Jo morts de l'explosion de leur maison à cause de la guerre du Liban 
 -MAXIME :
-ami d'Omar Jo propriétaire d'un manège qui l'a embaucher, renverser par une voiture mais s'en est sortit, à adopter Omar Jo
+ forain qui a perdu la joie de vivre mais l'a retrouver grâce à d'Omar Jo, propriétaire d'un manège qui l'a embaucher, amoureux de Anne, renverser par une voiture mais s'en est sortit, à adopter Omar Jo
 -SUGAR : 
 
 -ANNE :
