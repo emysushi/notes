@@ -20,7 +20,7 @@ updated: 2023-02-24 18:32:26
 Andrée Chedid
 - nationalité : syro libanaise
 - date naissance/mort :1920 /2011
-- contexte historique :poétesse
+- contexte historique :
 - grandes étapes de sa vie :
 	- etape1 : mise en pension au sacres cœur a l'âge de 10 ans 
 	- etape2 : elle gagne l’Europe a 14 ans
