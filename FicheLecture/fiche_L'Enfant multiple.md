@@ -68,14 +68,16 @@ elle a embaucher Annette pour travailler chez elle
 # passage marquants :
 Omar Jo a perdu ses parents et son bras dans une explosion de leur maison 
 il est allé a Paris ou il a été hébergé chez ses cousins
-il a rencontré maxime qui  possédait un manège et a accepte de travailler pour lui  
-il a aussi rencontre Anne et Thérèse
+il a rencontré maxime qui possédait un manège et lui a rendu la joie de vivre et a accepte de travailler pour lui "gratis "peut après Omar Jo à habité chez lui 
+il a aussi rencontrer Anne accompagne d'une fille dont elle doit s'occupé nommé Thérèse
+grâce à Anne Omar Jo a pu rencontrer Sugar un musicien qui compose sa propre musique
+Omar à envoyer une photo du manège à Joseph
+Joseph à construit son propre manège dans son jardin mais quand il eut terminé il tomba mort de vieillesse sans pouvoir dire au revoir à Omar Jo
+Maxime veut adopter Omar Jo mais malheureusement se fait renverser par une voiture mais se rétabli vite 
 
 
  
- 
-
-
 
 
 # Appréciation personnelle :
+j'ai bien aimé se livre car on avait l'impression d'être à coté des personnages on pouvait les imaginer, il y avait plein de détails, quand je m'endormez je pouvais imaginer le manège de toutes les couleurs avec ses fameux chevaux, on pouvait aussi imaginer  toutes les scènes qu'elles soies tristes ou joyeuses .
