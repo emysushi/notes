@@ -30,12 +30,12 @@ Andrée Chedid
 
 # Genre 
 - genre de l ouvrage :roman / fiction
-- place de l ouvrage dans la vie de l auteur :guerre du Liban
+- place de l ouvrage dans la vie de l auteur :migration du Caire à la France
 - chronologie : 1987
 
 # Le cadre :
 - contexte politique et social :
-- période historique : 1987
+- période historique : 20ème siècle 
 - événements historiques :guerre du Liban 
 
 
@@ -43,19 +43,21 @@ Andrée Chedid
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
 -OMAR JO : 
-fils d'un musulman et d'une chrétienne libanaise perdu ces parents et son bras habite au manège de Maxime
+fils d'un musulman et d'une chrétienne libanaise perdu ces parents et son bras habite au manège de Maxime et fait des spectacles
 -OMAR et ANNETTE :
-parents d'Omar Jo morts de l'explosion de leur maison
--MAXIME :: 
-ami d'Omar Jo propriétaire d'un manège
+parents d'Omar Jo morts de l'explosion de leur maison à cause de la guerre du Liban 
+-MAXIME :
+ami d'Omar Jo propriétaire d'un manège qui l'a embaucher, renverser par une voiture mais s'en est sortit, à adopter Omar Jo
+-SUGAR : 
+
 -ANNE :
-métisse américaine amoureuse de Maxime "la femme coquelicot "
+métisse américaine avant amoureuse de Steve mais maintenant de Maxime surnommée :  "la femme coquelicot "
 -THERESE : 
-la fille de Anne  
+l'enfant que garde Anne , un peut capricieuse 
 -JOSEPH :
-grand père d'Omar Jo 
+grand père d'Omar Jo , mort de vieillesse juste avant d'avoir termine de construire un manège dans son jardin 
 -ROSIE et ANTOINE : 
-cousins d'Omar Jo
+cousins d'Omar Jo qui l'a accueillit dans leur maison à Paris 
 
 
 
