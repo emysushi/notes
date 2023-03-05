@@ -22,9 +22,10 @@ Andrée Chedid
 - date naissance/mort :1920 /2011
 - contexte historique :
 - grandes étapes de sa vie :
-	- etape1 : mise en pension au sacres cœur a l'âge de 10 ans 
-	- etape2 : elle gagne l’Europe a 14 ans
-	- etape3 : puis revient au Caire pour étudier dans une université américaine
+	- etape1 : 1942 obtenu sont diplôme de journaliste 
+	- etape2 : pars au Liban avec son mari Louis
+	- etape3 : ils ont eu 2 enfants : Louis et Michèle 
+	- etape4 : ils s'installent à Paris ou elle écrit toutes ses œuvres en Français
 - profession :poète, auteur, romancier, dramaturge 
 - courant littéraire prédilection : humanisme
 
