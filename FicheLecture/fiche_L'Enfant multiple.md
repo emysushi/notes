@@ -25,8 +25,8 @@ Andrée Chedid
 	- etape1 : mise en pension au sacres cœur a l'âge de 10 ans 
 	- etape2 : elle gagne l’Europe a 14 ans
 	- etape3 : puis revient au Caire pour étudier dans une université américaine
-- profession :déclare son humanisme 
-- courant littéraire prédilection : 
+- profession :poète, auteur, romancier, dramaturge 
+- courant littéraire prédilection : humanisme
 
 # Genre 
 - genre de l ouvrage :roman / fiction
