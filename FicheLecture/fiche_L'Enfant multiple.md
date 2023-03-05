@@ -67,9 +67,10 @@ elle a embaucher Annette pour travailler chez elle
 
 # passage marquants :
 Omar Jo a perdu ses parents et son bras dans une explosion de leur maison 
-il est allé a Paris chez sont grand père joseph  et chez ses cousins
+il est allé a Paris ou il a été hébergé chez ses cousins
 il a rencontré maxime qui  possédait un manège et a accepte de travailler pour lui  
-il a aussi rencontre Anne et Therese 
+il a aussi rencontre Anne et Thérèse
+
 
  
  
