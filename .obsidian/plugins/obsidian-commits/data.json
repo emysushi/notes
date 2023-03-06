@@ -11,7 +11,7 @@
     },
     "Template/tpl-livre.md": {
       "size": 935,
-      "tags": 0,
+      "tags": 1,
       "links": 1
     },
     "Template/tpl-expose.md": {
@@ -53,13 +53,18 @@
       "size": 1555,
       "tags": 0,
       "links": 11
+    },
+    "Bibliotheque.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 1,
-      "Create": 0,
-      "Link": 0,
+      "Create": 1,
+      "Link": 1,
       "Expand": 4
     }
   },
@@ -80,7 +85,7 @@
       "12": 3,
       "13": 0,
       "14": 0,
-      "15": 0,
+      "15": 2,
       "16": 1,
       "17": 0,
       "18": 1,
@@ -93,7 +98,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 0,
+      "Mon": 2,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -110,9 +115,13 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>"
       ],
-      "Created": [],
+      "Created": [
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+      ],
       "Renamed": [],
-      "Tagged": [],
+      "Tagged": [
+        "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>"
+      ],
       "Refactored": [],
       "Deleted": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"

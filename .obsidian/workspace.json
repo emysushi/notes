@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d645dc351a6da74e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bibliotheque.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -82,7 +95,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FicheLecture/fiche_L'Enfant multiple.md",
+                "file": "Bibliotheque.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FicheLecture/fiche_L'Enfant multiple.md",
+                "file": "Bibliotheque.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FicheLecture/fiche_L'Enfant multiple.md"
+                "file": "Bibliotheque.md"
               }
             }
           },
@@ -205,16 +218,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "11a5d5d86c7dfd52",
+  "active": "d645dc351a6da74e",
   "lastOpenFiles": [
+    "FicheLecture/fiche_L'Enfant multiple.md",
+    "Bibliotheque.md",
+    "Anglais/Dossier/Expose_massachusset.md",
     "Template/tpl-livre.md",
     "Anglais/Verbes.md",
     "Anglais/Glossaire.md",
-    "Anglais/Dossier/Expose_massachusset.md",
     "PhysiqueChimie/Untitled Diagram.svg",
     "conflict-files-obsidian-git.md",
     "Gallery/massachussets_embleme.png",
-    "FicheLecture/fiche_L'Enfant multiple.md",
     "DayilyNotes/2023-03-01.md",
     "DayilyNotes",
     "Template/tpl-expose.md",
