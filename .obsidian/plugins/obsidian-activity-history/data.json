@@ -1,9 +1,9 @@
 {
-  "firstRun": true,
+  "firstRun": false,
   "initialized": [
     {
       "path": "/",
-      "initialized": false
+      "initialized": true
     }
   ],
   "trackedProjects": [
@@ -13,7 +13,7 @@
     {
       "path": "/",
       "date": "2023-03-06",
-      "size": 0
+      "size": 39348
     }
   ],
   "activityHistory": [

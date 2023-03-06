@@ -9,4 +9,8 @@ WHERE contains(file.path, "Cours")
 ```
 
 
+## Activité
 
+```ActivityHistory
+/
+```
