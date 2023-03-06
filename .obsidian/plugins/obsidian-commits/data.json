@@ -61,7 +61,7 @@
     },
     "Planning_Semaine/Planning_2023-03-06.md": {
       "size": 0,
-      "tags": 12,
+      "tags": 13,
       "links": 1
     },
     "Cours/Anglais/Glossaire.md": {
@@ -104,7 +104,7 @@
     "/": {
       "Refactor": 317,
       "Create": 285,
-      "Link": 87,
+      "Link": 88,
       "Expand": 5
     }
   },
@@ -132,13 +132,13 @@
       "19": 102,
       "20": 0,
       "21": 74,
-      "22": 0,
+      "22": 1,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 689,
+      "Mon": 690,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -275,7 +275,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-kanban-note.md\"> tpl-kanban-note </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-kanban-note.md\"> tpl-kanban-note </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>"
       ],
       "Refactored": [],
       "Deleted": [
