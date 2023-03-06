@@ -41,7 +41,7 @@
     },
     "Template/tpl_semaine.md": {
       "size": 2438,
-      "tags": 18,
+      "tags": 15,
       "links": 0
     },
     "Template/tpl-empty.md": {
@@ -87,8 +87,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 331,
-      "Create": 290,
+      "Refactor": 333,
+      "Create": 291,
       "Link": 89,
       "Expand": 6
     }
@@ -117,13 +117,13 @@
       "19": 102,
       "20": 0,
       "21": 74,
-      "22": 22,
+      "22": 25,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 711,
+      "Mon": 714,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -143,6 +143,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
@@ -179,7 +180,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -269,6 +269,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
@@ -306,7 +307,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Education-Musicale.md\"> #revision  #Education-Musicale </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -388,6 +388,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>",
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Removed Links from": [

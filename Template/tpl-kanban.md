@@ -19,61 +19,57 @@ await tp.file.rename(titleName)
 
 
 
+## WEEKLY_TODO
 
-## LUNDI <% qmonday %>
+- [ ]  #Francais #_revision <% "@{"+qmonday+"}" %>
+- [ ]  #Chinois #_revision  <% "@{"+qmonday+"}" %>
+- [ ]  #Histoire-Geographie #_revision  <% "@{"+qmonday+"}" %>
+- [ ] #Education-Musicale #_revision <% "@{"+qmonday+"}" %>
+- [ ]  #Khan #_exercice <% "@{"+qmonday+"}" %>
 
-- [ ] #revision  #Francais
-- [ ] #revision #Chinois
-- [ ] #revision  #Histoire-Geographie
-- [ ] #revision  #Education-Musicale
-- [ ] #_exercice #Khan
+- [ ] #Technologie #_revision <% "@{"+qtuesday+"}" %>
+- [ ]  #Francais #_revision <% "@{"+qtuesday+"}" %>
+- [ ]  #Anglais  #_revision <% "@{"+qtuesday+"}" %>
+- [ ]  #Histoire-Geographie  #_revision <% "@{"+qtuesday+"}" %>
+- [ ]  #Physique-Chimie #_revision <% "@{"+qtuesday+"}" %>
+- [ ]  #Khan #_exercice <% "@{"+qtuesday+"}" %>
 
+- [ ] #Mathematiques  #_revision <% "@{"+qwednesday+"}" %>
+- [ ] #Francais  #_revision <% "@{"+qwednesday+"}" %>
+- [ ] #Chinois #_revision <% "@{"+qwednesday+"}" %>
+- [ ] #Khan #_exercice <% "@{"+qwednesday+"}" %>
 
-## MARDI  <% qtuesday %>
+- [ ] #Eps  <% "@{"+qthursday+"}" %>
+- [ ]  #Svt  #_revision <% "@{"+qthursday+"}" %>
+- [ ] #Mathematiques #_revision <% "@{"+qthursday+"}" %>
+- [ ] #Anglais #_revision <% "@{"+qthursday+"}" %>
+- [ ] #Khan #_exercice <% "@{"+qthursday+"}" %>
 
-- [ ] #revision #Technologie
-- [ ] #revision #Francais
-- [ ] #revision  #Anglais
-- [ ] #revision #Histoire-Geographie
-- [ ] #revision  #Physique-Chimie
-- [ ] #_exercice #Khan
+- [ ] #Histoire-Geographie  #_revision <% "@{"+qfriday+"}" %>
+- [ ]  #Anglais  #_revision <% "@{"+qfriday+"}" %>
+- [ ] #Arts-Plastiques  #_revision <% "@{"+qfriday+"}" %>
+- [ ]  #Mathematiques  #_revision <% "@{"+qfriday+"}" %>
+- [ ]  #Svt  #_revision <% "@{"+qfriday+"}" %>
+- [ ] #Khan #_exercice <% "@{"+qfriday+"}" %>
 
+- [ ] #Khan #_exercice <% "@{"+qsaturday+"}" %>
 
-## MERCREDI  <% qwednesday %>
-
-- [ ] #revision #Mathematiques
-- [ ] #revision #Francais
-- [ ] #revision  #Chinois
-- [ ] #_exercice #Khan
-
-
-## JEUDI  <% qthursday %>
-
-- [ ] #Eps
-- [ ] #revision #Svt
-- [ ] #revision #Mathematiques
-- [ ] #revision #Anglais
-- [ ] #_exercice #Khan
-
-
-## VENDREDI  <% qfriday %>
-
-- [ ] #revision #Histoire-Geographie
-- [ ] #revision #Anglais
-- [ ] #revision #Arts-Plastiques
-- [ ] #revision #Mathematiques
-- [ ] #revision #Svt
-- [ ] #revision #Khan
+- [ ] #Khan #_exercice <% "@{"+qsunday+"}" %>
 
 
-## SAMEDI  <% qsaturday %>
-
-- [ ] #_exercice #Khan
+## DAILY_TODO
 
 
-## DIMANCHE  <% qsunday %>
 
-- [ ] #_exercice #Khan
+## DAILY_TOCKECK
+
+
+
+## WEEKLY_DONE
+
+**Complete**
+
+
 
 
 
