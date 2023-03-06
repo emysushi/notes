@@ -147,14 +147,6 @@
             }
           },
           {
-            "id": "825572e900f1aedb",
-            "type": "leaf",
-            "state": {
-              "type": "trello-plugin",
-              "state": {}
-            }
-          },
-          {
             "id": "5883242f4e5b52d0",
             "type": "leaf",
             "state": {
@@ -191,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5,
-    "collapsed": true
+    "width": 527.5
   },
   "left-ribbon": {
     "hiddenItems": {
