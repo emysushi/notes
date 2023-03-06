@@ -1,4 +1,5 @@
 
+tags : #Anglais
 | Anglais      | Français             |
 |--------------|----------------------|
 | accept       | accepter             |
