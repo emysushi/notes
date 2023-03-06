@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-kanban-note 1.md",
+                "file": "Template/tpl_semaine.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-kanban-note 1.md",
+                "file": "Template/tpl_semaine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-kanban-note 1.md",
+                "file": "Template/tpl_semaine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-kanban-note 1.md"
+                "file": "Template/tpl_semaine.md"
               }
             }
           },
@@ -219,12 +219,12 @@
   },
   "active": "7239e39518f5258c",
   "lastOpenFiles": [
+    "Template/tpl-kanban-note 1.md",
+    "Planning_Semaine/Untitled.md",
     "Template/tpl-kanban-note.md",
     "Template/tpl_semaine.md",
-    "Planning_Semaine/Untitled.md",
     "Planning_Semaine/Planning_2023-03-06.md",
     "2023-03-06.md",
-    "Template/tpl-kanban-note 1.md",
     "Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md",
     "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md",
     "Cours/Kanban/#Anglais #_control.md",

@@ -12,7 +12,6 @@ qfriday = tp.date.now("YYYY-MM-DD",4)
 qsaturday= tp.date.now("YYYY-MM-DD",5)
 qsunday= tp.date.now("YYYY-MM-DD",6)
 
-
 -%>
 
 
