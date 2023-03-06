@@ -11,9 +11,11 @@
             "id": "b3a08494ca37d765",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Gallery/massachussets_embleme.png"
+                "file": "Template/tpl-kanban-note.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -80,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gallery/massachussets_embleme.png",
+                "file": "Template/tpl-kanban-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gallery/massachussets_embleme.png",
+                "file": "Template/tpl-kanban-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gallery/massachussets_embleme.png"
+                "file": "Template/tpl-kanban-note.md"
               }
             }
           },
@@ -216,12 +218,12 @@
   },
   "active": "b3a08494ca37d765",
   "lastOpenFiles": [
-    "Gallery/Untitled.md",
-    "Gallery/massachussets_embleme.png",
-    "Planning_Semaine/Planning_2023-03-06.md",
+    "Dossier_Liste.md",
     "Bibliotheque_Liste.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
-    "Dossier_Liste.md",
+    "Gallery/massachussets_embleme.png",
+    "Gallery/Untitled.md",
+    "Planning_Semaine/Planning_2023-03-06.md",
     "Template/tpl-kanban-note.md",
     "Template/tpl_semaine.md",
     "Planning_Semaine/#revision  #Education-Musicale.md",
@@ -253,7 +255,6 @@
     "Semainier/2023-03-01.md",
     "Anglais/Dossier_test.md",
     "Cours/Anglais/Dossier_massachusset.md",
-    "Cours/Anglais/Verbes.md",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
   ]

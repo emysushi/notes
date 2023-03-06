@@ -6,7 +6,7 @@ let dom = await tp.system.prompt("1:ang, 2:fran, 3:svt, 4:math, 5:phychim, 6:his
 let dom_choice = await tp.system.suggester(["ang", "fran", "Person", "Meeting", "Standup", "Onboarding", "New Template", "Blank Note"],["1on1 Template", "Daily Template", "Person Template", "Meeting Template", "Standup Template", "Onboarding Template", "Template", "Blank"])
 
 switch (dom) { 
-	case "1": 
+	case "ang": 
 		let Tags = "/Anglais/" 
 		break; 
 	case "2": 
