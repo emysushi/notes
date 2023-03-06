@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fc1fb4c0abc02c25",
+        "id": "59a678d2fef4d408",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "7239e39518f5258c",
+            "id": "ea87762a1fb59ec7",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "image",
               "state": {
-                "file": "Template/tpl-kanban.md"
+                "file": "Gallery/massachussets_embleme.png"
               }
             }
           }
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-kanban.md",
+                "file": "Gallery/massachussets_embleme.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-kanban.md",
+                "file": "Gallery/massachussets_embleme.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-kanban.md"
+                "file": "Gallery/massachussets_embleme.png"
               }
             }
           },
@@ -214,13 +213,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7239e39518f5258c",
+  "active": "ea87762a1fb59ec7",
   "lastOpenFiles": [
-    "Template/tpl_semaine.md",
-    "Planning_Semaine/Planning_2023-03-06.md",
-    "Template/tpl-kanban.md",
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Template/tpl-kanban-note 1.md",
+    "Template/tpl-test.md",
     "Template/tpl-kanban-note.md",
+    "Template/tpl-livre.md",
+    "Template/tpl_test1.md",
+    "Template/tpl-kanban.md",
+    "Template/tpl-dossier.md",
+    "Planning_Semaine/Planning_2023-03-06.md",
     "2023-03-06.md",
     "Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md",
     "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md",
@@ -241,8 +244,6 @@
     "Planning_Semaine/KNote_Planning_Semaine_null.md",
     "Planning_Semaine/Planning_Semaine #revision  #Histoire-Geographie.md",
     "Planning_Semaine/Planning_Semaine KNote_Planning_Semaine_null.md",
-    "Planning_Semaine/#revision  #Histoire-Geographie.md",
-    "Cours/Planning_Semaine/Kanban/KNote_Planning_Semaine_null.md",
     "Cours/Planning_Semaine/Kanban",
     "Cours/Planning_Semaine",
     "Anglais/Kanban",
