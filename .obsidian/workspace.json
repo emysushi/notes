@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "histoire.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "histoire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "histoire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "histoire.md"
               }
             }
           },
@@ -220,22 +220,23 @@
   },
   "active": "e9d0825fd877c097",
   "lastOpenFiles": [
-    "histoire.md",
-    "README.md",
-    "Anglais/Dossier/Expose_massachusset.md",
-    "FicheLecture/fiche_L'Enfant multiple.md",
     "Bibliotheque.md",
-    "Template/tpl-livre.md",
-    "Anglais/Verbes.md",
     "Anglais/Glossaire.md",
+    "Anglais/Verbes.md",
+    "DayilyNotes/2023-03-01.md",
+    "FicheLecture/fiche_L'Enfant multiple.md",
+    "Gallery/Untitled.md",
+    "Gallery/massachussets_embleme.png",
+    "Template/tpl-livre.md",
+    "Template/tpl-test.md",
+    "Template/tpl-expose.md",
+    "README.md",
+    "histoire.md",
+    "Anglais/Dossier/Expose_massachusset.md",
     "PhysiqueChimie/Untitled Diagram.svg",
     "conflict-files-obsidian-git.md",
-    "Gallery/massachussets_embleme.png",
-    "DayilyNotes/2023-03-01.md",
     "DayilyNotes",
-    "Template/tpl-expose.md",
     "Template/Sans titre.md",
-    "Template/tpl-test.md",
     "Sans titre.canvas",
     "Template/test.md",
     "FicheLecture/fiche_Optique géométrique.md",
@@ -246,7 +247,6 @@
     "Anglais",
     "Francais",
     "Notes/livre1 2023-02-24.md",
-    "Gallery/Untitled.md",
     "Template/Untitled.md",
     "Notes",
     "FicheLecture",
