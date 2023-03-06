@@ -11,9 +11,11 @@
             "id": "ea87762a1fb59ec7",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Gallery/massachussets_embleme.png"
+                "file": "Bibliotheque_Liste.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gallery/massachussets_embleme.png",
+                "file": "Bibliotheque_Liste.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gallery/massachussets_embleme.png",
+                "file": "Bibliotheque_Liste.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gallery/massachussets_embleme.png"
+                "file": "Bibliotheque_Liste.md"
               }
             }
           },
@@ -206,16 +208,23 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-translator:Translate": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
   "active": "ea87762a1fb59ec7",
   "lastOpenFiles": [
     "Planning_Semaine/Planning_Week_2023-03-06.md",
+    "Cours/Anglais/Dossier_massachusset.md",
+    "Gallery/massachussets_embleme.png",
+    "Dossier_Liste.md",
+    "Banner",
+    "Bibliotheque_Liste.md",
+    "Cours/Anglais/Verbes.md",
+    "Cours/Anglais/Glossaire.md",
     "Template/tpl-kanban-note 1.md",
     "Template/tpl-test.md",
     "Template/tpl-kanban-note.md",
@@ -238,20 +247,12 @@
     "Planning_Semaine/Planning_Semaine #revision  #Francais.md",
     "Planning_Semaine/#revision  #Francais.md",
     "Planning_Semaine/#revision #Chinois.md",
-    "Planning_Semaine/Planning_Semaine #revision #Chinois.md",
-    "Planning_Semaine/Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
-    "Planning_Semaine/Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
-    "Planning_Semaine/KNote_Planning_Semaine_null.md",
-    "Planning_Semaine/Planning_Semaine #revision  #Histoire-Geographie.md",
-    "Planning_Semaine/Planning_Semaine KNote_Planning_Semaine_null.md",
     "Cours/Planning_Semaine/Kanban",
     "Cours/Planning_Semaine",
     "Anglais/Kanban",
     "Anglais",
-    "Gallery/massachussets_embleme.png",
     "Cours/Technologie/Kanban",
     "Cours/Technologie",
-    "Cours/Musique/Kanban",
     "Untitled.canvas",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"

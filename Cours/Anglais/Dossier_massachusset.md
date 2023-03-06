@@ -1,3 +1,6 @@
+---
+banner: "https://world-schools.com/wp-content/uploads/2021/06/top-international-schools-massachusetts.jpg"
+---
 
 tags : #dossier 
 

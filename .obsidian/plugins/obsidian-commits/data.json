@@ -45,7 +45,7 @@
       "links": 0
     },
     "Template/tpl-kanban.md": {
-      "size": 2171,
+      "size": 2667,
       "tags": 14,
       "links": 0
     },
@@ -64,23 +64,18 @@
       "tags": 1,
       "links": 11
     },
-    "Cours/Planning_Semaine/Kanban/KNote_Planning_Semaine_null.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "Planning_Semaine/Planning_Week_2023-03-06.md": {
-      "size": 0,
-      "tags": 0,
+      "size": 2037,
+      "tags": 14,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 343,
+      "Refactor": 344,
       "Create": 298,
-      "Link": 91,
-      "Expand": 7
+      "Link": 92,
+      "Expand": 9
     }
   },
   "dailyCommits": {
@@ -108,12 +103,12 @@
       "20": 0,
       "21": 74,
       "22": 31,
-      "23": 14
+      "23": 18
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 734,
+      "Mon": 738,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -131,7 +126,9 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>",
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
@@ -257,12 +254,14 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Planning_Semaine/Kanban/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban-note 1.md\"> tpl-kanban-note 1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban-note.md\"> tpl-kanban-note </a>",
         "<a class=\"internal-link\" href=\"Template/tpl_test1.md\"> tpl_test1 </a>",
@@ -310,7 +309,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Education-Musicale.md\"> #revision  #Education-Musicale </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
