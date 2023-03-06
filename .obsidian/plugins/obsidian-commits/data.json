@@ -14,11 +14,6 @@
       "tags": 1,
       "links": 1
     },
-    "Template/tpl-expose.md": {
-      "size": 568,
-      "tags": 0,
-      "links": 0
-    },
     "README.md": {
       "size": 7,
       "tags": 0,
@@ -49,22 +44,32 @@
       "tags": 0,
       "links": 0
     },
-    "Anglais/Dossier/Expose_massachusset.md": {
-      "size": 1555,
-      "tags": 0,
-      "links": 11
+    "Template/tpl-dossier.md": {
+      "size": 568,
+      "tags": 1,
+      "links": 0
     },
-    "Bibliotheque.md": {
+    "Bibliotheque_Liste.md": {
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Dossier_Liste.md": {
+      "size": 295,
+      "tags": 0,
+      "links": 0
+    },
+    "Anglais/Dossier_massachusset.md": {
+      "size": 1555,
+      "tags": 1,
+      "links": 11
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1,
-      "Create": 1,
-      "Link": 1,
+      "Refactor": 9,
+      "Create": 4,
+      "Link": 4,
       "Expand": 4
     }
   },
@@ -85,7 +90,7 @@
       "12": 3,
       "13": 0,
       "14": 0,
-      "15": 2,
+      "15": 16,
       "16": 1,
       "17": 0,
       "18": 1,
@@ -98,7 +103,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 2,
+      "Mon": 16,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -116,15 +121,30 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>"
       ],
       "Created": [
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Bibliotheque 1.md\"> Bibliotheque 1 </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Untitled.md\"> Untitled </a>"
       ],
-      "Renamed": [],
+      "Renamed": [
+        "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
+        "<a class=\"internal-link\" href=\"Dossier.md\"> Dossier </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Dossier/Dossier_massachusset.md\"> Dossier_massachusset </a>",
+        "<a class=\"internal-link\" href=\"Bibliotheque_Liste.md\"> Bibliotheque_Liste </a>",
+        "<a class=\"internal-link\" href=\"Dossier_Liste.md\"> Dossier_Liste </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>"
+      ],
       "Tagged": [
-        "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Dossier/Expose_massachusset.md\"> Expose_massachusset </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Dossier_test.md\"> Dossier_test </a>"
       ],
       "Refactored": [],
       "Deleted": [
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Dossier_test.md\"> Dossier_test </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Dossier_test.md\"> Dossier_test </a>"
       ],
       "Linked": [],
       "Removed Tags from": [],

@@ -1,18 +1,41 @@
 
+tags : #dossier
+
 <%*
 let qcFileName = await tp.system.prompt("Titre exposé - sans espace")
-titleName = "Expose_"+ qcFileName
+titleName = "Dossier_"+ qcFileName
 await tp.file.rename(titleName)
 -%>
 
 ---
 
-dossier: <% qcFileName %>
-date: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
+title:: <% qcFileName %>
+domaine:: <% tp.file.folder(false) %>
+author:: EmySushi
+status:: unread
+created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
+updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
+
+
 <% tp.file.cursor() %>
 
 ---
 
+
+
+
+
+
+
+
+## Liens
+
+Note :  Noter les liens interessant se rapportant au sujet
+
+- liens1
+- liens2
+
+## Outils utiles
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais
