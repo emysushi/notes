@@ -29,21 +29,8 @@
               }
             }
           }
-        ]
-      },
-      {
-        "id": "5a2966dcfa3a2d57",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1129a7d311e3e816",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-kanban-note.md",
+                "file": "Planning_Semaine/Planning_2023-03-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-kanban-note.md",
+                "file": "Planning_Semaine/Planning_2023-03-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-kanban-note.md"
+                "file": "Planning_Semaine/Planning_2023-03-06.md"
               }
             }
           },
@@ -240,12 +227,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5b0a45e5dfffad19",
+  "active": "5f5c39e575104af5",
   "lastOpenFiles": [
-    "Planning_Semaine/#revision  #Francais.md",
+    "Planning_Semaine/Planning_Semaine #revision  #Francais.md",
     "Planning_Semaine/Planning_2023-03-06.md",
-    "Planning_Semaine/#revision #Chinois.md",
     "Template/tpl-kanban-note.md",
+    "Planning_Semaine/#revision  #Francais.md",
+    "Planning_Semaine/#revision #Chinois.md",
     "Planning_Semaine/Planning_Semaine #revision #Chinois.md",
     "Planning_Semaine/Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
     "Planning_Semaine/Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
@@ -278,7 +266,6 @@
     "Cours/Musique",
     "Cours/Chinois/Kanban",
     "Cours/Chinois",
-    "Anglais/KanbanNote_Anglais_2023-03-06.md",
     "Untitled.canvas",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"

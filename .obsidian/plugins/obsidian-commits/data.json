@@ -87,8 +87,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 303,
-      "Create": 276,
+      "Refactor": 304,
+      "Create": 277,
       "Link": 86,
       "Expand": 5
     }
@@ -116,14 +116,14 @@
       "18": 165,
       "19": 102,
       "20": 0,
-      "21": 50,
+      "21": 52,
       "22": 0,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 665,
+      "Mon": 667,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -142,6 +142,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Francais.md\"> Planning_Semaine #revision  #Francais </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Francais.md\"> #revision  #Francais </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision #Chinois.md\"> Planning_Semaine #revision #Chinois </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision #Chinois.md\"> #revision #Chinois </a>",
@@ -191,8 +192,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
@@ -258,6 +258,7 @@
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Francais.md\"> Planning_Semaine #revision  #Francais </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Francais.md\"> #revision  #Francais </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision #Chinois.md\"> #revision #Chinois </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision #Chinois.md\"> Planning_Semaine #revision #Chinois </a>",
@@ -307,8 +308,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

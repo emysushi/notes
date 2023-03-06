@@ -41,8 +41,8 @@ switch (dom_choice) {
 		break; 	
 	}
 
-let folder = tp.file.folder(false)
-let date = await tp.system.prompt("date YYYY-MM-DD")
+
+let date = tp.date.now("YYYY-MM-DD")
 titleName = "KNote_" + tags +"_"+ date
 await tp.file.rename(titleName)
 await tp.file.move("/Cours/"+dom_choice+"/Kanban/" + titleName);
