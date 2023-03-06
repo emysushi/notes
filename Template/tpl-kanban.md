@@ -26,7 +26,7 @@ await tp.file.rename(titleName)
 - [ ] #revision #Chinois
 - [ ] #revision  #Histoire-Geographie
 - [ ] #revision  #Education-Musicale
-- [ ] #exercice #Khan
+- [ ] #_exercice #Khan
 
 
 ## MARDI  <% qtuesday %>
@@ -36,7 +36,7 @@ await tp.file.rename(titleName)
 - [ ] #revision  #Anglais
 - [ ] #revision #Histoire-Geographie
 - [ ] #revision  #Physique-Chimie
-- [ ] #exercice #Khan
+- [ ] #_exercice #Khan
 
 
 ## MERCREDI  <% qwednesday %>
@@ -44,7 +44,7 @@ await tp.file.rename(titleName)
 - [ ] #revision #Mathematiques
 - [ ] #revision #Francais
 - [ ] #revision  #Chinois
-- [ ] #exercice #Khan
+- [ ] #_exercice #Khan
 
 
 ## JEUDI  <% qthursday %>
@@ -53,7 +53,7 @@ await tp.file.rename(titleName)
 - [ ] #revision #Svt
 - [ ] #revision #Mathematiques
 - [ ] #revision #Anglais
-- [ ] #exercice #Khan
+- [ ] #_exercice #Khan
 
 
 ## VENDREDI  <% qfriday %>
@@ -68,12 +68,12 @@ await tp.file.rename(titleName)
 
 ## SAMEDI  <% qsaturday %>
 
-- [ ] #exercice #Khan
+- [ ] #_exercice #Khan
 
 
 ## DIMANCHE  <% qsunday %>
 
-- [ ] #exercice #Khan
+- [ ] #_exercice #Khan
 
 
 

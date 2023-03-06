@@ -5,7 +5,28 @@
 
 let dom_choice = await tp.system.suggester(["Anglais", "Francais"], ["Anglais", "Francais"])
 
-let test = tp.file.title.split(" ")[1]
+let tags_check_index=0
+
+let tags_check = tp.file.title.split(" ")[tags_check_index]
+switch (tags_check) {
+	case "#revision":
+		tags_tags_index=tags_check_index
+		break;
+	case "control":
+		tags_tags_index=tags_check_index
+		break;
+	case "#exercice"
+		tags_tags_index=tags_check_index
+		break;
+	default:
+		tags_domain_index=tags_check_index+1
+		break;		
+}
+
+
+
+
+
 
 let tags=dom_choice
 
@@ -46,7 +67,7 @@ switch (dom_choice) {
 let date = tp.date.now("YYYY-MM-DD")
 titleName = "KNote_" + test +"_"+ date
 await tp.file.rename(titleName)
-await tp.file.move("/Cours/"+dom_choice+"/Kanban/" + titleName);
+await tp.file.move("/Cours/"+test+"/Kanban/" + titleName);
 
 
 
