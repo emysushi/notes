@@ -3,9 +3,8 @@
 
 <%*
 
-let tags_check = tp.file.title.split(" ")[tags_check_index]
-
-tp.file.
+let tags_check = tp.file.title.split(" ")[0]
+let list_name = tp.system.
 
 let date = tp.date.now("YYYY-MM-DD")
 titleName = "KNote_" + test +"_"+ date

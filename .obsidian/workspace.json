@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ec91c97cae473084",
+        "id": "fc1fb4c0abc02c25",
         "type": "tabs",
-        "dimension": 18.34282099936749,
+        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "3b7eb1f057e3ea79",
+            "id": "7239e39518f5258c",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -17,35 +17,9 @@
                 "file": "Planning_Semaine/Planning_2023-03-06.md"
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "fc1fb4c0abc02c25",
-        "type": "tabs",
-        "dimension": 28.526249209361165,
-        "children": [
+          },
           {
-            "id": "4b87dbd4494ae7c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "ced8282684ec054e",
-        "type": "tabs",
-        "dimension": 53.13092979127134,
-        "children": [
-          {
-            "id": "d7e40c6f71dad861",
+            "id": "95b2c0c8dd92431b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +30,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -253,14 +228,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d7e40c6f71dad861",
+  "active": "95b2c0c8dd92431b",
   "lastOpenFiles": [
     "Planning_Semaine/Planning_2023-03-06.md",
     "Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md",
+    "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md",
+    "Cours/Kanban/#Anglais #_control.md",
     "Template/tpl-kanban-note 1.md",
     "Cours/#Anglais/Kanban",
     "Cours/#Anglais",
-    "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md",
     "Template/tpl-kanban-note.md",
     "Cours/Kanban/Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",
     "Cours/Kanban/Cours Kanban Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",

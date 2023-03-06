@@ -61,8 +61,8 @@
     },
     "Planning_Semaine/Planning_2023-03-06.md": {
       "size": 0,
-      "tags": 13,
-      "links": 1
+      "tags": 12,
+      "links": 0
     },
     "Cours/Anglais/Glossaire.md": {
       "size": 11,
@@ -88,22 +88,12 @@
       "size": 802,
       "tags": 0,
       "links": 0
-    },
-    "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 317,
-      "Create": 285,
+      "Refactor": 322,
+      "Create": 286,
       "Link": 88,
       "Expand": 5
     }
@@ -132,13 +122,13 @@
       "19": 102,
       "20": 0,
       "21": 74,
-      "22": 1,
+      "22": 7,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 690,
+      "Mon": 696,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -157,6 +147,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #_control.md\"> #Anglais #_control </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #revision.md\"> #Anglais #revision </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#revision #Anglais.md\"> #revision #Anglais </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #revision.md\"> #Anglais #revision </a>",
@@ -188,7 +179,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -280,6 +270,9 @@
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md\"> KNote_#Anglais_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md\"> KNote_#revision_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #_control.md\"> #Anglais #_control </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md\"> KNote_#revision_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md\"> Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/Cours Kanban Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md\"> Cours Kanban Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais </a>",
@@ -327,10 +320,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -395,9 +385,11 @@
         "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban-note.md\"> tpl-kanban-note </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>"
       ],
       "Removed Links from": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>"
       ]
