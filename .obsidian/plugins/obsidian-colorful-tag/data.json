@@ -1,0 +1,27 @@
+{
+  "TagSettings": [],
+  "GlobalTagSetting": {
+    "attributes": {},
+    "opened": false,
+    "enableList_": {}
+  },
+  "UseTagDetail": false,
+  "StoreTagDetailInYaml": "plugin",
+  "TagDetailData": {
+    "Planning_Semaine/2023-03-05.md": [],
+    "Planning_Semaine/Untitled.md": []
+  },
+  "MetaFileTagDetails": {
+    "Planning_Semaine/2023-03-05.md": [
+      "#dossier-2-7-9",
+      "#todo-12-6-143"
+    ],
+    "Template/tpl_semaine.md": [
+      "#dossier-2-7-9",
+      "#todo-13-6-127"
+    ],
+    "Planning_Semaine/Untitled.md": [
+      "12-6-51"
+    ]
+  }
+}

@@ -50,6 +50,17 @@
       "id": "cmenu-plugin:codeblock",
       "name": "cMenu: Toggle codeblock",
       "icon": "codeblock-glyph"
+    },
+    {
+      "id": "obsidian-tasks-plugin:edit-task",
+      "name": "Tasks: Create or edit task",
+      "icon": "pencil"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "hotkeys": [],
+      "icon": "any-key"
     }
   ],
   "appendMethod": "workspace",

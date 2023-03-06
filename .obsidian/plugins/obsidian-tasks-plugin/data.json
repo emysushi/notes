@@ -1,6 +1,6 @@
 {
   "globalFilter": "#todo",
-  "removeGlobalFilter": false,
+  "removeGlobalFilter": true,
   "setDoneDate": true,
   "autoSuggestInEditor": true,
   "autoSuggestMinMatch": 0,
@@ -28,7 +28,7 @@
     "customStatuses": [
       {
         "symbol": "/",
-        "name": "In Progress",
+        "name": "In_Progress",
         "nextStatusSymbol": "x",
         "availableAsCommand": true,
         "type": "IN_PROGRESS"
@@ -53,13 +53,6 @@
         "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "DONE"
-      },
-      {
-        "symbol": ">",
-        "name": "Rescheduled",
-        "nextStatusSymbol": "x",
-        "availableAsCommand": false,
-        "type": "TODO"
       },
       {
         "symbol": "<",
@@ -90,20 +83,6 @@
         "type": "TODO"
       },
       {
-        "symbol": "n",
-        "name": "Note",
-        "nextStatusSymbol": "x",
-        "availableAsCommand": false,
-        "type": "TODO"
-      },
-      {
-        "symbol": "l",
-        "name": "Location",
-        "nextStatusSymbol": "x",
-        "availableAsCommand": false,
-        "type": "TODO"
-      },
-      {
         "symbol": "i",
         "name": "Information",
         "nextStatusSymbol": "x",
@@ -125,30 +104,16 @@
         "type": "TODO"
       },
       {
-        "symbol": "p",
-        "name": "Pro",
-        "nextStatusSymbol": "x",
+        "symbol": "R",
+        "name": "Revision",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "TODO"
       },
       {
-        "symbol": "c",
-        "name": "Con",
-        "nextStatusSymbol": "x",
-        "availableAsCommand": false,
-        "type": "TODO"
-      },
-      {
-        "symbol": "b",
-        "name": "Bookmark",
-        "nextStatusSymbol": "x",
-        "availableAsCommand": false,
-        "type": "TODO"
-      },
-      {
-        "symbol": "\"",
-        "name": "Quote",
-        "nextStatusSymbol": "x",
+        "symbol": "C",
+        "name": "Control",
+        "nextStatusSymbol": " ",
         "availableAsCommand": false,
         "type": "TODO"
       }

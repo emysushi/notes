@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "fbc99f79887acf56",
+        "id": "ef2bdf38d6262442",
         "type": "tabs",
         "children": [
           {
-            "id": "11a5d5d86c7dfd52",
+            "id": "b3a08494ca37d765",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dossier_Liste.md",
-                "mode": "preview",
+                "file": "Template/tpl-kanban-note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43fbebbe8532bcde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-kanban-note.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -46,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#📚Book",
+                "query": "tag:#Histoire-Geographie",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dossier_Liste.md",
+                "file": "Template/tpl-kanban-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dossier_Liste.md",
+                "file": "Template/tpl-kanban-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dossier_Liste.md"
+                "file": "Template/tpl-kanban-note.md"
               }
             }
           },
@@ -177,13 +190,21 @@
               "type": "smart-connections-view",
               "state": {}
             }
+          },
+          {
+            "id": "1ac2da25d5e467e4",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 283.5,
+    "width": 527.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -191,7 +212,6 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-map-view:Open map view": false,
@@ -201,45 +221,56 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-translator:Translate": false,
+      "obsidian-memos:Memos": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-memos:Memos": false
+      "card-board:CardBoard": false,
+      "periodic-notes:Open today": false,
+      "periodic-notes:Open this week": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "11a5d5d86c7dfd52",
+  "active": "43fbebbe8532bcde",
   "lastOpenFiles": [
-    "Bibliotheque_Liste.md",
-    "FicheLecture/fiche_L'Enfant multiple.md",
-    "DayilyNotes/2023-03-01.md",
-    "Dossier_Liste.md",
-    "Anglais/Dossier_test.md",
-    "Anglais/Dossier_massachusset.md",
-    "Template/tpl-dossier.md",
-    "Template/tpl-livre.md",
-    "Anglais/Verbes.md",
-    "Anglais/Glossaire.md",
-    "PhysiqueChimie/Untitled Diagram.svg",
     "conflict-files-obsidian-git.md",
-    "Gallery/massachussets_embleme.png",
-    "DayilyNotes",
-    "Template/Sans titre.md",
-    "Template/tpl-test.md",
+    "Template/tpl-kanban-note.md",
+    "Untitled.md",
+    "Planning_Semaine/Planning_2023-03-06.md",
+    "Planning_Semaine/#revision  #Education-Musicale.md",
+    "Cours/Technologie/Kanban",
+    "Cours/Technologie",
+    "Cours/Anglais/Kanban/KanbanNote_Anglais_2023-03-06.md",
     "README.md",
-    "Sans titre.canvas",
-    "Template/test.md",
-    "FicheLecture/fiche_Optique géométrique.md",
-    "Anglais/Dossier/Expose_massachussets.md",
-    "Anglais/Dossier",
-    "Svt",
-    "PhysiqueChimie",
-    "Anglais",
-    "Francais",
-    "Notes/livre1 2023-02-24.md",
-    "Gallery/Untitled.md",
-    "Template/Untitled.md",
-    "Notes",
-    "FicheLecture",
-    "Gallery/Sans titre",
-    "Template/Script"
+    "Cours/Musique/Kanban",
+    "Cours/Musique",
+    "Cours/Chinois/Kanban",
+    "Cours/Chinois",
+    "Cours/Histoire-Geographie/Kanban",
+    "Cours/Histoire-Geographie",
+    "Cours/Mathematiques/Kanban",
+    "Cours/Mathematiques",
+    "Anglais/KanbanNote_Anglais_2023-03-06.md",
+    "Template/tpl_semaine.md",
+    "Template/tpl-test.md",
+    "Template/tpl-dossier.md",
+    "Template/tpl-empty.md",
+    "Template/tpl-kanban.md",
+    "Untitled Kanban.md",
+    "Untitled 1.md",
+    "Dossier_Liste.md",
+    "Bibliotheque_Liste.md",
+    "Template/tpl-livre.md",
+    "Planning_Semaine/2023-03-05.md",
+    "Untitled Kanban 1.md",
+    "Untitled.canvas",
+    "Semainier/2023-03-01.md",
+    "FicheLecture/fiche_L'Enfant multiple.md",
+    "Anglais/Dossier_test.md",
+    "Cours/Anglais/Dossier_massachusset.md",
+    "Cours/Anglais/Verbes.md",
+    "Cours/Anglais/Glossaire.md",
+    "PhysiqueChimie/Untitled Diagram.svg",
+    "Gallery/massachussets_embleme.png",
+    "Sans titre.canvas"
   ]
 }
