@@ -6,7 +6,6 @@
       {
         "id": "ec91c97cae473084",
         "type": "tabs",
-        "dimension": 52.05566097406704,
         "children": [
           {
             "id": "5b0a45e5dfffad19",
@@ -21,7 +20,7 @@
             }
           },
           {
-            "id": "76382c201d71c377",
+            "id": "5f5c39e575104af5",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -33,31 +32,11 @@
         ]
       },
       {
-        "id": "1aaaf759b53fd0c3",
+        "id": "5a2966dcfa3a2d57",
         "type": "tabs",
-        "dimension": 14.61100569259962,
         "children": [
           {
-            "id": "a8ce6e3f90a35918",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Planning_Semaine/#revision #Chinois.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "7ee32f2474adbd3f",
-        "type": "tabs",
-        "dimension": 33.33333333333333,
-        "children": [
-          {
-            "id": "db4679507947f57a",
+            "id": "1129a7d311e3e816",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -263,9 +242,11 @@
   },
   "active": "5b0a45e5dfffad19",
   "lastOpenFiles": [
-    "Planning_Semaine/#revision #Chinois.md",
+    "Planning_Semaine/#revision  #Francais.md",
     "Planning_Semaine/Planning_2023-03-06.md",
+    "Planning_Semaine/#revision #Chinois.md",
     "Template/tpl-kanban-note.md",
+    "Planning_Semaine/Planning_Semaine #revision #Chinois.md",
     "Planning_Semaine/Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
     "Planning_Semaine/Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
     "Planning_Semaine/KNote_Planning_Semaine_null.md",
@@ -298,8 +279,6 @@
     "Cours/Chinois/Kanban",
     "Cours/Chinois",
     "Anglais/KanbanNote_Anglais_2023-03-06.md",
-    "Template/tpl-test.md",
-    "Template/tpl-dossier.md",
     "Untitled.canvas",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"

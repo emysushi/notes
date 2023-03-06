@@ -4,8 +4,9 @@
 <%*
 
 let dom_choice = await tp.system.suggester(["Anglais", "Francais"], ["Anglais", "Francais"])
-tp.system.suggester((item)
-let tags="Anglais"
+
+
+let tags=dom_choice
 
 switch (dom_choice) { 
 	case "ang": 
@@ -44,7 +45,7 @@ let folder = tp.file.folder(false)
 let date = await tp.system.prompt("date YYYY-MM-DD")
 titleName = "KNote_" + tags +"_"+ date
 await tp.file.rename(titleName)
-await tp.file.move("/Cours/"+tags+"/Kanban/" + titleName);
+await tp.file.move("/Cours/"+dom_choice+"/Kanban/" + titleName);
 
 
 
