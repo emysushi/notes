@@ -55,6 +55,11 @@
       "links": 11
     },
     "Bibliotheque.md": {
+      "size": 504,
+      "tags": 0,
+      "links": 0
+    },
+    "histoire.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -62,8 +67,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1,
-      "Create": 1,
+      "Refactor": 2,
+      "Create": 2,
       "Link": 1,
       "Expand": 4
     }
@@ -86,7 +91,7 @@
       "13": 0,
       "14": 0,
       "15": 2,
-      "16": 1,
+      "16": 3,
       "17": 0,
       "18": 1,
       "19": 0,
@@ -98,7 +103,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 2,
+      "Mon": 4,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -116,9 +121,12 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>"
       ],
       "Created": [
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Bibliotheque.md\"> Bibliotheque </a>",
+        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>"
       ],
-      "Renamed": [],
+      "Renamed": [
+        "<a class=\"internal-link\" href=\"histoire.md\"> histoire </a>"
+      ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>"
       ],
