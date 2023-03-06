@@ -60,7 +60,7 @@
       {
         "id": "ced8282684ec054e",
         "type": "tabs",
-        "dimension": 54.016445287792536,
+        "dimension": 28.779253636938645,
         "children": [
           {
             "id": "d7e40c6f71dad861",
@@ -73,17 +73,27 @@
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "5dcd3900ecb88115",
+        "type": "tabs",
+        "dimension": 25.23719165085389,
+        "children": [
           {
-            "id": "9a94b45dbd598f7b",
+            "id": "a50e4d3ed510c033",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "46e7fb59eeb52b72",
@@ -181,6 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Template/tpl-kanban-note 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,6 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Template/tpl-kanban-note 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +230,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Template/tpl-kanban-note 1.md"
+              }
             }
           },
           {
@@ -291,14 +305,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "9a94b45dbd598f7b",
+  "active": "d7e40c6f71dad861",
   "lastOpenFiles": [
+    "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md",
     "Template/tpl-kanban-note 1.md",
+    "Planning_Semaine/Planning_2023-03-06.md",
     "Template/tpl-kanban-note.md",
     "Cours/Kanban/Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",
     "Cours/Kanban/Cours Kanban Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",
     "Cours/Kanban/#revision #Technologie.md",
-    "Planning_Semaine/Planning_2023-03-06.md",
     "Cours/Kanban/Planning_Semaine Planning_Semaine #revision  #Francais.md",
     "Cours/Kanban",
     "Planning_Semaine/Planning_Semaine #revision  #Francais.md",
@@ -324,7 +339,6 @@
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Gallery/massachussets_embleme.png",
     "Template/tpl_semaine.md",
-    "Planning_Semaine/#revision  #Education-Musicale.md",
     "Cours/Technologie/Kanban",
     "Cours/Technologie",
     "Cours/Musique/Kanban",

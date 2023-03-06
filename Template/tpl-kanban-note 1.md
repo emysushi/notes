@@ -5,6 +5,7 @@
 
 let dom_choice = await tp.system.suggester(["Anglais", "Francais"], ["Anglais", "Francais"])
 
+let test = tp.file.title.split(" ")[1]
 
 let tags=dom_choice
 
@@ -43,7 +44,7 @@ switch (dom_choice) {
 
 
 let date = tp.date.now("YYYY-MM-DD")
-titleName = "KNote_" + tags +"_"+ date
+titleName = "KNote_" + test +"_"+ date
 await tp.file.rename(titleName)
 await tp.file.move("/Cours/"+dom_choice+"/Kanban/" + titleName);
 
