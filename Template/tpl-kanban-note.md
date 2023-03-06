@@ -39,11 +39,11 @@ switch (dom_choice) {
 		break; 	
 	}
 
-
+let folder = tp.file.folder(false)
 let date = await tp.system.prompt("date YYYY-MM-DD")
-titleName = "KNote_" + tags +"_"+ date
+titleName = "KNote_" + folder +"_"+ date
 await tp.file.rename(titleName)
-await tp.file.move("/Cours/"+tags+"/Kanban/" + titleName);
+await tp.file.move(folder+"/Kanban/" + titleName);
 
 
 

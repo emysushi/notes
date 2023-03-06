@@ -11,12 +11,8 @@
             "id": "b3a08494ca37d765",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-kanban-note.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 309.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-kanban-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-kanban-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Template/tpl-kanban-note.md"
-              }
+              "state": {}
             }
           },
           {
@@ -218,14 +210,16 @@
   },
   "active": "cc433e56d726fa8d",
   "lastOpenFiles": [
-    "Cours/Anglais/Untitled.md",
+    "Anglais/Kanban/KNote_Anglais_2023-03-06.md",
+    "Template/tpl-kanban-note.md",
+    "Anglais/Kanban",
+    "Anglais",
     "Dossier_Liste.md",
     "Bibliotheque_Liste.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Gallery/massachussets_embleme.png",
     "Gallery/Untitled.md",
     "Planning_Semaine/Planning_2023-03-06.md",
-    "Template/tpl-kanban-note.md",
     "Template/tpl_semaine.md",
     "Planning_Semaine/#revision  #Education-Musicale.md",
     "Template/tpl-kanban.md",
@@ -241,8 +235,6 @@
     "Cours/Chinois",
     "Cours/Histoire-Geographie/Kanban",
     "Cours/Histoire-Geographie",
-    "Cours/Mathematiques/Kanban",
-    "Cours/Mathematiques",
     "Anglais/KanbanNote_Anglais_2023-03-06.md",
     "Template/tpl-test.md",
     "Template/tpl-dossier.md",
@@ -255,7 +247,6 @@
     "Untitled.canvas",
     "Semainier/2023-03-01.md",
     "Anglais/Dossier_test.md",
-    "Cours/Anglais/Dossier_massachusset.md",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
   ]
