@@ -87,8 +87,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 276,
-      "Create": 254,
+      "Refactor": 279,
+      "Create": 257,
       "Link": 85,
       "Expand": 5
     }
@@ -116,14 +116,14 @@
       "18": 165,
       "19": 102,
       "20": 0,
-      "21": 0,
+      "21": 6,
       "22": 0,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 615,
+      "Mon": 621,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -142,6 +142,9 @@
         "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -189,9 +192,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#exercice #Khan.md\"> #exercice #Khan </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/aaaaa.md\"> aaaaa </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -254,6 +254,9 @@
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Education-Musicale.md\"> #revision  #Education-Musicale </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -301,10 +304,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Anglais/KanbanNote_Anglais_2023-03-06.md\"> KanbanNote_Anglais_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"Anglais/KanbanNote_Anglais_2023-03-06.md\"> KanbanNote_Anglais_2023-03-06 </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
