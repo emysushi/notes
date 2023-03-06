@@ -12,16 +12,6 @@
             "id": "7239e39518f5258c",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Planning_Semaine/Planning_2023-03-06.md"
-              }
-            }
-          },
-          {
-            "id": "95b2c0c8dd92431b",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Template/tpl-kanban-note 1.md",
@@ -30,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,16 +217,19 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "95b2c0c8dd92431b",
+  "active": "7239e39518f5258c",
   "lastOpenFiles": [
+    "Template/tpl-kanban-note.md",
+    "Template/tpl_semaine.md",
+    "Planning_Semaine/Untitled.md",
     "Planning_Semaine/Planning_2023-03-06.md",
+    "2023-03-06.md",
+    "Template/tpl-kanban-note 1.md",
     "Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md",
     "Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md",
     "Cours/Kanban/#Anglais #_control.md",
-    "Template/tpl-kanban-note 1.md",
     "Cours/#Anglais/Kanban",
     "Cours/#Anglais",
-    "Template/tpl-kanban-note.md",
     "Cours/Kanban/Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",
     "Cours/Kanban/Cours Kanban Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",
     "Cours/Kanban/#revision #Technologie.md",
@@ -258,11 +250,8 @@
     "Cours/Planning_Semaine",
     "Cours/Anglais/Kanban/KNote_Anglais_2023-03-06.md",
     "Gallery/Untitled.md",
-    "Anglais/Kanban/KNote_Anglais_2023-03-06.md",
     "Anglais/Kanban",
     "Anglais",
-    "Dossier_Liste.md",
-    "Bibliotheque_Liste.md",
     "Gallery/massachussets_embleme.png",
     "Cours/Technologie/Kanban",
     "Cours/Technologie",

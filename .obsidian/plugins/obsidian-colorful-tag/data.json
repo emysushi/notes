@@ -9,7 +9,8 @@
   "StoreTagDetailInYaml": "plugin",
   "TagDetailData": {
     "Planning_Semaine/2023-03-05.md": [],
-    "Planning_Semaine/Untitled.md": []
+    "Planning_Semaine/Untitled.md": [],
+    "Planning_Semaine/Planning_2023-03-06.md": []
   },
   "MetaFileTagDetails": {
     "Planning_Semaine/2023-03-05.md": [
@@ -24,51 +25,8 @@
       "12-6-51"
     ],
     "Planning_Semaine/Planning_2023-03-06.md": [
-      "#Anglais-8-6-63",
-      "#_exercice-8-15-72",
-      "#revision-13-6-113",
-      "#Francais-13-16-123",
-      "#revision-14-6-139",
-      "#Anglais-14-17-150",
-      "#revision-15-6-165",
-      "#Histoire-Geographie-15-16-175",
-      "#revision-16-6-202",
-      "#Physique-Chimie-16-17-213",
-      "#_exercice-17-6-236",
-      "#Khan-17-17-247",
-      "#revision-22-6-286",
-      "#Mathematiques-22-16-296",
-      "#revision-23-6-317",
-      "#Francais-23-16-327",
-      "#revision-24-6-343",
-      "#Chinois-24-17-354",
-      "#_exercice-25-6-369",
-      "#Khan-25-17-380",
-      "#Eps-30-6-416",
-      "#revision-31-6-427",
-      "#Svt-31-16-437",
-      "#revision-32-6-448",
-      "#Mathematiques-32-16-458",
-      "#revision-33-6-479",
-      "#Anglais-33-16-489",
-      "#_exercice-34-6-504",
-      "#Khan-34-17-515",
-      "#revision-39-6-554",
-      "#Histoire-Geographie-39-16-564",
-      "#revision-40-6-591",
-      "#Anglais-40-16-601",
-      "#revision-41-6-616",
-      "#Arts-Plastiques-41-16-626",
-      "#revision-42-6-649",
-      "#Mathematiques-42-16-659",
-      "#revision-43-6-680",
-      "#Svt-43-16-690",
-      "#revision-44-6-701",
-      "#Khan-44-16-711",
-      "#_exercice-49-6-748",
-      "#Khan-49-17-759",
-      "#_exercice-54-6-798",
-      "#Khan-54-17-809"
+      "#Anglais-8-6-54",
+      "#_exercice-8-15-63"
     ],
     "FicheLecture/fiche_L'Enfant multiple.md": [
       "1-7-8"

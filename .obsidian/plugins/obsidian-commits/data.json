@@ -40,8 +40,8 @@
       "links": 0
     },
     "Template/tpl_semaine.md": {
-      "size": 0,
-      "tags": 23,
+      "size": 2438,
+      "tags": 18,
       "links": 0
     },
     "Template/tpl-empty.md": {
@@ -57,11 +57,6 @@
     "Template/tpl-kanban.md": {
       "size": 2171,
       "tags": 14,
-      "links": 0
-    },
-    "Planning_Semaine/Planning_2023-03-06.md": {
-      "size": 0,
-      "tags": 12,
       "links": 0
     },
     "Cours/Anglais/Glossaire.md": {
@@ -92,10 +87,10 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 322,
-      "Create": 286,
-      "Link": 88,
-      "Expand": 5
+      "Refactor": 330,
+      "Create": 289,
+      "Link": 89,
+      "Expand": 6
     }
   },
   "dailyCommits": {
@@ -122,13 +117,13 @@
       "19": 102,
       "20": 0,
       "21": 74,
-      "22": 7,
+      "22": 20,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 696,
+      "Mon": 709,
       "Tue": 0,
       "Wed": 0,
       "Thu": 0,
@@ -144,9 +139,13 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"2023-03-06.md\"> 2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #_control.md\"> #Anglais #_control </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #revision.md\"> #Anglais #revision </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#revision #Anglais.md\"> #revision #Anglais </a>",
@@ -179,9 +178,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -266,10 +262,17 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban-note.md\"> tpl-kanban-note </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
-      "Refactored": [],
+      "Refactored": [
+        "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
+      ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"2023-03-06.md\"> 2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md\"> KNote_#Anglais_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md\"> KNote_#revision_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #_control.md\"> #Anglais #_control </a>",
@@ -302,10 +305,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Education-Musicale.md\"> #revision  #Education-Musicale </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -386,7 +385,10 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban-note.md\"> tpl-kanban-note </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Removed Links from": [
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
