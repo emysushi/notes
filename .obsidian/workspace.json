@@ -6,6 +6,7 @@
       {
         "id": "ec91c97cae473084",
         "type": "tabs",
+        "dimension": 33.33333333333333,
         "children": [
           {
             "id": "5b0a45e5dfffad19",
@@ -23,6 +24,30 @@
             "id": "5f5c39e575104af5",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-kanban-note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a476ce81ebc7fec9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-kanban-note 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3b7eb1f057e3ea79",
+            "type": "leaf",
+            "state": {
               "type": "kanban",
               "state": {
                 "file": "Planning_Semaine/Planning_2023-03-06.md"
@@ -30,7 +55,50 @@
             }
           }
         ],
+        "currentTab": 3
+      },
+      {
+        "id": "ced8282684ec054e",
+        "type": "tabs",
+        "dimension": 54.016445287792536,
+        "children": [
+          {
+            "id": "d7e40c6f71dad861",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-kanban-note 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a94b45dbd598f7b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ],
         "currentTab": 1
+      },
+      {
+        "id": "46e7fb59eeb52b72",
+        "type": "tabs",
+        "dimension": 12.65022137887413,
+        "children": [
+          {
+            "id": "d450b1513db4285d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +181,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_2023-03-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +197,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_2023-03-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +218,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Planning_Semaine/Planning_2023-03-06.md"
-              }
+              "state": {}
             }
           },
           {
@@ -227,11 +291,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5f5c39e575104af5",
+  "active": "9a94b45dbd598f7b",
   "lastOpenFiles": [
-    "Planning_Semaine/Planning_Semaine #revision  #Francais.md",
-    "Planning_Semaine/Planning_2023-03-06.md",
+    "Template/tpl-kanban-note 1.md",
     "Template/tpl-kanban-note.md",
+    "Cours/Kanban/Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",
+    "Cours/Kanban/Cours Kanban Cours Kanban Planning_Semaine Planning_Semaine #revision  #Francais.md",
+    "Cours/Kanban/#revision #Technologie.md",
+    "Planning_Semaine/Planning_2023-03-06.md",
+    "Cours/Kanban/Planning_Semaine Planning_Semaine #revision  #Francais.md",
+    "Cours/Kanban",
+    "Planning_Semaine/Planning_Semaine #revision  #Francais.md",
     "Planning_Semaine/#revision  #Francais.md",
     "Planning_Semaine/#revision #Chinois.md",
     "Planning_Semaine/Planning_Semaine #revision #Chinois.md",
@@ -255,17 +325,11 @@
     "Gallery/massachussets_embleme.png",
     "Template/tpl_semaine.md",
     "Planning_Semaine/#revision  #Education-Musicale.md",
-    "Template/tpl-kanban.md",
-    "conflict-files-obsidian-git.md",
-    "Untitled.md",
     "Cours/Technologie/Kanban",
     "Cours/Technologie",
-    "Cours/Anglais/Kanban/KanbanNote_Anglais_2023-03-06.md",
-    "README.md",
     "Cours/Musique/Kanban",
     "Cours/Musique",
     "Cours/Chinois/Kanban",
-    "Cours/Chinois",
     "Untitled.canvas",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
