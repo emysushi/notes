@@ -3,8 +3,8 @@
 
 <%*
 
-let dom_choice = await tp.system.suggester(["ang", "fran"], ["1"])
-
+let dom_choice = await tp.system.suggester(["Anglais", "Francais"], ["Anglais", "Francais"])
+tp.system.suggester((item)
 let tags="Anglais"
 
 switch (dom_choice) { 
