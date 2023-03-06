@@ -2,13 +2,13 @@
 
 
 <%*
-let dom = await tp.system.prompt("1:ang, 2:fran, 3:svt, 4:math, 5:phychim, 6:histgeo,7:chin, 8:mus, 9:tech ")
+
 let dom_choice = await tp.system.suggester(["ang", "fran", "Person", "Meeting", "Standup", "Onboarding", "New Template", "Blank Note"],["1on1 Template", "Daily Template", "Person Template", "Meeting Template", "Standup Template", "Onboarding Template", "Template", "Blank"])
 let tags =''
 
 switch (dom_choice) { 
 	case "ang": 
-		tags = "/Anglais/" 
+		tags = "Anglais" 
 		break; 
 	case "2": 
 		tags = "/Francais/"; 
@@ -26,7 +26,7 @@ switch (dom_choice) {
 		tags = "/Histoire-Geographie/"; 
 		break;
 	case "7": 
-		tags = "/Chinois/" 
+		tags = "Chinois" 
 		break; 
 	case "8": 
 		tags = "/Musique/"; 
@@ -43,7 +43,7 @@ switch (dom_choice) {
 let date = await tp.system.prompt("date YYYY-MM-DD")
 titleName = "KNote_" + tags +"_"+ date
 await tp.file.rename(titleName)
-await tp.file.move("/Cours/"+Tags+"Kanban/" + titleName);
+await tp.file.move("/Cours/"+tags+"/Kanban/" + titleName);
 
 
 
