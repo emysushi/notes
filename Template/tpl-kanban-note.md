@@ -3,8 +3,9 @@
 
 <%*
 
-let dom_choice = await tp.system.suggester(["ang", "fran", "Person", "Meeting", "Standup", "Onboarding", "New Template", "Blank Note"],["1on1 Template", "Daily Template", "Person Template", "Meeting Template", "Standup Template", "Onboarding Template", "Template", "Blank"])
-let tags =''
+let dom_choice = await tp.system.suggester(["ang", "fran"], ["1"])
+
+let tags="Anglais"
 
 switch (dom_choice) { 
 	case "ang": 
@@ -41,9 +42,9 @@ switch (dom_choice) {
 
 let folder = tp.file.folder(false)
 let date = await tp.system.prompt("date YYYY-MM-DD")
-titleName = "KNote_" + folder +"_"+ date
+titleName = "KNote_" + tags +"_"+ date
 await tp.file.rename(titleName)
-await tp.file.move(folder+"/Kanban/" + titleName);
+await tp.file.move("/Cours/"+tags+"/Kanban/" + titleName);
 
 
 

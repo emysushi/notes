@@ -4,11 +4,57 @@
     "type": "split",
     "children": [
       {
-        "id": "ef2bdf38d6262442",
+        "id": "ec91c97cae473084",
         "type": "tabs",
         "children": [
           {
-            "id": "b3a08494ca37d765",
+            "id": "5b0a45e5dfffad19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-kanban-note.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76382c201d71c377",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Planning_Semaine/Planning_2023-03-06.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1aaaf759b53fd0c3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8ce6e3f90a35918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Planning_Semaine/#revision #Chinois.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "7ee32f2474adbd3f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "db4679507947f57a",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -82,7 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 309.5
+    "width": 295.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -98,6 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Template/tpl-kanban-note.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Template/tpl-kanban-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +183,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Template/tpl-kanban-note.md"
+              }
             }
           },
           {
@@ -208,18 +258,29 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "5b0a45e5dfffad19",
   "lastOpenFiles": [
-    "Anglais/Kanban/KNote_Anglais_2023-03-06.md",
+    "Planning_Semaine/#revision #Chinois.md",
+    "Planning_Semaine/Planning_2023-03-06.md",
     "Template/tpl-kanban-note.md",
+    "Planning_Semaine/Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
+    "Planning_Semaine/Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md",
+    "Planning_Semaine/KNote_Planning_Semaine_null.md",
+    "Planning_Semaine/Planning_Semaine #revision  #Histoire-Geographie.md",
+    "Planning_Semaine/Planning_Semaine KNote_Planning_Semaine_null.md",
+    "Planning_Semaine/#revision  #Histoire-Geographie.md",
+    "Cours/Planning_Semaine/Kanban/KNote_Planning_Semaine_null.md",
+    "Cours/Planning_Semaine/Kanban",
+    "Cours/Planning_Semaine",
+    "Cours/Anglais/Kanban/KNote_Anglais_2023-03-06.md",
+    "Gallery/Untitled.md",
+    "Anglais/Kanban/KNote_Anglais_2023-03-06.md",
     "Anglais/Kanban",
     "Anglais",
     "Dossier_Liste.md",
     "Bibliotheque_Liste.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Gallery/massachussets_embleme.png",
-    "Gallery/Untitled.md",
-    "Planning_Semaine/Planning_2023-03-06.md",
     "Template/tpl_semaine.md",
     "Planning_Semaine/#revision  #Education-Musicale.md",
     "Template/tpl-kanban.md",
@@ -233,20 +294,10 @@
     "Cours/Musique",
     "Cours/Chinois/Kanban",
     "Cours/Chinois",
-    "Cours/Histoire-Geographie/Kanban",
-    "Cours/Histoire-Geographie",
     "Anglais/KanbanNote_Anglais_2023-03-06.md",
     "Template/tpl-test.md",
     "Template/tpl-dossier.md",
-    "Template/tpl-empty.md",
-    "Untitled Kanban.md",
-    "Untitled 1.md",
-    "Template/tpl-livre.md",
-    "Planning_Semaine/2023-03-05.md",
-    "Untitled Kanban 1.md",
     "Untitled.canvas",
-    "Semainier/2023-03-01.md",
-    "Anglais/Dossier_test.md",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
   ]
