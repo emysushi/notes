@@ -154,16 +154,6 @@
       "tags": 0,
       "links": 0
     },
-    "Untitled mindmap.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "Untitled mindmap 1.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "Template/Untitled.md": {
       "size": 0,
       "tags": 0,
@@ -172,7 +162,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 367,
+      "Refactor": 369,
       "Create": 331,
       "Link": 101,
       "Expand": 9
@@ -203,13 +193,13 @@
       "20": 0,
       "21": 81,
       "22": 43,
-      "23": 30
+      "23": 32
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 53,
+      "Tue": 55,
       "Wed": 0,
       "Thu": 0,
       "Fri": 0,
@@ -380,6 +370,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Untitled mindmap 1.md\"> Untitled mindmap 1 </a>",
+        "<a class=\"internal-link\" href=\"Untitled mindmap.md\"> Untitled mindmap </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
@@ -428,9 +420,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine KNote_Planning_Semaine_null.md\"> Planning_Semaine KNote_Planning_Semaine_null </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Histoire-Geographie.md\"> #revision  #Histoire-Geographie </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Kanban/KNote_Anglais_2023-03-06.md\"> KNote_Anglais_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Anglais/Kanban/KNote_Anglais_2023-03-06.md\"> KNote_Anglais_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Gallery/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Anglais/Kanban/KNote_Anglais_2023-03-06.md\"> KNote_Anglais_2023-03-06 </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
