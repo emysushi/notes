@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-fiche_math.md",
+                "file": "Template/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche_math.md",
+                "file": "Template/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche_math.md",
+                "file": "Template/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-fiche_math.md"
+                "file": "Template/Untitled.md"
               }
             }
           },
@@ -243,6 +243,12 @@
   },
   "active": "05ad05b83fee46fa",
   "lastOpenFiles": [
+    "Template/tpl-test.md",
+    "Template/tpl-livre.md",
+    "Template/tpl-kanban.md",
+    "Template/tpl-fiche_svt.md",
+    "Template/tpl-fiche_physique-chimie.md",
+    "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Template/tpl-empty.md",
@@ -251,17 +257,11 @@
     "Template/tpl-block-column-modele1.md",
     "Template/tpl-block-column_model3.md",
     "Template/tpl-block-column_model2.md",
-    "Template/tpl-fiche_math.md",
     "Template/Untitled.md",
-    "Template/tpl-fiche_physique-chimie.md",
-    "Template/tpl-fiche_svt.md",
     "Cours/Anglais/Dossier_massachusset.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Untitled mindmap 1.md",
     "Untitled mindmap.md",
-    "Template/tpl-test.md",
-    "Template/tpl-livre.md",
-    "Template/tpl-kanban.md",
     "Template/test.md",
     "Cours/Mathematiques/Untitled Diagram.svg",
     "Cours/Mathematiques/Untitled mindmap.md",
