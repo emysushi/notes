@@ -40,7 +40,7 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
 $$
-\lim\limits_{x \to \infty} \exp(-x) = 0
+\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
 $$
 
 
