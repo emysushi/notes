@@ -21,7 +21,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-test.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,7 +91,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-test.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-test.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-test.md"
+                "file": "README.md"
               }
             }
           },
@@ -212,12 +212,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open this week": false
     }
   },
   "active": "eb9802b5afb4ddd0",
   "lastOpenFiles": [
+    "Template/tpl-test.md",
     "FicheLecture/fiche_Alice au pays des merveilles.md",
     "Bibliotheque_Liste.md",
     "Cours/Anglais/Verbes.md",
@@ -243,7 +245,6 @@
     "Banner/biblio.jpeg.crdownload",
     "Banner",
     "Template/tpl-kanban-note 1.md",
-    "Template/tpl-test.md",
     "Template/tpl-kanban-note.md",
     "Template/tpl-livre.md",
     "Template/tpl_test1.md",
