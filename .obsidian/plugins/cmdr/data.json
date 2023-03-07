@@ -26,6 +26,12 @@
       "icon": "calendar",
       "name": "Templater: Open Insert Template modal",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-enhancing-mindmap:Create New MindMap",
+      "icon": "bookmark-plus",
+      "name": "Enhancing Mindmap: Create new mindmap",
+      "mode": "any"
     }
   ],
   "fileMenu": [

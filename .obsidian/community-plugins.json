@@ -5,13 +5,11 @@
   "obsidian-outliner",
   "obsidian-admonition",
   "obsidian-tasks-plugin",
-  "obsidian-mind-map",
   "nldates-obsidian",
   "oz-image-plugin",
   "obsidian-emoji-toolbar",
   "url-into-selection",
   "file-tree-alternative",
-  "obsidian-enhancing-mindmap",
   "cmenu-plugin",
   "obsidian-tabs",
   "editing-toolbar",
@@ -53,5 +51,12 @@
   "meld-calc",
   "obsidian-timeline",
   "obsidian-columns",
-  "highlightr-plugin"
+  "highlightr-plugin",
+  "obsidian-icons-plugin",
+  "obsidian-footnotes",
+  "obsidian-chartsview-plugin",
+  "obsidian-mindmap-nextgen",
+  "canvas-mindmap",
+  "obsidian-crypto-lookup",
+  "obsidian-mind-map"
 ]
