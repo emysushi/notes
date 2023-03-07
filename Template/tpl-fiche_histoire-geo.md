@@ -37,13 +37,13 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 ```mermaid
 journey
     title Exemple
-    section Califat Omeyade
-      charles Martel (732): v
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Califat Abbasside
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+    section Califat Omeyade (732-852)
+      Charles Martel (732) : 5
+      Go upstairs: 3: 
+      Do work: 1: 
+    section Califat Abbasside (732-750)
+      Go downstairs: 5: 
+      Sit down: 5: 
 ```
 
 
