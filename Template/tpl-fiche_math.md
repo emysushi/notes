@@ -74,7 +74,7 @@ f(x)=E+log(x)*2
 
 ## Liens
 
-Note :  Noter les liens interessant se rapportant au sujet
+Note :  Noter les liens intéressant se rapportant au sujet
 
 - liens1
 - liens2
@@ -87,4 +87,4 @@ Note :  Noter les liens interessant se rapportant au sujet
 - [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais
 - [Plot function - Créer un graphique](https://github.com/leonhma/obsidian-functionplot)
 - [Latex - Ecrire des mathématiques](https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques)
-- 
+- [GEOGEBRA](https://www.geogebra.org/geometry?lang=fr) : dessiner des formes geometriques 

@@ -11,8 +11,12 @@
             "id": "8217356e9363a35e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-fiche_svt.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Template/tpl-fiche_svt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Template/tpl-fiche_svt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Template/tpl-fiche_svt.md"
+              }
             }
           },
           {
@@ -202,11 +210,12 @@
   },
   "active": "be52fe062cae92c3",
   "lastOpenFiles": [
-    "Cours/Mathematiques/Untitled mindmap.md",
-    "Cours/Mathematiques/Untitled Diagram.svg",
-    "Template/tpl-dossier.md",
-    "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
+    "Template/tpl-fiche_svt.md",
+    "Template/tpl-fiche_math.md",
+    "Cours/Mathematiques/Untitled Diagram.svg",
+    "Cours/Mathematiques/Untitled mindmap.md",
+    "Template/tpl-dossier.md",
     "Cours/Anglais/Fiche_Anglais_aaaa.md",
     "Cours/Anglais/Fiche_Anglais_aaa.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
