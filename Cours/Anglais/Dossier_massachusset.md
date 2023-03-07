@@ -29,8 +29,6 @@ updated:: 2023-02-24 18:42:18
 
 
 
-
-
 ## INTRODUCTION
 ### Présentation de la région du Massachusetts 
 
