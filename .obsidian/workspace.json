@@ -11,13 +11,20 @@
             "id": "ea87762a1fb59ec7",
             "type": "leaf",
             "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
-              }
+              "type": "memos_view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7ff1f4c478ddbc21",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +107,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +123,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +144,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
-              }
+              "state": {}
             }
           },
           {
@@ -149,14 +152,6 @@
             "type": "leaf",
             "state": {
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
-              "state": {}
-            }
-          },
-          {
-            "id": "9bf63b99b8c5dad3",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
               "state": {}
             }
           },
@@ -175,13 +170,22 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "b9669a0e5f25f1c0",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 527.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,8 +208,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "ea87762a1fb59ec7",
+  "active": "7ff1f4c478ddbc21",
   "lastOpenFiles": [
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
+    "Template/tpl-kanban.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Cours/Anglais/Home.md",
     "Cours/Chinois/Home.md",
@@ -226,14 +232,12 @@
     "Template/tpl-dossier.md",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Banner",
     "Template/tpl-kanban-note 1.md",
     "Template/tpl-test.md",
     "Template/tpl-kanban-note.md",
     "Template/tpl-livre.md",
     "Template/tpl_test1.md",
-    "Template/tpl-kanban.md",
     "Planning_Semaine/Planning_2023-03-06.md",
     "2023-03-06.md",
     "Cours/#Anglais/Kanban",

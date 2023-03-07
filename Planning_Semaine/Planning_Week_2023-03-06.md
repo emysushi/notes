@@ -4,9 +4,6 @@ kanban-plugin: basic
 
 ---
 
-
-
-
 ## WEEKLY_TODO
 
 - [ ] #Francais #_revision @{2023-03-06}
