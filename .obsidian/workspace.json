@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Template/tpl-fiche_histoire-geo.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -183,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 665.5,
+    "width": 358.5,
     "collapsed": true
   },
   "left-ribbon": {
