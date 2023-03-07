@@ -27,6 +27,6 @@
     "screenshotTextColor": "#fdf6e3",
     "screenshotTextColorEnabled": false,
     "titleAsRootNode": true,
-    "useThemeFont": false
+    "useThemeFont": true
   }
 }
