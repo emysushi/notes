@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "31e0dc05692d5c2d",
+        "id": "f31de74f847ba5f8",
         "type": "tabs",
         "children": [
           {
-            "id": "8217356e9363a35e",
+            "id": "5519dee482697132",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-fiche_histoire-geo.md",
+                "file": "Template/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,13 +80,23 @@
                 "file": "Cours/Mathematiques/Untitled Diagram.svg"
               }
             }
+          },
+          {
+            "id": "21f9f6e2fb2ab428",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 303.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -102,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche_histoire-geo.md",
+                "file": "Template/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche_histoire-geo.md",
+                "file": "Template/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-fiche_histoire-geo.md"
+                "file": "Template/test.md"
               }
             }
           },
@@ -208,13 +218,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8217356e9363a35e",
+  "active": "5519dee482697132",
   "lastOpenFiles": [
-    "Template/tpl-fiche_svt.md",
+    "Template/test.md",
     "Template/tpl-fiche_histoire-geo.md",
+    "Cours/Mathematiques/Untitled Diagram.svg",
+    "Template/tpl-fiche_svt.md",
     "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_math.md",
-    "Cours/Mathematiques/Untitled Diagram.svg",
     "Cours/Mathematiques/Untitled mindmap.md",
     "Template/tpl-dossier.md",
     "Cours/Anglais/Fiche_Anglais_aaaa.md",
@@ -235,9 +246,7 @@
     "Cours/Anglais/Home.md",
     "Cours/Chinois/Home.md",
     "Dossier_Liste.md",
-    "Cours/Anglais/Dossier_massachusset.md",
     "Gallery/massachussets_embleme.png",
-    "Cours/Mathematiques/Home.md",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
     "Banner",

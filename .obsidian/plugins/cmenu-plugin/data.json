@@ -61,6 +61,11 @@
       "name": "Emoji Toolbar: Open emoji picker",
       "hotkeys": [],
       "icon": "any-key"
+    },
+    {
+      "id": "file-explorer:open",
+      "name": "Files: Show file explorer",
+      "icon": "lucide-files"
     }
   ],
   "appendMethod": "workspace",
