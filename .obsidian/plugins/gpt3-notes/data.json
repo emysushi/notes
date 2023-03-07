@@ -1,0 +1,27 @@
+{
+  "appName": "GP3_NOTES",
+  "token": "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",
+  "model": "text-davinci-003",
+  "tokens": 300,
+  "temperature": 5,
+  "promptHistory": [],
+  "tokenParams": {
+    "prefix": [
+      "Write an essay",
+      "Write dashed notes",
+      "Write bullet notes",
+      "Write paragraphs",
+      "Write an article",
+      "Create a manual",
+      "Create an outline",
+      "Write a summary",
+      "Write a program"
+    ],
+    "postfix": [
+      "with sources",
+      "with footnotes",
+      "with comments",
+      "with quotes"
+    ]
+  }
+}

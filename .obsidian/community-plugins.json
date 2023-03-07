@@ -56,5 +56,7 @@
   "obsidian-footnotes",
   "obsidian-chartsview-plugin",
   "obsidian-mindmap-nextgen",
-  "obsidian-crypto-lookup"
+  "obsidian-crypto-lookup",
+  "obsidian-gpt",
+  "gpt3-notes"
 ]
