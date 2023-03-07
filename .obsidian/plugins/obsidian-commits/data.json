@@ -118,13 +118,18 @@
       "size": 822,
       "tags": 1,
       "links": 0
+    },
+    "Template/tpl-fiche_langues.md": {
+      "size": 945,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 347,
-      "Create": 309,
-      "Link": 97,
+      "Refactor": 349,
+      "Create": 311,
+      "Link": 98,
       "Expand": 9
     }
   },
@@ -147,7 +152,7 @@
       "14": 0,
       "15": 62,
       "16": 149,
-      "17": 143,
+      "17": 148,
       "18": 165,
       "19": 102,
       "20": 0,
@@ -159,7 +164,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 7,
+      "Tue": 12,
       "Wed": 0,
       "Thu": 0,
       "Fri": 0,
@@ -181,6 +186,8 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math 1.md\"> tpl-fiche_math 1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dossier 1.md\"> tpl-dossier 1 </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Untitled.md\"> Untitled </a>",
@@ -229,8 +236,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
@@ -263,7 +268,8 @@
         "<a class=\"internal-link\" href=\"Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md\"> KNote_#Anglais_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl_test1.md\"> tpl_test1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
@@ -312,12 +318,14 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Glossaire.md\"> Glossaire </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_Mahomet.md\"> Fiche_Anglais_Mahomet </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"Cours/Planning_Semaine/Kanban/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban-note 1.md\"> tpl-kanban-note 1 </a>",
@@ -367,7 +375,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Education-Musicale.md\"> #revision  #Education-Musicale </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
