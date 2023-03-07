@@ -36,7 +36,7 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 ```mermaid
 journey
-    title Exemple
+    title Exemple de Timeline
     section Califat Omeyade (732-852)
       Charles Martel (732) : 10.5 
       Go upstairs: 10.5 : M
