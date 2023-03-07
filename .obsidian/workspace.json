@@ -21,14 +21,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Template/tpl-dossier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6e202b69bd324091",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-fiche.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -91,7 +103,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Template/tpl-fiche.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Template/tpl-fiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Template/tpl-fiche.md"
               }
             }
           },
@@ -217,8 +229,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "eb9802b5afb4ddd0",
+  "active": "6e202b69bd324091",
   "lastOpenFiles": [
+    "Template/tpl-dossier.md",
+    "Template/tpl-fiche.md",
+    "README.md",
     "Template/tpl-test.md",
     "FicheLecture/fiche_Alice au pays des merveilles.md",
     "Bibliotheque_Liste.md",
@@ -229,7 +244,6 @@
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Cours/Anglais/Home.md",
     "Cours/Chinois/Home.md",
-    "README.md",
     "Dossier_Liste.md",
     "Cours/Anglais/Dossier_massachusset.md",
     "Gallery/massachussets_embleme.png",
@@ -240,7 +254,6 @@
     "Cours/Physique-Chimie/Home.md",
     "Cours/Musique/Home.md",
     "Cours/Francais/Home.md",
-    "Template/tpl-dossier.md",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
     "Banner",
@@ -248,7 +261,6 @@
     "Template/tpl-kanban-note.md",
     "Template/tpl-livre.md",
     "Template/tpl_test1.md",
-    "Planning_Semaine/Planning_2023-03-06.md",
     "Cours/#Anglais/Kanban",
     "Cours/#Anglais",
     "Cours/Kanban",

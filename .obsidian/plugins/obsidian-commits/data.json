@@ -113,13 +113,18 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Template/tpl-fiche.md": {
+      "size": 822,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 345,
-      "Create": 308,
-      "Link": 96,
+      "Refactor": 346,
+      "Create": 309,
+      "Link": 97,
       "Expand": 9
     }
   },
@@ -142,7 +147,7 @@
       "14": 0,
       "15": 62,
       "16": 149,
-      "17": 139,
+      "17": 142,
       "18": 165,
       "19": 102,
       "20": 0,
@@ -154,7 +159,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 3,
+      "Tue": 6,
       "Wed": 0,
       "Thu": 0,
       "Fri": 0,
@@ -176,6 +181,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Template/tpl-dossier 1.md\"> tpl-dossier 1 </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Svt/Untitled.md\"> Untitled </a>",
@@ -225,7 +231,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
@@ -256,7 +261,8 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Kanban/KNote_#revision_2023-03-06.md\"> KNote_#revision_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/KNote_#Anglais_2023-03-06.md\"> KNote_#Anglais_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/#Anglais/Kanban/KNote_#Anglais_2023-03-06.md\"> KNote_#Anglais_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl_test1.md\"> tpl_test1 </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl_test1.md\"> tpl_test1 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
@@ -304,7 +310,8 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Verbes.md\"> Verbes </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Glossaire.md\"> Glossaire </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>",
-        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>"
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
