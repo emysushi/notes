@@ -1,15 +1,8 @@
 {
   "version": "2.0",
   "layout": [
-    [
-      null
-    ],
-    [
-      {
-        "type": "pinned",
-        "path": "Template/tpl-fiche_svt.md"
-      }
-    ]
+    null,
+    null
   ],
   "settings": {
     "splitDirection": "horizontal",
