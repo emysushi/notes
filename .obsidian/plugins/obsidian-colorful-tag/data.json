@@ -97,6 +97,9 @@
     ],
     "Template/tpl-fiche.md": [
       "#dossier-1-7-8"
+    ],
+    "Template/tpl-fiche_math.md": [
+      "#dossier-1-7-8"
     ]
   }
 }

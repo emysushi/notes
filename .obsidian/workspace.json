@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-fiche.md",
+                "file": "Template/tpl-fiche_math.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche.md",
+                "file": "Template/tpl-fiche_math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche.md",
+                "file": "Template/tpl-fiche_math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-fiche.md"
+                "file": "Template/tpl-fiche_math.md"
               }
             }
           },
@@ -232,7 +232,7 @@
   "active": "6e202b69bd324091",
   "lastOpenFiles": [
     "Template/tpl-dossier.md",
-    "Template/tpl-fiche.md",
+    "Template/tpl-fiche_math.md",
     "README.md",
     "Template/tpl-test.md",
     "FicheLecture/fiche_Alice au pays des merveilles.md",
