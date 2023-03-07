@@ -35,9 +35,11 @@
             "id": "528588beda6b1854",
             "type": "leaf",
             "state": {
-              "type": "mindmapView",
+              "type": "markdown",
               "state": {
-                "file": "Untitled mindmap.md"
+                "file": "Template/tpl-fiche_svt.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -135,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled mindmap.md",
+                "file": "Template/tpl-fiche_svt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled mindmap.md",
+                "file": "Template/tpl-fiche_svt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled mindmap.md"
+                "file": "Template/tpl-fiche_svt.md"
               }
             }
           },
@@ -216,8 +218,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 358.5,
-    "collapsed": true
+    "width": 473.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,11 +242,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "528588beda6b1854",
+  "active": "b9669a0e5f25f1c0",
   "lastOpenFiles": [
+    "Untitled mindmap.md",
     "Template/tpl-fiche_svt.md",
     "Template/tpl-block-column-modele1.md",
-    "Untitled mindmap.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Template/tpl-block-timeline.md",
     "Template/Untitled.md",
