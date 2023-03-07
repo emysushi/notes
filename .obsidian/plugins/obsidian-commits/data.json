@@ -127,8 +127,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 356,
-      "Create": 317,
+      "Refactor": 357,
+      "Create": 318,
       "Link": 99,
       "Expand": 9
     }
@@ -154,7 +154,7 @@
       "16": 149,
       "17": 162,
       "18": 165,
-      "19": 102,
+      "19": 104,
       "20": 0,
       "21": 74,
       "22": 31,
@@ -164,7 +164,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 26,
+      "Tue": 28,
       "Wed": 0,
       "Thu": 0,
       "Fri": 0,
@@ -186,6 +186,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Mathematiques/Untitled mindmap.md\"> Untitled mindmap </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues 1.md\"> tpl-fiche_langues 1 </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
@@ -235,8 +236,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine #revision  #Histoire-Geographie </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Histoire-Geographie.md\"> #revision  #Histoire-Geographie </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine KNote_Planning_Semaine_null.md\"> Planning_Semaine KNote_Planning_Semaine_null </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Education-Musicale.md\"> Planning_Semaine #revision  #Education-Musicale </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
@@ -327,6 +327,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Mathematiques/Untitled mindmap.md\"> Untitled mindmap </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_aaaa.md\"> Fiche_Anglais_aaaa </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_aaa.md\"> Fiche_Anglais_aaa </a>",
@@ -372,7 +373,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Kanban/KNote_Anglais_2023-03-06.md\"> KNote_Anglais_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Anglais/Kanban/KNote_Anglais_2023-03-06.md\"> KNote_Anglais_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Gallery/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",

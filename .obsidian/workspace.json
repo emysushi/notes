@@ -4,43 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "59a678d2fef4d408",
+        "id": "31e0dc05692d5c2d",
         "type": "tabs",
         "children": [
           {
-            "id": "ea87762a1fb59ec7",
+            "id": "8217356e9363a35e",
             "type": "leaf",
             "state": {
-              "type": "memos_view",
+              "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "eb9802b5afb4ddd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-dossier.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "836e9ae169e2bf17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-fiche_math.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,18 +71,18 @@
             "id": "cc433e56d726fa8d",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "diagram-edit",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "Cours/Mathematiques/Untitled Diagram.svg"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 624.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -123,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche_math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche_math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Template/tpl-fiche_math.md"
-              }
+              "state": {}
             }
           },
           {
@@ -229,18 +200,19 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "be52fe062cae92c3",
   "lastOpenFiles": [
+    "Cours/Mathematiques/Untitled mindmap.md",
+    "Cours/Mathematiques/Untitled Diagram.svg",
+    "Template/tpl-dossier.md",
+    "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
-    "Template/tpl-fiche_math.md",
-    "Template/tpl-fiche_math.md",
     "Cours/Anglais/Fiche_Anglais_aaaa.md",
     "Cours/Anglais/Fiche_Anglais_aaa.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "Cours/Anglais/Fiche_Anglais_null.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
-    "Template/tpl-dossier.md",
     "README.md",
     "Template/tpl-test.md",
     "FicheLecture/fiche_Alice au pays des merveilles.md",
@@ -257,7 +229,6 @@
     "Gallery/massachussets_embleme.png",
     "Cours/Mathematiques/Home.md",
     "Cours/Histoire-Geographie/Home.md",
-    "Cours/Technologie/Home.md",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
     "Banner",
