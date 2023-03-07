@@ -1,5 +1,36 @@
 
 
+```chartsview
+#-----------------#
+#- chart type    -#
+#-----------------#
+type: Bar
+
+#-----------------#
+#- chart data    -#
+#-----------------#
+data:
+  - label: "1951"
+    value: 38
+    serie: tttttt
+  - label: "1952"
+    value: 52
+    serie: jjjj
+  - label: "1956"
+    value: 61
+  - label: "1957"
+    value: 145
+  - label: "1958"
+    value: 48
+
+#-----------------#
+#- chart options -#
+#-----------------#
+options:
+  seriesField: serie
+  yField: label
+  xField: value
+```
 
 
 

@@ -4,47 +4,68 @@
     "type": "split",
     "children": [
       {
-        "id": "f31de74f847ba5f8",
-        "type": "tabs",
+        "id": "3b03c0649bfd3750",
+        "type": "split",
         "children": [
           {
-            "id": "b929efced32bcbeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-fiche_svt.md",
-                "mode": "source",
-                "source": false
+            "id": "f31de74f847ba5f8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b929efced32bcbeb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Template/tpl-fiche_svt.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a591d488567a19a2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Template/tpl-fiche_math.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "05ad05b83fee46fa",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Cours/Anglais/Dossier_massachusset.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            }
+            ],
+            "currentTab": 2
           },
           {
-            "id": "a591d488567a19a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-fiche_math.md",
-                "mode": "source",
-                "source": false
+            "id": "94d3aa5d7eaa30f2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "91a9adbafc4b227b",
+                "type": "leaf",
+                "state": {
+                  "type": "mindmap",
+                  "state": {}
+                }
               }
-            }
-          },
-          {
-            "id": "05ad05b83fee46fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            ]
           }
         ],
-        "currentTab": 2
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -135,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/Untitled.md",
+                "file": "Cours/Anglais/Dossier_massachusset.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/Untitled.md",
+                "file": "Cours/Anglais/Dossier_massachusset.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +196,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/Untitled.md"
+                "file": "Cours/Anglais/Dossier_massachusset.md"
               }
             }
           },
@@ -241,8 +262,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "05ad05b83fee46fa",
+  "active": "91a9adbafc4b227b",
   "lastOpenFiles": [
+    "Template/Untitled.md",
     "Template/tpl-test.md",
     "Template/tpl-livre.md",
     "Template/tpl-kanban.md",
@@ -257,7 +279,6 @@
     "Template/tpl-block-column-modele1.md",
     "Template/tpl-block-column_model3.md",
     "Template/tpl-block-column_model2.md",
-    "Template/Untitled.md",
     "Cours/Anglais/Dossier_massachusset.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Untitled mindmap 1.md",
