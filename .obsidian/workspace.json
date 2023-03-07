@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Template/tpl-test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b929efced32bcbeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-block-column_model2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "528588beda6b1854",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-block-column-modele1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f06b7ccf3351e3be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Template/tpl-fiche_histoire-geo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -218,13 +255,21 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5519dee482697132",
+  "active": "f06b7ccf3351e3be",
   "lastOpenFiles": [
-    "Template/tpl-timeline.md",
+    "Template/tpl-block-timeline.md",
+    "Template/Untitled.md",
+    "Template/tpl-block-column-modele1.md",
+    "Template/tpl-block-column_model3.md",
+    "Template/tpl-block-column_model2.md",
+    "Template/tpl-test.md",
+    "Template/tpl-livre.md",
+    "Template/tpl-kanban.md",
+    "Template/tpl-fiche_svt.md",
+    "Template/tpl-empty.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Template/test.md",
     "Cours/Mathematiques/Untitled Diagram.svg",
-    "Template/tpl-fiche_svt.md",
     "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_math.md",
     "Cours/Mathematiques/Untitled mindmap.md",
@@ -236,17 +281,9 @@
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "README.md",
-    "Template/tpl-test.md",
     "FicheLecture/fiche_Alice au pays des merveilles.md",
     "Bibliotheque_Liste.md",
     "Cours/Anglais/Verbes.md",
-    "Cours/Anglais/Glossaire.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
-    "Template/tpl-kanban.md",
-    "FicheLecture/fiche_L'Enfant multiple.md",
-    "Cours/Anglais/Home.md",
-    "Cours/Chinois/Home.md",
-    "Dossier_Liste.md",
     "Gallery/massachussets_embleme.png",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
