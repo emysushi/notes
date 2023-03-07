@@ -1,9 +1,13 @@
 
+---
+markmap:
+  colorFreezeLevel: 2
+---
 
 
 
 
-```markmap
 # Mindmap
 ## Mindmap
-```
+
+

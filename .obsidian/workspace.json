@@ -100,10 +100,8 @@
             "id": "cc433e56d726fa8d",
             "type": "leaf",
             "state": {
-              "type": "diagram-edit",
-              "state": {
-                "file": "Cours/Mathematiques/Untitled Diagram.svg"
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -117,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
