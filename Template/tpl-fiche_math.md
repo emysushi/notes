@@ -31,13 +31,6 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 ---
 
 
-```math
-||{"id":1136637845519}||
-
-
-```
-
-
 
 $$
 \frac{\frac{1}{x}+\frac{1}{y}}{y-z}
@@ -54,7 +47,7 @@ bounds: [-10,10,-10,10]
 disableZoom: false
 grid: true
 ---
-x^2 +3
+f(x) = 2^3 + 2
 ```
 
 
@@ -88,5 +81,6 @@ Note :  Noter les liens interessant se rapportant au sujet
 - [SMMRY](https://smmry.com/) : en ligne, anglais
 - [Text Summarizer](http://textsummarization.net/text-summarizer) : en ligne, anglais
 - [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais
-- [Plot function](https://github.com/leonhma/obsidian-functionplot)
+- [Plot function - Créer un graphique](https://github.com/leonhma/obsidian-functionplot)
+- [Latex - Ecrire des mathématiques](https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques)
 - 
