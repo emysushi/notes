@@ -21,34 +21,33 @@ created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
-<% tp.file.cursor() %>
 
+
+## Context
 ---
 
 
 
-## Definitions
----
 
 
   
 ## Timelines
+---
 
-```mermaid
-journey
-    title Exemple de Timeline
-    section Califat Omeyade (732-852)
-      Charles Martel (732) : 10.5 
-      Go upstairs: 10.5 : M
-      Do work: 10.5
-    section Califat Abbasside (732-750)
-      Go downstairs: 10.5
-      Sit down: 10.5 : Me
+
+```timeline-labeled
+[line-3, body-2]
+
+date: 2015
+title: Naissance de Erwan
+content:
+Erwan le roi de la depanne
+
+date: 2010
+title: Naissance de Emy
+content:
+EmySushi la plus jolie
 ```
-
-
-
-
 
 
 
