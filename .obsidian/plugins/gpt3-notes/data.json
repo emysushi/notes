@@ -1,10 +1,23 @@
 {
   "appName": "GP3_NOTES",
   "token": "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",
-  "model": "text-davinci-003",
+  "model": "text-curie-001",
   "tokens": 300,
   "temperature": 5,
-  "promptHistory": [],
+  "promptHistory": [
+    {
+      "prompt": "create a poem on paris",
+      "processedPrompt": "create a poem on paris",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "create poem on paris",
+      "processedPrompt": "create poem on paris",
+      "temperature": 0.5,
+      "tokens": 300
+    }
+  ],
   "tokenParams": {
     "prefix": [
       "Write an essay",

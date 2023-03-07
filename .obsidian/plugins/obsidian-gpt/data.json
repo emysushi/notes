@@ -2,7 +2,7 @@
   "activeModel": "gpt3",
   "models": {
     "chatgpt": {
-      "apiKey": "",
+      "apiKey": "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",
       "settings": {
         "modelType": "gpt-3.5-turbo",
         "systemMessage": "You are ChatGPT, a large language model trained by OpenAI. Answer as concisely as possible.",
