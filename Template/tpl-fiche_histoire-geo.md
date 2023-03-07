@@ -32,6 +32,25 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
 
+## Timelines
+
+```mermaid
+journey
+    title Exemple
+    section Califat Omeyade
+      charles Martel (732): v
+      Go upstairs: 3: Me
+      Do work: 1: Me, Cat
+    section Califat Abbasside
+      Go downstairs: 5: Me
+      Sit down: 5: Me
+```
+
+
+
+
+
+
 
 ## Idees a retenir
 ---

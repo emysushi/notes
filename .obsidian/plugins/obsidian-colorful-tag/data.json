@@ -108,6 +108,12 @@
       "#fiche-5-7-12",
       "#Anglais-5-15-20",
       "#aaaa-5-24-29"
+    ],
+    "Template/tpl-fiche_svt.md": [
+      "#fiche-11-7-208"
+    ],
+    "Template/tpl-fiche_histoire-geo.md": [
+      "#fiche-11-7-208"
     ]
   }
 }

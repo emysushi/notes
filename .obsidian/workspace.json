@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Template/tpl-fiche_histoire-geo.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 624.5
+    "width": 261.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Template/tpl-fiche_histoire-geo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Template/tpl-fiche_histoire-geo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-fiche_svt.md"
+                "file": "Template/tpl-fiche_histoire-geo.md"
               }
             }
           },
@@ -183,7 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5,
+    "width": 665.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -208,10 +208,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "be52fe062cae92c3",
+  "active": "8217356e9363a35e",
   "lastOpenFiles": [
-    "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_svt.md",
+    "Template/tpl-fiche_histoire-geo.md",
+    "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_math.md",
     "Cours/Mathematiques/Untitled Diagram.svg",
     "Cours/Mathematiques/Untitled mindmap.md",
@@ -237,7 +238,6 @@
     "Cours/Anglais/Dossier_massachusset.md",
     "Gallery/massachussets_embleme.png",
     "Cours/Mathematiques/Home.md",
-    "Cours/Histoire-Geographie/Home.md",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
     "Banner",
