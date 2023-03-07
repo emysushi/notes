@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -200,10 +200,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-translator:Translate": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "ea87762a1fb59ec7",
