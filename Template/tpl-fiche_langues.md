@@ -9,7 +9,7 @@ await tp.file.rename(titleName)
 -%>
 
 
-tags : #fiche  <% "#"+qcdomain %> <% "#"+qcFileName %>
+tags : #fiche  <% "#"+qcDomain %> <% "#"+qcFileName %>
 
 ---
 

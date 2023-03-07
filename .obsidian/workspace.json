@@ -28,7 +28,7 @@
             }
           },
           {
-            "id": "6e202b69bd324091",
+            "id": "836e9ae169e2bf17",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,21 +38,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "c71d887bcf77921d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-fiche_langues.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche_langues.md",
+                "file": "Template/tpl-fiche_math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche_langues.md",
+                "file": "Template/tpl-fiche_math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-fiche_langues.md"
+                "file": "Template/tpl-fiche_math.md"
               }
             }
           },
@@ -241,15 +229,17 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "836e9ae169e2bf17",
   "lastOpenFiles": [
+    "Template/tpl-fiche_math.md",
+    "Template/tpl-fiche_math.md",
+    "Cours/Anglais/Fiche_Anglais_aaaa.md",
+    "Template/tpl-fiche_langues.md",
     "Cours/Anglais/Fiche_Anglais_aaa.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "Cours/Anglais/Fiche_Anglais_null.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
-    "Template/tpl-fiche_math.md",
-    "Template/tpl-fiche_langues.md",
     "Template/tpl-dossier.md",
     "README.md",
     "Template/tpl-test.md",
@@ -268,8 +258,6 @@
     "Cours/Mathematiques/Home.md",
     "Cours/Histoire-Geographie/Home.md",
     "Cours/Technologie/Home.md",
-    "Cours/Svt/Home.md",
-    "Cours/Physique-Chimie/Home.md",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
     "Banner",

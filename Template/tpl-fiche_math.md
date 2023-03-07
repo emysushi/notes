@@ -1,5 +1,5 @@
 
-tags : #dossier
+
 
 <%*
 let qcFileName = await tp.system.prompt("Titre Fiche (ex: Mahomet)")
@@ -7,6 +7,9 @@ let qcDomain = tp.file.folder(false)
 titleName = "Fiche_"+ qcDomain + "_" + qcFileName
 await tp.file.rename(titleName)
 -%>
+
+
+tags : #fiche  <% "#"+qcDomain %> <% "#"+qcFileName %>
 
 ---
 
@@ -24,19 +27,34 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
 
-## Théorèmes & Formules
-
-
-
-## Définitions
-
+## Definitions
+---
 
 
 
 
+## Idees a retenir
+---
 
 
 
+## Exemples
+---
+
+
+
+## Vocabulaire
+---
+
+
+
+
+
+
+
+
+
+---
 
 ## Liens
 
