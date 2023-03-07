@@ -38,12 +38,12 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 journey
     title Exemple
     section Califat Omeyade (732-852)
-      Charles Martel (732) : 5
-      Go upstairs: 3: 
-      Do work: 1: 
+      Charles Martel (732) : 10.5 
+      Go upstairs: 10.5 : M
+      Do work: 10.5
     section Califat Abbasside (732-750)
-      Go downstairs: 5: 
-      Sit down: 5: 
+      Go downstairs: 10.5
+      Sit down: 10.5 : Me
 ```
 
 
