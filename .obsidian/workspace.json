@@ -14,8 +14,21 @@
               "type": "memos_view",
               "state": {}
             }
+          },
+          {
+            "id": "eb9802b5afb4ddd0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -98,6 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Template/tpl-test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Template/tpl-test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Template/tpl-test.md"
+              }
             }
           },
           {
@@ -199,10 +216,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "eb9802b5afb4ddd0",
   "lastOpenFiles": [
-    "Bibliotheque_Liste.md",
     "FicheLecture/fiche_Alice au pays des merveilles.md",
+    "Bibliotheque_Liste.md",
     "Cours/Anglais/Verbes.md",
     "Cours/Anglais/Glossaire.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",

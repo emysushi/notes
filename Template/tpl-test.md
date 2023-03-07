@@ -97,4 +97,4 @@ await tp.file.move("/Cours/"+test+"/Kanban/" + titleName);
 
 
 
--%>
+-%>🥽
