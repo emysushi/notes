@@ -4,68 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3b03c0649bfd3750",
-        "type": "split",
+        "id": "fef18775402269c4",
+        "type": "tabs",
         "children": [
           {
-            "id": "f31de74f847ba5f8",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "b929efced32bcbeb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Template/tpl-fiche_svt.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a591d488567a19a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Template/tpl-fiche_math.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "05ad05b83fee46fa",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Cours/Anglais/Dossier_massachusset.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
+            "id": "0219ffdbefa09cf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/Untitled.md",
+                "mode": "source",
+                "source": false
               }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "94d3aa5d7eaa30f2",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "91a9adbafc4b227b",
-                "type": "leaf",
-                "state": {
-                  "type": "mindmap",
-                  "state": {}
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 314.5
+    "width": 394.5
   },
   "right": {
     "id": "de72a87206515b52",
@@ -156,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Anglais/Dossier_massachusset.md",
+                "file": "Template/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Anglais/Dossier_massachusset.md",
+                "file": "Template/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Anglais/Dossier_massachusset.md"
+                "file": "Template/Untitled.md"
               }
             }
           },
@@ -262,9 +216,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "91a9adbafc4b227b",
+  "active": "0219ffdbefa09cf2",
   "lastOpenFiles": [
+    "Template/Untitled Diagram.svg",
     "Template/Untitled.md",
+    "Cours/Anglais/Dossier_massachusset.md",
     "Template/tpl-test.md",
     "Template/tpl-livre.md",
     "Template/tpl-kanban.md",
@@ -279,7 +235,6 @@
     "Template/tpl-block-column-modele1.md",
     "Template/tpl-block-column_model3.md",
     "Template/tpl-block-column_model2.md",
-    "Cours/Anglais/Dossier_massachusset.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Untitled mindmap 1.md",
     "Untitled mindmap.md",
@@ -290,7 +245,6 @@
     "Cours/Anglais/Fiche_Anglais_aaa.md",
     "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "Cours/Anglais/Fiche_Anglais_null.md",
-    "Cours/Anglais/Fiche_Anglais_Mahomet.md",
     "Gallery/massachussets_embleme.png",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
