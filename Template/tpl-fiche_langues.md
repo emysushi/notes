@@ -27,23 +27,23 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
 
-## Definitions 📢
+## Definitions
 ---
 
 
 
 
-## Idees a retenir 📌
+## Idees a retenir
 ---
 
 
 
-## Exemples 🧮
+## Exemples
 ---
 
 
 
-## Vocabulaire 📒
+## Vocabulaire
 ---
 
 
@@ -56,7 +56,7 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 ---
 
-## Liens 
+## Liens
 
 Note :  Noter les liens interessant se rapportant au sujet
 

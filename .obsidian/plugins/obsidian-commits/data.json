@@ -127,8 +127,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 349,
-      "Create": 311,
+      "Refactor": 353,
+      "Create": 315,
       "Link": 98,
       "Expand": 9
     }
@@ -152,7 +152,7 @@
       "14": 0,
       "15": 62,
       "16": 149,
-      "17": 148,
+      "17": 156,
       "18": 165,
       "19": 102,
       "20": 0,
@@ -164,7 +164,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 12,
+      "Tue": 20,
       "Wed": 0,
       "Thu": 0,
       "Fri": 0,
@@ -186,6 +186,10 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_math 1.md\"> tpl-fiche_math 1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dossier 1.md\"> tpl-dossier 1 </a>",
@@ -231,10 +235,6 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine KNote_Planning_Semaine_null.md\"> Planning_Semaine KNote_Planning_Semaine_null </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Education-Musicale.md\"> Planning_Semaine #revision  #Education-Musicale </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>"
       ],
@@ -325,6 +325,10 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_aaa.md\"> Fiche_Anglais_aaa </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_Mahomet.md\"> Fiche_Anglais_Mahomet </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_null.md\"> Fiche_Anglais_null </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_Mahomet.md\"> Fiche_Anglais_Mahomet </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_Mahomet.md\"> Fiche_Anglais_Mahomet </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"Cours/Planning_Semaine/Kanban/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>",
@@ -371,11 +375,7 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Education-Musicale.md\"> #revision  #Education-Musicale </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
