@@ -79,7 +79,9 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 ## Outils utiles
 
--   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
--   [SMMRY](https://smmry.com/) : en ligne, anglais
--   [Text Summarizer](http://textsummarization.net/text-summarizer) : en ligne, anglais
--   [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais
+- [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
+- [SMMRY](https://smmry.com/) : en ligne, anglais
+- [Text Summarizer](http://textsummarization.net/text-summarizer) : en ligne, anglais
+- [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais
+- [Plot function](https://github.com/leonhma/obsidian-functionplot)
+- 
