@@ -14,17 +14,8 @@
               "type": "memos_view",
               "state": {}
             }
-          },
-          {
-            "id": "7ff1f4c478ddbc21",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -208,8 +199,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7ff1f4c478ddbc21",
+  "active": "cc433e56d726fa8d",
   "lastOpenFiles": [
+    "Bibliotheque_Liste.md",
+    "FicheLecture/fiche_Alice au pays des merveilles.md",
+    "Cours/Anglais/Verbes.md",
+    "Cours/Anglais/Glossaire.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Template/tpl-kanban.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
@@ -217,7 +212,6 @@
     "Cours/Chinois/Home.md",
     "README.md",
     "Dossier_Liste.md",
-    "Bibliotheque_Liste.md",
     "Cours/Anglais/Dossier_massachusset.md",
     "Gallery/massachussets_embleme.png",
     "Cours/Mathematiques/Home.md",
@@ -227,8 +221,6 @@
     "Cours/Physique-Chimie/Home.md",
     "Cours/Musique/Home.md",
     "Cours/Francais/Home.md",
-    "Cours/Anglais/Verbes.md",
-    "Cours/Anglais/Glossaire.md",
     "Template/tpl-dossier.md",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
@@ -239,7 +231,6 @@
     "Template/tpl-livre.md",
     "Template/tpl_test1.md",
     "Planning_Semaine/Planning_2023-03-06.md",
-    "2023-03-06.md",
     "Cours/#Anglais/Kanban",
     "Cours/#Anglais",
     "Cours/Kanban",
