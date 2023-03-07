@@ -47,10 +47,13 @@ bounds: [-10,10,-10,10]
 disableZoom: false
 grid: true
 ---
-f(x) = 2^3 + 2
+g(x)=x^PI
+f(x)=E+log(x)*2
+
 ```
 
 
+```
 
 ## Propriétés
 ---
