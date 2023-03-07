@@ -40,6 +40,18 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
 
+```functionplot
+---
+title: aaaa
+xLabel: az
+yLabel: za
+bounds: [-10,10,-10,10]
+disableZoom: false
+grid: true
+---
+x^2 +3
+```
+
 
 
 ## Propriétés

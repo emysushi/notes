@@ -19,7 +19,6 @@
   "obsidian-latex-suite",
   "obsidian-map-view",
   "obsidian-gallery",
-  "obsidian-math-plus",
   "obsidian-wikipedia",
   "obsidian-book-search-plugin",
   "obsidian-card-view-switcher-plugin",
@@ -49,5 +48,7 @@
   "obsidian-advanced-slides",
   "obsidian-image-toolkit",
   "search-on-internet",
-  "obsidian-local-images"
+  "obsidian-local-images",
+  "obsidian-functionplot",
+  "meld-calc"
 ]
