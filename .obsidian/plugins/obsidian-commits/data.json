@@ -137,8 +137,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 359,
-      "Create": 320,
+      "Refactor": 362,
+      "Create": 323,
       "Link": 101,
       "Expand": 9
     }
@@ -166,7 +166,7 @@
       "18": 165,
       "19": 110,
       "20": 0,
-      "21": 74,
+      "21": 80,
       "22": 31,
       "23": 30
     }
@@ -174,7 +174,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 34,
+      "Tue": 40,
       "Wed": 0,
       "Thu": 0,
       "Fri": 0,
@@ -196,6 +196,9 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/test.md\"> test </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_svt 1.md\"> tpl-fiche_svt 1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues 1.md\"> tpl-fiche_langues 1 </a>",
         "<a class=\"internal-link\" href=\"Cours/Mathematiques/Untitled mindmap.md\"> Untitled mindmap </a>",
@@ -243,10 +246,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Francais.md\"> #revision  #Francais </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision #Chinois.md\"> Planning_Semaine #revision #Chinois </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/#revision #Chinois.md\"> #revision #Chinois </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine #revision  #Histoire-Geographie </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/#revision  #Histoire-Geographie.md\"> #revision  #Histoire-Geographie </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
@@ -341,6 +341,9 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/test.md\"> test </a>",
         "<a class=\"internal-link\" href=\"Cours/Mathematiques/Untitled mindmap.md\"> Untitled mindmap </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Fiche_Anglais_aaaa.md\"> Fiche_Anglais_aaaa </a>",
@@ -387,9 +390,6 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Kanban/KNote_Anglais_2023-03-06.md\"> KNote_Anglais_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Anglais/Kanban/KNote_Anglais_2023-03-06.md\"> KNote_Anglais_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Gallery/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>"
       ],
