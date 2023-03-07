@@ -121,7 +121,7 @@
     },
     "Template/tpl-fiche_math.md": {
       "size": 1034,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     }
   },
@@ -129,7 +129,7 @@
     "/": {
       "Refactor": 356,
       "Create": 317,
-      "Link": 98,
+      "Link": 99,
       "Expand": 9
     }
   },
@@ -152,7 +152,7 @@
       "14": 0,
       "15": 62,
       "16": 149,
-      "17": 161,
+      "17": 162,
       "18": 165,
       "19": 102,
       "20": 0,
@@ -164,7 +164,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 25,
+      "Tue": 26,
       "Wed": 0,
       "Thu": 0,
       "Fri": 0,
@@ -320,7 +320,8 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"

@@ -31,22 +31,24 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 ---
 
 
+```math
+||{"id":1136637845519}||
 
 
-## Formules
+```
+
+
+
+
+
+
+## Propriétés
 ---
 
 
 
 ## Exemples
 ---
-
-
-
-## Vocabulaire
----
-
-
 
 
 
