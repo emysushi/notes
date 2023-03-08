@@ -21,8 +21,15 @@ paysans  > travail difficile > exigeant de la terre > cultive des céréales > t
 vie quotidienne se déroule au fil du soleil et des saisons.
 
 ```mermaid
-flowchart LR
-Start --> Stop
+flowchart TB
+meilleur-climat --> meilleur-recolte
+progres-technique --> meilleur-recolte
+meilleur-recolte --> augmentation-population
+augmentation-population --> grand-defrichement
+grand-defrichement --> nouveau-village
 ```
+
+
+
 
 
