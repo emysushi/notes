@@ -168,12 +168,17 @@
       "size": 2739,
       "tags": 14,
       "links": 0
+    },
+    "Bibliotheque_Liste.md": {
+      "size": 328,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 23,
-      "Create": 44,
+      "Refactor": 24,
+      "Create": 46,
       "Link": 20,
       "Expand": 5
     }
@@ -196,7 +201,7 @@
       "13": 0,
       "14": 0,
       "15": 77,
-      "16": 11,
+      "16": 14,
       "17": 0,
       "18": 1,
       "19": 0,
@@ -210,7 +215,7 @@
     "/": {
       "Mon": 4,
       "Tue": 0,
-      "Wed": 83,
+      "Wed": 86,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -270,6 +275,8 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"Bibliotheque_Liste.md\"> Bibliotheque_Liste </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -301,6 +308,7 @@
         "<a class=\"internal-link\" href=\"DayilyNotes/2023-03-01.md\"> 2023-03-01 </a>",
         "<a class=\"internal-link\" href=\"Gallery/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-expose.md\"> tpl-expose </a>",
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
