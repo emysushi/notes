@@ -14,7 +14,7 @@ updated:: 2023-03-08 14:34:36
 ---
 LES PAYSANS 
 
-Paysans:  vivent du travail de la terre 
+<mark style="background: #FF5582A6;">Paysans</mark>:  vivent du travail de la terre 
 Défrichement:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
 
 paysans  > travail difficile > exigeant de la terre > cultive des céréales > transformés > base de leur alimentation 
