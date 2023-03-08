@@ -20,6 +20,7 @@ Défrichement:  destruction volontaire d'espaces boisés en général pour y fai
 paysans  > travail difficile > exigeant de la terre > cultive des céréales > transformés > base de leur alimentation 
 vie quotidienne se déroule au fil du soleil et des saisons.
 
+<center>schéma::la domination des campagnes</center>
 ```mermaid
 flowchart TB
 meilleur-climat --> meilleur-recolte
