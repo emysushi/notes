@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-fiche_svt.md"
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md"
               }
             }
           },
@@ -227,8 +227,10 @@
   },
   "active": "0219ffdbefa09cf2",
   "lastOpenFiles": [
-    "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_math.md",
+    "Pasted image 20230308144207.png",
+    "Template/tpl-fiche_svt.md",
+    "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_langues.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Cours/Histoire-Geographie/Home.md",
@@ -246,7 +248,6 @@
     "Template/tpl-test.md",
     "Template/tpl-livre.md",
     "Template/tpl-kanban.md",
-    "Template/tpl-fiche_svt.md",
     "Template/tpl-empty.md",
     "Template/tpl-dossier.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
@@ -254,7 +255,6 @@
     "Untitled mindmap.md",
     "Template/test.md",
     "Cours/Mathematiques/Untitled Diagram.svg",
-    "Cours/Mathematiques/Untitled mindmap.md",
     "Gallery/massachussets_embleme.png",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
