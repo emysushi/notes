@@ -60,7 +60,7 @@
       "links": 0
     },
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md": {
-      "size": 2014,
+      "size": 4223,
       "tags": 2,
       "links": 0
     },
@@ -180,7 +180,7 @@
       "Refactor": 25,
       "Create": 46,
       "Link": 21,
-      "Expand": 6
+      "Expand": 7
     }
   },
   "dailyCommits": {
@@ -202,7 +202,7 @@
       "14": 0,
       "15": 77,
       "16": 16,
-      "17": 1,
+      "17": 2,
       "18": 1,
       "19": 0,
       "20": 0,
@@ -215,7 +215,7 @@
     "/": {
       "Mon": 4,
       "Tue": 0,
-      "Wed": 89,
+      "Wed": 90,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -230,6 +230,7 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-test.md\"> tpl-test </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>"
       ],
       "Created": [

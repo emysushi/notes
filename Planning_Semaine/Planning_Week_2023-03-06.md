@@ -6,25 +6,6 @@ kanban-plugin: basic
 
 ## WEEKLY_TODO
 
-- [ ] #Francais #_revision @{2023-03-06}
-- [ ] #Chinois #_revision  @{2023-03-06}
-- [ ] #Histoire-Geographie #_revision  @{2023-03-06}
-- [ ] #Education-Musicale #_revision @{2023-03-06}
-- [ ] #Khan #_exercice @{2023-03-06}
-- [ ] #Technologie #_revision @{2023-03-07}
-- [ ] #Francais #_revision @{2023-03-07}
-- [ ] #Anglais  #_revision @{2023-03-07}
-- [ ] #Histoire-Geographie  #_revision @{2023-03-07}
-- [ ] #Physique-Chimie #_revision @{2023-03-07}
-- [ ] #Khan #_exercice @{2023-03-07}
-- [ ] #Mathematiques  #_revision @{2023-03-08}
-- [ ] #Francais  #_revision @{2023-03-08}
-- [ ] #Chinois #_revision @{2023-03-08}
-- [ ] #Khan #_exercice @{2023-03-08}
-- [ ] #Eps  @{2023-03-09}
-- [ ] #Svt  #_revision @{2023-03-09}
-- [ ] #Mathematiques #_revision @{2023-03-09}
-- [ ] #Anglais #_revision @{2023-03-09}
 - [ ] #Khan #_exercice @{2023-03-09}
 - [ ] #Histoire-Geographie  #_revision @{2023-03-10}
 - [ ] #Anglais  #_revision @{2023-03-10}
@@ -38,15 +19,34 @@ kanban-plugin: basic
 
 ## DAILY_TODO
 
+- [ ] #Khan #_exercice @{2023-03-06}
+- [ ] #Khan #_exercice @{2023-03-07}
+- [ ] #Khan #_exercice @{2023-03-08}
 
 
 ## DAILY_TOCKECK
 
+- [ ] #Svt  #_revision @{2023-03-09}
+- [ ] #Mathematiques #_revision @{2023-03-09}
+- [ ] #Anglais #_revision @{2023-03-09}
 
 
 ## WEEKLY_DONE
 
 **Complete**
+- [x] #Francais #_revision @{2023-03-06}
+- [x] #Chinois #_revision  @{2023-03-06}
+- [x] #Histoire-Geographie #_revision  @{2023-03-06}
+- [x] #Education-Musicale #_revision @{2023-03-06}
+- [x] #Technologie #_revision @{2023-03-07}
+- [x] #Francais #_revision @{2023-03-07}
+- [x] #Anglais  #_revision @{2023-03-07}
+- [x] #Histoire-Geographie  #_revision @{2023-03-07}
+- [x] #Physique-Chimie #_revision @{2023-03-07}
+- [x] #Mathematiques  #_revision @{2023-03-08}
+- [x] #Eps  @{2023-03-09}
+- [x] #Francais  #_revision @{2023-03-08}
+- [x] #Chinois #_revision @{2023-03-08}
 
 
 

@@ -49,7 +49,54 @@ grand-defrichement --> nouveau-village
 - défrichement:
 	- terres cultivés, villages
 	- augmentent
- 
+
+
+## Le travail annuel
+
+```timeline-labeled
+[line-3, body-2]
+
+date: Janvier 
+content: il cure les fossés avec une [houe](https://fr.vikidia.org/wiki/Houe "Houe").
+
+date: Février 
+content: il épand du [fumier](https://fr.vikidia.org/wiki/Fumier "Fumier") avec une hotte et une [bêche](https://fr.vikidia.org/wiki/B%C3%AAche "Bêche").
+
+date: Mars 
+content: il taille la [vigne](https://fr.vikidia.org/wiki/Vigne "Vigne") avec une [serpe](https://fr.vikidia.org/wiki/Serpe "Serpe").
+
+date: Avril 
+content: il tond les [moutons](https://fr.vikidia.org/wiki/Mouton "Mouton") avec des « forces ».
+
+date: Mai 
+content: il continue les travaux en vue de la prochaine récolte, tandis que le seigneur chasse au [faucon](https://fr.vikidia.org/wiki/Faucon "Faucon").
+
+date:  Juin 
+content: il [récolte le blé et le foin](https://fr.vikidia.org/wiki/Fenaison "Fenaison") avec une [faux](https://fr.vikidia.org/wiki/Faux "Faux").
+
+date: Juillet 
+content: il [moissonne](https://fr.vikidia.org/wiki/Moisson "Moisson") les [céréales](https://fr.vikidia.org/wiki/C%C3%A9r%C3%A9ale "Céréale") avec une [faucille](https://fr.vikidia.org/wiki/Faucille "Faucille").
+
+date: Août 
+content: il [bat](https://fr.vikidia.org/wiki/Battage "Battage") les épis des céréales au [fléau](https://fr.vikidia.org/wiki/Fl%C3%A9au "Fléau").
+
+date: Septembre 
+content: ce sont les semailles, il [laboure](https://fr.vikidia.org/wiki/Labourage "Labourage") et [sème](https://fr.vikidia.org/wiki/Semailles "Semailles") des graines « à la volée » avec l'araire et la charrue.
+
+date: Octobre 
+content: il foule le [raisin](https://fr.vikidia.org/wiki/Raisin "Raisin") avec les pieds pour en extraire le jus qui donnera le [vin](https://fr.vikidia.org/wiki/Vin "Vin").
+
+date: Novembre 
+content: il pratique la [glandée](https://fr.vikidia.org/wiki/Gland%C3%A9e "Glandée"), grâce à un bâton lancé qui fait tomber les [glands](https://fr.vikidia.org/wiki/Gland "Gland") des [chênes](https://fr.vikidia.org/wiki/Ch%C3%AAne "Chêne") ou les [faînes](https://fr.vikidia.org/wiki/Fa%C3%AEne "Faîne") des [hêtres](https://fr.vikidia.org/wiki/H%C3%AAtre "Hêtre") qui serviront pour engraisser ses [porcs](https://fr.vikidia.org/wiki/Porc "Porc").
+
+date: Décembre 
+content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s).
+
+```
+
+
+![[Pasted image 20230308173724.png]]
+
 
 # Les seigneurs👑
 
