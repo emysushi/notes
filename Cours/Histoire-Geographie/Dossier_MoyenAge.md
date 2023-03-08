@@ -47,7 +47,15 @@ grand-defrichement --> nouveau-village
 
 les seigneurs
 
-<font color="#ff0000">Seigneur:</font> exercent leur pouvoir sur les terres et les humains
+<font color="#ff0000">Seigneur:</font> exerce son pouvoir sur les terres et les humains
 
 <font color="#ff0000">Seigneurie:</font> domaine sur lequel le seigneur exerce son pouvoir 
 
+<font color="#ff0000">Tenure:</font> terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
+
+<font color="#ff0000">Reserve:</font> terres que le seigneur garde pour lui même
+
+- le donjon 
+	- là ou le seigneur et sa famille habitent
+- la salle commune
+	- ou sont organisés les banquets
