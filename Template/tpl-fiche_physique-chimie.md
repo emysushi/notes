@@ -14,7 +14,7 @@ tags : #fiche  <% "#"+qcDomain %> <% "#"+qcFileName %>
 ---
 
 title:: <% qcFileName %>
-domaine:: <% tp.file.folder(false) %>
+domaine:: <% "#"+ tp.file.folder(false) %>
 author:: EmySushi
 status:: inprogress
 created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>

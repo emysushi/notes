@@ -1,13 +1,16 @@
 ---
 banner: "https://world-schools.com/wp-content/uploads/2021/06/top-international-schools-massachusetts.jpg"
 ---
+---
+banner: "https://world-schools.com/wp-content/uploads/2021/06/top-international-schools-massachusetts.jpg"
+---
 
 tags : #dossier  #Anglais 
 
 ---
 
 title:: massachusset
-domaine:: Anglais
+domaine:: #Anglais
 author:: EmuSushi
 status:: encours
 created:: 2023-02-24 18:42:18

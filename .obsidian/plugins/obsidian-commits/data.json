@@ -62,7 +62,7 @@
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md": {
       "size": 4223,
       "tags": 2,
-      "links": 0
+      "links": 1
     },
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md": {
       "size": 958,
@@ -179,7 +179,7 @@
     "/": {
       "Refactor": 25,
       "Create": 46,
-      "Link": 21,
+      "Link": 22,
       "Expand": 7
     }
   },
@@ -202,7 +202,7 @@
       "14": 0,
       "15": 77,
       "16": 16,
-      "17": 2,
+      "17": 3,
       "18": 1,
       "19": 0,
       "20": 0,
@@ -215,7 +215,7 @@
     "/": {
       "Mon": 4,
       "Tue": 0,
-      "Wed": 90,
+      "Wed": 91,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -333,7 +333,8 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>"

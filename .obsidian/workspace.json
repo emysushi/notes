@@ -11,9 +11,11 @@
             "id": "659ebc9e2bedd476",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
+                "file": "Dossier_Liste.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
+                "file": "Dossier_Liste.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
+                "file": "Dossier_Liste.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
+                "file": "Dossier_Liste.md"
               }
             }
           },
@@ -217,35 +219,36 @@
   },
   "active": "659ebc9e2bedd476",
   "lastOpenFiles": [
-    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
-    "Gallery/Pasted image 20230308173724.png",
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
-    "Template/tpl-fiche_histoire-geo.md",
-    "conflict-files-obsidian-git.md",
-    "histoire.md",
-    "Banner/biblio.jpeg",
-    "Banner",
+    "Bibliotheque_Liste.md",
+    "Dossier_Liste.md",
+    "Template/tpl-livre.md",
     "Template/tpl-kanban.md",
     "Template/tpl-fiche_svt.md",
     "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
+    "Template/tpl-fiche_histoire-geo.md",
+    "Cours/Anglais/Dossier_massachusset.md",
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
+    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+    "Gallery/Pasted image 20230308173724.png",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
+    "conflict-files-obsidian-git.md",
+    "histoire.md",
+    "Banner/biblio.jpeg",
+    "Banner",
     "Template/tpl-empty.md",
     "Template/tpl-dossier.md",
     "Template/tpl-block-timeline.md",
     "Template/tpl-block-column_model3.md",
     "Template/tpl-block-column_model2.md",
     "Template/tpl-block-column-modele1.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Planning_Semaine",
-    "Dossier_Liste.md",
     "Cours/Technologie/Home.md",
     "Cours/Svt/Home.md",
     "Cours/Physique-Chimie/Home.md",
     "Cours/Musique/Home.md",
     "Cours/Mathematiques/Home.md",
-    "Cours/Histoire-Geographie/Home.md",
-    "Cours/Francais/Home.md",
     "Cours/Technologie",
     "Cours/Svt",
     "Cours/Physique-Chimie",
