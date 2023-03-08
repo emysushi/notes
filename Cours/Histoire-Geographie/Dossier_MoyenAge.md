@@ -12,7 +12,7 @@ created:: 2023-03-08 14:34:36
 updated:: 2023-03-08 14:34:36
 
 ---
-# LES PAYSANS 
+# LES PAYSANS🌽 
 
 <font color="#ff0000">Paysans</font>:  vivent du travail de la terre 
 <font color="#ff0000">Défrichement</font>:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
