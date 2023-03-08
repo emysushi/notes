@@ -177,9 +177,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 24,
+      "Refactor": 25,
       "Create": 46,
-      "Link": 20,
+      "Link": 21,
       "Expand": 5
     }
   },
@@ -201,7 +201,7 @@
       "13": 0,
       "14": 0,
       "15": 77,
-      "16": 14,
+      "16": 16,
       "17": 0,
       "18": 1,
       "19": 0,
@@ -215,7 +215,7 @@
     "/": {
       "Mon": 4,
       "Tue": 0,
-      "Wed": 86,
+      "Wed": 88,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -296,7 +296,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_histoire-geo.md\"> tpl-fiche_histoire-geo </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>"
       ],
       "Refactored": [],
       "Deleted": [
@@ -332,7 +333,9 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
-      "Removed Tags from": [],
+      "Removed Tags from": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>"
+      ],
       "Removed Links from": []
     }
   },

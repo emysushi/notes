@@ -43,8 +43,11 @@ grand-defrichement --> nouveau-village
 - défrichement:
 	- terres cultivés, villages
 	- augmentent
+ 
 
+les seigneurs
 
+<font color="#ff0000">Seigneur:</font> exercent leur pouvoir sur les terres et les humains
 
-
+<font color="#ff0000">Seigneurie:</font> domaine sur lequel le seigneur exerce son pouvoir 
 
