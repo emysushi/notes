@@ -1,28 +1,37 @@
 
-tags : #dossier
 
+
+
+
+tags : #fiche  #Histoire-Geographie #Paysan_Seigneur
 
 ---
 
-title:: MoyenAge
-domaine:: #Histoire-Geographie 
+title:: Paysan_Seigneur
+domaine:: Histoire-Geographie
 author:: EmySushi
-status:: unread
-created:: 2023-03-08 14:34:36
-updated:: 2023-03-08 14:34:36
+status:: inprogress
+created:: 2023-03-08 14:38:41
+updated:: 2023-03-08 14:38:41
 
 
 
+
+## Context
 ---
 
 
-azerty
+
+
+  
+## Timelines
+---
 
 
 ```timeline-labeled
 [line-3, body-2]
 
-date: 2015-03-05
+date: 2015
 title: Naissance de Erwan
 content:
 Erwan le roi de la depanne
@@ -35,7 +44,14 @@ EmySushi la plus jolie
 
 
 
+## Idees a retenir
+---
 
+
+
+
+
+---
 
 ## Liens
 
@@ -47,6 +63,6 @@ Note :  Noter les liens interessant se rapportant au sujet
 ## Outils utiles
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
--   [SMMRY](https://smmry.com/) : en ligne, anglais
+-   [SUMMRY](https://smmry.com/) : en ligne, anglais
 -   [Text Summarizer](http://textsummarization.net/text-summarizer) : en ligne, anglais
 -   [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais

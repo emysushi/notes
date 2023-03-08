@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+                "file": "Template/tpl-fiche_svt.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+                "file": "Template/tpl-fiche_svt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+                "file": "Template/tpl-fiche_svt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md"
+                "file": "Template/tpl-fiche_svt.md"
               }
             }
           },
@@ -227,13 +227,17 @@
   },
   "active": "0219ffdbefa09cf2",
   "lastOpenFiles": [
+    "Template/tpl-fiche_physique-chimie.md",
+    "Template/tpl-fiche_math.md",
+    "Template/tpl-fiche_langues.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
+    "Cours/Histoire-Geographie/Home.md",
+    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Template/tpl-block-timeline.md",
     "Template/tpl-block-column-modele1.md",
     "Template/tpl-block-column_model3.md",
     "Template/tpl-block-column_model2.md",
-    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
-    "Cours/Histoire-Geographie/Home.md",
     "Cours/Anglais/Dossier_null.md",
     "Cours/Anglais/Home.md",
     "Cours/Anglais/Dossier_massachusset.md",
@@ -243,9 +247,6 @@
     "Template/tpl-livre.md",
     "Template/tpl-kanban.md",
     "Template/tpl-fiche_svt.md",
-    "Template/tpl-fiche_physique-chimie.md",
-    "Template/tpl-fiche_math.md",
-    "Template/tpl-fiche_langues.md",
     "Template/tpl-empty.md",
     "Template/tpl-dossier.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
@@ -254,7 +255,6 @@
     "Template/test.md",
     "Cours/Mathematiques/Untitled Diagram.svg",
     "Cours/Mathematiques/Untitled mindmap.md",
-    "Cours/Anglais/Fiche_Anglais_aaaa.md",
     "Gallery/massachussets_embleme.png",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",

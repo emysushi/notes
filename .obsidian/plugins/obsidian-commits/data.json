@@ -158,13 +158,18 @@
       "size": 1776,
       "tags": 1,
       "links": 0
+    },
+    "Cours/Histoire-Geographie/Dossier_MoyenAge.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 374,
-      "Create": 335,
-      "Link": 103,
+      "Create": 336,
+      "Link": 104,
       "Expand": 9
     }
   },
@@ -184,7 +189,7 @@
       "11": 3,
       "12": 3,
       "13": 0,
-      "14": 2,
+      "14": 4,
       "15": 62,
       "16": 149,
       "17": 162,
@@ -200,7 +205,7 @@
     "/": {
       "Mon": 750,
       "Tue": 64,
-      "Wed": 2,
+      "Wed": 4,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -221,6 +226,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
@@ -270,8 +276,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"2023-03-06.md\"> 2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #_control.md\"> #Anglais #_control </a>",
-        "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #revision.md\"> #Anglais #revision </a>"
+        "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #_control.md\"> #Anglais #_control </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
@@ -315,6 +320,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_physique-chimie.md\"> tpl-fiche_physique-chimie </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_physique-chimie.md\"> tpl-fiche_physique-chimie </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
@@ -364,8 +370,7 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche_svt.md\"> tpl-fiche_svt </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
