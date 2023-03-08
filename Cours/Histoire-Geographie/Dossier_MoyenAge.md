@@ -14,8 +14,7 @@ updated:: 2023-03-08 14:34:36
 ---
 # LES PAYSANS🌽 
 
-- <font color="#ff0000">Paysans</font>:  vivent du travail de la terre- 
-- <font color="#ff0000">Défrichement</font>:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
+
 
 paysans  > travail difficile > exigeant de la terre > cultive des céréales > transformés > base de leur alimentation 
 vie quotidienne se déroule au fil du soleil et des saisons.
@@ -41,7 +40,7 @@ grand-defrichement --> nouveau-village
 - pas à l'abris:
 	- des intempéries/famine/maladies/guerres 
 
-<font color="#ff0000">XI:</font>
+## <font color="#ff0000">Evolution (XI siècle):</font>
 - population augmente:
 	- mieux nourris
 	- progrès techniques 
@@ -50,12 +49,8 @@ grand-defrichement --> nouveau-village
 	- augmentent
  
 
-# les seigneurs👑
+# Les seigneurs👑
 
-<font color="#ff0000">Seigneur:</font> exerce son pouvoir sur les terres et les humains
-<font color="#ff0000">Seigneurie:</font> domaine sur lequel le seigneur exerce son pouvoir 
-<font color="#ff0000">Tenure:</font> terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
-<font color="#ff0000">Reserve:</font> terres que le seigneur garde pour lui même
 
 - le donjon 
 	- là ou le seigneur et sa famille habitent
@@ -63,5 +58,23 @@ grand-defrichement --> nouveau-village
 	- ou sont organisés les banquets et entremet
 	- moment divertissants
 
-<font color="#ff0000">Troubadour:</font> poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
-<font color="#ff0000">Adoubement:</font> cérémonie par laquelle on devient chevalier
+
+
+# Glossaire
+- **Seigneur**: exerce son pouvoir sur les terres et les humains
+- **Seigneurie**: domaine sur lequel le seigneur exerce son pouvoir
+- **Tenure**: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
+- **Reserve**: terres que le seigneur garde pour lui même
+- **Troubadour**: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
+- **Adoubement**: cérémonie par laquelle on devient chevalier
+- **Paysans**:  vivent du travail de la terre
+- **Défrichement**:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
+
+| mot      | definition                                       |
+|:-------- |:------------------------------------------------ |
+| Seigneur | exerce son pouvoir sur les terres et les humains | 
+|          |                                                  |
+|          |                                                  |
+|          |                                                  |
+
+	
