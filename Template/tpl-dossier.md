@@ -12,10 +12,10 @@ await tp.file.rename(titleName)
 title:: <% qcFileName %>
 domaine:: <% tp.file.folder(false) %>
 author:: EmySushi
-status:: unread
+status:: inprogress
 created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
-
+duedate:: 
 
 <% tp.file.cursor() %>
 
