@@ -12,6 +12,8 @@ created:: 2023-03-08 14:34:36
 updated:: 2023-03-08 14:34:36
 
 ---
+
+
 # LES PAYSANS🌽 
 
 
@@ -70,11 +72,4 @@ grand-defrichement --> nouveau-village
 - **Paysans**:  vivent du travail de la terre
 - **Défrichement**:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
 
-| mot      | definition                                       |
-|:-------- |:------------------------------------------------ |
-| Seigneur | exerce son pouvoir sur les terres et les humains | 
-|          |                                                  |
-|          |                                                  |
-|          |                                                  |
 
-	
