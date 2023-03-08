@@ -2,8 +2,46 @@
   "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
-  "editorMenu": [],
-  "fileMenu": [],
+  "editorMenu": [
+    {
+      "id": "obsidian-tasks-plugin:edit-task",
+      "icon": "pencil",
+      "name": "Tasks: Create or edit task",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-wikipedia:wikipedia-get-search-term",
+      "icon": "file-search",
+      "name": "Wikipedia: Get Wikipedia for Search Term",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-emoji-toolbar:emoji-picker:open-picker",
+      "icon": "bot",
+      "name": "Emoji Toolbar: Open emoji picker",
+      "mode": "any"
+    },
+    {
+      "id": "templater-obsidian:insert-templater",
+      "icon": "calendar",
+      "name": "Templater: Open Insert Template modal",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-enhancing-mindmap:Create New MindMap",
+      "icon": "bookmark-plus",
+      "name": "Enhancing Mindmap: Create new mindmap",
+      "mode": "any"
+    }
+  ],
+  "fileMenu": [
+    {
+      "id": "obsidian-kanban:toggle-kanban-view",
+      "icon": "arrow-left-right",
+      "name": "Kanban: Toggle between Kanban and markdown mode",
+      "mode": "any"
+    }
+  ],
   "leftRibbon": [],
   "rightRibbon": [],
   "titleBar": [],

@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "11a5d5d86c7dfd52",
+            "id": "11f882b192063075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Dossier/Expose_massachusset.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e9d0825fd877c097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "histoire.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#📚Book",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -115,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "histoire.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "histoire.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "histoire.md"
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md"
               }
             }
           },
@@ -192,11 +179,11 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 283.5
+    "width": 468.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,44 +200,52 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-translator:Translate": false,
+      "obsidian-memos:Memos": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-memos:Memos": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "e9d0825fd877c097",
+  "active": "11f882b192063075",
   "lastOpenFiles": [
-    "Bibliotheque.md",
-    "Anglais/Glossaire.md",
-    "Anglais/Verbes.md",
-    "DayilyNotes/2023-03-01.md",
-    "FicheLecture/fiche_L'Enfant multiple.md",
-    "Gallery/Untitled.md",
-    "Gallery/massachussets_embleme.png",
-    "Template/tpl-livre.md",
-    "Template/tpl-test.md",
-    "Template/tpl-expose.md",
-    "README.md",
-    "histoire.md",
-    "Anglais/Dossier/Expose_massachusset.md",
-    "PhysiqueChimie/Untitled Diagram.svg",
     "conflict-files-obsidian-git.md",
-    "DayilyNotes",
-    "Template/Sans titre.md",
-    "Sans titre.canvas",
-    "Template/test.md",
-    "FicheLecture/fiche_Optique géométrique.md",
-    "Anglais/Dossier/Expose_massachussets.md",
-    "Anglais/Dossier",
-    "Svt",
-    "PhysiqueChimie",
-    "Anglais",
-    "Francais",
-    "Notes/livre1 2023-02-24.md",
-    "Template/Untitled.md",
-    "Notes",
-    "FicheLecture",
-    "Gallery/Sans titre",
-    "Template/Script"
+    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
+    "histoire.md",
+    "Banner/biblio.jpeg",
+    "Banner",
+    "Template/tpl-kanban.md",
+    "Template/tpl-fiche_svt.md",
+    "Template/tpl-fiche_physique-chimie.md",
+    "Template/tpl-fiche_math.md",
+    "Template/tpl-fiche_langues.md",
+    "Template/tpl-fiche_histoire-geo.md",
+    "Template/tpl-empty.md",
+    "Template/tpl-dossier.md",
+    "Template/tpl-block-timeline.md",
+    "Template/tpl-block-column_model3.md",
+    "Template/tpl-block-column_model2.md",
+    "Template/tpl-block-column-modele1.md",
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
+    "Planning_Semaine",
+    "Dossier_Liste.md",
+    "Cours/Technologie/Home.md",
+    "Cours/Svt/Home.md",
+    "Cours/Physique-Chimie/Home.md",
+    "Cours/Musique/Home.md",
+    "Cours/Mathematiques/Home.md",
+    "Cours/Histoire-Geographie/Home.md",
+    "Cours/Francais/Home.md",
+    "Cours/Chinois/Home.md",
+    "Cours/Technologie",
+    "Cours/Svt",
+    "Cours/Physique-Chimie",
+    "Cours/Musique",
+    "Cours/Mathematiques",
+    "Cours/Histoire-Geographie",
+    "Cours/Francais",
+    "Cours/Chinois",
+    "Gallery/massachussets_embleme.png",
+    "PhysiqueChimie/Untitled Diagram.svg",
+    "Sans titre.canvas"
   ]
 }

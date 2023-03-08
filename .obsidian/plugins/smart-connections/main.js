@@ -14,8 +14,12 @@ const DEFAULT_SETTINGS = {
   log_render_files: false,
   skip_sections: false,
   results_count: 30,
+  view_open: true,
+  version: "",
 };
 const MAX_EMBED_STRING_LENGTH = 25000;
+
+const VERSION = "1.2.8";
 
 class SmartConnectionsPlugin extends Obsidian.Plugin {
   // constructor
@@ -25,6 +29,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     this.embeddings = null;
     this.embeddings_external = null;
     this.file_exclusions = [];
+    this.has_new_embeddings = false;
     this.header_exclusions = [];
     this.nearest_cache = {};
     this.path_only = [];
@@ -37,6 +42,8 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     this.render_log.skipped_low_delta = {};
     this.render_log.token_usage = 0;
     this.render_log.tokens_saved_by_cache = 0;
+    this.retry_notice_timeout = null;
+    this.save_timeout = null;
   }
 
   async loadSettings() {
@@ -165,8 +172,20 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
   }
 
   async initialize() {
-    await this.open_view();
-    await this.add_to_gitignore();
+    // if this settings.view_open is true, open view on startup
+    if(this.settings.view_open) {
+      this.open_view();
+    }
+    // on new version
+    if(this.settings.version !== VERSION) {
+      // update version
+      this.settings.version = VERSION;
+      // save settings
+      await this.saveSettings();
+      // open view
+      this.open_view();
+    }
+    this.add_to_gitignore();
   }
 
   async open_view() {
@@ -216,7 +235,14 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       if(this.settings.failed_files.indexOf(files[i].path) > -1) {
         // log skipping file
         // console.log("skipping previously failed file, use button in settings to retry");
-        new Obsidian.Notice("Smart Connections: Skipping previously failed file, use button in settings to retry");
+        // use setTimeout to prevent multiple notices
+        if(this.retry_notice_timeout) {
+          clearTimeout(this.retry_notice_timeout);
+          this.retry_notice_timeout = null;
+        }
+        this.retry_notice_timeout = setTimeout(() => {
+          new Obsidian.Notice("Smart Connections: Skipping previously failed file, use button in settings to retry");
+        }, 3000);
         continue;
       }
       // skip files where path contains any exclusions
@@ -267,16 +293,29 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     }
   }
 
-  async save_embeddings_to_file() {
-    /**
-     * TODO better logic to reduce uneccessary writes to embeddings file
-     * - temorary disable this logic to address file save issues
-     */
-    // if(this.render_log.new_embeddings === 0) {
-    //   // console.log("no files embedded, skipping save_embeddings_to_file");
-    //   return;
-    // }
-    // this.last_embed_time = Date.now();
+  async save_embeddings_to_file(force=false) {
+    if(!this.has_new_embeddings){
+      return;
+    }
+    // console.log("new embeddings, saving to file");
+    if(!force) {
+      // prevent excessive writes to embeddings file by waiting 1 minute before writing
+      if(this.save_timeout) {
+        clearTimeout(this.save_timeout);
+        this.save_timeout = null;  
+      }
+      this.save_timeout = setTimeout(() => {
+        // console.log("writing embeddings to file");
+        this.save_embeddings_to_file(true);
+        // clear timeout
+        if(this.save_timeout) {
+          clearTimeout(this.save_timeout);
+          this.save_timeout = null;
+        }
+      }, 60000);
+      // console.log("scheduled save");
+      return;
+    }
 
     const embeddings = JSON.stringify(this.embeddings);
     // check if embeddings file exists
@@ -294,7 +333,8 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       if(new_file_size > (existing_file_size * 0.5)) {
         // write embeddings to file
         await this.app.vault.adapter.write(".smart-connections/embeddings-2.json", embeddings);
-        // console.log("embeddings file size: "+new_file_size+" bytes");
+        this.has_new_embeddings = false;
+        console.log("embeddings file size: "+new_file_size+" bytes");
       }else{
         // if new file size is significantly smaller than existing file size then throw error
         // show warning message including file sizes
@@ -797,35 +837,35 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     }
   }
   
-  async get_embeddings(key, embed_input, meta={}) {
-    const requestResults = await this.request_embedding_from_input(embed_input);
-    // if requestResults is null then return
-    if(!requestResults) {
-      console.log("failed embedding: " + meta.path);
-      // log failed file names to render_log
-      this.render_log.failed_embeddings.push(meta.path);
-      return;
-    }
-    // if requestResults is not null
-    if(requestResults){
-      // add embedding key to render_log
-      if(this.settings.log_render){
-        if(this.settings.log_render_files){
-          this.render_log.files.push(meta);
-        }
-        this.render_log.new_embeddings++;
-        // add token usage to render_log
-        this.render_log.token_usage += requestResults.usage.total_tokens;
-      }
-      const vec = requestResults.data[0].embedding;
-      if(vec) {
-        this.embeddings[key] = {};
-        this.embeddings[key].vec = vec;
-        this.embeddings[key].meta = meta;
-        this.embeddings[key].meta.tokens = requestResults.usage.total_tokens;
-      }
-    }
-  }
+  // async get_embeddings(key, embed_input, meta={}) {
+  //   const requestResults = await this.request_embedding_from_input(embed_input);
+  //   // if requestResults is null then return
+  //   if(!requestResults) {
+  //     console.log("failed embedding: " + meta.path);
+  //     // log failed file names to render_log
+  //     this.render_log.failed_embeddings.push(meta.path);
+  //     return;
+  //   }
+  //   // if requestResults is not null
+  //   if(requestResults){
+  //     // add embedding key to render_log
+  //     if(this.settings.log_render){
+  //       if(this.settings.log_render_files){
+  //         this.render_log.files.push(meta);
+  //       }
+  //       this.render_log.new_embeddings++;
+  //       // add token usage to render_log
+  //       this.render_log.token_usage += requestResults.usage.total_tokens;
+  //     }
+  //     const vec = requestResults.data[0].embedding;
+  //     if(vec) {
+  //       this.embeddings[key] = {};
+  //       this.embeddings[key].vec = vec;
+  //       this.embeddings[key].meta = meta;
+  //       this.embeddings[key].meta.tokens = requestResults.usage.total_tokens;
+  //     }
+  //   }
+  // }
 
   async get_embeddings_batch(req_batch) {
     // if req_batch is empty then return
@@ -843,6 +883,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     }
     // if requestResults is not null
     if(requestResults){
+      this.has_new_embeddings = true;
       // add embedding key to render_log
       if(this.settings.log_render){
         if(this.settings.log_render_files){
@@ -1032,7 +1073,11 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
         }
       }
       // get all embeddings
-      await this.get_all_embeddings();
+      // await this.get_all_embeddings();
+      // wrap get all in setTimeout to allow for UI to update
+      setTimeout(() => {
+        this.get_all_embeddings()
+      }, 3000);
       // get from cache if mtime is same and values are not empty
       let current_note_embedding_vec = [];
       if (!this.embeddings[curr_key] 
@@ -1442,7 +1487,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
       // get heading
       let heading_text = curr.link.split("#").pop();
       // if heading text contains a curly brace, get the number inside the curly braces as occurence
-      let occurence = 1;
+      let occurence = 0;
       if (heading_text.indexOf("{") > -1) {
         // get occurence
         occurence = parseInt(heading_text.split("{")[1].split("}")[0]);
@@ -1977,7 +2022,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
           this.set_message("Making Smart Connections..."+this.interval_count);
         }
       }
-    }, 500);
+    }, 10);
   }
 
   async render_note_connections(file) {
@@ -2145,6 +2190,11 @@ class SmartConnectionsSettingsTab extends Obsidian.PluginSettingTab {
       this.plugin.settings.expanded_view = value;
       await this.plugin.saveSettings(true);
     }));
+    // toggle view_open on Obsidian startup
+    new Obsidian.Setting(containerEl).setName("view_open").setDesc("Open view on Obsidian startup.").addToggle((toggle) => toggle.setValue(this.plugin.settings.view_open).onChange(async (value) => {
+      this.plugin.settings.view_open = value;
+      await this.plugin.saveSettings(true);
+    }));
     containerEl.createEl("h2", {
       text: "Advanced"
     });
@@ -2190,7 +2240,7 @@ class SmartConnectionsSettingsTab extends Obsidian.PluginSettingTab {
       if (confirm("Are you sure you want to save your current embeddings?")) {
         // save
         try{
-          await this.plugin.save_embeddings_to_file();
+          await this.plugin.save_embeddings_to_file(true);
           manual_save_results.innerHTML = "Embeddings saved successfully.";
         }catch(e){
           manual_save_results.innerHTML = "Embeddings failed to save. Error: " + e;

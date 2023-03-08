@@ -3,5 +3,10 @@
   "theme": "moonstone",
   "cssTheme": "Typomagical",
   "interfaceFontFamily": "Candara",
-  "textFontFamily": "Candara"
+  "textFontFamily": "Candara",
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "tableStyles",
+    "timeline-snippet"
+  ]
 }

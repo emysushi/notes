@@ -16,5 +16,29 @@
     "includeMentions": false,
     "includeHighlights": true
   },
+  "options": {
+    "generate-text": true,
+    "generate-text-with-metadata": true,
+    "insert-generated-text-From-template": true,
+    "create-generated-text-From-template": false,
+    "insert-text-From-template": false,
+    "create-text-From-template": false,
+    "show-model-From-template": true,
+    "set_max_tokens": true,
+    "set-model": true,
+    "packageManager": true,
+    "create-template": false,
+    "get-title": true,
+    "auto-suggest": false
+  },
+  "autoSuggestOptions": {
+    "status": true,
+    "delay": 300,
+    "numberOfSuggestions": 5,
+    "triggerPhrase": "  ",
+    "stop": ".",
+    "showStatus": true
+  },
+  "displayErrorInEditor": false,
   "models": {}
 }
