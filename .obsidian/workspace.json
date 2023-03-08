@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fbc99f79887acf56",
+        "id": "92aa03fe0b4811b0",
         "type": "tabs",
         "children": [
           {
-            "id": "11f882b192063075",
+            "id": "659ebc9e2bedd476",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -191,7 +191,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 468.5
+    "width": 468.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,11 +217,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "11f882b192063075",
+  "active": "659ebc9e2bedd476",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
+    "Template/tpl-fiche_histoire-geo.md",
+    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+    "conflict-files-obsidian-git.md",
     "histoire.md",
     "Banner/biblio.jpeg",
     "Banner",
@@ -229,7 +231,6 @@
     "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
-    "Template/tpl-fiche_histoire-geo.md",
     "Template/tpl-empty.md",
     "Template/tpl-dossier.md",
     "Template/tpl-block-timeline.md",

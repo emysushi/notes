@@ -45,7 +45,7 @@ grand-defrichement --> nouveau-village
 	- augmentent
  
 
-les seigneurs
+# les seigneurs👑
 
 <font color="#ff0000">Seigneur:</font> exerce son pouvoir sur les terres et les humains
 <font color="#ff0000">Seigneurie:</font> domaine sur lequel le seigneur exerce son pouvoir 
