@@ -162,8 +162,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 373,
-      "Create": 334,
+      "Refactor": 374,
+      "Create": 335,
       "Link": 103,
       "Expand": 9
     }
@@ -184,7 +184,7 @@
       "11": 3,
       "12": 3,
       "13": 0,
-      "14": 0,
+      "14": 2,
       "15": 62,
       "16": 149,
       "17": 162,
@@ -200,7 +200,7 @@
     "/": {
       "Mon": 750,
       "Tue": 64,
-      "Wed": 0,
+      "Wed": 2,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -221,6 +221,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_svt 1.md\"> tpl-fiche_svt 1 </a>",
@@ -270,8 +271,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"2023-03-06.md\"> 2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #_control.md\"> #Anglais #_control </a>",
-        "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #revision.md\"> #Anglais #revision </a>",
-        "<a class=\"internal-link\" href=\"Cours/Kanban/#revision #Anglais.md\"> #revision #Anglais </a>"
+        "<a class=\"internal-link\" href=\"Cours/Kanban/#Anglais #revision.md\"> #Anglais #revision </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
@@ -371,6 +371,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Dossier_null.md\"> Dossier_null </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
@@ -420,8 +421,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine Planning_Semaine #revision  #Histoire-Geographie </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine #revision  #Histoire-Geographie </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine KNote_Planning_Semaine_null.md\"> Planning_Semaine KNote_Planning_Semaine_null </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Semaine #revision  #Histoire-Geographie.md\"> Planning_Semaine #revision  #Histoire-Geographie </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

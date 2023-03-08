@@ -11,8 +11,12 @@
             "id": "0219ffdbefa09cf2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -86,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -106,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md"
+              }
             }
           },
           {
@@ -219,9 +227,18 @@
   },
   "active": "0219ffdbefa09cf2",
   "lastOpenFiles": [
+    "Template/tpl-fiche_histoire-geo.md",
+    "Template/tpl-block-timeline.md",
+    "Template/tpl-block-column-modele1.md",
+    "Template/tpl-block-column_model3.md",
+    "Template/tpl-block-column_model2.md",
+    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+    "Cours/Histoire-Geographie/Home.md",
+    "Cours/Anglais/Dossier_null.md",
+    "Cours/Anglais/Home.md",
+    "Cours/Anglais/Dossier_massachusset.md",
     "Template/Untitled.md",
     "Template/Untitled Diagram.svg",
-    "Cours/Anglais/Dossier_massachusset.md",
     "Template/tpl-test.md",
     "Template/tpl-livre.md",
     "Template/tpl-kanban.md",
@@ -229,13 +246,8 @@
     "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
-    "Template/tpl-fiche_histoire-geo.md",
     "Template/tpl-empty.md",
     "Template/tpl-dossier.md",
-    "Template/tpl-block-timeline.md",
-    "Template/tpl-block-column-modele1.md",
-    "Template/tpl-block-column_model3.md",
-    "Template/tpl-block-column_model2.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Untitled mindmap 1.md",
     "Untitled mindmap.md",
@@ -243,9 +255,6 @@
     "Cours/Mathematiques/Untitled Diagram.svg",
     "Cours/Mathematiques/Untitled mindmap.md",
     "Cours/Anglais/Fiche_Anglais_aaaa.md",
-    "Cours/Anglais/Fiche_Anglais_aaa.md",
-    "Cours/Anglais/Fiche_Anglais_Mahomet.md",
-    "Cours/Anglais/Fiche_Anglais_null.md",
     "Gallery/massachussets_embleme.png",
     "Banner/biblio.jpeg",
     "Banner/biblio.jpeg.crdownload",
