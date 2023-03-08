@@ -1,23 +1,18 @@
 
 tags : #dossier
 
-<%*
-let qcFileName = await tp.system.prompt("matiere")
-titleName = "Dossier_"+ qcFileName
-await tp.file.rename(titleName)
--%>
 
 ---
 
-title:: <% qcFileName %>
-domaine:: <% "#"+tp.file.folder(false) %>
+title:: Serrures
+domaine:: #Technologie
 author:: EmySushi
 status:: inprogress
-created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
-updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
-duedate:: 
+created:: 2023-03-08 17:49:35
+updated:: 2023-03-08 17:49:35
+duedate:: 2023-03-18
 
-<% tp.file.cursor() %>
+
 
 ---
 
