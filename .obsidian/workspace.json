@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -212,9 +212,9 @@
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
+      "gpt3-notes:GPT-3 Notes": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false,
-      "gpt3-notes:GPT-3 Notes": false
+      "periodic-notes:Open this week": false
     }
   },
   "active": "0219ffdbefa09cf2",
