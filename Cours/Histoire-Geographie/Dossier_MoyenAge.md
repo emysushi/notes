@@ -108,7 +108,9 @@ content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s)
 	- ou sont organisés les banquets et entremet
 	- moment divertissants
 
-
+organisation type d'un château
+moments divertissant ? 
+ceremonie d'adoubement
 
 # Glossaire
 - **Seigneur**: exerce son pouvoir sur les terres et les humains
