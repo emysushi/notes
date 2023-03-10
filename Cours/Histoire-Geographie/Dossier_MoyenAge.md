@@ -14,6 +14,10 @@ duedate:: 2023-03-10
 
 ---
 
+# ORGANISATION DE LA SOCIETE AU MOYEN
+
+
+
 
 # LES PAYSANS🌽 
 
@@ -99,7 +103,7 @@ content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s)
 ![[Pasted image 20230308173724.png]]
 
 
-# Les seigneurs👑
+# LES SEIGNEURS👑
 
 
 - le donjon
