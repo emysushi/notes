@@ -151,8 +151,9 @@ ceremonie d'adoubement
 
 les femmes aux châteaux
 
+offerte ou enlevée pour le mariage
 mariée vers 15 ans 
-offerte ou 
+
 
 
 
