@@ -288,33 +288,10 @@ ceremonie d'adoubement
 - Suzerain :
 
 
-# EVOLUTION DES CHATEAUX FORTS 
-* 10-ème siècle:
-* forteresse
-* collines artificielles
-* en terre et en bois
 
-* 11-ème siècle:
-* donjon
-* appartement du seigneur
-* pierre, rectangulaire
 
-* 12-ème siècle:
-* tour circulaire
-* moins de matériaux
-* résiste mieux aux sièges
 
-* 13-ème siècle:
-* châteaux sans donjon
-* double muraille
-* mieux tirer
-
-* 14-ème siècle:
-* châteaux comme des palais
-* gout du luxe
-* immense salle éclairées
-
-les femmes aux châteaux
+les femmes aux châteaux 
 
 * offerte ou enlevée pour le mariage et:
  -mariée vers 15 ans 
