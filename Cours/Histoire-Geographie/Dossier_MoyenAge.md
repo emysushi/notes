@@ -184,8 +184,8 @@ mais vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave
 de la pierre près des carrières, du bois et de l'argile ailleurs, la brique mais elle coute cher (à cause de sa cuisson à haute température)
 ## Les villes
 enserrant d'abord le château la muraille s'est agrandie au fil des siècles 
-les rues
-
+les rues sont encombrées d'étalages, le cri des marchands ambulants
+les villes françaises choquent les étrangers de leur saleté mais pourtant le règlement dit a chacun de balayer devant sa porte
 ## Le pouvoir des villes
 
 ## Les métiers
