@@ -118,14 +118,44 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 
 ## La vie à la cour
 
-## Les femmes au chateau
+## Les femmes au château
 
-## La table des siegneurs
+## La table des seigneurs
 
 ## La musique
 
 
-# LE TRAVAIL DE LA TERRE
+# AGRICULTURE
+## Le travail de la terre
+
+## Se nourrir
+
+# RELATIONS SEIGNEURS / VILLAGEOIS
+
+
+
+# LES VILLES MEDIEVALES
+
+
+## Habitats et matériaux
+
+
+## Les villes
+
+
+## Le pouvoir des villes
+
+## Les métiers
+
+## La gestion du savoir
+
+## Fêtes et foires
+
+## Commerces (mers/ports)
+
+
+
+
 
 
 
