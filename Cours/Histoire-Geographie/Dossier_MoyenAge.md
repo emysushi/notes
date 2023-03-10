@@ -139,19 +139,25 @@ dans les récits d'amour courtois le chevalier se bat pour l'amour d'une dame
  -c'est un moment dangereux car nombreuses à perdus la vie 
  -le nouveau né est confié à la nourrice 
  -car la durée de l'allaitement retarderait la naissance d'un autre bébé
- -la mortalité enfantine oblige à faire beaucoup de bébé
+ -la mortalité enfantine oblige à faire beaucoup de bébé 
 
 ## La table des seigneurs
 les occasions de festoyer sont nombreuses, nourris copieusement, en montrant sa belle vaisselle et ses habits luxueux
+comme les convives manges avec leur 3 doigts chacun se lave les mains avant de passer à table
 
-comme les convives manges avec leur 3 doigts
 table: planche soutenue par des tréteaux et couverte d'une nappe
 assiettes: tranchoirs, plaques de métal ou de bois recouvertes de larges tranches de pain
 couverts: fourche à deux dents et d'un couteaux, gobelets en métal ou coupes en bois
 et les salières (la plus grosse près du maitre de maison)
 
+aliments: le gibier, bœuf, veau, agneau que l'on sert en bouillit, rôti ou farci, porcelets de lait ou sangliers de la foret
+les mets: oiseaux (car ils volent près du ciel donc près de Dieux)
+boissons: hypocras (vin au miel et aux épices)
+desserts: fruits et fruits secs, plus gourmands grignotes des gaufres, crêpes, amandes et noisettes macérées dans du miel
 
 ## La musique
+
+
 
 
 # AGRICULTURE
