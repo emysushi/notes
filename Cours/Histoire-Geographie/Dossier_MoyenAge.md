@@ -187,9 +187,15 @@ enserrant d'abord le château la muraille s'est agrandie au fil des siècles
 les rues sont encombrées d'étalages, le cri des marchands ambulants
 les villes françaises choquent les étrangers de leur saleté mais pourtant le règlement dit a chacun de balayer devant sa porte
 ## Le pouvoir des villes
-
+les riches bourgeois et les grandes familles européennes dominent les villes à partir du 12-ème siècle
+les fils des seigneurs émigrent vers les villes pour y tenter de fructueuses affaires
+la majorité de la population est constituée d'ouvrier textile, marchand ambulant, petit boutiquier et payent peux d'impôts
+en revanche ils sont privés de tout droit les étrangers et les vagabonds qui vivent de rapines et de la charité des autres
 ## Les métiers
-
+les rues étaient toutes pleines d'ouvriers qui pratiquaient: le fer, le textile, le tondage…
+les 1er métiers crées sont ceux de l'alimentation
+au 11eme les boulangers et les bouchers
+les métiers regroupent 3 catégories d'individus: les maitres, les valets et les apprentis 
 ## La gestion du savoir
 
 ## Fêtes et foires
