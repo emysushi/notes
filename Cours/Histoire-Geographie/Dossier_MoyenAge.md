@@ -163,9 +163,13 @@ le psaltérion: gratte les cordes avec des plumes d'oie et produit un son mélod
 
 # AGRICULTURE
 ## Le travail de la terre
-
-
-
+ augmenter les surfaces cultivées:
+11-ème siècle: seigneurs poussent les paysans à défricher les forets
+l'importance du labour:
+grâce à la charrue à roue tirée par des bœufs l'on peut plus facilement retourner la terre
+le cycle des cultures:
+pour tenter d'augmenter les récoltes ils laissent 1/3 du sol au repos dans l'autre ils sèment le blé pour le dernier reçoit de l'avoine...
+les vendanges: 
 ## Se nourrir
 
 # RELATIONS SEIGNEURS / VILLAGEOIS
