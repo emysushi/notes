@@ -175,7 +175,7 @@ la récolte du raisin exige beaucoup de main d'œuvres, les grappes coupées 1pa
 ## Se nourrir
 partout en Europe, les fêtes paysannes célèbrent la terre nourricière
 après les famines, les défrichements et l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim
-mais
+mais la population augmente plus vite que les rendements agricoles
 
 # RELATIONS SEIGNEURS / VILLAGEOIS
 
