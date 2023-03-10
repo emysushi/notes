@@ -156,12 +156,15 @@ boissons: hypocras (vin au miel et aux épices)
 desserts: fruits et fruits secs, plus gourmands grignotes des gaufres, crêpes, amandes et noisettes macérées dans du miel
 
 ## La musique
-
-
-
+le tambourin et la flute: pour rythmer les pas des danseur lors des fêtes au villages ou celui de l'ours
+ancêtre du violon: muni de cordes pincées sur le manche pour produire des notes graves
+la luth: cordes pincées avec un plectre (petite pièce en écaille ou en bois)
+le psaltérion: gratte les cordes avec des plumes d'oie et produit un son mélodieux (s'accorde avec le luth)
 
 # AGRICULTURE
 ## Le travail de la terre
+
+
 
 ## Se nourrir
 
