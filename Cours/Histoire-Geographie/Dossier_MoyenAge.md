@@ -111,8 +111,8 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 - bouclier en forme d'amende (écu)
 
 ## Chevalier et légende
-
 la chevalerie se donne une belle image d'elle même:
+
 Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
 Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
 La quête du Graal: autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacré ayant contenu le sang du christ)
@@ -122,11 +122,16 @@ Un amour impossible: le roi Marc veut épouser Yseut et Tristan la ramène mais 
 # LA VIE AU CHATEAU
 
 ## La vie de cour
+la chasse, les jeux, et d'autres divertissements:
+
+jongleurs: font régner dans le château une ambiance de fête, à la fois bouffon, acteurs et acrobates ils savent aussi chanter des poèmes
+troubadour: composent leur propre musique, récités et chantés, retraçant les actions héroïques des chevaliers
+dans les récits d'amour courtois le chevalier se bat pour l'amour d'une dame
 
 ## Les femmes au château
 
 * offerte ou enlevée pour le mariage et:
- -mariée vers 15 ans 
+ -mariée vers 15 ans - non pour une affaire de cœur
 * et ont déjà beaucoup de choses à faire:
  -broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
  -et de veiller à l'éducation de ses enfants 
@@ -137,6 +142,12 @@ Un amour impossible: le roi Marc veut épouser Yseut et Tristan la ramène mais 
  -la mortalité enfantine oblige à faire beaucoup de bébé
 
 ## La table des seigneurs
+les occasions de festoyer sont nombreuses, nourris copieusement, en montrant sa belle vaisselle et ses habits luxueux
+
+
+
+
+
 
 ## La musique
 
