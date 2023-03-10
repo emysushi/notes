@@ -112,7 +112,7 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 
 ## Chevalier et légende
 
-
+la chevalerie se donne une belle image d'elle même
 
 
 
