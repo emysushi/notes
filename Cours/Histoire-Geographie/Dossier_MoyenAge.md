@@ -153,7 +153,9 @@ les femmes aux châteaux
 
 offerte ou enlevée pour le mariage
 mariée vers 15 ans 
-
+et ont déjà beaucoup de choses à faire
+-broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
+-et de veiller à l'éducation de ses enfants ...
 
 
 
