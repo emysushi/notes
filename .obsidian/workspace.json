@@ -11,12 +11,8 @@
             "id": "659ebc9e2bedd476",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -102,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md"
-              }
+              "state": {}
             }
           },
           {
@@ -217,12 +209,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "659ebc9e2bedd476",
   "lastOpenFiles": [
+    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Dossier_Liste.md",
     "Cours/Technologie/Dossier_Serrures.md",
     "Template/tpl-dossier.md",
-    "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Cours/Anglais/Dossier_massachusset.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Bibliotheque_Liste.md",
