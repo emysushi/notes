@@ -14,6 +14,11 @@ duedate:: 2023-03-10
 
 ---
 
+# LE MOYEN AGE
+Le Moyen Âge est une période de l'histoire de l'Europe, s'étendant de la fin du V e siècle à la fin du XV e siècle, qui débute avec le déclin de l'Empire romain d'Occident et se termine par la Renaissance et les Grandes découvertes.
+
+
+
 # ORGANISATION DE LA SOCIETE AU MOYEN
 
 
