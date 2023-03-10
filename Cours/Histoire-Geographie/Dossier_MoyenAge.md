@@ -168,9 +168,14 @@ le psaltérion: gratte les cordes avec des plumes d'oie et produit un son mélod
 l'importance du labour:
 grâce à la charrue à roue tirée par des bœufs l'on peut plus facilement retourner la terre
 le cycle des cultures:
-pour tenter d'augmenter les récoltes ils laissent 1/3 du sol au repos dans l'autre ils sèment le blé pour le dernier reçoit de l'avoine...
+pour tenter d'augmenter les récoltes ils laissent 1/3 du sol au repos dans l'autre ils sèment le blé pour le dernier reçoit de l'avoine…
 les vendanges: 
+la récolte du raisin exige beaucoup de main d'œuvres, les grappes coupées 1par1 sont transportées puis foulées avant d'être pressé
+
 ## Se nourrir
+partout en Europe, les fêtes paysannes célèbrent la terre nourricière
+après les famines, les défrichements et l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim
+mais
 
 # RELATIONS SEIGNEURS / VILLAGEOIS
 
