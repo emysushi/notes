@@ -117,12 +117,24 @@ Roland le brave: plus connus et plus anciens chevalier de la littérature occide
 Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
 La quête du Graal: autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacré ayant contenu le sang du christ)
 Le bien contre le mal: Saint Georges et Saint Michel sont les saints patrons, représentés en train de combattre le dragon (diable)
-Un amour impossible: le roi Marc veut 
+Un amour impossible: le roi Marc veut épouser Yseut et Tristan la ramène mais par erreur boivent un filtre d'amour
+
 # LA VIE AU CHATEAU
 
-## La vie à la cour
+## La vie de cour
 
 ## Les femmes au château
+
+* offerte ou enlevée pour le mariage et:
+ -mariée vers 15 ans 
+* et ont déjà beaucoup de choses à faire:
+ -broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
+ -et de veiller à l'éducation de ses enfants 
+* au moment de l'accouchement:
+ -c'est un moment dangereux car nombreuses à perdus la vie 
+ -le nouveau né est confié à la nourrice 
+ -car la durée de l'allaitement retarderait la naissance d'un autre bébé
+ -la mortalité enfantine oblige à faire beaucoup de bébé
 
 ## La table des seigneurs
 
@@ -290,23 +302,6 @@ ceremonie d'adoubement
 - Fief: terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
 - Vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
 - Suzerain: seigneur qui avait concédé un fief à un vassal
-
-
-
-
-
-les femmes aux châteaux 
-
-* offerte ou enlevée pour le mariage et:
- -mariée vers 15 ans 
-* et ont déjà beaucoup de choses à faire:
- -broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
- -et de veiller à l'éducation de ses enfants 
-* au moment de l'accouchement:
- -c'est un moment dangereux car nombreuses à perdus la vie 
- -le nouveau né est confié à la nourrice 
- -car la durée de l'allaitement retarderait la naissance d'un autre bébé
- -la mortalité enfantine oblige à faire beaucoup de bébé
 
 
 
