@@ -183,7 +183,8 @@ mais vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave
 ## Habitats et matériaux
 de la pierre près des carrières, du bois et de l'argile ailleurs, la brique mais elle coute cher (à cause de sa cuisson à haute température)
 ## Les villes
-
+enserrant d'abord le château la muraille s'est agrandie au fil des siècles 
+les rues
 
 ## Le pouvoir des villes
 
