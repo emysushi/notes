@@ -123,15 +123,6 @@ ceremonie d'adoubement
 - **Défrichement**:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
 
 
-seigneur:
-paysans:
-défrichement:
-tenure:
-réserve:
-seigneurie:
-troubadour:
-abondement:
-
 
 
 
