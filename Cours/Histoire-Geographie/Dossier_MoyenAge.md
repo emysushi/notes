@@ -35,6 +35,40 @@ Vers 1000 a jc, les châteaux forts apparaissent contrer les invasions barbares 
 	- invasions barbares
 	- conflits entre les contés
 
+## Serment de fidélité
+- le fief donne au vassal :
+	- moyen de se nourrir
+	- de s'équiper militairement
+
+```col-md
+
+- !!!col
+	- 1
+		# SEIGNEUR
+		- donne au vassal les moyens de se nourrir (fiefs)
+		- donne au vassal les moyens de s'équipper militairement (fiefs)
+		- protège le vassal
+	- 2
+		# VASSAL
+		- promet fidélité au seigneur (cérémonie de l'hommage)
+		- les fieifs 
+		- !!!col
+			- 1
+			  ## Column 2-1
+			  You can even have columns inside columns!
+			- 1
+			  ## Column 2-2
+			  More example text inside this column
+
+```
+
+
+
+-----
+
+
+
+
 
 
 
@@ -144,6 +178,9 @@ ceremonie d'adoubement
 - **Adoubement**: cérémonie par laquelle on devient chevalier
 - **Paysans**:  vivent du travail de la terre
 - **Défrichement**:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
+- Fief : terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
+- Vassal :
+- Suzerain :
 
 
 **<center>LES CHATEAUX FORTS</center>
