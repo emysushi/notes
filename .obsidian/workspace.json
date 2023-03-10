@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#LES",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,7 +217,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "659ebc9e2bedd476",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
     "Dossier_Liste.md",
     "Cours/Technologie/Dossier_Serrures.md",

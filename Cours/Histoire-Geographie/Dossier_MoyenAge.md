@@ -123,17 +123,18 @@ ceremonie d'adoubement
 - **Défrichement**:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
 
 
-**<center>LES CHATEAUX FORTS</center>**
-
+**<center>LES CHATEAUX FORTS</center>
 * 10-ème siècle:
 * forteresse
+* collines artificielles
 * en terre et en bois
 
-* fin du 10-ème siècle:
+* 11-ème siècle:
 * donjon
+* appartement du seigneur
 * pierre, rectangulaire
 
-* fin du 12-ème siècle:
+* 12-ème siècle:
 * tour circulaire
 * moins de matériaux
 * résiste mieux aux sièges
@@ -144,7 +145,9 @@ ceremonie d'adoubement
 * mieux tirer
 
 * 14-ème siècle:
-* 
+* châteaux comme des palais
+* gout du luxe
+* immense salle éclairées
 
 
 
