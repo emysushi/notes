@@ -102,8 +102,8 @@ content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s)
 # Les seigneurs👑
 
 
-- le donjon 
-	- là ou le seigneur et sa famille habitent
+- le donjon
+-  là ou le seigneur et sa famille habitent
 - la salle commune
 	- ou sont organisés les banquets et entremet
 	- moment divertissants
@@ -121,6 +121,31 @@ ceremonie d'adoubement
 - **Adoubement**: cérémonie par laquelle on devient chevalier
 - **Paysans**:  vivent du travail de la terre
 - **Défrichement**:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
+
+
+**<center>LES CHATEAUX FORTS</center>**
+
+* 10-ème siècle:
+* forteresse
+* en terre et en bois
+
+* fin du 10-ème siècle:
+* donjon
+* pierre, rectangulaire
+
+* fin du 12-ème siècle:
+* tour circulaire
+* moins de matériaux
+* résiste mieux aux sièges
+
+* 13-ème siècle:
+* châteaux sans donjon
+* double muraille
+* mieux tirer
+
+* 14-ème siècle:
+* 
+
 
 
 
