@@ -144,6 +144,7 @@ dans les récits d'amour courtois le chevalier se bat pour l'amour d'une dame
 ## La table des seigneurs
 les occasions de festoyer sont nombreuses, nourris copieusement, en montrant sa belle vaisselle et ses habits luxueux
 
+comme les convives manges avec leur 3 doigts
 table: planche soutenue par des tréteaux et couverte d'une nappe
 assiettes: tranchoirs, plaques de métal ou de bois recouvertes de larges tranches de pain
 couverts: fourche à deux dents et d'un couteaux, gobelets en métal ou coupes en bois
