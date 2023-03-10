@@ -176,12 +176,7 @@ la récolte du raisin exige beaucoup de main d'œuvres, les grappes coupées 1pa
 partout en Europe, les fêtes paysannes célèbrent la terre nourricière:
 après les famines, les défrichements et l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim,
 mais la population augmente plus vite que les rendements agricoles ,
-mais vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses.
-
-# RELATIONS SEIGNEURS / VILLAGEOIS
-
-
-
+mais vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
 # LES VILLES MEDIEVALES
 
 
