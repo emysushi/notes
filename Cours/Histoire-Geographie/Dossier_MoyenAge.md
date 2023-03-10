@@ -35,11 +35,11 @@ Vers 1000 a jc, les châteaux forts apparaissent contrer les invasions barbares 
 	- invasions barbares
 	- conflits entre les contés
 
-## Serment de fidélité
-- le fief donne au vassal :
-	- moyen de se nourrir
-	- de s'équiper militairement
+La feodalité diffère selon les regions (dans le sud de la France, nombreux chevaliers possèdent leur propre terre)
 
+
+
+## Les devoirs de chacun
 ```col-md
 
 - !!!col
@@ -51,16 +51,91 @@ Vers 1000 a jc, les châteaux forts apparaissent contrer les invasions barbares 
 	- 2
 		# VASSAL
 		- promet fidélité au seigneur (cérémonie de l'hommage)
-		- les fieifs 
-		- !!!col
-			- 1
-			  ## Column 2-1
-			  You can even have columns inside columns!
-			- 1
-			  ## Column 2-2
-			  More example text inside this column
+		- les fieifs se transmettent de pere en fils
+		- service de chevauchée (faire la guerre - limité a 40jrs / an)
 
 ```
+
+
+# EVOLUTION DES CHATEAUX FORTS 
+* **10-ème siècle:**
+	* forteresse
+	* collines artificielles
+	* en terre et en bois
+
+* **11-ème siècle:**
+	* donjon
+	* appartement du seigneur
+	* pierre, rectangulaire
+
+* **12-ème siècle:**
+	* tour circulaire
+	* moins de matériaux
+	* résiste mieux aux sièges
+
+* **13-ème siècle:**
+	* châteaux sans donjon
+	* double muraille
+	* mieux tirer
+
+* **14-ème siècle:**
+	* châteaux comme des palais
+	* gout du luxe
+	* immense salle éclairées
+
+
+# DEVENIR CHEVALIER
+
+
+- **Leçon du maitre d'arme**
+	- maniement de l'épée, lance
+	- combat à cheval
+	- 10 ans
+- Adoubement
+	- adouber = équiper
+	- par le prêtre
+	- reçoit leur épée, leur armure
+	- reçoit un cheval pour certain (destrier)
+- Après adoubement
+	- doit attirer l'attention d'un puissant seigneur (donner un fief ? ou une épouse)
+	- s'entourer de valeureux guerrier
+
+## ARMES ET ARMURES
+
+- Lance
+- la lame (épée)
+- arbalette
+- broigne (tunique de cuir)
+- tricot de métal (15kg, 100 hr de travail)
+- harnois blanc (armure plate)
+- bouclier en forme d'amende (écu)
+
+## Chevalier et légende
+
+
+
+# LA VIE AU CHATEAU
+
+## La vie à la cour
+
+## Les femmes au chateau
+
+## La table des siegneurs
+
+## La musique
+
+
+# LE TRAVAIL DE LA TERRE
+
+
+
+
+
+
+
+
+
+# LES FEMMES AU CHATEAU
 
 
 
@@ -183,7 +258,7 @@ ceremonie d'adoubement
 - Suzerain :
 
 
-**<center>LES CHATEAUX FORTS</center>
+# EVOLUTION DES CHATEAUX FORTS 
 * 10-ème siècle:
 * forteresse
 * collines artificielles
