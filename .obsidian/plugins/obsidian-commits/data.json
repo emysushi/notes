@@ -61,7 +61,7 @@
     },
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md": {
       "size": 6152,
-      "tags": 2,
+      "tags": 5,
       "links": 1
     },
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md": {
@@ -184,7 +184,7 @@
     "/": {
       "Refactor": 25,
       "Create": 47,
-      "Link": 23,
+      "Link": 24,
       "Expand": 9
     }
   },
@@ -207,7 +207,7 @@
       "14": 0,
       "15": 77,
       "16": 17,
-      "17": 6,
+      "17": 7,
       "18": 1,
       "19": 0,
       "20": 0,
@@ -222,7 +222,7 @@
       "Tue": 0,
       "Wed": 93,
       "Thu": 0,
-      "Fri": 2,
+      "Fri": 3,
       "Sat": 0,
       "Sun": 5
     }
@@ -308,7 +308,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_histoire-geo.md\"> tpl-fiche_histoire-geo </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>",
-        "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>"
+        "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>"
       ],
       "Refactored": [],
       "Deleted": [
