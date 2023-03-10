@@ -151,11 +151,16 @@ ceremonie d'adoubement
 
 les femmes aux châteaux
 
-offerte ou enlevée pour le mariage
-mariée vers 15 ans 
-et ont déjà beaucoup de choses à faire
--broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
--et de veiller à l'éducation de ses enfants 
+* offerte ou enlevée pour le mariage et:
+ -mariée vers 15 ans 
+* et ont déjà beaucoup de choses à faire:
+ -broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
+ -et de veiller à l'éducation de ses enfants 
+* au moment de l'accouchement:
+ -c'est un moment dangereux car nombreuses à perdus la vie 
+ -le nouveau né est confié à la nourrice 
+ -car la durée de l'allaitement retarderait la naissance d'un autre bébé
+ -la mortalité enfantine oblige à faire beaucoup de bébé
 
 
 
