@@ -17,7 +17,11 @@ duedate:: 2023-03-10
 # LE MOYEN AGE
 Le Moyen Âge est une période de l'histoire de l'Europe, s'étendant de la fin du V e siècle à la fin du XV e siècle, qui débute avec le déclin de l'Empire romain d'Occident et se termine par la Renaissance et les Grandes découvertes.
 
-
+La civilisation médiévale se définit par quatre caractéristiques majeures : 
+- le morcellement de l'autorité politique et le recul de la notion d'État
+- une économie à dominante agricole
+- une société cloisonnée entre une noblesse militaire, qui possède la terre, et une classe paysanne asservie
+-  enfin, un système de pensée fondé sur la foi religieuse et défini par l'Église chrétienne.
 
 # ORGANISATION DE LA SOCIETE AU MOYEN
 
