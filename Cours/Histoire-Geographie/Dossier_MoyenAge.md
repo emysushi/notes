@@ -162,6 +162,8 @@ les femmes aux châteaux
  -car la durée de l'allaitement retarderait la naissance d'un autre bébé
  -la mortalité enfantine oblige à faire beaucoup de bébé
 
+les chevaliers:
+
 
 
 
