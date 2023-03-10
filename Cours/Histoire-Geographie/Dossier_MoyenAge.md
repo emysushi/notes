@@ -281,11 +281,11 @@ ceremonie d'adoubement
 - **Reserve**: terres que le seigneur garde pour lui même
 - **Troubadour**: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
 - **Adoubement**: cérémonie par laquelle on devient chevalier
-- **Paysans**:  vivent du travail de la terre
-- **Défrichement**:  destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
-- Fief : terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
-- Vassal :
-- Suzerain :
+- **Paysans**: vivent du travail de la terre
+- **Défrichement**: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
+- Fief: terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
+- Vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
+- Suzerain: seigneur qui avait concédé un fief à un vassal
 
 
 
@@ -304,9 +304,6 @@ les femmes aux châteaux
  -car la durée de l'allaitement retarderait la naissance d'un autre bébé
  -la mortalité enfantine oblige à faire beaucoup de bébé
 
-les chevaliers:
-
-serment de fidélité:
 
 
 
