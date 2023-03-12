@@ -91,12 +91,12 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 	- maniement de l'épée, lance
 	- combat à cheval
 	- 10 ans
-- Adoubement
+- **Adoubement**
 	- adouber = équiper
 	- par le prêtre
 	- reçoit leur épée, leur armure
 	- reçoit un cheval pour certain (destrier)
-- Après adoubement
+- **Après adoubement**
 	- doit attirer l'attention d'un puissant seigneur (donner un fief ? ou une épouse)
 	- s'entourer de valeureux guerrier
 
