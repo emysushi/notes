@@ -14,6 +14,7 @@ duedate:: 2023-03-10
 
 ---
 
+
 # LE MOYEN AGE
 Le Moyen Âge est une période de l'histoire de l'Europe, s'étendant de la fin du V e siècle à la fin du XV e siècle, qui débute avec le déclin de  #empire_romain_occident et se termine par la #renaissance et les #grandes_decouvertes.
 
@@ -125,11 +126,12 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 # LA VIE AU CHATEAU
 
 ## La vie de cour
-la chasse, les jeux, et d'autres divertissements:
 
-jongleurs: font régner dans le château une ambiance de fête, à la fois bouffon, acteurs et acrobates ils savent aussi chanter des poèmes
-troubadour: composent leur propre musique, récités et chantés, retraçant les actions héroïques des chevaliers
-dans les récits d'amour courtois le chevalier se bat pour l'amour d'une dame
+
+
+- la chasse, les jeux, et d'autres divertissements:
+	- **jongleurs:** font régner dans le château une ambiance de fête, à la fois bouffon, acteurs et acrobates ils savent aussi chanter des poèmes
+	- **troubadour:** composent leur propre musique, récités et chantés, retraçant les actions héroïques des chevaliers dans les récits d'amour courtois le chevalier se bat pour l'amour d'une dame
 
 ## Les femmes au château
 
