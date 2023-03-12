@@ -135,15 +135,17 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 
 ## Les femmes au château
 
-* offerte ou enlevée pour le mariage (forcée ~15 ans,  par amour) 
-* et ont déjà beaucoup de choses à faire:
- -broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
- -et de veiller à l'éducation de ses enfants 
-* au moment de l'accouchement:
- -c'est un moment dangereux car nombreuses à perdus la vie 
- -le nouveau né est confié à la nourrice 
- -car la durée de l'allaitement retarderait la naissance d'un autre bébé
- -la mortalité enfantine oblige à faire beaucoup de bébé 
+* les femmes + mariages = alliances entre familles
+	* offerte ou enlevée pour le mariage (forcée ~15 ans,  par amour)
+* Taches
+	* broderie, lecture, jeux, soins des blessé
+	* gestion de la vie du château
+	* éducation des enfants (confiés à une nourrice)
+* Accouchement
+	* dangereux ( technique médicale absente, maladie) => mortalité infantile oblige à faire beaucoup de bébé 
+	 - nouveau né est confié à la nourrice (allaitement) => 
+	 -car la durée de l'allaitement retarderait la naissance d'un autre bébé
+	 -la mortalité enfantine oblige à faire beaucoup de bébé 
 
 ## La table des seigneurs
 les occasions de festoyer sont nombreuses, nourris copieusement, en montrant sa belle vaisselle et ses habits luxueux
