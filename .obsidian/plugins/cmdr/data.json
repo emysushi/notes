@@ -32,6 +32,12 @@
       "icon": "bookmark-plus",
       "name": "Enhancing Mindmap: Create new mindmap",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-admonition:insert-callout",
+      "icon": "bookmark",
+      "name": "Admonition: Insert Callout",
+      "mode": "any"
     }
   ],
   "fileMenu": [

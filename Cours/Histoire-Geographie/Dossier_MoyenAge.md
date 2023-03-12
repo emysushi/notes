@@ -195,37 +195,77 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 - Famines 
 	- debut 11 ième cycle
 	- les défrichements + l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim
-- population augmente plus vite que les rendements agricoles
+- population augmente plus vite que les 
 - vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
+
 # LES VILLES MEDIEVALES
 
 
 ## Habitats et matériaux
-de la pierre près des carrières, du bois et de l'argile ailleurs, la brique mais elle coute cher (à cause de sa cuisson à haute température)
+- pierre près des carrières
+-  bois et de l'argile ailleurs,
+- brique (cout important =>cuisson à haute température)
 ## Les villes
-enserrant d'abord le château la muraille s'est agrandie au fil des siècles 
-les rues sont encombrées d'étalages, le cri des marchands ambulants
-les villes françaises choquent les étrangers de leur saleté mais pourtant le règlement dit a chacun de balayer devant sa porte
+- enserrant d'abord le château (évolution au fil des siècles. Cf château fort) 
+- rues encombrées d'étalages, marchands ambulants
+- villes françaises : saleté malgré règlement existant 
 ## Le pouvoir des villes
-les riches bourgeois et les grandes familles européennes dominent les villes à partir du 12-ème siècle
-les fils des seigneurs émigrent vers les villes pour y tenter de fructueuses affaires
-la majorité de la population est constituée d'ouvrier textile, marchand ambulant, petit boutiquier et payent peux d'impôts
-en revanche ils sont privés de tout droit les étrangers et les vagabonds qui vivent de rapines et de la charité des autres
+- riches bourgeois et grandes familles européennes dominent les villes à partir du 12-ème siècle
+- fils des seigneurs émigrent vers les villes pour y tenter de fructueuses affaires
+- la majorité de la population : ouvrier textile, marchand ambulant, petit boutiquier
+	- payent peux d'impôts
+	- privés de tout droit
+- étrangers et vagabonds : vivent de rapines et charité
 ## Les métiers
-les rues étaient toutes pleines d'ouvriers qui pratiquaient: le fer, le textile, le tondage…
-les 1er métiers crées sont ceux de l'alimentation
-au 11eme les boulangers et les bouchers
-les métiers regroupent 3 catégories d'individus: les maitres, les valets et les apprentis 
+- les métiers regroupent 3 catégories d'individus: 
+	- maitres : 
+		- propriétaire boutique
+		- distinction reçue après avoir réalisé un chef d'œuvre de maitrise (fils de maitre)
+	- valets : professionnels 
+	- apprentis : 
+		- durée de 4 à 12 ans
+		- nourris, logés, blancis
+		- soumis au pouvoir des maîtres
+- les rues fourmillent d'ouvriers : le fer, le textile, le tondage…
+- alimentation :
+	- les 1er métiers crées 
+	- au 11eme les boulangers et les bouchers
+- Textiles
+	- spécialisations poussées
+		- travail de la laine (nettoyage, peignage, tissage, teinture, tonte, repassage, pliage, transport)
+- Atelier
+	- situés au rez de chaussé
+	- habitation à l'étage
+	- echoppes ouvertent sur la rue
+	- les ouvriers travaillent devant le client (reglement de fabrication = evite la malfacon)
+	- travail sur mesure (tailleur, gantier, cordonnier)
+- tensions sociales existantes
+	- grèves
+
+> [!tip]
+> le peuple de Paris vient chercher de l'embauche place de Grève. L'expression être en grève puis faire la grève vient de ce lieux
+
+
 ## La gestion du savoir
-au 12eme l'école de Paris est spécialisée à l'études des religions et attire de nombreux élèves étrangers et à de maitres 
-les universités s'ouvrent à mesure qu'avance la reconquête chrétienne
-tout commence par un séjour de 6 ans à la faculté des arts, puis les étudiants peuvent se spécialiser
-l'enseignement et en principe gratuit
+- depuis haut du moyen Age  des écoles sont chargés de la formation des religieux.
+- les écoles se spécialisent par la suite : au 12eme l'école de Paris est spécialisée à l'études des religions et attire de nombreux élèves étrangers et à de maitres 
+- organisation des études
+	- 6 années à la facultés des arts (les 7 arts libéraux : grammaire, littérature, philosophie, géométrie, arithmétique, astronomie, musique)
+	- spécialisation par la suite
+- enseignement gratuit même si les maitre demande de l'argent / cadeaux
+- les universités s'ouvrent à mesure qu'avance la reconquête chrétienne
+
 ## Fêtes et foires
-les jours de foire au marché, la ville connait d'autres divertissement grâce aux musicien, jongleurs, acteurs
-mimant les aventures des chevaliers ou celles de la vie des saints en se déguisant et en dansant
-au Moyen Age  l'église considère le métier de marchand impur ou malhonnête
-plusieurs fois par an les marchands européens prennent l'habitude de se rencontrer aux foires internationales pour traiter leur affaires
+- spectacles de plein air
+	- musicien, jongleurs, acteurs (la chevalerie, saints) en se déguisant et en dansant
+- au Moyen Age  l'église considère le métier de marchand impure ou malhonnête
+- Echanges internationaux : plusieurs fois par an les marchands européens prennent l'habitude de se rencontrer aux foires internationales pour traiter leur affaires
+- échanges monétaires
+	- Ecu, florin, ducats (monnaie italienne : le dollar du moyen age)
+	- matériaux : or, argent
+	- frappés par les seigneurs
+	- présenc ede changeur qui pèsent pour vérifier leur poid
+- augmentation de la vente à crédit (banquier). Prêt contre intérêt
 ## Commerces (mers/ports)
 la mer est mieux adaptée au transport des marchandises lourdes sur de longues distances mais dangereuse
 les marchandises de toutes sortes sont acheminées à travers la Méditerrané des produits de luxe comme:
