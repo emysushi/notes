@@ -111,8 +111,10 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 - bouclier en forme d'amende (écu)
 
 ## Chevalier et légende
--  Representation Chevalerie :
-	-   se donne une belle image d'elle même au travers
+-  Représentation Chevalerie :
+	- ordre (codes, ceremonies...) vs chaos  (guerres, maladies)
+	- valeurs (honneur, )
+	- se donne une belle image d'elle même au travers
 - les comtes 
 
 Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
