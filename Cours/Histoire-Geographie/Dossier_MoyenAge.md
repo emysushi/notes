@@ -111,7 +111,8 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 - bouclier en forme d'amende (écu)
 
 ## Chevalier et légende
-la chevalerie se donne une belle image d'elle même:
+La chevalerie se donne une belle image d'elle même au travers
+- les comtes 
 
 Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
 Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
