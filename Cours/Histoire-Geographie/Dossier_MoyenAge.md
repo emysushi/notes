@@ -394,5 +394,4 @@ ceremonie d'adoubement
 - Suzerain: seigneur qui avait concédé un fief à un vassal
 
 
-
-
+richesse d un pays designe
