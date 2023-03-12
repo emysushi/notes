@@ -154,33 +154,49 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 - couverts: fourche à deux dents,  couteaux, gobelets en métal/ coupes en bois
 - les salières (la plus grosse près du maitre de maison)
 - aliments/boissons:
-	- gibier (sanglier ...), bœuf, veau, agneau()bouillit, rôti, farci) , porcelets de lait, oiseaux 
-les mets: oiseaux (car ils volent près du ciel donc près de Dieux)
-boissons: hypocras (vin au miel et aux épices)
-desserts: fruits et fruits secs, plus gourmands grignotes des gaufres, crêpes, amandes et noisettes macérées dans du miel
+	- gibier (sanglier ...), bœuf, veau, agneau()bouillit, rôti, farci) , porcelets de lait, oiseaux (pigeonnier) 
+	- boissons: hypocras (vin au miel et aux épices)
+	- desserts: fruits, fruits secs, gaufres, crêpes, amandes et noisettes macérées dans du miel
 
 ## La musique
-le tambourin et la flute: pour rythmer les pas des danseur lors des fêtes au villages ou celui de l'ours
-ancêtre du violon: muni de cordes pincées sur le manche pour produire des notes graves
-la luth: cordes pincées avec un plectre (petite pièce en écaille ou en bois)
-le psaltérion: gratte les cordes avec des plumes d'oie et produit un son mélodieux (s'accorde avec le luth)
+- tambourin / flute: rythme les pas des danseur lors des fêtes au villages
+- instrument a corde (pincées) :
+	- rebec(ancêtre du violon): notes graves
+	- luth:  plectre (petite pièce en écaille ou en bois)
+	- psaltérion: gratte les cordes avec des plumes d'oie et produit un son mélodieux (s'accorde avec le luth)
 
 # AGRICULTURE
 ## Le travail de la terre
- augmenter les surfaces cultivées:
-11-ème siècle: seigneurs poussent les paysans à défricher les forets
-l'importance du labour:
-grâce à la charrue à roue tirée par des bœufs l'on peut plus facilement retourner la terre
-le cycle des cultures:
-pour tenter d'augmenter les récoltes ils laissent 1/3 du sol au repos dans l'autre ils sèment le blé pour le dernier reçoit de l'avoine…
-les vendanges: 
-la récolte du raisin exige beaucoup de main d'œuvres, les grappes coupées 1par1 sont transportées puis foulées avant d'être pressé
+- objectif :** augmenter les surfaces cultivées**
+	- 11-ème siècle: seigneurs poussent les paysans à** défricher les forets**
+	- l'importance du **labour** (charrue tirée par des bœufs): retourner facilement la terre
+	- les villages sont crées dans les clairières protégés par des haies
+- Agriculture
+	- **Cycle des cultures (tous les 3ans):**
+		-  1/3 : sol au repos (jachère)
+		- 1/3 : semis blés (octobre), 
+		- 1/3 : semis avoine/orge (printemps) : récolte + rapide
+	- moisson (faux, faucille, fléau) : la paille nourrie le bétail
+	- récolte stockée dans les greniers => très mauvaises conditions (perte due à l'humidité)
+- Vendanges: 
+	- exige beaucoup de main d'œuvres,
+	- grappes coupées 1 par 1 > transportées > foulées > pressées
+	- le vin se conserve mal (vendu dans l 'année'
+- Bétail
+	- pait dans les jachères et montagne (transhumance en été)
+	- le foin est insuffisant pour nourrir le bétail en hiver => abattage en automne
+- Fôrets
+	- garder pour le seigneur (chasse)
+	- reservoir de nourriture pour les paysans (lapins, perdrix, glands, noisettes, champignons
+	- charbons
 
 ## Se nourrir
-partout en Europe, les fêtes paysannes célèbrent la terre nourricière:
-après les famines, les défrichements et l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim,
-mais la population augmente plus vite que les rendements agricoles ,
-mais vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
+- partout en Europe, les fêtes paysannes célèbrent la terre nourricière:
+- Famines 
+	- debut 11 ième cycle
+	- les défrichements + l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim
+- population augmente plus vite que les rendements agricoles
+- vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
 # LES VILLES MEDIEVALES
 
 
