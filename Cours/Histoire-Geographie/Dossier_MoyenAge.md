@@ -112,7 +112,7 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 
 ## Chevalier et légende
 -  Représentation Chevalerie :
-	- ordre (codes, ceremonies...) vs chaos  (guerres, maladies)
+	- ordre immuable (codes, ceremonies...) vs chaos  (guerres, maladies)
 	- valeurs (honneur, causes defendues )
 	- perpétue cette image via les comtes
 - les comtes 
