@@ -197,31 +197,20 @@ les 1er métiers crées sont ceux de l'alimentation
 au 11eme les boulangers et les bouchers
 les métiers regroupent 3 catégories d'individus: les maitres, les valets et les apprentis 
 ## La gestion du savoir
-
+au 12eme l'école de Paris est spécialisée à l'études des religions et attire de nombreux élèves étrangers et à de maitres 
+les universités s'ouvrent à mesure qu'avance la reconquête chrétienne
+tout commence par un séjour de 6 ans à la faculté des arts, puis les étudiants peuvent se spécialiser
+l'enseignement et en principe gratuit
 ## Fêtes et foires
-
+les jours de foire au marché, la ville connait d'autres divertissement grâce aux musicien, jongleurs, acteurs
+mimant les aventures des chevaliers ou celles de la vie des saints en se déguisant et en dansant
+au Moyen Age  l'église considère le métier de marchand impur ou malhonnête
+plusieurs fois par an les marchands européens prennent l'habitude de se rencontrer aux foires internationales pour traiter leur affaires
 ## Commerces (mers/ports)
-
-
-
-
-
-
-
-
-
-
-
-
-
-# LES FEMMES AU CHATEAU
-
-
-
------
-
-
-
+la mer est mieux adaptée au transport des marchandises lourdes sur de longues distances mais dangereuse
+les marchandises de toutes sortes sont acheminées à travers la Méditerrané des produits de luxe comme:
+tapis, soies, parfums, sucre, coton, ivoire et surtout des épices:
+poivre, cannelle, clous de girofle,.
 
 
 
