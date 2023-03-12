@@ -58,6 +58,8 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 ```
 
 
+
+
 # EVOLUTION DES CHATEAUX FORTS 
 * **10-ème siècle:**
 	* forteresse
@@ -264,14 +266,20 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 	- Ecu, florin, ducats (monnaie italienne : le dollar du moyen age)
 	- matériaux : or, argent
 	- frappés par les seigneurs
-	- présenc ede changeur qui pèsent pour vérifier leur poids
+	- présence de changeur qui pèsent pour vérifier leur poids
 - augmentation de la vente à crédit (banquier). Prêt contre intérêt
 ## Commerces (mers/ports)
-la mer est mieux adaptée au transport des marchandises lourdes sur de longues distances mais dangereuse
-les marchandises de toutes sortes sont acheminées à travers la Méditerrané des produits de luxe comme:
-tapis, soies, parfums, sucre, coton, ivoire et surtout des épices:
-poivre, cannelle, clous de girofle,.
-
+- transport maritime 
+	- mieux adapté pour de lourde charge
+	- longues distances
+	- plus dangereux : intempéries, piraterie. Escorte de protection
+- Innovations techniques  : étambot (gouvernail), boussole, astrolabe, cartes marines
+- marchandises de luxe :
+	- tapis, cotin, ivoire, soieries, parfum, bois précieux, épices (poivre, cannelle, clous de girofle)
+	- orient (italiens) + Méditerrané
+- Présences de marchands partout  :port, comptoirs, grandes villes (quartiers reservés)
+- techniques de commerces (credit, comptabilité, assurance)
+- principaux ports : bruges (belgique), la rochelle (france), lisbonne (portugal), venise et gènes et naples (italie), constantinople (turquie), damas (syrie), le caire (egypte)
 
 
 
