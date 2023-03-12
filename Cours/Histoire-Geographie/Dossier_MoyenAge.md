@@ -156,7 +156,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - couverts: fourche à deux dents,  couteaux, gobelets en métal/ coupes en bois
 - les salières (la plus grosse près du maitre de maison)
 - aliments/boissons:
-	- gibier (sanglier ...), bœuf, veau, agneau()bouillit, rôti, farci) , porcelets de lait, oiseaux (pigeonnier) 
+	- gibier (sanglier …), bœuf, veau, agneau()bouillit, rôti, farci) , porcelets de lait, oiseaux (pigeonnier) 
 	- boissons: hypocras (vin au miel et aux épices)
 	- desserts: fruits, fruits secs, gaufres, crêpes, amandes et noisettes macérées dans du miel
 
