@@ -11,11 +11,9 @@
             "id": "659ebc9e2bedd476",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
-                "mode": "source",
-                "source": false
+                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
               }
             }
           }
@@ -102,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md"
+                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
               }
             }
           },
@@ -217,8 +215,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "659ebc9e2bedd476",
   "lastOpenFiles": [
+    "Planning_Semaine/Planning_Week_2023-03-12.md",
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Dossier_Liste.md",
     "Cours/Technologie/Dossier_Serrures.md",
@@ -248,7 +247,6 @@
     "Cours/Technologie/Home.md",
     "Cours/Svt/Home.md",
     "Cours/Physique-Chimie/Home.md",
-    "Cours/Musique/Home.md",
     "Cours/Technologie",
     "Cours/Svt",
     "Cours/Physique-Chimie",
