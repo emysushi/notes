@@ -143,20 +143,18 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 	* éducation des enfants (confiés à une nourrice)
 * Accouchement
 	* dangereux ( technique médicale absente, maladie) => mortalité infantile oblige à faire beaucoup de bébé 
-	 - nouveau né est confié à la nourrice (allaitement) => 
-	 -car la durée de l'allaitement retarderait la naissance d'un autre bébé
-	 -la mortalité enfantine oblige à faire beaucoup de bébé 
+	 - nouveau né est confié à la nourrice (allaitement) =>  la durée de l'allaitement retarderait la naissance d'un autre bébé
 
 ## La table des seigneurs
-les occasions de festoyer sont nombreuses, nourris copieusement, en montrant sa belle vaisselle et ses habits luxueux
-comme les convives manges avec leur 3 doigts chacun se lave les mains avant de passer à table
-
-table: planche soutenue par des tréteaux et couverte d'une nappe
-assiettes: tranchoirs, plaques de métal ou de bois recouvertes de larges tranches de pain
-couverts: fourche à deux dents et d'un couteaux, gobelets en métal ou coupes en bois
-et les salières (la plus grosse près du maitre de maison)
-
-aliments: le gibier, bœuf, veau, agneau que l'on sert en bouillit, rôti ou farci, porcelets de lait ou sangliers de la foret
+- fastes :
+	- indication de la richesse, le rang
+	- nourriture abondantes et soignées, belles vaisselles, habits luxueux
+- les convives manges avec leurs 3 doigts, lavage des mains avant de passer à table
+- table:  tréteaux + nappe, assiettes, tranchoirs (pain)
+- couverts: fourche à deux dents,  couteaux, gobelets en métal/ coupes en bois
+- les salières (la plus grosse près du maitre de maison)
+- aliments/boissons:
+	- gibier (sanglier ...), bœuf, veau, agneau()bouillit, rôti, farci) , porcelets de lait, oiseaux 
 les mets: oiseaux (car ils volent près du ciel donc près de Dieux)
 boissons: hypocras (vin au miel et aux épices)
 desserts: fruits et fruits secs, plus gourmands grignotes des gaufres, crêpes, amandes et noisettes macérées dans du miel
