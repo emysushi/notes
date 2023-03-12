@@ -113,30 +113,29 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 
 ## Chevalier et légende
 -  Représentation Chevalerie :
-	- ordre immuable (codes, ceremonies...) vs chaos  (guerres, maladies)
+	- ordre immuable (codes, cérémonies ...) vs chaos  (guerres, maladies)
 	- valeurs (honneur, causes défendues )
-	- perpétue cette image via les comtes
+	- perpétue cette image via les comtes, chants (troubadour)
 - les comtes :
 	- Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
 	- Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
 	- La quête du Graal (chevalier de la table ronde / Roi Arthur / Merlin): autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacrée ayant contenu le sang du christ)
 	- Le bien contre le mal: Saint Georges et Saint Michel sont les saints patrons, représentés en train de combattre le dragon (diable)
-	- Un amour impossible: le roi Marc veut épouser  Tristan&Yseut et la ramène mais par erreur boivent un filtre d'amour
+	- Un amour impossible: le roi Marc veut épouser  Tristan & Yseult et la ramène mais par erreur boivent un filtre d'amour
 
 # LA VIE AU CHATEAU
 
 ## La vie de cour
+- La cour = espace dans le château ou habite le seigneur + ensemble des personnes qui l'entourent 
+- durant les mois d'hiver (sans guerre) = nécessité d'occuper les chevaliers
+	- **chasse**
+	- **jongleurs:**  ambiance de fête (bouffon, acteurs et acrobates, chanteurs de poèmes)
+	- **troubadour:** compositeur, transmission des comtes et légendes (chevalerie, histoire) 
 
-
-
-- la chasse, les jeux, et d'autres divertissements:
-	- **jongleurs:** font régner dans le château une ambiance de fête, à la fois bouffon, acteurs et acrobates ils savent aussi chanter des poèmes
-	- **troubadour:** composent leur propre musique, récités et chantés, retraçant les actions héroïques des chevaliers dans les récits d'amour courtois le chevalier se bat pour l'amour d'une dame
 
 ## Les femmes au château
 
-* offerte ou enlevée pour le mariage et:
- -mariée vers 15 ans - non pour une affaire de cœur
+* offerte ou enlevée pour le mariage (forcée ~15 ans,  par amour) 
 * et ont déjà beaucoup de choses à faire:
  -broder, lire, jouer aux échecs, soigner les blessés, offrir l'hospitalité, 
  -et de veiller à l'éducation de ses enfants 
