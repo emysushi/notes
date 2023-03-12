@@ -113,15 +113,14 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 ## Chevalier et légende
 -  Représentation Chevalerie :
 	- ordre immuable (codes, ceremonies...) vs chaos  (guerres, maladies)
-	- valeurs (honneur, causes defendues )
+	- valeurs (honneur, causes défendues )
 	- perpétue cette image via les comtes
-- les comtes 
-
-Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
-Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
-La quête du Graal: autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacré ayant contenu le sang du christ)
-Le bien contre le mal: Saint Georges et Saint Michel sont les saints patrons, représentés en train de combattre le dragon (diable)
-Un amour impossible: le roi Marc veut épouser Yseut et Tristan la ramène mais par erreur boivent un filtre d'amour
+- les comtes :
+	- Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
+	- Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
+	- La quête du Graal (chevalier de la table ronde / Roi Arthur / Merlin): autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacrée ayant contenu le sang du christ)
+	- Le bien contre le mal: Saint Georges et Saint Michel sont les saints patrons, représentés en train de combattre le dragon (diable)
+	- Un amour impossible: le roi Marc veut épouser  Tristan&Yseut et la ramène mais par erreur boivent un filtre d'amour
 
 # LA VIE AU CHATEAU
 
