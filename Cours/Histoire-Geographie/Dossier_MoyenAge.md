@@ -264,7 +264,7 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 	- Ecu, florin, ducats (monnaie italienne : le dollar du moyen age)
 	- matériaux : or, argent
 	- frappés par les seigneurs
-	- présenc ede changeur qui pèsent pour vérifier leur poid
+	- présenc ede changeur qui pèsent pour vérifier leur poids
 - augmentation de la vente à crédit (banquier). Prêt contre intérêt
 ## Commerces (mers/ports)
 la mer est mieux adaptée au transport des marchandises lourdes sur de longues distances mais dangereuse
