@@ -11,9 +11,11 @@
             "id": "659ebc9e2bedd476",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -80,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md",
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-06.md"
+                "file": "Cours/Histoire-Geographie/Dossier_MoyenAge.md"
               }
             }
           },
@@ -217,13 +219,14 @@
   },
   "active": "659ebc9e2bedd476",
   "lastOpenFiles": [
-    "Planning_Semaine/Planning_Week_2023-03-12.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
+    "Planning_Semaine/Planning_Week_2023-03-12.md",
     "Dossier_Liste.md",
     "Cours/Technologie/Dossier_Serrures.md",
     "Template/tpl-dossier.md",
     "Cours/Anglais/Dossier_massachusset.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Bibliotheque_Liste.md",
     "Template/tpl-livre.md",
     "Template/tpl-kanban.md",
@@ -232,7 +235,6 @@
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_histoire-geo.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Gallery/Pasted image 20230308173724.png",
     "conflict-files-obsidian-git.md",
     "histoire.md",
