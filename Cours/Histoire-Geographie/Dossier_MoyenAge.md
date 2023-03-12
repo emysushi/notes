@@ -31,12 +31,12 @@ Vers 1000 a jc, les châteaux forts apparaissent contrer les invasions barbares 
 - affaiblissement du pouvoir royal : 
 	- frontières peu définies, 
 	- conflits entre les comtés,
-	- le pouvoir appartient aux guerriers les mieux armés (impose leurs lois). Les chateaux rappellent aux habitants qui est le maitre
+	- le pouvoir appartient aux guerriers les mieux armés (impose leurs lois). Les châteaux rappellent aux habitants qui est le maitre
 - augmentation de l'insécurité
 	- invasions barbares
 	- conflits entre les contés
 
-La feodalité diffère selon les regions (dans le sud de la France, nombreux chevaliers possèdent leur propre terre)
+La féodalité diffère selon les régions (dans le sud de la France, nombreux chevaliers possèdent leur propre terre)
 
 
 
