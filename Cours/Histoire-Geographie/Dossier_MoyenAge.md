@@ -113,8 +113,8 @@ La feodalité diffère selon les regions (dans le sud de la France, nombreux che
 ## Chevalier et légende
 -  Représentation Chevalerie :
 	- ordre (codes, ceremonies...) vs chaos  (guerres, maladies)
-	- valeurs (honneur, )
-	- se donne une belle image d'elle même au travers
+	- valeurs (honneur, causes defendues )
+	- perpétue cette image via les comtes
 - les comtes 
 
 Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
