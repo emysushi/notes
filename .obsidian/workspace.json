@@ -11,13 +11,28 @@
             "id": "659ebc9e2bedd476",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-13.md"
+                "file": "Template/tpl-fiche_svt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c1b63ec4248142c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-13.md",
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-13.md",
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-13.md"
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md"
               }
             }
           },
@@ -215,11 +230,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "659ebc9e2bedd476",
+  "active": "c1b63ec4248142c2",
   "lastOpenFiles": [
+    "Template/tpl-fiche_techno.md",
+    "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
+    "Template/tpl-fiche_svt.md",
+    "Planning_Semaine/Planning_Week_2023-03-13.md",
     "Template/tpl-kanban.md",
-    "Planning_Semaine/Planning_Week_2023-03-13.md",
-    "Planning_Semaine/Planning_Week_2023-03-13.md",
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",
@@ -230,7 +247,6 @@
     "Cours/Anglais/Dossier_massachusset.md",
     "Bibliotheque_Liste.md",
     "Template/tpl-livre.md",
-    "Template/tpl-fiche_svt.md",
     "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
@@ -246,7 +262,6 @@
     "Template/tpl-block-column_model2.md",
     "Template/tpl-block-column-modele1.md",
     "Planning_Semaine",
-    "Cours/Technologie/Home.md",
     "Cours/Technologie",
     "Cours/Svt",
     "Cours/Physique-Chimie",
