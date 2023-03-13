@@ -40,7 +40,10 @@ content:
 - Materieux 
 ```
 
-
+| materiaux | revetement | couleur/aspect |
+|-----------|------------|----------------|
+| bois      | brut       | marron         |
+| pierre    | enduit     | gris           |
 
 
 
