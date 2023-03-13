@@ -38,8 +38,8 @@ title: 6-eme au 15-eme
 content:
 - Type construction : maison
 - Materiaux : bois, pierre
-- 
-date: Temps Moderne
+
+date: Epoque Contemporaine
 title: 
 content:
 - Type construction : 
