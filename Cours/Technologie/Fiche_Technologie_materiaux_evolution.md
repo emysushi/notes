@@ -24,13 +24,13 @@ updated:: 2023-03-13 16:02:40
 date: Prehistoire
 title: 30 000 a jc
 content:
-- Type construction : Hutte
+- Type construction : Hutte, s'habriter
 - Materieux : abris naturels (branchage...)
 
 date: Antiquite
-title: 
+title: 5 000 a jc
 content:
-- Type construction :
+- Type construction : 
 - Materieux : 
 
 date: 2010
