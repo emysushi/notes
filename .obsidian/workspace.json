@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-fiche_svt.md",
+                "file": "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-fiche_svt.md"
+                "file": "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md"
               }
             }
           },
@@ -226,17 +226,18 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5883242f4e5b52d0",
+  "active": "659ebc9e2bedd476",
   "lastOpenFiles": [
+    "Template/tpl-fiche_physique-chimie.md",
     "Planning_Semaine/Planning_Week_2023-03-13.md",
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
+    "Template/tpl-fiche_svt.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
     "Template/tpl-fiche_techno.md",
-    "Template/tpl-fiche_svt.md",
     "Template/tpl-kanban.md",
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Planning_Semaine/Planning_Week_2023-03-12.md",
     "Dossier_Liste.md",
     "Cours/Technologie/Dossier_Serrures.md",
@@ -244,7 +245,6 @@
     "Cours/Anglais/Dossier_massachusset.md",
     "Bibliotheque_Liste.md",
     "Template/tpl-livre.md",
-    "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_histoire-geo.md",

@@ -28,16 +28,16 @@ kanban-plugin: basic
 
 ## DAILY_TODO
 
-- [ ] #Francais #_revision @{2023-03-14}
-- [ ] #Technologie #_revision @{2023-03-14}
 - [ ] #Physique-Chimie #_revision @{2023-03-14}
+- [ ] #Technologie #_revision @{2023-03-14}
 - [ ] #Histoire-Geographie  #_revision @{2023-03-14}
-- [ ] #Khan #_exercice @{2023-03-13}
 - [ ] #Anglais  #_revision @{2023-03-14}
+- [ ] #Khan #_exercice @{2023-03-13}
 
 
 ## DAILY_TOCKECK
 
+- [ ] #Francais #_revision @{2023-03-14}
 
 
 ## WEEKLY_DONE
