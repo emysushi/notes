@@ -18,7 +18,24 @@ updated:: 2023-03-13 16:02:40
 # l'habitat au cours de l'histoire
 
 
+```timeline-labeled
+[line-3, body-2]
 
+date: Prehistoire
+title: 30 000 a jc
+content:
+- Hutte : abris naturels (branchage...)
+
+date: 2010
+title: Naissance de Emy
+content:
+EmySushi la plus jolie
+
+date: 2010
+title: Naissance de Emy
+content:
+EmySushi la plus jolie
+```
 
 
 
