@@ -9,16 +9,14 @@ tags : #fiche  #Physique-Chimie #corps_pure_melange
 
 title:: corps_pure_melange
 domaine:: #Physique-Chimie
-author:: EmySushi
-status:: inprogress
+author:: Emy Sushi
+statuts:: in Progress
 created:: 2023-03-13 16:04:11
 updated:: 2023-03-13 16:04:11
 
-
-
-
 ---
- mélanges        et constituants 
+
+# mélanges et constituants 
 
 
 
