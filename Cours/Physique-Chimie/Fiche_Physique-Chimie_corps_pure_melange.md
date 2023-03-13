@@ -18,6 +18,7 @@ updated:: 2023-03-13 16:04:11
 # mélanges et constituants 
 
 eau minérale: eau + sels minéraux
+les séparer: en chauffant ou en évaporant
 
 
 
@@ -32,7 +33,8 @@ eau minérale: eau + sels minéraux
 
 ## Définitions
 ---
-
+<font color="#ff0000">mélange homogène:</font>  mélange ou l'on distingue qu'un seul constituants
+<font color="#ff0000">mélange hétérogène:</font> mélange ou l'on distingue plusieurs constituants 
 
 
 ## Idées a retenir
