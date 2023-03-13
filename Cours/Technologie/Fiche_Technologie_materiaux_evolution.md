@@ -17,7 +17,6 @@ updated:: 2023-03-13 16:02:40
 ---
 # l'habitat au cours de l'histoire
 
-
 ```timeline-labeled
 [line-3, body-2]
 
@@ -49,13 +48,9 @@ content:
 date: Epoque comtempraine  
 title: 20-eme 
 content:
-- Type construction : immeuble, 
+- Type construction : immeuble, loger+
 - Materiaux : beton, acier, verre
 
-| materiaux | revetement | couleur/aspect |
-|-----------|------------|----------------|
-| bois      | brut       | marron         |
-| pierre    | enduit     | gris           |
 
 
 
@@ -67,43 +62,14 @@ content:
 
 
 
-## Idées a retenir
----
-
-
-
-```mermaid
-stateDiagram-v2 
-    [*] --> Experience1
-    Experience1 --> a1
-    a1 --> a2
-    a2 --> [*]
-
-    [*] --> Experience2
-    Experience2 --> a3
-    a3 --> test
-    test --> no
-    test --> yes
-    yes --> [*]
- 
-```
-
-
-```mermaid
-stateDiagram-v2
-state if_state <<choice>>
-        [*] --> IsPositive
-        IsPositive --> if_state
-        if_state --> False: if n < 0
-        if_state --> True : if n >= 0
-```
 
 
 
 
 
 
----
+
+
 
 ## Liens
 
