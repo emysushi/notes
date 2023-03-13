@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-13.md",
+                "file": "Template/tpl-fiche_svt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-13.md",
+                "file": "Template/tpl-fiche_svt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-03-13.md"
+                "file": "Template/tpl-fiche_svt.md"
               }
             }
           },
@@ -198,12 +197,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 230.5,
-    "collapsed": true
+    "width": 375.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,13 +226,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c1b63ec4248142c2",
+  "active": "5883242f4e5b52d0",
   "lastOpenFiles": [
+    "Planning_Semaine/Planning_Week_2023-03-13.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
     "Template/tpl-fiche_techno.md",
     "Template/tpl-fiche_svt.md",
-    "Planning_Semaine/Planning_Week_2023-03-13.md",
     "Template/tpl-kanban.md",
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
