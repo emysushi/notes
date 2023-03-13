@@ -39,7 +39,7 @@ content:
 - Type construction : maison
 - Materiaux : bois, pierre
 - 
-date: T
+date: Temps Moderne
 title: 
 content:
 - Type construction : 
