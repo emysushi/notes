@@ -24,17 +24,20 @@ updated:: 2023-03-13 16:02:40
 date: Prehistoire
 title: 30 000 a jc
 content:
-- Hutte : abris naturels (branchage...)
+- Type construction : Hutte
+- Materieux : abris naturels (branchage...)
 
 date: 2010
 title: Naissance de Emy
 content:
-EmySushi la plus jolie
+- Type construction :
+- Materieux : 
 
 date: 2010
 title: Naissance de Emy
 content:
-EmySushi la plus jolie
+- Type construction :
+- Materieux 
 ```
 
 
