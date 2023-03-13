@@ -25,20 +25,26 @@ date: Prehistoire
 title: 30 000 a jc
 content:
 - Type construction : Hutte, s'habriter
-- Materieux : abris naturels (branchage...)
+- Materiaux : abris naturels (branchage...)
 
 date: Antiquite
 title: 5 000 a jc
 content:
 - Type construction : chaumiere
-- Materieux : abrits naturels (chaume...)
+- Materiaux : abrits naturels (chaume...)
 
 date: Moyen Age
 title: 6-eme au 15-eme
 content:
+- Type construction : maison
+- Materiaux : bois, pierre
+- 
+date: T
+title: 
+content:
 - Type construction : 
-- Materieux 
-```
+- Materiaux : 
+
 
 | materiaux | revetement | couleur/aspect |
 |-----------|------------|----------------|
