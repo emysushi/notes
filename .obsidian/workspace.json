@@ -13,7 +13,7 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Template/tpl-kanban.md"
+                "file": "Planning_Semaine/Planning_Week_2023-03-13.md"
               }
             }
           }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-kanban.md",
+                "file": "Planning_Semaine/Planning_Week_2023-03-13.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-kanban.md",
+                "file": "Planning_Semaine/Planning_Week_2023-03-13.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-kanban.md"
+                "file": "Planning_Semaine/Planning_Week_2023-03-13.md"
               }
             }
           },
@@ -189,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 280.5
+    "width": 280.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,6 +217,8 @@
   },
   "active": "659ebc9e2bedd476",
   "lastOpenFiles": [
+    "Template/tpl-kanban.md",
+    "Planning_Semaine/Planning_Week_2023-03-13.md",
     "Planning_Semaine/Planning_Week_2023-03-13.md",
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
@@ -227,7 +230,6 @@
     "Cours/Anglais/Dossier_massachusset.md",
     "Bibliotheque_Liste.md",
     "Template/tpl-livre.md",
-    "Template/tpl-kanban.md",
     "Template/tpl-fiche_svt.md",
     "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_math.md",
@@ -245,7 +247,6 @@
     "Template/tpl-block-column-modele1.md",
     "Planning_Semaine",
     "Cours/Technologie/Home.md",
-    "Cours/Svt/Home.md",
     "Cours/Technologie",
     "Cours/Svt",
     "Cours/Physique-Chimie",
