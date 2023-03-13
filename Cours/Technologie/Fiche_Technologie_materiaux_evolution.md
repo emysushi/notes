@@ -30,21 +30,27 @@ content:
 date: Antiquite
 title: 5 000 a jc
 content:
-- Type construction : chaumiere
+- Type construction : chaumiere, se regrouper
 - Materiaux : abrits naturels (chaume...)
 
 date: Moyen Age
 title: 6-eme au 15-eme
 content:
-- Type construction : maison
+- Type construction : maison, se proteger
 - Materiaux : bois, pierre
+- 
 
-date: Epoque Contemporaine
-title: 
+date: Temps Moderne
+title: 15-eme au 19-eme
 content:
-- Type construction : 
-- Materiaux : 
+- Type construction : haussmanien, le confort
+- Materiaux : pierre, brique, verre
 
+date: Epoque comtempraine  
+title: 20-eme 
+content:
+- Type construction : immeuble, 
+- Materiaux : beton, acier, verre
 
 | materiaux | revetement | couleur/aspect |
 |-----------|------------|----------------|
