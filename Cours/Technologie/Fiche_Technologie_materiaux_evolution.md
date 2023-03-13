@@ -30,13 +30,13 @@ content:
 date: Antiquite
 title: 5 000 a jc
 content:
-- Type construction : 
-- Materieux : 
+- Type construction : chaumiere
+- Materieux : abrits naturels (chaume...)
 
-date: 2010
-title: Naissance de Emy
+date: Moyen Age
+title: 6-eme au 15-eme
 content:
-- Type construction :
+- Type construction : 
 - Materieux 
 ```
 
