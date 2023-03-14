@@ -160,9 +160,9 @@
       "links": 0
     },
     "Cours/Histoire-Geographie/Dossier_MoyenAge.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
+      "size": 15904,
+      "tags": 5,
+      "links": 1
     },
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md": {
       "size": 0,
@@ -171,27 +171,27 @@
     },
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md": {
       "size": 1804,
-      "tags": 0,
+      "tags": 3,
       "links": 0
     },
     "Cours/Technologie/Dossier_Serrures.md": {
       "size": 608,
-      "tags": 0,
+      "tags": 2,
       "links": 0
     },
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md": {
       "size": 1735,
-      "tags": 0,
+      "tags": 3,
       "links": 0
     },
     "Planning_Semaine/Planning_Week_2023-03-13.md": {
       "size": 2034,
-      "tags": 0,
+      "tags": 14,
       "links": 0
     },
     "Template/tpl-fiche_techno.md": {
       "size": 1761,
-      "tags": 0,
+      "tags": 1,
       "links": 0
     },
     "histoire.md": {
@@ -204,8 +204,8 @@
     "/": {
       "Refactor": 375,
       "Create": 344,
-      "Link": 105,
-      "Expand": 9
+      "Link": 112,
+      "Expand": 10
     }
   },
   "dailyCommits": {
@@ -219,7 +219,7 @@
       "6": 0,
       "7": 0,
       "8": 0,
-      "9": 8,
+      "9": 16,
       "10": 0,
       "11": 3,
       "12": 3,
@@ -239,7 +239,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 750,
-      "Tue": 72,
+      "Tue": 80,
       "Wed": 6,
       "Thu": 0,
       "Fri": 0,
@@ -258,7 +258,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-kanban.md\"> tpl-kanban </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -355,6 +356,12 @@
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_physique-chimie.md\"> tpl-fiche_physique-chimie </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md\"> Fiche_Physique-Chimie_corps_pure_melange </a>",
+        "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
+        "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-13.md\"> Planning_Week_2023-03-13 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_techno.md\"> tpl-fiche_techno </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md\"> Fiche_Histoire-Geographie_Paysan_Seigneur </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_physique-chimie.md\"> tpl-fiche_physique-chimie </a>",
@@ -399,13 +406,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Verbes.md\"> Verbes </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Glossaire.md\"> Glossaire </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>",
-        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Alice au pays des merveilles.md\"> fiche_Alice au pays des merveilles </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche.md\"> tpl-fiche </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"Template/tpl_semaine.md\"> tpl_semaine </a>"
@@ -464,6 +465,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/KNote_Planning_Semaine_null.md\"> KNote_Planning_Semaine_null </a>"
       ],
       "Linked": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Dossier_MoyenAge.md\"> Dossier_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -513,8 +515,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>",
-        "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_2023-03-06.md\"> Planning_2023-03-06 </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Planning_Semaine/2023-03-05.md\"> 2023-03-05 </a>",

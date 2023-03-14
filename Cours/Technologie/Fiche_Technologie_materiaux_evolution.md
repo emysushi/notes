@@ -15,7 +15,12 @@ created:: 2023-03-13 16:02:40
 updated:: 2023-03-13 16:02:40
 
 ---
-# l'habitat au cours de l'histoire
+
+
+
+# HABITAT AU COURS DE L HISTOIRE
+---
+
 
 ```timeline-labeled
 [line-3, body-2]
@@ -29,31 +34,29 @@ content:
 date: Antiquite
 title: 5 000 a jc
 content:
-- Type construction : chaumiere, se regrouper
-- Materiaux : abrits naturels (chaume...)
+@ Type construction : chaumiere, se regrouper
+@ Materiaux : abrits naturels (chaume...)
 
 date: Moyen Age
 title: 6-eme au 15-eme
 content:
-- Type construction : maison, se proteger
-- Materiaux : bois, pierre
-- 
+@ Type construction : maison, se proteger
+@ Materiaux : bois, pierre
 
 date: Temps Moderne
 title: 15-eme au 19-eme
 content:
-- Type construction : haussmanien, le confort
-- Materiaux : pierre, brique, verre
+@ Type construction : haussmanien, le confort
+@ Materiaux : pierre, brique, verre
 
 date: Epoque comtempraine  
 title: 20-eme 
 content:
-- Type construction : immeuble, loger+
-- Materiaux : beton, acier, verre
+@ Type construction : immeuble, loger+
+@ Materiaux : beton, acier, verre
 ```
 
-
-
+AZERTY
 
 
 

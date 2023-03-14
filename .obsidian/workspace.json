@@ -103,7 +103,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -230,15 +230,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-translator:Translate": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open this week": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "gpt3-notes:GPT-3 Notes": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false
+      "gpt3-notes:GPT-3 Notes": false
     }
   },
-  "active": "96158895188d4f21",
+  "active": "21f9f6e2fb2ab428",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
