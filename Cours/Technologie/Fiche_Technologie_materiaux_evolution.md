@@ -70,7 +70,6 @@ content:
 
 
 
-
 ## Liens
 
 Note :  Noter les liens interessant se rapportant au sujet
