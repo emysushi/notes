@@ -1,4 +1,6 @@
 
+<<<<<<< HEAD
+=======
 
 ## Course element
 ```dataview
@@ -16,3 +18,4 @@ WHERE contains(file.path, "Cours")
 ```
 
 
+>>>>>>> origin/main

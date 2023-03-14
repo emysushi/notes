@@ -8,7 +8,8 @@ TABLE WITHOUT ID
 	domaine as Domaine,
 	link(file.link, title) as Title,
 	author as Author,
-	created as DateCreated
+	created as DateCreated,
+	duedate as DueDate
 	
 FROM #dossier
 WHERE !contains(file.path, "Template") 

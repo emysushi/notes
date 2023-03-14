@@ -14,7 +14,7 @@ tags : #fiche  <% "#"+qcDomain %> <% "#"+qcFileName %>
 ---
 
 title:: <% qcFileName %>
-domaine:: <% tp.file.folder(false) %>
+domaine:: <% "#"+tp.file.folder(false) %>
 author:: EmySushi
 status:: inprogress
 created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
@@ -27,12 +27,12 @@ updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
 
-## Definitions
+## Définitions
 ---
 
 
 
-## Idees a retenir
+## Idées a retenir
 ---
 
 
@@ -72,7 +72,7 @@ state if_state <<choice>>
 
 ## Liens
 
-Note :  Noter les liens interessant se rapportant au sujet
+Note :  Noter les liens intéressant se rapportant au sujet
 
 - liens1
 - liens2
