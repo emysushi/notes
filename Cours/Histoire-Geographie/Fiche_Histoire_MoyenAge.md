@@ -42,8 +42,6 @@ JC, les châteaux forts apparaissent contrer les invasions barbares (viking, ara
 
 La féodalité diffère selon les régions (dans le sud de la France, nombreux chevaliers possèdent leur propre terre)
 
-
-
 ## Les devoirs de chacun
 ```col-md
 
@@ -60,8 +58,6 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 		- service de chevauchée (faire la guerre - limité a 40jrs / an)
 
 ```
-
-
 
 
 # EVOLUTION DES CHATEAUX FORTS 
@@ -431,12 +427,11 @@ ceremonie d'adoubement
 - #gibets : 
 - #haubert ( #cotte-de-maille ) : 
 - #heaume : 
-- 
 - #meurtrières :
 - #machicoulis : 
 - #orge : 
 - #pont-levis : 
--  #reserves: terres que le seigneur garde pour lui même
+- #reserves: terres que le seigneur garde pour lui même
 - #ramparts :
 - #seigle : 
 - #Seigneur: exerce son pouvoir sur les terres et les humains
@@ -452,20 +447,19 @@ ceremonie d'adoubement
 - #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
 - #suzerain: seigneur qui avait concédé un fief à un vassal
 - #serpette :
-- #transhumance
-
+- #transhumance :
 - #fenaison : 
-- **faux : cf plus haut
-- **faucille : cf plus haut
-- **moisson : **
-- **battage : **
-- **semailles :**
-- **foulages :**
-- **torchis :**
-- **chaume : 
-- **collier d'épaule : **
-- **charrue à roue : **
-- **soc en fer :**
+- #faux : cf plus haut
+- #faucille : cf plus haut
+- #moisson : 
+- #battage : 
+- #semailles :
+- #foulages :
+- #torchis :
+- #chaume : 
+- #collier d'épaule :
+- #charrue à roue :
+- #soc en fer :
 - #jachere:
 -  
 
