@@ -407,8 +407,20 @@ ceremonie d'adoubement
 - **Adoubement**: cérémonie par laquelle on devient chevalier
 - **Paysans**: vivent du travail de la terre
 - **Défrichement**: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
-- Fief: terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
-- Vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
-- Suzerain: seigneur qui avait concédé un fief à un vassal
+- **Fief:** terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
+- **Vassal:** homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
+- **Suzerain:** seigneur qui avait concédé un fief à un vassal
+- **serpette :**
+- **fenaison
+- **faux : cf plus haut
+- **faucille : cf plus haut
+- **moisson : **
+- **battage : **
+- **semailles :**
+- **foulages :**
+- **torchis :**
+- **chaume : 
+- **collier d'épaule : **
+- 
 
 
