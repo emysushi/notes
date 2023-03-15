@@ -56,7 +56,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- 2
 		# VASSAL
 		- promet fidélité au seigneur (cérémonie de l'hommage)
-		- les fieifs se transmettent de pere en fils
+		- les fiefs se transmettent de pere en fils
 		- service de chevauchée (faire la guerre - limité a 40jrs / an)
 
 ```
