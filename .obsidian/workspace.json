@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#reserve",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,12 +82,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "de72a87206515b52",
@@ -218,7 +217,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c1b63ec4248142c2",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",

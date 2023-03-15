@@ -399,16 +399,17 @@ ceremonie d'adoubement
 
  # GLOSSAIRE
 ---
-- **Seigneur**: exerce son pouvoir sur les terres et les humains
-- **Seigneurie**: domaine sur lequel le seigneur exerce son pouvoir
-- **Tenure**: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
-- **Reserve**: terres que le seigneur garde pour lui même
-- **Troubadour**: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
-- **Adoubement**: cérémonie par laquelle on devient chevalier
-- **Paysans**: vivent du travail de la terre
-- **Défrichement**: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
+- #adoubement: cérémonie par laquelle on devient chevalier
+- #cens : 
+-  #reserves: terres que le seigneur garde pour lui même
+- #Seigneur: exerce son pouvoir sur les terres et les humains
+- #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
+- #tenure: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
+- #troubadour: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
+- #paysans: vivent du travail de la terre
+- #défrichement: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
 - **Fief:** terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
-- **Vassal:** homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
+- #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
 - **Suzerain:** seigneur qui avait concédé un fief à un vassal
 - **serpette :**
 - **fenaison
@@ -421,6 +422,9 @@ ceremonie d'adoubement
 - **torchis :**
 - **chaume : 
 - **collier d'épaule : **
-- 
+- **charrue à roue : **
+- **soc en fer :**
+- #jachere:
+-  
 
 
