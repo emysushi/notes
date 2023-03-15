@@ -292,7 +292,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - Innovations techniques  : étambot (gouvernail), boussole, astrolabe, cartes marines
 - marchandises de luxe :
 	- tapis, cotin, ivoire, soieries, parfum, bois précieux, épices (poivre, cannelle, clous de girofle)
-	- orient (italiens) + Méditerrané
+	- orient (italiens) + Méditerranée
 - Présences de marchands partout  :port, comptoirs, grandes villes (quartiers reservés)
 - techniques de commerces (credit, comptabilité, assurance)
 - principaux ports : bruges (belgique), la rochelle (france), lisbonne (portugal), venise et gènes et naples (italie), constantinople (turquie), damas (syrie), le caire (egypte)
