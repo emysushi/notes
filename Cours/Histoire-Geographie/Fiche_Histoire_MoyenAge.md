@@ -410,8 +410,11 @@ ceremonie d'adoubement
  # GLOSSAIRE
 ---
 - #adoubement: cérémonie par laquelle on devient chevalier
+- #avoine : 
 - #amour-courtois : 
 - #banalités : 
+- #blés : 
+- 
 - #cens : 
 - #créneaux : 
 - #champart : 
@@ -429,9 +432,11 @@ ceremonie d'adoubement
 - 
 - #meurtrières :
 - #machicoulis : 
+- #orge : 
 - #pont-levis : 
 -  #reserves: terres que le seigneur garde pour lui même
 - #ramparts :
+- #seigle : 
 - #Seigneur: exerce son pouvoir sur les terres et les humains
 - #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
 - #taille : impôt protection paysan
