@@ -10,8 +10,7 @@
   "TagDetailData": {
     "Planning_Semaine/2023-03-05.md": [],
     "Planning_Semaine/Untitled.md": [],
-    "Planning_Semaine/Planning_2023-03-06.md": [],
-    "Cours/Histoire-Geographie/Dossier_MoyenAge.md": []
+    "Planning_Semaine/Planning_2023-03-06.md": []
   },
   "MetaFileTagDetails": {
     "Planning_Semaine/2023-03-05.md": [
@@ -127,6 +126,12 @@
       "#fiche-5-7-12",
       "#Histoire-Geographie-5-15-20",
       "#Paysan_Seigneur-5-36-41"
+    ],
+    "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md": [
+      "#fiche-5-7-12",
+      "#Technologie-5-15-20",
+      "#materiaux_evolution-5-28-33",
+      "#Technologie-10-10-98"
     ]
   }
 }
