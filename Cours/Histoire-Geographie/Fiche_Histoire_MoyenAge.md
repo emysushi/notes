@@ -387,7 +387,7 @@ content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s)
 ---
 
 
-- le donjon
+- le #donjon 
 -  là ou le seigneur et sa famille habitent
 - la salle commune
 	- ou sont organisés les banquets et entremet
@@ -402,6 +402,7 @@ ceremonie d'adoubement
 - #cens 
 -  #corvée 
 - #champart 
+- #taille
 
 
 
@@ -409,15 +410,18 @@ ceremonie d'adoubement
  # GLOSSAIRE
 ---
 - #adoubement: cérémonie par laquelle on devient chevalier
+- #amour-courtois : 
 - #banalités : 
 - #cens : 
 - #créneaux : 
 - #champart : 
+- #chasse-a-courre : 
 - #corvée : 
 - #chemin-de-ronde : 
 - #donjon : 
 - #écu : 
 - #écuyer : 
+- #entremet : 
 - #étrier : 
 - #gibets : 
 - #haubert ( #cotte-de-maille ) : 
@@ -430,16 +434,18 @@ ceremonie d'adoubement
 - #ramparts :
 - #Seigneur: exerce son pouvoir sur les terres et les humains
 - #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
-- #taille : 
+- #taille : impôt protection paysan
+- #tournoi : 
 - #tenure: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
 - #troubadour: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
 - #paysans: vivent du travail de la terre
 - #défrichement: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
 - #fief: terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
 - #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
-- **Suzerain:** seigneur qui avait concédé un fief à un vassal
-- **serpette :**
-- **fenaison
+- #suzerain: seigneur qui avait concédé un fief à un vassal
+- #serpette :
+
+- #fenaison : 
 - **faux : cf plus haut
 - **faucille : cf plus haut
 - **moisson : **

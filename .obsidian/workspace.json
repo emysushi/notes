@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#reserve",
+                "query": "tag:#taille",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 393.5
   },
   "right": {
     "id": "de72a87206515b52",
