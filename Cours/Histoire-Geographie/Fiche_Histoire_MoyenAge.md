@@ -422,6 +422,7 @@ ceremonie d'adoubement
 - #corvée : 
 - #chemin-de-ronde : 
 - #donjon : 
+- #douve : 
 - #écu : 
 - #écuyer : 
 - #entremet : 

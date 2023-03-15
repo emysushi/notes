@@ -196,7 +196,7 @@
     },
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
       "size": 15092,
-      "tags": 48,
+      "tags": 49,
       "links": 1
     }
   },
@@ -204,7 +204,7 @@
     "/": {
       "Refactor": 106,
       "Create": 128,
-      "Link": 65,
+      "Link": 66,
       "Expand": 18
     }
   },
@@ -228,7 +228,7 @@
       "15": 94,
       "16": 24,
       "17": 26,
-      "18": 85,
+      "18": 86,
       "19": 17,
       "20": 0,
       "21": 0,
@@ -240,7 +240,7 @@
     "/": {
       "Mon": 18,
       "Tue": 108,
-      "Wed": 171,
+      "Wed": 172,
       "Thu": 0,
       "Fri": 12,
       "Sat": 0,
@@ -350,6 +350,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_techno.md\"> tpl-fiche_techno </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
         "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md\"> Fiche_Physique-Chimie_corps_pure_melange </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
