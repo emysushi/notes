@@ -117,7 +117,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - broigne (tunique de cuir)
 - tricot de métal (15kg, 100 heures de travail)
 - harnois blanc (armure plate)
-- bouclier en forme d'amende (écu)
+- bouclier en forme d'amende ( #ecu )
 
 ## Chevalier et légende
 -  Représentation Chevalerie :
