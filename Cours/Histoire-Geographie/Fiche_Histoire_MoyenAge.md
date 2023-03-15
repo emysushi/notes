@@ -16,6 +16,8 @@ duedate:: 2023-03-10
 
 
 # LE MOYEN AGE
+---
+
 Le Moyen Âge est une période de l'histoire de l'Europe, s'étendant de la fin du V e siècle à la fin du XV e siècle, qui débute avec le déclin de  #empire_romain_occident et se termine par la #renaissance et les #grandes_decouvertes.
 
 La civilisation médiévale se définit par quatre caractéristiques majeures : 
@@ -26,6 +28,7 @@ La civilisation médiévale se définit par quatre caractéristiques majeures :
 -  enfin, un système de pensée fondé sur la **foi religieuse** et défini par l'Église chrétienne.
 
 # FEODALITE
+---
 Vers 1000 av                                                                                                                                                                                                                               
 JC, les châteaux forts apparaissent contrer les invasions barbares (viking, arabes) :
 
@@ -62,6 +65,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 # EVOLUTION DES CHATEAUX FORTS 
+---
+
 * **10-ème siècle:**
 	* forteresse
 	* collines artificielles
@@ -89,7 +94,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 # DEVENIR CHEVALIER
-
+---
 
 - **Leçon du maitre d'arme**
 	- maniement de l'épée, lance
@@ -126,7 +131,10 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- Le bien contre le mal: Saint Georges et Saint Michel sont les saints patrons, représentés en train de combattre le dragon (diable)
 	- Un amour impossible: le roi Marc veut épouser  Tristan & Yseult et la ramène mais par erreur boivent un filtre d'amour
 
+
+
 # LA VIE AU CHATEAU
+---
 
 ## La vie de cour
 - La cour = espace dans le château ou habite le seigneur + ensemble des personnes qui l'entourent 
@@ -168,7 +176,10 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- luth:  plectre (petite pièce en écaille ou en bois)
 	- psaltérion: gratte les cordes avec des plumes d'oie et produit un son mélodieux (s'accorde avec le luth)
 
+
+
 # AGRICULTURE
+---
 ## Le travail de la terre
 - objectif :** augmenter les surfaces cultivées**
 	- 11-ème siècle: seigneurs poussent les paysans à** défricher les forets**
@@ -201,7 +212,11 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - population augmente plus vite que les 
 - vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
 
+
+
+
 # LES VILLES MEDIEVALES
+---
 
 
 ## Habitats et matériaux
@@ -285,7 +300,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 # LES PAYSANS🌽 
-
+---
 
 
 paysans  > travail difficile > exigeant de la terre > cultive des céréales > transformés > base de leur alimentation 
@@ -369,6 +384,7 @@ content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s)
 
 
 # LES SEIGNEURS👑
+---
 
 
 - le donjon
@@ -381,7 +397,8 @@ organisation type d'un château
 moments divertissant ? 
 ceremonie d'adoubement
 
-# Glossaire
+ # GLOSSAIRE
+---
 - **Seigneur**: exerce son pouvoir sur les terres et les humains
 - **Seigneurie**: domaine sur lequel le seigneur exerce son pouvoir
 - **Tenure**: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
