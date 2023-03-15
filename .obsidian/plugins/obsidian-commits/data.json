@@ -59,16 +59,6 @@
       "tags": 0,
       "links": 0
     },
-    "Cours/Histoire-Geographie/Dossier_MoyenAge.md": {
-      "size": 15092,
-      "tags": 5,
-      "links": 1
-    },
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md": {
-      "size": 958,
-      "tags": 3,
-      "links": 0
-    },
     "Cours/Histoire-Geographie/Home.md": {
       "size": 117,
       "tags": 0,
@@ -203,11 +193,16 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
+      "size": 15092,
+      "tags": 5,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 104,
+      "Refactor": 106,
       "Create": 128,
       "Link": 59,
       "Expand": 18
@@ -230,7 +225,7 @@
       "12": 3,
       "13": 10,
       "14": 53,
-      "15": 92,
+      "15": 94,
       "16": 24,
       "17": 26,
       "18": 79,
@@ -245,7 +240,7 @@
     "/": {
       "Mon": 18,
       "Tue": 108,
-      "Wed": 163,
+      "Wed": 165,
       "Thu": 0,
       "Fri": 12,
       "Sat": 0,
@@ -329,7 +324,8 @@
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"histoire.md\"> histoire </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche_techno.md\"> tpl-fiche_techno </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_techno.md\"> tpl-fiche_techno </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
@@ -357,6 +353,7 @@
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md\"> Fiche_Histoire-Geographie_Paysan_Seigneur </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -406,8 +403,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Anglais/Dossier/Expose_massachusset.md\"> Expose_massachusset </a>",
-        "<a class=\"internal-link\" href=\"Anglais/Glossaire.md\"> Glossaire </a>"
+        "<a class=\"internal-link\" href=\"Anglais/Dossier/Expose_massachusset.md\"> Expose_massachusset </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
