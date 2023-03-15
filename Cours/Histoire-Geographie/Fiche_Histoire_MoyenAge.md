@@ -397,18 +397,45 @@ organisation type d'un château
 moments divertissant ? 
 ceremonie d'adoubement
 
+## Les impots :
+
+- #cens 
+-  #corvée 
+- #champart 
+
+
+
+
  # GLOSSAIRE
 ---
 - #adoubement: cérémonie par laquelle on devient chevalier
+- #banalités : 
 - #cens : 
+- #créneaux : 
+- #champart : 
+- #corvée : 
+- #chemin-de-ronde : 
+- #donjon : 
+- #écu : 
+- #écuyer : 
+- #étrier : 
+- #gibets : 
+- #haubert ( #cotte-de-maille ) : 
+- #heaume : 
+- 
+- #meurtrières :
+- #machicoulis : 
+- #pont-levis : 
 -  #reserves: terres que le seigneur garde pour lui même
+- #ramparts :
 - #Seigneur: exerce son pouvoir sur les terres et les humains
 - #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
+- #taille : 
 - #tenure: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
 - #troubadour: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
 - #paysans: vivent du travail de la terre
 - #défrichement: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
-- **Fief:** terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
+- #fief: terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
 - #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
 - **Suzerain:** seigneur qui avait concédé un fief à un vassal
 - **serpette :**
