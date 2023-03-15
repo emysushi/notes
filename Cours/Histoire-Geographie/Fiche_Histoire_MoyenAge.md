@@ -195,13 +195,13 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - Vendanges: 
 	- exige beaucoup de main d'œuvres,
 	- grappes coupées 1 par 1 > transportées > foulées > pressées
-	- le vin se conserve mal (vendu dans l 'année'
+	- le vin se conserve mal (vendu dans l 'année')
 - Bétail
-	- pait dans les jachères et montagne (transhumance en été)
+	- pait dans les jachères et montagne ( #transhumance en été)
 	- le foin est insuffisant pour nourrir le bétail en hiver => abattage en automne
-- Fôrets
+- Forêts
 	- garder pour le seigneur (chasse)
-	- reservoir de nourriture pour les paysans (lapins, perdrix, glands, noisettes, champignons
+	- réservoir de nourriture pour les paysans (lapins, perdrix, glands, noisettes, champignons
 	- charbons
 
 ## Se nourrir
@@ -450,6 +450,7 @@ ceremonie d'adoubement
 - #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
 - #suzerain: seigneur qui avait concédé un fief à un vassal
 - #serpette :
+- #transhumance
 
 - #fenaison : 
 - **faux : cf plus haut
