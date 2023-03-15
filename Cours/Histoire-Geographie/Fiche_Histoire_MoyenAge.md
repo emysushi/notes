@@ -424,6 +424,7 @@ ceremonie d'adoubement
 - #donjon : 
 - #douve : 
 - #écu : 
+- #eculelle : 
 - #écuyer : 
 - #entremet : 
 - #étrier : 
