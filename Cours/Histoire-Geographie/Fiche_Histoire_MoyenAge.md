@@ -414,7 +414,7 @@ ceremonie d'adoubement
 - #amour-courtois : 
 - #banalités : 
 - #blés : 
-- 
+- #chaume : 
 - #cens : 
 - #créneaux : 
 - #champart : 
@@ -440,6 +440,7 @@ ceremonie d'adoubement
 - #Seigneur: exerce son pouvoir sur les terres et les humains
 - #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
 - #taille : impôt protection paysan
+- #torchis : 
 - #tournoi : 
 - #tenure: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
 - #troubadour: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
