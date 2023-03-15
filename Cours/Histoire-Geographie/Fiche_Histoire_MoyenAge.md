@@ -123,11 +123,11 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 -  Représentation Chevalerie :
 	- ordre immuable (codes, cérémonies ...) vs chaos  (guerres, maladies)
 	- valeurs (honneur, causes défendues )
-	- perpétue cette image via les comtes, chants (troubadour)
+	- perpétue cette image via les comtes, chants ( #troubadour)
 - les comtes :
 	- Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
 	- Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
-	- La quête du Graal (chevalier de la table ronde / Roi Arthur / Merlin): autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacrée ayant contenu le sang du christ)
+	- La quête du Graal (chevaliers de la table ronde / Roi Arthur / Merlin): autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacrée ayant contenu le sang du christ)
 	- Le bien contre le mal: Saint Georges et Saint Michel sont les saints patrons, représentés en train de combattre le dragon (diable)
 	- Un amour impossible: le roi Marc veut épouser  Tristan & Yseult et la ramène mais par erreur boivent un filtre d'amour
 
