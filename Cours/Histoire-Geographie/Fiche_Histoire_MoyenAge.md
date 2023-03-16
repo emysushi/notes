@@ -439,7 +439,7 @@ ceremonie d'adoubement
 - #Seigneur: exerce son pouvoir sur les terres et les humains
 - #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
 - #taille : impôt protection paysan
-- #torchis : 
+- #torchis : Le torchis est un matériau de remplissage non-porteur. C’est un béton naturel utilisé pour les murs et les cloisons dans les constructions à ossature en bois, mais aussi pour faire des plafonds. Une fois sec, il est résistant, mais assez sensible à l’humidité.
 - #tournoi : 
 - #tenure: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
 - #troubadour: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
