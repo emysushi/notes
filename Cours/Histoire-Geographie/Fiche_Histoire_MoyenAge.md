@@ -429,12 +429,12 @@ ceremonie d'adoubement
 - #gibets : 
 - #haubert ( #cotte-de-maille ) : 
 - #heaume : 
-- #meurtrières :
-- #machicoulis : 
+- #meurtrières : Une meurtrière est un terme générique qui désigne une ouverture pratiquée dans une muraille pour permettre l'observation et l'envoi de projectiles
+- #machicoulis : Galerie formant un encorbellement, soit en position mitoyenne ou en couronnement d'une enceinte militaire et dont le plancher ajouré permettait, si besoin, de lancer divers projectiles au pied du mur, zone souvent vulnérable
 - #orge : 
 - #pont-levis : 
 - #reserves: terres que le seigneur garde pour lui même
-- #ramparts :
+- #remparts :
 - #seigle : 
 - #Seigneur: exerce son pouvoir sur les terres et les humains
 - #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
