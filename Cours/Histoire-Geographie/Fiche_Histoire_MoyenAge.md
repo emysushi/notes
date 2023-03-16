@@ -1,4 +1,6 @@
 
+
+
 tags : #dossier
 
 
@@ -406,23 +408,23 @@ ceremonie d'adoubement
  # GLOSSAIRE
 ---
 - #adoubement: cérémonie par laquelle on devient chevalier
-- #avoine : 
-- #amour-courtois : 
+- #avoine : L'avoine est cultivée à la fois comme céréale pour son fruit  riche en amidon, et comme plante fourragère à couper en vert pour ses pousses tendres et sucrées qui plaisent aux animaux de la ferme. Elle fait partie des céréales à paille et est utilisée principalement en alimentation animale (notamment des équidés).
+- #amour-courtois : expression désignant au Moyen Âge la façon d'aimer avec courtoisie, respect et honnêteté, sa ou son partenaire, dans le but commun d'atteindre la joie et le bonheur.
 - #banalités : 
 - #blés : 
-- #chaume : 
+- #chaume : Le toit de chaume est un mode de couverture, constitué de paille de blé, de paille de seigle, de tiges de roseaux mais aussi de genêts et de bruyères.
 - #cens : 
-- #créneaux : 
+- #créneaux : Un créneau est une ouverture pratiquée au sommet d'un rempart. Cette ouverture permettait aux défenseurs des murailles de voir les assaillants et de tirer des projectiles. Les intervalles pleins laissés entre les créneaux sont les « merlons » ou carnels.
 - #champart : 
-- #chasse-a-courre : 
+- #chasse-a-courre : La vénerie aussi appelée « chasse à courre » ou encore désignée par « chasse à courre, à cor et à cri », est un mode de chasse qui consiste à poursuivre un animal sauvage avec une meute de chiens courants, jusqu'à le perdre ou le tuer. 
 - #corvée : 
-- #chemin-de-ronde : 
-- #donjon : 
-- #douve : 
+- #chemin-de-ronde :  voie aménagée en position sommitale, en saillie d’une muraille, d’une courtine ou de tours d’une fortification. Destiné à la circulation des sentinelles, il est généralement protégé par un parapet crénelé et équipé de hourds ou de #machicoulis .
+- #donjon :  tour la plus haute d'un château fort au Moyen Âge, destinée à servir à la fois de point d'observation, de poste de tir et de dernier refuge si le reste de la fortification vient à être pris par un ennemi.
+- #douve : fossé rempli d’eau et entourant des châteaux, des bâtiments importants ou encore des villes fortifiées.
 - #écu : 
-- #eculelle : 
-- #écuyer : 
-- #entremet : 
+- #ecuelle : 
+- #écuyer :  à l'origine, un gentilhomme ou un anobli qui accompagne un chevalier et porte son écu. De là, écuyer a été employé comme titre pour un jeune homme qui se prépare à devenir chevalier par adoubement. 
+- #entremet : L'entremets est un mets servi entre deux autres plats, d'où son nom. Au fil du temps, il est devenu de plus en plus sucré au point de remplacer parfois le dessert
 - #étrier : 
 - #gibets : 
 - #haubert ( #cotte-de-maille ) : 
