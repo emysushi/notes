@@ -202,8 +202,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 106,
-      "Create": 128,
+      "Refactor": 107,
+      "Create": 129,
       "Link": 69,
       "Expand": 18
     }
@@ -230,7 +230,7 @@
       "17": 26,
       "18": 88,
       "19": 17,
-      "20": 0,
+      "20": 2,
       "21": 0,
       "22": 4,
       "23": 2
@@ -241,7 +241,7 @@
       "Mon": 18,
       "Tue": 108,
       "Wed": 175,
-      "Thu": 0,
+      "Thu": 2,
       "Fri": 12,
       "Sat": 0,
       "Sun": 8
@@ -270,7 +270,7 @@
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>"
       ],
       "Created": [
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles.md\"> fiche_Les aventures d'Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -363,6 +363,7 @@
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles.md\"> fiche_Les aventures d'Alice au pays des merveilles </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md\"> Fiche_Histoire-Geographie_Paysan_Seigneur </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -412,8 +413,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Anglais/Dossier/Expose_massachusset.md\"> Expose_massachusset </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
