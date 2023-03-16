@@ -1,4 +1,6 @@
 
+
+
 tags : #dossier
 
 
@@ -21,6 +23,7 @@ duedate:: 2023-03-10
 Le Moyen Âge est une période de l'histoire de l'Europe, s'étendant de la fin du V e siècle à la fin du XV e siècle, qui débute avec le déclin de  #empire_romain_occident et se termine par la #renaissance et les #grandes_decouvertes.
 
 La civilisation médiévale se définit par quatre caractéristiques majeures : 
+
 - le **morcellement de l'autorité politique** et le **recul de la notion d'État**
 	- seigneurs fortunés (taxes, féodalité, citées riches
 - une économie à **dominante agricole**
@@ -205,7 +208,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - Famines 
 	- debut 11 ième cycle
 	- les défrichements + l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim
-- population augmente plus vite que les 
+- population augmente plus vite que les recoltes
 - vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
 
 
@@ -406,38 +409,38 @@ ceremonie d'adoubement
  # GLOSSAIRE
 ---
 - #adoubement: cérémonie par laquelle on devient chevalier
-- #avoine : 
-- #amour-courtois : 
+- #avoine : L'avoine est cultivée à la fois comme céréale pour son fruit  riche en amidon, et comme plante fourragère à couper en vert pour ses pousses tendres et sucrées qui plaisent aux animaux de la ferme. Elle fait partie des céréales à paille et est utilisée principalement en alimentation animale (notamment des équidés).
+- #amour-courtois : expression désignant au Moyen Âge la façon d'aimer avec courtoisie, respect et honnêteté, sa ou son partenaire, dans le but commun d'atteindre la joie et le bonheur.
 - #banalités : 
 - #blés : 
-- #chaume : 
+- #chaume : Le toit de chaume est un mode de couverture, constitué de paille de blé, de paille de seigle, de tiges de roseaux mais aussi de genêts et de bruyères.
 - #cens : 
-- #créneaux : 
+- #créneaux : Un créneau est une ouverture pratiquée au sommet d'un rempart. Cette ouverture permettait aux défenseurs des murailles de voir les assaillants et de tirer des projectiles. Les intervalles pleins laissés entre les créneaux sont les « merlons » ou carnels.
 - #champart : 
-- #chasse-a-courre : 
+- #chasse-a-courre : La vénerie aussi appelée « chasse à courre » ou encore désignée par « chasse à courre, à cor et à cri », est un mode de chasse qui consiste à poursuivre un animal sauvage avec une meute de chiens courants, jusqu'à le perdre ou le tuer. 
 - #corvée : 
-- #chemin-de-ronde : 
-- #donjon : 
-- #douve : 
+- #chemin-de-ronde :  voie aménagée en position sommitale, en saillie d’une muraille, d’une courtine ou de tours d’une fortification. Destiné à la circulation des sentinelles, il est généralement protégé par un parapet crénelé et équipé de hourds ou de #machicoulis .
+- #donjon :  tour la plus haute d'un château fort au Moyen Âge, destinée à servir à la fois de point d'observation, de poste de tir et de dernier refuge si le reste de la fortification vient à être pris par un ennemi.
+- #douve : fossé rempli d’eau et entourant des châteaux, des bâtiments importants ou encore des villes fortifiées.
 - #écu : 
-- #eculelle : 
-- #écuyer : 
-- #entremet : 
+- #ecuelle : 
+- #écuyer :  à l'origine, un gentilhomme ou un anobli qui accompagne un chevalier et porte son écu. De là, écuyer a été employé comme titre pour un jeune homme qui se prépare à devenir chevalier par adoubement. 
+- #entremet : L'entremets est un mets servi entre deux autres plats, d'où son nom. Au fil du temps, il est devenu de plus en plus sucré au point de remplacer parfois le dessert
 - #étrier : 
 - #gibets : 
 - #haubert ( #cotte-de-maille ) : 
 - #heaume : 
-- #meurtrières :
-- #machicoulis : 
+- #meurtrières : Une meurtrière est un terme générique qui désigne une ouverture pratiquée dans une muraille pour permettre l'observation et l'envoi de projectiles
+- #machicoulis : Galerie formant un encorbellement, soit en position mitoyenne ou en couronnement d'une enceinte militaire et dont le plancher ajouré permettait, si besoin, de lancer divers projectiles au pied du mur, zone souvent vulnérable
 - #orge : 
 - #pont-levis : 
 - #reserves: terres que le seigneur garde pour lui même
-- #ramparts :
+- #remparts :
 - #seigle : 
 - #Seigneur: exerce son pouvoir sur les terres et les humains
 - #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
 - #taille : impôt protection paysan
-- #torchis : 
+- #torchis : Le torchis est un matériau de remplissage non-porteur. C’est un béton naturel utilisé pour les murs et les cloisons dans les constructions à ossature en bois, mais aussi pour faire des plafonds. Une fois sec, il est résistant, mais assez sensible à l’humidité.
 - #tournoi : 
 - #tenure: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
 - #troubadour: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
@@ -447,20 +450,19 @@ ceremonie d'adoubement
 - #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
 - #suzerain: seigneur qui avait concédé un fief à un vassal
 - #serpette :
-- #transhumance :
-- #fenaison : 
+- #transhumance : La transhumance est la migration périodique du bétail entre les pâturages d'hiver et les pâturages d'été. Elle a pour objectif l'engraissement du troupeau mais aussi sa reproduction.
+- #fenaison : La fenaison est la coupe, le fanage puis la récolte des fourrages herbeux, ainsi que, par extension, la période où l'on fait traditionnellement les foins
 - #faux : cf plus haut
 - #faucille : cf plus haut
 - #moisson : 
-- #battage : 
+- #battage :  En agriculture, le battage est une opération consistant à séparer de l'épi ou de la tige les graines des céréales, à extraire de leurs gousses des graines de légumineuses comme les haricots secs et plus généralement à séparer les graines mûres du reste de la récolte quel que soit le type de plante.
 - #semailles :
 - #foulages :
-- #torchis :
 - #chaume : 
 - #collier d'épaule :
 - #charrue à roue :
 - #soc en fer :
-- #jachere:
+- #jachere: La jachère est, historiquement, l'ensemble des pratiques culturales de printemps et d'été des terres arables préparant l'ensemencement d'une céréale d'automne (terre au repot)
 -  
 
 
