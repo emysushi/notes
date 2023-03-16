@@ -196,7 +196,7 @@
     },
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
       "size": 15092,
-      "tags": 5,
+      "tags": 61,
       "links": 1
     }
   },
@@ -204,7 +204,7 @@
     "/": {
       "Refactor": 106,
       "Create": 128,
-      "Link": 59,
+      "Link": 69,
       "Expand": 18
     }
   },
@@ -228,19 +228,19 @@
       "15": 94,
       "16": 24,
       "17": 26,
-      "18": 79,
+      "18": 88,
       "19": 17,
       "20": 0,
       "21": 0,
       "22": 4,
-      "23": 1
+      "23": 2
     }
   },
   "weeklyCommits": {
     "/": {
       "Mon": 18,
       "Tue": 108,
-      "Wed": 165,
+      "Wed": 175,
       "Thu": 0,
       "Fri": 12,
       "Sat": 0,
@@ -349,7 +349,17 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-13.md\"> Planning_Week_2023-03-13 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_techno.md\"> tpl-fiche_techno </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
-        "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md\"> Fiche_Physique-Chimie_corps_pure_melange </a>"
+        "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md\"> Fiche_Physique-Chimie_corps_pure_melange </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>"
       ],
       "Refactored": [],
       "Deleted": [

@@ -16,6 +16,8 @@ duedate:: 2023-03-10
 
 
 # LE MOYEN AGE
+---
+
 Le Moyen Âge est une période de l'histoire de l'Europe, s'étendant de la fin du V e siècle à la fin du XV e siècle, qui débute avec le déclin de  #empire_romain_occident et se termine par la #renaissance et les #grandes_decouvertes.
 
 La civilisation médiévale se définit par quatre caractéristiques majeures : 
@@ -26,20 +28,19 @@ La civilisation médiévale se définit par quatre caractéristiques majeures :
 -  enfin, un système de pensée fondé sur la **foi religieuse** et défini par l'Église chrétienne.
 
 # FEODALITE
+---
 Vers 1000 av                                                                                                                                                                                                                               
 iiu JC, les châteaux forts apparaissent contrer les invasions barbares (viking, arabes) :
 
-- affaiblissement du pouvoir royal : 
+- **affaiblissement du pouvoir royal**
 	- frontières peu définies, 
 	- conflits entre les comtés,
 	- le pouvoir appartient aux guerriers les mieux armés (impose leurs lois). Les châteaux rappellent aux habitants qui est le maitre
-- augmentation de l'insécurité
+- **augmentation de l'insécurité**
 	- invasions barbares
 	- conflits entre les contés
 
 La féodalité diffère selon les régions (dans le sud de la France, nombreux chevaliers possèdent leur propre terre)
-
-
 
 ## Les devoirs de chacun
 ```col-md
@@ -53,15 +54,15 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- 2
 		# VASSAL
 		- promet fidélité au seigneur (cérémonie de l'hommage)
-		- les fieifs se transmettent de pere en fils
+		- les fiefs se transmettent de pere en fils
 		- service de chevauchée (faire la guerre - limité a 40jrs / an)
 
 ```
 
 
-
-
 # EVOLUTION DES CHATEAUX FORTS 
+---
+
 * **10-ème siècle:**
 	* forteresse
 	* collines artificielles
@@ -89,7 +90,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 # DEVENIR CHEVALIER
-
+---
 
 - **Leçon du maitre d'arme**
 	- maniement de l'épée, lance
@@ -112,21 +113,24 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - broigne (tunique de cuir)
 - tricot de métal (15kg, 100 heures de travail)
 - harnois blanc (armure plate)
-- bouclier en forme d'amende (écu)
+- bouclier en forme d'amende ( #ecu )
 
 ## Chevalier et légende
 -  Représentation Chevalerie :
 	- ordre immuable (codes, cérémonies ...) vs chaos  (guerres, maladies)
 	- valeurs (honneur, causes défendues )
-	- perpétue cette image via les comtes, chants (troubadour)
+	- perpétue cette image via les comtes, chants ( #troubadour)
 - les comtes :
 	- Roland le brave: plus connus et plus anciens chevalier de la littérature occidentale (neveu de Charlemagne)
 	- Le parfait chevalier: Lancelot tombe amoureux de Guenièvre (épouse de Arthur) mais c'est fait enlever et pars la retrouver
-	- La quête du Graal (chevalier de la table ronde / Roi Arthur / Merlin): autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacrée ayant contenu le sang du christ)
+	- La quête du Graal (chevaliers de la table ronde / Roi Arthur / Merlin): autour de la table ronde, les chevaliers du roi Arthur veulent le Graal (coupe sacrée ayant contenu le sang du christ)
 	- Le bien contre le mal: Saint Georges et Saint Michel sont les saints patrons, représentés en train de combattre le dragon (diable)
 	- Un amour impossible: le roi Marc veut épouser  Tristan & Yseult et la ramène mais par erreur boivent un filtre d'amour
 
+
+
 # LA VIE AU CHATEAU
+---
 
 ## La vie de cour
 - La cour = espace dans le château ou habite le seigneur + ensemble des personnes qui l'entourent 
@@ -168,15 +172,18 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- luth:  plectre (petite pièce en écaille ou en bois)
 	- psaltérion: gratte les cordes avec des plumes d'oie et produit un son mélodieux (s'accorde avec le luth)
 
+
+
 # AGRICULTURE
+---
 ## Le travail de la terre
 - objectif :** augmenter les surfaces cultivées**
 	- 11-ème siècle: seigneurs poussent les paysans à** défricher les forets**
 	- l'importance du **labour** (charrue tirée par des bœufs): retourner facilement la terre
 	- les villages sont crées dans les clairières protégés par des haies
 - Agriculture
-	- **Cycle des cultures (tous les 3ans):**
-		-  1/3 : sol au repos (jachère)
+	- **Cycle des cultures (tous les 3 ans):**
+		- 1/3 : sol au repos ( #jachere)
 		- 1/3 : semis blés (octobre), 
 		- 1/3 : semis avoine/orge (printemps) : récolte + rapide
 	- moisson (faux, faucille, fléau) : la paille nourrie le bétail
@@ -184,13 +191,13 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - Vendanges: 
 	- exige beaucoup de main d'œuvres,
 	- grappes coupées 1 par 1 > transportées > foulées > pressées
-	- le vin se conserve mal (vendu dans l 'année'
+	- le vin se conserve mal (vendu dans l 'année')
 - Bétail
-	- pait dans les jachères et montagne (transhumance en été)
+	- pait dans les jachères et montagne ( #transhumance en été)
 	- le foin est insuffisant pour nourrir le bétail en hiver => abattage en automne
-- Fôrets
+- Forêts
 	- garder pour le seigneur (chasse)
-	- reservoir de nourriture pour les paysans (lapins, perdrix, glands, noisettes, champignons
+	- réservoir de nourriture pour les paysans (lapins, perdrix, glands, noisettes, champignons
 	- charbons
 
 ## Se nourrir
@@ -201,7 +208,11 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - population augmente plus vite que les 
 - vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
 
+
+
+
 # LES VILLES MEDIEVALES
+---
 
 
 ## Habitats et matériaux
@@ -277,7 +288,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - Innovations techniques  : étambot (gouvernail), boussole, astrolabe, cartes marines
 - marchandises de luxe :
 	- tapis, cotin, ivoire, soieries, parfum, bois précieux, épices (poivre, cannelle, clous de girofle)
-	- orient (italiens) + Méditerrané
+	- orient (italiens) + Méditerranée
 - Présences de marchands partout  :port, comptoirs, grandes villes (quartiers reservés)
 - techniques de commerces (credit, comptabilité, assurance)
 - principaux ports : bruges (belgique), la rochelle (france), lisbonne (portugal), venise et gènes et naples (italie), constantinople (turquie), damas (syrie), le caire (egypte)
@@ -285,7 +296,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 # LES PAYSANS🌽 
-
+---
 
 
 paysans  > travail difficile > exigeant de la terre > cultive des céréales > transformés > base de leur alimentation 
@@ -369,9 +380,10 @@ content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s)
 
 
 # LES SEIGNEURS👑
+---
 
 
-- le donjon
+- le #donjon 
 -  là ou le seigneur et sa famille habitent
 - la salle commune
 	- ou sont organisés les banquets et entremet
@@ -381,17 +393,74 @@ organisation type d'un château
 moments divertissant ? 
 ceremonie d'adoubement
 
-# Glossaire
-- **Seigneur**: exerce son pouvoir sur les terres et les humains
-- **Seigneurie**: domaine sur lequel le seigneur exerce son pouvoir
-- **Tenure**: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
-- **Reserve**: terres que le seigneur garde pour lui même
-- **Troubadour**: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
-- **Adoubement**: cérémonie par laquelle on devient chevalier
-- **Paysans**: vivent du travail de la terre
-- **Défrichement**: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
-- Fief: terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
-- Vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
-- Suzerain: seigneur qui avait concédé un fief à un vassal
+## Les impots :
+
+- #cens 
+-  #corvée 
+- #champart 
+- #taille
+
+
+
+
+ # GLOSSAIRE
+---
+- #adoubement: cérémonie par laquelle on devient chevalier
+- #avoine : 
+- #amour-courtois : 
+- #banalités : 
+- #blés : 
+- #chaume : 
+- #cens : 
+- #créneaux : 
+- #champart : 
+- #chasse-a-courre : 
+- #corvée : 
+- #chemin-de-ronde : 
+- #donjon : 
+- #douve : 
+- #écu : 
+- #eculelle : 
+- #écuyer : 
+- #entremet : 
+- #étrier : 
+- #gibets : 
+- #haubert ( #cotte-de-maille ) : 
+- #heaume : 
+- #meurtrières :
+- #machicoulis : 
+- #orge : 
+- #pont-levis : 
+- #reserves: terres que le seigneur garde pour lui même
+- #ramparts :
+- #seigle : 
+- #Seigneur: exerce son pouvoir sur les terres et les humains
+- #seigneurie: domaine sur lequel le seigneur exerce son pouvoir
+- #taille : impôt protection paysan
+- #torchis : 
+- #tournoi : 
+- #tenure: terres que le seigneur loue aux paysans contre taxes et corvées sur la réserve
+- #troubadour: poète musicien itinérant de châteaux en châteaux et raconte les exploits des chevaliers
+- #paysans: vivent du travail de la terre
+- #défrichement: destruction volontaire d'espaces boisés en général pour y faire de l'agriculture
+- #fief: terre ou somme d'argent qu'un seigneur cède a un guerrier moins puissant pour qu'il devienne son vassal
+- #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
+- #suzerain: seigneur qui avait concédé un fief à un vassal
+- #serpette :
+- #transhumance :
+- #fenaison : 
+- #faux : cf plus haut
+- #faucille : cf plus haut
+- #moisson : 
+- #battage : 
+- #semailles :
+- #foulages :
+- #torchis :
+- #chaume : 
+- #collier d'épaule :
+- #charrue à roue :
+- #soc en fer :
+- #jachere:
+-  
 
 
