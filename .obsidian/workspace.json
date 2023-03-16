@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b9515f7ac4ce769c",
+        "id": "92aa03fe0b4811b0",
         "type": "tabs",
         "children": [
           {
-            "id": "becd17152fb24b94",
+            "id": "c1b63ec4248142c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#adoubement",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393.5
+    "width": 200
   },
   "right": {
     "id": "de72a87206515b52",
@@ -196,16 +196,16 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "gpt3-notes:GPT-3 Notes": false,
+      "templates:Insérer le modèle": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-gallery:Gallery": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-book-search-plugin:Create new book note": false,
@@ -217,13 +217,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "becd17152fb24b94",
+  "active": "be52fe062cae92c3",
   "lastOpenFiles": [
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
-    "().md",
-    "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
     "Cours/Technologie/Dossier_Serrures.md",
@@ -246,8 +244,10 @@
     "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Gallery/Pasted image 20230308173724.png",
+    "histoire.md",
     "Banner/biblio.jpeg",
     "Banner",
+    "Template/tpl-empty.md",
     "Planning_Semaine",
     "Cours/Technologie",
     "Cours/Svt",
