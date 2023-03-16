@@ -208,7 +208,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - Famines 
 	- debut 11 ième cycle
 	- les défrichements + l'accroissement des cultures permet à l'Europe de manger à peu près à sa faim
-- population augmente plus vite que les 
+- population augmente plus vite que les recoltes
 - vers 1300 un climat froid et pluvieux fait pourrir les récoltes et aggrave la situation, les famines réapparaisses
 
 
