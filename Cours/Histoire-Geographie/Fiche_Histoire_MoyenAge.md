@@ -449,20 +449,19 @@ ceremonie d'adoubement
 - #vassal: homme lié personnellement à un seigneur, un suzerain qui lui concédait la possession effectif d'un fief
 - #suzerain: seigneur qui avait concédé un fief à un vassal
 - #serpette :
-- #transhumance :
-- #fenaison : 
+- #transhumance : La transhumance est la migration périodique du bétail entre les pâturages d'hiver et les pâturages d'été. Elle a pour objectif l'engraissement du troupeau mais aussi sa reproduction.
+- #fenaison : La fenaison est la coupe, le fanage puis la récolte des fourrages herbeux, ainsi que, par extension, la période où l'on fait traditionnellement les foins
 - #faux : cf plus haut
 - #faucille : cf plus haut
 - #moisson : 
-- #battage : 
+- #battage :  En agriculture, le battage est une opération consistant à séparer de l'épi ou de la tige les graines des céréales, à extraire de leurs gousses des graines de légumineuses comme les haricots secs et plus généralement à séparer les graines mûres du reste de la récolte quel que soit le type de plante.
 - #semailles :
 - #foulages :
-- #torchis :
 - #chaume : 
 - #collier d'épaule :
 - #charrue à roue :
 - #soc en fer :
-- #jachere:
+- #jachere: La jachère est, historiquement, l'ensemble des pratiques culturales de printemps et d'été des terres arables préparant l'ensemencement d'une céréale d'automne (terre au repot)
 -  
 
 
