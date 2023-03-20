@@ -86,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "de72a87206515b52",
@@ -191,7 +192,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 375.5,
+    "width": 487.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -219,10 +220,17 @@
   },
   "active": "c1b63ec4248142c2",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
+=======
+    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
+    "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
+    "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
+>>>>>>> main
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
     "Cours/Technologie/Dossier_Serrures.md",
     "conflict-files-obsidian-git.md",
