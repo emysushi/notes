@@ -77,11 +77,20 @@ content:
 ## Fabrication 
 
 ## Acier 
-
-
+1)agglomération
+2)haut fourneau
+3)cokerie
+4)convertisseur
+5)four électrique
+6)station d'affinage
+7)coulée continue
+8)laminoir(machine)
 ## Verre 
-
-
+1)préparation du lit de fusion
+2)élaboration du verre
+3)mise en forme
+4)recuisson
+5)contrôle des qualités des produits finit
 ### Bois (charpente, poutre) 
 1)chargement des billons sur la chaine de sciage
 2)écorçage des billons
@@ -93,6 +102,8 @@ content:
 2)coupées au fil diamantaire
 3)acheminer par camions 
 4)jusqu'à l'atelier de la transformation de la carrière 
+
+
 - Gisement :
 	- Analyse : études géologiques, minières et géotechniques +  travaux de prospection = > qualité de pierre et le potentiel des réserves du gisement.
 	- Modes d’exploitation : la carrière à ciel ouvert ou la carrière souterraine.
