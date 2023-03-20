@@ -1,6 +1,7 @@
 const Obsidian = require("obsidian");
 // require built-in crypto module
 const crypto = require("crypto");
+const { json } = require("stream/consumers");
 
 const DEFAULT_SETTINGS = {
   api_key: "",
@@ -10,6 +11,7 @@ const DEFAULT_SETTINGS = {
   path_only: "",
   show_full_path: false,
   expanded_view: true,
+  group_nearest_by_file: false,
   log_render: false,
   log_render_files: false,
   skip_sections: false,
@@ -97,6 +99,7 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     }
   }
   async onload() {
+    this.addIcon();
     await this.loadSettings();
     console.log("loading plugin");
     this.addCommand({
@@ -183,7 +186,6 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
   }
 
   async initialize() {
-    this.addIcon();
     // if this settings.view_open is true, open view on startup
     if(this.settings.view_open) {
       this.open_view();
@@ -1041,7 +1043,8 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       }
       nearest.push({
         link: this.embeddings[from_keys[i]].meta.path,
-        similarity: this.computeCosineSimilarity(to_vec, this.embeddings[from_keys[i]].vec)
+        similarity: this.computeCosineSimilarity(to_vec, this.embeddings[from_keys[i]].vec),
+        len: this.embeddings[from_keys[i]].meta.len || this.embeddings[from_keys[i]].meta.size,
       });
     }
     // handle external links
@@ -1365,9 +1368,16 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       if ((line.indexOf('#') === 0) && (['#',' '].indexOf(line[1]) !== -1)){
         break; // ends when encountering next header
       }
-      // if char_count is greater than N, skip
+      // DEPRECATED: should be handled by new_line+char_count check (happens in previous iteration)
+      // if char_count is greater than limit.max_chars, skip
       if (limits.max_chars && char_count > limits.max_chars) {
         block.push("...");
+        break;
+      }
+      // if new_line + char_count is greater than limit.max_chars, skip
+      if (limits.max_chars && ((line.length + char_count) > limits.max_chars)) {
+        const max_new_chars = limits.max_chars - char_count;
+        line = line.slice(0, max_new_chars) + "...";
         break;
       }
       // validate/format
@@ -1397,6 +1407,92 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     }
     return block.join("\n").trim();
   }
+
+  // retrieve a file from the vault
+  async file_retriever(link, limits={}) {
+    limits = {
+      lines: null,
+      max_chars: null,
+      chars_per_line: null,
+      ...limits
+    };
+    const this_file = this.app.vault.getAbstractFileByPath(link);
+    // if file is not found, skip
+    if (!(this_file instanceof Obsidian.TAbstractFile)) return false;
+    // use cachedRead to get the first 10 lines of the file
+    const file_content = await this.app.vault.cachedRead(this_file);
+    const file_lines = file_content.split("\n");
+    let first_ten_lines = [];
+    let is_code = false;
+    let char_accum = 0;
+    const line_limit = limits.lines || file_lines.length;
+    for (let i = 0; first_ten_lines.length < line_limit; i++) {
+      let line = file_lines[i];
+      // if line is undefined, break
+      if (typeof line === 'undefined')
+        break;
+      // if line is empty, skip
+      if (line.length === 0)
+        continue;
+      // limit length of line to N characters
+      if (limits.chars_per_line && line.length > limits.chars_per_line) {
+        line = line.slice(0, limits.chars_per_line) + "...";
+      }
+      // if line is "---", skip
+      if (line === "---")
+        continue;
+      // skip if line is empty bullet or checkbox
+      if (['- ', '- [ ] '].indexOf(line) > -1)
+        continue;
+      // if line is a code block, skip
+      if (line.indexOf("```") === 0) {
+        is_code = !is_code;
+        continue;
+      }
+      // if char_accum is greater than limit.max_chars, skip
+      if (limits.max_chars && char_accum > limits.max_chars) {
+        first_ten_lines.push("...");
+        break;
+      }
+      if (is_code) {
+        // if is code, add tab to beginning of line
+        line = "\t" + line;
+      }
+      // if line is a heading
+      if (line_is_heading(line)) {
+        // look at last line in first_ten_lines to see if it is a heading
+        // note: uses last in first_ten_lines, instead of look ahead in file_lines, because..
+        // ...next line may be excluded from first_ten_lines by previous if statements
+        if ((first_ten_lines.length > 0) && line_is_heading(first_ten_lines[first_ten_lines.length - 1])) {
+          // if last line is a heading, remove it
+          first_ten_lines.pop();
+        }
+      }
+      // add line to first_ten_lines
+      first_ten_lines.push(line);
+      // increment char_accum
+      char_accum += line.length;
+    }
+    // for each line in first_ten_lines, apply view-specific formatting
+    for (let i = 0; i < first_ten_lines.length; i++) {
+      // if line is a heading
+      if (line_is_heading(first_ten_lines[i])) {
+        // if this is the last line in first_ten_lines
+        if (i === first_ten_lines.length - 1) {
+          // remove the last line if it is a heading
+          first_ten_lines.pop();
+          break;
+        }
+        // remove heading syntax to improve readability in small space
+        first_ten_lines[i] = first_ten_lines[i].replace(/#+/, "");
+        first_ten_lines[i] = `\n${first_ten_lines[i]}:`;
+      }
+    }
+    // join first ten lines into string
+    first_ten_lines = first_ten_lines.join("\n");
+    return first_ten_lines;
+  }
+
   // iterate through blocks and skip if block_headings contains this.header_exclusions
   validate_headings(block_headings) {
     let valid = true;
@@ -1612,6 +1708,98 @@ class SmartConnectionsView extends Obsidian.ItemView {
     // if settings expanded_view is false, add sc-collapsed class
     if(!this.plugin.settings.expanded_view) search_result_class += " sc-collapsed";
 
+    // TODO: add option to group nearest by file
+    if(!this.plugin.settings.group_nearest_by_file) {
+      // for each nearest note
+      for (let i = 0; i < nearest.length; i++) {
+        /**
+         * BEGIN EXTERNAL LINK LOGIC
+         * if link is an object, it indicates external link
+         */
+        if (typeof nearest[i].link === "object") {
+          const item = list.createEl("div", { cls: "search-result" });
+          const link = item.createEl("a", {
+            cls: "tree-item-self search-result-file-title is-clickable",
+            href: nearest[i].link.path,
+            title: nearest[i].link.title,
+          });
+          link.innerHTML = this.render_external_link_elm(nearest[i].link);
+          item.setAttr('draggable', 'true')
+          continue; // ends here for external links
+        }
+        /**
+         * BEGIN INTERNAL LINK LOGIC
+         * if link is a string, it indicates internal link
+         */
+        let file_link_text;
+        const file_similarity_pct = Math.round(nearest[i].similarity * 100) + "%";
+        if(this.plugin.settings.show_full_path) {
+          const pcs = nearest[i].link.split("/");
+          file_link_text = pcs[pcs.length - 1];
+          const path = pcs.slice(0, pcs.length - 1).join("/");
+          // file_link_text = `<small>${path} | ${file_similarity_pct}</small><br>${file_link_text}`;
+          file_link_text = `${file_similarity_pct} | ${path} | ${file_link_text}`;
+        }else{
+          file_link_text = file_similarity_pct + " | " + nearest[i].link.split("/").pop();
+        }
+        // skip contents rendering if incompatible file type
+        // ex. not markdown file or contains no '.excalidraw'
+        if(!this.renderable_file_type(nearest[i].link)){
+          const item = list.createEl("div", { cls: "search-result" });
+          const link = item.createEl("a", {
+            cls: "tree-item-self search-result-file-title is-clickable",
+            href: nearest[i].link,
+          });
+          link.innerHTML = file_link_text;
+          // drag and drop
+          item.setAttr('draggable', 'true')
+          // add listeners to link
+          this.add_link_listeners(link, nearest[i], item);
+          continue;
+        }
+
+        // remove file extension if .md and make # into >
+        file_link_text = file_link_text.replace(".md", "").replace(/#/g, " > ");
+        // create item
+        const item = list.createEl("div", { cls: search_result_class });
+        // create span for toggle
+        const toggle = item.createEl("span", { cls: "tree-item-self is-clickable" });
+        // insert right triangle svg as toggle
+        Obsidian.setIcon(toggle, "right-triangle"); // must come before adding other elms to prevent overwrite
+        const link = toggle.createEl("a", {
+          cls: "search-result-file-title",
+          title: nearest[i].link,
+        });
+        link.innerHTML = file_link_text;
+        // add listeners to link
+        this.add_link_listeners(link, nearest[i], item);
+        toggle.addEventListener("click", (event) => {
+          // find parent containing search-result class
+          let parent = event.target.parentElement;
+          while (!parent.classList.contains("search-result")) {
+            parent = parent.parentElement;
+          }
+          // toggle sc-collapsed class
+          parent.classList.toggle("sc-collapsed");
+        });
+        const contents = item.createEl("ul", { cls: "" });
+        const contents_container = contents.createEl("li", {
+          cls: "tree-item-self search-result-file-title is-clickable",
+          title: nearest[i].link,
+        });
+        if(nearest[i].link.indexOf("#") > -1){ // is block
+          Obsidian.MarkdownRenderer.renderMarkdown((await this.plugin.block_retriever(nearest[i].link, {lines: 10, max_chars: 1000})), contents_container, nearest[i].link, void 0);
+        }else{ // is file
+          const first_ten_lines = await this.plugin.file_retriever(nearest[i].link, {lines: 10, max_chars: 1000});
+          if(!first_ten_lines) continue; // skip if file is empty
+          Obsidian.MarkdownRenderer.renderMarkdown(first_ten_lines, contents_container, nearest[i].link, void 0);
+        }
+        this.add_link_listeners(contents, nearest[i], item);
+      }
+      this.plugin.render_brand(container);
+      return;
+    }
+
     // group nearest by file
     const nearest_by_file = {};
     for (let i = 0; i < nearest.length; i++) {
@@ -1679,7 +1867,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
         
       // skip contents rendering if incompatible file type
       // ex. not markdown or contains '.excalidraw'
-      if((file[0].link.indexOf(".md") === -1) || (file[0].link.indexOf(".excalidraw") > -1)) {
+      if(!this.renderable_file_type(file[0].link)) {
         const item = list.createEl("div", { cls: "search-result" });
         const file_link = item.createEl("a", {
           cls: "tree-item-self search-result-file-title is-clickable",
@@ -1743,67 +1931,8 @@ class SmartConnectionsView extends Obsidian.ItemView {
             title: file[0].link,
           });
           const block_container = block_link.createEl("div");
-          const this_file = this.app.vault.getAbstractFileByPath(file[0].link);
-          // if file is not found, skip
-          if (!(this_file instanceof Obsidian.TAbstractFile)) continue;
-          // use cachedRead to get the first 10 lines of the file
-          const file_content = await this.app.vault.cachedRead(this_file);
-          const file_lines = file_content.split("\n");
-          let first_ten_lines = [];
-          let is_code = false;
-          for (let i = 0; first_ten_lines.length < 10; i++) {
-            let line = file_lines[i];
-            // if line is undefined, break
-            if (typeof line === 'undefined') break;
-            // if line is empty, skip
-            if (line.length === 0) continue;
-            // limit length of line to N characters
-            if (line.length > 100) {
-              line = line.slice(0, 100) + "...";
-            }
-            // if line is "---", skip
-            if (line === "---") continue;
-            // skip if line is empty bullet or checkbox
-            if(['- ', '- [ ] '].indexOf(line) > -1) continue;
-            // if line is a code block, skip
-            if (line.indexOf("```") === 0) {
-              is_code = !is_code;
-              continue;
-            }
-            if (is_code) {
-              // if is code, add tab to beginning of line
-              line = "\t" + line;
-            }
-            // if line is a heading
-            if (line_is_heading(line)) {
-              // look at last line in first_ten_lines to see if it is a heading
-              // note: uses last in first_ten_lines, instead of look ahead in file_lines, because..
-              // ...next line may be excluded from first_ten_lines by previous if statements
-              if((first_ten_lines.length > 0) && line_is_heading(first_ten_lines[first_ten_lines.length - 1])) {
-                // if last line is a heading, remove it
-                first_ten_lines.pop();
-              }
-            }
-            // add line to first_ten_lines
-            first_ten_lines.push(line);
-          }
-          // for each line in first_ten_lines, apply view-specific formatting
-          for(let i = 0; i < first_ten_lines.length; i++) {
-            // if line is a heading
-            if (line_is_heading(first_ten_lines[i])) {
-              // if this is the last line in first_ten_lines
-              if(i === first_ten_lines.length - 1) {
-                // remove the last line if it is a heading
-                first_ten_lines.pop();
-                break;
-              }
-              // remove heading syntax to improve readability in small space
-              first_ten_lines[i] = first_ten_lines[i].replace(/#+/, "");
-              first_ten_lines[i] = `\n${first_ten_lines[i]}:`;
-            }
-          }
-          // join first ten lines into string
-          first_ten_lines = first_ten_lines.join("\n");
+          let first_ten_lines = await this.plugin.file_retriever(file[0].link, {lines: 10, max_chars: 1000});
+          if(!first_ten_lines) continue; // if file not found, skip
           Obsidian.MarkdownRenderer.renderMarkdown(first_ten_lines, block_container, file[0].link, void 0);
           this.add_link_listeners(block_link, file[0], file_link_list);
 
@@ -1812,6 +1941,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
     }
     this.plugin.render_brand(container);
   }
+
 
   render_block_context(block) {
     const block_headings = block.link.split(".md")[1].split("#");
@@ -2156,6 +2286,10 @@ class SmartConnectionsView extends Obsidian.ItemView {
 
   }
 
+
+  renderable_file_type(link) {
+    return (link.indexOf(".md") !== -1) && (link.indexOf(".excalidraw") === -1);
+  }
 }
 
 class SmartConnectionsViewApi {
@@ -2263,6 +2397,11 @@ class SmartConnectionsSettingsTab extends Obsidian.PluginSettingTab {
     // toggle expanded view by default
     new Obsidian.Setting(containerEl).setName("expanded_view").setDesc("Expanded view by default.").addToggle((toggle) => toggle.setValue(this.plugin.settings.expanded_view).onChange(async (value) => {
       this.plugin.settings.expanded_view = value;
+      await this.plugin.saveSettings(true);
+    }));
+    // toggle group nearest by file
+    new Obsidian.Setting(containerEl).setName("group_nearest_by_file").setDesc("Group nearest by file.").addToggle((toggle) => toggle.setValue(this.plugin.settings.group_nearest_by_file).onChange(async (value) => {
+      this.plugin.settings.group_nearest_by_file = value;
       await this.plugin.saveSettings(true);
     }));
     // toggle view_open on Obsidian startup
@@ -2392,6 +2531,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     this.current_chat_ml = [];
     this.last_from = null;
     this.last_msg = null;
+    this.prevent_input = false;
   }
   getDisplayText() {
     return "Smart Connections Chat";
@@ -2433,12 +2573,15 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     });
   }
   new_chat() {
-    // clear chat box
-    this.message_container.empty();
+    // if this.dotdotdot_interval is not null, clear interval
+    if (this.dotdotdot_interval) {
+      clearInterval(this.dotdotdot_interval);
+    }
     // clear current chat ml
     this.current_chat_ml = [];
-    // render initial message from assistant
-    this.render_message(INITIAL_MESSAGE, "assistant");
+    // update prevent input
+    this.prevent_input = false;
+    this.onOpen();
   }
   // render chat messages container
   render_chat_box() {
@@ -2452,14 +2595,20 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     // create container for chat input
     let chat_input = this.chat_container.createDiv("sc-chat-form");
     // create textarea
-    let textarea = chat_input.createEl("textarea", {cls: "sc-chat-input"});
+    this.textarea = chat_input.createEl("textarea", {cls: "sc-chat-input"});
     // add event listener to listen for shift+enter
     chat_input.addEventListener("keydown", (e) => {
       if (e.key === "Enter" && e.shiftKey) {
+        e.preventDefault();
+        if(this.prevent_input){
+          console.log("wait until current response is finished");
+          new Obsidian.Notice("[Smart Connections] Wait until current response is finished");
+          return;
+        }
         // get text from textarea
-        let user_input = textarea.value;
+        let user_input = this.textarea.value;
         // clear textarea
-        textarea.value = "";
+        this.textarea.value = "";
         // initiate response from assistant
         this.initialize_response(user_input);
       }
@@ -2469,15 +2618,21 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     button.innerHTML = "Send";
     // add event listener to button
     button.addEventListener("click", () => {
+      if(this.prevent_input){
+        console.log("wait until current response is finished");
+        new Obsidian.Notice("Wait until current response is finished");
+        return;
+      }
       // get text from textarea
-      let user_input = textarea.value;
+      let user_input = this.textarea.value;
       // clear textarea
-      textarea.value = "";
+      this.textarea.value = "";
       // initiate response from assistant
       this.initialize_response(user_input);
     });
   }
   async initialize_response(user_input) {
+    this.prevent_input = true;
     // render message
     this.render_message(user_input, "user");
     this.append_chatml(user_input, "user");
@@ -2527,12 +2682,18 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
   // render message
   render_message(message, from="assistant", append_last=false) {
     if(append_last && this.last_from === from) {
-      if(this.last_msg.innerHTML === '...') this.last_msg.innerHTML = '';
+      // if(this.last_msg.innerHTML === '...') this.last_msg.innerHTML = '';
+      // if dotdotdot interval is set, then clear it
+      if(this.dotdotdot_interval) {
+        clearInterval(this.dotdotdot_interval);
+        this.dotdotdot_interval = null;
+        // clear last message
+        this.last_msg.innerHTML = '';
+      }
       this.current_message_raw += message;
       this.last_msg.innerHTML = '';
-      Obsidian.MarkdownRenderer.renderMarkdown(this.current_message_raw, this.last_msg, '?no-dataview', void 0);
       // append to last message
-      // this.last_msg.innerHTML += message;
+      Obsidian.MarkdownRenderer.renderMarkdown(this.current_message_raw, this.last_msg, '?no-dataview', void 0);
     }else{
       this.current_message_raw = '';
       // set last from
@@ -2541,9 +2702,19 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
       let message_el = this.message_container.createDiv(`sc-message ${from}`);
       // create message content
       this.last_msg = message_el.createDiv("sc-message-content");
-      // set message text
-      // this.last_msg.innerHTML = message;
-      Obsidian.MarkdownRenderer.renderMarkdown(message, this.last_msg, '?no-dataview', void 0);
+      // if is '...', then initiate interval to change to '.' and then to '..' and then to '...'
+      if((from === "assistant") && (message === '...')) {
+        let dots = 0;
+        this.last_msg.innerHTML = '...';
+        this.dotdotdot_interval = setInterval(() => {
+          dots++;
+          if(dots > 3) dots = 1;
+          this.last_msg.innerHTML = '.'.repeat(dots);
+        }, 500);
+      }else{
+        // set message text
+        Obsidian.MarkdownRenderer.renderMarkdown(message, this.last_msg, '?no-dataview', void 0);
+      }
     }
     // scroll to bottom
     this.message_container.scrollTop = this.message_container.scrollHeight;
@@ -2564,69 +2735,70 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
       ...opts
     }
     // console.log(opts.messages);
-    try{
-      const response = await (0, Obsidian.requestUrl)({
-        url: `https://api.openai.com/v1/chat/completions`,
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${this.plugin.settings.api_key}`,
-          "Content-Type": "application/json"
-        },
-        contentType: "application/json",
-        body: JSON.stringify(opts),
-        throw: false
-      });
-      console.log(response);
-      if(!opts.stream) {
-        return JSON.parse(response.text).choices[0].message.content;
-      }
-      try {
-        const json = response.json;
-        if (json && json.error) {
-          console.log("JSON Error");
-          console.log(json.error);
-          new Obsidian.Notice(`Smart Connections ChatGPT Error :: ${json.error.message}`);
-          throw new Error(JSON.stringify(json.error));
-        }
-      } catch (err) {
-        if (err instanceof SyntaxError) {
-          console.log("Syntax Error");
-          console.log(err);
-        } else {
-          console.log(err);
-          throw new Error(err);
-        }
-      }
-      const resp = response.text;
-      const resp_lines = resp.split("\n\n");
-      if(resp_lines.length == 0) {
-        throw new Error("Smart Connections :: No response from ChatGPT");
-      }
-      for(let i = 0; i < resp_lines.length; i++) {
-        resp_lines[i] = resp_lines[i].split("data: ")[1];
-      }
-      let full_str = "";
-      for(let i = 0; i < resp_lines.length; i++) {
-        const resp_line = resp_lines[i];
-        if(resp_line && resp_line.indexOf("[DONE]") === -1) {
-          const resp_json = JSON.parse(resp_line);
-          const delta = resp_json.choices[0].delta.content;
-          if(delta) {
-            if(delta === "`"){
-              this.render_message("...", "assistant", true); // remove?
-            }else{
-              this.render_message(delta, "assistant", true);
+    if(opts.stream) {
+      const full_str = await new Promise((resolve, reject) => {
+        try {
+          // console.log("stream", opts);
+          const url = "https://api.openai.com/v1/chat/completions";
+          const source = new ScStreamer(url, {
+            headers: {
+              "Content-Type": "application/json",
+              Authorization: `Bearer ${this.plugin.settings.api_key}`
+            },
+            method: "POST",
+            payload: JSON.stringify(opts)
+          });
+          let txt = "";
+          source.addEventListener("message", (e) => {
+            if (e.data != "[DONE]") {
+              const payload = JSON.parse(e.data);
+              const text = payload.choices[0].delta.content;
+              if (!text) {
+                return;
+              }
+              txt += text;
+              this.render_message(text, "assistant", true);
+            } else {
+              source.close();
+              // this.render_message(txt, "assistant", true);
+              this.prevent_input = false;
+              resolve(txt);
             }
-            await new Promise(r => setTimeout(r, 88));
-            full_str += delta;
-          }
+          });
+          source.addEventListener("readystatechange", (e) => {
+            if (e.readyState >= 2) {
+              console.log("ReadyState: " + e.readyState);
+            }
+          });
+          source.stream();
+        } catch (err) {
+          console.error(err);
+          new Obsidian.Notice("Smart Connections Error Streaming Response. See console for details.");
+          this.prevent_input = false;
+          reject(err);
         }
-      }
-      console.log(full_str);
+      });
+      // console.log(full_str);
       this.append_chatml(full_str, "assistant");
       return;
-    }catch(err){
-      new Obsidian.Notice(`Smart Connections API Error :: ${err}`);
+    }else{
+      try{
+        const response = await (0, Obsidian.requestUrl)({
+          url: `https://api.openai.com/v1/chat/completions`,
+          method: "POST",
+          headers: {
+            Authorization: `Bearer ${this.plugin.settings.api_key}`,
+            "Content-Type": "application/json"
+          },
+          contentType: "application/json",
+          body: JSON.stringify(opts),
+          throw: false
+        });
+        // console.log(response);
+        return JSON.parse(response.text).choices[0].message.content;
+      }catch(err){
+        new Obsidian.Notice(`Smart Connections API Error :: ${err}`);
+      }
     }
   }
   append_chatml(message, from="assistant") {
@@ -2659,46 +2831,315 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
       messages: chatml,
       stream: false,
       temperature: 0,
-      max_tokens: 100,
+      max_tokens: 137,
     });
     // this.render_message(hyd, "assistant", true);
     // console.log(hyd);
     // search for nearest based on hyd
-    const nearest = await this.plugin.api.search(hyd);
+    let nearest = await this.plugin.api.search(hyd);
+    // get std dev of similarity
+    const sim = nearest.map((n) => n.similarity);
+    const mean = sim.reduce((a, b) => a + b) / sim.length;
+    const std_dev = Math.sqrt(sim.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / sim.length);
+    // slice where next item deviation is greater than std_dev
+    let slice_i = 0;
+    while(slice_i < nearest.length) {
+      const next = nearest[slice_i + 1];
+      if(next) {
+        const next_dev = Math.abs(next.similarity - nearest[slice_i].similarity);
+        if(next_dev > std_dev) {
+          break;
+        }
+      }
+      slice_i++;
+    }
+    // select top results
+    nearest = nearest.slice(0, slice_i);
+    // re-sort by quotient of similarity divided by len DESC
+    nearest = nearest.sort((a, b) => {
+      const a_score = a.similarity / a.len;
+      const b_score = b.similarity / b.len;
+      // if a is greater than b, return -1
+      if(a_score > b_score) return -1;
+      // if a is less than b, return 1
+      if(a_score < b_score) return 1;
+      // if a is equal to b, return 0
+      return 0;
+    });
+
     // console.log(nearest);
     // get the top 3 results excluding files (must have a # in the link)
     let top = [];
-    const MAX_SOURCES = 10; // 10 * 1000 (max chars) = 10,000 chars (must be under ~16,000 chars or 4K tokens) 
+    const MAX_SOURCES = 20; // 10 * 1000 (max chars) = 10,000 chars (must be under ~16,000 chars or 4K tokens) 
+    const MAX_CHARS = 10000;
+    let char_accum = 0;
     for(let i = 0; i < nearest.length; i++) {
       if(top.length >= MAX_SOURCES) break;
-      if((typeof nearest[i].link === 'string') && nearest[i].link.indexOf("#") !== -1){ // is block
-        const block_content = await this.plugin.block_retriever(nearest[i].link, {max_chars: 1000});
-        const breadcrumbs = nearest[i].link.replace(/#/g, " > ").replace(".md", "").replace(/\//g, " > ");
-        top.push({
-          link: nearest[i].link,
-          text: `${breadcrumbs}\n${block_content}`
-        });
-      }else if(typeof nearest[i].link === 'string'){ // is file
+      if(char_accum >= MAX_CHARS) break;
+      if(typeof nearest[i].link !== 'string') continue;
+      // generate breadcrumbs
+      const breadcrumbs = nearest[i].link.replace(/#/g, " > ").replace(".md", "").replace(/\//g, " > ");
+      let new_context = `${breadcrumbs}:\n`;
+      // get max available chars to add to top
+      const max_available_chars = MAX_CHARS - char_accum - new_context.length;
+      if(nearest[i].link.indexOf("#") !== -1){ // is block
+        new_context += await this.plugin.block_retriever(nearest[i].link, {max_chars: max_available_chars});
+      }else{ // is file
         const this_file = this.app.vault.getAbstractFileByPath(nearest[i].link);
         // if file is not found, skip
         if (!(this_file instanceof Obsidian.TAbstractFile)) continue;
         // use cachedRead to get the first 10 lines of the file
         const file_content = await this.app.vault.cachedRead(this_file);
-        // get first 1000 chars
-        const file_content_1000 = file_content.substring(0, 1000);
-        // generate breadcrumbs
-        const breadcrumbs = nearest[i].link.replace(".md", "").replace(/\//g, " > ");
-        // add to top
-        top.push({
-          link: nearest[i].link,
-          text: `${breadcrumbs}\n${file_content_1000}`
-        });
+        // get up to max_available_chars from file_content
+        new_context += file_content.substring(0, max_available_chars);
       }
+      // add to char_accum
+      char_accum += new_context.length;
+      // add to top
+      top.push({
+        link: nearest[i].link,
+        text: new_context
+      });
     }
+    // context sources
+    console.log("context sources: " + top.length);
+    // char_accum divided by 4 and rounded to nearest integer for estimated tokens
+    console.log("total context tokens: ~" + Math.round(char_accum / 4));
     // console.log(top);
     return top;
   }
 
+}
+
+// Handle API response streaming
+class ScStreamer {
+  // constructor
+  constructor(url, options) {
+    // set default options
+    options = options || {};
+    this.url = url;
+    this.method = options.method || 'GET';
+    this.headers = options.headers || {};
+    this.payload = options.payload || null;
+    this.withCredentials = options.withCredentials || false;
+    this.listeners = {};
+    this.readyState = this.CONNECTING;
+    this.progress = 0;
+    this.chunk = '';
+    this.xhr = null;
+    this.FIELD_SEPARATOR = ':';
+    this.INITIALIZING = -1;
+    this.CONNECTING = 0;
+    this.OPEN = 1;
+    this.CLOSED = 2;
+  }
+  // addEventListener
+  addEventListener(type, listener) {
+    // check if the type is in the listeners
+    if (!this.listeners[type]) {
+      this.listeners[type] = [];
+    }
+    // check if the listener is already in the listeners
+    if(this.listeners[type].indexOf(listener) === -1) {
+      this.listeners[type].push(listener);
+    }
+  }
+  // removeEventListener
+  removeEventListener(type, listener) {
+    // check if listener type is undefined
+    if (!this.listeners[type]) {
+      return;
+    }
+    let filtered = [];
+    // loop through the listeners
+    for (let i = 0; i < this.listeners[type].length; i++) {
+      // check if the listener is the same
+      if (this.listeners[type][i] !== listener) {
+        filtered.push(this.listeners[type][i]);
+      }
+    }
+    // check if the listeners are empty
+    if (this.listeners[type].length === 0) {
+      delete this.listeners[type];
+    } else {
+      this.listeners[type] = filtered;
+    }
+  }
+  // dispatchEvent
+  dispatchEvent(event) {
+    // if no event return true
+    if (!event) {
+      return true;
+    }
+    // set event source to this
+    event.source = this;
+    // set onHandler to on + event type
+    let onHandler = 'on' + event.type;
+    // check if the onHandler has own property named same as onHandler
+    if (this.hasOwnProperty(onHandler)) {
+      // call the onHandler
+      this[onHandler].call(this, event);
+      // check if the event is default prevented
+      if (event.defaultPrevented) {
+        return false;
+      }
+    }
+    // check if the event type is in the listeners
+    if (this.listeners[event.type]) {
+      return this.listeners[event.type].every(function(callback) {
+        callback(event);
+        return !event.defaultPrevented;
+      });
+    }
+    return true;
+  }
+  // _setReadyState
+  _setReadyState(state) {
+    // set event type to readyStateChange
+    let event = new CustomEvent('readyStateChange');
+    // set event readyState to state
+    event.readyState = state;
+    // set readyState to state
+    this.readyState = state;
+    // dispatch event
+    this.dispatchEvent(event);
+  }
+  // _onStreamFailure
+  _onStreamFailure(e) {
+    // set event type to error
+    let event = new CustomEvent('error');
+    // set event data to e
+    event.data = e.currentTarget.response;
+    // dispatch event
+    this.dispatchEvent(event);
+    this.close();
+  }
+  // _onStreamAbort
+  _onStreamAbort(e) {
+    // set to abort
+    let event = new CustomEvent('abort');
+    // close
+    this.close();
+  }
+  // _onStreamProgress
+  _onStreamProgress(e) {
+    // if not xhr return
+    if (!this.xhr) {
+      return;
+    }
+    // if xhr status is not 200 return
+    if (this.xhr.status !== 200) {
+      // onStreamFailure
+      this._onStreamFailure(e);
+      return;
+    }
+    // if ready state is CONNECTING
+    if (this.readyState === this.CONNECTING) {
+      // dispatch event
+      this.dispatchEvent(new CustomEvent('open'));
+      // set ready state to OPEN
+      this._setReadyState(this.OPEN);
+    }
+    // parse the received data.
+    let data = this.xhr.responseText.substring(this.progress);
+    // update progress
+    this.progress += data.length;
+    // split the data by new line and parse each line
+    data.split(/(\r\n|\r|\n){2}/g).forEach(function(part){
+      if(part.trim().length === 0) {
+        this.dispatchEvent(this._parseEventChunk(this.chunk.trim()));
+        this.chunk = '';
+      } else {
+        this.chunk += part;
+      }
+    }.bind(this));
+  }
+  // _onStreamLoaded
+  _onStreamLoaded(e) {
+    this._onStreamProgress(e);
+    // parse the last chunk
+    this.dispatchEvent(this._parseEventChunk(this.chunk));
+    this.chunk = '';
+  }
+  // _parseEventChunk
+  _parseEventChunk(chunk) {
+    // if no chunk or chunk is empty return
+    if (!chunk || chunk.length === 0) {
+      return null;
+    }
+    // init e
+    let e = {id: null, retry: null, data: '', event: 'message'};
+    // split the chunk by new line
+    chunk.split(/(\r\n|\r|\n)/).forEach(function(line) {
+      line = line.trimRight();
+      let index = line.indexOf(this.FIELD_SEPARATOR);
+      if(index <= 0) {
+        return;
+      }
+      // field
+      let field = line.substring(0, index);
+      if(!(field in e)) {
+        return;
+      }
+      // value
+      let value = line.substring(index + 1).trimLeft();
+      if(field === 'data') {
+        e[field] += value;
+      } else {
+        e[field] = value;
+      }
+    }.bind(this));
+    // return event
+    let event = new CustomEvent(e.event);
+    event.data = e.data;
+    event.id = e.id;
+    return event;
+  }
+  // _checkStreamClosed
+  _checkStreamClosed() {
+    if(!this.xhr) {
+      return;
+    }
+    if(this.xhr.readyState === XMLHttpRequest.DONE) {
+      this._setReadyState(this.CLOSED);
+    }
+  }
+  // stream
+  stream() {
+    // set ready state to connecting
+    this._setReadyState(this.CONNECTING);
+    // set xhr to new XMLHttpRequest
+    this.xhr = new XMLHttpRequest();
+    // set xhr progress to _onStreamProgress
+    this.xhr.addEventListener('progress', this._onStreamProgress.bind(this));
+    // set xhr load to _onStreamLoaded
+    this.xhr.addEventListener('load', this._onStreamLoaded.bind(this));
+    // set xhr ready state change to _checkStreamClosed
+    this.xhr.addEventListener('readystatechange', this._checkStreamClosed.bind(this));
+    // set xhr error to _onStreamFailure
+    this.xhr.addEventListener('error', this._onStreamFailure.bind(this));
+    // set xhr abort to _onStreamAbort
+    this.xhr.addEventListener('abort', this._onStreamAbort.bind(this));
+    // open xhr
+    this.xhr.open(this.method, this.url);
+    // headers to xhr
+    for (let header in this.headers) {
+      this.xhr.setRequestHeader(header, this.headers[header]);
+    }
+    // credentials to xhr
+    this.xhr.withCredentials = this.withCredentials;
+    // send xhr
+    this.xhr.send(this.payload);
+  }
+  // close
+  close() {
+    if(this.readyState === this.CLOSED) {
+      return;
+    }
+    this.xhr.abort();
+    this.xhr = null;
+    this._setReadyState(this.CLOSED);
+  }
 }
 
 module.exports = SmartConnectionsPlugin;
