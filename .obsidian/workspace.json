@@ -11,8 +11,12 @@
             "id": "33df7c99d2f8c215",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md"
+              }
             }
           },
           {
