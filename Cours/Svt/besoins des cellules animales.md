@@ -8,7 +8,7 @@
 
 ```mermaid
 flowchart LR
-Start --> Stop
+ --> Stop
 ```
 
 
