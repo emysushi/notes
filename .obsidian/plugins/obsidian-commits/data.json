@@ -199,7 +199,7 @@
       "tags": 2,
       "links": 11
     },
-    "Cours/Svt/besoins des cellules animales.md": {
+    "Cours/Svt/Besoins des cellules animales.md": {
       "size": 89,
       "tags": 0,
       "links": 0
@@ -207,7 +207,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 1,
+      "Refactor": 2,
       "Create": 0,
       "Link": 0,
       "Expand": 6
@@ -236,7 +236,7 @@
       "18": 1,
       "19": 0,
       "20": 0,
-      "21": 1,
+      "21": 2,
       "22": 0,
       "23": 0
     }
@@ -245,7 +245,7 @@
     "/": {
       "Mon": 1,
       "Tue": 0,
-      "Wed": 1,
+      "Wed": 2,
       "Thu": 0,
       "Fri": 2,
       "Sat": 0,
@@ -264,7 +264,8 @@
       ],
       "Created": [],
       "Renamed": [
-        "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>"
+        "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>",
+        "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales.md\"> Besoins des cellules animales </a>"
       ],
       "Tagged": [],
       "Refactored": [],
