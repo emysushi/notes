@@ -134,11 +134,6 @@
       "tags": 3,
       "links": 0
     },
-    "Cours/Svt/Home.md": {
-      "size": 89,
-      "tags": 0,
-      "links": 0
-    },
     "Cours/Physique-Chimie/Home.md": {
       "size": 101,
       "tags": 0,
@@ -203,11 +198,16 @@
       "size": 1917,
       "tags": 2,
       "links": 11
+    },
+    "Cours/Svt/besoins des cellules animales.md": {
+      "size": 89,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 0,
+      "Refactor": 1,
       "Create": 0,
       "Link": 0,
       "Expand": 6
@@ -236,7 +236,7 @@
       "18": 1,
       "19": 0,
       "20": 0,
-      "21": 0,
+      "21": 1,
       "22": 0,
       "23": 0
     }
@@ -245,7 +245,7 @@
     "/": {
       "Mon": 1,
       "Tue": 0,
-      "Wed": 0,
+      "Wed": 1,
       "Thu": 0,
       "Fri": 2,
       "Sat": 0,
@@ -263,7 +263,9 @@
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>"
       ],
       "Created": [],
-      "Renamed": [],
+      "Renamed": [
+        "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>"
+      ],
       "Tagged": [],
       "Refactored": [],
       "Deleted": [],
