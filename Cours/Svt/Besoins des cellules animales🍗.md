@@ -4,8 +4,12 @@
 
 # Les cellules fabriquent de l'énergie⚡
 
-<center>cellules musculaires</center>
+.                                                                                :  cellules musculaires :
 
-alimentation
+.                                 alimentation                    glucose                    énergie                   fonctionnement cellules                                                                                                                                       
+.                                          et                  --->            +             --->            +            --->                                                                         
+.                                   respiration                    dioxygène                 déchets                   élimination déchets(CO2, urée) 
 
-respiration
+
+
+
