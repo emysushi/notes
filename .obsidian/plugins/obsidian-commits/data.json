@@ -203,12 +203,17 @@
       "size": 89,
       "tags": 0,
       "links": 0
+    },
+    "Cours/Histoire-Geographie/LES SERRURES.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 3,
-      "Create": 0,
+      "Refactor": 4,
+      "Create": 1,
       "Link": 0,
       "Expand": 6
     }
@@ -225,7 +230,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 0,
+      "10": 2,
       "11": 0,
       "12": 0,
       "13": 0,
@@ -246,7 +251,7 @@
       "Mon": 1,
       "Tue": 0,
       "Wed": 3,
-      "Thu": 0,
+      "Thu": 2,
       "Fri": 2,
       "Sat": 0,
       "Sun": 3
@@ -262,11 +267,14 @@
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>"
       ],
-      "Created": [],
+      "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>"
+      ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>",
         "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales.md\"> Besoins des cellules animales </a>",
-        "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>"
+        "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>"
       ],
       "Tagged": [],
       "Refactored": [],

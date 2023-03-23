@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1b9db70d21d6bf5f",
+        "id": "35e0af69b73bf8ca",
         "type": "tabs",
         "children": [
           {
-            "id": "76be4bb31ea7297b",
+            "id": "5cc448caa152c7b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Cours/Histoire-Geographie/LES SERRURES.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f9a93e3f36cbf28",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -82,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -102,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Svt/Besoins des cellules animales🍗.md",
+                "file": "Cours/Histoire-Geographie/LES SERRURES.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Svt/Besoins des cellules animales🍗.md",
+                "file": "Cours/Histoire-Geographie/LES SERRURES.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Svt/Besoins des cellules animales🍗.md"
+                "file": "Cours/Histoire-Geographie/LES SERRURES.md"
               }
             }
           },
@@ -217,8 +229,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "76be4bb31ea7297b",
+  "active": "5cc448caa152c7b5",
   "lastOpenFiles": [
+    "Cours/Svt/Besoins des cellules animales🍗.md",
+    "Cours/Histoire-Geographie/LES SERRURES.md",
+    "les serrures",
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
@@ -242,12 +257,9 @@
     "Template/tpl-livre.md",
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_langues.md",
-    "Template/tpl-fiche_histoire-geo.md",
     "Gallery/Pasted image 20230308173724.png",
-    "histoire.md",
     "Banner/biblio.jpeg",
     "Banner",
-    "Template/tpl-empty.md",
     "Planning_Semaine",
     "Cours/Technologie",
     "Cours/Svt",
@@ -256,7 +268,6 @@
     "Cours/Mathematiques",
     "Cours/Histoire-Geographie",
     "Cours/Francais",
-    "Cours/Chinois",
     "Gallery/massachussets_embleme.png",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
