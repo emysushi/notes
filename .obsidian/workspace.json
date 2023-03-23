@@ -11,8 +11,12 @@
             "id": "cb5e208d0e3d3abe",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Dossier/Dossier_serrures.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -69,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Dossier/Dossier_serrures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Dossier/Dossier_serrures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Dossier/Dossier_serrures.md"
+              }
             }
           },
           {
@@ -177,5 +184,11 @@
     }
   },
   "active": "cb5e208d0e3d3abe",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Template/tpl-dossier.md",
+    "Dossier/Dossier_serrures.md",
+    "Dossier/Dossier_techno.md",
+    "Cours/Technologie/Dossier_Serrures.md",
+    "Dossier"
+  ]
 }

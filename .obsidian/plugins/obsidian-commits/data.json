@@ -124,11 +124,6 @@
       "tags": 0,
       "links": 0
     },
-    "Cours/Technologie/Dossier_Serrures.md": {
-      "size": 608,
-      "tags": 2,
-      "links": 0
-    },
     "Cours/Svt/Besoins des cellules animales🍗.md": {
       "size": 858,
       "tags": 0,
@@ -207,8 +202,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 0,
-      "Create": 0,
+      "Refactor": 2,
+      "Create": 1,
       "Link": 0,
       "Expand": 0
     }
@@ -225,7 +220,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 0,
+      "10": 3,
       "11": 0,
       "12": 0,
       "13": 0,
@@ -246,7 +241,7 @@
       "Mon": 0,
       "Tue": 0,
       "Wed": 0,
-      "Thu": 0,
+      "Thu": 3,
       "Fri": 0,
       "Sat": 0,
       "Sun": 0
@@ -255,11 +250,16 @@
   "recentCommits": {
     "/": {
       "Expanded": [],
-      "Created": [],
+      "Created": [
+        "<a class=\"internal-link\" href=\"Dossier/Untitled.md\"> Untitled </a>"
+      ],
       "Renamed": [],
       "Tagged": [],
       "Refactored": [],
-      "Deleted": [],
+      "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
+        "<a class=\"internal-link\" href=\"Dossier/Dossier_techno.md\"> Dossier_techno </a>"
+      ],
       "Linked": [],
       "Removed Tags from": [],
       "Removed Links from": []
