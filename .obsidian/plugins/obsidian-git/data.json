@@ -3,10 +3,10 @@
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
   "autoSaveInterval": 1,
   "autoPushInterval": 5,
-  "autoPullInterval": 3,
+  "autoPullInterval": 0,
   "autoPullOnBoot": true,
-  "disablePush": false,
-  "pullBeforePush": true,
+  "disablePush": true,
+  "pullBeforePush": false,
   "disablePopups": false,
   "listChangedFilesInMessageBody": false,
   "showStatusBar": true,
@@ -25,5 +25,6 @@
   "setLastSaveToLastCommit": false,
   "submoduleRecurseCheckout": false,
   "gitDir": "",
+  "showFileMenu": true,
   "autoCommitMessage": "vault backup: {{date}}"
 }

@@ -62,6 +62,17 @@ content:
 ```
 
 # les principaux matériaux en construction
+<<<<<<< HEAD
+| Matériau    | pour construire                        | Mise en Œuvre                        | Avantage                                         | Inconvénient            |
+| ----------- | -------------------------------------- | ------------------------------------ | ------------------------------------------------ | ----------------------- |
+| BOIS        | Charpente (toiture), Poutre (plancher) | façonnage scierie                    | isolant, écologique, rapide, résistance humidité | avec un autre matériaux |
+| PIERRE      | Murs                                   | façonnage carrière/usine             | durabilité, HQE                                  | prix +                  |
+| TERRE CUITE | Brique, tuile                          | moulage + cuisson                    |                                                  |                         |
+| ARDOISE     | couverture                             | façonnage à la carrière              |                                                  |                         |
+| BETON       | Mur, Poutre, Poteau, Planché           | cimenterie puis livraison par camion |                                                  |                         |
+| ACIER       | Poutre poteau, Plaque                  | dans une aciérie                     |                                                  |                         |
+| VERRE       | Vitre, Porte, Baie, Verrière           | en usines                                     |                                                  |                         |
+=======
 | Matériau    | pour construire                        | Mise en Œuvre                        | Avantage                                        | Inconvénient                 |
 | ----------- | -------------------------------------- | ------------------------------------ | ----------------------------------------------- | ---------------------------- |
 | BOIS        | Charpente (toiture), Poutre (plancher) | façonnage scierie                    | isolant, écolo, rapide, résistance humidité     | avec un autre matériaux      |
@@ -72,10 +83,18 @@ content:
 | ACIER       | Poutre poteau, Plaque                  | dans une aciérie                     | solidité, recyclable, pas cher                  | fracture, entretien, feux    |
 | VERRE       | Vitre, Porte, Baie, Verrière           | en usines                            | imperméable, pur, facile à nettoyer             | fragile, usure               |
 |             |                                        |                                      |                                                 |                              |
+>>>>>>> main
 
 
 ## Fabrication 
 
+<<<<<<< HEAD
+### Bois (charpente, poutre) 
+
+### Pierre de taille
+
+### Ardoise 
+=======
 ## Acier 
 1)agglomération
 2)haut fourneau
@@ -103,6 +122,7 @@ content:
 3)acheminer par camions 
 4)jusqu'à l'atelier de la transformation de la carrière 
 
+>>>>>>> main
 
 - Gisement :
 	- Analyse : études géologiques, minières et géotechniques +  travaux de prospection = > qualité de pierre et le potentiel des réserves du gisement.
