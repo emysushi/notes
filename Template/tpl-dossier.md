@@ -9,7 +9,7 @@ await tp.file.rename(titleName)
 
 ---
 
-title:: <% qcFileName %>
+title:: <% "#"+qcFileName %>
 domaine:: <% "#"+tp.file.folder(false) %>
 author:: EmySushi
 status:: inprogress
@@ -20,9 +20,6 @@ duedate::
 <% tp.file.cursor() %>
 
 ---
-
-
-
 
 
 
