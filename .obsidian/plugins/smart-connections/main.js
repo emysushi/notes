@@ -1,7 +1,6 @@
 const Obsidian = require("obsidian");
 // require built-in crypto module
 const crypto = require("crypto");
-const { json } = require("stream/consumers");
 
 const DEFAULT_SETTINGS = {
   api_key: "",
@@ -161,17 +160,27 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
     this.registerMarkdownCodeBlockProcessor("smart-connections", this.render_code_block.bind(this));
 
   }
-  async render_code_block (contents, container, component) {
-    const nearest = await this.api.search(contents);
+  async render_code_block(contents, container, ctx) {
+    let nearest;
+    if(contents.trim().length > 0) {
+      nearest = await this.api.search(contents);
+    } else {
+      // use ctx to get file
+      console.log(ctx);
+      const file = this.app.vault.getAbstractFileByPath(ctx.sourcePath);
+      nearest = await this.find_note_connections(file);
+    }
     if (nearest.length) {
-      const list = container.createEl("ul");
-      list.addClass("smart-connections-list");
-      for (const item of nearest) {
-        const el = list.createEl("li", {
-          cls: "smart-connections-item",
-          text: item.link
-        });
-      }
+      this.update_results(container, nearest);
+      // const list = container.createEl("ul");
+      // list.addClass("smart-connections-list");
+      // for (const item of nearest) {
+      //   const el = list.createEl("li", {
+      //     cls: "smart-connections-item",
+      //     text: item.link
+      //   });
+      // }
+
     }
   }
 
@@ -1522,6 +1531,380 @@ class SmartConnectionsPlugin extends Obsidian.Plugin {
       target: "_blank"
     });
   }
+
+
+  // create list of nearest notes
+  async update_results(container, nearest) {
+    let list;
+    // check if list exists
+    if((container.children.length > 1) && (container.children[1].classList.contains("sc-list"))){
+      list = container.children[1];
+    }
+    // if list exists, empty it
+    if (list) {
+      list.empty();
+    } else {
+      // create list element
+      list = container.createEl("div", { cls: "sc-list" });
+    }
+    let search_result_class = "search-result";
+    // if settings expanded_view is false, add sc-collapsed class
+    if(!this.settings.expanded_view) search_result_class += " sc-collapsed";
+
+    // TODO: add option to group nearest by file
+    if(!this.settings.group_nearest_by_file) {
+      // for each nearest note
+      for (let i = 0; i < nearest.length; i++) {
+        /**
+         * BEGIN EXTERNAL LINK LOGIC
+         * if link is an object, it indicates external link
+         */
+        if (typeof nearest[i].link === "object") {
+          const item = list.createEl("div", { cls: "search-result" });
+          const link = item.createEl("a", {
+            cls: "search-result-file-title is-clickable",
+            href: nearest[i].link.path,
+            title: nearest[i].link.title,
+          });
+          link.innerHTML = this.render_external_link_elm(nearest[i].link);
+          item.setAttr('draggable', 'true')
+          continue; // ends here for external links
+        }
+        /**
+         * BEGIN INTERNAL LINK LOGIC
+         * if link is a string, it indicates internal link
+         */
+        let file_link_text;
+        const file_similarity_pct = Math.round(nearest[i].similarity * 100) + "%";
+        if(this.settings.show_full_path) {
+          const pcs = nearest[i].link.split("/");
+          file_link_text = pcs[pcs.length - 1];
+          const path = pcs.slice(0, pcs.length - 1).join("/");
+          // file_link_text = `<small>${path} | ${file_similarity_pct}</small><br>${file_link_text}`;
+          file_link_text = `<small>${file_similarity_pct} | ${path} | ${file_link_text}</small>`;
+        }else{
+          file_link_text = '<small>' + file_similarity_pct + " | " + nearest[i].link.split("/").pop() + '</small>';
+        }
+        // skip contents rendering if incompatible file type
+        // ex. not markdown file or contains no '.excalidraw'
+        if(!this.renderable_file_type(nearest[i].link)){
+          const item = list.createEl("div", { cls: "search-result" });
+          const link = item.createEl("a", {
+            cls: "search-result-file-title is-clickable",
+            href: nearest[i].link,
+          });
+          link.innerHTML = file_link_text;
+          // drag and drop
+          item.setAttr('draggable', 'true')
+          // add listeners to link
+          this.add_link_listeners(link, nearest[i], item);
+          continue;
+        }
+
+        // remove file extension if .md and make # into >
+        file_link_text = file_link_text.replace(".md", "").replace(/#/g, " > ");
+        // create item
+        const item = list.createEl("div", { cls: search_result_class });
+        // create span for toggle
+        const toggle = item.createEl("span", { cls: "is-clickable" });
+        // insert right triangle svg as toggle
+        Obsidian.setIcon(toggle, "right-triangle"); // must come before adding other elms to prevent overwrite
+        const link = toggle.createEl("a", {
+          cls: "search-result-file-title",
+          title: nearest[i].link,
+        });
+        link.innerHTML = file_link_text;
+        // add listeners to link
+        this.add_link_listeners(link, nearest[i], item);
+        toggle.addEventListener("click", (event) => {
+          // find parent containing search-result class
+          let parent = event.target.parentElement;
+          while (!parent.classList.contains("search-result")) {
+            parent = parent.parentElement;
+          }
+          // toggle sc-collapsed class
+          parent.classList.toggle("sc-collapsed");
+        });
+        const contents = item.createEl("ul", { cls: "" });
+        const contents_container = contents.createEl("li", {
+          cls: "search-result-file-title is-clickable",
+          title: nearest[i].link,
+        });
+        if(nearest[i].link.indexOf("#") > -1){ // is block
+          Obsidian.MarkdownRenderer.renderMarkdown((await this.block_retriever(nearest[i].link, {lines: 10, max_chars: 1000})), contents_container, nearest[i].link, void 0);
+        }else{ // is file
+          const first_ten_lines = await this.file_retriever(nearest[i].link, {lines: 10, max_chars: 1000});
+          if(!first_ten_lines) continue; // skip if file is empty
+          Obsidian.MarkdownRenderer.renderMarkdown(first_ten_lines, contents_container, nearest[i].link, void 0);
+        }
+        this.add_link_listeners(contents, nearest[i], item);
+      }
+      this.render_brand(container);
+      return;
+    }
+
+    // group nearest by file
+    const nearest_by_file = {};
+    for (let i = 0; i < nearest.length; i++) {
+      const curr = nearest[i];
+      const link = curr.link;
+      // skip if link is an object (indicates external logic)
+      if (typeof link === "object") {
+        nearest_by_file[link.path] = [curr];
+        continue;
+      }
+      if (link.indexOf("#") > -1) {
+        const file_path = link.split("#")[0];
+        if (!nearest_by_file[file_path]) {
+          nearest_by_file[file_path] = [];
+        }
+        nearest_by_file[file_path].push(nearest[i]);
+      } else {
+        if (!nearest_by_file[link]) {
+          nearest_by_file[link] = [];
+        }
+        // always add to front of array
+        nearest_by_file[link].unshift(nearest[i]);
+      }
+    }
+    // for each file
+    const keys = Object.keys(nearest_by_file);
+    for (let i = 0; i < keys.length; i++) {
+      const file = nearest_by_file[keys[i]];
+      /**
+       * Begin external link handling
+       */
+      // if link is an object (indicates v2 logic)
+      if (typeof file[0].link === "object") {
+        const curr = file[0];
+        const meta = curr.link;
+        if (meta.path.startsWith("http")) {
+          const item = list.createEl("div", { cls: "search-result" });
+          const link = item.createEl("a", {
+            cls: "search-result-file-title is-clickable",
+            href: meta.path,
+            title: meta.title,
+          });
+          link.innerHTML = this.render_external_link_elm(meta);
+          item.setAttr('draggable', 'true');
+          continue; // ends here for external links
+        }
+      }
+      /**
+       * Handles Internal
+       */
+      let file_link_text;
+      const file_similarity_pct = Math.round(file[0].similarity * 100) + "%";
+      if (this.settings.show_full_path) {
+        const pcs = file[0].link.split("/");
+        file_link_text = pcs[pcs.length - 1];
+        const path = pcs.slice(0, pcs.length - 1).join("/");
+        file_link_text = `<small>${path} | ${file_similarity_pct}</small><br>${file_link_text}`;
+      } else {
+        file_link_text = file[0].link.split("/").pop();
+        // add similarity percentage
+        file_link_text += ' | ' + file_similarity_pct;
+      }
+
+
+        
+      // skip contents rendering if incompatible file type
+      // ex. not markdown or contains '.excalidraw'
+      if(!this.renderable_file_type(file[0].link)) {
+        const item = list.createEl("div", { cls: "search-result" });
+        const file_link = item.createEl("a", {
+          cls: "search-result-file-title is-clickable",
+          title: file[0].link,
+        });
+        file_link.innerHTML = file_link_text;
+        // add link listeners to file link
+        this.add_link_listeners(file_link, file[0], item);
+        continue;
+      }
+
+
+      // remove file extension if .md
+      file_link_text = file_link_text.replace(".md", "").replace(/#/g, " > ");
+      const item = list.createEl("div", { cls: search_result_class });
+      const toggle = item.createEl("span", { cls: "is-clickable" });
+      // insert right triangle svg icon as toggle button in span
+      Obsidian.setIcon(toggle, "right-triangle"); // must come before adding other elms else overwrites
+      const file_link = toggle.createEl("a", {
+        cls: "search-result-file-title",
+        title: file[0].link,
+      });
+      file_link.innerHTML = file_link_text;
+      // add link listeners to file link
+      this.add_link_listeners(file_link, file[0], toggle);
+      toggle.addEventListener("click", (event) => {
+        // find parent containing class search-result
+        let parent = event.target;
+        while (!parent.classList.contains("search-result")) {
+          parent = parent.parentElement;
+        }
+        parent.classList.toggle("sc-collapsed");
+        // TODO: if block container is empty, render markdown from block retriever
+      });
+      const file_link_list = item.createEl("ul");
+      // for each link in file
+      for (let j = 0; j < file.length; j++) {
+        // if is a block (has # in link)
+        if(file[j].link.indexOf("#") > -1) {
+          const block = file[j];
+          const block_link = file_link_list.createEl("li", {
+            cls: "search-result-file-title is-clickable",
+            title: block.link,
+          });
+          // skip block context if file.length === 1 because already added
+          if(file.length > 1) {
+            const block_context = this.render_block_context(block);
+            const block_similarity_pct = Math.round(block.similarity * 100) + "%";
+            block_link.innerHTML = `<small>${block_context} | ${block_similarity_pct}</small>`;
+          }
+          const block_container = block_link.createEl("div");
+          // TODO: move to rendering on expanding section (toggle collapsed)
+          Obsidian.MarkdownRenderer.renderMarkdown((await this.block_retriever(block.link, {lines: 10, max_chars: 1000})), block_container, block.link, void 0);
+          // add link listeners to block link
+          this.add_link_listeners(block_link, block, file_link_list);
+        }else{
+          // get first ten lines of file
+          const file_link_list = item.createEl("ul");
+          const block_link = file_link_list.createEl("li", {
+            cls: "search-result-file-title is-clickable",
+            title: file[0].link,
+          });
+          const block_container = block_link.createEl("div");
+          let first_ten_lines = await this.file_retriever(file[0].link, {lines: 10, max_chars: 1000});
+          if(!first_ten_lines) continue; // if file not found, skip
+          Obsidian.MarkdownRenderer.renderMarkdown(first_ten_lines, block_container, file[0].link, void 0);
+          this.add_link_listeners(block_link, file[0], file_link_list);
+
+        }
+      }
+    }
+    this.render_brand(container);
+  }
+
+  add_link_listeners(item, curr, list) {
+    item.addEventListener("click", async (event) => {
+      await this.handle_click(curr, event);
+    });
+    // drag-on
+    // currently only works with full-file links
+    item.setAttr('draggable', 'true');
+    item.addEventListener('dragstart', (event) => {
+      const dragManager = this.app.dragManager;
+      const file_path = curr.link.split("#")[0];
+      const file = this.app.metadataCache.getFirstLinkpathDest(file_path, '');
+      const dragData = dragManager.dragFile(event, file);
+      // console.log(dragData);
+      dragManager.onDragStart(event, dragData);
+    });
+    // if curr.link contains curly braces, return (incompatible with hover-link)
+    if (curr.link.indexOf("{") > -1) return;
+    // trigger hover event on link
+    item.addEventListener("mouseover", (event) => {
+      this.app.workspace.trigger("hover-link", {
+        event,
+        source: SMART_CONNECTIONS_VIEW_TYPE,
+        hoverParent: list,
+        targetEl: item,
+        linktext: curr.link,
+      });
+    });
+  }
+
+
+  // get target file from link path
+  // if sub-section is linked, open file and scroll to sub-section
+  async handle_click(curr, event) {
+    let targetFile;
+    let heading;
+    if (curr.link.indexOf("#") > -1) {
+      // remove after # from link
+      targetFile = this.app.metadataCache.getFirstLinkpathDest(curr.link.split("#")[0], "");
+      // console.log(targetFile);
+      const target_file_cache = this.app.metadataCache.getFileCache(targetFile);
+      // console.log(target_file_cache);
+      // get heading
+      let heading_text = curr.link.split("#").pop();
+      // if heading text contains a curly brace, get the number inside the curly braces as occurence
+      let occurence = 0;
+      if (heading_text.indexOf("{") > -1) {
+        // get occurence
+        occurence = parseInt(heading_text.split("{")[1].split("}")[0]);
+        // remove occurence from heading text
+        heading_text = heading_text.split("{")[0];
+      }
+      // get headings from file cache
+      const headings = target_file_cache.headings;
+      // get headings with the same depth and text as the link
+      for(let i = 0; i < headings.length; i++) {
+        if (headings[i].heading === heading_text) {
+          // if occurence is 0, set heading and break
+          if(occurence === 0) {
+            heading = headings[i];
+            break;
+          }
+          occurence--; // decrement occurence
+        }
+      }
+      // console.log(heading);
+    } else {
+      targetFile = this.app.metadataCache.getFirstLinkpathDest(curr.link, "");
+    }
+    // properly handle if the meta/ctrl key is pressed
+    const mod = Obsidian.Keymap.isModEvent(event);
+    // get most recent leaf
+    let leaf = this.app.workspace.getLeaf(mod);
+    await leaf.openFile(targetFile);
+    if (heading) {
+      let { editor } = leaf.view;
+      const pos = { line: heading.position.start.line, ch: 0 };
+      editor.setCursor(pos);
+      editor.scrollIntoView({ to: pos, from: pos }, true);
+    }
+  }
+
+  render_block_context(block) {
+    const block_headings = block.link.split(".md")[1].split("#");
+    // starting with the last heading first, iterate through headings
+    let block_context = "";
+    for (let i = block_headings.length - 1; i >= 0; i--) {
+      if(block_context.length > 0) {
+        block_context = ` > ${block_context}`;
+      }
+      block_context = block_headings[i] + block_context;
+      // if block context is longer than N characters, break
+      if (block_context.length > 100) {
+        break;
+      }
+    }
+    // remove leading > if exists
+    if (block_context.startsWith(" > ")) {
+      block_context = block_context.slice(3);
+    }
+    return block_context;
+
+  }
+
+  renderable_file_type(link) {
+    return (link.indexOf(".md") !== -1) && (link.indexOf(".excalidraw") === -1);
+  }
+
+  render_external_link_elm(meta){
+    if(meta.source) {
+      if(meta.source === "Gmail") meta.source = "📧 Gmail";
+      return `<small>${meta.source}</small><br>${meta.title}`;
+    }
+    // remove http(s)://
+    let domain = meta.path.replace(/(^\w+:|^)\/\//, "");
+    // separate domain from path
+    domain = domain.split("/")[0];
+    // wrap domain in <small> and add line break
+    return `<small>🌐 ${domain}</small><br>${meta.title}`;
+  }
+
 }
 
 const SMART_CONNECTIONS_VIEW_TYPE = "smart-connections-view";
@@ -1585,98 +1968,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
     }
     return link;
   }
-  render_external_link_elm(meta){
-    if(meta.source) {
-      if(meta.source === "Gmail") meta.source = "📧 Gmail";
-      return `<small>${meta.source}</small><br>${meta.title}`;
-    }
-    // remove http(s)://
-    let domain = meta.path.replace(/(^\w+:|^)\/\//, "");
-    // separate domain from path
-    domain = domain.split("/")[0];
-    // wrap domain in <small> and add line break
-    return `<small>🌐 ${domain}</small><br>${meta.title}`;
-  }
 
-  add_link_listeners(item, curr, list) {
-    item.addEventListener("click", async (event) => {
-      await this.handle_click(curr, event);
-    });
-    // drag-on
-    // currently only works with full-file links
-    item.setAttr('draggable', 'true');
-    item.addEventListener('dragstart', (event) => {
-      const dragManager = this.app.dragManager;
-      const file_path = curr.link.split("#")[0];
-      const file = this.app.metadataCache.getFirstLinkpathDest(file_path, '');
-      const dragData = dragManager.dragFile(event, file);
-      // console.log(dragData);
-      dragManager.onDragStart(event, dragData);
-    });
-    // if curr.link contains curly braces, return (incompatible with hover-link)
-    if (curr.link.indexOf("{") > -1) return;
-    // trigger hover event on link
-    item.addEventListener("mouseover", (event) => {
-      this.app.workspace.trigger("hover-link", {
-        event,
-        source: SMART_CONNECTIONS_VIEW_TYPE,
-        hoverParent: list,
-        targetEl: item,
-        linktext: curr.link,
-      });
-    });
-  }
-
-  // get target file from link path
-  // if sub-section is linked, open file and scroll to sub-section
-  async handle_click(curr, event) {
-    let targetFile;
-    let heading;
-    if (curr.link.indexOf("#") > -1) {
-      // remove after # from link
-      targetFile = this.app.metadataCache.getFirstLinkpathDest(curr.link.split("#")[0], "");
-      // console.log(targetFile);
-      const target_file_cache = this.app.metadataCache.getFileCache(targetFile);
-      // console.log(target_file_cache);
-      // get heading
-      let heading_text = curr.link.split("#").pop();
-      // if heading text contains a curly brace, get the number inside the curly braces as occurence
-      let occurence = 0;
-      if (heading_text.indexOf("{") > -1) {
-        // get occurence
-        occurence = parseInt(heading_text.split("{")[1].split("}")[0]);
-        // remove occurence from heading text
-        heading_text = heading_text.split("{")[0];
-      }
-      // get headings from file cache
-      const headings = target_file_cache.headings;
-      // get headings with the same depth and text as the link
-      for(let i = 0; i < headings.length; i++) {
-        if (headings[i].heading === heading_text) {
-          // if occurence is 0, set heading and break
-          if(occurence === 0) {
-            heading = headings[i];
-            break;
-          }
-          occurence--; // decrement occurence
-        }
-      }
-      // console.log(heading);
-    } else {
-      targetFile = this.app.metadataCache.getFirstLinkpathDest(curr.link, "");
-    }
-    // properly handle if the meta/ctrl key is pressed
-    const mod = Obsidian.Keymap.isModEvent(event);
-    // get most recent leaf
-    let leaf = this.app.workspace.getLeaf(mod);
-    await leaf.openFile(targetFile);
-    if (heading) {
-      let { editor } = leaf.view;
-      const pos = { line: heading.position.start.line, ch: 0 };
-      editor.setCursor(pos);
-      editor.scrollIntoView({ to: pos, from: pos }, true);
-    }
-  }
 
   set_nearest(nearest, nearest_context=null, results_only=false) {
     // get container element
@@ -1688,281 +1980,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
       this.initiate_top_bar(container, nearest_context);
     }
     // update results
-    this.update_results(container, nearest);
-  }
-  // create list of nearest notes
-  async update_results(container, nearest) {
-    let list;
-    // check if list exists
-    if((container.children.length > 1) && (container.children[1].classList.contains("sc-list"))){
-      list = container.children[1];
-    }
-    // if list exists, empty it
-    if (list) {
-      list.empty();
-    } else {
-      // create list element
-      list = container.createEl("div", { cls: "sc-list" });
-    }
-    let search_result_class = "search-result";
-    // if settings expanded_view is false, add sc-collapsed class
-    if(!this.plugin.settings.expanded_view) search_result_class += " sc-collapsed";
-
-    // TODO: add option to group nearest by file
-    if(!this.plugin.settings.group_nearest_by_file) {
-      // for each nearest note
-      for (let i = 0; i < nearest.length; i++) {
-        /**
-         * BEGIN EXTERNAL LINK LOGIC
-         * if link is an object, it indicates external link
-         */
-        if (typeof nearest[i].link === "object") {
-          const item = list.createEl("div", { cls: "search-result" });
-          const link = item.createEl("a", {
-            cls: "tree-item-self search-result-file-title is-clickable",
-            href: nearest[i].link.path,
-            title: nearest[i].link.title,
-          });
-          link.innerHTML = this.render_external_link_elm(nearest[i].link);
-          item.setAttr('draggable', 'true')
-          continue; // ends here for external links
-        }
-        /**
-         * BEGIN INTERNAL LINK LOGIC
-         * if link is a string, it indicates internal link
-         */
-        let file_link_text;
-        const file_similarity_pct = Math.round(nearest[i].similarity * 100) + "%";
-        if(this.plugin.settings.show_full_path) {
-          const pcs = nearest[i].link.split("/");
-          file_link_text = pcs[pcs.length - 1];
-          const path = pcs.slice(0, pcs.length - 1).join("/");
-          // file_link_text = `<small>${path} | ${file_similarity_pct}</small><br>${file_link_text}`;
-          file_link_text = `${file_similarity_pct} | ${path} | ${file_link_text}`;
-        }else{
-          file_link_text = file_similarity_pct + " | " + nearest[i].link.split("/").pop();
-        }
-        // skip contents rendering if incompatible file type
-        // ex. not markdown file or contains no '.excalidraw'
-        if(!this.renderable_file_type(nearest[i].link)){
-          const item = list.createEl("div", { cls: "search-result" });
-          const link = item.createEl("a", {
-            cls: "tree-item-self search-result-file-title is-clickable",
-            href: nearest[i].link,
-          });
-          link.innerHTML = file_link_text;
-          // drag and drop
-          item.setAttr('draggable', 'true')
-          // add listeners to link
-          this.add_link_listeners(link, nearest[i], item);
-          continue;
-        }
-
-        // remove file extension if .md and make # into >
-        file_link_text = file_link_text.replace(".md", "").replace(/#/g, " > ");
-        // create item
-        const item = list.createEl("div", { cls: search_result_class });
-        // create span for toggle
-        const toggle = item.createEl("span", { cls: "tree-item-self is-clickable" });
-        // insert right triangle svg as toggle
-        Obsidian.setIcon(toggle, "right-triangle"); // must come before adding other elms to prevent overwrite
-        const link = toggle.createEl("a", {
-          cls: "search-result-file-title",
-          title: nearest[i].link,
-        });
-        link.innerHTML = file_link_text;
-        // add listeners to link
-        this.add_link_listeners(link, nearest[i], item);
-        toggle.addEventListener("click", (event) => {
-          // find parent containing search-result class
-          let parent = event.target.parentElement;
-          while (!parent.classList.contains("search-result")) {
-            parent = parent.parentElement;
-          }
-          // toggle sc-collapsed class
-          parent.classList.toggle("sc-collapsed");
-        });
-        const contents = item.createEl("ul", { cls: "" });
-        const contents_container = contents.createEl("li", {
-          cls: "tree-item-self search-result-file-title is-clickable",
-          title: nearest[i].link,
-        });
-        if(nearest[i].link.indexOf("#") > -1){ // is block
-          Obsidian.MarkdownRenderer.renderMarkdown((await this.plugin.block_retriever(nearest[i].link, {lines: 10, max_chars: 1000})), contents_container, nearest[i].link, void 0);
-        }else{ // is file
-          const first_ten_lines = await this.plugin.file_retriever(nearest[i].link, {lines: 10, max_chars: 1000});
-          if(!first_ten_lines) continue; // skip if file is empty
-          Obsidian.MarkdownRenderer.renderMarkdown(first_ten_lines, contents_container, nearest[i].link, void 0);
-        }
-        this.add_link_listeners(contents, nearest[i], item);
-      }
-      this.plugin.render_brand(container);
-      return;
-    }
-
-    // group nearest by file
-    const nearest_by_file = {};
-    for (let i = 0; i < nearest.length; i++) {
-      const curr = nearest[i];
-      const link = curr.link;
-      // skip if link is an object (indicates external logic)
-      if (typeof link === "object") {
-        nearest_by_file[link.path] = [curr];
-        continue;
-      }
-      if (link.indexOf("#") > -1) {
-        const file_path = link.split("#")[0];
-        if (!nearest_by_file[file_path]) {
-          nearest_by_file[file_path] = [];
-        }
-        nearest_by_file[file_path].push(nearest[i]);
-      } else {
-        if (!nearest_by_file[link]) {
-          nearest_by_file[link] = [];
-        }
-        // always add to front of array
-        nearest_by_file[link].unshift(nearest[i]);
-      }
-    }
-    // for each file
-    const keys = Object.keys(nearest_by_file);
-    for (let i = 0; i < keys.length; i++) {
-      const file = nearest_by_file[keys[i]];
-      /**
-       * Begin external link handling
-       */
-      // if link is an object (indicates v2 logic)
-      if (typeof file[0].link === "object") {
-        const curr = file[0];
-        const meta = curr.link;
-        if (meta.path.startsWith("http")) {
-          const item = list.createEl("div", { cls: "search-result" });
-          const link = item.createEl("a", {
-            cls: "tree-item-self search-result-file-title is-clickable",
-            href: meta.path,
-            title: meta.title,
-          });
-          link.innerHTML = this.render_external_link_elm(meta);
-          item.setAttr('draggable', 'true');
-          continue; // ends here for external links
-        }
-      }
-      /**
-       * Handles Internal
-       */
-      let file_link_text;
-      const file_similarity_pct = Math.round(file[0].similarity * 100) + "%";
-      if (this.plugin.settings.show_full_path) {
-        const pcs = file[0].link.split("/");
-        file_link_text = pcs[pcs.length - 1];
-        const path = pcs.slice(0, pcs.length - 1).join("/");
-        file_link_text = `<small>${path} | ${file_similarity_pct}</small><br>${file_link_text}`;
-      } else {
-        file_link_text = file[0].link.split("/").pop();
-        // add similarity percentage
-        file_link_text += ' | ' + file_similarity_pct;
-      }
-
-
-        
-      // skip contents rendering if incompatible file type
-      // ex. not markdown or contains '.excalidraw'
-      if(!this.renderable_file_type(file[0].link)) {
-        const item = list.createEl("div", { cls: "search-result" });
-        const file_link = item.createEl("a", {
-          cls: "tree-item-self search-result-file-title is-clickable",
-          title: file[0].link,
-        });
-        file_link.innerHTML = file_link_text;
-        // add link listeners to file link
-        this.add_link_listeners(file_link, file[0], item);
-        continue;
-      }
-
-
-      // remove file extension if .md
-      file_link_text = file_link_text.replace(".md", "").replace(/#/g, " > ");
-      const item = list.createEl("div", { cls: search_result_class });
-      const toggle = item.createEl("span", { cls: "tree-item-self is-clickable" });
-      // insert right triangle svg icon as toggle button in span
-      Obsidian.setIcon(toggle, "right-triangle"); // must come before adding other elms else overwrites
-      const file_link = toggle.createEl("a", {
-        cls: "search-result-file-title",
-        title: file[0].link,
-      });
-      file_link.innerHTML = file_link_text;
-      // add link listeners to file link
-      this.add_link_listeners(file_link, file[0], toggle);
-      toggle.addEventListener("click", (event) => {
-        // find parent containing class search-result
-        let parent = event.target;
-        while (!parent.classList.contains("search-result")) {
-          parent = parent.parentElement;
-        }
-        parent.classList.toggle("sc-collapsed");
-        // TODO: if block container is empty, render markdown from block retriever
-      });
-      const file_link_list = item.createEl("ul");
-      // for each link in file
-      for (let j = 0; j < file.length; j++) {
-        // if is a block (has # in link)
-        if(file[j].link.indexOf("#") > -1) {
-          const block = file[j];
-          const block_link = file_link_list.createEl("li", {
-            cls: "tree-item-self search-result-file-title is-clickable",
-            title: block.link,
-          });
-          // skip block context if file.length === 1 because already added
-          if(file.length > 1) {
-            const block_context = this.render_block_context(block);
-            const block_similarity_pct = Math.round(block.similarity * 100) + "%";
-            block_link.innerHTML = `<small>${block_context} | ${block_similarity_pct}</small>`;
-          }
-          const block_container = block_link.createEl("div");
-          // TODO: move to rendering on expanding section (toggle collapsed)
-          Obsidian.MarkdownRenderer.renderMarkdown((await this.plugin.block_retriever(block.link, {lines: 10, max_chars: 1000})), block_container, block.link, void 0);
-          // add link listeners to block link
-          this.add_link_listeners(block_link, block, file_link_list);
-        }else{
-          // get first ten lines of file
-          const file_link_list = item.createEl("ul");
-          const block_link = file_link_list.createEl("li", {
-            cls: "tree-item-self search-result-file-title is-clickable",
-            title: file[0].link,
-          });
-          const block_container = block_link.createEl("div");
-          let first_ten_lines = await this.plugin.file_retriever(file[0].link, {lines: 10, max_chars: 1000});
-          if(!first_ten_lines) continue; // if file not found, skip
-          Obsidian.MarkdownRenderer.renderMarkdown(first_ten_lines, block_container, file[0].link, void 0);
-          this.add_link_listeners(block_link, file[0], file_link_list);
-
-        }
-      }
-    }
-    this.plugin.render_brand(container);
-  }
-
-
-  render_block_context(block) {
-    const block_headings = block.link.split(".md")[1].split("#");
-    // starting with the last heading first, iterate through headings
-    let block_context = "";
-    for (let i = block_headings.length - 1; i >= 0; i--) {
-      if(block_context.length > 0) {
-        block_context = ` > ${block_context}`;
-      }
-      block_context = block_headings[i] + block_context;
-      // if block context is longer than N characters, break
-      if (block_context.length > 100) {
-        break;
-      }
-    }
-    // remove leading > if exists
-    if (block_context.startsWith(" > ")) {
-      block_context = block_context.slice(3);
-    }
-    return block_context;
-
+    this.plugin.update_results(container, nearest);
   }
 
   initiate_top_bar(container, nearest_context=null) {
@@ -2223,7 +2241,7 @@ class SmartConnectionsView extends Obsidian.ItemView {
   }
 
   async search(search_text, results_only=false) {
-    const nearest = await this.api.search(search_text);
+    const nearest = await this.plugin.api.search(search_text);
     // render results in view with first 100 characters of search text
     const nearest_context = `Selection: "${search_text.length > 100 ? search_text.substring(0, 100) + "..." : search_text}"`;
     this.set_nearest(nearest, nearest_context, results_only);
@@ -2286,10 +2304,6 @@ class SmartConnectionsView extends Obsidian.ItemView {
 
   }
 
-
-  renderable_file_type(link) {
-    return (link.indexOf(".md") !== -1) && (link.indexOf(".excalidraw") === -1);
-  }
 }
 
 class SmartConnectionsViewApi {
@@ -2529,9 +2543,9 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     this.chat_box = null;
     this.message_container = null;
     this.current_chat_ml = [];
-    this.last_from = null;
-    this.last_msg = null;
+    this.active_elm = null;
     this.prevent_input = false;
+    this.chat = null;
   }
   getDisplayText() {
     return "Smart Connections Chat";
@@ -2543,6 +2557,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     return SMART_CONNECTIONS_CHAT_VIEW_TYPE;
   }
   onOpen() {
+    this.chat = new SmartConnectionsChatModel(this.plugin);
     this.containerEl.empty();
     this.chat_container = this.containerEl.createDiv("sc-chat-container");
     // render plus sign for clear button
@@ -2554,6 +2569,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     this.plugin.render_brand(this.containerEl);
     // render initial message from assistant
     this.render_message(INITIAL_MESSAGE, "assistant");
+    // this.test_get_nearest_until_next_dev_exceeds_std_dev();
   }
   onClose() {
   }
@@ -2573,6 +2589,11 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     });
   }
   new_chat() {
+    // save current chat
+    if(this.chat) {
+      this.chat.save_chat();
+    }
+    this.chat = new SmartConnectionsChatModel(this.plugin);
     // if this.dotdotdot_interval is not null, clear interval
     if (this.dotdotdot_interval) {
       clearInterval(this.dotdotdot_interval);
@@ -2635,7 +2656,10 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     this.prevent_input = true;
     // render message
     this.render_message(user_input, "user");
-    this.append_chatml(user_input, "user");
+    this.chat.new_message_in_thread({
+      role: "user",
+      content: user_input
+    });
     // after 200 ms render "..."
     setTimeout(() => {
       this.render_message("...", "assistant");
@@ -2643,24 +2667,25 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     // if does not include keywords referring to one's own notes, then just use chatgpt and return
     if(!this.contains_self_referential_keywords(user_input)) {
       this.request_chatgpt_completion();
-      return;
+    }else{
+      // get hyde
+      const context = await this.get_context_hyde(user_input);
+      // get user input with added context
+      // const context_input = this.build_context_input(context);
+      // console.log(context_input);
+      const chatml = [
+        {
+          role: "system",
+          // content: context_input
+          content: context
+        },
+        {
+          role: "user",
+          content: user_input
+        }
+      ];
+      this.request_chatgpt_completion({messages: chatml});
     }
-    // get hyde
-    const context = await this.get_hyde_context(user_input);
-    // get user input with added context
-    const context_input = this.build_context_input(context);
-    // console.log(context_input);
-    const chatml = [
-      {
-        role: "system",
-        content: context_input
-      },
-      {
-        role: "user",
-        content: user_input
-      }
-    ];
-    this.request_chatgpt_completion({messages: chatml});
   }
   
   contains_self_referential_keywords(user_input) {
@@ -2670,50 +2695,70 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
     return false;
   }
 
-  // build context input
-  build_context_input(context) {
-    let input = `Anticipate the type of answer desired by the user. Imagine the following ${context.length} notes were written by the user and contain all the necessary information to answer the user's question. Begin responses with "Based on your notes..."`;
-    for(let i = 0; i < context.length; i++) {
-      input += `\n---BEGIN #${i+1}---\n${context[i].text}\n---END #${i+1}---`;
-    }
-    return input;
-  }
-
   // render message
   render_message(message, from="assistant", append_last=false) {
-    if(append_last && this.last_from === from) {
-      // if(this.last_msg.innerHTML === '...') this.last_msg.innerHTML = '';
+    if(append_last) {
       // if dotdotdot interval is set, then clear it
       if(this.dotdotdot_interval) {
         clearInterval(this.dotdotdot_interval);
         this.dotdotdot_interval = null;
         // clear last message
-        this.last_msg.innerHTML = '';
+        this.active_elm.innerHTML = '';
       }
       this.current_message_raw += message;
-      this.last_msg.innerHTML = '';
+      this.active_elm.innerHTML = '';
       // append to last message
-      Obsidian.MarkdownRenderer.renderMarkdown(this.current_message_raw, this.last_msg, '?no-dataview', void 0);
+      Obsidian.MarkdownRenderer.renderMarkdown(this.current_message_raw, this.active_elm, '?no-dataview', void 0);
     }else{
+      // if final from assistant stream, then render message button
+      if(this.current_message_raw === message) {
+        if(this.chat.context && this.chat.hyd) {
+          // render button to copy hyd in smart-connections code block
+          const context_view = this.active_elm.createEl("span", {cls: "sc-msg-button"});
+          const this_hyd = this.chat.hyd;
+          Obsidian.setIcon(context_view, "eye");
+          context_view.addEventListener("click", () => {
+            // copy to clipboard
+            navigator.clipboard.writeText("```smart-connections\n" + this_hyd + "\n```\n");
+            new Obsidian.Notice("[Smart Connections] Context code block copied to clipboard");
+          });
+          // render copy context button
+          const copy_prompt_button = this.active_elm.createEl("span", {cls: "sc-msg-button"});
+          const this_context = this.chat.context.trimLeft();
+          Obsidian.setIcon(copy_prompt_button, "files");
+          copy_prompt_button.addEventListener("click", () => {
+            // copy to clipboard
+            navigator.clipboard.writeText(this_context);
+            new Obsidian.Notice("[Smart Connections] Context copied to clipboard");
+          });
+        }
+        // render copy button
+        const copy_button = this.active_elm.createEl("span", {cls: "sc-msg-button"});
+        Obsidian.setIcon(copy_button, "copy");
+        copy_button.addEventListener("click", () => {
+          // copy message to clipboard
+          navigator.clipboard.writeText(message.trimLeft());
+          new Obsidian.Notice("[Smart Connections] Message copied to clipboard");
+        });
+        return; // end here since message is already rendered
+      }
       this.current_message_raw = '';
-      // set last from
-      this.last_from = from;
       // create message
       let message_el = this.message_container.createDiv(`sc-message ${from}`);
       // create message content
-      this.last_msg = message_el.createDiv("sc-message-content");
+      this.active_elm = message_el.createDiv("sc-message-content");
       // if is '...', then initiate interval to change to '.' and then to '..' and then to '...'
       if((from === "assistant") && (message === '...')) {
         let dots = 0;
-        this.last_msg.innerHTML = '...';
+        this.active_elm.innerHTML = '...';
         this.dotdotdot_interval = setInterval(() => {
           dots++;
           if(dots > 3) dots = 1;
-          this.last_msg.innerHTML = '.'.repeat(dots);
+          this.active_elm.innerHTML = '.'.repeat(dots);
         }, 500);
       }else{
         // set message text
-        Obsidian.MarkdownRenderer.renderMarkdown(message, this.last_msg, '?no-dataview', void 0);
+        Obsidian.MarkdownRenderer.renderMarkdown(message, this.active_elm, '?no-dataview', void 0);
       }
     }
     // scroll to bottom
@@ -2722,7 +2767,7 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
   async request_chatgpt_completion(opts={}) {
     opts = {
       model: this.plugin.settings.smart_chat_model,
-      messages: this.current_chat_ml,
+      messages: this.chat.prepare_chat_ml(),
       max_tokens: 250,
       temperature: 0.3,
       top_p: 1,
@@ -2779,7 +2824,11 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
         }
       });
       // console.log(full_str);
-      this.append_chatml(full_str, "assistant");
+      this.render_message(full_str, "assistant");
+      this.chat.new_message_in_thread({
+        role: "assistant",
+        content: full_str
+      });
       return;
     }else{
       try{
@@ -2801,20 +2850,9 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
       }
     }
   }
-  append_chatml(message, from="assistant") {
-    this.current_chat_ml.push({
-      role: from,
-      content: message
-    });
-    return this.current_chat_ml;
-  }
 
-  async get_hyde_context(user_input) {
+  async get_context_hyde(user_input) {
     // count current chat ml messages to determine 'question' or 'chat log' wording
-    // let subject = "question";
-    // if(this.current_chat_ml.length > 1) {
-    //   subject = "chat log";
-    // }
     const hyd_input = `Anticipate what the user is seeking. Respond in the form of a hypothetical note written by the user. The note may contain statements as paragraphs, lists, or checklists in markdown format with no headings. Please respond with one hypothetical note and abstain from any other commentary. Use the format: PARENT FOLDER NAME > CHILD FOLDER NAME > FILE NAME > HEADING 1 > HEADING 2 > HEADING 3: HYPOTHETICAL NOTE CONTENTS.`;
     // complete
     const chatml = [
@@ -2833,81 +2871,232 @@ class SmartConnectionsChatView extends Obsidian.ItemView {
       temperature: 0,
       max_tokens: 137,
     });
-    // this.render_message(hyd, "assistant", true);
+    this.chat.hyd = hyd;
     // console.log(hyd);
     // search for nearest based on hyd
     let nearest = await this.plugin.api.search(hyd);
+    console.log("nearest", nearest.length);
+    nearest = this.get_nearest_until_next_dev_exceeds_std_dev(nearest);
+    console.log("nearest after std dev slice", nearest.length);
+    nearest = this.sort_by_len_adjusted_similarity(nearest);
+    
+    return await this.get_context_for_prompt(nearest);
+  }
+  
+  
+  sort_by_len_adjusted_similarity(nearest) {
+    // re-sort by quotient of similarity divided by len DESC
+    nearest = nearest.sort((a, b) => {
+      const a_score = a.similarity / a.len;
+      const b_score = b.similarity / b.len;
+      // if a is greater than b, return -1
+      if (a_score > b_score)
+        return -1;
+      // if a is less than b, return 1
+      if (a_score < b_score)
+        return 1;
+      // if a is equal to b, return 0
+      return 0;
+    });
+    return nearest;
+  }
+
+  get_nearest_until_next_dev_exceeds_std_dev(nearest) {
     // get std dev of similarity
     const sim = nearest.map((n) => n.similarity);
     const mean = sim.reduce((a, b) => a + b) / sim.length;
     const std_dev = Math.sqrt(sim.map((x) => Math.pow(x - mean, 2)).reduce((a, b) => a + b) / sim.length);
     // slice where next item deviation is greater than std_dev
     let slice_i = 0;
-    while(slice_i < nearest.length) {
+    while (slice_i < nearest.length) {
       const next = nearest[slice_i + 1];
-      if(next) {
+      if (next) {
         const next_dev = Math.abs(next.similarity - nearest[slice_i].similarity);
-        if(next_dev > std_dev) {
+        if (next_dev > std_dev) {
           break;
         }
       }
       slice_i++;
     }
     // select top results
-    nearest = nearest.slice(0, slice_i);
-    // re-sort by quotient of similarity divided by len DESC
-    nearest = nearest.sort((a, b) => {
-      const a_score = a.similarity / a.len;
-      const b_score = b.similarity / b.len;
-      // if a is greater than b, return -1
-      if(a_score > b_score) return -1;
-      // if a is less than b, return 1
-      if(a_score < b_score) return 1;
-      // if a is equal to b, return 0
-      return 0;
-    });
+    nearest = nearest.slice(0, slice_i+1);
+    return nearest;
+  }
+  // // test get_nearest_until_next_dev_exceeds_std_dev
+  // test_get_nearest_until_next_dev_exceeds_std_dev() {
+  //   const nearest = [{similarity: 0.99}, {similarity: 0.98}, {similarity: 0.97}, {similarity: 0.96}, {similarity: 0.95}, {similarity: 0.94}, {similarity: 0.93}, {similarity: 0.92}, {similarity: 0.91}, {similarity: 0.9}, {similarity: 0.79}, {similarity: 0.78}, {similarity: 0.77}, {similarity: 0.76}, {similarity: 0.75}, {similarity: 0.74}, {similarity: 0.73}, {similarity: 0.72}];
+  //   const result = this.get_nearest_until_next_dev_exceeds_std_dev(nearest);
+  //   if(result.length !== 10){
+  //     console.error("get_nearest_until_next_dev_exceeds_std_dev failed", result);
+  //   }
+  // }
 
-    // console.log(nearest);
-    // get the top 3 results excluding files (must have a # in the link)
-    let top = [];
+  async get_context_for_prompt(nearest) {
+    let context = [];
     const MAX_SOURCES = 20; // 10 * 1000 (max chars) = 10,000 chars (must be under ~16,000 chars or 4K tokens) 
     const MAX_CHARS = 10000;
     let char_accum = 0;
-    for(let i = 0; i < nearest.length; i++) {
-      if(top.length >= MAX_SOURCES) break;
-      if(char_accum >= MAX_CHARS) break;
-      if(typeof nearest[i].link !== 'string') continue;
+    for (let i = 0; i < nearest.length; i++) {
+      if (context.length >= MAX_SOURCES)
+        break;
+      if (char_accum >= MAX_CHARS)
+        break;
+      if (typeof nearest[i].link !== 'string')
+        continue;
       // generate breadcrumbs
       const breadcrumbs = nearest[i].link.replace(/#/g, " > ").replace(".md", "").replace(/\//g, " > ");
       let new_context = `${breadcrumbs}:\n`;
-      // get max available chars to add to top
+      // get max available chars to add to context
       const max_available_chars = MAX_CHARS - char_accum - new_context.length;
-      if(nearest[i].link.indexOf("#") !== -1){ // is block
-        new_context += await this.plugin.block_retriever(nearest[i].link, {max_chars: max_available_chars});
-      }else{ // is file
-        const this_file = this.app.vault.getAbstractFileByPath(nearest[i].link);
-        // if file is not found, skip
-        if (!(this_file instanceof Obsidian.TAbstractFile)) continue;
-        // use cachedRead to get the first 10 lines of the file
-        const file_content = await this.app.vault.cachedRead(this_file);
-        // get up to max_available_chars from file_content
-        new_context += file_content.substring(0, max_available_chars);
+      if (nearest[i].link.indexOf("#") !== -1) { // is block
+        new_context += await this.plugin.block_retriever(nearest[i].link, { max_chars: max_available_chars });
+      } else { // is file
+        new_context += await this.plugin.file_retriever(nearest[i].link, { max_chars: max_available_chars });
       }
       // add to char_accum
       char_accum += new_context.length;
-      // add to top
-      top.push({
+      // add to context
+      context.push({
         link: nearest[i].link,
         text: new_context
       });
     }
     // context sources
-    console.log("context sources: " + top.length);
+    console.log("context sources: " + context.length);
     // char_accum divided by 4 and rounded to nearest integer for estimated tokens
     console.log("total context tokens: ~" + Math.round(char_accum / 4));
-    // console.log(top);
-    return top;
+    // build context input
+    this.chat.context = `Anticipate the type of answer desired by the user. Imagine the following ${context.length} notes were written by the user and contain all the necessary information to answer the user's question. Begin responses with "Based on your notes..."`;
+    for(let i = 0; i < context.length; i++) {
+      this.chat.context += `\n---BEGIN #${i+1}---\n${context[i].text}\n---END #${i+1}---`;
+    }
+    return this.chat.context;
   }
+}
+
+/**
+ * SmartConnectionsChatModel
+ * ---
+ * - 'thread' format: Array[Array[Object{role, content, hyde}]]
+ *  - [Turn[variation{}], Turn[variation{}, variation{}], ...]
+ * - Saves in 'thread' format to JSON file in .smart-connections folder using chat_id as filename
+ * - Loads chat in 'thread' format Array[Array[Object{role, content, hyde}]] from JSON file in .smart-connections folder
+ * - prepares chat_ml returns in 'ChatML' format 
+ *  - strips all but role and content properties from Object in ChatML format
+ * - ChatML Array[Object{role, content}]
+ *  - [Current_Variation_For_Turn_1{}, Current_Variation_For_Turn_2{}, ...]
+ */
+class SmartConnectionsChatModel {
+  constructor(plugin) {
+    this.app = plugin.app;
+    this.plugin = plugin;
+    this.chat_id = null;
+    this.chat_ml = [];
+    this.context = null;
+    this.hyd = null;
+    this.thread = [];
+  }
+  async save_chat() {
+    // save chat to file in .smart-connections folder
+    // create .smart-connections/chats/ folder if it doesn't exist
+    if (!(await this.app.vault.adapter.exists(".smart-connections/chats"))) {
+      await this.app.vault.adapter.mkdir(".smart-connections/chats");
+    }
+    // if chat_id is not set, set it to human readable timestamp
+    if (!this.chat_id) {
+      this.chat_id = new Date().toISOString().replace(/(T|:|\..*)/g, " ").trim();
+    }
+    // validate chat_id is set to valid filename characters (letters, numbers, underscores, dashes, and spaces)
+    if (!this.chat_id.match(/^[a-zA-Z0-9_\- ]+$/)) {
+      console.log("Invalid chat_id: " + this.chat_id);
+      new Obsidian.Notice("[Smart Connections] Failed to save chat. Invalid chat_id: '" + this.chat_id + "'");
+    }
+    // filename is chat_id
+    const chat_file = this.chat_id + ".json";
+    this.app.vault.adapter.write(
+      ".smart-connections/chats/" + chat_file,
+      JSON.stringify(this.thread, null, 2)
+    );
+  }
+  load_chat(chat_id) {
+    this.chat_id = chat_id;
+    // load chat from file in .smart-connections folder
+    // filename is chat_id
+    const chat_file = this.chat_id + ".json";
+    // read file
+    let chat_json = this.app.vault.adapter.read(
+      ".smart-connections/chats/" + chat_file
+    );
+    // parse json
+    this.thread = JSON.parse(chat_json);
+    // load chat_ml
+    this.chat_ml = this.prepare_chat_ml();
+  }
+  // prepare chat_ml from chat
+  // gets the last message of each turn unless turn_variation_offsets=[[turn_index,variation_index]] is specified in offset
+  prepare_chat_ml(turn_variation_offsets=[]) {
+    // if no turn_variation_offsets, get the last message of each turn
+    if(turn_variation_offsets.length === 0){
+      this.chat_ml = this.thread.map(turn => {
+        return turn[turn.length - 1];
+      });
+    }else{
+      // create an array from turn_variation_offsets that indexes variation_index at turn_index
+      // ex. [[3,5]] => [undefined, undefined, undefined, 5]
+      let turn_variation_index = [];
+      for(let i = 0; i < turn_variation_offsets.length; i++){
+        turn_variation_index[turn_variation_offsets[i][0]] = turn_variation_offsets[i][1];
+      }
+      // loop through chat
+      this.chat_ml = this.thread.map((turn, turn_index) => {
+        // if there is an index for this turn, return the variation at that index
+        if(turn_variation_index[turn_index] !== undefined){
+          return turn[turn_variation_index[turn_index]];
+        }
+        // otherwise return the last message of the turn
+        return turn[turn.length - 1];
+      });
+    }
+    // strip all but role and content properties from each message
+    this.chat_ml = this.chat_ml.map(message => {
+      return {
+        role: message.role,
+        content: message.content
+      };
+    });
+    return this.chat_ml;
+  }
+  last() {
+    // get last message from chat
+    return this.thread[this.thread.length - 1][this.thread[this.thread.length - 1].length - 1];
+  }
+  last_from() {
+    return this.last().role;
+  }
+  // returns user_input or completion
+  last_message() {
+    return this.last().content;
+  }
+  // message={}
+  // add new message to thread
+  new_message_in_thread(message, turn=-1) {
+    // if turn is -1, add to new turn
+    if(this.context){
+      message.context = this.context;
+      this.context = null;
+    }
+    if(this.hyd){
+      message.hyd = this.hyd;
+      this.hyd = null;
+    }
+    if (turn === -1) {
+      this.thread.push([message]);
+    }else{
+      // otherwise add to specified turn
+      this.thread[turn].push(message);
+    }
+  }
+
 
 }
 
