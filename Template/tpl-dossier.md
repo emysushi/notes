@@ -2,7 +2,7 @@
 tags : #dossier
 
 <%*
-let qcFileName = await tp.system.prompt("matiere")
+let qcFileName = await tp.system.prompt("Nom du dossier - sans espace -")
 titleName = "Dossier_"+ qcFileName
 await tp.file.rename(titleName)
 -%>

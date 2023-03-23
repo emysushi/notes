@@ -4,9 +4,19 @@
     "/"
   ],
   "filesCheckpoint": {
-    "Template/tpl-test.md": {
-      "size": 2019,
+    "histoire.md": {
+      "size": 0,
       "tags": 0,
+      "links": 0
+    },
+    "Template/tpl-test.md": {
+      "size": 1892,
+      "tags": 0,
+      "links": 0
+    },
+    "Template/tpl-kanban.md": {
+      "size": 2667,
+      "tags": 14,
       "links": 0
     },
     "Template/tpl-livre.md": {
@@ -14,9 +24,9 @@
       "tags": 1,
       "links": 1
     },
-    "Template/tpl-kanban.md": {
-      "size": 2739,
-      "tags": 14,
+    "Template/tpl-fiche_techno.md": {
+      "size": 1761,
+      "tags": 1,
       "links": 0
     },
     "Template/tpl-fiche_svt.md": {
@@ -29,13 +39,8 @@
       "tags": 1,
       "links": 0
     },
-    "Template/tpl-fiche_techno.md": {
-      "size": 1761,
-      "tags": 1,
-      "links": 0
-    },
-    "Template/tpl-fiche_histoire-geo.md": {
-      "size": 1168,
+    "Template/tpl-fiche_math.md": {
+      "size": 1500,
       "tags": 1,
       "links": 0
     },
@@ -44,23 +49,13 @@
       "tags": 1,
       "links": 0
     },
-    "Template/tpl-fiche_math.md": {
-      "size": 1500,
+    "Template/tpl-fiche_histoire-geo.md": {
+      "size": 1168,
       "tags": 1,
       "links": 0
     },
     "Template/tpl-empty.md": {
-      "size": 4,
-      "tags": 0,
-      "links": 0
-    },
-    "Template/tpl-block-timeline.md": {
-      "size": 200,
-      "tags": 0,
-      "links": 0
-    },
-    "Template/tpl-block-column_model3.md": {
-      "size": 669,
+      "size": 2,
       "tags": 0,
       "links": 0
     },
@@ -69,13 +64,23 @@
       "tags": 1,
       "links": 0
     },
+    "Template/tpl-block-timeline.md": {
+      "size": 185,
+      "tags": 0,
+      "links": 0
+    },
+    "Template/tpl-block-column_model3.md": {
+      "size": 621,
+      "tags": 0,
+      "links": 0
+    },
     "Template/tpl-block-column_model2.md": {
-      "size": 402,
+      "size": 374,
       "tags": 0,
       "links": 0
     },
     "Template/tpl-block-column-modele1.md": {
-      "size": 143,
+      "size": 122,
       "tags": 0,
       "links": 0
     },
@@ -84,28 +89,23 @@
       "tags": 0,
       "links": 0
     },
-    "Planning_Semaine/Planning_Week_2023-03-06.md": {
-      "size": 2034,
-      "tags": 14,
-      "links": 0
-    },
     "Planning_Semaine/Planning_Week_2023-03-13.md": {
       "size": 2034,
       "tags": 14,
       "links": 0
     },
-    "histoire.md": {
-      "size": 0,
-      "tags": 0,
+    "Planning_Semaine/Planning_Week_2023-03-06.md": {
+      "size": 2034,
+      "tags": 14,
       "links": 0
     },
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": {
-      "size": 999,
+      "size": 945,
       "tags": 1,
       "links": 0
     },
     "FicheLecture/fiche_L'Enfant multiple.md": {
-      "size": 3891,
+      "size": 3803,
       "tags": 1,
       "links": 0
     },
@@ -114,28 +114,23 @@
       "tags": 0,
       "links": 0
     },
-    "Bibliotheque_Liste.md": {
-      "size": 313,
-      "tags": 0,
-      "links": 0
-    },
     "Cours/Technologie/Home.md": {
-      "size": 97,
+      "size": 89,
       "tags": 0,
-      "links": 0
-    },
-    "Cours/Technologie/Dossier_Serrures.md": {
-      "size": 608,
-      "tags": 2,
       "links": 0
     },
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md": {
-      "size": 5320,
+      "size": 7326,
       "tags": 3,
       "links": 0
     },
+    "Cours/Svt/Besoins des cellules animales🍗.md": {
+      "size": 858,
+      "tags": 0,
+      "links": 0
+    },
     "Cours/Physique-Chimie/Home.md": {
-      "size": 101,
+      "size": 93,
       "tags": 0,
       "links": 0
     },
@@ -145,17 +140,12 @@
       "links": 0
     },
     "Cours/Musique/Home.md": {
-      "size": 93,
+      "size": 85,
       "tags": 0,
       "links": 0
     },
     "Cours/Mathematiques/Home.md": {
-      "size": 99,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Francais/Home.md": {
-      "size": 94,
+      "size": 91,
       "tags": 0,
       "links": 0
     },
@@ -165,32 +155,37 @@
       "links": 0
     },
     "Cours/Histoire-Geographie/Home.md": {
-      "size": 117,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
-      "size": 21057,
-      "tags": 61,
-      "links": 1
-    },
-    "Cours/Chinois/Home.md": {
-      "size": 93,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Anglais/Verbes.md": {
-      "size": 24452,
-      "tags": 1,
-      "links": 0
-    },
-    "Cours/Anglais/Home.md": {
       "size": 109,
       "tags": 0,
       "links": 0
     },
+    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
+      "size": 20589,
+      "tags": 61,
+      "links": 1
+    },
+    "Cours/Francais/Home.md": {
+      "size": 86,
+      "tags": 0,
+      "links": 0
+    },
+    "Cours/Chinois/Home.md": {
+      "size": 85,
+      "tags": 0,
+      "links": 0
+    },
+    "Cours/Anglais/Verbes.md": {
+      "size": 24053,
+      "tags": 1,
+      "links": 0
+    },
+    "Cours/Anglais/Home.md": {
+      "size": 100,
+      "tags": 0,
+      "links": 0
+    },
     "Cours/Anglais/Glossaire.md": {
-      "size": 37,
+      "size": 29,
       "tags": 1,
       "links": 0
     },
@@ -199,18 +194,23 @@
       "tags": 2,
       "links": 11
     },
-    "Cours/Svt/Besoins des cellules animales🍗.md": {
-      "size": 89,
+    "Bibliotheque_Liste.md": {
+      "size": 313,
       "tags": 0,
+      "links": 0
+    },
+    "Dossier/Dossier_serrures.md": {
+      "size": 0,
+      "tags": 3,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 3,
-      "Create": 0,
-      "Link": 0,
-      "Expand": 6
+      "Refactor": 2,
+      "Create": 2,
+      "Link": 2,
+      "Expand": 0
     }
   },
   "dailyCommits": {
@@ -225,52 +225,50 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 0,
+      "10": 6,
       "11": 0,
       "12": 0,
       "13": 0,
       "14": 0,
       "15": 0,
       "16": 0,
-      "17": 5,
-      "18": 1,
+      "17": 0,
+      "18": 0,
       "19": 0,
       "20": 0,
-      "21": 3,
+      "21": 0,
       "22": 0,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 1,
+      "Mon": 0,
       "Tue": 0,
-      "Wed": 3,
-      "Thu": 0,
-      "Fri": 2,
+      "Wed": 0,
+      "Thu": 6,
+      "Fri": 0,
       "Sat": 0,
-      "Sun": 3
+      "Sun": 0
     }
   },
   "recentCommits": {
     "/": {
-      "Expanded": [
-        "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
-        "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
-        "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
-        "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
-        "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
+      "Expanded": [],
+      "Created": [
+        "<a class=\"internal-link\" href=\"Dossier/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Dossier/Untitled.md\"> Untitled </a>"
+      ],
+      "Renamed": [],
+      "Tagged": [
+        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>"
       ],
-      "Created": [],
-      "Renamed": [
-        "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>",
-        "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales.md\"> Besoins des cellules animales </a>",
-        "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>"
-      ],
-      "Tagged": [],
       "Refactored": [],
-      "Deleted": [],
+      "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
+        "<a class=\"internal-link\" href=\"Dossier/Dossier_techno.md\"> Dossier_techno </a>"
+      ],
       "Linked": [],
       "Removed Tags from": [],
       "Removed Links from": []

@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "6814ec6b0a1a2187",
+    "id": "425a2798bcff3049",
     "type": "split",
     "children": [
       {
-        "id": "1b9db70d21d6bf5f",
+        "id": "505e773638a5e5db",
         "type": "tabs",
         "children": [
           {
-            "id": "76be4bb31ea7297b",
+            "id": "cb5e208d0e3d3abe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Svt/Besoins des cellules animales🍗.md",
+                "file": "Dossier/Dossier_serrures.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,23 +25,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c7851dc6d53e4271",
+    "id": "2088291f83091c5f",
     "type": "split",
     "children": [
       {
-        "id": "7a9f239d4b295cad",
+        "id": "3dc1a16602e24545",
         "type": "tabs",
         "children": [
           {
-            "id": "6742ed8853b78b41",
+            "id": "fe7109399fb4b49e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
-            "id": "3a5f9a633e3fd2af",
+            "id": "04a4d3036d1cde83",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,7 +58,7 @@
             }
           },
           {
-            "id": "32c10102c33f44bf",
+            "id": "2f647960c42be309",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -64,45 +66,34 @@
             }
           },
           {
-            "id": "be52fe062cae92c3",
+            "id": "bc4cbb70e62c9971",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
               "state": {}
             }
-          },
-          {
-            "id": "cc433e56d726fa8d",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "de72a87206515b52",
+    "id": "9f652b6d3bbd9575",
     "type": "split",
     "children": [
       {
-        "id": "ee2250b28fc2614e",
+        "id": "922f1aea0e541c6f",
         "type": "tabs",
         "children": [
           {
-            "id": "a0384a097f7e1407",
+            "id": "098a96b170fea2e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Svt/Besoins des cellules animales🍗.md",
+                "file": "Dossier/Dossier_serrures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,19 +105,19 @@
             }
           },
           {
-            "id": "d68bc29e87c4ff6f",
+            "id": "c12fc1b46fc784cf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Svt/Besoins des cellules animales🍗.md",
+                "file": "Dossier/Dossier_serrures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d2f672a9cfbc3914",
+            "id": "a406b085ca925612",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,25 +128,17 @@
             }
           },
           {
-            "id": "6bab969d0d096703",
+            "id": "22982a283e0ae29b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Svt/Besoins des cellules animales🍗.md"
+                "file": "Dossier/Dossier_serrures.md"
               }
             }
           },
           {
-            "id": "825572e900f1aedb",
-            "type": "leaf",
-            "state": {
-              "type": "trello-plugin",
-              "state": {}
-            }
-          },
-          {
-            "id": "5883242f4e5b52d0",
+            "id": "dbe0db5456ffebad",
             "type": "leaf",
             "state": {
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
@@ -163,23 +146,7 @@
             }
           },
           {
-            "id": "9bf63b99b8c5dad3",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "bd57c00706339f74",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "d12f4d05a526491c",
+            "id": "63be251cff904f10",
             "type": "leaf",
             "state": {
               "type": "gptModelSettings",
@@ -187,78 +154,41 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 487.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
-      "gpt3-notes:GPT-3 Notes": false,
-      "templates:Insérer le modèle": false,
-      "obsidian-map-view:Open map view": false,
-      "obsidian-gallery:Gallery": false,
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-gallery:Gallery": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-translator:Translate": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "gpt3-notes:GPT-3 Notes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open this week": false
     }
   },
-  "active": "76be4bb31ea7297b",
+  "active": "cb5e208d0e3d3abe",
   "lastOpenFiles": [
-    "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
-    "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
-    "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
-    "Cours/Technologie/Dossier_Serrures.md",
-    "conflict-files-obsidian-git.md",
-    "Planning_Semaine/Planning_Week_2023-03-13.md",
-    "Cours/Histoire-Geographie/note.md",
-    "README.md",
-    "Template/tpl-fiche_physique-chimie.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
-    "Template/tpl-fiche_svt.md",
-    "Template/tpl-fiche_techno.md",
-    "Template/tpl-kanban.md",
-    "Planning_Semaine/Planning_Week_2023-03-12.md",
-    "Dossier_Liste.md",
     "Template/tpl-dossier.md",
-    "Cours/Anglais/Dossier_massachusset.md",
-    "Bibliotheque_Liste.md",
-    "Template/tpl-livre.md",
-    "Template/tpl-fiche_math.md",
-    "Template/tpl-fiche_langues.md",
-    "Template/tpl-fiche_histoire-geo.md",
-    "Gallery/Pasted image 20230308173724.png",
-    "histoire.md",
-    "Banner/biblio.jpeg",
-    "Banner",
-    "Template/tpl-empty.md",
-    "Planning_Semaine",
-    "Cours/Technologie",
-    "Cours/Svt",
-    "Cours/Physique-Chimie",
-    "Cours/Musique",
-    "Cours/Mathematiques",
-    "Cours/Histoire-Geographie",
-    "Cours/Francais",
-    "Cours/Chinois",
-    "Gallery/massachussets_embleme.png",
-    "PhysiqueChimie/Untitled Diagram.svg",
-    "Sans titre.canvas"
+    "Dossier/Dossier_serrures.md",
+    "Dossier/Dossier_techno.md",
+    "Cours/Technologie/Dossier_Serrures.md",
+    "Dossier"
   ]
 }
