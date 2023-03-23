@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "8341069e438c6f6d",
+    "id": "425a2798bcff3049",
     "type": "split",
     "children": [
       {
-        "id": "af752c80a3a358d4",
+        "id": "505e773638a5e5db",
         "type": "tabs",
         "children": [
           {
-            "id": "33df7c99d2f8c215",
+            "id": "cb5e208d0e3d3abe",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "36a761819826fd18",
+    "id": "2088291f83091c5f",
     "type": "split",
     "children": [
       {
-        "id": "8bb07b2d45a57155",
+        "id": "3dc1a16602e24545",
         "type": "tabs",
         "children": [
           {
-            "id": "df6707aac91f1ce8",
+            "id": "fe7109399fb4b49e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "1b76291a1188d28d",
+            "id": "04a4d3036d1cde83",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "fbbbc85c7661715a",
+            "id": "2f647960c42be309",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -66,7 +62,7 @@
             }
           },
           {
-            "id": "e829df02c065ad2d",
+            "id": "bc4cbb70e62c9971",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -81,20 +77,19 @@
     "width": 300
   },
   "right": {
-    "id": "143fc36b7999eedb",
+    "id": "9f652b6d3bbd9575",
     "type": "split",
     "children": [
       {
-        "id": "fe97c18b55b620ae",
+        "id": "922f1aea0e541c6f",
         "type": "tabs",
         "children": [
           {
-            "id": "03b57aff2c9cd663",
+            "id": "098a96b170fea2e1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,19 +101,18 @@
             }
           },
           {
-            "id": "c6277aa397f6436e",
+            "id": "c12fc1b46fc784cf",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "617a8a3575130409",
+            "id": "a406b085ca925612",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -129,17 +123,15 @@
             }
           },
           {
-            "id": "07f31c63ac1f727a",
+            "id": "22982a283e0ae29b",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md"
-              }
+              "state": {}
             }
           },
           {
-            "id": "71bb10ca691712e0",
+            "id": "dbe0db5456ffebad",
             "type": "leaf",
             "state": {
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
@@ -147,7 +139,7 @@
             }
           },
           {
-            "id": "e7a5e77f77736178",
+            "id": "63be251cff904f10",
             "type": "leaf",
             "state": {
               "type": "gptModelSettings",
@@ -184,6 +176,6 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "33df7c99d2f8c215",
+  "active": "cb5e208d0e3d3abe",
   "lastOpenFiles": []
 }

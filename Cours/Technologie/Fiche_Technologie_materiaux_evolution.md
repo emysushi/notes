@@ -62,6 +62,7 @@ content:
 ```
 
 # les principaux matériaux en construction
+<<<<<<< HEAD
 | Matériau    | pour construire                        | Mise en Œuvre                        | Avantage                                         | Inconvénient            |
 | ----------- | -------------------------------------- | ------------------------------------ | ------------------------------------------------ | ----------------------- |
 | BOIS        | Charpente (toiture), Poutre (plancher) | façonnage scierie                    | isolant, écologique, rapide, résistance humidité | avec un autre matériaux |
@@ -71,15 +72,57 @@ content:
 | BETON       | Mur, Poutre, Poteau, Planché           | cimenterie puis livraison par camion |                                                  |                         |
 | ACIER       | Poutre poteau, Plaque                  | dans une aciérie                     |                                                  |                         |
 | VERRE       | Vitre, Porte, Baie, Verrière           | en usines                                     |                                                  |                         |
+=======
+| Matériau    | pour construire                        | Mise en Œuvre                        | Avantage                                        | Inconvénient                 |
+| ----------- | -------------------------------------- | ------------------------------------ | ----------------------------------------------- | ---------------------------- |
+| BOIS        | Charpente (toiture), Poutre (plancher) | façonnage scierie                    | isolant, écolo, rapide, résistance humidité     | avec un autre matériaux      |
+| PIERRE      | Murs                                   | façonnage carrière/usine             | durabilité, HQE                                 | prix +                       |
+| TERRE CUITE | Brique, tuile                          | moulage + cuisson                    | thermique, écolo, résistant                     | porosité, entretien, délicat |
+| ARDOISE     | couverture                             | façonnage à la carrière              | résistant, imperméable                          | poids, fragile, prix         |
+| BETON       | Mur, Poutre, Poteau, Planché           | cimenterie puis livraison par camion | isolant, facile à utiliser, résistance humidité | mauvaise usure, prix élevé   |
+| ACIER       | Poutre poteau, Plaque                  | dans une aciérie                     | solidité, recyclable, pas cher                  | fracture, entretien, feux    |
+| VERRE       | Vitre, Porte, Baie, Verrière           | en usines                            | imperméable, pur, facile à nettoyer             | fragile, usure               |
+|             |                                        |                                      |                                                 |                              |
+>>>>>>> main
 
 
 ## Fabrication 
 
+<<<<<<< HEAD
 ### Bois (charpente, poutre) 
 
 ### Pierre de taille
 
 ### Ardoise 
+=======
+## Acier 
+1)agglomération
+2)haut fourneau
+3)cokerie
+4)convertisseur
+5)four électrique
+6)station d'affinage
+7)coulée continue
+8)laminoir(machine)
+## Verre 
+1)préparation du lit de fusion
+2)élaboration du verre
+3)mise en forme
+4)recuisson
+5)contrôle des qualités des produits finit
+### Bois (charpente, poutre) 
+1)chargement des billons sur la chaine de sciage
+2)écorçage des billons
+3)sciage des billons
+4)séchage des planches
+5)triage des planches
+### Ardoise 
+1)extraction de l'ardoise dans de larges blocs
+2)coupées au fil diamantaire
+3)acheminer par camions 
+4)jusqu'à l'atelier de la transformation de la carrière 
+
+>>>>>>> main
 
 - Gisement :
 	- Analyse : études géologiques, minières et géotechniques +  travaux de prospection = > qualité de pierre et le potentiel des réserves du gisement.
