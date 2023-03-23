@@ -33,6 +33,7 @@ le haut des goupilles doivent correspondre aux bords supérieur des cylindres
 il tourne la came, tirant le pêne dormant,
 qui à son tour retire le pêne du cadre de la porte
 permettant de l'ouvrir
+![[Schema-vocabulaire-cylindre-mobile.png]]
 
 # Serrures à combinaison
 
