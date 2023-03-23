@@ -121,7 +121,7 @@
     },
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md": {
       "size": 7326,
-      "tags": 0,
+      "tags": 3,
       "links": 0
     },
     "Cours/Svt/Besoins des cellules animales🍗.md": {
@@ -198,13 +198,18 @@
       "size": 313,
       "tags": 0,
       "links": 0
+    },
+    "Dossier/Dossier_serrures.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 2,
-      "Create": 1,
-      "Link": 0,
+      "Create": 2,
+      "Link": 2,
       "Expand": 0
     }
   },
@@ -220,7 +225,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 3,
+      "10": 6,
       "11": 0,
       "12": 0,
       "13": 0,
@@ -241,7 +246,7 @@
       "Mon": 0,
       "Tue": 0,
       "Wed": 0,
-      "Thu": 3,
+      "Thu": 6,
       "Fri": 0,
       "Sat": 0,
       "Sun": 0
@@ -251,10 +256,14 @@
     "/": {
       "Expanded": [],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dossier/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Dossier/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [],
-      "Tagged": [],
+      "Tagged": [
+        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
+        "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>"
+      ],
       "Refactored": [],
       "Deleted": [
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
