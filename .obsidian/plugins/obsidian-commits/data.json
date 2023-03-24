@@ -207,14 +207,14 @@
     "Cours/Histoire-Geographie/LES SERRURES🔐.md": {
       "size": 2207,
       "tags": 0,
-      "links": 0
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 69,
       "Create": 63,
-      "Link": 29,
+      "Link": 30,
       "Expand": 8
     }
   },
@@ -238,7 +238,7 @@
       "15": 0,
       "16": 66,
       "17": 58,
-      "18": 40,
+      "18": 41,
       "19": 0,
       "20": 0,
       "21": 3,
@@ -251,7 +251,7 @@
       "Mon": 1,
       "Tue": 0,
       "Wed": 3,
-      "Thu": 160,
+      "Thu": 161,
       "Fri": 2,
       "Sat": 0,
       "Sun": 3
@@ -416,7 +416,8 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
       ],
       "Removed Tags from": [],
       "Removed Links from": []
