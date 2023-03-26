@@ -49,9 +49,25 @@ top 3 des pays en développements:
 
 # RICHESSE x DEVELOPPEMENT
 
-la richesse n'est pas synonyme de développement:
+la richesse n'est pas forcement synonyme de développement,
+exemple de pays riche mais en développement:
 
+- la chine:
+	- 2ème PIB mondial
+	- faible PIB / habitants
+	- Inégalités subsistantes
 
+- le Qatar:
+	- petit état pétrolier
+	- 1er PIB / habitant
+	- Inégalités subsistantes
+	- (richesse tirées du pétrole ne sont pas redistribuées correctement)
+
+pour distinguer la richesse et le développement il y a: 
+   -le PIB :(mesure la richesse d'un pays)
+   -l'IDH :(mesure le niveau de développement d'un pays)
+
+# 
 
 
 

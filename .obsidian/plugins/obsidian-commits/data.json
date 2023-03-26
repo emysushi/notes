@@ -209,7 +209,7 @@
       "tags": 0,
       "links": 1
     },
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegalies_richesse.md": {
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md": {
       "size": 0,
       "tags": 3,
       "links": 0
@@ -217,7 +217,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 69,
+      "Refactor": 70,
       "Create": 64,
       "Link": 31,
       "Expand": 8
@@ -243,7 +243,7 @@
       "15": 0,
       "16": 66,
       "17": 60,
-      "18": 41,
+      "18": 42,
       "19": 0,
       "20": 0,
       "21": 3,
@@ -259,7 +259,7 @@
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 5
+      "Sun": 6
     }
   },
   "recentCommits": {
@@ -334,7 +334,8 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔒.md\"> LES SERRURES🔒 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
