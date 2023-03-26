@@ -1,8 +1,5 @@
 
 
-
-
-
 tags : #fiche  #Histoire-Geographie #inegalies_richesse
 
 ---

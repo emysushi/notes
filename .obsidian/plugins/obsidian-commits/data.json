@@ -154,16 +154,6 @@
       "tags": 0,
       "links": 0
     },
-    "Cours/Histoire-Geographie/note.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Histoire-Geographie/Home.md": {
-      "size": 117,
-      "tags": 0,
-      "links": 0
-    },
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
       "size": 21057,
       "tags": 61,
@@ -177,11 +167,6 @@
     "Cours/Anglais/Verbes.md": {
       "size": 24452,
       "tags": 1,
-      "links": 0
-    },
-    "Cours/Anglais/Home.md": {
-      "size": 109,
-      "tags": 0,
       "links": 0
     },
     "Cours/Anglais/Glossaire.md": {
@@ -217,7 +202,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 70,
+      "Refactor": 73,
       "Create": 64,
       "Link": 31,
       "Expand": 8
@@ -243,7 +228,7 @@
       "15": 0,
       "16": 66,
       "17": 60,
-      "18": 42,
+      "18": 45,
       "19": 0,
       "20": 0,
       "21": 3,
@@ -259,7 +244,7 @@
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 6
+      "Sun": 9
     }
   },
   "recentCommits": {
@@ -343,6 +328,9 @@
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/note.md\"> note </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -355,9 +343,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
