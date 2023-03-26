@@ -46,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#PIB",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -217,7 +217,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "95fde241e8431fe0",
   "lastOpenFiles": [
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md",

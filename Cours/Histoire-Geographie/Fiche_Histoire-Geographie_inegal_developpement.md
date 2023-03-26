@@ -64,7 +64,17 @@ pour distinguer la richesse et le développement il y a:
    -le PIB :(mesure la richesse d'un pays)
    -l'IDH :(mesure le niveau de développement d'un pays)
 
-# 
+# INEGALITES DE RICHESSE
 
+
+GLOSSAIRE
+___
+
+- #développement :
+- #richesse :
+- #pays_pauvre :
+- #PIB :
+- #IDH :
+- #pays_émergent :
 
 
