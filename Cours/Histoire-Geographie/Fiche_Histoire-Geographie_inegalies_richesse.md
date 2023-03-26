@@ -47,7 +47,9 @@ top 3 des pays en développements:
    -2)Amérique Sud/Centrale
    -3)Asie
 
-# RICHESSE   DEVELOPPEMENT
+# RICHESSE x DEVELOPPEMENT
+
+
 
 
 
