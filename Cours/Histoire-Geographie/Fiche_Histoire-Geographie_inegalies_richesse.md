@@ -16,9 +16,7 @@ updated:: 2023-03-26 17:15:32
 
 ---
 
-# LES INEGALITES DE RICHESSE
-
-LES PAYS DEVELOPPES
+# LES PAYS DEVELOPPES
 
 - les pays développés sont des pays:
 	- qui ont un PIB / habitants très élevé
@@ -26,10 +24,26 @@ LES PAYS DEVELOPPES
 	- niveau de scolarisation élevé
 	- accès aux besoins vitaux
 
-- top 5 des pays développés:
-	- 1) Etats-Unis
-	- 2) Canada
-	- 3)
+ top 5 des pays développés:
+   -1) Etats-Unis
+   -2) Canada
+   -3) Europe de l'Ouest
+   -4) Japon
+ont un IDH plus élevé que:
+   -1) Europe de l'Est
+   -2) Russie
+   -3) Japon
+
+# LES PAYS EN DEVELOPPEMENT
+
+- les pays en développement sont des pays:
+	- qui ont un PIB / habitants très faible
+	- faible espérance de vie
+	- niveau de scolarisation faible
+	- accès aux besoins vitaux difficiles 
+
+top 5 des pays en développements:
+   -1) 
 
 
 
