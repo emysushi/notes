@@ -49,6 +49,8 @@ top 3 des pays en développements:
 
 # RICHESSE x DEVELOPPEMENT
 
+la richesse n'est pas synonyme de développement:
+
 
 
 
