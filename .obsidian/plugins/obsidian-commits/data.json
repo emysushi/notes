@@ -208,13 +208,18 @@
       "size": 2207,
       "tags": 0,
       "links": 1
+    },
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegalies_richesse.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 69,
-      "Create": 63,
-      "Link": 30,
+      "Create": 64,
+      "Link": 31,
       "Expand": 8
     }
   },
@@ -237,7 +242,7 @@
       "14": 0,
       "15": 0,
       "16": 66,
-      "17": 58,
+      "17": 60,
       "18": 41,
       "19": 0,
       "20": 0,
@@ -254,7 +259,7 @@
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 3
+      "Sun": 5
     }
   },
   "recentCommits": {
@@ -270,6 +275,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -319,7 +325,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -332,7 +337,8 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
       ],
       "Tagged": [
-        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>"
+        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegalies_richesse.md\"> Fiche_Histoire-Geographie_inegalies_richesse </a>"
       ],
       "Refactored": [],
       "Deleted": [
