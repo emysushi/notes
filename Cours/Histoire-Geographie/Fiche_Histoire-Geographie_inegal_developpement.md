@@ -70,11 +70,13 @@ pour distinguer la richesse et le développement il y a:
 GLOSSAIRE
 ___
 
-- #développement :
-- #richesse :
-- #pays_pauvre :
-- #PIB :
-- #IDH :
-- #pays_émergent :
+- #développement :processus d'amélioration des condition de vie de la population
+- #richesse :désigne les ressources naturelles et humaines dont le pays peut tirer des revenus
+- #pays_pauvre :sa population dispose de revenus insuffisants pour satisfaire les besoins essentiels 
+- et accéder à un niveau de vie décent
+- #PIB :outil économique indicateur qui indique la richesse d'un pays produit par année dans un pays donné $
+- #IDH :indicateur qui mesure: le niveau de développement d'un pays(PIB), espérance de vie, niveau d'éducation
+- #PMA :pays moins avancés (les plus pauvres)
+- #pays_émergent :PED dont la croissance économique est forte est dont les conditions de vie de la population s'améliorent
 
 

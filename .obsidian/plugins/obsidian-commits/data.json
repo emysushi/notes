@@ -195,8 +195,8 @@
       "links": 1
     },
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md": {
-      "size": 0,
-      "tags": 6,
+      "size": 2126,
+      "tags": 10,
       "links": 0
     }
   },
@@ -204,8 +204,8 @@
     "/": {
       "Refactor": 73,
       "Create": 64,
-      "Link": 32,
-      "Expand": 8
+      "Link": 33,
+      "Expand": 9
     }
   },
   "dailyCommits": {
@@ -228,7 +228,7 @@
       "15": 0,
       "16": 66,
       "17": 60,
-      "18": 46,
+      "18": 48,
       "19": 0,
       "20": 0,
       "21": 3,
@@ -244,7 +244,7 @@
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 10
+      "Sun": 12
     }
   },
   "recentCommits": {
@@ -257,7 +257,8 @@
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
@@ -325,6 +326,7 @@
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegalies_richesse.md\"> Fiche_Histoire-Geographie_inegalies_richesse </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>"
       ],
       "Refactored": [],
