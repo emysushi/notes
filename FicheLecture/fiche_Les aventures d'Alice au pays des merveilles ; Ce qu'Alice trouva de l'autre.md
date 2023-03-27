@@ -42,7 +42,7 @@ updated: 2023-03-16 20:39:30
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages:
 
-Alice: 
+Alice: personnage principale, jeune fille, 
 Lapin:
 Souris:
 Chenille bleu:
