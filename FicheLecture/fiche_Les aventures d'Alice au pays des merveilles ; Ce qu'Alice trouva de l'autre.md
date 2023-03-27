@@ -43,8 +43,8 @@ updated: 2023-03-16 20:39:30
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages:
 
 Alice: personnage principale, jeune fille, qui connaitra des aventures merveilleuses et étranges
-Lapin: provoque le début de l'aventure, 
-Souris:
+Lapin: provoque le début de l'aventure, statu officiel au près de la reine
+Souris: rencontre Alice dans la mare, 
 Chenille bleu:
 Duchesse:
 Chat:
