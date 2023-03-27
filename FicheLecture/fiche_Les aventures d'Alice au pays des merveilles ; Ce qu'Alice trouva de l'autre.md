@@ -34,8 +34,8 @@ updated: 2023-03-16 20:39:30
 
 # Le cadre :
 - contexte politique et social :
-- periode historique :
-- evênements historiques :
+- période historique :
+- évènements historiques :
 
 
 # Les personnages principaux :
