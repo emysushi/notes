@@ -18,20 +18,18 @@ updated: 2023-03-16 20:39:30
 ![cover|150]()
 
 # Auteur
-
-- nationalité : 
-- date naissance/mort :
-- contexte historique :
-- grandes etapes de sa vie :
+- nationalité : Royaume-Unis
+- date naissance/mort :1852-1898
+- grandes étapes de sa vie :
 	- etape1
 	- etape2
 	- etape3
-- profession :
-- courant littéraire predilection : 
+- profession :Poète, Romancier, Photographe...
+- courant littéraire prédilection : 
 
 # Genre 
-- genre de l ouvrage :
-- place de l ouvrage dans la vie de l auteur :
+- genre de l ouvrage : Roman
+- place de l ouvrage dans la vie de l auteur : 
 - chronologie : 
 
 # Le cadre :
