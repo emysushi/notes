@@ -42,6 +42,18 @@ updated: 2023-03-16 20:39:30
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages:
 
+Alice: 
+Lapin:
+Souris:
+Chenille bleu:
+Duchesse:
+Chat:
+Lièvre de mars:
+Chapelier:
+Loir:
+Reine:
+Roi:
+Jardiniers:
 
 # Résumé bref :
 
