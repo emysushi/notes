@@ -24,8 +24,8 @@ updated: 2023-03-16 20:39:30
 	- etape1
 	- etape2
 	- etape3
-- profession :Poète, Romancier, Photographe...
-- courant littéraire prédilection : 
+- profession :Poète, Romancier, Photographe…
+- courant littéraire prédilection : portrait de petites filles
 
 # Genre 
 - genre de l ouvrage : Roman
