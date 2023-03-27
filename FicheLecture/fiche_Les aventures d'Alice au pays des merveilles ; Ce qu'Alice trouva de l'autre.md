@@ -40,7 +40,8 @@ updated: 2023-03-16 20:39:30
 
 # Les personnages principaux :
 
-- liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
+- liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages:
+
 
 # Résumé bref :
 
