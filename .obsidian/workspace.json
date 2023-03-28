@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "250d96f42e294c9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FicheLecture/fiche_L'Enfant multiple.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+                "file": "FicheLecture/fiche_L'Enfant multiple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+                "file": "FicheLecture/fiche_L'Enfant multiple.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md"
+                "file": "FicheLecture/fiche_L'Enfant multiple.md"
               }
             }
           },
@@ -217,10 +230,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f46d6ecb7b368940",
+  "active": "250d96f42e294c9a",
   "lastOpenFiles": [
-    "().md",
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+    "().md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md",
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "Cours/Histoire-Geographie/LES SERRURES🔐.md",

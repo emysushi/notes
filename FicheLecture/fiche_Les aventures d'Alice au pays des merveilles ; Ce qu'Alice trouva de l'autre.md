@@ -28,13 +28,13 @@ updated: 2023-03-16 20:39:30
 - courant littéraire prédilection :professeur de maths
 
 # Genre 
-- genre de l ouvrage : Roman
-- place de l ouvrage dans la vie de l auteur : il à écrit se livre pour une fille (Alice) qui le lui a demandée
+- genre de l'ouvrage : Roman
+- place de l'ouvrage dans la vie de l'auteur : il à écrit se livre pour une fille (Alice) qui le lui a demandée
 - chronologie : 
 
 # Le cadre :
 - contexte politique et social :
-- période historique :
+- période historique : 1865 (19ème siècle)
 - évènements historiques :
 
 
@@ -54,11 +54,16 @@ updated: 2023-03-16 20:39:30
 #Jardiniers:carte à jouer serviteurs de la Reine qui repeignent les roses blanches en rouges 
 
 # Résumé bref :
+Alice voit passer un lapin blanc qui est pressé, elle le suit et tombe dans un terrier, et arrive dans une pièce close
+boit une bouteille qui la fit rapetisser et un gâteau qui l'a fait grandir démesurément, mais elle n'arrive pas à franchir la porte, alors ses larmes trempent une multitudes de petits animaux, organise une course pour les faire sécher, discute avec une chenille qui fume, rencontre une duchesse qui à une tête énorme, et son chat qui a un sourire jusqu'au dents, prend le thé avec un lièvre un chapelier et un loir, retrouve le jardin et joue une partie de croquet avec la reine, récite des chansons avec un griffon et une tortue et termine dans un tribunal ou le roi juge un serviteur pour le vol d'un gâteau
+mais tout n'était qu'un rêve
 
-
-
-# passage marquants :
-
+# passages marquants :
 
 
 # Appréciation personnelle :
+
+j'ai bien aimé, car j'adore les livres fantastique, il y avait plein de détails que l'on pouvait s'imaginer, dans la foret, avec tous ses animaux et personnages étranges et merveilleux, les scènes tristes, joyeuses ou étranges 
+
+
+
