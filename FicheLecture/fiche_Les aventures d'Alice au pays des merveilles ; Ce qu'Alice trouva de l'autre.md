@@ -45,7 +45,7 @@ updated: 2023-03-16 20:39:30
 Alice: personnage principale, jeune fille, qui connaitra des aventures merveilleuses et étranges
 Lapin: provoque le début de l'aventure, statu officiel au près de la reine
 Souris: rencontre Alice dans la mare, elles s'entraident pour arriver sur la rive, mais se montre maladroite
-Chenille bleu: Alice se montre amicale mais la Chenille
+Chenille bleu: Alice se montre amicale mais la Chenille elle est méprisante et 
 Duchesse:
 Chat:
 Lièvre de mars:
