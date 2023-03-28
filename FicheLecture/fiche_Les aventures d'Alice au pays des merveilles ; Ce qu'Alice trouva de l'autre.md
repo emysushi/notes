@@ -33,7 +33,7 @@ updated: 2023-03-16 20:39:30
 - chronologie : 1865 (19ème siècle)
 
 # Le cadre :
-- contexte politique et social :
+- contexte politique et social :Alice (qui à 7 ans) vit en Angleterre au 19ème siècle
 - période historique : 1865 (19ème siècle)
 - évènements historiques :
 
