@@ -51,7 +51,7 @@ updated: 2023-03-16 20:39:30
 #fous:le lièvre le chapelier et le loir accueillent Alice pour prendre le thé et discutent de propos absurdes
 #Reine:elle fait exécuter toute personne qui ne lui obéit pas
 #Roi:il se révèle être un juge partial changeant les lois à sa guise pour mieux asseoir son autoritarisme
-#Jardiniers:
+#Jardiniers:carte à jouer serviteurs de la Reine qui repeignent les roses blanches en rouges 
 
 # Résumé bref :
 
