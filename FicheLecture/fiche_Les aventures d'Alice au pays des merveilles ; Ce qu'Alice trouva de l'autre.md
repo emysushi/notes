@@ -21,8 +21,8 @@ updated: 2023-03-16 20:39:30
 - nationalité : Royaume-Unis
 - date naissance/mort :1852-1898
 - grandes étapes de sa vie :
-	- etape1: 
-	- etape2: s'installe à Christ Church mais ça mère meurt
+	- etape1: s'installe à Christ Church mais ça mère meurt
+	- etape2: commence son enseignement en mathémathiques
 	- etape3:part en excursion sur Iris ou il écrit ce livre 
 - profession :Poète, Romancier, Photographe…
 - courant littéraire prédilection :professeur de maths
