@@ -101,7 +101,7 @@
     },
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": {
       "size": 999,
-      "tags": 1,
+      "tags": 11,
       "links": 0
     },
     "FicheLecture/fiche_L'Enfant multiple.md": {
@@ -209,7 +209,7 @@
     "/": {
       "Refactor": 73,
       "Create": 65,
-      "Link": 33,
+      "Link": 34,
       "Expand": 9
     }
   },
@@ -232,7 +232,7 @@
       "14": 0,
       "15": 0,
       "16": 66,
-      "17": 60,
+      "17": 61,
       "18": 48,
       "19": 1,
       "20": 0,
@@ -244,7 +244,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 2,
-      "Tue": 0,
+      "Tue": 1,
       "Wed": 3,
       "Thu": 161,
       "Fri": 2,
@@ -332,7 +332,8 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegalies_richesse.md\"> Fiche_Histoire-Geographie_inegalies_richesse </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Refactored": [],
       "Deleted": [
