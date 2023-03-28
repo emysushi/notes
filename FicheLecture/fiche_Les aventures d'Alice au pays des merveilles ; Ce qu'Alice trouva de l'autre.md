@@ -30,7 +30,7 @@ updated: 2023-03-16 20:39:30
 # Genre 
 - genre de l'ouvrage : Roman
 - place de l'ouvrage dans la vie de l'auteur : il à écrit se livre pour une fille (Alice) qui le lui a demandée
-- chronologie : 
+- chronologie : 1865 (19ème siècle)
 
 # Le cadre :
 - contexte politique et social :
