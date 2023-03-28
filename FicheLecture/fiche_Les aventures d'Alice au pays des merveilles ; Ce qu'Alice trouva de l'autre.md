@@ -25,11 +25,11 @@ updated: 2023-03-16 20:39:30
 	- etape2
 	- etape3
 - profession :Poète, Romancier, Photographe…
-- courant littéraire prédilection : portrait de petites filles
+- courant littéraire prédilection :professeur de maths
 
 # Genre 
 - genre de l ouvrage : Roman
-- place de l ouvrage dans la vie de l auteur : 
+- place de l ouvrage dans la vie de l auteur : il à écrit se livre pour une fille (Alice) qui le lui a demandée
 - chronologie : 
 
 # Le cadre :
@@ -46,7 +46,7 @@ updated: 2023-03-16 20:39:30
 #Lapin: provoque le début de l'aventure, statu officiel au près de la reine
 #Souris: rencontre Alice dans la mare, elles s'entraident pour arriver sur la rive, mais se montre maladroite
 #Chenille: Alice se montre amicale mais la Chenille elle est méprisante mais grâce à elle qu'Alice va pouvoir métriser ses                                 changements de taille
-#Duchesse:
+#Duchesse: allaite un bébé en le traitant méchamment, Alice le sauve mais il se transforme en cochon 
 #Chat:le chat de la duchesse qui n'arrête pas de sourire et révèle à Alice que ce monde est peuplé de fous et peut disparaitre
 #fous:le lièvre le chapelier et le loir accueillent Alice pour prendre le thé et discutent de propos absurdes
 #Reine:elle fait exécuter toute personne qui ne lui obéit pas
