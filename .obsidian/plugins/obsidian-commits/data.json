@@ -203,13 +203,18 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Template/tpl-crypto.md": {
+      "size": 905,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 73,
-      "Create": 65,
-      "Link": 34,
+      "Refactor": 78,
+      "Create": 70,
+      "Link": 36,
       "Expand": 12
     }
   },
@@ -233,7 +238,7 @@
       "15": 0,
       "16": 66,
       "17": 61,
-      "18": 51,
+      "18": 63,
       "19": 1,
       "20": 0,
       "21": 3,
@@ -245,7 +250,7 @@
     "/": {
       "Mon": 2,
       "Tue": 4,
-      "Wed": 3,
+      "Wed": 15,
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
@@ -269,6 +274,11 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Crypto/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-dossier 1.md\"> tpl-dossier 1 </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"().md\"> () </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -314,11 +324,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -329,17 +334,24 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔒.md\"> LES SERRURES🔒 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegalies_richesse.md\"> Fiche_Histoire-Geographie_inegalies_richesse </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
-        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>"
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Training/Crypto_intro_Training.md\"> Crypto_intro_Training </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Training/Dossier_introduction.md\"> Dossier_introduction </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/note.md\"> note </a>",
@@ -355,10 +367,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

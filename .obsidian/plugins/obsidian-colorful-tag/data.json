@@ -239,6 +239,26 @@
       "#Reine-51-0-1980",
       "#Roi-52-0-2042",
       "#Jardiniers-53-0-2148"
+    ],
+    "Crypto/Training/Dossier_introduction.md": [
+      "#dossier-1-7-8",
+      "#Training-7-10-55"
+    ],
+    "Template/tpl-dossier 1.md": [
+      "1-7-9"
+    ],
+    "Template/tpl-crypto.md": [
+      "#crypto-1-7-8"
+    ],
+    "Crypto/Training/Crypto_intro_Training.md": [
+      "#crypto-1-7-8",
+      "#intro-6-8-31",
+      "#Training-7-10-48"
+    ],
+    "Crypto/Crypto_introduction.md": [
+      "#crypto-1-7-8",
+      "#introduction-6-8-31",
+      "#Crypto-7-10-55"
     ]
   }
 }
