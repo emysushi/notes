@@ -20,6 +20,7 @@ updated:: 2023-03-29 18:40:29
 pendant longtemps la monnaie étaient basés sur des biens réels:
 qui existent en quantité limités et ne pouvant pas être reproduit
 
+crypto monnaies: monnaies numériques
 
 
 
