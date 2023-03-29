@@ -21,7 +21,7 @@ pendant longtemps la monnaie étaient basés sur des biens réels:
 qui existent en quantité limités et ne pouvant pas être reproduit
 
 le prix des crypto monnaies montent et descend car c'est l'offre et la demande qui en est la cause
-elles voient le prix varier en fonction du marcher
+elles voient le prix varier en fonction du marché
 
 ## Outils utiles
 
