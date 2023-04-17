@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bibliotheque_Liste.md",
+                "file": "Template/tpl-fiche_histoire-geo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86dccb80db5a0d30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-feedback.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bibliotheque_Liste.md",
+                "file": "Template/tpl-feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bibliotheque_Liste.md",
+                "file": "Template/tpl-feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bibliotheque_Liste.md"
+                "file": "Template/tpl-feedback.md"
               }
             }
           },
@@ -221,8 +234,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5c1c1dd2b9004e62",
+  "active": "cc433e56d726fa8d",
   "lastOpenFiles": [
+    "Template/tpl-fiche_histoire-geo.md",
+    "Template/tpl-feedback.md",
+    "Template/tpl-fiche_math.md",
+    "Bibliotheque_Liste.md",
     "controle_feedback.md",
     "Crypto/Crypto_introduction.md",
     "Template/tpl-crypto.md",
@@ -253,10 +270,6 @@
     "Cours/Histoire-Geographie/note.md",
     "README.md",
     "Template/tpl-fiche_physique-chimie.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
-    "Template/tpl-fiche_svt.md",
-    "Template/tpl-fiche_techno.md",
-    "Template/tpl-kanban.md",
     "Gallery/Pasted image 20230308173724.png",
     "Banner/biblio.jpeg",
     "Banner",

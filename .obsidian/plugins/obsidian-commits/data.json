@@ -218,13 +218,18 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Template/tpl-feedback.md": {
+      "size": 1500,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 79,
-      "Create": 72,
-      "Link": 37,
+      "Refactor": 81,
+      "Create": 73,
+      "Link": 38,
       "Expand": 12
     }
   },
@@ -247,7 +252,7 @@
       "14": 0,
       "15": 0,
       "16": 66,
-      "17": 63,
+      "17": 67,
       "18": 65,
       "19": 1,
       "20": 0,
@@ -258,7 +263,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 4,
+      "Mon": 8,
       "Tue": 4,
       "Wed": 17,
       "Thu": 161,
@@ -284,6 +289,7 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math 1.md\"> tpl-fiche_math 1 </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Crypto/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Crypto/Untitled.md\"> Untitled </a>",
@@ -333,7 +339,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -346,7 +351,9 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>",
-        "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>"
+        "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-feed-back.md\"> tpl-feed-back </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -356,7 +363,8 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
         "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>",
-        "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>"
+        "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
       ],
       "Refactored": [],
       "Deleted": [
