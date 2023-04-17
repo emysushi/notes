@@ -18,7 +18,21 @@ updated:: 2023-04-17 19:23:19
 # Essor des villes au Moyen-Age
 - Moyen-Age
 	- majorité des habitants: vivent à la campagne
-	- mais la taille des 
+	- mais la taille des villes augmentent: c'est l'essor
+	- XI: 10% de la population vit en ville, et au XIII: c'est 20%
+
+- Nouveaux habitants:
+	- augmentation de la population 
+	- exode rural
+	- urbanisation
+	- 
+
+- - Bruges:
+	- en Flandre
+	- port
+	- région fertile (élevage de moutons > textile)
+	- construite autour du château
+	- connue un essor en 1siècle
 
 
 
