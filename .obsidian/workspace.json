@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "5416129a6d5ee9cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9800eeb06ee9e372",
             "type": "leaf",
             "state": {
@@ -49,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-feedback.md",
+                "file": "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
                 "mode": "source",
                 "source": false
               }
@@ -127,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.50568771362305
+    "width": 200
   },
   "right": {
     "id": "de72a87206515b52",
@@ -143,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Feedback_Liste.md",
+                "file": "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Feedback_Liste.md",
+                "file": "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Feedback_Liste.md"
+                "file": "Cours/Histoire-Geographie/Feedback_2023-04-17.md"
               }
             }
           },
@@ -258,11 +246,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "9800eeb06ee9e372",
+  "active": "5e40370e87b9e3f6",
   "lastOpenFiles": [
+    "Feedback_Liste.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Template/tpl-feedback.md",
-    "Feedback_Liste.md",
     "Bibliotheque_Liste.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Template/tpl-fiche_math.md",
@@ -292,7 +280,6 @@
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
     "Cours/Technologie/Dossier_Serrures.md",
-    "Planning_Semaine/Planning_Week_2023-03-13.md",
     "Gallery/Pasted image 20230308173724.png",
     "Banner/biblio.jpeg",
     "Banner",

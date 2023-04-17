@@ -5,11 +5,12 @@
 ```dataview
 TABLE WITHOUT ID
 	link(file.link, title) as Ref,
-	qcDomain as Domain,
-	type as Type,
+	domain as Domain,
+	mode as Mode,
 	date_event as Date,
 	note as Note,
 	status as Status
-FROM "*/Feedback_*"
-SORT Domain DESC, type ASC
+FROM #feedback
+WHERE contains(file.name, "Feedback_")
+SORT Domain DESC, Type ASC
 ```

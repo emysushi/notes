@@ -9,17 +9,14 @@ await tp.file.rename(titleName)
 -%>
 
 ---
-
-type:: <% "#"+"feedback" %>
-domaine:: <% "#"+tp.file.folder(false) %>
 author:: EmySushi
 created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 
-<% tp.file.cursor() %>
-
 ---
 
-- type :: Dst/Intero/Pres
+- type:: #feedback
+- domain::  <% "#"+tp.file.folder(false) %>
+- mode :: Dst/Intero/Pres
 - date_event :: YYYY-MM-DD
 - theme :: NA
 - note :: xx/xx
