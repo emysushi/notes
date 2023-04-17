@@ -13,17 +13,16 @@ await tp.file.rename(titleName)
 title:: <% "#"+"feedback" %>
 domaine:: <% "#"+tp.file.folder(false) %>
 author:: EmySushi
-status:: inprogress
 created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 
 <% tp.file.cursor() %>
 
 ---
 
-type :: Dst/Interro/Pres
-date_event :: YYYY-MM-DD
-theme :: NA
-note :: NA
+- type :: Dst/Interro/Pres
+- date_event :: YYYY-MM-DD
+- theme :: NA
+- note :: NA
 
 
 ## Points positifs
