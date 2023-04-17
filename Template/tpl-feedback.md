@@ -8,9 +8,6 @@ titleName = "Feedback_" + qcDate
 await tp.file.rename(titleName)
 -%>
 
-
-tags : #fiche  <% "#"+qcDomain %> <% "#"+qcFileName %>
-
 ---
 
 title:: <% "#"+"feedback" %>
