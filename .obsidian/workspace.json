@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f46d6ecb7b368940",
+            "id": "5c1c1dd2b9004e62",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Bibliotheque_Liste.md",
                 "mode": "source",
                 "source": false
               }
@@ -36,8 +36,12 @@
             "id": "6742ed8853b78b41",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "controle_feedback.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -82,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -102,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Bibliotheque_Liste.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Bibliotheque_Liste.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Crypto/Crypto_introduction.md"
+                "file": "Bibliotheque_Liste.md"
               }
             }
           },
@@ -217,11 +221,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "f46d6ecb7b368940",
+  "active": "5c1c1dd2b9004e62",
   "lastOpenFiles": [
+    "controle_feedback.md",
+    "Crypto/Crypto_introduction.md",
     "Template/tpl-crypto.md",
-    "Crypto/Crypto_introduction.md",
-    "Crypto/Crypto_introduction.md",
     "Crypto/Training/Crypto_intro_Training.md",
     "Crypto/Training/Dossier_introduction.md",
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",

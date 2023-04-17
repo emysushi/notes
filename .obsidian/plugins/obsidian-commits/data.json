@@ -213,12 +213,17 @@
       "size": 0,
       "tags": 3,
       "links": 0
+    },
+    "controle_feedback.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 78,
-      "Create": 71,
+      "Refactor": 79,
+      "Create": 72,
       "Link": 37,
       "Expand": 12
     }
@@ -242,7 +247,7 @@
       "14": 0,
       "15": 0,
       "16": 66,
-      "17": 61,
+      "17": 63,
       "18": 65,
       "19": 1,
       "20": 0,
@@ -253,7 +258,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 2,
+      "Mon": 4,
       "Tue": 4,
       "Wed": 17,
       "Thu": 161,
@@ -279,6 +284,7 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Crypto/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Crypto/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
@@ -328,7 +334,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -340,7 +345,8 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>",
+        "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
