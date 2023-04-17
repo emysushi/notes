@@ -233,13 +233,18 @@
       "size": 0,
       "tags": 2,
       "links": 0
+    },
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 89,
-      "Create": 81,
-      "Link": 41,
+      "Create": 82,
+      "Link": 42,
       "Expand": 12
     }
   },
@@ -264,7 +269,7 @@
       "16": 66,
       "17": 67,
       "18": 84,
-      "19": 1,
+      "19": 3,
       "20": 0,
       "21": 3,
       "22": 0,
@@ -273,7 +278,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 27,
+      "Mon": 29,
       "Tue": 4,
       "Wed": 17,
       "Thu": 161,
@@ -299,6 +304,7 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
@@ -348,7 +354,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -378,7 +383,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>"
       ],
       "Refactored": [],
       "Deleted": [
