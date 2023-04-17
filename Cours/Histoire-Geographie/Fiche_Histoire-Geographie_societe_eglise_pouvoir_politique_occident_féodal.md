@@ -25,7 +25,8 @@ updated:: 2023-04-17 19:23:19
 	- augmentation de la population 
 	- exode rural
 	- urbanisation
-	- 
+	- puis en grignotant les campagnes alentours
+	- faubourg apparaissent autour du bourg initial
 
 - - Bruges:
 	- en Flandre
