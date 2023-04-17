@@ -18,7 +18,7 @@ updated:: 2023-04-17 19:23:19
 # Essor des villes au Moyen-Age
 - Moyen-Age
 	- majorité des habitants: vivent à la campagne
-	- mais 
+	- mais la taille des 
 
 
 
