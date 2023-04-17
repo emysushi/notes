@@ -221,15 +221,25 @@
     },
     "Template/tpl-feedback.md": {
       "size": 1500,
+      "tags": 0,
+      "links": 0
+    },
+    "Feedback_Liste.md": {
+      "size": 313,
+      "tags": 0,
+      "links": 0
+    },
+    "Cours/Histoire-Geographie/Feedback_2023-04-17.md": {
+      "size": 0,
       "tags": 1,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 84,
-      "Create": 76,
-      "Link": 38,
+      "Refactor": 87,
+      "Create": 79,
+      "Link": 39,
       "Expand": 12
     }
   },
@@ -253,7 +263,7 @@
       "15": 0,
       "16": 66,
       "17": 67,
-      "18": 71,
+      "18": 78,
       "19": 1,
       "20": 0,
       "21": 3,
@@ -263,7 +273,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 14,
+      "Mon": 21,
       "Tue": 4,
       "Wed": 17,
       "Thu": 161,
@@ -289,6 +299,9 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Bibliotheque_Liste 1.md\"> Bibliotheque_Liste 1 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
@@ -336,9 +349,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -353,7 +363,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>",
         "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feed-back.md\"> tpl-feed-back </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
+        "<a class=\"internal-link\" href=\"Feedback_Liste.md\"> Feedback_Liste </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -364,10 +375,12 @@
         "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>",
         "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>"
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
@@ -390,7 +403,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -451,7 +463,9 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
       ],
-      "Removed Tags from": [],
+      "Removed Tags from": [
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
+      ],
       "Removed Links from": []
     }
   },
