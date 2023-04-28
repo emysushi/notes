@@ -25,6 +25,8 @@ elles voient le prix varier en fonction du marché
 
 
 
+
+
 ## Outils utiles
 
 -   [Crypto playlist youtube](https://www.youtube.com/playlist?list=PL-eMoIHaC-ssjIoyHUPFT9t-6D92XmFZI) 
