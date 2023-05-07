@@ -32,17 +32,20 @@ updated: 2023-05-07 17:33:21
 # Genre 
 - genre de l ouvrage : roman
 - place de l ouvrage dans la vie de l auteur : 
-- chronologie : 
+- chronologie : 1726
 
 # Le cadre :
-- contexte politique et social :
-- periode historique :
-- evênements historiques :
+- contexte politique et social : 
+- période historique : 
+- évènements historiques : 
 
 
 # Les personnages principaux :
 
-- liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
+- liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages
+
+- Gulliver : chirurgien de marine qui au cours de ses périple va rencontré 4 étranges contrées peuplé
+- 
 
 # Résumé bref :
 
