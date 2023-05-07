@@ -49,6 +49,7 @@ updated: 2023-05-07 17:33:21
 - l'empereur : chef des lilliputiens qui l'accueille et se montre amical mais change d'avis car Gulliver 
  refuse de combattre Blefuscu 
 - Lilliputiens : habitants de Lilliput mesurant environ 15 cm
+- Glumdalclitch : petite fille qui s'occupe de lui dans une ferme puis peut à près réside dans le palais
 
 # Résumé bref :
 
@@ -61,4 +62,6 @@ Gulliver entreprend un deuxième voyage et se retrouve à Brobdingnag qui sont
 
 # Appréciation personnelle :
 
-j'ai bien aimé
+j'ai bien aimé car j'adore les romans d'aventures, il y avait plein de drôles de personnages de détails et de décor 
+que l'on pouvait s'imaginer comme par exemple :
+les lilliputiens, les habitants de Brobdingnag, la plage, les maisons, la nourriture, les animaux …
