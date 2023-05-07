@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Template/tpl-kanban.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "34f152a677b04640",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -125,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Template/tpl-kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Template/tpl-kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Crypto/Crypto_introduction.md"
+                "file": "Template/tpl-kanban.md"
               }
             }
           },
@@ -240,8 +229,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "34f152a677b04640",
+  "active": "ac1b2e65b0b62785",
   "lastOpenFiles": [
+    "Planning_Semaine/Planning_Week_2023-05-07.md",
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Feedback_Liste.md",
@@ -274,7 +265,6 @@
     "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_Paysan_Seigneur.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
-    "Cours/Technologie/Dossier_Serrures.md",
     "Gallery/Pasted image 20230308173724.png",
     "Banner/biblio.jpeg",
     "Banner",
