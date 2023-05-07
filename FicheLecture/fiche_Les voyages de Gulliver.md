@@ -21,7 +21,7 @@ updated: 2023-05-07 17:33:21
 
 - nationalité : irlandais
 - date naissance/mort : 1667/1745
-- contexte historique : quelques batailles
+- contexte historique : 
 - grandes étapes de sa vie : 
 	- etape1 ordonné diacre (homme qui assiste le dirigeant d'une église - orthodoxe/catholique -locale°
 	- etape2 nommé pasteur (h/f exerçant des fonctions de gestion/enseignement dans une communauté chrétienne)
@@ -31,13 +31,14 @@ updated: 2023-05-07 17:33:21
 
 # Genre 
 - genre de l ouvrage : roman
-- place de l ouvrage dans la vie de l auteur : décrit un sommet de la satire sociale et politique
+- place de l ouvrage dans la vie de l auteur : décrit et compare gouvernement anglais ou il se sent isolé sauf chez les
+-  houyhnms (seule société ou il aimerait appartenir)
 - chronologie : 1726
 
 # Le cadre :
 - contexte politique et social : royaume d'Irlande  
 - période historique : 1699
-- évènements historiques : chirurgien de marine (médecin pratiquant sur le bateau)
+- évènements historiques : nouveau métier chirurgien de marine (médecin pratiquant sur le bateau)
 
 
 # Les personnages principaux :
