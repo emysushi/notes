@@ -16,6 +16,14 @@
                 "file": "Planning_Semaine/Planning_Week_2023-05-08.md"
               }
             }
+          },
+          {
+            "id": "0e0fbf2d6a1e6858",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -227,12 +235,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "ac1b2e65b0b62785",
   "lastOpenFiles": [
+    "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",
-    "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Template/tpl-kanban.md",
-    "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Template/tpl-crypto.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Planning_Semaine/Planning_Week_2023-05-07.md",

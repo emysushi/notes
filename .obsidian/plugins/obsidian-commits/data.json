@@ -247,9 +247,9 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 93,
+      "Refactor": 94,
       "Create": 87,
-      "Link": 44,
+      "Link": 45,
       "Expand": 14
     }
   },
@@ -269,10 +269,10 @@
       "11": 0,
       "12": 0,
       "13": 6,
-      "14": 7,
+      "14": 8,
       "15": 0,
       "16": 66,
-      "17": 67,
+      "17": 68,
       "18": 84,
       "19": 3,
       "20": 0,
@@ -289,7 +289,7 @@
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 25
+      "Sun": 27
     }
   },
   "recentCommits": {
@@ -393,6 +393,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>"
       ],
       "Refactored": [],
@@ -481,7 +482,8 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
       ],
       "Removed Tags from": [
-        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>"
       ],
       "Removed Links from": []
     }

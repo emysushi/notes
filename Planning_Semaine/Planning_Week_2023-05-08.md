@@ -8,14 +8,14 @@ kanban-plugin: basic
 
 - [ ] #Mathematiques  #_revision @{2023-05-09}
 - [ ] #Francais  #_revision @{2023-05-09}
-- [ ] #Chinois #_revision @{2023-05-09}
+- [ ] #Chinois #_control  @{2023-05-09}
 - [ ] #Khan #_exercice @{2023-05-09}
 - [ ] #Eps  @{2023-05-10}
 - [ ] #Svt  #_revision @{2023-05-10}
 - [ ] #Mathematiques #_revision @{2023-05-10}
 - [ ] #Anglais #_revision @{2023-05-10}
 - [ ] #Khan #_exercice @{2023-05-10}
-- [ ] #Histoire-Geographie  #_revision @{2023-05-11}
+- [ ] #Histoire-Geographie  #_control  @{2023-05-11}
 - [ ] #Anglais  #_revision @{2023-05-11}
 - [ ] #Arts-Plastiques  #_revision @{2023-05-11}
 - [ ] #Mathematiques  #_revision @{2023-05-11}
