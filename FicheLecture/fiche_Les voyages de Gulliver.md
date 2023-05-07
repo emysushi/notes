@@ -35,7 +35,7 @@ updated: 2023-05-07 17:33:21
 - chronologie : 1726
 
 # Le cadre :
-- contexte politique et social : 
+- contexte politique et social : royaume d'Irlande en 
 - période historique : 
 - évènements historiques : 
 
