@@ -50,10 +50,14 @@ updated: 2023-05-07 17:33:21
  refuse de combattre Blefuscu 
 - Lilliputiens : habitants de Lilliput mesurant environ 15 cm
 
-
 # Résumé bref :
 
+après un naufrage, gulliver se retrouve sur l'ile de Lilliput, dont les habitants ne mesure que 15 cm
+leur société et plus avancés que celle de l'Angleterre, même si leur peuple passent leur temps faire la guerre à l'ile voisine
+Belfuscu, à cause d'un roi qui a voulut imposer le coté par lequel un œuf à la coque devrait être cassés
+à la fin Gulliver doit fuir Lilliput pour Blefuscu ayant refusé d'asservir les Blefusciens vaincus car s'il restait, il se risquerait à une sentence  Il parvient finalement à retrouver un navire au large pour retourner en Angleterre.
 
+Gulliver entreprend un deuxième voyage et se retrouve à Brobdingnag qui sont des géants L'un d'entre eux s'empare de Gulliver pour l'emmener dans sa ferme, où une petite fille, qu'il surnomme Glumdalclitch, s'occupe de lui. Il est par la suite acheté par la cour royale de Brobdingnag et y réside avec sa nourrice, le héros devient un objet de curiosité pour le roi, la reine et la cour, et devient notamment favori de la reine grâce à sa petite taille. Il explique au roi le système politique en Angleterre. Le souverain critique les institutions anglaises. Mais à la suite d'un manque d'attention d'un courtisan qui l'emmenait en balade près d'une falaise, Gulliver se retrouve emporté par un aigle, puis est repêché par des marins, qui le ramènent en Angleterre
 
 # Appréciation personnelle :
 
