@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md"
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md"
               }
             }
           },
@@ -242,6 +242,8 @@
   },
   "active": "0e0fbf2d6a1e6858",
   "lastOpenFiles": [
+    "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+    "FicheLecture/fiche_Les voyages de Gulliver.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Template/tpl-kanban.md",
@@ -258,7 +260,6 @@
     "Crypto/Crypto_introduction.md",
     "Crypto/Training/Crypto_intro_Training.md",
     "Crypto/Training/Dossier_introduction.md",
-    "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
     "Crypto/Training",
     "Crypto",
     "FicheLecture/fiche_L'Enfant multiple.md",
