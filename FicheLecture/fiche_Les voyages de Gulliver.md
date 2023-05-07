@@ -19,15 +19,15 @@ updated: 2023-05-07 17:33:21
 
 # Auteur
 
-- nationalité : 
+- nationalité : irlandais
 - date naissance/mort : 1667/1745
-- contexte historique :
-- grandes étapes de sa vie :
-	- etape1
-	- etape2
-	- etape3
-- profession :
-- courant littéraire predilection : 
+- contexte historique : quelques batailles
+- grandes étapes de sa vie : 
+	- etape1 
+	- etape2 
+	- etape3 
+- profession : auteur, poète, satiriste, romancier...
+- courant littéraire prédilection : satire 
 
 # Genre 
 - genre de l ouvrage :
