@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#_revision",
+                "query": "tag:#_control",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -197,7 +197,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -227,15 +227,15 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "ac1b2e65b0b62785",
   "lastOpenFiles": [
+    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Template/tpl-kanban.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Template/tpl-crypto.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Planning_Semaine/Planning_Week_2023-05-07.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Feedback_Liste.md",

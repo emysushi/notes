@@ -6,7 +6,7 @@ kanban-plugin: basic
 
 ## WEEKLY_TODO
 
-- [ ] #Technologie #_revision @{2023-05-09}
+- [ ] #Technologie #_control @{2023-05-09}
 - [ ] #Francais #_revision @{2023-05-09}
 - [ ] #Anglais  #_revision @{2023-05-09}
 - [ ] #Histoire-Geographie  #_revision @{2023-05-09}
