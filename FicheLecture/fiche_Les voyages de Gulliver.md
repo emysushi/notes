@@ -36,7 +36,7 @@ updated: 2023-05-07 17:33:21
 
 # Le cadre :
 - contexte politique et social : royaume d'Irlande en 
-- période historique : 1721
+- période historique : 1699
 - évènements historiques : aucun
 
 
@@ -45,7 +45,7 @@ updated: 2023-05-07 17:33:21
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages
 
 - Gulliver : chirurgien de marine qui au cours de ses périple va rencontré 4 étranges contrées peuplé
-- 
+- Mary : femme de gulliver 
 
 # Résumé bref :
 
