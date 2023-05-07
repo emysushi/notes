@@ -6,12 +6,6 @@ kanban-plugin: basic
 
 ## WEEKLY_TODO
 
-- [ ] #Technologie #_control @{2023-05-09}
-- [ ] #Francais #_revision @{2023-05-09}
-- [ ] #Anglais  #_revision @{2023-05-09}
-- [ ] #Histoire-Geographie  #_revision @{2023-05-09}
-- [ ] #Physique-Chimie #_revision @{2023-05-09}
-- [ ] #Khan #_exercice @{2023-05-09}
 - [ ] #Mathematiques  #_revision @{2023-05-09}
 - [ ] #Francais  #_revision @{2023-05-09}
 - [ ] #Chinois #_revision @{2023-05-09}
@@ -33,6 +27,12 @@ kanban-plugin: basic
 
 ## DAILY_TODO
 
+- [ ] #Technologie #_control @{2023-05-09}
+- [ ] #Francais #_revision @{2023-05-09}
+- [ ] #Anglais  #_revision @{2023-05-09}
+- [ ] #Histoire-Geographie  #_revision @{2023-05-09}
+- [ ] #Physique-Chimie #_revision @{2023-05-09}
+- [ ] #Khan #_exercice @{2023-05-09}
 
 
 ## DAILY_TOCKECK
