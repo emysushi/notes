@@ -243,13 +243,18 @@
       "size": 2033,
       "tags": 15,
       "links": 0
+    },
+    "FicheLecture/fiche_Les voyages de Gulliver.md": {
+      "size": 1128,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 94,
-      "Create": 87,
-      "Link": 45,
+      "Create": 88,
+      "Link": 46,
       "Expand": 14
     }
   },
@@ -272,7 +277,7 @@
       "14": 8,
       "15": 0,
       "16": 66,
-      "17": 68,
+      "17": 70,
       "18": 84,
       "19": 3,
       "20": 0,
@@ -289,7 +294,7 @@
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 27
+      "Sun": 29
     }
   },
   "recentCommits": {
@@ -311,6 +316,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
@@ -360,7 +366,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -394,7 +399,8 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>"
       ],
       "Refactored": [],
       "Deleted": [
