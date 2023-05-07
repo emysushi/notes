@@ -37,7 +37,7 @@ updated: 2023-05-07 17:33:21
 # Le cadre :
 - contexte politique et social : royaume d'Irlande  
 - période historique : 1699
-- évènements historiques : 
+- évènements historiques : chirurgien de marine (médecin pratiquant sur le bateau)
 
 
 # Les personnages principaux :
