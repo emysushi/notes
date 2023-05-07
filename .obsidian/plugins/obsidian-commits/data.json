@@ -242,8 +242,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 90,
-      "Create": 83,
+      "Refactor": 91,
+      "Create": 84,
       "Link": 42,
       "Expand": 12
     }
@@ -263,7 +263,7 @@
       "10": 2,
       "11": 0,
       "12": 0,
-      "13": 2,
+      "13": 4,
       "14": 0,
       "15": 0,
       "16": 66,
@@ -284,7 +284,7 @@
       "Thu": 161,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 14
+      "Sun": 16
     }
   },
   "recentCommits": {
@@ -304,6 +304,7 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
@@ -353,7 +354,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -388,6 +388,7 @@
       ],
       "Refactored": [],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-07.md\"> Planning_Week_2023-05-07 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
@@ -414,7 +415,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

@@ -5,13 +5,14 @@ kanban-plugin: basic
 ---
 
 <%*
-qmonday = tp.date.now("YYYY-MM-DD")
-qtuesday = tp.date.now("YYYY-MM-DD",1)
-qwednesday= tp.date.now("YYYY-MM-DD",2)
-qthursday = tp.date.now("YYYY-MM-DD",3)
-qfriday = tp.date.now("YYYY-MM-DD",4)
-qsaturday= tp.date.now("YYYY-MM-DD",5)
-qsunday= tp.date.now("YYYY-MM-DD",6)
+let qdays = await tp.system.prompt("Lundi prochain dans x jrs")
+qmonday = tp.date.now("YYYY-MM-DD",qdays)
+qtuesday = tp.date.now("YYYY-MM-DD",qdays+1)
+qwednesday= tp.date.now("YYYY-MM-DD",qdays+2)
+qthursday = tp.date.now("YYYY-MM-DD",qdays+3)
+qfriday = tp.date.now("YYYY-MM-DD",qdays4)
+qsaturday= tp.date.now("YYYY-MM-DD",qdays+5)
+qsunday= tp.date.now("YYYY-MM-DD",qdays+6)
 
 titleName = "Planning_Week_"+ qmonday
 await tp.file.rename(titleName)
