@@ -27,7 +27,6 @@ kanban-plugin: basic
 
 ## DAILY_TODO
 
-- [ ] #Technologie #_revision  @{2023-05-09
 - [ ] #Francais #_revision @{2023-05-09}
 - [ ] #Anglais  #_revision @{2023-05-09}
 - [ ] #Histoire-Geographie  #_revision @{2023-05-09}
@@ -37,6 +36,7 @@ kanban-plugin: basic
 
 ## DAILY_TOCKECK
 
+- [ ] #Technologie #_revision  @{2023-05-09
 
 
 ## WEEKLY_DONE

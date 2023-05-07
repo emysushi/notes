@@ -21,11 +21,16 @@
             "id": "0e0fbf2d6a1e6858",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -120,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-08.md",
+                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-08.md",
+                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-08.md"
+                "file": "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md"
               }
             }
           },
@@ -235,7 +240,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "ac1b2e65b0b62785",
+  "active": "0e0fbf2d6a1e6858",
   "lastOpenFiles": [
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",
