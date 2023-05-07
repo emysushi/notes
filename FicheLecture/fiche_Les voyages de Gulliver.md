@@ -46,13 +46,16 @@ updated: 2023-05-07 17:33:21
 
 - Gulliver : chirurgien de marine qui au cours de ses périple va rencontré 4 étranges contrées peuplé
 - Mary : femme de gulliver 
+- l'empereur : chef des lilliputiens qui l'accueille et se montre amical mais change d'avis car Gulliver 
+ refuse de combattre Blefuscu 
+- Lilliputiens : habitants de Lilliput mesurant environ 15 cm
+- 
+
 
 # Résumé bref :
 
 
 
-# passage marquants :
-
-
-
 # Appréciation personnelle :
+
+j'ai bien aimé
