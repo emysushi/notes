@@ -31,13 +31,13 @@ updated: 2023-05-07 17:33:21
 
 # Genre 
 - genre de l ouvrage : roman
-- place de l ouvrage dans la vie de l auteur : 
+- place de l ouvrage dans la vie de l auteur : marquent un sommet de la satire sociale et politique
 - chronologie : 1726
 
 # Le cadre :
 - contexte politique et social : royaume d'Irlande en 
-- période historique : 
-- évènements historiques : 
+- période historique : 1721
+- évènements historiques : aucun
 
 
 # Les personnages principaux :
