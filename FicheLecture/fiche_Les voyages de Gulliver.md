@@ -25,13 +25,13 @@ updated: 2023-05-07 17:33:21
 - grandes étapes de sa vie : 
 	- etape1 ordonné diacre
 	- etape2 nommé pasteur 
-	- etape3 
-- profession : auteur, poète, satiriste, romancier...
+	- etape3 son oncle meurt
+- profession : auteur, poète, satiriste, romancier…
 - courant littéraire prédilection : satire 
 
 # Genre 
-- genre de l ouvrage :
-- place de l ouvrage dans la vie de l auteur :
+- genre de l ouvrage : roman
+- place de l ouvrage dans la vie de l auteur : 
 - chronologie : 
 
 # Le cadre :
