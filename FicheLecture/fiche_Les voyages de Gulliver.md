@@ -21,7 +21,8 @@ updated: 2023-05-07 17:33:21
 
 - nationalité : irlandais
 - date naissance/mort : 1667/1745
-- contexte historique : 
+- contexte historique : rivalité commerciale entre  l'Angleterre et les Provinces-Unies se transforme en guerre. 
+- Après une série de batailles navales
 - grandes étapes de sa vie : 
 	- etape1 ordonné diacre (homme qui assiste le dirigeant d'une église - orthodoxe/catholique -locale°
 	- etape2 nommé pasteur (h/f exerçant des fonctions de gestion/enseignement dans une communauté chrétienne)
