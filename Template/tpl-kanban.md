@@ -6,6 +6,7 @@ kanban-plugin: basic
 
 <%*
 let qdays = await tp.system.prompt("Lundi prochain dans x jrs")
+qdays = qdays*1
 qmonday = tp.date.now("YYYY-MM-DD",qdays)
 qtuesday = tp.date.now("YYYY-MM-DD",qdays+1)
 qwednesday= tp.date.now("YYYY-MM-DD",qdays+2)
