@@ -11,8 +11,10 @@
             "id": "ac1b2e65b0b62785",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "Planning_Semaine/Planning_Week_2023-05-08.md"
+              }
             }
           }
         ]
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#PIB",
+                "query": "tag:#_revision",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Planning_Semaine/Planning_Week_2023-05-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Planning_Semaine/Planning_Week_2023-05-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +151,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Planning_Semaine/Planning_Week_2023-05-08.md"
+              }
             }
           },
           {
@@ -221,9 +227,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
-    "Planning_Semaine/Untitled.md",
+    "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Template/tpl-kanban.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Template/tpl-crypto.md",
