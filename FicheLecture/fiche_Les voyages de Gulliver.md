@@ -20,9 +20,9 @@ updated: 2023-05-07 17:33:21
 # Auteur
 
 - nationalité : 
-- date naissance/mort :1667
+- date naissance/mort : 1667/1745
 - contexte historique :
-- grandes etapes de sa vie :
+- grandes étapes de sa vie :
 	- etape1
 	- etape2
 	- etape3
