@@ -23,8 +23,8 @@ updated: 2023-05-07 17:33:21
 - date naissance/mort : 1667/1745
 - contexte historique : quelques batailles
 - grandes étapes de sa vie : 
-	- etape1 ordonné diacre
-	- etape2 nommé pasteur 
+	- etape1 ordonné diacre (homme qui assiste le dirigeant d'une église - orthodoxe/catholique -locale°
+	- etape2 nommé pasteur (h/f exerçant des fonctions de gestion/enseignement dans une communauté chrétienne)
 	- etape3 son oncle meurt
 - profession : auteur, poète, satiriste, romancier…
 - courant littéraire prédilection : satire 
