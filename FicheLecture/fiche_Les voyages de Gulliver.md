@@ -27,15 +27,15 @@ updated: 2023-05-07 17:33:21
 	- etape2 nommé pasteur (h/f exerçant des fonctions de gestion/enseignement dans une communauté chrétienne)
 	- etape3 son oncle meurt
 - profession : auteur, poète, satiriste, romancier…
-- courant littéraire prédilection : satire 
+- courant littéraire prédilection : satire (ouvrage littéraire critique sur les mœurs de son époque)
 
 # Genre 
 - genre de l ouvrage : roman
-- place de l ouvrage dans la vie de l auteur : marquent un sommet de la satire sociale et politique
+- place de l ouvrage dans la vie de l auteur : décrit un sommet de la satire sociale et politique
 - chronologie : 1726
 
 # Le cadre :
-- contexte politique et social : royaume d'Irlande en 
+- contexte politique et social : royaume d'Irlande  
 - période historique : 1699
 - évènements historiques : aucun
 
