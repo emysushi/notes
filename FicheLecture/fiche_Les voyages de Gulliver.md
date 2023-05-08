@@ -37,7 +37,7 @@ updated: 2023-05-07 17:33:21
 - chronologie : 1726
 
 # Le cadre :
-- contexte politique et social : critique la société et le pouvoir en pamphlet (texte court et violent sur les institutions)
+- contexte politique et social : écrit après le krach ()
 - période historique :1870
 - évènements historiques : nouveau métier chirurgien de marine (médecin pratiquant sur le bateau)
 
