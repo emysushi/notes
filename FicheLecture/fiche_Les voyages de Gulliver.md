@@ -25,9 +25,9 @@ updated: 2023-05-07 17:33:21
 - contexte historique : rivalité commerciale entre  l'Angleterre et les Provinces-Unies se transforme en guerre. 
 - Après une série de batailles navales
 - grandes étapes de sa vie : 
-	- etape1 ordonné diacre (homme qui assiste le dirigeant d'une église - orthodoxe/catholique -locale°
-	- etape2 nommé pasteur (h/f exerçant des fonctions de gestion/enseignement dans une communauté chrétienne)
-	- etape3 son oncle meurt
+	- 27 ans ordonné diacre (homme qui assiste le dirigeant d'une église - orthodoxe/catholique -locale
+	- 28 ans nommé pasteur (h/f exerçant des fonctions de gestion/enseignement dans une communauté chrétienne)
+	- 31 ans son oncle meurt
 - profession : auteur, poète, satiriste, romancier…
 - courant littéraire prédilection : satire (ouvrage littéraire critique sur les mœurs de son époque)
 
