@@ -38,6 +38,7 @@ updated: 2023-05-07 17:33:21
 
 # Le cadre :
 - contexte politique et social : écrit après le krach de 1720 (chute brutale d'actions financières)
+- effondrement de la spéculation (acheté et vendre) ruinant beaucoup de commerçants britanniques.
 - période historique :1870
 - évènements historiques : nouveau métier chirurgien de marine (médecin pratiquant sur le bateau)
 
