@@ -33,8 +33,7 @@ updated: 2023-05-07 17:33:21
 
 # Genre 
 - genre de l ouvrage : roman
-- place de l ouvrage dans la vie de l auteur : décrit et compare gouvernement anglais ou il se sent isolé sauf chez les
--  houyhnms (seule société ou il aimerait appartenir)
+- place de l ouvrage dans la vie de l auteur : décrit et compare gouvernement anglais ou il se sent isolé sauf chez les houyhnms (seule société ou il aimerait appartenir)
 - chronologie : 1726
 
 # Le cadre :

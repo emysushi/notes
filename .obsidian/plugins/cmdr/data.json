@@ -38,6 +38,18 @@
       "icon": "bookmark",
       "name": "Admonition: Insert Callout",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-git:commit-staged",
+      "icon": "activity",
+      "name": "Obsidian Git: Commit staged",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-git:push2",
+      "icon": "activity",
+      "name": "Obsidian Git: Push",
+      "mode": "any"
     }
   ],
   "fileMenu": [
