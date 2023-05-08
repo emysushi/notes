@@ -37,7 +37,7 @@ updated: 2023-05-07 17:33:21
 - chronologie : 1726
 
 # Le cadre :
-- contexte politique et social : écrit après le krach ()
+- contexte politique et social : écrit après le krach de 1720 (chute brutale d'actions financières)
 - période historique :1870
 - évènements historiques : nouveau métier chirurgien de marine (médecin pratiquant sur le bateau)
 
