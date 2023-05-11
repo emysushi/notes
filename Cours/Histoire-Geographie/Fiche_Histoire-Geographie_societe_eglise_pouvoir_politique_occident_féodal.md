@@ -35,11 +35,21 @@ updated:: 2023-04-17 19:23:19
 	- construite autour du château
 	- connue un essor en 1siècle
 
+- pouvoir:
+	- châteaux forts =comte
+	- halle et beffroi = échevins
+	- autres villes ils se réunissent dans le conseil communal (hôtel de ville)
 
+# définitions
 
-
-
-
+<span style="background:#fff88f">faubourg</span> : quartier de la ville située autour du bourg en dehors des murailles de la ville 
+<span style="background:#fff88f">échevins</span> : habitants de la ville qui dirige la ville 
+<span style="background:#fff88f">conseil communal</span> : conseil formé d'habitants de la ville qui la dirige ses dirigeants sont appelés ;
+Consult : ville du Sud / Echevins : ville du Nord
+<span style="background:#fff88f">charte de commune</span> : texte écrit qui donne le droit aux habitants de la ville de se gouverner dans la limite fixée par la charte
+<span style="background:#fff88f">halles</span> : marché couvert et lieu de rencontre ou se réunit le conseil communal
+<span style="background:#fff88f">hôtel de ville</span> : bâtiment ou se réunit le  conseil dirigeant de la ville
+<span style="background:#fff88f">beffroi</span> : tour carrée qui surplombe le bâtiment du conseil communal
 
 ## Outils utiles
 

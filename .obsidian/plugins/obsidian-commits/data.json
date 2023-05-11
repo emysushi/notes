@@ -235,7 +235,7 @@
       "links": 0
     },
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": {
-      "size": 0,
+      "size": 2262,
       "tags": 3,
       "links": 0
     },
@@ -252,10 +252,10 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 94,
+      "Refactor": 95,
       "Create": 88,
-      "Link": 46,
-      "Expand": 18
+      "Link": 47,
+      "Expand": 19
     }
   },
   "dailyCommits": {
@@ -278,8 +278,8 @@
       "15": 0,
       "16": 66,
       "17": 70,
-      "18": 84,
-      "19": 7,
+      "18": 85,
+      "19": 9,
       "20": 0,
       "21": 3,
       "22": 0,
@@ -291,7 +291,7 @@
       "Mon": 29,
       "Tue": 4,
       "Wed": 17,
-      "Thu": 161,
+      "Thu": 164,
       "Fri": 2,
       "Sat": 0,
       "Sun": 33
@@ -317,7 +317,8 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
-        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>"
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
@@ -404,7 +405,8 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
-        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>"
+        "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>"
       ],
       "Refactored": [],
       "Deleted": [
@@ -493,7 +495,8 @@
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>"
       ],
       "Removed Links from": []
     }
