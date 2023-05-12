@@ -15,10 +15,19 @@
 	- et s'entrainer à écrire les définitions
 	- mieux formuler mes réponses
 
+- axe d'amélioration : 
+	- ordre de priorité a définir
+		- prioriser les devoirs avant les révisions
+		- prioriser les révisions avant khan
+		- prioriser khan avant les jeux
+	- commencer par les matière que l'on aime le moins
+	- planifier son travail le plus longtemps possible (Pronote)
+	- 
 - contrôle fiche : 
 	- revoir ce qui ne va pas 
 	- reréviser pour le grand contrôle
 	- bien relire les questions
  
+
 
 

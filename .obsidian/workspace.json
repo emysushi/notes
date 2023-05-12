@@ -27,8 +27,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,6 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "controle_feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "controle_feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +161,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "controle_feedback.md"
+              }
             }
           },
           {
@@ -234,7 +237,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c05e5c4f773285d9",
+  "active": "5e38254c61122f19",
   "lastOpenFiles": [
     "controle_feedback.md",
     "Feedback_Liste.md",
