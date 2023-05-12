@@ -22,6 +22,9 @@
 		- prioriser khan avant les jeux
 	- commencer par les matière que l'on aime le moins
 	- planifier son travail le plus longtemps possible (Pronote)
+	- demander de se faire interroger (avant la veille et la veille)
+	- ne pas commencer à apprendre un cours la veille du contrôle
+	- ne pas apprendre après le repas (seul khan ou lecture)
 	- 
 - contrôle fiche : 
 	- revoir ce qui ne va pas 
