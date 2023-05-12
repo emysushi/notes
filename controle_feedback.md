@@ -10,7 +10,10 @@
 	- ma fiche de révision sur Obsidian 
 	- j'aurais du mieux apprendre 
 	- me faire interroger 
-	- me préparer à l'avance
+	- et me préparer à l'avance
+
+- contrôle fiche : 
+	- revoir ce qui ne va pas 
 	- 
 
 
