@@ -25,7 +25,8 @@
 	- demander de se faire interroger (avant la veille et la veille)
 	- ne pas commencer à apprendre un cours la veille du contrôle
 	- ne pas apprendre après le repas (seul khan ou lecture)
-	- 
+	- améliorer ma syntaxe (orthographe, grammaire et champs lexical)
+
 - contrôle fiche : 
 	- revoir ce qui ne va pas 
 	- reréviser pour le grand contrôle
