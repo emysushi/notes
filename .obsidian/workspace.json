@@ -8,39 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac1b2e65b0b62785",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-08.md"
-              }
-            }
-          },
-          {
-            "id": "115bff0b34d747f8",
+            "id": "5e38254c61122f19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
+                "file": "controle_feedback.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "827078dfe3381114",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.2.8"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -135,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
+                "file": "controle_feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
+                "file": "controle_feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md"
+                "file": "controle_feedback.md"
               }
             }
           },
@@ -250,7 +229,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "827078dfe3381114",
+  "active": "5e38254c61122f19",
   "lastOpenFiles": [
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",

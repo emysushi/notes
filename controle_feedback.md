@@ -1,2 +1,5 @@
 - 2023-04-17
-	- Géo: répartition richesse/pauvreté dans le monde
+	- histoire : l'essor des villes au moyen-âge
+
+
+
