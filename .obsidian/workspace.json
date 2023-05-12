@@ -18,8 +18,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c05e5c4f773285d9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "controle_feedback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "controle_feedback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "controle_feedback.md"
-              }
+              "state": {}
             }
           },
           {
@@ -229,10 +234,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "5e38254c61122f19",
+  "active": "c05e5c4f773285d9",
   "lastOpenFiles": [
-    "Feedback_Liste.md",
     "controle_feedback.md",
+    "Feedback_Liste.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "FicheLecture/fiche_Les voyages de Gulliver.md",
