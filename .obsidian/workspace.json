@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5a67491430f7c872",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Feedback_Liste.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -231,6 +243,8 @@
   },
   "active": "5e38254c61122f19",
   "lastOpenFiles": [
+    "Feedback_Liste.md",
+    "controle_feedback.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "FicheLecture/fiche_Les voyages de Gulliver.md",
@@ -242,11 +256,9 @@
     "Template/tpl-fiche_histoire-geo.md",
     "Planning_Semaine/Planning_Week_2023-05-07.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
-    "Feedback_Liste.md",
     "Template/tpl-feedback.md",
     "Bibliotheque_Liste.md",
     "Template/tpl-fiche_math.md",
-    "controle_feedback.md",
     "Crypto/Crypto_introduction.md",
     "Crypto/Training/Crypto_intro_Training.md",
     "Crypto/Training/Dossier_introduction.md",
