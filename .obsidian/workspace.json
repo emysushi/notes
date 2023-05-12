@@ -28,9 +28,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "827078dfe3381114",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +115,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -240,9 +250,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "827078dfe3381114",
   "lastOpenFiles": [
     "Planning_Semaine/Planning_Week_2023-05-08.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "FicheLecture/fiche_Les voyages de Gulliver.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
@@ -251,7 +262,6 @@
     "Template/tpl-crypto.md",
     "Template/tpl-fiche_histoire-geo.md",
     "Planning_Semaine/Planning_Week_2023-05-07.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Feedback_Liste.md",
     "Template/tpl-feedback.md",
