@@ -249,7 +249,7 @@
       "tags": 1,
       "links": 0
     },
-    "suivi maman/Français/FRANCAIS.md": {
+    "suivi maman/FRANCAIS.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -257,7 +257,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 97,
+      "Refactor": 98,
       "Create": 89,
       "Link": 47,
       "Expand": 19
@@ -281,7 +281,7 @@
       "13": 6,
       "14": 8,
       "15": 0,
-      "16": 69,
+      "16": 70,
       "17": 70,
       "18": 85,
       "19": 9,
@@ -299,7 +299,7 @@
       "Thu": 164,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 36
+      "Sun": 37
     }
   },
   "recentCommits": {
@@ -393,7 +393,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Feedback_Liste.md\"> Feedback_Liste </a>",
         "<a class=\"internal-link\" href=\"FRANCAIS.md\"> FRANCAIS </a>",
-        "<a class=\"internal-link\" href=\"suivi maman/Français/FRANCAIS.md\"> FRANCAIS </a>"
+        "<a class=\"internal-link\" href=\"suivi maman/Français/FRANCAIS.md\"> FRANCAIS </a>",
+        "<a class=\"internal-link\" href=\"suivi maman/FRANCAIS.md\"> FRANCAIS </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
