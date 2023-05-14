@@ -4,24 +4,26 @@
 	- date : Vendredi 12 mai 2023
 	- mode : Dst
 	- note : 8/20
-	- statu : In progresse
+	- statu : In Progress
 
 - à améliorer : 
-	- je n'ai pas assez réviser mes définitions 
-	- ma fiche de révision sur Obsidian 
-	- j'aurais du mieux apprendre 
+	- je n'ai pas assez révisé mes définitions 
+	- et ma fiche de révision sur Obsidian 
+	- j'aurais dû mieux apprendre 
 	- me faire interroger 
 	-  me préparer à l'avance
 	- et s'entrainer à écrire les définitions
 	- mieux formuler mes réponses
+	- réviser/revoir les anciens contrôles + corrections
 
 - axe d'amélioration : 
-	- ordre de priorité a définir
+	- ordre de priorité à définir :
+		- Devoirs > Révisions > Khan > Jeux
 		- prioriser les devoirs avant les révisions
 		- prioriser les révisions avant khan
 		- prioriser khan avant les jeux
-	- commencer par les matière que l'on aime le moins
-	- planifier son travail le plus longtemps possible (Pronote)
+	- commencer par les matières que l'on aime le moins
+	- planifier son travail le plus longtemps en avance possible (Pronote)
 	- demander de se faire interroger (avant la veille et la veille)
 	- ne pas commencer à apprendre un cours la veille du contrôle
 	- ne pas apprendre après le repas (seul khan ou lecture)
