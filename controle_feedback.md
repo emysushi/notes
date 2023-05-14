@@ -12,8 +12,8 @@
 	- j'aurais dû mieux apprendre 
 	- me faire interroger 
 	-  me préparer à l'avance
-	- et s'entrainer à écrire les définitions
-	- mieux formuler mes réponses
+	- et s'entrainer à écrire les définition
+	-<font color="#ff0000"> mieux formuler mes réponses</font>
 	- réviser/revoir les anciens contrôles + corrections
 
 - axe d'amélioration : 
@@ -27,13 +27,19 @@
 	- demander de se faire interroger (avant la veille et la veille)
 	- ne pas commencer à apprendre un cours la veille du contrôle
 	- ne pas apprendre après le repas (seul khan ou lecture)
-	- améliorer ma syntaxe (orthographe, grammaire et champs lexical)
+	- <font color="#ff0000">améliorer ma syntaxe (orthographe, grammaire et champs lexical)</font>
+<font color="#ff0000">	- enrichir ma culture générale dans la matière:</font>
+<font color="#ff0000">		- lire des articles (Cafeyn, internet, journaux , magazines)</font>
+<font color="#ff0000">		- voir des documentaires (Arte, internet, YouTube)</font>
+<font color="#ff0000">		- faire des exposés sur le sujet</font>
 
 - contrôle fiche : 
-	- revoir ce qui ne va pas 
+	- revoir ce qui ne va pas (les erreurs)
 	- reréviser pour le grand contrôle
 	- bien relire les questions
+
+<font color="#ff0000">Maman</font> : 
+-rédaction
+-argumentation
+-enrichissement
  
-
-
-
