@@ -38,8 +38,8 @@
 	- reréviser pour le grand contrôle
 	- bien relire les questions
 
-<font color="#ff0000">Maman</font> : 
--rédaction
--argumentation
--enrichissement
- 
+- Maman : 
+	- rédaction
+	- argumentation
+	- enrichissement
+	 
