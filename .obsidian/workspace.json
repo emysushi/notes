@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5e38254c61122f19",
+            "id": "ac95abe97c8627f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "controle_feedback.md",
+                "file": "suivi maman/Français/FRANCAIS.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "c05e5c4f773285d9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#beffroi",
+                "query": "tag:#VOCABULAIRE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -123,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "suivi maman/Français/FRANCAIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "suivi maman/Français/FRANCAIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "suivi maman/Français/FRANCAIS.md"
+              }
             }
           },
           {
@@ -234,10 +229,14 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "c05e5c4f773285d9",
+  "active": "ac95abe97c8627f2",
   "lastOpenFiles": [
-    "controle_feedback.md",
     "Feedback_Liste.md",
+    "suivi maman/Français/FRANCAIS.md",
+    "suivi maman/Français",
+    "suivi maman",
+    "README.md",
+    "controle_feedback.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "FicheLecture/fiche_Les voyages de Gulliver.md",
@@ -266,15 +265,11 @@
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
     "Gallery/dossier_serrure",
     "Gallery/Nouveau dossier",
-    "conflict-files-obsidian-git.md",
     "Dossier",
-    "Cours/Svt/Besoins des cellules animales🍗.md",
     "les serrures",
     "Gallery/Pasted image 20230308173724.png",
     "Banner/biblio.jpeg",
     "Banner",
-    "Planning_Semaine",
-    "Cours/Technologie",
     "Gallery/massachussets_embleme.png",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"

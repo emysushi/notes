@@ -248,12 +248,17 @@
       "size": 3570,
       "tags": 1,
       "links": 0
+    },
+    "suivi maman/Français/FRANCAIS.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 95,
-      "Create": 88,
+      "Refactor": 97,
+      "Create": 89,
       "Link": 47,
       "Expand": 19
     }
@@ -276,7 +281,7 @@
       "13": 6,
       "14": 8,
       "15": 0,
-      "16": 66,
+      "16": 69,
       "17": 70,
       "18": 85,
       "19": 9,
@@ -294,7 +299,7 @@
       "Thu": 164,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 33
+      "Sun": 36
     }
   },
   "recentCommits": {
@@ -321,6 +326,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
@@ -370,7 +376,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -386,7 +391,9 @@
         "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feed-back.md\"> tpl-feed-back </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
-        "<a class=\"internal-link\" href=\"Feedback_Liste.md\"> Feedback_Liste </a>"
+        "<a class=\"internal-link\" href=\"Feedback_Liste.md\"> Feedback_Liste </a>",
+        "<a class=\"internal-link\" href=\"FRANCAIS.md\"> FRANCAIS </a>",
+        "<a class=\"internal-link\" href=\"suivi maman/Français/FRANCAIS.md\"> FRANCAIS </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
