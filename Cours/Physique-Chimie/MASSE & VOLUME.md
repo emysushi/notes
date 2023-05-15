@@ -1,4 +1,8 @@
 
+- masse volumique : 
+	- p = masse / volume
+
+
 
 # Définitions
 
