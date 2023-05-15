@@ -3,7 +3,6 @@
 	- p = masse / volume
 
 
-
 # Définitions
 
 - <span style="background:#fff88f">masse</span> : grandeur liée à la quantité de matière d'un objet
