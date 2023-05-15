@@ -9,10 +9,9 @@
 
 
 - méthodes de séparation :
-	- évaporation : (laisse évaporer) 
-	- décantation : (laisse reposer) 
-	- filtration : (laisse filtrer) ce qui reste est le filtra
-
+	- évaporation : (laisse évaporer)  mélange 
+	- décantation : (laisse reposer)  mélange  
+	- filtration : (laisse filtrer) mélange 
 
 # Définitions
 
