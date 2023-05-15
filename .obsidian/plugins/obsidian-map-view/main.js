@@ -7,6 +7,7 @@ if you want to view the source visit the plugins github repository
 
 var obsidian = require('obsidian');
 var path = require('path');
+var fs = require('fs');
 
 function _interopNamespace(e) {
     if (e && e.__esModule) return e;
@@ -70,8 +71,6 @@ function __awaiter(thisArg, _arguments, P, generator) {
 
 const MAP_VIEW_NAME = 'map';
 const MINI_MAP_VIEW_NAME = 'minimap';
-// SVG editor used: https://svgedit.netlify.app/editor/index.html
-const RIBBON_ICON = '<path fill="currentColor" stroke="currentColor" d="m50.06001,1.76c-26.54347,0 -48.06001,21.74039 -48.06001,48.56c0,26.81961 21.51654,48.56 48.06001,48.56c26.54347,0 48.06001,-21.74039 48.06001,-48.56c0,-26.81961 -21.51654,-48.56 -48.06001,-48.56zm15.94701,70.02039c-0.75578,0.75973 -1.54838,1.55666 -2.19177,2.2087c-0.57943,0.58742 -0.98833,1.3119 -1.19569,2.09709c-0.29262,1.10826 -0.52905,2.22828 -0.92438,3.30325l-3.37001,9.17353c-2.66656,0.58742 -5.42613,0.91833 -8.26516,0.91833l0,-5.36118c0.32751,-2.47108 -1.48056,-7.09994 -4.38548,-10.03508c-1.16274,-1.17484 -1.81582,-2.7687 -1.81582,-4.4311l0,-6.26776c0,-2.27919 -1.21507,-4.37432 -3.18979,-5.47671c-2.78477,-1.55666 -6.74584,-3.73207 -9.45891,-5.11251c-2.22471,-1.13176 -4.28277,-2.5729 -6.13346,-4.25879l-0.15503,-0.14098c-1.32339,-1.20715 -2.49854,-2.57055 -3.49985,-4.06103c-1.81775,-2.69625 -4.77887,-7.13127 -6.70321,-10.01354c3.96689,-8.90919 11.11582,-16.06396 19.99917,-19.95072l4.65291,2.35164c2.06193,1.04169 4.48818,-0.47189 4.48818,-2.80199l0,-2.21261c1.54838,-0.25259 3.1239,-0.41315 4.72655,-0.47385l5.48427,5.54132c1.21119,1.22379 1.21119,3.20731 0,4.4311l-0.90888,0.91637l-2.00379,2.02464c-0.60463,0.61092 -0.60463,1.60365 0,2.21457l0.90888,0.91833c0.60463,0.61092 0.60463,1.60365 0,2.21457l-1.55032,1.56645c-0.29107,0.29351 -0.68563,0.45838 -1.09685,0.45819l-1.74218,0c-0.40308,0 -0.79066,0.1586 -1.08135,0.44448l-1.9224,1.88953c-0.48351,0.47581 -0.60734,1.21263 -0.30619,1.82296l3.02119,6.1072c0.51548,1.04169 -0.23449,2.26744 -1.3856,2.26744l-1.09298,0c-0.37402,0 -0.73447,-0.13706 -1.01546,-0.38378l-1.79837,-1.5782c-0.82787,-0.72566 -1.97337,-0.95651 -3.01344,-0.607l-6.04045,2.03443c-0.9457,0.31858 -1.58365,1.21302 -1.58327,2.22045c0,0.887 0.4961,1.69568 1.28095,2.09317l2.1472,1.08477c1.82357,0.92225 3.83511,1.40197 5.87379,1.40197c2.03867,0 4.37772,5.34356 6.20129,6.26581l12.93551,0c1.64528,0 3.2208,0.65987 4.38548,1.83471l2.65299,2.68059c1.10829,1.12021 1.73074,2.63947 1.73055,4.22355c-0.00078,2.42428 -0.95771,4.74811 -2.6588,6.4577zm16.80356,-17.88692c-1.12205,-0.28392 -2.10069,-0.97903 -2.74213,-1.95219l-3.48435,-5.2809c-1.04259,-1.57781 -1.04259,-3.63456 0,-5.21237l3.79635,-5.75279c0.44959,-0.67945 1.06585,-1.23162 1.79062,-1.59582l2.5154,-1.27078c2.62005,5.27111 4.13161,11.20013 4.13161,17.49139c0,1.69764 -0.1434,3.36004 -0.3527,5.0009l-5.6548,-1.42743z" fill="#000000" id="shape0" stroke="#000000" stroke-linecap="square" stroke-linejoin="bevel" stroke-opacity="0" stroke-width="0"/>';
 const SEARCH_RESULT_MARKER = {
     prefix: 'fas',
     icon: 'fa-search',
@@ -14790,6 +14789,19 @@ exports.exclude = (input, filter, options) => {
 };
 });
 
+/**
+ * An ordered stack (latest first) of the latest used leaves.
+ * Maintained by the main plugin object.
+ */
+let lastUsedLeaves = [];
+function getLastUsedValidMarkdownLeaf() {
+    for (const leaf of lastUsedLeaves) {
+        if (leaf.parent && leaf.view instanceof obsidian.MarkdownView) {
+            return leaf;
+        }
+    }
+    return null;
+}
 function formatWithTemplates(s, query = '') {
     const datePattern = /{{date:([a-zA-Z\-\/\.\:]*)}}/g;
     const queryPattern = /{{query}}/g;
@@ -14903,8 +14915,19 @@ function verifyOrAddFrontMatter(editor, fieldName, fieldValue) {
     }
     return false;
 }
+function verifyOrAddFrontMatterForInline(editor, settings) {
+    var _a, _b;
+    // If the user has a custom tag to denote a location, and this tag exists in the note, there's no need to add
+    // a front-matter
+    const tagNameToSearch = (_a = settings.tagForGeolocationNotes) === null || _a === void 0 ? void 0 : _a.trim();
+    if ((tagNameToSearch === null || tagNameToSearch === void 0 ? void 0 : tagNameToSearch.length) > 0 &&
+        ((_b = editor.getValue()) === null || _b === void 0 ? void 0 : _b.contains(tagNameToSearch)))
+        return false;
+    // Otherwise, verify this note has a front matter with an empty 'locations' tag
+    return verifyOrAddFrontMatter(editor, 'locations', '');
+}
 function replaceFollowActiveNoteQuery(file, settings) {
-    return settings.queryForFollowActiveNote.replace('$PATH$', file.path);
+    return settings.queryForFollowActiveNote.replace(/\$PATH\$/g, file.path);
 }
 /**
  * Returns an open leaf of a map view type, if such exists.
@@ -15122,7 +15145,7 @@ class UrlConvertor {
         // We want to put the cursor right after the beginning of the newly-inserted link
         const newCursorPos = replaceStart ? replaceStart.ch + 1 : cursor.ch + 1;
         editor.setCursor({ line: cursor.line, ch: newCursorPos });
-        verifyOrAddFrontMatter(editor, 'locations', '');
+        verifyOrAddFrontMatterForInline(editor, this.settings);
     }
     /**
      * Replace the text at the cursor location with a geo link
@@ -15278,7 +15301,7 @@ class LocationSuggest extends obsidian.EditorSuggest {
         const linkOfCursor = this.getGeolinkOfCursor(currentCursor, value.context.editor);
         const finalResult = `[${value.context.query}](geo:${value.location.lat},${value.location.lng})`;
         value.context.editor.replaceRange(finalResult, { line: currentCursor.line, ch: linkOfCursor.index }, { line: currentCursor.line, ch: linkOfCursor.linkEnd });
-        if (verifyOrAddFrontMatter(value.context.editor, 'locations', ''))
+        if (verifyOrAddFrontMatterForInline(value.context.editor, this.settings))
             new obsidian.Notice("The note's front matter was updated to denote locations are present");
     }
     getGeolinkOfCursor(cursor, editor) {
@@ -15326,7 +15349,7 @@ class LocationSuggest extends obsidian.EditorSuggest {
                 const location = firstResult.location;
                 editor.replaceSelection(`[${selection}](geo:${location.lat},${location.lng})`);
                 new obsidian.Notice(firstResult.name, 10 * 1000);
-                if (verifyOrAddFrontMatter(editor, 'locations', ''))
+                if (verifyOrAddFrontMatterForInline(editor, this.settings))
                     new obsidian.Notice("The note's front matter was updated to denote locations are present");
             }
             else {
@@ -15360,7 +15383,7 @@ function areStatesEqual(state1, state2) {
             return false;
     }
     return (state1.query == state2.query &&
-        state2.mapZoom == state2.mapZoom &&
+        state1.mapZoom == state2.mapZoom &&
         state1.chosenMapSource == state2.chosenMapSource &&
         state1.embeddedHeight == state2.embeddedHeight);
 }
@@ -17794,6 +17817,8 @@ var fxp = {
 
 // The pound sign is optional here
 const TAG_NAME_WITH_HEADER = /tag:(#?[\p{L}\p{N}_\/\-]*)/gu;
+// Same as above, but also supporting wildcards for query purposes (not used for inline tags)
+const TAG_NAME_WITH_HEADER_AND_WILDCARD = /tag:(#?[\p{L}\p{N}_\/\-\*]*)/gu;
 // Note no '#' sign
 const INLINE_TAG_IN_NOTE = /tag:(?<tag>[\p{L}\p{N}_\/\-]+)/gu;
 // path:"..."
@@ -17869,7 +17894,7 @@ class ImportDialog extends obsidian.Modal {
             const text = styleImportedList(imported, templateBox.getValue());
             if (text) {
                 this.editor.replaceSelection(text);
-                verifyOrAddFrontMatter(this.editor, 'locations', '');
+                verifyOrAddFrontMatterForInline(this.editor, this.settings);
             }
             this.close();
         }));
@@ -21091,6 +21116,7 @@ const DEFAULT_SETTINGS = {
     openMapMiddleClickBehavior: 'dedicatedTab',
     newNoteNameFormat: 'Location added on {{date:YYYY-MM-DD}}T{{date:HH-mm}}',
     showNoteNamePopup: true,
+    showLinkNameInPopup: 'mobileOnly',
     showNotePreview: true,
     showClusterPreview: false,
     debug: false,
@@ -21136,6 +21162,8 @@ const DEFAULT_SETTINGS = {
     queryForFollowActiveNote: 'path:"$PATH$"',
     supportRealTimeGeolocation: false,
     fixFrontMatterOnPaste: true,
+    geoHelperType: 'auto',
+    geoHelperFilePath: '',
 };
 function convertLegacyMarkerIcons(settings) {
     if (settings.markerIcons) {
@@ -21291,23 +21319,34 @@ function convertLegacySettings(settings, plugin) {
     });
 }
 
+class BaseGeoLayer {
+    /**
+     * Construct a new BaseGeoLayer object
+     * @param file The file the geo data comes from
+     */
+    constructor(file) {
+        /** Tags that this marker includes */
+        this.tags = [];
+        this.file = file;
+    }
+}
 /** An object that represents a single marker in a file, which is either a complete note with a geolocation, or an inline geolocation inside a note */
-class FileMarker {
+class FileMarker extends BaseGeoLayer {
     /**
      * Construct a new FileMarker object
      * @param file The file the pin comes from
      * @param location The geolocation
      */
     constructor(file, location) {
-        /** Tags that this marker includes */
-        this.tags = [];
-        this.file = file;
+        super(file);
+        this.layerType = 'fileMarker';
         this.location = location;
         this.generateId();
     }
     isSame(other) {
         var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v;
-        return (this.file.name === other.file.name &&
+        return (other instanceof FileMarker &&
+            this.file.name === other.file.name &&
             this.location.toString() === other.location.toString() &&
             this.fileLocation === other.fileLocation &&
             this.fileLine === other.fileLine &&
@@ -21328,26 +21367,34 @@ class FileMarker {
             this.file.name +
                 this.location.lat.toString() +
                 this.location.lng.toString() +
-                this.fileLocation ||
-                'nofileloc' + this.fileLine ||
-                'nofileline';
+                'loc-' +
+                (this.fileLocation
+                    ? this.fileLocation
+                    : this.fileLine
+                        ? 'nofileloc' + this.fileLine
+                        : 'nofileline');
+    }
+    getBounds() {
+        return [this.location];
     }
 }
 /**
  * Create a FileMarker for every front matter and inline geolocation in the given file.
  * Properties that are not essential for filtering, e.g. marker icons, are not created here yet.
- * @param mapToAppendTo The list of file markers to append to
+ * @param mapToAppendTo The list of markers to append to
  * @param file The file object to parse
  * @param settings The plugin settings
  * @param app The Obsidian App instance
  * @param skipMetadata If true will not find markers in the front matter
  */
 function buildAndAppendFileMarkers(mapToAppendTo, file, settings, app, skipMetadata) {
+    var _a;
     return __awaiter(this, void 0, void 0, function* () {
         const fileCache = app.metadataCache.getFileCache(file);
         const frontMatter = fileCache === null || fileCache === void 0 ? void 0 : fileCache.frontmatter;
-        if (frontMatter) {
-            if (!skipMetadata) {
+        const tagNameToSearch = (_a = settings.tagForGeolocationNotes) === null || _a === void 0 ? void 0 : _a.trim();
+        if (frontMatter || (tagNameToSearch === null || tagNameToSearch === void 0 ? void 0 : tagNameToSearch.length) > 0) {
+            if (frontMatter && !skipMetadata) {
                 const location = getFrontMatterLocation(file, app);
                 if (location) {
                     verifyLocation(location);
@@ -21356,7 +21403,9 @@ function buildAndAppendFileMarkers(mapToAppendTo, file, settings, app, skipMetad
                     mapToAppendTo.push(marker);
                 }
             }
-            if ('locations' in frontMatter) {
+            if ((frontMatter && 'locations' in frontMatter) ||
+                ((tagNameToSearch === null || tagNameToSearch === void 0 ? void 0 : tagNameToSearch.length) > 0 &&
+                    obsidian.getAllTags(fileCache).includes(tagNameToSearch))) {
                 const markersFromFile = yield getMarkersFromFileContent(file, settings, app);
                 mapToAppendTo.push(...markersFromFile);
             }
@@ -21389,7 +21438,12 @@ function buildMarkers(files, settings, app) {
  */
 function finalizeMarkers(markers, settings, iconCache) {
     for (const marker of markers)
-        marker.icon = getIconFromRules(marker.tags, settings.markerIconRules, iconCache);
+        if (marker instanceof FileMarker) {
+            marker.icon = getIconFromRules(marker.tags, settings.markerIconRules, iconCache);
+        }
+        else {
+            throw 'Unsupported object type ' + marker.constructor.name;
+        }
 }
 /**
  * Make sure that the coordinates are valid world coordinates
@@ -21489,6 +21543,67 @@ function getFrontMatterLocation(file, app) {
         }
     }
     return null;
+}
+
+function isSame(loc1, loc2) {
+    if (loc1 === null && loc2 === null)
+        return true;
+    if (loc1 === null || loc2 === null)
+        return false;
+    return (loc1.center.distanceTo(loc2.center) < 1 &&
+        loc1.accuracy == loc2.accuracy);
+}
+function getGeoHelperType(settings, app) {
+    let geoHelperType = settings.geoHelperType;
+    if (geoHelperType === 'auto') {
+        if (isMobile(app))
+            geoHelperType = 'app';
+        else
+            geoHelperType = 'lite';
+    }
+    return geoHelperType;
+}
+function askForLocation(settings, app) {
+    if (!settings.supportRealTimeGeolocation)
+        return false;
+    const geoHelperType = getGeoHelperType(settings, app);
+    switch (geoHelperType) {
+        case 'lite': {
+            const geohelperLiteName = '.obsidian/plugins/obsidian-map-view/geohelper.html';
+            if (app.vault.adapter instanceof obsidian.FileSystemAdapter) {
+                const path = app.vault.adapter.getFullPath(geohelperLiteName);
+                if (fs.existsSync(path)) {
+                    open(`file:///${path}`);
+                    return true;
+                }
+                else {
+                    console.warn("Can't find Geo Helper Lite: file not found", path);
+                    return false;
+                }
+            }
+            else {
+                console.warn("Can't use Geo Helper Lite: vault is not a FileSystemAdapter");
+                return false;
+            }
+        }
+        case 'app': {
+            open('geohelper://locate');
+            return true;
+        }
+        case 'custom': {
+            const path = settings.geoHelperFilePath;
+            if (!path) {
+                console.warn('Geo helper custom path is empty');
+                return false;
+            }
+            if (!fs.existsSync(path)) {
+                console.warn('Geo helper custom path does not exist:', path);
+                return false;
+            }
+            open(`${path}`);
+            return true;
+        }
+    }
 }
 
 class NewPresetDialog extends obsidian.Modal {
@@ -22033,7 +22148,7 @@ class Query {
         // 2. Replace path:"abc def/ghi" by "path:abc def/dhi" because the parser doesn't like quotes as part of the words
         // 3. Same goes for linkedto:"", linkedfrom:"" and name:""
         let newString = queryString
-            .replace(TAG_NAME_WITH_HEADER, '"tag:$1"')
+            .replace(TAG_NAME_WITH_HEADER_AND_WILDCARD, '"tag:$1"')
             .replace(PATH_QUERY_WITH_HEADER, '"path:$1"')
             .replace(LINKEDTO_QUERY_WITH_HEADER, '"linkedto:$1"')
             .replace(LINKEDFROM_QUERY_WITH_HEADER, '"linkedfrom:$1"')
@@ -22052,8 +22167,10 @@ class Query {
         let booleanStack = [];
         for (const token of this.queryRpn) {
             if (token.name === 'IDENTIFIER') {
-                const result = this.testIdentifier(marker, token.value);
-                booleanStack.push(toString(result));
+                if (marker instanceof FileMarker) {
+                    const result = this.testIdentifier(marker, token.value);
+                    booleanStack.push(toString(result));
+                }
             }
             else if (token.name === 'OPERATOR') {
                 if (token.value === 'NOT') {
@@ -22086,9 +22203,8 @@ class Query {
             const queryTag = value.replace('tag:', '');
             if (queryTag.length === 0)
                 return false;
-            if (marker.tags.find((markerTag) => markerTag === queryTag)) {
+            if (checkTagPatternMatch(queryTag, marker.tags))
                 return true;
-            }
             return false;
         }
         else if (value.startsWith('name:')) {
@@ -22119,12 +22235,11 @@ class Query {
             const fileMatch = this.app.metadataCache.getFirstLinkpathDest(query, '');
             if (fileMatch) {
                 const linksFrom = this.app.metadataCache.getFileCache(fileMatch);
-                if ((_b = linksFrom === null || linksFrom === void 0 ? void 0 : linksFrom.links) === null || _b === void 0 ? void 0 : _b.some((linkCache) => linkCache.link
-                    .toLowerCase()
-                    .includes(marker.file.basename.toLowerCase()) ||
-                    linkCache.displayText
-                        .toLowerCase()
-                        .includes(marker.file.basename.toLowerCase()))) {
+                // Check if the given marker is linked from 'fileMatch'
+                if ((_b = linksFrom === null || linksFrom === void 0 ? void 0 : linksFrom.links) === null || _b === void 0 ? void 0 : _b.some((linkCache) => linkCache.link.toLowerCase() ===
+                    marker.file.basename.toLowerCase() ||
+                    linkCache.displayText.toLowerCase() ===
+                        marker.file.basename.toLowerCase())) {
                     return true;
                 }
                 // Also include the 'linked from' file itself
@@ -22838,16 +22953,18 @@ class SearchControl extends leafletSrc.Control {
     }
     openSearch(existingMarkers) {
         let markerSearchResults = [];
-        for (const fileMarker of existingMarkers.values()) {
-            markerSearchResults.push({
-                name: fileMarker.extraName
-                    ? `${fileMarker.extraName} (${fileMarker.file.basename})`
-                    : fileMarker.file.basename,
-                location: fileMarker.location,
-                resultType: 'existingMarker',
-                existingMarker: fileMarker,
-                icon: fileMarker.icon.options,
-            });
+        for (const marker of existingMarkers.values()) {
+            if (marker instanceof FileMarker) {
+                markerSearchResults.push({
+                    name: marker.extraName
+                        ? `${marker.extraName} (${marker.file.basename})`
+                        : marker.file.basename,
+                    location: marker.location,
+                    resultType: 'existingMarker',
+                    existingMarker: marker,
+                    icon: marker.icon.options,
+                });
+            }
         }
         const markersByDistanceToCenter = markerSearchResults.sort((item1, item2) => {
             const center = this.view.state.mapCenter;
@@ -22888,8 +23005,7 @@ class RealTimeControl extends leafletSrc.Control {
         this.locateButton.style.fontSize = '25px';
         this.locateButton.addEventListener('click', (ev) => {
             new obsidian.Notice('Asking for the current location');
-            open('geohelper://locate');
-            this.clearButton.style.display = 'block';
+            askForLocation(this.settings, this.app);
         });
         this.clearButton = div.createEl('a');
         this.clearButton.innerHTML = 'X';
@@ -22900,15 +23016,10 @@ class RealTimeControl extends leafletSrc.Control {
         });
         return div;
     }
-}
-
-function isSame(loc1, loc2) {
-    if (loc1 === null && loc2 === null)
-        return true;
-    if (loc1 === null || loc2 === null)
-        return false;
-    return (loc1.center.distanceTo(loc2.center) < 1 &&
-        loc1.accuracy == loc2.accuracy);
+    onLocationFound() {
+        // Show the 'clear' button
+        this.clearButton.style.display = 'block';
+    }
 }
 
 class MapContainer {
@@ -23314,17 +23425,17 @@ class MapContainer {
                 newMarkersMap.set(marker.id, this.display.markers.get(marker.id));
                 this.display.markers.delete(marker.id);
             }
-            else {
+            else if (marker instanceof FileMarker) {
                 // New marker - create it
-                marker.mapMarker = this.newLeafletMarker(marker);
-                markersToAdd.push(marker.mapMarker);
+                marker.geoLayer = this.newLeafletMarker(marker);
+                markersToAdd.push(marker.geoLayer);
                 if (newMarkersMap.get(marker.id))
                     console.log('Map view: warning, marker ID', marker.id, 'already exists, please open an issue if you see this.');
                 newMarkersMap.set(marker.id, marker);
             }
         }
         for (let [key, value] of this.display.markers) {
-            markersToRemove.push(value.mapMarker);
+            markersToRemove.push(value.geoLayer);
         }
         this.display.clusterGroup.removeLayers(markersToRemove);
         this.display.clusterGroup.addLayers(markersToAdd);
@@ -23363,11 +23474,13 @@ class MapContainer {
         });
         return newMarker;
     }
-    openMarkerContextMenu(fileMarker, mapMarker, ev) {
+    openMarkerContextMenu(marker, mapMarker, ev) {
         this.setHighlight(mapMarker);
         let mapPopup = new obsidian.Menu();
-        populateOpenNote(this, fileMarker, mapPopup, this.settings);
-        populateOpenInItems(mapPopup, fileMarker.location, this.settings);
+        if (marker instanceof FileMarker) {
+            populateOpenNote(this, marker, mapPopup, this.settings);
+            populateOpenInItems(mapPopup, marker.location, this.settings);
+        }
         if (ev)
             mapPopup.showAtPosition(ev);
     }
@@ -23395,7 +23508,10 @@ class MapContainer {
                 ? fileName.substring(0, fileName.lastIndexOf('.md'))
                 : fileName;
             let content = `<p class="map-view-marker-name">${fileNameWithoutExtension}</p>`;
-            if (isMobile(this.app) &&
+            const showLinkSetting = this.settings.showLinkNameInPopup;
+            if ((showLinkSetting === 'always' ||
+                (showLinkSetting === 'mobileOnly' &&
+                    isMobile(this.app))) &&
                 fileMarker.extraName &&
                 fileMarker.extraName.length > 0)
                 content += `<p class="map-view-marker-sub-name">${fileMarker.extraName}</p>`;
@@ -23443,7 +23559,10 @@ class MapContainer {
         var _a;
         return __awaiter(this, void 0, void 0, function* () {
             if (this.display.markers.size > 0) {
-                const locations = Array.from(this.display.markers.values()).map((fileMarker) => fileMarker.location);
+                const locations = [];
+                for (const marker of this.display.markers.values()) {
+                    locations.push(...marker.getBounds());
+                }
                 this.display.map.fitBounds(leafletSrc.latLngBounds(locations), {
                     maxZoom: Math.min(this.settings.zoomOnGoFromNote, (_a = this.getMapSource().maxZoom) !== null && _a !== void 0 ? _a : DEFAULT_MAX_TILE_ZOOM),
                 });
@@ -23496,6 +23615,10 @@ class MapContainer {
                 case 'alwaysNewTab':
                     createTab = true;
                     break;
+                case 'lastUsed':
+                    chosenLeaf = getLastUsedValidMarkdownLeaf();
+                    if (!chosenLeaf)
+                        createPane = true;
             }
             if (createTab) {
                 chosenLeaf = this.app.workspace.getLeaf('tab');
@@ -23540,9 +23663,9 @@ class MapContainer {
                 return;
             let newMarkers = [];
             // Create an array of all file markers not in the removed file
-            for (let [_markerId, existingFileMarker] of this.display.markers) {
-                if (existingFileMarker.file.path !== fileRemoved)
-                    newMarkers.push(existingFileMarker);
+            for (let [_markerId, existingMarker] of this.display.markers) {
+                if (existingMarker.file.path !== fileRemoved)
+                    newMarkers.push(existingMarker);
             }
             if (fileAddedOrChanged && fileAddedOrChanged instanceof obsidian.TFile)
                 // Add file markers from the added file
@@ -23602,16 +23725,18 @@ class MapContainer {
     setHighlight(mapOrFileMarker) {
         // The Marker object that should be highlighted
         let highlight = mapOrFileMarker
-            ? mapOrFileMarker instanceof leafletSrc.Marker
+            ? mapOrFileMarker instanceof leafletSrc.Layer
                 ? mapOrFileMarker
-                : mapOrFileMarker.mapMarker
+                : mapOrFileMarker.geoLayer
             : null;
         // In case the marker is hidden in a cluster group, we actually want the cluster group
         // to be the highlighted item
         let actualHighlight = null;
         if (highlight) {
-            const parent = this.display.clusterGroup.getVisibleParent(highlight);
-            actualHighlight = parent || actualHighlight;
+            if (highlight instanceof leafletSrc.Marker) {
+                const parent = this.display.clusterGroup.getVisibleParent(highlight);
+                actualHighlight = parent || actualHighlight;
+            }
         }
         if (this.display.actualHighlight &&
             this.display.actualHighlight != actualHighlight) {
@@ -23658,6 +23783,7 @@ class MapContainer {
             .addTo(this.display.map);
         this.display.realTimeLocationRadius = leafletSrc.circle(center, { radius: accuracy })
             .addTo(this.display.map);
+        this.display.realTimeControls.onLocationFound();
     }
     setRealTimeLocation(center, accuracy, source) {
         const location = center === null
@@ -23668,17 +23794,24 @@ class MapContainer {
                 source: source,
                 timestamp: Date.now(),
             };
-        console.log('new location:', location);
+        console.log(`New location received from source '${source}':`, location);
         if (!isSame(location, this.lastRealTimeLocation)) {
             this.lastRealTimeLocation = location;
             this.updateRealTimeLocationMarkers();
-            let newState = {};
-            if (!this.display.map.getBounds().contains(location.center))
-                newState.mapCenter = location.center;
-            // TODO take the radius into account
-            if (this.state.mapZoom < MIN_REAL_TIME_LOCATION_ZOOM)
-                newState.mapZoom = MIN_REAL_TIME_LOCATION_ZOOM;
-            this.highLevelSetViewState(newState);
+            if (location) {
+                // If there's a real location (contrary to clearing an existing location), update the view
+                let newState = {};
+                if (this.state.mapZoom < MIN_REAL_TIME_LOCATION_ZOOM)
+                    newState.mapZoom = MIN_REAL_TIME_LOCATION_ZOOM;
+                // If the new zoom is higher than the current zoom, OR the new center isn't already visible, change
+                // the map center.
+                // Or maybe easier to understand it this way: if the new center is already visible in the viewport, AND
+                // the new zoom is lower (meaning it will remain visible), we don't need to bother the user with a center change
+                if (newState.mapZoom > this.state.mapZoom ||
+                    !this.display.map.getBounds().contains(location.center))
+                    newState.mapCenter = location.center;
+                this.highLevelSetViewState(newState);
+            }
         }
     }
 }
@@ -24068,40 +24201,6 @@ class SettingsTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
-            .setName('Show note name on marker hover')
-            .setDesc('Show a popup with the note name when hovering on a map marker.')
-            .addToggle((component) => {
-            component
-                .setValue(this.plugin.settings.showNoteNamePopup)
-                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.settings.showNoteNamePopup = value;
-                yield this.plugin.saveSettings();
-            }));
-        });
-        new obsidian.Setting(containerEl)
-            .setName('Show note preview on map marker hover')
-            .setDesc('In addition to the note name, show the native Obsidian note preview.')
-            .addToggle((component) => {
-            component
-                .setValue(this.plugin.settings.showNotePreview)
-                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.settings.showNotePreview = value;
-                yield this.plugin.saveSettings();
-            }));
-        });
-        new obsidian.Setting(containerEl)
-            .setName('Show preview for marker clusters')
-            .setDesc('Show a hover popup summarizing the icons inside a marker cluster.')
-            .addToggle((component) => {
-            component
-                .setValue(this.plugin.settings.showClusterPreview)
-                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
-                this.plugin.settings.showClusterPreview = value;
-                this.refreshPluginOnHide = true;
-                yield this.plugin.saveSettings();
-            }));
-        });
-        new obsidian.Setting(containerEl)
             .setName('Default zoom for "show on map" action')
             .setDesc('When jumping to the map from a note, what should be the display zoom? This is also used as a max zoom for "Map follows search results" above.')
             .addSlider((component) => {
@@ -24163,18 +24262,87 @@ class SettingsTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
+            .setName('Tag name to denote inline geolocations')
+            .setDesc('Instead or in addition to the "locations:" YAML tag, you can use a regular tag that will mark for Map View that a note has inline geolocations, e.g. "#hasLocations".')
+            .addText((component) => {
+            var _a;
+            component
+                .setValue((_a = this.plugin.settings.tagForGeolocationNotes) !== null && _a !== void 0 ? _a : '')
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                this.plugin.settings.tagForGeolocationNotes = value;
+                this.plugin.saveSettings();
+            }));
+        });
+        new obsidian.Setting(containerEl)
+            .setHeading()
+            .setName('Marker Hover & Previews')
+            .setDesc('What is shown when hovering (desktop) or clicking (mobile) map markers.');
+        new obsidian.Setting(containerEl)
+            .setName('Show note name on marker hover')
+            .setDesc('Show a popup with the note name when hovering on a map marker.')
+            .addToggle((component) => {
+            component
+                .setValue(this.plugin.settings.showNoteNamePopup)
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                this.plugin.settings.showNoteNamePopup = value;
+                yield this.plugin.saveSettings();
+            }));
+        });
+        new obsidian.Setting(containerEl)
+            .setName('Show inline link name on marker hover')
+            .setDesc('In the popup above, show also the link name, in the case of an inline link.')
+            .addDropdown((component) => {
+            var _a;
+            component
+                .addOption('always', 'Always')
+                .addOption('mobileOnly', 'Only on mobile')
+                .addOption('never', 'Never')
+                .setValue((_a = this.plugin.settings.showLinkNameInPopup) !== null && _a !== void 0 ? _a : DEFAULT_SETTINGS.showLinkNameInPopup)
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                this.plugin.settings.showLinkNameInPopup =
+                    value;
+                yield this.plugin.saveSettings();
+            }));
+        });
+        new obsidian.Setting(containerEl)
+            .setName('Show note preview on map marker hover')
+            .setDesc('In addition to the note name, show the native Obsidian note preview.')
+            .addToggle((component) => {
+            component
+                .setValue(this.plugin.settings.showNotePreview)
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                this.plugin.settings.showNotePreview = value;
+                yield this.plugin.saveSettings();
+            }));
+        });
+        new obsidian.Setting(containerEl)
+            .setName('Show preview for marker clusters')
+            .setDesc('Show a hover popup summarizing the icons inside a marker cluster.')
+            .addToggle((component) => {
+            component
+                .setValue(this.plugin.settings.showClusterPreview)
+                .onChange((value) => __awaiter(this, void 0, void 0, function* () {
+                this.plugin.settings.showClusterPreview = value;
+                this.refreshPluginOnHide = true;
+                yield this.plugin.saveSettings();
+            }));
+        });
+        new obsidian.Setting(containerEl)
             .setHeading()
             .setName('Pane & Tab Usage')
             .setDesc('Control when and if Map View should use panes vs tabs, new panes vs existing ones etc.');
         // Name is 'click', 'Ctrl+click' and 'middle click'
-        const addOpenBehaviorOptions = (setting, setValue, getValue) => {
+        const addOpenBehaviorOptions = (setting, setValue, getValue, includeLatest) => {
             setting.addDropdown((component) => {
                 component
                     .addOption('replaceCurrent', 'Open in same pane (replace Map View)')
                     .addOption('dedicatedPane', 'Open in a 2nd pane and keep reusing it')
                     .addOption('alwaysNew', 'Always open a new pane')
                     .addOption('dedicatedTab', 'Open in a new tab and keep reusing it')
-                    .addOption('alwaysNewTab', 'Always open a new tab')
+                    .addOption('alwaysNewTab', 'Always open a new tab');
+                if (includeLatest)
+                    component.addOption('lastUsed', 'Open in last-used pane');
+                component
                     .setValue(getValue() || 'samePane')
                     .onChange((value) => __awaiter(this, void 0, void 0, function* () {
                     setValue(value);
@@ -24188,42 +24356,42 @@ class SettingsTab extends obsidian.PluginSettingTab {
             this.plugin.settings.markerClickBehavior = value;
         }, () => {
             return this.plugin.settings.markerClickBehavior;
-        });
+        }, true);
         addOpenBehaviorOptions(new obsidian.Setting(containerEl)
             .setName('Default action for map marker Ctrl+click')
             .setDesc('How should the corresponding note be opened following a Ctrl+click on a marker?'), (value) => {
             this.plugin.settings.markerCtrlClickBehavior = value;
         }, () => {
             return this.plugin.settings.markerCtrlClickBehavior;
-        });
+        }, true);
         addOpenBehaviorOptions(new obsidian.Setting(containerEl)
             .setName('Default action for map marker middle-click')
             .setDesc('How should the corresponding note be opened following a middle-click on a marker?'), (value) => {
             this.plugin.settings.markerMiddleClickBehavior = value;
         }, () => {
             return this.plugin.settings.markerMiddleClickBehavior;
-        });
+        }, true);
         addOpenBehaviorOptions(new obsidian.Setting(containerEl)
             .setName('Default mode for opening Map View')
             .setDesc('How should Map View open by default (e.g. when clicking the ribbon icon, or from within a note).'), (value) => {
             this.plugin.settings.openMapBehavior = value;
         }, () => {
             return this.plugin.settings.openMapBehavior;
-        });
+        }, false);
         addOpenBehaviorOptions(new obsidian.Setting(containerEl)
             .setName('Opening Map View with Ctrl+Click')
             .setDesc('How should Map View open when Ctrl is pressed.'), (value) => {
             this.plugin.settings.openMapCtrlClickBehavior = value;
         }, () => {
             return this.plugin.settings.openMapCtrlClickBehavior;
-        });
+        }, false);
         addOpenBehaviorOptions(new obsidian.Setting(containerEl)
             .setName('Opening Map View with middle-Click')
             .setDesc('How should Map View open when using middle-click.'), (value) => {
             this.plugin.settings.openMapMiddleClickBehavior = value;
         }, () => {
             return this.plugin.settings.openMapMiddleClickBehavior;
-        });
+        }, false);
         new obsidian.Setting(containerEl)
             .setName('New pane split direction')
             .setDesc('Which way should the pane be split when opening in a new pane.')
@@ -24300,6 +24468,55 @@ class SettingsTab extends obsidian.PluginSettingTab {
         }));
         markerIconsDiv = containerEl.createDiv();
         this.refreshMarkerIcons(markerIconsDiv);
+        // new Setting(containerEl).setHeading().setName('GPS');
+        // new Setting(containerEl)
+        //     .setName('Enable GPS location (see docs)')
+        //     .addToggle((component) => {
+        //         component
+        //             .setValue(
+        //                 this.plugin.settings.supportRealTimeGeolocation ??
+        //                     DEFAULT_SETTINGS.supportRealTimeGeolocation
+        //             )
+        //             .onChange(async (value) => {
+        //                 this.plugin.settings.supportRealTimeGeolocation = value;
+        //                 await this.plugin.saveSettings();
+        //             });
+        //     });
+        // new Setting(containerEl)
+        //     .setName('Geo helper type')
+        //     .addDropdown((component) => {
+        //         component
+        //             .setValue(
+        //                 getGeoHelperType(this.plugin.settings, this.app) ??
+        //                     DEFAULT_SETTINGS.geoHelperType
+        //             )
+        //             .addOption('lite', 'Geo Helper Lite (local HTML)')
+        //             .addOption('app', 'Installed app')
+        //             .addOption('custom', 'Custom path')
+        //             .onChange(async (value) => {
+        //                 this.plugin.settings.geoHelperType =
+        //                     value as GeoHelperType;
+        //                 geoHelperFile.settingEl.style.display =
+        //                     value === 'custom' ? '' : 'none';
+        //                 await this.plugin.saveSettings();
+        //             });
+        //     });
+        // const geoHelperFile = new Setting(containerEl).setName(
+        //     'Custom geo helper path'
+        // );
+        // geoHelperFile.addText((component) => {
+        //     component
+        //         .setPlaceholder(
+        //             'Absolute path to open (see README for more details)'
+        //         )
+        //         .setValue(this.plugin.settings.geoHelperFilePath ?? '')
+        //         .onChange(async (value) => {
+        //             this.plugin.settings.geoHelperFilePath = value;
+        //             await this.plugin.saveSettings();
+        //         });
+        // });
+        // geoHelperFile.settingEl.style.display =
+        //     this.plugin.settings.geoHelperType === 'custom' ? '' : 'none';
         new obsidian.Setting(containerEl).setHeading().setName('Advanced');
         new obsidian.Setting(containerEl)
             .setName('Debug logs (advanced)')
@@ -24729,10 +24946,9 @@ class MapViewPlugin extends obsidian.Plugin {
     }
     onload() {
         return __awaiter(this, void 0, void 0, function* () {
-            obsidian.addIcon('globe', RIBBON_ICON);
             yield this.loadSettings();
             // Add a new ribbon entry to the left bar
-            this.addRibbonIcon('globe', 'Open map view', (ev) => {
+            this.addRibbonIcon('map-pin', 'Open map view', (ev) => {
                 this.openMap(mouseEventToOpenMode(this.settings, ev, 'openMap'));
             });
             this.registerView(MAP_VIEW_NAME, (leaf) => {
@@ -24743,15 +24959,17 @@ class MapViewPlugin extends obsidian.Plugin {
             // 	return new MiniMapView(leaf, this.settings, this);
             // });
             this.registerObsidianProtocolHandler('mapview', (params) => __awaiter(this, void 0, void 0, function* () {
+                var _a;
                 if (params.action === 'mapview') {
                     if (params.do === 'update-real-time-location') {
                         const location = params.centerLat && params.centerLng
                             ? new leafletSrc.LatLng(parseFloat(params.centerLat), parseFloat(params.centerLng))
                             : null;
                         const accuracy = params.accuracy;
+                        const source = (_a = params === null || params === void 0 ? void 0 : params.source) !== null && _a !== void 0 ? _a : 'unknown';
                         const map = yield this.openMap('replaceCurrent', null);
                         if (map) {
-                            map.mapContainer.setRealTimeLocation(location, parseFloat(accuracy), 'geohelper');
+                            map.mapContainer.setRealTimeLocation(location, parseFloat(accuracy), source);
                         }
                     }
                     else {
@@ -24866,6 +25084,12 @@ class MapViewPlugin extends obsidian.Plugin {
             // Add items to the file context menu (run when the context menu is built)
             // This is the context menu in the File Explorer and clicking "More options" (three dots) from within a file.
             this.app.workspace.on('file-menu', (menu, file, source, leaf) => this.onFileMenu(menu, file, source, leaf));
+            this.app.workspace.on('active-leaf-change', (leaf) => {
+                if (lastUsedLeaves.contains(leaf)) {
+                    lastUsedLeaves.remove(leaf);
+                }
+                lastUsedLeaves.unshift(leaf);
+            });
             // Currently frozen until I have time to work on this feature's quirks
             // if (this.app.workspace.layoutReady) this.initMiniMap()
             // else this.app.workspace.onLayoutReady(() => this.initMiniMap());
@@ -24884,7 +25108,7 @@ class MapViewPlugin extends obsidian.Plugin {
                         if (inlineMatch && inlineMatch.length > 0) {
                             // The pasted text contains an inline location, so try to help the user by verifying
                             // a frontmatter exists
-                            if (verifyOrAddFrontMatter(editor, 'locations', '')) {
+                            if (verifyOrAddFrontMatterForInline(editor, this.settings)) {
                                 new obsidian.Notice("The note's front matter was updated to denote locations are present");
                             }
                         }
@@ -24933,6 +25157,8 @@ class MapViewPlugin extends obsidian.Plugin {
                 case 'alwaysNewTab':
                     createTab = true;
                     break;
+                case 'lastUsed':
+                    throw Error('This option is not supported here');
             }
             if (createTab)
                 chosenLeaf = this.app.workspace.getLeaf('tab');
