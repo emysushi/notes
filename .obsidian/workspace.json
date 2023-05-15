@@ -114,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Physique-Chimie/MASSE & VOLUME.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Physique-Chimie/MASSE & VOLUME.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cours/Physique-Chimie/MASSE & VOLUME.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,14 +193,21 @@
               "type": "gptModelSettings",
               "state": {}
             }
+          },
+          {
+            "id": "961f2e9ba0eede08",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
-    "width": 487.5,
-    "collapsed": true
+    "width": 617.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -229,8 +232,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "e4aa681928181534",
+  "active": "961f2e9ba0eede08",
   "lastOpenFiles": [
+    "Cours/Physique-Chimie/MASSE & VOLUME.md",
     "Dossier/Dossier_serrures.md",
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
     "Gallery/Pasted image 20230308173724.png",
@@ -247,7 +251,6 @@
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
-    "Cours/Physique-Chimie/MASSE & VOLUME.md",
     "suivi maman/FRANCAIS.md",
     "Crypto/Crypto_introduction.md",
     "suivi maman/Français",
