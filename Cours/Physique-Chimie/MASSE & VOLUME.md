@@ -9,9 +9,15 @@
 
 
 - méthodes de séparation :
-	- évaporation : (laisse évaporer)  mélange 
-	- décantation : (laisse reposer)  mélange  
-	- filtration : (laisse filtrer) mélange 
+	- évaporation : 
+		- (laisse évaporer)  
+		- mélange homogène s/l
+	- décantation : 
+		- (laisse reposer) 
+		-  mélange  hétérogène s/l
+	- filtration : 
+		- (laisse filtrer)
+		- mélange hétérogène l/l
 
 # Définitions
 
