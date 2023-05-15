@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "35e0af69b73bf8ca",
+        "id": "7f11aed3561903b2",
         "type": "tabs",
         "children": [
           {
-            "id": "ac95abe97c8627f2",
+            "id": "e4aa681928181534",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "suivi maman/FRANCAIS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d3f4759dbc6934a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "controle_feedback.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -106,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -126,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "suivi maman/FRANCAIS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "suivi maman/FRANCAIS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "suivi maman/FRANCAIS.md"
-              }
+              "state": {}
             }
           },
           {
@@ -241,10 +221,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "ac95abe97c8627f2",
+  "active": "e4aa681928181534",
   "lastOpenFiles": [
-    "controle_feedback.md",
     "suivi maman/FRANCAIS.md",
+    "controle_feedback.md",
     "Crypto/Crypto_introduction.md",
     "Feedback_Liste.md",
     "suivi maman/Français",
