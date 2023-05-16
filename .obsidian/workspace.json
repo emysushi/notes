@@ -217,15 +217,15 @@
       "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
       "obsidian-translator:Translate": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "gpt3-notes:GPT-3 Notes": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open this week": false
     }
   },
   "active": "e4aa681928181534",
