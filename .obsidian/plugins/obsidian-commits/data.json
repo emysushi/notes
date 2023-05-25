@@ -256,13 +256,13 @@
     },
     "Cours/Anglais/Les Ecrants et les Routines.md": {
       "size": 37,
-      "tags": 1,
+      "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 102,
+      "Refactor": 103,
       "Create": 90,
       "Link": 48,
       "Expand": 20
@@ -286,7 +286,7 @@
       "13": 6,
       "14": 8,
       "15": 0,
-      "16": 76,
+      "16": 77,
       "17": 70,
       "18": 85,
       "19": 9,
@@ -301,7 +301,7 @@
       "Mon": 30,
       "Tue": 4,
       "Wed": 17,
-      "Thu": 170,
+      "Thu": 171,
       "Fri": 2,
       "Sat": 0,
       "Sun": 37
@@ -515,7 +515,8 @@
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>"
       ],
       "Removed Links from": []
     }
