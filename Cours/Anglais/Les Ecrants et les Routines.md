@@ -12,7 +12,19 @@
 	- check my messaging account
 	- listen to music
 	- charge my mobile
-	- 
+	- take a selfie
+	- order a takeway
+	- strem an episode
+	- look coocking apps
+	- watch videos
+
+- adverbes de fréquences:
+	- never
+	- sometimes
+	- often
+	- always
+
+
 
 
 
