@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fc64e0cdb018fd96",
+            "id": "91ace3cbb807ab81",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-22.md"
+                "file": "Cours/Anglais/Les Ecrants et les Routines.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -92,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -112,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-22.md",
+                "file": "Cours/Anglais/Les Ecrants et les Routines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-22.md",
+                "file": "Cours/Anglais/Les Ecrants et les Routines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planning_Semaine/Planning_Week_2023-05-22.md"
+                "file": "Cours/Anglais/Les Ecrants et les Routines.md"
               }
             }
           },
@@ -226,7 +228,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "fc64e0cdb018fd96",
+  "active": "91ace3cbb807ab81",
   "lastOpenFiles": [
     "Planning_Semaine/Planning_Week_2023-05-22.md",
     "Cours/Physique-Chimie/MASSE & VOLUME.md",

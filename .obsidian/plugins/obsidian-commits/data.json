@@ -164,11 +164,6 @@
       "tags": 1,
       "links": 0
     },
-    "Cours/Anglais/Glossaire.md": {
-      "size": 37,
-      "tags": 1,
-      "links": 0
-    },
     "Cours/Anglais/Dossier_massachusset.md": {
       "size": 1917,
       "tags": 2,
@@ -258,11 +253,16 @@
       "size": 2037,
       "tags": 14,
       "links": 0
+    },
+    "Cours/Anglais/Les Ecrants et les Routines.md": {
+      "size": 37,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 99,
+      "Refactor": 102,
       "Create": 90,
       "Link": 48,
       "Expand": 20
@@ -286,7 +286,7 @@
       "13": 6,
       "14": 8,
       "15": 0,
-      "16": 73,
+      "16": 76,
       "17": 70,
       "18": 85,
       "19": 9,
@@ -301,7 +301,7 @@
       "Mon": 30,
       "Tue": 4,
       "Wed": 17,
-      "Thu": 167,
+      "Thu": 170,
       "Fri": 2,
       "Sat": 0,
       "Sun": 37
@@ -401,7 +401,10 @@
         "<a class=\"internal-link\" href=\"FRANCAIS.md\"> FRANCAIS </a>",
         "<a class=\"internal-link\" href=\"suivi maman/Français/FRANCAIS.md\"> FRANCAIS </a>",
         "<a class=\"internal-link\" href=\"suivi maman/FRANCAIS.md\"> FRANCAIS </a>",
-        "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>"
+        "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/les.md\"> les </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants.md\"> Les Ecrants </a>",
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
