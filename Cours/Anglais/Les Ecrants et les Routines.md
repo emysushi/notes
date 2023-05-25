@@ -20,10 +20,17 @@
 
 - adverbes de fréquences:
 	- never
+	- rarely
 	- sometimes
 	- often
 	- always
 
+- question:
+	- fréquence = how often
+	- one times = once
+	- two times = twice
+	- all day 
+	- every day
 
 
 
