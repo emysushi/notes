@@ -32,7 +32,7 @@
 # Planning
 
 - lundi: 15h45-16h30 (1)
-- mercredi:  15h30-16h30 (4)
+- mercredi:  15h30-16h30 (à voir)
 - vendredi: 15h45-16h30 (2)
 - dimanche: 15h30-16h30 (3)
 - = 3h30 / semaine
