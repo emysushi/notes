@@ -40,8 +40,11 @@ updated:: 2023-04-17 19:23:19
 	- halle et beffroi = échevins
 	- autres villes ils se réunissent dans le conseil communal (hôtel de ville)
 
+
+
 # définitions
 
+<span style="background:#fff88f">urbanisation</span> : augmentation de la population et de la aille des villes
 <span style="background:#fff88f">faubourg</span> : quartier de la ville située autour du bourg en dehors des murailles de la ville 
 <span style="background:#fff88f">échevins</span> : habitants de la ville qui dirige la ville 
 <span style="background:#fff88f">conseil communal</span> : conseil formé d'habitants de la ville qui la dirige ses dirigeants sont appelés ;
@@ -50,6 +53,11 @@ Consult : ville du Sud / Echevins : ville du Nord
 <span style="background:#fff88f">halles</span> : marché couvert et lieu de rencontre ou se réunit le conseil communal
 <span style="background:#fff88f">hôtel de ville</span> : bâtiment ou se réunit le  conseil dirigeant de la ville
 <span style="background:#fff88f">beffroi</span> : tour carrée qui surplombe le bâtiment du conseil communal
+<span style="background:#fff88f">cathédrale</span> : église d'un diocèse où se trouve le siège de l'évêque
+<span style="background:#fff88f">foire</span> : g.marché à dates fixes où des marchands venus de loin s'échanges leur marchandises
+<span style="background:#fff88f">g.commerce</span> : commerce qui s'éffectue sur de longues distances à un niveau international
+
+
 
 ## Outils utiles
 
