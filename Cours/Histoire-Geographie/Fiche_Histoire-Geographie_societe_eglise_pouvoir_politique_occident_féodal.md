@@ -40,7 +40,10 @@ updated:: 2023-04-17 19:23:19
 	- halle et beffroi = échevins
 	- autres villes ils se réunissent dans le conseil communal (hôtel de ville)
 
-
+- boutiques:
+	- apprenti: réalises de petites tâches logé, nourri, formé par le maître
+	- compagnon: jeune, payé par le maître
+	- maître: propriétaire de l'atelier, âgé, donne des ordres
 
 # définitions
 
@@ -55,7 +58,8 @@ Consult : ville du Sud / Echevins : ville du Nord
 <span style="background:#fff88f">beffroi</span> : tour carrée qui surplombe le bâtiment du conseil communal
 <span style="background:#fff88f">cathédrale</span> : église d'un diocèse où se trouve le siège de l'évêque
 <span style="background:#fff88f">foire</span> : g.marché à dates fixes où des marchands venus de loin s'échanges leur marchandises
-<span style="background:#fff88f">g.commerce</span> : commerce qui s'éffectue sur de longues distances à un niveau international
+<span style="background:#fff88f">g.commerce</span> : commerce qui s'effectue sur de longues distances à un niveau international
+corporation: assos de travailleurs d'un même métier (corporations des commerçants
 
 
 
