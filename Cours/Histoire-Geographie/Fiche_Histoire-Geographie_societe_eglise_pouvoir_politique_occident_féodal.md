@@ -45,6 +45,12 @@ updated:: 2023-04-17 19:23:19
 	- compagnon: jeune, payé par le maître
 	- maître: propriétaire de l'atelier, âgé, donne des ordres
 
+- habitants:
+	- peuple gros: nobles, riches marchands…
+	- peuple menu: artisans, boutiquiers, ouvriers…
+	- peuple pauvre: travailleurs pauvres, mendiants, lépreux
+	- autres: clercs, étudiants' migrants
+
 # définitions
 
 <span style="background:#fff88f">urbanisation</span> : augmentation de la population et de la aille des villes
@@ -60,7 +66,7 @@ Consult : ville du Sud / Echevins : ville du Nord
 <span style="background:#fff88f">foire</span> : g.marché à dates fixes où des marchands venus de loin s'échanges leur marchandises
 <span style="background:#fff88f">g.commerce</span> : commerce qui s'effectue sur de longues distances à un niveau international
 <span style="background:#fff88f">corporation</span> : assos de travailleurs d'un même métier (corporations des commerçants > des guildes)7
-<span style="background:#fff88f">bourgeoisie</span> : groupe social du 11ème dans les villes, composé de bourgeois 
+<span style="background:#fff88f">bourgeoisie</span> : groupe social du 11ème dans les villes, composé de bourgeois, désigne progressivement les riches, fait fortune grâce au commerce et à la banque
 
 
 
