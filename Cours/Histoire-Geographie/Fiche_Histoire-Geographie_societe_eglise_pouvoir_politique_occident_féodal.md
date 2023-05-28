@@ -59,7 +59,7 @@ Consult : ville du Sud / Echevins : ville du Nord
 <span style="background:#fff88f">cathédrale</span> : église d'un diocèse où se trouve le siège de l'évêque
 <span style="background:#fff88f">foire</span> : g.marché à dates fixes où des marchands venus de loin s'échanges leur marchandises
 <span style="background:#fff88f">g.commerce</span> : commerce qui s'effectue sur de longues distances à un niveau international
-corporation: assos de travailleurs d'un même métier (corporations des commerçants
+<span style="background:#fff88f">corporation</span>: assos de travailleurs d'un même métier (corporations des commerçants
 
 
 
