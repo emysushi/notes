@@ -17,9 +17,10 @@ updated:: 2023-04-17 19:23:19
 ---
 # Essor des villes au Moyen-Age
 - Moyen-Age
+	- Le Moyen Âge s'étend **du <span style="background:#fff88f">Ve au XVe siècle</span>, soit environ 1000 ans**. Il doit son nom aux hommes de la Renaissance après l'âge d'or de l'Antiquité gréco-romaine.
 	- majorité des habitants: vivent à la campagne
 	- mais la taille des villes augmentent: c'est l'essor
-	- XI: 10% de la population vit en ville, et au XIII: c'est 20%
+	- <span style="background:#fff88f">XI: 10%</span> de la population vit en ville, et au <span style="background:#fff88f">XIII: c'est 20%</span>
 
 - Nouveaux habitants:
 	- augmentation de la population 
