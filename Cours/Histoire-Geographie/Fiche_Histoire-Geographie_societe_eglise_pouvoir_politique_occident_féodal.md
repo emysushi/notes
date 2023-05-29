@@ -53,7 +53,7 @@ updated:: 2023-04-17 19:23:19
 
 # définitions
 
-<span style="background:#fff88f">urbanisation</span> : augmentation de la population et de la aille des villes
+<span style="background:#fff88f">urbanisation</span> : augmentation de la population et de la taille des villes
 <span style="background:#fff88f">faubourg</span> : quartier de la ville située autour du bourg en dehors des murailles de la ville 
 <span style="background:#fff88f">échevins</span> : habitants de la ville qui dirige la ville 
 <span style="background:#fff88f">conseil communal</span> : conseil formé d'habitants de la ville qui la dirige ses dirigeants sont appelés ;
