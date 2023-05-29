@@ -18,6 +18,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8cb6c94dd2471d9a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -230,6 +238,7 @@
   },
   "active": "22361522c4a0a380",
   "lastOpenFiles": [
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "suivi maman/FRANCAIS.md",
@@ -247,7 +256,6 @@
     "Feedback_Liste.md",
     "histoire.md",
     "Cours/Histoire-Geographie/LES SERRURES🔐.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
     "Crypto/Crypto_introduction.md",
