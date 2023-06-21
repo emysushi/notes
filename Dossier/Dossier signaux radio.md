@@ -49,7 +49,11 @@ duedate:: 2023-03-26
 - 2.liaison studio émetteur:
 	- reçoit le signal radio du studio et relaye à une antenne émettrice via des liaisons hertziennes ou des câbles à fibre optique
 - 3.signal émit:
-	- le courant va à l'antenne émettrice faisant vibrer rapidement les électrons en mouvement cela génère des champs électrique et magnétique 
+	- le courant va à l'antenne émettrice faisant vibrer rapidement les électrons cela génère des champs électrique/magnétique variables autour de l'antenne émettant des ondes électromagnétiques 
+- 4.émission de radio reçu:
+	- le courant électrique passe par le système de haut-parleur émet des ondes sonores reconstituant le son de la voix de la personne (animateur radio)
+
+
 
 ## Outils utiles
 
