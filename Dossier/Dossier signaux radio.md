@@ -25,38 +25,47 @@ duedate:: 2023-03-26
 		- infos, sons, données, images codé
 
 # les définitions
-- qu'est ce qu'une signaux radio ?
+- qu'est ce qu'un <span style="background:#fff88f">signaux radio</span> ?
 	- permet d'envoyer/recevoir des infos à distance
 	- télécommunication, radiodiffusion, navigation, réseaux informatiques
 	- sans l'aide de fils ou de câbles
 
-- qu'est-ce qu'une fréquence ?
+- qu'est-ce qu'une <span style="background:#fff88f">fréquence</span> ?
 	- c'est le nombre de vagues (appelée ondes) émises en 1seconde
 
-- qu'est-ce qu'un son ?
+- qu'est-ce qu'un <span style="background:#fff88f">son</span> ?
 	- c'est une vibration régulière (courte et forte) et uniforme de l'air qui est perçue par l'oreille composé de plusieurs tonalités qui sonnent simultanément et se chevauchent
 	- Un bruit est constitué de vibrations et de fréquences irrégulières.
 
-- qu'est-ce qu'une voix ?
+- qu'est-ce qu'une<span style="background:#fff88f"> voix</span> ?
 	- quand on parle on émet une onde acoustique 
 	- qui fait vibrer l'air, puis les tympans, se qui fait que l'on peut entendre
 	- si on veut parler +fort ou +loin on utilise un porte voix
 
 # déroulement d'une onde
 
-- 1.émission de radio:
+- 1.<span style="background:#fff88f">émission de radio</span>:
 	- quand une personne parle dans un microphone elle émet des ondes sonores qui font vibrer la membrane, et le microphone transforme ses vibration en courant électrique
-- 2.liaison studio émetteur:
+
+- 2.<span style="background:#fff88f">liaison studio émetteur</span>:
 	- reçoit le signal radio du studio et relaye à une antenne émettrice via des liaisons hertziennes ou des câbles à fibre optique
-- 3.signal émit:
+
+- 3.<span style="background:#fff88f">signal émit</span>:
 	- le courant va à l'antenne émettrice faisant vibrer rapidement les électrons cela génère des champs électrique/magnétique variables autour de l'antenne émettant des ondes électromagnétiques 
-- 4.émission de radio reçu:
+
+- 4.<span style="background:#fff88f">émission de radio reçu</span>:
 	- le courant électrique passe par le système de haut-parleur émet des ondes sonores reconstituant le son de la voix de la personne (animateur radio)
 
 # la ionosphère
 
-- ondes en ligne droite:
-	- 
+- <span style="background:#fff88f">ondes en ligne droite</span>:
+	- ondes radio ultracourtes, à très haute fréquences
+	- va de l'émetteur au récepteur
+	- peut être perturber ou bloquer  par des obstacles (arbres, immeubles…)
+
+- ondes de sol:
+	- majorité de la communication radio
+	- ondes à basse fréquences
 
 ## Outils utiles
 
