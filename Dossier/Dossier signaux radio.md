@@ -15,9 +15,14 @@ duedate:: 2023-03-26
 
 ---
 
-# les ondes radio 
+# les signaux radio 
 
-- qu'est ce qu'une onde radio ?
+- qu'est ce qu'une signaux radio ?
+	- permet d'envoyer/recevoir des infos à distance
+	- télécommunication, radiodiffusion, navigation, réseaux informatiques
+	- sans l'aide de fils ou de câbles
+
+- comment peut on les envoyer ?
 	- 
 
 
