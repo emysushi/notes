@@ -8,23 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22361522c4a0a380",
+            "id": "fdeae72e839a4794",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
+                "file": "Dossier/Dossier sign radio.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "8cb6c94dd2471d9a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -102,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -122,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
+                "file": "Dossier/Dossier sign radio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
+                "file": "Dossier/Dossier sign radio.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md"
+                "file": "Dossier/Dossier sign radio.md"
               }
             }
           },
@@ -236,8 +228,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "22361522c4a0a380",
+  "active": "fdeae72e839a4794",
   "lastOpenFiles": [
+    "Sans titre.md",
+    "Dossier/Dossier sign radio.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
@@ -267,8 +261,6 @@
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Template/tpl-kanban.md",
-    "Template/tpl-crypto.md",
-    "Template/tpl-fiche_histoire-geo.md",
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
