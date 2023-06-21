@@ -65,7 +65,7 @@ duedate:: 2023-03-26
 
 - ondes de sol:
 	- majorité de la communication radio
-	- ondes à basse fréquences
+	- ondes à basse fréquences 
 
 ## Outils utiles
 
