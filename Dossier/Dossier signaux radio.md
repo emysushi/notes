@@ -36,7 +36,10 @@ duedate:: 2023-03-26
 
 - qu'est-ce qu'une fréquence ?
 	- c'est le nombre de vagues (appelée ondes) émises en 1seconde
-	- 
+
+- qu'est-ce qu'un son ?
+	- c'est une vibration régulière (courte et forte) et uniforme de l'air qui est perçue par l'oreille composé de plusieurs tonalités qui sonnent simultanément et se chevauchent
+	- Un bruit est constitué de vibrations et de fréquences irrégulières.
 
 
 
