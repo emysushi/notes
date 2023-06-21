@@ -53,7 +53,10 @@ duedate:: 2023-03-26
 - 4.émission de radio reçu:
 	- le courant électrique passe par le système de haut-parleur émet des ondes sonores reconstituant le son de la voix de la personne (animateur radio)
 
+# la ionosphère
 
+- ondes en ligne droite:
+	- 
 
 ## Outils utiles
 
