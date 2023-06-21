@@ -22,13 +22,21 @@ duedate:: 2023-03-26
 	- télécommunication, radiodiffusion, navigation, réseaux informatiques
 	- sans l'aide de fils ou de câbles
 
+- la voix:
+	- quad on parle on émet une onde acoustique 
+	- qui fait vibrer l'air puis les tympans se qui fait qu'on peut entendre
+	- si on veut parler + fort on utilise un porte voix
+
 - comment peut on les envoyer ?
+	- les signaux:
+		-  partent d'un émetteur (utilisant une antenne) et se déplacent dans l'air
+		-  pour être saisis par d'autres récepteurs (munis d'une antenne)
+	- ondes radio peuvent contenir:
+		- infos, sons, données, images codé
+
+- qu'est-ce qu'une fréquence ?
+	- c'est le nombre de vagues (appelée ondes) émises en 1seconde
 	- 
-
-
-
-
-
 
 
 
