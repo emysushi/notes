@@ -269,18 +269,18 @@
       "tags": 2,
       "links": 0
     },
-    "devoirs/la géographie.md": {
-      "size": 2268,
+    "devoirs/la Géographie.md": {
+      "size": 2611,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 107,
+      "Refactor": 108,
       "Create": 93,
       "Link": 49,
-      "Expand": 27
+      "Expand": 28
     }
   },
   "dailyCommits": {
@@ -301,7 +301,7 @@
       "13": 6,
       "14": 14,
       "15": 2,
-      "16": 78,
+      "16": 80,
       "17": 74,
       "18": 85,
       "19": 9,
@@ -319,7 +319,7 @@
       "Thu": 171,
       "Fri": 2,
       "Sat": 0,
-      "Sun": 42
+      "Sun": 44
     }
   },
   "recentCommits": {
@@ -351,7 +351,8 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
@@ -430,7 +431,8 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier ondes radio.md\"> Dossier ondes radio </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier sign radio.md\"> Dossier sign radio </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",

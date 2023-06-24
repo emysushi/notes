@@ -1,6 +1,14 @@
+# définitions
+
 - qu'est ce que la géographie ?
 	- 1)  Science de la description de l'aspect du globe terrestre, au point de vue naturel et humain.
 	- 2)  La réalité physique, biologique, humaine que cette science étudie.
+
+- se repérer sur une carte/plan grâce à :
+	- une rose des vents (indique le nord, sud, est, et ouest)
+	- l'échelle (par apport à la carte)
+	- un quadrillage (en lettres ou en chiffres) ou coordonnées
+	- des noms de (pays, villes, villages, départements, fleuves…)
 
 - le climat de la France :
 	- bénéficie d'un climat tempéré 
@@ -13,11 +21,7 @@
 		- montagnard:  climat propre aux régions de forte altitude
 		- méditerranéen: hivers doux et étés chauds, ensoleillement important et des vents violents fréquents
 
-- se repérer sur une carte/plan grâce à :
-	- une rose des vents (indique le nord, sud, est, et ouest)
-	- l'échelle (par apport à la carte)
-	- un quadrillage (en lettres ou en chiffres) ou coordonnées
-	- des noms de (pays, villes, villages, départements, fleuves…)
+#  les cartes au fil du temps
 
 - les cartes au fil du temps :
 	- de 1667 au 18 -ème:
@@ -36,4 +40,10 @@
 	- fin du 19-ème :
 		- invention du stéréoscope qui permet de voir en relief, cette technique permet de voir en relief sur les territoires
 	- 1950 :
-		- 
+		- l'IGM décide de photographier l'intégralité du territoires français pour le cartographier à partir des photos 
+	- 20-ème à nos jours :
+		- les satellites
+
+
+
+
