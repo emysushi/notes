@@ -8,7 +8,8 @@
 		- 1)  latitude ni trop près de l'équateur ou du pôle nord 
 		- 2)  et présence d'un océan et de mers à proximité (apportant des vents doux humides)
 	- ont peux y trouver 4 sortes de climats :
-		- océanique: 
-		- semi-continental:
-		- montagnard:
-		- méditerranéen:
+		- océanique: températures douces et une pluviométrie relativement abondante
+		- semi-continental: étés sont chauds et hivers rudes et grand nombre de jours de neige/gel
+		- montagnard:  climat propre aux régions de forte altitude
+		- méditerranéen: hivers doux et étés chauds, ensoleillement important et des vents violents fréquents
+	- 
