@@ -19,4 +19,8 @@
 	- un quadrillage (en lettres ou en chiffres) ou coordonnées
 	- des noms de (pays, villes, villages, départements, fleuves…)
 
-
+- les cartes au fil du temps :
+	- de 1667 au 18 -ème:
+		- Jean-Félix-Picard entreprend de positionner des cartes de la région parisienne, qui utilise la méthode de la triangulation (théorème de Pythagore)
+	- 
+	
