@@ -1,2 +1,14 @@
 - qu'est ce que la géographie ?
-	- Science qui a pour objet la description de l'aspect actuel du globe terrestre, au point de vue naturel et humain.
+	- 1)  Science de la description de l'aspect du globe terrestre, au point de vue naturel et humain.
+	- 2)  La réalité physique, biologique, humaine que cette science étudie.
+
+- le climat de la France :
+	- bénéficie d'un climat tempéré 
+	- grâce à ca :
+		- 1)  latitude ni trop près de l'équateur ou du pôle nord 
+		- 2)  et présence d'un océan et de mers à proximité (apportant des vents doux humides)
+	- ont peux y trouver 4 sortes de climats :
+		- océanique: 
+		- semi-continental:
+		- montagnard:
+		- méditerranéen:
