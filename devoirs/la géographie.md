@@ -22,5 +22,18 @@
 - les cartes au fil du temps :
 	- de 1667 au 18 -ème:
 		- Jean-Félix-Picard entreprend de positionner des cartes de la région parisienne, qui utilise la méthode de la triangulation (théorème de Pythagore)
-	- 
-	
+	- début du 19-ème :
+		- la carte de la France de Cassini est enfin prête mais manque de relief précis et donc inutilisable 
+	- 1808 :
+		- Napoléon 1er décide d'établir une nouvelle carte, mais le contexte politique est difficile
+	- 1827 :
+		- la carte de l'état majeur après avoir collecter toutes les informations il reste encore à savoir représenter les reliefs sur une carte (points cotés, lignes de niveau, hachures…) mais finalement les hachures seront retenues 
+		- elles sont positionnés dans le sens de la pente et plus les hachures sont rapprochées plus la pente est raide
+	- 19 au 20-ème :
+		- un ingénieur prend la 1ère photographie de l'histoire (le point de vue du gras) il est désormais possible de prendre une image sans la dessiner 
+	- 1903 :
+		- 2 frères réalisent avec leur avion (nommé le fighter) afin de réaliser des photographies de tout là haut (photos aériennes)
+	- fin du 19-ème :
+		- invention du stéréoscope qui permet de voir en relief, cette technique permet de voir en relief sur les territoires
+	- 1950 :
+		- 
