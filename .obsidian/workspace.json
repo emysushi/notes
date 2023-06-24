@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7deee303f619b270",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devoirs/la géographie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dossier/Dossier signaux radio.md",
+                "file": "devoirs/la géographie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dossier/Dossier signaux radio.md",
+                "file": "devoirs/la géographie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dossier/Dossier signaux radio.md"
+                "file": "devoirs/la géographie.md"
               }
             }
           },
@@ -228,10 +241,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "fdeae72e839a4794",
+  "active": "7deee303f619b270",
   "lastOpenFiles": [
-    "Sans titre.md",
+    "devoirs/la géographie.md",
+    "devoirs",
     "Dossier/Dossier signaux radio.md",
+    "Sans titre.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
     "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
@@ -260,7 +275,6 @@
     "FicheLecture/fiche_Les voyages de Gulliver.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
     "Planning_Semaine/Planning_Week_2023-03-06.md",
-    "Template/tpl-kanban.md",
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
@@ -269,7 +283,6 @@
     "Dossier",
     "les serrures",
     "Banner/biblio.jpeg",
-    "Banner",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
   ]

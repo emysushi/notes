@@ -1,0 +1,2 @@
+- qu'est ce que la géographie ?
+	- Science qui a pour objet la description de l'aspect actuel du globe terrestre, au point de vue naturel et humain.
