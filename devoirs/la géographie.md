@@ -12,4 +12,11 @@
 		- semi-continental: étés sont chauds et hivers rudes et grand nombre de jours de neige/gel
 		- montagnard:  climat propre aux régions de forte altitude
 		- méditerranéen: hivers doux et étés chauds, ensoleillement important et des vents violents fréquents
-	- 
+
+- se repérer sur une carte/plan grâce à :
+	- une rose des vents (indique le nord, sud, est, et ouest)
+	- l'échelle (par apport à la carte)
+	- un quadrillage (en lettres ou en chiffres) ou coordonnées
+	- des noms de (pays, villes, villages, départements, fleuves…)
+
+
