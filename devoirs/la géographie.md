@@ -5,11 +5,11 @@
 	- 2)  La réalité physique, biologique, humaine que cette science étudie.
 
 - se repérer sur une carte/plan grâce à :
-	- l'orientation (indique le nord, sud, est, et ouest)
-	- l'échelle (par apport à la carte)
-	- la légende (couleurs, températures, hauteurs…)
-	- un quadrillage (en lettres ou en chiffres) ou coordonnées
-	- des noms de (pays, villes, villages, départements, fleuves…)
+	- **orientation** (indique le nord, sud, est, et ouest)
+	- **échelle** (par apport à la carte)
+	- **légende** (températures, hauteurs, couleurs…)
+	- quadrillage (en lettres ou en chiffres) ou coordonnées
+	- noms de (pays, villes, villages, départements, fleuves…)
 
 - le climat de la France :
 	- bénéficie d'un climat tempéré 
@@ -17,10 +17,10 @@
 		- 1)  latitude ni trop près de l'équateur ou du pôle nord 
 		- 2)  et présence d'un océan et de mers à proximité (apportant des vents doux humides)
 	- ont peux y trouver 4 sortes de climats :
-		- océanique: températures douces et une pluviométrie relativement abondante
-		- semi-continental: étés sont chauds et hivers rudes et grand nombre de jours de neige/gel
-		- montagnard:  climat propre aux régions de forte altitude
-		- méditerranéen: hivers doux et étés chauds, ensoleillement important et des vents violents fréquents
+		- **océanique**: températures douces et une pluviométrie relativement abondante
+		- **semi-continental**: étés sont chauds et hivers rudes et grand nombre de jours de neige/gel
+		- **montagnard**:  climat propre aux régions de forte altitude
+		- **méditerranéen**: hivers doux et étés chauds, ensoleillement important et des vents violents fréquents
 
 #  les cartes au fil du temps
 
