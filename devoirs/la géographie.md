@@ -43,7 +43,7 @@
 	- 1950 :
 		- l'IGM décide de photographier l'intégralité du territoires français pour le cartographier à partir des photos 
 	- 20-ème à nos jours :
-		- les satellites rendent 
+		- les satellites rendent de meilleures photos et en reliefs 
 
 
 
