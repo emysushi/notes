@@ -5,8 +5,9 @@
 	- 2)  La réalité physique, biologique, humaine que cette science étudie.
 
 - se repérer sur une carte/plan grâce à :
-	- une rose des vents (indique le nord, sud, est, et ouest)
+	- l'orientation (indique le nord, sud, est, et ouest)
 	- l'échelle (par apport à la carte)
+	- la légende (couleurs, températures, hauteurs…)
 	- un quadrillage (en lettres ou en chiffres) ou coordonnées
 	- des noms de (pays, villes, villages, départements, fleuves…)
 
@@ -42,7 +43,7 @@
 	- 1950 :
 		- l'IGM décide de photographier l'intégralité du territoires français pour le cartographier à partir des photos 
 	- 20-ème à nos jours :
-		- les satellites
+		- les satellites rendent 
 
 
 
