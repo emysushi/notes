@@ -18,7 +18,7 @@ duedate:: 2023-03-26
 # les signaux radio 
 
 - comment peut on les envoyer ?
-	- les signaux:
+	- les signaux: (en m)
 		-  partent d'un émetteur (utilisant une antenne) et se déplacent dans l'air
 		-  pour être saisis par d'autres récepteurs (munis d'une antenne)
 	- ondes radio peuvent contenir:
@@ -63,9 +63,11 @@ duedate:: 2023-03-26
 	- va de l'émetteur au récepteur
 	- peut être perturber ou bloquer  par des obstacles (arbres, immeubles…)
 
-- ondes de sol:
+- <span style="background:#fff88f">ondes de sol</span>:
 	- majorité de la communication radio
 	- ondes à basse fréquences 
+
+- 
 
 ## Outils utiles
 
