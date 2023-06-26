@@ -269,7 +269,12 @@
       "tags": 2,
       "links": 0
     },
-    "devoirs/la Géographie.md": {
+    "devoirs/la Géographie 2.md": {
+      "size": 2718,
+      "tags": 0,
+      "links": 0
+    },
+    "devoirs/la Géographie 1.md": {
       "size": 2611,
       "tags": 0,
       "links": 0
@@ -277,8 +282,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 108,
-      "Create": 93,
+      "Refactor": 110,
+      "Create": 94,
       "Link": 49,
       "Expand": 28
     }
@@ -303,7 +308,7 @@
       "15": 2,
       "16": 80,
       "17": 74,
-      "18": 85,
+      "18": 88,
       "19": 9,
       "20": 0,
       "21": 3,
@@ -313,7 +318,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 31,
+      "Mon": 34,
       "Tue": 4,
       "Wed": 26,
       "Thu": 171,
@@ -355,6 +360,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures 1.md\"> Dossier_serrures 1 </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
@@ -404,7 +410,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -432,7 +437,9 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier sign radio.md\"> Dossier sign radio </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
         "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",

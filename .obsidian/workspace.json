@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fdeae72e839a4794",
+            "id": "2cbdf12d52df40b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dossier/Dossier signaux radio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7deee303f619b270",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devoirs/la Géographie.md",
+                "file": "devoirs/la Géographie 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/la Géographie.md",
+                "file": "devoirs/la Géographie 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/la Géographie.md",
+                "file": "devoirs/la Géographie 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/la Géographie.md"
+                "file": "devoirs/la Géographie 1.md"
               }
             }
           },
@@ -241,10 +228,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "7deee303f619b270",
+  "active": "2cbdf12d52df40b4",
   "lastOpenFiles": [
+    "devoirs/la Géographie 2.md",
+    "devoirs/la Géographie 1.md",
+    "devoirs/Sans titre",
     "Dossier/Dossier signaux radio.md",
-    "devoirs/la Géographie.md",
     "devoirs",
     "Sans titre.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
@@ -274,14 +263,12 @@
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "FicheLecture/fiche_Les voyages de Gulliver.md",
     "FicheLecture/fiche_L'Enfant multiple.md",
-    "Planning_Semaine/Planning_Week_2023-03-06.md",
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
     "Gallery/dossier_serrure",
     "Gallery/Nouveau dossier",
     "Dossier",
-    "les serrures",
     "Banner/biblio.jpeg",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
