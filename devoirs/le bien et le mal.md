@@ -10,4 +10,10 @@
 - Je DOIS faire des courses POUR remplir mon frigo --> impératif   hypothétique 
 - (ce moyen)                         (cette fin)                                   (tu dois faire)  ( si tu veux)
 
+# définitions
+
+- Substituer : remplacer, mettre à la place
+- Intriguer : préparer en secret de mauvaises actions
+- Blasphème : une insulte aux Dieux
+- illicite : interdit par la loi
 - 
