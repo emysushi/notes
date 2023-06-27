@@ -26,4 +26,6 @@
 - #Convoiter : désirer avec force
 - #Adultère : tromper son conjoint avec une autre personne
 - #totalitarisme  : 
+- #système-totalitaire :
+- #abdiquer : renoncer
 
