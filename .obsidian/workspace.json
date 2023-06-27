@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#VOCABULAIRE",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -241,7 +241,7 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "375ccbe42523a3a0",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
     "devoirs/la Géographie 2.md",
     "devoirs/le bien et le mal.md",
