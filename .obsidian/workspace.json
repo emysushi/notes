@@ -20,11 +20,15 @@
             }
           },
           {
-            "id": "8d21e49a0c10da4c",
+            "id": "4665ee9ae8352f3c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "devoirs/le bien et le mal.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -123,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "devoirs/le bien et le mal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "devoirs/le bien et le mal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "devoirs/le bien et le mal.md"
+              }
             }
           },
           {
@@ -233,9 +241,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "8d21e49a0c10da4c",
+  "active": "4665ee9ae8352f3c",
   "lastOpenFiles": [
     "devoirs/la Géographie 2.md",
+    "devoirs/le bien et le mal.md",
     "devoirs/la Géographie 1.md",
     "devoirs/Sans titre",
     "Dossier/Dossier signaux radio.md",
@@ -267,7 +276,6 @@
     "README.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
     "FicheLecture/fiche_Les voyages de Gulliver.md",
-    "FicheLecture/fiche_L'Enfant multiple.md",
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",

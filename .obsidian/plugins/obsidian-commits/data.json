@@ -278,12 +278,17 @@
       "size": 2611,
       "tags": 0,
       "links": 0
+    },
+    "devoirs/le bien et le mal.md": {
+      "size": 20,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 110,
-      "Create": 94,
+      "Refactor": 112,
+      "Create": 95,
       "Link": 49,
       "Expand": 28
     }
@@ -305,7 +310,7 @@
       "12": 0,
       "13": 6,
       "14": 14,
-      "15": 2,
+      "15": 5,
       "16": 80,
       "17": 74,
       "18": 88,
@@ -319,7 +324,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 34,
-      "Tue": 4,
+      "Tue": 7,
       "Wed": 26,
       "Thu": 171,
       "Fri": 2,
@@ -360,6 +365,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures 1.md\"> Dossier_serrures 1 </a>",
@@ -409,7 +415,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -439,7 +444,9 @@
         "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la.md\"> la </a>",
+        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
