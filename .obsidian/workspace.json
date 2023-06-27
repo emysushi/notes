@@ -13,10 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devoirs/la Géographie 1.md",
+                "file": "devoirs/la Géographie 2.md",
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "8d21e49a0c10da4c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -114,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/la Géographie 1.md",
+                "file": "devoirs/la Géographie 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/la Géographie 1.md",
+                "file": "devoirs/la Géographie 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/la Géographie 1.md"
+                "file": "devoirs/la Géographie 2.md"
               }
             }
           },
