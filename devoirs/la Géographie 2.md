@@ -10,5 +10,6 @@
 - Les terres autours :
 	- vastes surfaces planes de basse altitudes et de qualités
 	- cultures de céréales, betteraves, colza > grandes exploitation
+	- cultures de céréales > terres humides 
 	- 
 
