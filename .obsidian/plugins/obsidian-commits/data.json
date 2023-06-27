@@ -281,7 +281,7 @@
     },
     "devoirs/le bien et le mal.md": {
       "size": 20,
-      "tags": 0,
+      "tags": 8,
       "links": 0
     }
   },
@@ -289,7 +289,7 @@
     "/": {
       "Refactor": 112,
       "Create": 95,
-      "Link": 49,
+      "Link": 50,
       "Expand": 28
     }
   },
@@ -311,7 +311,7 @@
       "13": 6,
       "14": 14,
       "15": 5,
-      "16": 80,
+      "16": 81,
       "17": 74,
       "18": 88,
       "19": 9,
@@ -324,7 +324,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 34,
-      "Tue": 7,
+      "Tue": 8,
       "Wed": 26,
       "Thu": 171,
       "Fri": 2,
@@ -468,7 +468,8 @@
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-22.md\"> Planning_Week_2023-05-22 </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>"
+        "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
+        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
       ],
       "Refactored": [],
       "Deleted": [
