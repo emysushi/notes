@@ -27,7 +27,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +123,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +160,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "devoirs/la Géographie 2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -226,17 +223,17 @@
       "templater-obsidian:Templater": false,
       "obsidian-translator:Translate": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-map-view:Open map view": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "gpt3-notes:GPT-3 Notes": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "2cbdf12d52df40b4",
+  "active": "8d21e49a0c10da4c",
   "lastOpenFiles": [
     "devoirs/la Géographie 2.md",
     "devoirs/la Géographie 1.md",
