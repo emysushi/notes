@@ -46,4 +46,9 @@
 - 1904 (le SIT) :
 	- appelé "Violon "est le 1er tél. à avoir une forme esthétique et jolie ≠ aux modèles précédents 
 	- et le 1er à posséder la fonction "décrocher/raccrocher" grâce à son mécanisme.
-- 
+- 1922 (l'arrivée du téléphone à cadran) :
+	- un concours est lancé pour choisir un nouveau modèle unique > ce sera le PTT24 
+	- en 1924 Ce tel. était prévu pour les réseaux automatiques mais existe pour les réseaux privés grâce > sa batterie locale. 
+	- possède de grandes caractéristiques électrique > son robuste boitier et de son microphone sensible. 
+	- 1er tel. à cadran, sa version portable > réussite ≠ version murale > catastrophe esthétique        (ne possède aucune originalité) simple coffret en métal où repose le combiné
+	- 

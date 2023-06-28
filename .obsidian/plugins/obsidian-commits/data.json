@@ -285,7 +285,7 @@
       "links": 0
     },
     "devoirs/Les Téléphones.md": {
-      "size": 3457,
+      "size": 4965,
       "tags": 0,
       "links": 0
     }
@@ -295,7 +295,7 @@
       "Refactor": 114,
       "Create": 96,
       "Link": 52,
-      "Expand": 30
+      "Expand": 31
     }
   },
   "dailyCommits": {
@@ -321,7 +321,7 @@
       "18": 89,
       "19": 11,
       "20": 2,
-      "21": 3,
+      "21": 4,
       "22": 0,
       "23": 0
     }
@@ -330,7 +330,7 @@
     "/": {
       "Mon": 34,
       "Tue": 10,
-      "Wed": 31,
+      "Wed": 32,
       "Thu": 171,
       "Fri": 2,
       "Sat": 0,
@@ -368,6 +368,7 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
         "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>"
       ],
