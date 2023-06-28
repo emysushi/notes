@@ -30,17 +30,20 @@
 
 - 1876  (le 1er tel.) :
 	- Antonio Meucci, Elisha Gray et Alexander Graham Bell ;
-	- Le 1er tél. a été industrialisé par Bell, (qui fonda en 1877) la "Bell Téléphone Compagny" (vibraphone) composé de bois et de fil (trempé dans de l'acide) > favoriser la transmission des ondes sonores.
-- 1880 (le téléphone d'Ader) :
-	- Le tél. de Clément Ader a modifie2 éléments afin de rendre le tél. + performant que celui du système de  Graham Bell.
-	- un microphone est situé derrière une planche de pin fixée sur le socle ;
-	  les 2 écouteurs placés sur les côtés pour entendre l’interlocuteur.
-	- Ce téléphone était qu’une petite partie de l’installation nécessaire pour communiquer.                  2 piles constituées d'une bouteille de verre (remplie d’électrolyte et d’électrodes)                   devaient être connectées > faire fonctionner l’appareil.
+	- 1er tél. a été industrialisé par Bell (en 1877) la "Bell Téléphone Compagny" (vibraphone) composé de bois et de fil (trempé dans de l'acide) > favoriser la transmission des ondes sonores.
+- 1880 (le téléphone de Clément Ader) :
+	- il a modifie 2 éléments afin de le rendre + performant ≠ celui de Bell.
+	- un microphone est situé derrière une planche de pin fixée > socle,
+	  2 écouteurs placés sur les côtés, pour entendre l’interlocuteur.
+	- il n'était qu’une petite partie de l’installation pour communiquer.                  
+	  2 piles constituées d'une bouteille de verre (remplie d’électrolyte et d’électrodes)                   devaient être connectées > faire fonctionner l’appareil.
 - 1892 (le Mildé) :
-	- apparaît comme le 3-ème modèle de tél. Pour l'utiliser il fallait :
+	- 3-ème modèle de tél. Pour l'utiliser il fallait :
 	- appuyer 3/4 fois > bouton d’appel et attendre la sonnerie 
 	- décrocher les 2 récepteurs et les appliquer sur les oreilles pour entendre l’opératrice 
-	- donner à l’opératrice nom et adresse de son correspondant et attendre qu’elle établisse la communication ;
-	- parler très près de l’appareil
-	- Il est toujours composé de matériaux basiques (bois, fil) 
-	- et se situe toujours dans un boitier en pin.
+	- donner à l’opératrice nom et adresse de son correspondant et attendre qu’elle établisse la communication et parler près du tel.
+	- composé de bois, fil et se situe dans un boitier en pin.
+- 1904 (le SIT) :
+	- appelé "Violon "est le 1er tél. à avoir une forme esthétique et jolie ≠ aux modèles précédents 
+	- et le 1er à posséder la fonction "décrocher/raccrocher" grâce à son mécanisme.
+- 
