@@ -12,4 +12,6 @@
 
 - les étapes :
 	- 1) connexion à un réseau :
+		- La fourche interruptrice connectée, déconnecte le téléphone. Soulever le combiné actionne un levier qui établit une connexion électrique entre lui et le commutateur téléphonique local
+	- 2) faire le numéro :
 		- 
