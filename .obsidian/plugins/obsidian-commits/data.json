@@ -284,7 +284,7 @@
       "tags": 11,
       "links": 0
     },
-    "devoirs/la Géographie 1 1.md": {
+    "devoirs/Les Téléphones.md": {
       "size": 2718,
       "tags": 0,
       "links": 0
@@ -292,7 +292,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 112,
+      "Refactor": 113,
       "Create": 96,
       "Link": 52,
       "Expand": 28
@@ -316,7 +316,7 @@
       "13": 6,
       "14": 14,
       "15": 5,
-      "16": 82,
+      "16": 83,
       "17": 74,
       "18": 88,
       "19": 11,
@@ -330,7 +330,7 @@
     "/": {
       "Mon": 34,
       "Tue": 10,
-      "Wed": 27,
+      "Wed": 28,
       "Thu": 171,
       "Fri": 2,
       "Sat": 0,
@@ -451,7 +451,8 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la.md\"> la </a>",
-        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
+        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
