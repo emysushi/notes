@@ -285,17 +285,17 @@
       "links": 0
     },
     "devoirs/Les Téléphones.md": {
-      "size": 4965,
+      "size": 6467,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 114,
+      "Refactor": 115,
       "Create": 96,
       "Link": 52,
-      "Expand": 31
+      "Expand": 33
     }
   },
   "dailyCommits": {
@@ -321,7 +321,7 @@
       "18": 89,
       "19": 11,
       "20": 2,
-      "21": 4,
+      "21": 7,
       "22": 0,
       "23": 0
     }
@@ -330,7 +330,7 @@
     "/": {
       "Mon": 34,
       "Tue": 10,
-      "Wed": 32,
+      "Wed": 35,
       "Thu": 171,
       "Fri": 2,
       "Sat": 0,
@@ -368,6 +368,8 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
         "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>"
@@ -483,6 +485,7 @@
         "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
       ],
       "Refactored": [
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>"
       ],
       "Deleted": [
