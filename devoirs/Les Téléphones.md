@@ -12,12 +12,15 @@
 
 - les étapes :
 	- 1) connexion à un réseau :
-		- La fourche interruptrice connectée, déconnecte le tél. . Soulever le combiné actionne un levier qui établit une connexion électrique entre lui et le commutateur téléphonique local
+		- La fourche interruptrice connectée, déconnecte le tél. . Soulever le combiné actionne un levier qui établit une connexion électrique entre lui et le commutateur téléphonique local.
 	- 2) faire le numéro :
 		- Taper un chiffre sur le clavier produit un son distinct à 2 fréquences simultanées 1 haute et une basse
-		- ex: la touche 1 produit un signal composé des tonalités au fréquences de 697/1209 Hz cette séquence unique dans une numéro de tél. indique que mon commutateur ou l'appelle doit être dirigé
+		- ex: la touche 1 produit un signal composé des tonalités au fréquences de 697/1209 Hz cette séquence unique dans une numéro de tél. indique que mon commutateur ou l'appelle doit être dirigé.
 	- 3) produire un signal sonore :
 		- Une fois les tél. connectés, on parle dans le microphone produisant
-		-  des ondes sonores > vibrer une membrane  génère des signaux électriques > déplacent sur la ligne téléphonique
+		-  des ondes sonores > vibrer une membrane  génère des signaux électriques > déplacent sur la ligne téléphonique.
 	- 4) envoyer le signal sonore :
-		- Les signaux se déplacent rapidement > connexion temporaire formée à travers les réseaux téléphoniques commutés. Les signaux peuvent être aussi passer entre deux téléphones via des câbles à fibres optiques, des fils, des antennes paraboliques et des tours cellulaires
+		- Les signaux se déplacent rapidement > connexion temporaire formée à travers les réseaux téléphoniques commutés. Les signaux peuvent être aussi passer entre 2 tél. via 
+		- câbles à fibres optiques, fils, antennes paraboliques et tours cellulaires.
+	- 5) reproduire le son :
+		- 
