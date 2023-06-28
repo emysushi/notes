@@ -20,4 +20,4 @@
 		- Une fois les tél. connectés, on parle dans le microphone produisant
 		-  des ondes sonores > vibrer une membrane  génère des signaux électriques > déplacent sur la ligne téléphonique
 	- 4) envoyer le signal sonore :
-		- 
+		- Les signaux se déplacent rapidement > connexion temporaire formée à travers les réseaux téléphoniques commutés. Les signaux peuvent être aussi passer entre deux téléphones via des câbles à fibres optiques, des fils, des antennes paraboliques et des tours cellulaires
