@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "375ccbe42523a3a0",
+            "id": "87f6689aee861d21",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devoirs/le bien et le mal.md",
+                "file": "devoirs/la Géographie 1 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/le bien et le mal.md",
+                "file": "devoirs/la Géographie 1 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/le bien et le mal.md",
+                "file": "devoirs/la Géographie 1 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/le bien et le mal.md"
+                "file": "devoirs/la Géographie 1 1.md"
               }
             }
           },
@@ -241,10 +241,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "87f6689aee861d21",
   "lastOpenFiles": [
     "devoirs/la Géographie 2.md",
     "devoirs/le bien et le mal.md",
+    "devoirs/la Géographie 1 1.md",
     "devoirs/la Géographie 1.md",
     "devoirs/Sans titre",
     "Dossier/Dossier signaux radio.md",
@@ -275,7 +276,6 @@
     "suivi maman",
     "README.md",
     "Planning_Semaine/Planning_Week_2023-05-08.md",
-    "FicheLecture/fiche_Les voyages de Gulliver.md",
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",

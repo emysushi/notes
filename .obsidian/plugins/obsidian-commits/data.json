@@ -281,15 +281,20 @@
     },
     "devoirs/le bien et le mal.md": {
       "size": 20,
-      "tags": 9,
+      "tags": 11,
+      "links": 0
+    },
+    "devoirs/la Géographie 1 1.md": {
+      "size": 2718,
+      "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 112,
-      "Create": 95,
-      "Link": 51,
+      "Create": 96,
+      "Link": 52,
       "Expand": 28
     }
   },
@@ -311,10 +316,10 @@
       "13": 6,
       "14": 14,
       "15": 5,
-      "16": 81,
+      "16": 82,
       "17": 74,
       "18": 88,
-      "19": 10,
+      "19": 11,
       "20": 0,
       "21": 3,
       "22": 0,
@@ -324,8 +329,8 @@
   "weeklyCommits": {
     "/": {
       "Mon": 34,
-      "Tue": 9,
-      "Wed": 26,
+      "Tue": 10,
+      "Wed": 27,
       "Thu": 171,
       "Fri": 2,
       "Sat": 0,
@@ -365,6 +370,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
@@ -411,7 +417,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -469,6 +474,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-22.md\"> Planning_Week_2023-05-22 </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
+        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
       ],
