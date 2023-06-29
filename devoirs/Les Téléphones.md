@@ -4,13 +4,7 @@
 	- pour discuter : quand > interlocuteurs éloignés
 	- convertit : ondes sonores > signaux > dispositif reproduit la voix 
 
-- <span style="background:#fff88f">fonctionnement du téléphone</span> pour un appel :
-	- prend le combiné et faire le numéro de tél. de quelqu'un
-	- soulever le combiner qui sonne connecte les interlocuteurs
-	- les sons passent par les réseaux téléphoniques sous formes de signaux électriques optiques ou radio avant d'être reproduits par l'appareil connecté
-	- il renferme un microphone et un récepteur permettant la communication dans les 2 sens
-
-# comment faire un appel ?
+# processus > appel téléphonique
 
 - les étapes :
 	- 1) <span style="background:#fff88f">connexion à un réseau</span> :
