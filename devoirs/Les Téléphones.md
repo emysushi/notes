@@ -97,11 +97,12 @@
 	- mère : Eliza Grace Symonds
 	- père : Alexander Melville Bell
 	- frère aîné : Melville James / frère benjamin : Edward Charles
-	- femme : Mabel Gardiner Hubbard (femme d'affaires)
+	- femme : Ma bel Gardiner Hubbard (femme d'affaires)
 	- enfants : 2 fils et 2 filles
 	- (sa mère et sa femme étaient sourdes)
 
 - dates :
-	- 
-	-  1876 : dépose le brevet de son invention le téléphone
+	- 1857: parcours scolaire Bell débute à la "Hamilton Place Académie".
+	- 1868 à 1870: Bell fit un séjour > Université Collège de Londres où il suivit des cours           anatomie/physiologie, mais ne continua pas > diplôme.
+	-  1876 : dépose le brevet de son invention le téléphone.
 	- 
