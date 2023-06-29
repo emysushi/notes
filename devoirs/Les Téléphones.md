@@ -6,20 +6,19 @@
 
 # processus > appel téléphonique
 
-- les étapes :
-	- 1) <span style="background:#fff88f">connexion à un réseau</span> :
-		- La fourche interruptrice connectée, déconnecte le tél. . Soulever le combiné actionne un levier qui établit une connexion électrique entre lui et le commutateur téléphonique local.
-	- 2) <span style="background:#fff88f">faire le numéro</span> :
-		- Taper un chiffre sur le clavier produit un son distinct à 2 fréquences simultanées 1 haute et une basse
-		- ex: la touche 1 produit un signal composé des tonalités au fréquences de 697/1209 Hz cette séquence unique dans une numéro de tél. indique que mon commutateur ou l'appelle doit être dirigé.
-	- 3) <span style="background:#fff88f">produire un signal sonore</span> :
-		- Une fois les tél. connectés, on parle dans le microphone produisant
-		-  des ondes sonores > vibrer une membrane  génère des signaux électriques > déplacent sur la ligne téléphonique.
-	- 4) <span style="background:#fff88f">envoyer le signal sonore</span> :
-		- Les signaux se déplacent rapidement > connexion temporaire formée à travers les réseaux téléphoniques commutés. Les signaux peuvent être aussi passer entre 2 tél. via 
-		- câbles à fibres optiques, fils, antennes paraboliques et tours cellulaires.
-	- 5)<span style="background:#fff88f"> reproduire le son</span> :
-		- lorsque la haut parleur de l'intérieur de l'écouteur reçoit les signaux électrique, une membrane vibre à des fréquences correspondantes > faisant vibrer l'air > et générant des ondes sonores.
+- **connexion à un réseau**
+	- établir une connexion électrique entre 2 personnes (commutateur téléphonique local)
+- **composer le numéro
+	- Taper un chiffre sur le clavier produit un son distinct à 2 fréquences simultanées 1 haute et une basse
+	- ex: la touche 1 produit un signal composé des tonalités au fréquences de 697/1209 Hz cette séquence unique dans une numéro de tél. indique que mon commutateur ou l'appelle doit être dirigé.
+- 3) produire un signal sonore
+	- Une fois les tél. connectés, on parle dans le microphone produisant
+	-  des ondes sonores > vibrer une membrane  génère des signaux électriques > déplacent sur la ligne téléphonique.
+- 4) <span style="background:#fff88f">envoyer le signal sonore</span> :
+	- Les signaux se déplacent rapidement > connexion temporaire formée à travers les réseaux téléphoniques commutés. Les signaux peuvent être aussi passer entre 2 tél. via 
+	- câbles à fibres optiques, fils, antennes paraboliques et tours cellulaires.
+- 5)<span style="background:#fff88f"> reproduire le son</span> :
+	- lorsque la haut parleur de l'intérieur de l'écouteur reçoit les signaux électrique, une membrane vibre à des fréquences correspondantes > faisant vibrer l'air > et générant des ondes sonores.
 
 
 # l'histoire du téléphone
