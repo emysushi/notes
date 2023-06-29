@@ -10,6 +10,8 @@
 	- les sons passent par les réseaux téléphoniques sous formes de signaux électriques optiques ou radio avant d'être reproduits par l'appareil connecté
 	- il renferme un microphone et un récepteur permettant la communication dans les 2 sens
 
+# comment faire un appel ?
+
 - les étapes :
 	- 1) <span style="background:#fff88f">connexion à un réseau</span> :
 		- La fourche interruptrice connectée, déconnecte le tél. . Soulever le combiné actionne un levier qui établit une connexion électrique entre lui et le commutateur téléphonique local.
@@ -121,3 +123,4 @@
 	- En attendant l'installation de l'automatique > l'ensemble du territoire français complétée (en 1978), centraux téléphoniques hébergent un personnel nombreux. 
 	- appelées ainsi car > catégorie était recrutée parmi des jeunes filles célibataires > l'éducation et la morale étaient irréprochables.
 	- Durant les premières décennies > téléphonie si elles se mariaient, elles perdaient leur emploi.
+	- et on leur reprochait la lenteur d'établissement des communications et leur mauvaise humeur 
