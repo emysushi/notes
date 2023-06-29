@@ -86,7 +86,7 @@
 
 # Alexander Graham Bell
 
-- date:
-	- né : 3 Mars 1847 à Edinbourg
-	- 
+- info :
+	- né : 3 Mars 1847 à Edinbourg (Ecosse)
+	- mort : 2 aout 1922 au Canada
 	- 
