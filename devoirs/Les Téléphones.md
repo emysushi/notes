@@ -110,3 +110,14 @@
 	- 1873 : à 26 ans Bell commença à lui donner des cours et tombe amoureux d'elle qui à 15 ans.
 	-  1876 : dépose le brevet de son invention le téléphone et réalise son rêve                                            transformer les ondes sonores > impulsions électriques.
 	- 1857-1923 : épouse Mabel Gardiner Hubbard (élève de Bell). Le couple aura quatre enfants.
+
+# les demoiselles du téléphones 
+
+- demoiselle du téléphone :
+	- établir les demandes d'appel, puis de les mettre en relation. 
+	- Leur poste de travail est constitué d'un tableau à prises jack et de cordons appelés discordes, servant à connecter les entre eux.
+	- avant la communication était établie au moyen de cordons équipés de connecteurs de type jack
+	- L'expression téléphonie française > réseau téléphonique commuté n'était pas automatisé.
+	- En attendant l'installation de l'automatique > l'ensemble du territoire français complétée (en 1978), centraux téléphoniques hébergent un personnel nombreux. 
+	- appelées ainsi car > catégorie était recrutée parmi des jeunes filles célibataires > l'éducation et la morale étaient irréprochables.
+	- Durant les premières décennies > téléphonie si elles se mariaient, elles perdaient leur emploi.
