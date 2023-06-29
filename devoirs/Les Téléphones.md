@@ -89,3 +89,4 @@
 - date:
 	- né : 3 Mars 1847 à Edinbourg
 	- 
+	- 
