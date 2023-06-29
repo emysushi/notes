@@ -14,17 +14,15 @@
 	- Une fois les tél. connectés, on parle dans le microphone produisant
 	-  des ondes sonores > vibrer une membrane génère des signaux électriques > déplacent sur la ligne téléphonique
 - **envoi d'un signal sonore 
-	- Les signaux se déplacent rapidement > connexion temporaire formée à travers 
+	- Les signaux se déplacent rapidement > connexion temporaire formée à travers ;
 		- réseaux téléphoniques commutés (RTC)
 		- fibres optiques
 		- fils
 		- antennes paraboliques
 		- tours cellulaires
 - **reproduction du son
-	- 
--  :
-	- lorsque la haut parleur de l'intérieur de l'écouteur reçoit les signaux électrique, une membrane vibre à des fréquences correspondantes > faisant vibrer l'air > et générant des ondes sonores
-
+	- réception des signaux électriques
+	- génération d'ondes sonores (vibration membrane : fréquences)
 
 # l'histoire du téléphone
 

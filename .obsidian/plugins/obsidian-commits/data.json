@@ -285,14 +285,14 @@
       "links": 0
     },
     "devoirs/Les Téléphones.md": {
-      "size": 9788,
+      "size": 8253,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 115,
+      "Refactor": 116,
       "Create": 96,
       "Link": 52,
       "Expand": 35
@@ -319,7 +319,7 @@
       "16": 83,
       "17": 75,
       "18": 90,
-      "19": 11,
+      "19": 12,
       "20": 2,
       "21": 7,
       "22": 0,
@@ -331,7 +331,7 @@
       "Mon": 34,
       "Tue": 10,
       "Wed": 35,
-      "Thu": 173,
+      "Thu": 174,
       "Fri": 2,
       "Sat": 0,
       "Sun": 44
@@ -487,6 +487,7 @@
         "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
       ],
       "Refactored": [
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>"
       ],
