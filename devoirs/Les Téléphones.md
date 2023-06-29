@@ -1,5 +1,7 @@
 
-- <span style="background:#fff88f">qu'est ce qu'un téléphones</span> ?
+
+
+- **qu'est ce qu'un téléphones ?
 	- appareil électronique
 	- pour discuter : quand > interlocuteurs éloignés
 	- convertit : ondes sonores > signaux > dispositif reproduit la voix 
