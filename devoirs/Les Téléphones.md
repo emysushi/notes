@@ -89,4 +89,19 @@
 - info :
 	- né : 3 Mars 1847 à Edinbourg (Ecosse)
 	- mort : 2 aout 1922 au Canada
+	- nationalité : américaine,  britannique
+	- il est : scientifique, ingénieur, inventeur
+	- a inventé le 1er tél
+
+- famille :
+	- mère : Eliza Grace Symonds
+	- père : Alexander Melville Bell
+	- frère aîné : Melville James / frère benjamin : Edward Charles
+	- femme : Mabel Gardiner Hubbard (femme d'affaires)
+	- enfants : 2 fils et 2 filles
+	- (sa mère et sa femme étaient sourdes)
+
+- dates :
+	- 
+	-  1876 : dépose le brevet de son invention le téléphone
 	- 
