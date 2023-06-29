@@ -9,16 +9,21 @@
 - **connexion à un réseau**
 	- établir une connexion électrique entre 2 personnes (commutateur téléphonique local)
 - **composer le numéro
-	- Taper un chiffre sur le clavier produit un son distinct à 2 fréquences simultanées 1 haute et une basse
-	- ex: la touche 1 produit un signal composé des tonalités au fréquences de 697/1209 Hz cette séquence unique dans une numéro de tél. indique que mon commutateur ou l'appelle doit être dirigé.
-- 3) produire un signal sonore
+	- chaque touches produit un signal composé de tonalités à des fréquences spécifiques
+- **produire un signal sonore
 	- Une fois les tél. connectés, on parle dans le microphone produisant
-	-  des ondes sonores > vibrer une membrane  génère des signaux électriques > déplacent sur la ligne téléphonique.
-- 4) <span style="background:#fff88f">envoyer le signal sonore</span> :
-	- Les signaux se déplacent rapidement > connexion temporaire formée à travers les réseaux téléphoniques commutés. Les signaux peuvent être aussi passer entre 2 tél. via 
-	- câbles à fibres optiques, fils, antennes paraboliques et tours cellulaires.
-- 5)<span style="background:#fff88f"> reproduire le son</span> :
-	- lorsque la haut parleur de l'intérieur de l'écouteur reçoit les signaux électrique, une membrane vibre à des fréquences correspondantes > faisant vibrer l'air > et générant des ondes sonores.
+	-  des ondes sonores > vibrer une membrane génère des signaux électriques > déplacent sur la ligne téléphonique
+- **envoi d'un signal sonore 
+	- Les signaux se déplacent rapidement > connexion temporaire formée à travers 
+		- réseaux téléphoniques commutés (RTC)
+		- fibres optiques
+		- fils
+		- antennes paraboliques
+		- tours cellulaires
+- **reproduction du son
+	- 
+-  :
+	- lorsque la haut parleur de l'intérieur de l'écouteur reçoit les signaux électrique, une membrane vibre à des fréquences correspondantes > faisant vibrer l'air > et générant des ondes sonores
 
 
 # l'histoire du téléphone
