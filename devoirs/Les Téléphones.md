@@ -108,5 +108,5 @@
 	- 1872 : Bell ouvre sa propre école > malentendants dans la ville de Boston.
 	- 1873 : sera nommé professeur de physiologie vocale .
 	- 1873 : à 26 ans Bell commença à lui donner des cours et tombe amoureux d'elle qui à 15 ans.
-	-  1876 : dépose le brevet de son invention le téléphone.
+	-  1876 : dépose le brevet de son invention le téléphone et réalise son rêve                                            transformer les ondes sonores > impulsions électriques.
 	- 1857-1923 : épouse Mabel Gardiner Hubbard (élève de Bell). Le couple aura quatre enfants.
