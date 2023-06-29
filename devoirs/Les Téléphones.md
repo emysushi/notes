@@ -105,6 +105,8 @@
 	- 1857: parcours scolaire Bell débute à la "Hamilton Place Académie".
 	- 1868 à 1870: Bell fit un séjour > Université Collège de Londres où il suivit des cours           anatomie/physiologie, mais ne continua pas > diplôme.
 	- 1872 :fait la rencontre du président (Clarke Institution) Bell apprend que la fille de celui-ci est devenue sourde > scarlatine et propose à celui-ci de lui donner des cours > retrouver la parole.
+	- 1872 : Bell ouvre sa propre école > malentendants dans la ville de Boston.
+	- 1873 : sera nommé professeur de physiologie vocale .
 	- 1873 : à 26 ans Bell commença à lui donner des cours et tombe amoureux d'elle qui à 15 ans.
 	-  1876 : dépose le brevet de son invention le téléphone.
-	- 
+	- 1857-1923 : épouse Mabel Gardiner Hubbard (élève de Bell). Le couple aura quatre enfants.
