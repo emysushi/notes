@@ -83,3 +83,4 @@
 
 - 2010 (écran tactile) :
 	- accélération des innovations dans le téléphone mobile. La technologie de l'[écran tactile](https://fr.wikipedia.org/wiki/%C3%89cran_tactile "Écran tactile") capacitif permet de se passer des touches et d'offrir un écran de grande taille dans un format qui reste contenu à la taille d'une main. La qualité de ces écrans s'améliore au fil du temps. L'intégration dans les téléphones d'une multitude de [capteurs](https://fr.wikipedia.org/wiki/Capteurs "Capteurs") miniaturisés
+
