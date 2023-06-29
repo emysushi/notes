@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
+                "file": "devoirs/Les Téléphones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
+                "file": "devoirs/Les Téléphones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/la Géographie 2.md"
+                "file": "devoirs/Les Téléphones.md"
               }
             }
           },
@@ -240,10 +241,10 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "2cbdf12d52df40b4",
+  "active": "87f6689aee861d21",
   "lastOpenFiles": [
-    "devoirs/Les Téléphones.md",
     "devoirs/la Géographie 2.md",
+    "devoirs/Les Téléphones.md",
     "devoirs/le bien et le mal.md",
     "devoirs/la Géographie 1.md",
     "devoirs/Sans titre",

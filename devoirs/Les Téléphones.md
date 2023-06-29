@@ -1,8 +1,8 @@
 
 - <span style="background:#fff88f">qu'est ce qu'un téléphones</span> ?
 	- appareil électronique
-	- pour discuter : quand les interlocuteurs sont trop loin 
-	- convertit : les ondes sonores en signaux transmit à un autre dispositif qui reproduit le voix 
+	- pour discuter : quand > interlocuteurs éloignés
+	- convertit : ondes sonores > signaux > dispositif reproduit la voix 
 
 - <span style="background:#fff88f">fonctionnement du téléphone</span> pour un appel :
 	- prend le combiné et faire le numéro de tél. de quelqu'un
