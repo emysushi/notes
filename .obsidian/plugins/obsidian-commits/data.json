@@ -288,12 +288,17 @@
       "size": 8253,
       "tags": 0,
       "links": 0
+    },
+    "devoirs/Les Temps Modernes.md": {
+      "size": 8129,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 117,
-      "Create": 96,
+      "Refactor": 119,
+      "Create": 97,
       "Link": 52,
       "Expand": 35
     }
@@ -312,7 +317,7 @@
       "9": 0,
       "10": 2,
       "11": 3,
-      "12": 1,
+      "12": 4,
       "13": 6,
       "14": 14,
       "15": 5,
@@ -332,7 +337,7 @@
       "Tue": 10,
       "Wed": 35,
       "Thu": 174,
-      "Fri": 3,
+      "Fri": 6,
       "Sat": 0,
       "Sun": 44
     }
@@ -377,6 +382,7 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones 1.md\"> Les Téléphones 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
@@ -426,7 +432,6 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -459,7 +464,9 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la.md\"> la </a>",
         "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>"
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les.md\"> Les </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
