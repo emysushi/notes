@@ -59,3 +59,5 @@
 
 # massif armoricain
 
+- **Massif armoricain 
+	- situé dans l’Ouest de l’[Europe](https://fr.wikipedia.org/wiki/Europe "Europe")
