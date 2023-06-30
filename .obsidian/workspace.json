@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "569ce42d5f38a46d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -221,14 +232,14 @@
       "obsidian-book-search-plugin:Create new book note": false,
       "gpt3-notes:GPT-3 Notes": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "obsidian-memos:Memos": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "d32f8ad9f004b714",
+  "active": "569ce42d5f38a46d",
   "lastOpenFiles": [
     "devoirs/la Géographie 2.md",
     "devoirs/Les Temps Modernes.md",
