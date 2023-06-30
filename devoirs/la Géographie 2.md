@@ -60,4 +60,8 @@
 # massif armoricain
 
 - **Massif armoricain 
-	- situé dans l’Ouest de l’[Europe](https://fr.wikipedia.org/wiki/Europe "Europe")
+	- situé dans l’Ouest de la France
+	- ancienne chaîne de montagnes (Bretagne)
+	- constitué de 4 domaines plateaux/collines 
+	- ceinturé par des domaines aplani de plus faible altitude 
+	- 
