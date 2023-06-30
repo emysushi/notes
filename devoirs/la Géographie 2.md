@@ -34,7 +34,7 @@
 	- production de blé, mais, fruits, vins…
 	- centre-ouest couvert > forêt des Landes
 
-# autres plaines
+# Flandre, Alsace, Rhône
 
 - **Flandre dans le Nord
 	- s'étend du nord > Belgique
@@ -43,5 +43,19 @@
 	- côte maritime comporte  des falaises
 	- > forment la falaise (cap gris nez)
 
-- **plaines d'Alsace
-	- 
+- **plaine d'Alsace
+	- extrémité nord-est de la France
+	- presque totalement plate
+	- plaine très fertile
+	- limitée par la forêt noire à l'est (massif m.)
+	- limitée par les Vosges à l'ouest (massif m.)
+	- traversée par le Rhin 
+	- qui marque la frontière entre France/Allemagne
+
+- **sillon rhodanien
+	- nommé ainsi > vallée du Rhône
+	- situé > moitié est de la France
+	- plaine étroite (longue 450 km)
+
+# massif armoricain
+
