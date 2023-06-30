@@ -64,4 +64,11 @@
 	- ancienne chaîne de montagnes (Bretagne)
 	- constitué de 4 domaines plateaux/collines 
 	- ceinturé par des domaines aplani de plus faible altitude 
-	- 
+
+- **les terres
+	- rivières ont tracé > profondes vallées
+	- le relief a 2 lignes de crêtes 
+		-  chaîne des monts d'Arrée (nord)
+		- montagnes Noires (sud)
+	- Plusieurs bassins houillers > tailles variables
+	- grandes zones > failles coulissantes

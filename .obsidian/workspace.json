@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d32f8ad9f004b714",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devoirs/Les Téléphones 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
+                "file": "devoirs/Les Téléphones 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
+                "file": "devoirs/Les Téléphones 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/la Géographie 2.md"
+                "file": "devoirs/Les Téléphones 1.md"
               }
             }
           },
@@ -228,10 +241,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "2cbdf12d52df40b4",
+  "active": "d32f8ad9f004b714",
   "lastOpenFiles": [
-    "devoirs/Les Téléphones.md",
+    "devoirs/Les Téléphones 1.md",
     "devoirs/la Géographie 2.md",
+    "devoirs/Les Téléphones.md",
     "devoirs/le bien et le mal.md",
     "devoirs/la Géographie 1.md",
     "devoirs/Sans titre",
@@ -262,7 +276,6 @@
     "suivi maman/Français",
     "suivi maman",
     "README.md",
-    "Planning_Semaine/Planning_Week_2023-05-08.md",
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
