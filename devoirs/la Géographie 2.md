@@ -18,7 +18,7 @@
 - **Bassin aquitain
 	- occupe le sud-ouest de la France
 	- altitude supérieur à 200 m
-	- 
+	- côte maritime 
 
 
 
