@@ -39,11 +39,11 @@
 # Flandre, Alsace, Rhône
 
 - **Flandre dans le Nord
-	- s'étend du nord > Belgique
+	- s'étend du nord > Belgique (Bruxelles)
 	- l'Escaut descend en pente douce > mer du nord
 	- bordée de dunes > entretenues > monté de la Mer
 	- côte maritime comporte  des falaises
-	- > forment la falaise (cap gris nez)
+	- forment la falaise (cap gris nez)
 
 - **plaine d'Alsace
 	- extrémité nord-est de la France
