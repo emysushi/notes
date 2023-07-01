@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "505e773638a5e5db",
+        "id": "0e11d98b74c78234",
         "type": "tabs",
         "children": [
           {
-            "id": "cb5e208d0e3d3abe",
+            "id": "219107e59b98989d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-dossier.md",
+                "file": "Dossier/Dossier_serrures.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,9 +72,16 @@
               "type": "file-tree-view",
               "state": {}
             }
+          },
+          {
+            "id": "c37dd0fdb9598b6c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-dossier.md",
+                "file": "Dossier/Dossier_serrures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-dossier.md",
+                "file": "Dossier/Dossier_serrures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-dossier.md"
+                "file": "Dossier/Dossier_serrures.md"
               }
             }
           },
@@ -184,10 +191,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cb5e208d0e3d3abe",
+  "active": "fe7109399fb4b49e",
   "lastOpenFiles": [
-    "Dossier/Dossier_serrures.md",
     "Template/tpl-dossier.md",
+    "Dossier/Dossier_serrures.md",
     "Dossier/Dossier_techno.md",
     "Cours/Technologie/Dossier_Serrures.md",
     "Dossier"
