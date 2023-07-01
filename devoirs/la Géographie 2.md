@@ -5,7 +5,7 @@
 	- soit 20% du territoire français 
 	- bassin > forme d'une cuvette
 	- relief, crêtes > limites du bassin
-	- ouvert vers la manche où se déverse la Seine
+	- ouvert> manche où se déverse la Seine
 
 - **Les terres autours
 	- vastes surfaces planes de basse altitudes et de qualités

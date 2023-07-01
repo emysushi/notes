@@ -68,6 +68,11 @@
       "icon": "lucide-files"
     },
     {
+      "id": "obsidian-git:pull",
+      "name": "Obsidian Git: Pull",
+      "icon": "compress-glyph"
+    },
+    {
       "id": "obsidian-git:commit",
       "name": "Obsidian Git: Commit all changes",
       "icon": "box-glyph"
