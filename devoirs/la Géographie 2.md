@@ -1,9 +1,9 @@
 # bassin Parisien
 
 - **Le Bassin parisien 
-	- occupe la partie centrale de la moitié nord de la France
+	- occupe la partie centrale de la moitié nord de la France (1/5)
 	- soit 20% du territoire français 
-	- bassin > forme d'une cuvette
+	- bassin > forme d'une cuvette (recueille eaux de la Seine + affluents)
 	- relief, crêtes > limites du bassin
 	- ouvert> manche où se déverse la Seine
 
