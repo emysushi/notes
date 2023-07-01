@@ -38,6 +38,12 @@
       "icon": "bookmark",
       "name": "Admonition: Insert Callout",
       "mode": "any"
+    },
+    {
+      "id": "obsidian-git:push2",
+      "icon": "activity",
+      "name": "Obsidian Git: Push",
+      "mode": "any"
     }
   ],
   "fileMenu": [

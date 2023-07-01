@@ -5,8 +5,17 @@ kanban-plugin: basic
 ---
 
 <%*
-qmonday = tp.date.now("YYYY-MM-DD")
-qtuesday = tp.date.now("YYYY-MM-DD",1)
+let qdays = await tp.system.prompt("Lundi prochain dans x jrs")
+q1 = qdays*1
+q2 = q1+1
+q3 = q2+1
+q4 = q3+1
+q5 = q4+1
+q6 = q5+1
+q7 = q6+1
+
+qmonday = tp.date.now("YYYY-MM-DD",q1)
+qtuesday = tp.date.now("YYYY-MM-DD",q2)
 qwednesday= tp.date.now("YYYY-MM-DD",2)
 qthursday = tp.date.now("YYYY-MM-DD",3)
 qfriday = tp.date.now("YYYY-MM-DD",4)

@@ -1,54 +1,81 @@
 {
   "main": {
-    "id": "425a2798bcff3049",
+    "id": "6814ec6b0a1a2187",
     "type": "split",
     "children": [
       {
+<<<<<<< HEAD
         "id": "0e11d98b74c78234",
         "type": "tabs",
         "children": [
           {
             "id": "219107e59b98989d",
+=======
+        "id": "7f11aed3561903b2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d32f8ad9f004b714",
+>>>>>>> main
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Cours/Histoire-Geographie/note.md",
+=======
+                "file": "devoirs/Les Temps Modernes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d2184bd8adacdbcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devoirs/la Géographie 2.md",
+>>>>>>> main
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2088291f83091c5f",
+    "id": "c7851dc6d53e4271",
     "type": "split",
     "children": [
       {
-        "id": "3dc1a16602e24545",
+        "id": "7a9f239d4b295cad",
         "type": "tabs",
         "children": [
           {
-            "id": "fe7109399fb4b49e",
+            "id": "6742ed8853b78b41",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
+              "type": "markdown",
               "state": {
-                "sortOrder": "alphabetical"
+                "file": "controle_feedback.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "04a4d3036d1cde83",
+            "id": "3a5f9a633e3fd2af",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": " ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,7 +85,7 @@
             }
           },
           {
-            "id": "2f647960c42be309",
+            "id": "32c10102c33f44bf",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -66,7 +93,25 @@
             }
           },
           {
-            "id": "bc4cbb70e62c9971",
+            "id": "cc433e56d726fa8d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "054e78594f61e1ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "d0df3f5ae250f3e5",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -81,27 +126,32 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
-    "id": "9f652b6d3bbd9575",
+    "id": "de72a87206515b52",
     "type": "split",
     "children": [
       {
-        "id": "922f1aea0e541c6f",
+        "id": "ee2250b28fc2614e",
         "type": "tabs",
         "children": [
           {
-            "id": "098a96b170fea2e1",
+            "id": "a0384a097f7e1407",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Cours/Histoire-Geographie/note.md",
+=======
+                "file": "devoirs/la Géographie 2.md",
+>>>>>>> main
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,19 +163,23 @@
             }
           },
           {
-            "id": "c12fc1b46fc784cf",
+            "id": "d68bc29e87c4ff6f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Cours/Histoire-Geographie/note.md",
+=======
+                "file": "devoirs/la Géographie 2.md",
+>>>>>>> main
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a406b085ca925612",
+            "id": "d2f672a9cfbc3914",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -136,17 +190,29 @@
             }
           },
           {
-            "id": "22982a283e0ae29b",
+            "id": "6bab969d0d096703",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Cours/Histoire-Geographie/note.md"
+=======
+                "file": "devoirs/la Géographie 2.md"
+>>>>>>> main
               }
             }
           },
           {
-            "id": "dbe0db5456ffebad",
+            "id": "825572e900f1aedb",
+            "type": "leaf",
+            "state": {
+              "type": "trello-plugin",
+              "state": {}
+            }
+          },
+          {
+            "id": "5883242f4e5b52d0",
             "type": "leaf",
             "state": {
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
@@ -154,43 +220,60 @@
             }
           },
           {
-            "id": "63be251cff904f10",
+            "id": "bd57c00706339f74",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "d12f4d05a526491c",
             "type": "leaf",
             "state": {
               "type": "gptModelSettings",
               "state": {}
             }
+          },
+          {
+            "id": "961f2e9ba0eede08",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false,
-      "obsidian-map-view:Open map view": false,
-      "obsidian-gallery:Gallery": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-translator:Translate": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
+      "templates:Insérer le modèle": false,
+      "obsidian-gallery:Gallery": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-translator:Translate": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-book-search-plugin:Create new book note": false,
       "gpt3-notes:GPT-3 Notes": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open this week": false
     }
   },
+<<<<<<< HEAD
   "active": "219107e59b98989d",
   "lastOpenFiles": [
     "Cours/Histoire-Geographie/Home.md",
@@ -199,5 +282,51 @@
     "Dossier/Dossier_techno.md",
     "Cours/Technologie/Dossier_Serrures.md",
     "Dossier"
+=======
+  "active": "d2184bd8adacdbcc",
+  "lastOpenFiles": [
+    "devoirs/Les Téléphones.md",
+    "devoirs/le bien et le mal.md",
+    "devoirs/la Géographie 2.md",
+    "devoirs/Les Temps Modernes.md",
+    "devoirs/la Géographie 1.md",
+    "devoirs/Sans titre",
+    "Dossier/Dossier signaux radio.md",
+    "devoirs",
+    "Sans titre.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
+    "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
+    "suivi maman/FRANCAIS.md",
+    "Cours/Anglais/Les Ecrants et les Routines.md",
+    "Planning_Semaine/Planning_Week_2023-05-22.md",
+    "Cours/Physique-Chimie/MASSE & VOLUME.md",
+    "Dossier/Dossier_serrures.md",
+    "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+    "Gallery/Pasted image 20230308173724.png",
+    "Gallery/massachussets_embleme.png",
+    "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png",
+    "Bibliotheque_Liste.md",
+    "controle_feedback.md",
+    "Dossier_Liste.md",
+    "Feedback_Liste.md",
+    "histoire.md",
+    "Cours/Histoire-Geographie/LES SERRURES🔐.md",
+    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md",
+    "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
+    "Crypto/Crypto_introduction.md",
+    "suivi maman/Français",
+    "suivi maman",
+    "README.md",
+    "Crypto/Training",
+    "Crypto",
+    "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
+    "Gallery/dossier_serrure",
+    "Gallery/Nouveau dossier",
+    "Dossier",
+    "Banner/biblio.jpeg",
+    "PhysiqueChimie/Untitled Diagram.svg",
+    "Sans titre.canvas"
+>>>>>>> main
   ]
 }
