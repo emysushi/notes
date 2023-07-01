@@ -23,9 +23,10 @@
 - **les affluents
 	- forme d'une cuvette 
 	- elles creuses des montagnes
-	- rivières/fleuves sources > Pyrénées
 	- se rejoignent à la Garonne
-	- coule en pente douce > océan atlantique
+	-  Pyrénées (Sud)
+	 - massif central (Est)
+	 - océan atlantique (Ouest)
 
 - **terre très fertile
 	- très favorable à l'agriculture
