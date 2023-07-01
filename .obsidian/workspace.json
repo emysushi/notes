@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
+                "file": "devoirs/Les Temps Modernes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/la Géographie 2.md",
+                "file": "devoirs/Les Temps Modernes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/la Géographie 2.md"
+                "file": "devoirs/Les Temps Modernes.md"
               }
             }
           },
@@ -241,11 +240,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "d2184bd8adacdbcc",
+  "active": "d32f8ad9f004b714",
   "lastOpenFiles": [
+    "devoirs/la Géographie 2.md",
     "devoirs/Les Téléphones.md",
     "devoirs/le bien et le mal.md",
-    "devoirs/la Géographie 2.md",
     "devoirs/Les Temps Modernes.md",
     "devoirs/la Géographie 1.md",
     "devoirs/Sans titre",
