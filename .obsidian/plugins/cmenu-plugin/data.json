@@ -66,6 +66,16 @@
       "id": "file-explorer:open",
       "name": "Files: Show file explorer",
       "icon": "lucide-files"
+    },
+    {
+      "id": "obsidian-git:commit",
+      "name": "Obsidian Git: Commit all changes",
+      "icon": "box-glyph"
+    },
+    {
+      "id": "obsidian-git:push2",
+      "name": "Obsidian Git: Push",
+      "icon": "navigate-glyph"
     }
   ],
   "appendMethod": "workspace",
