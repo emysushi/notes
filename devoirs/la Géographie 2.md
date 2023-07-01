@@ -24,9 +24,10 @@
 	- forme d'une cuvette 
 	- elles creuses des montagnes
 	- se rejoignent à la Garonne
-	-  Pyrénées (Sud), +pic d'Aneto
-	 - massif central (Est), +puy du Sancy
-	 - océan atlantique (Ouest)
+	- limites du Bassin Aquitain 
+		- Pyrénées (Sud), +pic d'Aneto
+		 - massif central (Est), +puy du Sancy
+		 - océan atlantique (Ouest)
 
 - **terre très fertile
 	- très favorable à l'agriculture
