@@ -45,4 +45,4 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- ce qui déclara une guerre et les Espagnols conquirent le Mexique
 
 - **conquête de l'Amérique du sud
-	- 
+	- d'autres Espagnols poursuivirent vers le sud
