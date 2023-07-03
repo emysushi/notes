@@ -11,10 +11,16 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- savaient utiliser les boussoles, cartes et construire des navires
 	- ils pensaient que la terre était ronde 
 
-- **Henri
+- **Henri (Portugais)
 	- 1er à mettre aux point les caravelles (affronte de grosses mers)
 	- installa un centre de recherche où travaillaient géographes et ingénieurs navals
 	- établi le 1er voyage direct de l'Europe à l'Inde
 
 - **cap de bonne espérance
+	- fin du 15-ème Bartolomé l'atteignit enfin          
+	- l'extrême sud de l'Afrique (cap de bonne espérance)
+	- mais Vasco le doubla il l'atteignit le cap et aboutit en Inde
+	- la route des épices était découverte
+
+- **Christophe Colomb (Italien)
 	- 
