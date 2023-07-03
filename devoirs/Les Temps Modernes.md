@@ -25,5 +25,5 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 - **Christophe Colomb (Italien)
 	- convaincu la Reine (Isabelle de Castille) qu'on pouvait rejoindre la route des épices en allant non pas vers l'Est mais vers l'Ouest comme la terre était ronde.
 	- elle lui procura 3 caravelles et le nomma amiral de la flotte 
-	- le voyage fût si long que les marins faillirent se révoltaient
-	- ils arrivèrent enfin (et appela 
+	- ils arrivèrent enfin (1492) et appela ses habitants les indiens
+	- 
