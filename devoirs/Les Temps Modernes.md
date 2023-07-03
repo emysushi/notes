@@ -46,3 +46,8 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 
 - **conquête de l'Amérique du sud
 	- d'autres Espagnols poursuivirent vers le sud 
+	- Francisco Pizarro partit pour le Pérou (Incas) ou il conquit son empire grâce à son armée
+	- ainsi toute l'Amérique du sud (sauf le Mexique) devint Espagnole
+
+- **découverte de l'Amérique du nord
+	- 
