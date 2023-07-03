@@ -56,3 +56,4 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- il remonta le grand fleuve du Canada (qui allait bientôt devenir une colonie Française)
 
 
+<center> ❤️ JE T'AIME PAPA ❤️</center>
