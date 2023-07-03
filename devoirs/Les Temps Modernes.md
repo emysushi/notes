@@ -29,4 +29,12 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- après sa mort 2 autres italiens comprirent que les terres découvertes par Christophe Colomb n'était pas l'inde alors on       l'appela l'Amérique en l'honneur de l'italien "Amerigo Vespucci"
 
 - **Magellan (Portugais)
-	- l'Océan Atlantique > sud de l'Amérique
+	- Océan Atlantique > sud de l'Amérique > Océan Pacifique > philippines où il fût tué par les indigènes
+	- ses compagnons continuèrent et arrivèrent enfin au Portugal
+	- la preuve que la terre était ronde
+	- le voyage dura 3 ans
+
+# les grandes découvertes 2
+
+- **conquête du Mexique
+	- 
