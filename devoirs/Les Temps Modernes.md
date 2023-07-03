@@ -37,4 +37,7 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 # les grandes découvertes 2
 
 - **conquête du Mexique
-	- 
+	- les Espagnoles c'étaient installés sur Cuba
+	- puis Hernan Cortes décida d'aller sur l'Amérique
+	- il découvrit l'empire des aztèques 
+	- mais ces habitants pratiquaient de nombreux sacrifice hu
