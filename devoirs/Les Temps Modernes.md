@@ -5,7 +5,13 @@ L'époque moderne est la période historique qui commence à la fin du Moy
 L’expression > explorations maritimes entreprises > puissances  européennes (15 et 16-ème). 
 Les monarchies et riches compagnies commerciales financent de grandes expéditions > explorer le monde, cartographier la planète, établir des contacts directs avec l'Afrique, Amérique, Asie et Océanie.
 
-- pourquoi ?
+- **pourquoi ?
 	- Européens voulait en savoir plus sur : Chine, Orient, Marco Polo 
-	- besoin de soie et d'épices > venaient d'Orient
+	- besoin de soie d'or et d'épices > venaient d'Orient
+	- savaient utiliser les boussoles, cartes et construire des navires
+	- ils pensaient que la terre était ronde 
+
+- **Henri
+	- 1er à mettre aux point les caravelles (affronte de grosses mers)
+	- installa un centre de recherche où travaillaient géographes et ingénieurs navals
 	- 
