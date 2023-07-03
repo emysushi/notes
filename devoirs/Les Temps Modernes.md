@@ -29,4 +29,4 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- après sa mort 2 autres italiens comprirent que les terres découvertes par Christophe Colomb n'était pas l'inde alors on       l'appela l'Amérique en l'honneur de l'italien "Amerigo Vespucci"
 
 - **Magellan (Portugais)
-	- 
+	- alla de l'Océan Atlantique 
