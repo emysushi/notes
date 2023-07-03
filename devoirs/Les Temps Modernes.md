@@ -14,4 +14,7 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 - **Henri
 	- 1er à mettre aux point les caravelles (affronte de grosses mers)
 	- installa un centre de recherche où travaillaient géographes et ingénieurs navals
+	- établi le 1er voyage direct de l'Europe à l'Inde
+
+- **cap de bonne espérance
 	- 
