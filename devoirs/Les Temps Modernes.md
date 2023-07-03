@@ -50,4 +50,9 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- ainsi toute l'Amérique du sud (sauf le Mexique) devint Espagnole
 
 - **découverte de l'Amérique du nord
-	- 
+	- le roi de 'Angleterre demanda à Jean Cabot d'explorer les terres au Nord de (l'Amérique)
+	- il découvrit Labrador et Terre-Neuve et longea la cote des futurs Etats-Unis
+	- le roi de France envoya Jacques Cartier qui fit 4 voyages en Amérique du nord 
+	- il remonta le grand fleuve du Canada (qui allait bientôt devenir une colonie Française)
+
+

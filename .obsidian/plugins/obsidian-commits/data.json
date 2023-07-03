@@ -290,7 +290,7 @@
       "links": 0
     },
     "devoirs/Les Temps Modernes.md": {
-      "size": 2513,
+      "size": 3122,
       "tags": 0,
       "links": 0
     }
@@ -300,7 +300,7 @@
       "Refactor": 120,
       "Create": 97,
       "Link": 52,
-      "Expand": 36
+      "Expand": 37
     }
   },
   "dailyCommits": {
@@ -324,7 +324,7 @@
       "16": 84,
       "17": 76,
       "18": 90,
-      "19": 12,
+      "19": 13,
       "20": 2,
       "21": 7,
       "22": 0,
@@ -333,7 +333,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 36,
+      "Mon": 37,
       "Tue": 10,
       "Wed": 35,
       "Thu": 174,
@@ -380,6 +380,7 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>"
       ],
       "Created": [
