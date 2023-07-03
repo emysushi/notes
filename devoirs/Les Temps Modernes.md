@@ -26,4 +26,7 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- convaincu la Reine (Isabelle de Castille) qu'on pouvait rejoindre la route des épices en allant non pas vers l'Est mais vers l'Ouest comme la terre était ronde.
 	- elle lui procura 3 caravelles et le nomma amiral de la flotte 
 	- ils arrivèrent enfin (1492) et appela ses habitants les indiens
+	- après sa mort 2 autres italiens comprirent que les terres découvertes par Christophe Colomb n'était pas l'inde alors on       l'appela l'Amérique en l'honneur de l'italien "Amerigo Vespucci"
+
+- **Magellan (Portugais)
 	- 
