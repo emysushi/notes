@@ -40,4 +40,9 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- les Espagnoles c'étaient installés sur Cuba
 	- puis Hernan Cortes décida d'aller sur l'Amérique
 	- il découvrit l'empire des aztèques 
-	- mais ces habitants pratiquaient de nombreux sacrifice hu
+	- mais ces habitants pratiquaient de nombreux sacrifice humains
+	- les espagnols était horrifies alors que les aztèques eux avaient peur de leur armes et équipements 
+	- ce qui déclara une guerre et les Espagnols conquirent le Mexique
+
+- **conquête de l'Amérique du sud
+	- 
