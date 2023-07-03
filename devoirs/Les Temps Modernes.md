@@ -23,4 +23,4 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- la route des épices était découverte
 
 - **Christophe Colomb (Italien)
-- 
+	- 
