@@ -29,6 +29,6 @@
 	- il commence > rattaché à l'idée émergente de Nation française
 	- 15-ème qu’apparait la cocarde (assemblement > plumes ornementales/rubans rappelant > crête de coq b, b, r)
 
-- **le passeport
+- **déclaration des droits de l'homme
 	- 
 
