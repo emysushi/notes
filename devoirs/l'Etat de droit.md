@@ -13,4 +13,7 @@
 	- **nom**: "Chant de guerre pour l'armée du Rhin"
 
 - **la Marianne
+	- symbole de la république française
+	- coiffé d'un bonnet phrygien
 	- 
+
