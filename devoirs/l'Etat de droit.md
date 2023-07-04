@@ -1,4 +1,6 @@
 
+**révolution française** : 1789
+
 - **le drapeau de France
 	- symbole/insigne reconnaissable/compréhensible permet à celui qui le brandit d'affirmer son appartenance > organisation/nation +grande > dans laquelle il se sent vivant
 	- drapeau tricolore (1830) 
@@ -17,7 +19,7 @@
 	- apparait depuis l'Antiquité romaine
 	- et sur le tableau "la liberté guidant le peuple"
 	- coiffé d'un bonnet phrygien
-	- allégorie grec > bonnet phrygien
+	- allégorie : représentation d'idée sous forme de dessin
 	- prendra la place du roi > les monnaies
 
 - **le coq Français
