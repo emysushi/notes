@@ -49,6 +49,15 @@
 	- **origine** :
 		- mot composé de passe et de port > passage de porte 
 	- **symbole** :
-		- représente un faisceau de licteurs surmonté d'une hache et recouvert d'un bouclier sur lequel sont gravées les initiales RF des branches de chêne et d'olivier entourent le motif. 
-		- Le chêne symbolise la justice, l'olivier la paix
+		- représente 2 instruments de punition :
+		- des verges
+		- une hache (autorité, pouvoir) recouverte de baguettes en bois 
+		- un bouclier sur lequel sont gravées les initiales RF 
+		- branches de chêne (justice) et d'olivier (paix) 
+		- entourant le motif  
+
+# états de droit, la constitution
+
+- **la constitution
+	- 
 
