@@ -1,7 +1,7 @@
 
 - **le drapeau de France
 	- symbole/insigne reconnaissable/compréhensible permet à celui qui le brandit d'affirmer son appartenance > organisation/nation +grande > dans laquelle il se sent vivant
-	- drapeau tricolore 
+	- drapeau tricolore (1830) 
 	- bleu, rouge : couleurs de la ville de Paris > Garde nationale
 	- blanc : la royauté, monarchie
 
