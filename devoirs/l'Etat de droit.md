@@ -22,6 +22,7 @@
 
 - **le coq Français
 	- avant certaines pièce était frappées à l’effigie du gallinacé
-	- à la Renaissance le coq est réellement relié à la Gaule
+	- Renaissance : le coq est réellement relié à la Gaule
+	-  12-ème Germains utilisent le coq gaulois > moquer les Français
 	- 
 
