@@ -13,10 +13,10 @@
 	- **nom**: "Chant de guerre pour l'armée du Rhin"
 
 - **la Marianne
-	- symbole de la république française
-	- coiffé d'un bonnet phrygien
+	- symbole > république française
 	- apparait depuis l'Antiquité romaine
 	- et sur le tableau "la liberté guidant le peuple"
+	- coiffé d'un bonnet phrygien
 	- allégorie grec > bonnet phrygien
 	- prendra la place du roi > les monnaies
 
