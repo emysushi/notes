@@ -15,5 +15,7 @@
 - **la Marianne
 	- symbole de la république française
 	- coiffé d'un bonnet phrygien
+	- apparait depuis l'Antiquité romaine
+	- allégorie grec > bonnet phrygien
 	- 
 
