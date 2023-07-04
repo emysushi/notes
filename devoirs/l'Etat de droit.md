@@ -16,6 +16,7 @@
 	- symbole de la république française
 	- coiffé d'un bonnet phrygien
 	- apparait depuis l'Antiquité romaine
+	- et sur le tableau "la liberté guidant le peuple"
 	- allégorie grec > bonnet phrygien
 	- prendra la place du roi > les monnaies
 
