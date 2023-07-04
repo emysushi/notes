@@ -20,3 +20,6 @@
 	- allégorie grec > bonnet phrygien
 	- prendra la place du roi > les monnaies
 
+- **le coq Français
+	- 
+
