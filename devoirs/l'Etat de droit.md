@@ -21,11 +21,13 @@
 	- prendra la place du roi > les monnaies
 
 - **le coq Français
+	- symbole très ancien > Gaulois
+	- latin > *gallus* signifie à la fois gaule et coq
 	- avant certaines pièce était frappées à l’effigie du gallinacé
-	- Renaissance : le coq est réellement relié à la Gaule
 	-  12-ème Germains utilisent le coq gaulois > moquer les Français
-	- peu à peu les Français mettent en avant > qualités du coq, reconnaissance biblique
+	- peu à peu les Français mettent en avant > qualités du coq et sa  reconnaissance biblique
 	- il commence > rattaché à l'idée émergente de Nation française
 	- 15-ème qu’apparait la cocarde (assemblement > plumes ornementales/rubans rappelant > crête de coq b, b, r)
-	- 
+
+- 
 
