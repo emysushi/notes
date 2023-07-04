@@ -6,6 +6,11 @@
 	- blanc : la royauté, monarchie
 
 - **la Marseillaise
-	- pour les grandes fêtes civiques
-	- crée > déclaration guerre de la France > empereur d'Autriche composa chez le maire de Strasbourg (Dietrich) un morceau qu'il intitula "Chant de guerre pour l'armée du Rhin"
+	- **quand**: pour les grandes fêtes civiques
+	- **qui**: Claude Joseph Rouget de Lisle
+	- **crée pour**: déclaration guerre de la France > empereur d'Autriche
+	- **où**: chez le maire de Strasbourg (Dietrich) composa un morceau 
+	- **nom**: "Chant de guerre pour l'armée du Rhin"
+
+- **la Marianne
 	- 
