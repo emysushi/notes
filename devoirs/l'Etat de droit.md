@@ -44,5 +44,11 @@
 	- Les distinctions sociales ne peuvent être fondées que sur l'utilité commune.
 
 - **le passeport
-	- 
+	- **définition** :
+		- Pièce certifiant l'identité et la nationalité délivrée > autorité administrative pour lui permettre de se rendre à l'étranger.
+	- **origine** :
+		- mot composé de passe et de port > passage de porte 
+	- **symbole** :
+		- représente un faisceau de licteurs surmonté d'une hache et recouvert d'un bouclier sur lequel sont gravées les initiales RF des branches de chêne et d'olivier entourent le motif. 
+		- Le chêne symbolise la justice, l'olivier la paix
 
