@@ -6,7 +6,7 @@
 	- blanc : la royauté, monarchie
 
 - **la Marseillaise
-	- **quand**: pour les grandes fêtes civiques
+	- **quand**: pour les grandes fêtes national (14 juillet)
 	- **qui**: Claude Joseph Rouget de Lisle
 	- **crée pour**: déclaration guerre de la France > empereur d'Autriche
 	- **où**: chez le maire de Strasbourg (Dietrich) composa un morceau 
