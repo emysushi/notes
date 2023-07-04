@@ -29,6 +29,20 @@
 	- il commence > rattaché à l'idée émergente de Nation française
 	- 15-ème qu’apparait la cocarde (assemblement > plumes ornementales/rubans rappelant > crête de coq b, b, r)
 
-- **déclaration des droits de l'homme
+- **déclaration des droits de l'homme 
+	-  née en 1789  
+	- par la réunion des États Généraux 
+	- et signée à Paris en 1948
+	- composé de 17 articles qui définissent des droits
+		- naturels/imprescriptibles
+		- liberté
+		- propriété
+		- sûreté
+		- résistance à l'oppression
+- ex : **Article premier**
+	- Les hommes naissent et demeurent libres et égaux en droits.
+	- Les distinctions sociales ne peuvent être fondées que sur l'utilité commune.
+
+- **le passeport
 	- 
 

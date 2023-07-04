@@ -295,7 +295,7 @@
       "links": 0
     },
     "devoirs/l'Etat de droit.md": {
-      "size": 2718,
+      "size": 3296,
       "tags": 0,
       "links": 0
     }
@@ -305,7 +305,7 @@
       "Refactor": 122,
       "Create": 98,
       "Link": 52,
-      "Expand": 37
+      "Expand": 38
     }
   },
   "dailyCommits": {
@@ -324,7 +324,7 @@
       "11": 3,
       "12": 4,
       "13": 6,
-      "14": 14,
+      "14": 15,
       "15": 5,
       "16": 84,
       "17": 76,
@@ -339,7 +339,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 37,
-      "Tue": 13,
+      "Tue": 14,
       "Wed": 35,
       "Thu": 174,
       "Fri": 6,
@@ -386,7 +386,8 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>"
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
+        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
