@@ -21,5 +21,7 @@
 	- prendra la place du roi > les monnaies
 
 - **le coq Français
+	- avant certaines pièce était frappées à l’effigie du gallinacé
+	- à la Renaissance le coq est réellement relié à la Gaule
 	- 
 
