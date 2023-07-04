@@ -58,6 +58,4 @@
 
 # états de droit, la constitution
 
-- **la constitution
-	- 
-
+- **
