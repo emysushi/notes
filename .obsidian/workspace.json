@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d32f8ad9f004b714",
+            "id": "1dbcef4876668314",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devoirs/Les Temps Modernes.md",
+                "file": "devoirs/l'Etat de droit.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#les",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/Les Temps Modernes.md",
+                "file": "devoirs/l'Etat de droit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/Les Temps Modernes.md",
+                "file": "devoirs/l'Etat de droit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/Les Temps Modernes.md"
+                "file": "devoirs/l'Etat de droit.md"
               }
             }
           },
@@ -228,10 +228,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "1dbcef4876668314",
   "lastOpenFiles": [
-    "devoirs/la Géographie 2.md",
+    "devoirs/l'Etat de droit.md",
     "devoirs/Les Temps Modernes.md",
+    "devoirs/la Géographie 2.md",
     "devoirs/Les Téléphones.md",
     "devoirs/le bien et le mal.md",
     "devoirs/la Géographie 1.md",
@@ -262,7 +263,6 @@
     "Crypto/Crypto_introduction.md",
     "suivi maman/Français",
     "suivi maman",
-    "README.md",
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",

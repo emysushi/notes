@@ -293,12 +293,17 @@
       "size": 3122,
       "tags": 0,
       "links": 0
+    },
+    "devoirs/l'Etat de droit.md": {
+      "size": 2718,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 120,
-      "Create": 97,
+      "Refactor": 122,
+      "Create": 98,
       "Link": 52,
       "Expand": 37
     }
@@ -315,7 +320,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 2,
+      "10": 5,
       "11": 3,
       "12": 4,
       "13": 6,
@@ -334,7 +339,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 37,
-      "Tue": 10,
+      "Tue": 13,
       "Wed": 35,
       "Thu": 174,
       "Fri": 6,
@@ -384,6 +389,7 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones 1.md\"> Les Téléphones 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
@@ -433,7 +439,6 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -468,7 +473,9 @@
         "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les.md\"> Les </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>"
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
+        "<a class=\"internal-link\" href=\"devoirs/l.md\"> l </a>",
+        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
