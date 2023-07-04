@@ -61,4 +61,4 @@
 - **société = gouvernement
 	- un pouvoir qui oblige tous les individus à obéir aux lois
 	- pas de gouvernement = désordre
-	- 
+	- état : groupe de personne qui on le pouvoir de diriger
