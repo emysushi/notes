@@ -33,4 +33,13 @@
 	- lignes de crêtes forment > croissant 
 
 - **les 2 parties du Jura
+	- est > les + hautes altitudes (+ 1000m)
+	- sommet le + élevé sont :
+		- le crêt de la neige (1700 m) difficile à franchir 
+		- col de la faucille (1300 m) proximité > Suisse
+	- la partie ouest est formé de 2 plateaux :
+		- les + hauts entre 500 à 1000 m
+		- les + bas entre 200 à 500 m 
+
+- **les principales rivières
 	- 
