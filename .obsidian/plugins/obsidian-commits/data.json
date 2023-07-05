@@ -298,12 +298,17 @@
       "size": 2514,
       "tags": 0,
       "links": 0
+    },
+    "devoirs/la Géographie 3.md": {
+      "size": 2303,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 123,
-      "Create": 98,
+      "Refactor": 126,
+      "Create": 99,
       "Link": 52,
       "Expand": 39
     }
@@ -325,7 +330,7 @@
       "12": 4,
       "13": 6,
       "14": 15,
-      "15": 7,
+      "15": 11,
       "16": 84,
       "17": 76,
       "18": 90,
@@ -340,7 +345,7 @@
     "/": {
       "Mon": 37,
       "Tue": 16,
-      "Wed": 35,
+      "Wed": 39,
       "Thu": 174,
       "Fri": 6,
       "Sat": 0,
@@ -391,6 +396,7 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones 1.md\"> Les Téléphones 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
@@ -440,7 +446,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
@@ -477,7 +482,10 @@
         "<a class=\"internal-link\" href=\"devoirs/Les.md\"> Les </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"devoirs/l.md\"> l </a>",
-        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
+        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
+        "<a class=\"internal-link\" href=\"devoirs/m.md\"> m </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Géographie 3.md\"> Géographie 3 </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",

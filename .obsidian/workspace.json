@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devoirs/l'Etat de droit.md",
+                "file": "devoirs/la Géographie 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/l'Etat de droit.md",
+                "file": "devoirs/la Géographie 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/l'Etat de droit.md",
+                "file": "devoirs/la Géographie 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/l'Etat de droit.md"
+                "file": "devoirs/la Géographie 3.md"
               }
             }
           },
@@ -231,6 +231,7 @@
   "active": "1dbcef4876668314",
   "lastOpenFiles": [
     "devoirs/l'Etat de droit.md",
+    "devoirs/la Géographie 3.md",
     "devoirs/Les Temps Modernes.md",
     "devoirs/la Géographie 2.md",
     "devoirs/Les Téléphones.md",
@@ -260,7 +261,6 @@
     "Cours/Histoire-Geographie/LES SERRURES🔐.md",
     "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md",
     "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
-    "Crypto/Crypto_introduction.md",
     "suivi maman/Français",
     "suivi maman",
     "Crypto/Training",
