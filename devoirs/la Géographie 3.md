@@ -42,4 +42,17 @@
 		- les + bas entre 200 à 500 m 
 
 - **les principales rivières
-	- 
+	- + rivières prennent leur source > Jura
+	- la principale rivière :
+		- le Doubs (en forme de M)
+		- l'Ain (qui se jette dans le Rhône)
+		- la Seille (prend sa source > partie ouest)
+	- la 1ère partie :
+		- suit > frontière Suisse puis forme la frontière Suisse
+	- la 2ème partie :
+		- forme le haut du M 
+	- la 3ème partie :
+		- coule vers l'ouest > Saône
+
+# les Alpes
+
