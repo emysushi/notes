@@ -34,5 +34,20 @@ L'époque moderne est la période historique qui commence à la fin du Moy
 		- Michel de Montaigne
 
 - **Peinture, sculpture et architecture
-	- Moyen Âge les être humain représentés sur peinture/sculpture > toujours habillés
+	- Moyen Âge : humain représentés sur peinture/sculpture > toujours habillés
+	- les anciens représenter les corps nus > montrer la beauté de la nature humaine
+	- Renaissance : peintres et sculpteur les imitèrent
+	- France : s'inspira > architecture italienne
+	- on bâtit de monuments :
+		- beaux
+		- grands
+		- très décorés
+
+- **grands peintres en Italie :
+	- Raphaël et Michel ange (à 2)
+	- (la chapelle sixtine, fresques des apparts des papes)
+	- Léonard de Vinci (la Joconde)
+	- Titien (paysages)
+
+- **musique
 	- 
