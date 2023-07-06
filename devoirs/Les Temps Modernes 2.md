@@ -27,7 +27,7 @@ L'époque moderne est la période historique qui commence à la fin du Moy
 	- Europe > grands poètes :
 		- Tasse
 		- Pléiade
-		- Joachim du  Bellay
+		- Joachim du Bellay
 		- Pierre de Ronsard
 	- > grands écrivains :
 		- François Rabelais (livre drôle)
@@ -52,4 +52,8 @@ L'époque moderne est la période historique qui commence à la fin du Moy
 - **musique
 	- développa > polyphonie (usage simultané harmonieux de voix diff.)
 	- maitres de musique religieuse :
-		- 
+		- Palestrina
+		- Joaquin Des Près
+	- maitres de la musique profane :
+		- Clément Janequin
+		- Jaques Mauduit
