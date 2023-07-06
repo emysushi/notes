@@ -50,4 +50,4 @@ L'époque moderne est la période historique qui commence à la fin du Moy
 	- Titien (paysages)
 
 - **musique
-	- 
+	- on développa > polyphonie
