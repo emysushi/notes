@@ -305,14 +305,14 @@
       "links": 0
     },
     "devoirs/Les Temps Modernes 2.md": {
-      "size": 3182,
+      "size": 2024,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 127,
+      "Refactor": 128,
       "Create": 100,
       "Link": 52,
       "Expand": 39
@@ -341,7 +341,7 @@
       "18": 90,
       "19": 13,
       "20": 2,
-      "21": 7,
+      "21": 8,
       "22": 0,
       "23": 0
     }
@@ -351,7 +351,7 @@
       "Mon": 37,
       "Tue": 16,
       "Wed": 39,
-      "Thu": 176,
+      "Thu": 177,
       "Fri": 6,
       "Sat": 0,
       "Sun": 44
@@ -524,7 +524,8 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
-        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
+        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",

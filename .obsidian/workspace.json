@@ -8,27 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1dbcef4876668314",
+            "id": "6b6241b0e77316a2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devoirs/Les Temps Modernes 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e1911c2f580d279",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devoirs/la Géographie 2.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -126,7 +110,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/Les Temps Modernes 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +126,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/Les Temps Modernes 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,9 +147,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "devoirs/Les Temps Modernes 2.md"
-              }
+              "state": {}
             }
           },
           {
@@ -240,13 +220,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1dbcef4876668314",
+  "active": "6b6241b0e77316a2",
   "lastOpenFiles": [
-    "devoirs/Les Temps Modernes.md",
-    "devoirs/Les Temps Modernes 2.md",
-    "devoirs/l'Etat de droit.md",
     "devoirs/la Géographie 3.md",
     "devoirs/la Géographie 2.md",
+    "devoirs/Les Temps Modernes 2.md",
+    "devoirs/Les Temps Modernes.md",
+    "devoirs/l'Etat de droit.md",
     "devoirs/la Géographie 1.md",
     "devoirs/Les Téléphones.md",
     "devoirs/le bien et le mal.md",

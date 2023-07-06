@@ -57,3 +57,10 @@ L'époque moderne est la période historique qui commence à la fin du Moy
 	- maitres de la musique profane :
 		- Clément Janequin
 		- Jaques Mauduit
+
+- **Charles Quint (souverain aux 17 couronnes)
+	- 1519 : élu empereur > saint empire romain germanique 
+	- veut assurer l'unité catholique du continent (l'Europe chrétienne)
+	- 1525 : affronte François 1er > bataille de pavie (Italie) 
+	- affronte > empire turc (Soliman le magnifique)
+	- 55 ans : mort du diabète et de la malaria 
