@@ -2,4 +2,4 @@ L'époque moderne est la période historique qui commence à la fin du Moy
 
 # la renaissance
 
-la redécouverte de la pensée et des arts de l'Antiquité grecque/latine 
+la redécouverte de la pensée et des arts de l'Antiquité grecque/latine      > européens (15ème)
