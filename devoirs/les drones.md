@@ -17,5 +17,15 @@
 	- > équilibre leur force de rotation
 	- planer > 4 tournent à la même vitesse 
 
-- **tourner (à gauche)
-	- 
+- **tourner 
+	- à gauche : 
+		- les hélices tournant > sens d'une horloge s'accélèrent
+	- à droite :
+		- les hélices tournant > sens inverse d'une horloge s'accélèrent
+
+- **un Quadcoptère
+	- équipé d'un GPS 
+	- contrôleur de vol
+	- régulateur de vitesse 
+	- système émetteur /récepteur de commande
+
