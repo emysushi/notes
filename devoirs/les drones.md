@@ -56,4 +56,13 @@
 		- la plupart sont aériens, mais le terme désigne aussi les appareils sans pilote utilisés > effectuer des recherches sous-marine
 
 - **les 1er drones 
-	- 
+	- ont étaient des avions sans pilote faisant office de torpilles aérienne durant la 1ère guerre mondiale
+
+- **les composant
+	- caméra numérique
+	- récepteur GPS
+	- vidéo transmetteur
+	- hélices (4)
+	- moteur électrique
+	- train d'atterrissage
+
