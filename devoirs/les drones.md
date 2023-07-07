@@ -44,4 +44,13 @@
 	- surveillance :
 		- prennent des photos aériennes > cartographier les sites + vite que les méthodes traditionnels 
 	- militaire :
-		- 
+		- lancés depuis des sites très éloignés sont utilisé > surveillance, collecte d'infos et attaque sans risque > pilote
+	- en cas de sinistre :
+		- équipements médicaux et médicaments > être livrés par drones lorsque les transports terrestres > peu pratiques
+	- recherche et secours :
+		- certains sont utilisés lors de missions de recherche et secours
+		- ils peuvent livrer des équipements > endroits difficiles d'accès
+	- livraison :
+		- les sociétés de livraison ont commencé à tester les drones pour livrer des paquets (-20 kg)
+	- exploration :
+		- la pluparts sont aeriens mais le terme désigne 
