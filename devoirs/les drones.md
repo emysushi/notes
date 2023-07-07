@@ -31,4 +31,15 @@
 
 # utilisation des drones
 
-la capacité de décoller
+- **la capacité de 
+	- décoller/atterrir partout
+	- planer en un point fixe
+	- large gamme d'applications
+	- photographier et filmer en direct
+	- évaluer les cultures
+	- cartographier
+	- surveiller et protéger
+
+- **les applications
+	- surveillance :
+		- 
