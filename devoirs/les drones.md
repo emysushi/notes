@@ -42,4 +42,4 @@
 
 - **les applications
 	- surveillance :
-		- 
+		- prennent des photos aériennes > cartographier les sites + vite
