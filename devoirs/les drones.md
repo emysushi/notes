@@ -29,3 +29,6 @@
 	- régulateur de vitesse 
 	- système émetteur /récepteur de commande
 
+# utilisation des drones
+
+la capacité de décoller
