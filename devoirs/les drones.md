@@ -42,4 +42,6 @@
 
 - **les applications
 	- surveillance :
-		- prennent des photos aériennes > cartographier les sites + vite
+		- prennent des photos aériennes > cartographier les sites + vite que les méthodes traditionnels 
+	- militaire :
+		- 
