@@ -308,12 +308,17 @@
       "size": 2024,
       "tags": 0,
       "links": 0
+    },
+    "devoirs/les drones.md": {
+      "size": 8129,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 128,
-      "Create": 100,
+      "Refactor": 129,
+      "Create": 101,
       "Link": 52,
       "Expand": 39
     }
@@ -330,7 +335,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 7,
+      "10": 9,
       "11": 3,
       "12": 4,
       "13": 6,
@@ -352,7 +357,7 @@
       "Tue": 16,
       "Wed": 39,
       "Thu": 177,
-      "Fri": 6,
+      "Fri": 8,
       "Sat": 0,
       "Sun": 44
     }
@@ -401,6 +406,7 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones 1.md\"> Les Téléphones 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 1.md\"> Les Temps Modernes 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
@@ -450,8 +456,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>",
@@ -491,7 +496,8 @@
         "<a class=\"internal-link\" href=\"devoirs/m.md\"> m </a>",
         "<a class=\"internal-link\" href=\"devoirs/Géographie 3.md\"> Géographie 3 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>"
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>",
+        "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",

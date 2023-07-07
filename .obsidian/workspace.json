@@ -11,8 +11,12 @@
             "id": "6b6241b0e77316a2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "devoirs/les drones.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -110,6 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "devoirs/les drones.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "devoirs/les drones.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +153,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "devoirs/les drones.md"
+              }
             }
           },
           {
@@ -222,6 +230,7 @@
   },
   "active": "6b6241b0e77316a2",
   "lastOpenFiles": [
+    "devoirs/les drones.md",
     "devoirs/la Géographie 3.md",
     "devoirs/la Géographie 2.md",
     "devoirs/Les Temps Modernes 2.md",
@@ -252,7 +261,6 @@
     "Feedback_Liste.md",
     "histoire.md",
     "Cours/Histoire-Geographie/LES SERRURES🔐.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md",
     "suivi maman/Français",
     "suivi maman",
     "Crypto/Training",
