@@ -310,14 +310,14 @@
       "links": 0
     },
     "devoirs/les drones.md": {
-      "size": 8129,
+      "size": 2040,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 129,
+      "Refactor": 130,
       "Create": 101,
       "Link": 52,
       "Expand": 39
@@ -343,7 +343,7 @@
       "15": 11,
       "16": 84,
       "17": 76,
-      "18": 90,
+      "18": 91,
       "19": 13,
       "20": 2,
       "21": 8,
@@ -357,7 +357,7 @@
       "Tue": 16,
       "Wed": 39,
       "Thu": 177,
-      "Fri": 8,
+      "Fri": 9,
       "Sat": 0,
       "Sun": 44
     }
@@ -531,7 +531,8 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>"
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>",
+        "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
