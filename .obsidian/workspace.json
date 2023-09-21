@@ -109,7 +109,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "de72a87206515b52",
@@ -218,7 +219,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-advanced-slides:Show Slide Preview": false,
       "templates:Insérer le modèle": false,
       "obsidian-gallery:Gallery": false,
@@ -236,7 +236,8 @@
       "obsidian-textgenerator-plugin:Generate Text!": false,
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "04f25548e393e05f",
