@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "04f25548e393e05f",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +105,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -228,7 +239,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "04f25548e393e05f",
   "lastOpenFiles": [
     "devoirs/les drones.md",
     "devoirs/la Géographie 3.md",
