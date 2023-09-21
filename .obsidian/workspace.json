@@ -23,24 +23,12 @@
             "id": "04f25548e393e05f",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
-              }
-            }
-          },
-          {
-            "id": "944b5a5055ea171f",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -119,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 390.5038261413574
   },
   "right": {
     "id": "de72a87206515b52",
@@ -234,7 +222,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -259,7 +248,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "944b5a5055ea171f",
+  "active": "04f25548e393e05f",
   "lastOpenFiles": [
     "devoirs/les drones.md",
     "devoirs/la Géographie 3.md",
