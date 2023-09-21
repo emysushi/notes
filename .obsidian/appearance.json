@@ -4,7 +4,7 @@
   "cssTheme": "Typomagical",
   "interfaceFontFamily": "Candara",
   "textFontFamily": "Candara",
-  "baseFontSize": 18,
+  "baseFontSize": 13,
   "enabledCssSnippets": [
     "tableStyles",
     "timeline-snippet"
