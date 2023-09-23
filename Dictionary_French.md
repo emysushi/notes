@@ -3,8 +3,7 @@
 ```dataview
 TABLE WITHOUT ID
 	link(file.link, title) as Ref,
-	term_fr,
-	term_en
+	domain
 	
 FROM #dictionary 
 WHERE !contains(file.path, "Template") and term_language=#french
