@@ -276,13 +276,21 @@
               "type": "Birthday-Tracker",
               "state": {}
             }
+          },
+          {
+            "id": "e36b765cb6446f46",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
-    "width": 212.5
+    "width": 559.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -307,10 +315,11 @@
       "header-enhancer:Header Enhancer": false,
       "birthday-tracker:Track birthdays": false,
       "homepage:Open homepage": false,
-      "juggl:Juggl global graph": false
+      "juggl:Juggl global graph": false,
+      "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "8fc2bbb32a805071",
+  "active": "e36b765cb6446f46",
   "lastOpenFiles": [
     "devoirs/study_bien et le mal.md",
     "Dictionary/intriguer.md",

@@ -74,5 +74,7 @@
   "d2-obsidian",
   "obsidian-trello",
   "homepage",
-  "juggl"
+  "juggl",
+  "obsidian-dictionary-plugin",
+  "obsidian-wordnet-plugin"
 ]
