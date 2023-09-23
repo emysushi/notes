@@ -48,6 +48,7 @@ SORT Domain DESC, Type ASC
 ```
 
 
+## 1.4	Liste des lectures
 
 ```dataview
 TABLE WITHOUT ID
@@ -57,8 +58,6 @@ TABLE WITHOUT ID
 	author as Author,
 	join(list(publisher, publish)) as Publisher,
 	created as Date
-
-WHERE Tags = "Book"
-
+FROM "#Book"
 SORT status DESC, file.ctime ASC
 ```
