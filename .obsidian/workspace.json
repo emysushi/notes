@@ -48,18 +48,6 @@
             }
           },
           {
-            "id": "ca097779edf6149c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Francais/feedback_2023-05-23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5b11fd7714adc2d5",
             "type": "leaf",
             "pinned": true,
@@ -72,9 +60,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "1dd6f8bced026338",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-study.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -161,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Francais/feedback_2023-05-23.md",
+                "file": "Template/tpl-study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Francais/feedback_2023-05-23.md",
+                "file": "Template/tpl-study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Francais/feedback_2023-05-23.md"
+                "file": "Template/tpl-study.md"
               }
             }
           },
@@ -313,15 +313,26 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "ca097779edf6149c",
+  "active": "1dd6f8bced026338",
   "lastOpenFiles": [
+    "Template/tpl-livre.md",
+    "Template/tpl-lesson.md",
     "Template/tpl-feedback.md",
+    "Dictionary_English.md",
+    "Dictionary_French.md",
+    "Dictionary/civilisation.md",
+    "Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
+    "Histoire-Geographie/Feedback_2023-04-17.md",
+    "Francais/Suivi_Maman.md",
+    "Francais/fiche_Les voyages de Gulliver.md",
+    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+    "Francais/fiche_L'Enfant multiple.md",
+    "Template/tpl-study.md",
     "Francais/feedback_2023-05-23.md",
     "Emc/study_Etat de droit.md",
     "Emc/study_bien et le mal.md",
     "Histoire-Geographie/study_ Temps Modernes.md",
     "devoirs/Les Temps Modernes 2.md",
-    "Template/tpl-study.md",
     "Technologie/study_Les Téléphones.md",
     "Technologie/study_les drones.md",
     "Histoire-Geographie/study_Géographie.md",
@@ -330,17 +341,7 @@
     "Dictionary/blasheme.md",
     "Dictionary/intriguer.md",
     "Home.md",
-    "Dictionary/substituer.md",
-    "Dictionary_French.md",
-    "Dictionary/stylo.md",
     "Emc",
-    "Technologie/Dossier signaux radio.md",
-    "Technologie/Dossier_serrures.md",
-    "Template/tpl-block-timeline.md",
-    "Crypto/Sans titre.md",
-    "Chinois/Home.md",
-    "Template/tpl-test.md",
-    "Template/tpl-dictionary.md",
     "Dictionary",
     "Banner/biblio.jpeg",
     "devoirs/Sans titre",

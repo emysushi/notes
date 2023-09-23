@@ -131,7 +131,7 @@
     },
     "Francais/feedback_2023-05-23.md": {
       "size": 0,
-      "tags": 1,
+      "tags": 0,
       "links": 0
     },
     "Technologie/LES SERRURES🔐.md": {
@@ -235,17 +235,17 @@
       "links": 0
     },
     "Histoire-Geographie/study_ Temps Modernes.md": {
-      "size": 3122,
+      "size": 5496,
       "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 238,
+      "Refactor": 239,
       "Create": 128,
       "Link": 77,
-      "Expand": 42
+      "Expand": 43
     }
   },
   "dailyCommits": {
@@ -268,7 +268,7 @@
       "15": 45,
       "16": 97,
       "17": 122,
-      "18": 109,
+      "18": 111,
       "19": 13,
       "20": 2,
       "21": 8,
@@ -284,7 +284,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 207
+      "Sun": 209
     }
   },
   "recentCommits": {
@@ -331,7 +331,8 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/study_Géographie.md\"> study_Géographie </a>",
-        "<a class=\"internal-link\" href=\"Technologie/study_les drones.md\"> study_les drones </a>"
+        "<a class=\"internal-link\" href=\"Technologie/study_les drones.md\"> study_les drones </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/study_ Temps Modernes.md\"> study_ Temps Modernes </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"Dictionary/blashee.md\"> blashee </a>",
@@ -600,7 +601,8 @@
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
-        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>"
+        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
+        "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>"
       ],
       "Removed Links from": []
     }
