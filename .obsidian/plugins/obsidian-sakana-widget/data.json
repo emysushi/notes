@@ -1,4 +1,9 @@
 {
-  "widgets": [],
+  "widgets": [
+    {
+      "name": "Widget 1",
+      "url": "https://www.freepng.fr/png-ufx71k/"
+    }
+  ],
   "lastWidget": "chisato"
 }

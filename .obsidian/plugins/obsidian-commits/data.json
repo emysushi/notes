@@ -84,11 +84,6 @@
       "tags": 3,
       "links": 0
     },
-    "controle_feedback.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "Template/tpl-feedback.md": {
       "size": 1500,
       "tags": 1,
@@ -258,11 +253,16 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Francais/feedback_2023-05-23.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 170,
+      "Refactor": 172,
       "Create": 102,
       "Link": 52,
       "Expand": 39
@@ -282,7 +282,7 @@
       "9": 0,
       "10": 48,
       "11": 5,
-      "12": 4,
+      "12": 6,
       "13": 6,
       "14": 15,
       "15": 11,
@@ -304,7 +304,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 85
+      "Sun": 87
     }
   },
   "recentCommits": {
@@ -404,6 +404,8 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
+        "<a class=\"internal-link\" href=\"feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
         "<a class=\"internal-link\" href=\"birthdayNode.md\"> birthdayNode </a>",
         "<a class=\"internal-link\" href=\"Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>",
@@ -452,9 +454,7 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
         "<a class=\"internal-link\" href=\"devoirs/m.md\"> m </a>",
         "<a class=\"internal-link\" href=\"devoirs/Géographie 3.md\"> Géographie 3 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",

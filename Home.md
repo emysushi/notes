@@ -1,12 +1,38 @@
 
 
-
-
-## 0.1	Lis
+# 1	Home
 
 
 
-## 0.2	List of all feedback
+## 1.1	Dernières notes
+
+```dataview
+TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified" 
+FROM "" -"Templates"
+SORT file.mtime 
+DESC LIMIT 5
+```
+
+
+## 1.2	Liste des dossiers
+
+```dataview
+TABLE WITHOUT ID
+	domaine as Domaine,
+	link(file.link, title) as Title,
+	status as Status,
+	created as DateCreated,
+	duedate as DueDate
+	
+FROM #dossier
+WHERE !contains(file.path, "Template") 
+SORT domaine ASC, status DESC, file.ctime ASC
+```
+
+
+
+
+## 1.3	Liste des Feedback
 
 ```dataview
 TABLE WITHOUT ID

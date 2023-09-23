@@ -57,6 +57,7 @@
   "openMapMiddleClickBehavior": "dedicatedTab",
   "newNoteNameFormat": "Location added on {{date:YYYY-MM-DD}}T{{date:HH-mm}}",
   "showNoteNamePopup": true,
+  "showLinkNameInPopup": "mobileOnly",
   "showNotePreview": true,
   "showClusterPreview": false,
   "debug": false,
@@ -76,6 +77,12 @@
     {
       "name": "Generic Lat,Lng",
       "regExp": "([0-9\\.\\-]+), ([0-9\\.\\-]+)",
+      "ruleType": "latLng",
+      "preset": true
+    },
+    {
+      "name": "Geolocation Link",
+      "regExp": "\\[.*\\]\\(geo:([0-9\\.\\-]+),([0-9\\.\\-]+)\\)",
       "ruleType": "latLng",
       "preset": true
     }
@@ -100,5 +107,12 @@
   "letZoomBeyondMax": false,
   "queryForFollowActiveNote": "path:\"$PATH$\"",
   "supportRealTimeGeolocation": false,
-  "fixFrontMatterOnPaste": true
+  "fixFrontMatterOnPaste": true,
+  "geoHelperType": "url",
+  "geoHelperCommand": "chrome",
+  "geoHelperUrl": "https://esm7.github.io/obsidian-geo-helper/",
+  "handleGeolinksInNotes": true,
+  "showGeolinkPreview": false,
+  "zoomOnGeolinkPreview": 10,
+  "routingUrl": "https://www.google.com/maps/dir/?api=1&origin={x0},{y0}&destination={x1},{y1}"
 }

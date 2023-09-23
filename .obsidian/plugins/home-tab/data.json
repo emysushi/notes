@@ -14,7 +14,7 @@
   "fontWeight": 600,
   "maxResults": 5,
   "showStarredFiles": false,
-  "showRecentFiles": false,
+  "showRecentFiles": true,
   "maxRecentFiles": 5,
   "storeRecentFile": true,
   "showPath": true,
@@ -24,14 +24,30 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Sans titre.md",
+      "filepath": "Home.md",
+      "timestamp": 1695464326864
+    },
+    {
+      "filepath": "Dossier_Liste.md",
+      "timestamp": 1695464314428
+    },
+    {
+      "filepath": "Bibliotheque_Liste.md",
+      "timestamp": 1695464311706
+    },
+    {
+      "filepath": "Francais/feedback_2023-05-23.md",
+      "timestamp": 1695464242649
+    },
+    {
+      "filepath": "birthdayNode.md",
       "timestamp": 1695462966880
     }
   ],
   "starredFileStore": [],
   "searchDelay": 0,
-  "replaceNewTabs": true,
-  "newTabOnStart": false,
+  "replaceNewTabs": false,
+  "newTabOnStart": true,
   "closePreviousSessionTabs": false,
   "omnisearch": false
 }

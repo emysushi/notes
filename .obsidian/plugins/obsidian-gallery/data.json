@@ -1,5 +1,5 @@
 {
-  "imgDataFolder": null,
+  "imgDataFolder": "Gallery",
   "galleryLoadPath": "",
   "width": 400,
   "reverseDisplay": true
