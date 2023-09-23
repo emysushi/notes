@@ -261,13 +261,13 @@
     },
     "Dictionary/velo.md": {
       "size": 65,
-      "tags": 2,
+      "tags": 1,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 193,
+      "Refactor": 194,
       "Create": 111,
       "Link": 61,
       "Expand": 39
@@ -290,7 +290,7 @@
       "12": 15,
       "13": 6,
       "14": 15,
-      "15": 41,
+      "15": 42,
       "16": 84,
       "17": 76,
       "18": 91,
@@ -309,7 +309,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 126
+      "Sun": 127
     }
   },
   "recentCommits": {
@@ -602,7 +602,8 @@
         "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
-        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>"
       ],
       "Removed Links from": []
     }
