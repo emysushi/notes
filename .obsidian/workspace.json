@@ -22,61 +22,19 @@
             }
           },
           {
-            "id": "82ff75d69122b48d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-study.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "5b11fd7714adc2d5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-feedback.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "1dd6f8bced026338",
+            "id": "ba611db77aebbcee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "birthdayNode.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "3c81a86338d60831",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template/tpl-lesson.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "birthdayNode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "birthdayNode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-study.md"
+                "file": "birthdayNode.md"
               }
             }
           },
@@ -282,12 +240,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
-    "width": 490.5,
-    "collapsed": true
+    "width": 490.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -316,8 +273,10 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "1dd6f8bced026338",
+  "active": "ba611db77aebbcee",
   "lastOpenFiles": [
+    "Home.md",
+    "Template/tpl-study.md",
     "Template/tpl-livre.md",
     "Template/tpl-lesson.md",
     "Template/tpl-feedback.md",
@@ -342,8 +301,6 @@
     "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
     "Francais/fiche_L'Enfant multiple.md",
     "Francais/feedback_2023-05-23.md",
-    "Anglais/Verbes.md",
-    "Anglais/Les Ecrants et les Routines.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",

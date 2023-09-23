@@ -1,6 +1,6 @@
 {
   "settings": {
-    "token": "aef6bf2a2a0a3a818c51de44648bf9af",
+    "token": "ATTA0a209592555ca89eeb6e37c32d06b1a477db0d7d74de3f3a6ad4a9d2a89714f23E18922F",
     "customUi": {
       "global": {
         "checklists": true,
@@ -19,5 +19,10 @@
   },
   "version": "1.6.0",
   "firstRun": false,
-  "connectedCards": {}
+  "connectedCards": {
+    "nTApDpzAc-zwsKTIL5hhv": {
+      "cardId": "64fe08bc63bc153395eb9818",
+      "boardId": "63722ae807d5fd02b2b92859"
+    }
+  }
 }
