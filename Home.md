@@ -43,7 +43,7 @@ TABLE WITHOUT ID
 	note as Note,
 	status as Status
 FROM #feedback
-WHERE contains(file.name, "Feedback_")
+
 SORT Domain DESC, Type ASC
 ```
 

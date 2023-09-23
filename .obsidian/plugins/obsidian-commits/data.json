@@ -44,25 +44,10 @@
       "tags": 1,
       "links": 0
     },
-    "Histoire-Geographie/Feedback_2023-04-17.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
-    "Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md": {
-      "size": 2126,
-      "tags": 10,
-      "links": 0
-    },
     "Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": {
       "size": 3800,
       "tags": 3,
       "links": 0
-    },
-    "Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
-      "size": 21057,
-      "tags": 45,
-      "links": 1
     },
     "Mathematiques/Home.md": {
       "size": 99,
@@ -238,13 +223,33 @@
       "size": 5496,
       "tags": 0,
       "links": 0
+    },
+    "Dictionary/civilisation.md": {
+      "size": 249,
+      "tags": 4,
+      "links": 0
+    },
+    "Histoire-Geographie/feedback_2023-04-17.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Histoire-Geographie/lesson_Histoire_MoyenAge.md": {
+      "size": 21057,
+      "tags": 45,
+      "links": 2
+    },
+    "Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md": {
+      "size": 2126,
+      "tags": 10,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 239,
-      "Create": 128,
-      "Link": 77,
+      "Refactor": 243,
+      "Create": 129,
+      "Link": 79,
       "Expand": 43
     }
   },
@@ -268,7 +273,7 @@
       "15": 45,
       "16": 97,
       "17": 122,
-      "18": 111,
+      "18": 118,
       "19": 13,
       "20": 2,
       "21": 8,
@@ -284,7 +289,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 209
+      "Sun": 216
     }
   },
   "recentCommits": {
@@ -335,6 +340,7 @@
         "<a class=\"internal-link\" href=\"Histoire-Geographie/study_ Temps Modernes.md\"> study_ Temps Modernes </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
         "<a class=\"internal-link\" href=\"Dictionary/blashee.md\"> blashee </a>",
         "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
@@ -384,10 +390,12 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Bibliotheque_Liste 1.md\"> Bibliotheque_Liste 1 </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md\"> lesson_Histoire-Geographie_inegal_developpement </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/feedback_2023-04-17.md\"> feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/study_ Temps Modernes.md\"> study_ Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_ Temps Modernes.md\"> study_ Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_Les Téléphones.md\"> study_Les Téléphones </a>",
@@ -435,10 +443,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔒.md\"> LES SERRURES🔒 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>",
-        "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -484,7 +489,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>"
+        "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -582,7 +588,8 @@
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
-        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>"
+        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
@@ -602,7 +609,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
-        "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>"
+        "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>"
       ],
       "Removed Links from": []
     }
