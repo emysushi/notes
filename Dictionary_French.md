@@ -4,12 +4,12 @@
 TABLE WITHOUT ID
 	link(file.link, title) as French,
 	domain,
-	term_translate as English
+	term_translate as English,
+	substring(French, 0, 2)
 	
 FROM #dictionary 
 WHERE !contains(file.path, "Template") and term_language = "#french"
 SORT term_fr asc
-GROUP BY substring(file.link, 0, 1)
 ```
 
 
