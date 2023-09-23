@@ -2,6 +2,7 @@
 
 type:: #dictionary
 term:: velo
-term_lang:: #french
-definition:: NA
+term_fr:: 
+term_en:: bike
+
 
