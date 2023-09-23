@@ -2,7 +2,8 @@
 
 **type**:: #dictionary 
 
-- domain:: #general
+- domain:: #general 
+
 ++++++++
 - **term**:: velo
 - **term_language**:: #french
