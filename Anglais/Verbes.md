@@ -1,5 +1,7 @@
 
 tags : #Anglais
+
+
 | Anglais      | Français             |
 |--------------|----------------------|
 | accept       | accepter             |
@@ -207,16 +209,16 @@ tags : #Anglais
 les verbes suivis de (*) sont des verbes irréguliers.
 
 
-# Verbes irréguliers
+# 1	Verbes irréguliers
 
-## Qu'est-ce qu'un verbe irrégulier ?
+## 1.1	Qu'est-ce qu'un verbe irrégulier ?
 
 Il s'agit d'un verbe qui ne suit pas le schéma commun de conjugaison.  
 La langue anglaise possède au moins 200 verbes irréguliers.  
 Pour vous rappeler, pour conjuguer un verbe au passé en anglais, il faut ajouter "**ed**" à la fin.
 
 
-## Liste
+## 1.2	Liste
 
 - La première colonne correspond à **l’infinitif** en anglais. On distingue l’infinitif grâce à « To » comme « To buy » ou encore « To dive ».
 - La deuxième colonne correspond au **prétérit** du verbe. C’est lorsque l’action s’est déroulée dans le passé et qu'elle est terminé.
