@@ -4,7 +4,7 @@
 - **type**:: #study
 - **domain**:: #Histoire-Geographie 
 - **title**:: Geographie
-- **level**:: #college_4
+- **level**:: #college_5
 - **status**:: inprogress
 - **created**:: 
 - **updated**:: 

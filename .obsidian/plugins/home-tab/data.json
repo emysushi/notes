@@ -24,20 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Home.md",
-      "timestamp": 1695487409599
+      "filepath": "Template/tpl-study.md",
+      "timestamp": 1695487564746
     },
     {
-      "filepath": "Dictionary_French.md",
-      "timestamp": 1695487397367
+      "filepath": "Template/tpl-livre.md",
+      "timestamp": 1695487562749
     },
     {
-      "filepath": "birthdayNode.md",
-      "timestamp": 1695487393402
+      "filepath": "Template/tpl-lesson.md",
+      "timestamp": 1695487561437
     },
     {
-      "filepath": "Technologie/lesson_Technologie_materiaux_evolution.md",
-      "timestamp": 1695487390181
+      "filepath": "Template/tpl-feedback.md",
+      "timestamp": 1695487558686
+    },
+    {
+      "filepath": "Template/tpl-dictionary.md",
+      "timestamp": 1695487556190
     }
   ],
   "starredFileStore": [],

@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Template/tpl-study.md",
                 "mode": "source",
                 "source": false
               }
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Template/tpl-study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Template/tpl-study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Template/tpl-study.md"
               }
             }
           },
@@ -286,7 +286,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 490.5
+    "width": 490.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -315,34 +316,34 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "1dd6f8bced026338",
   "lastOpenFiles": [
-    "README.md",
-    "Home.md",
-    "Dictionary_French.md",
-    "birthdayNode.md",
-    "Technologie/lesson_Technologie_materiaux_evolution.md",
-    "Technologie/Home.md",
-    "Technologie/study_serrures.md",
-    "Technologie/study_serrures.md",
+    "Template/tpl-livre.md",
     "Template/tpl-lesson.md",
-    "Template/tpl-study.md",
+    "Template/tpl-feedback.md",
+    "Template/tpl-dictionary.md",
+    "Template/tpl-crypto.md",
     "Technologie/study_signaux radio.md",
+    "Technologie/study_serrures.md",
+    "Technologie/study_Les Téléphones.md",
+    "Technologie/study_les drones.md",
+    "Technologie/lesson_Technologie_materiaux_evolution.md",
     "Svt/lesson_Besoins des cellules animales🍗.md",
-    "Physique-Chimie/lesson_MASSE & VOLUME.md",
     "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
+    "Physique-Chimie/lesson_MASSE & VOLUME.md",
     "Histoire-Geographie/study_Géographie.md",
-    "Musique/Home.md",
-    "Mathematiques/Home.md",
     "Histoire-Geographie/study_ Temps Modernes.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "Histoire-Geographie/feedback_2023-04-17.md",
+    "Francais/Suivi_Maman.md",
     "Francais/fiche_Les voyages de Gulliver.md",
-    "Template/tpl-livre.md",
-    "Template/tpl-feedback.md",
-    "Dictionary_English.md",
+    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+    "Francais/fiche_L'Enfant multiple.md",
+    "Francais/feedback_2023-05-23.md",
+    "Anglais/Verbes.md",
+    "Anglais/Les Ecrants et les Routines.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",

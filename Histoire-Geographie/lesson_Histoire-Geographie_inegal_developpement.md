@@ -4,7 +4,7 @@
 - **type**:: #lesson
 - **domain**:: #Histoire-Geographie
 - **title**:: inegalies_richesse
-- **level**:: #college_4
+- **level**:: #college_5
 - **status**:: done
 - **created**:: 2023-03-26 17:15:32
 - **updated**:: 2023-03-26 17:15:32
