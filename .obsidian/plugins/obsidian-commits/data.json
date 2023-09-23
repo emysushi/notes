@@ -166,7 +166,7 @@
     },
     "Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
       "size": 21057,
-      "tags": 50,
+      "tags": 46,
       "links": 1
     },
     "Mathematiques/Home.md": {
@@ -247,7 +247,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 178,
+      "Refactor": 179,
       "Create": 102,
       "Link": 55,
       "Expand": 39
@@ -270,7 +270,7 @@
       "12": 15,
       "13": 6,
       "14": 15,
-      "15": 11,
+      "15": 12,
       "16": 84,
       "17": 76,
       "18": 91,
@@ -289,7 +289,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 96
+      "Sun": 97
     }
   },
   "recentCommits": {
@@ -573,7 +573,8 @@
         "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
-        "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
+        "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>"
       ],
       "Removed Links from": []
     }

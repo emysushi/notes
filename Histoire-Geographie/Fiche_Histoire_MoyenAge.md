@@ -421,11 +421,11 @@ ceremonie d'adoubement
 - corvée : 
 - chemin-de-ronde :  voie aménagée en position sommitale, en saillie d’une muraille, d’une courtine ou de tours d’une fortification. Destiné à la circulation des sentinelles, il est généralement protégé par un parapet crénelé et équipé de hourds ou de machicoulis .
 - donjon :  tour la plus haute d'un château fort au Moyen Âge, destinée à servir à la fois de point d'observation, de poste de tir et de dernier refuge si le reste de la fortification vient à être pris par un ennemi.
-- #douve : fossé rempli d’eau et entourant des châteaux, des bâtiments importants ou encore des villes fortifiées.
-- #écu : 
-- #ecuelle : 
-- #écuyer :  à l'origine, un gentilhomme ou un anobli qui accompagne un chevalier et porte son écu. De là, écuyer a été employé comme titre pour un jeune homme qui se prépare à devenir chevalier par adoubement. 
-- #entremet : L'entremets est un mets servi entre deux autres plats, d'où son nom. Au fil du temps, il est devenu de plus en plus sucré au point de remplacer parfois le dessert
+- douve : fossé rempli d’eau et entourant des châteaux, des bâtiments importants ou encore des villes fortifiées.
+- écu : 
+- ecuelle : 
+- écuyer :  à l'origine, un gentilhomme ou un anobli qui accompagne un chevalier et porte son écu. De là, écuyer a été employé comme titre pour un jeune homme qui se prépare à devenir chevalier par adoubement. 
+- entremet : L'entremets est un mets servi entre deux autres plats, d'où son nom. Au fil du temps, il est devenu de plus en plus sucré au point de remplacer parfois le dessert
 - #étrier : 
 - #gibets : 
 - #haubert ( #cotte-de-maille ) : 
