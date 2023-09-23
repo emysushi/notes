@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FicheLecture/fiche_Les voyages de Gulliver.md"
+                "file": "Home.md"
               }
             }
           },
@@ -230,20 +230,28 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "6b6241b0e77316a2",
   "lastOpenFiles": [
+    "README.md",
+    "Home.md",
+    "histoire.md",
+    "Dossier_Liste.md",
+    "controle_feedback.md",
+    "Bibliotheque_Liste.md",
+    "Template/tpl-feedback.md",
+    "Technologie/Fiche_Technologie_materiaux_evolution.md",
+    "Template/tpl-empty.md",
+    "Template/tpl-dossier.md",
+    "Francais/Suivi_Maman.md",
+    "Francais/Home.md",
+    "Francais/fiche_Les voyages de Gulliver.md",
     "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
     "Francais/fiche_L'Enfant multiple.md",
-    "FicheLecture/fiche_Les voyages de Gulliver.md",
     "Template/tpl-livre.md",
     "devoirs/l'Etat de droit.md",
     "Anglais/Dossier_massachusset.md",
-    "Dossier_Liste.md",
     "Sans titre.md",
-    "controle_feedback.md",
-    "Bibliotheque_Liste.md",
     "().md",
-    "suivi maman/FRANCAIS.md",
     "Template/tpl-crypto.md",
     "Template/tpl-block-timeline.md",
     "devoirs/les drones.md",
@@ -251,15 +259,7 @@
     "Template/tpl-block-column_model3.md",
     "Template/tpl-block-column_model2.md",
     "Banner/biblio.jpeg",
-    "devoirs/la Géographie 3.md",
-    "devoirs/la Géographie 2.md",
-    "devoirs/Les Temps Modernes 2.md",
-    "devoirs/Les Temps Modernes.md",
-    "devoirs/la Géographie 1.md",
-    "devoirs/Les Téléphones.md",
-    "devoirs/le bien et le mal.md",
     "devoirs/Sans titre",
-    "Dossier/Dossier signaux radio.md",
     "devoirs",
     "Gallery/Pasted image 20230308173724.png",
     "Gallery/massachussets_embleme.png",

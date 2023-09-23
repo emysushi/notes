@@ -11,7 +11,7 @@
     },
     "Template/tpl-livre.md": {
       "size": 943,
-      "tags": 1,
+      "tags": 0,
       "links": 1
     },
     "Template/tpl-kanban.md": {
@@ -49,38 +49,13 @@
       "tags": 1,
       "links": 0
     },
-    "Template/tpl-empty.md": {
-      "size": 4,
-      "tags": 0,
-      "links": 0
-    },
     "Template/tpl-block-timeline.md": {
       "size": 200,
       "tags": 0,
       "links": 0
     },
-    "Template/tpl-dossier.md": {
-      "size": 840,
-      "tags": 1,
-      "links": 0
-    },
     "README.md": {
       "size": 196,
-      "tags": 0,
-      "links": 0
-    },
-    "Planning_Semaine/Planning_Week_2023-03-06.md": {
-      "size": 2034,
-      "tags": 14,
-      "links": 0
-    },
-    "Planning_Semaine/Planning_Week_2023-03-13.md": {
-      "size": 2034,
-      "tags": 14,
-      "links": 0
-    },
-    "histoire.md": {
-      "size": 0,
       "tags": 0,
       "links": 0
     },
@@ -117,31 +92,6 @@
     "Template/tpl-feedback.md": {
       "size": 1500,
       "tags": 1,
-      "links": 0
-    },
-    "Feedback_Liste.md": {
-      "size": 313,
-      "tags": 0,
-      "links": 0
-    },
-    "Planning_Semaine/Planning_Week_2023-05-08.md": {
-      "size": 2033,
-      "tags": 15,
-      "links": 0
-    },
-    "FicheLecture/fiche_Les voyages de Gulliver.md": {
-      "size": 3570,
-      "tags": 1,
-      "links": 0
-    },
-    "suivi maman/FRANCAIS.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
-    "Planning_Semaine/Planning_Week_2023-05-22.md": {
-      "size": 2037,
-      "tags": 14,
       "links": 0
     },
     "Dossier/Dossier signaux radio.md": {
@@ -281,18 +231,33 @@
     },
     "Francais/fiche_L'Enfant multiple.md": {
       "size": 3891,
-      "tags": 1,
+      "tags": 0,
       "links": 0
     },
     "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": {
       "size": 3150,
-      "tags": 11,
+      "tags": 10,
+      "links": 0
+    },
+    "Francais/fiche_Les voyages de Gulliver.md": {
+      "size": 3570,
+      "tags": 0,
+      "links": 0
+    },
+    "Francais/Suivi_Maman.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Home.md": {
+      "size": 313,
+      "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 154,
+      "Refactor": 169,
       "Create": 101,
       "Link": 52,
       "Expand": 39
@@ -310,7 +275,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 33,
+      "10": 48,
       "11": 3,
       "12": 4,
       "13": 6,
@@ -334,7 +299,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 68
+      "Sun": 83
     }
   },
   "recentCommits": {
@@ -434,6 +399,10 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>",
+        "<a class=\"internal-link\" href=\"Francais/FRANCAIS.md\"> FRANCAIS </a>",
+        "<a class=\"internal-link\" href=\"Francais/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"Technologie/Home.md\"> Home </a>",
@@ -480,11 +449,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>",
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>",
-        "<a class=\"internal-link\" href=\"Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>",
-        "<a class=\"internal-link\" href=\"Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>",
-        "<a class=\"internal-link\" href=\"Anglais/Verbes.md\"> Verbes </a>",
-        "<a class=\"internal-link\" href=\"Chinois/Home.md\"> Home </a>",
-        "<a class=\"internal-link\" href=\"Francais/Home.md\"> Home </a>"
+        "<a class=\"internal-link\" href=\"Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -522,6 +487,13 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"histoire.md\"> histoire </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-empty.md\"> tpl-empty </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-22.md\"> Planning_Week_2023-05-22 </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-13.md\"> Planning_Week_2023-03-13 </a>",
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-03-06.md\"> Planning_Week_2023-03-06 </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"().md\"> () </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-block-column-modele1.md\"> tpl-block-column-modele1 </a>",
@@ -556,13 +528,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -609,7 +574,11 @@
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>"
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>",
+        "<a class=\"internal-link\" href=\"Francais/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
+        "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
+        "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>"
       ],
       "Removed Links from": []
     }

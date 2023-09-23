@@ -4,7 +4,7 @@
 <%*
 let qcDate = tp.file.creation_date("YYYY-MM-DD")
 let qcDomain = tp.file.folder(false)
-titleName = "Feedback_" + qcDate
+titleName = "feedback_" + qcDate
 await tp.file.rename(titleName)
 -%>
 
@@ -13,8 +13,7 @@ author:: EmySushi
 created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 
 ---
-
-- type:: #feedback
+- topic:: #feebach
 - domain::  <% "#"+tp.file.folder(false) %>
 - mode :: Dst/Intero/Pres
 - date_event :: YYYY-MM-DD
