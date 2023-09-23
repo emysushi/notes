@@ -8,7 +8,7 @@
 
 ```dataview
 TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified" 
-FROM "" -"Templates"
+FROM "" -"Templates" - "Banner"
 SORT file.mtime 
 DESC LIMIT 5
 ```
