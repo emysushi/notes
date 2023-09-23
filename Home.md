@@ -8,7 +8,8 @@
 
 ```dataview
 TABLE domain, dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
-FROM "Anglais" or "Chinois" or "Francais" or "Musique" or "Mathematiques" and !"Home"
+FROM "" and  !"Template" and !"Banner" and !"Crypto"
+WHERE file.name !="Home" and file.name !="README"
 SORT domain DESC , file.mtime DESC
 LIMIT 10
 ```
@@ -31,7 +32,6 @@ SORT domaine ASC, status DESC, file.ctime ASC
 
 
 
-
 ## 1.3	Liste des Feedback
 
 ```dataview
@@ -45,4 +45,20 @@ TABLE WITHOUT ID
 FROM #feedback
 WHERE contains(file.name, "Feedback_")
 SORT Domain DESC, Type ASC
+```
+
+
+
+```dataview
+TABLE WITHOUT ID
+	status as Status,
+	"![|60](" + cover + ")" as Cover,
+	link(file.link, title) as Title,
+	author as Author,
+	join(list(publisher, publish)) as Publisher,
+	created as Date
+FROM "" 
+WHERE #book
+
+SORT status DESC, file.ctime ASC
 ```
