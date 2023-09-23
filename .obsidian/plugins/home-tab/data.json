@@ -24,6 +24,14 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Template/tpl-crypto 1.md",
+      "timestamp": 1695474623444
+    },
+    {
+      "filepath": "Template/tpl-crypto.md",
+      "timestamp": 1695474611081
+    },
+    {
       "filepath": "Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
       "timestamp": 1695466655167
     },
@@ -34,14 +42,6 @@
     {
       "filepath": "Francais/Suivi_Maman.md",
       "timestamp": 1695466650331
-    },
-    {
-      "filepath": "Francais/fiche_Les voyages de Gulliver.md",
-      "timestamp": 1695466649476
-    },
-    {
-      "filepath": "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
-      "timestamp": 1695466580438
     }
   ],
   "starredFileStore": [],

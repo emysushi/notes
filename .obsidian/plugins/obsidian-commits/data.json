@@ -166,7 +166,7 @@
     },
     "Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
       "size": 21057,
-      "tags": 46,
+      "tags": 45,
       "links": 1
     },
     "Mathematiques/Home.md": {
@@ -243,13 +243,18 @@
       "size": 2207,
       "tags": 0,
       "links": 1
+    },
+    "Template/tpl-dictionary.md": {
+      "size": 641,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 179,
-      "Create": 102,
-      "Link": 55,
+      "Refactor": 181,
+      "Create": 103,
+      "Link": 56,
       "Expand": 39
     }
   },
@@ -270,7 +275,7 @@
       "12": 15,
       "13": 6,
       "14": 15,
-      "15": 12,
+      "15": 16,
       "16": 84,
       "17": 76,
       "18": 91,
@@ -289,7 +294,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 97
+      "Sun": 101
     }
   },
   "recentCommits": {
@@ -336,6 +341,7 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Template/tpl-crypto 1.md\"> tpl-crypto 1 </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones 1.md\"> Les Téléphones 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 1.md\"> Les Temps Modernes 1 </a>",
@@ -385,10 +391,10 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Technologie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
         "<a class=\"internal-link\" href=\"feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
@@ -438,8 +444,7 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"devoirs/l.md\"> l </a>",
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
-        "<a class=\"internal-link\" href=\"devoirs/m.md\"> m </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Géographie 3.md\"> Géographie 3 </a>"
+        "<a class=\"internal-link\" href=\"devoirs/m.md\"> m </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -467,7 +472,8 @@
         "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>",
         "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
-        "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>"
+        "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -574,6 +580,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>"
       ],
       "Removed Links from": []
