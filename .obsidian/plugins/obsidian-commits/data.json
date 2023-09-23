@@ -236,7 +236,7 @@
     },
     "Template/tpl-dictionary.md": {
       "size": 641,
-      "tags": 1,
+      "tags": 3,
       "links": 0
     },
     "Technologie/Dossier signaux radio.md": {
@@ -268,13 +268,28 @@
       "size": 669,
       "tags": 4,
       "links": 0
+    },
+    "Dictionary/aelo 1 1.md": {
+      "size": 669,
+      "tags": 4,
+      "links": 0
+    },
+    "Dictionary/parapluie.md": {
+      "size": 243,
+      "tags": 3,
+      "links": 0
+    },
+    "Dictionary_English.md": {
+      "size": 284,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 196,
-      "Create": 112,
-      "Link": 64,
+      "Refactor": 197,
+      "Create": 115,
+      "Link": 67,
       "Expand": 39
     }
   },
@@ -296,7 +311,7 @@
       "13": 6,
       "14": 15,
       "15": 45,
-      "16": 87,
+      "16": 94,
       "17": 76,
       "18": 91,
       "19": 13,
@@ -314,7 +329,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 133
+      "Sun": 140
     }
   },
   "recentCommits": {
@@ -361,6 +376,9 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dictionary_French 1.md\"> Dictionary_French 1 </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/parapluie.md\"> parapluie </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/aelo 1 1.md\"> aelo 1 1 </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo 1.md\"> velo 1 </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
@@ -408,12 +426,10 @@
         "<a class=\"internal-link\" href=\"Template/tpl-dossier 1.md\"> tpl-dossier 1 </a>",
         "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"().md\"> () </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
+        "<a class=\"internal-link\" href=\"().md\"> () </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Dictionary_English.md\"> Dictionary_English </a>",
         "<a class=\"internal-link\" href=\"Dictionary/aelo 1.md\"> aelo 1 </a>",
         "<a class=\"internal-link\" href=\"Dictionary_French.md\"> Dictionary_French </a>",
         "<a class=\"internal-link\" href=\"Dictionary/@batiment.md\"> @batiment </a>",
@@ -463,8 +479,7 @@
         "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
         "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -500,7 +515,10 @@
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/aelo 1.md\"> aelo 1 </a>"
+        "<a class=\"internal-link\" href=\"Dictionary/aelo 1.md\"> aelo 1 </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/parapluie.md\"> parapluie </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/aelo 1 1.md\"> aelo 1 1 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
