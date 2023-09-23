@@ -8,7 +8,7 @@ await tp.file.rename(titleName)
 
 
 ---
-- **type**:: #lesson
+- **type**:: #study
 - **domain**:: <% "#"+ qcDomain %>
 - **title**:: <% qcFileName %>
 - **level**:: #college_4
@@ -26,38 +26,8 @@ await tp.file.rename(titleName)
 
 
 
-
-  
-## 1.2	Timelines
+## 1.2	Liens
 ---
-
-
-```timeline-labeled
-[line-3, body-2]
-
-date: 2015
-title: Naissance de Erwan
-content:
-Erwan le roi de la depanne
-
-date: 2010
-title: Naissance de Emy
-content:
-EmySushi la plus jolie
-```
-
-
-
-## 1.3	Idees a retenir
----
-
-
-
-
-
----
-
-## 1.4	Liens
 
 Note :  Noter les liens interessant se rapportant au sujet
 
@@ -66,7 +36,8 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 1.5	Outils utiles
+## 1.3	Outils utiles
+---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais

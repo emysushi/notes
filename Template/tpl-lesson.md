@@ -58,6 +58,7 @@ EmySushi la plus jolie
 ---
 
 ## 1.4	Liens
+---
 
 Note :  Noter les liens interessant se rapportant au sujet
 
@@ -67,6 +68,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 ## 1.5	Outils utiles
+---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais

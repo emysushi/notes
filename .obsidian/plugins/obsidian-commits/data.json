@@ -34,11 +34,6 @@
       "tags": 3,
       "links": 0
     },
-    "Template/tpl-feedback.md": {
-      "size": 1500,
-      "tags": 1,
-      "links": 0
-    },
     "devoirs/la Géographie 2.md": {
       "size": 2045,
       "tags": 0,
@@ -248,13 +243,23 @@
       "size": 1168,
       "tags": 2,
       "links": 0
+    },
+    "Template/tpl-study.md": {
+      "size": 1478,
+      "tags": 2,
+      "links": 0
+    },
+    "Template/tpl-feedback.md": {
+      "size": 1486,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 214,
-      "Create": 123,
-      "Link": 70,
+      "Refactor": 217,
+      "Create": 125,
+      "Link": 71,
       "Expand": 39
     }
   },
@@ -277,7 +282,7 @@
       "14": 15,
       "15": 45,
       "16": 97,
-      "17": 101,
+      "17": 107,
       "18": 91,
       "19": 13,
       "20": 2,
@@ -294,7 +299,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 168
+      "Sun": 174
     }
   },
   "recentCommits": {
@@ -341,6 +346,8 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Template/tpl-lesson 1.md\"> tpl-lesson 1 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-lesson 1.md\"> tpl-lesson 1 </a>",
         "<a class=\"internal-link\" href=\"Francais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Francais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Francais/Untitled.md\"> Untitled </a>",
@@ -389,11 +396,11 @@
         "<a class=\"internal-link\" href=\"Bibliotheque_Liste 1.md\"> Bibliotheque_Liste 1 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-fiche_math 1.md\"> tpl-fiche_math 1 </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
         "<a class=\"internal-link\" href=\"Dictionary_English.md\"> Dictionary_English </a>",
         "<a class=\"internal-link\" href=\"Dictionary/aelo 1.md\"> aelo 1 </a>",
@@ -442,9 +449,7 @@
         "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier ondes radio.md\"> Dossier ondes radio </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier sign radio.md\"> Dossier sign radio </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>"
+        "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -485,7 +490,8 @@
         "<a class=\"internal-link\" href=\"Dictionary/aelo 1 1.md\"> aelo 1 1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Dictionary/stylo.md\"> stylo </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -498,6 +504,7 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_physique-chimie.md\"> tpl-fiche_physique-chimie </a>",
@@ -547,8 +554,7 @@
         "<a class=\"internal-link\" href=\"Crypto/Training/Crypto_intro_Training.md\"> Crypto_intro_Training </a>",
         "<a class=\"internal-link\" href=\"Crypto/Training/Dossier_introduction.md\"> Dossier_introduction </a>",
         "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Home.md\"> Home </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Home.md\"> Home </a>"
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Home.md\"> Home </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

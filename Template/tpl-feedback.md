@@ -1,36 +1,34 @@
 
-
-
 <%*
-let qcDate = tp.file.creation_date("YYYY-MM-DD")
+let qcFileName = await tp.system.prompt("Titre Fiche (ex: Mahomet)")
 let qcDomain = tp.file.folder(false)
-titleName = "feedback_" + qcDate
+titleName = "lesson_" + qcFileName
 await tp.file.rename(titleName)
 -%>
 
----
-author:: EmySushi
-created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
 
 ---
-- topic:: #feebach
-- domain::  <% "#"+tp.file.folder(false) %>
-- mode :: Dst/Intero/Pres
-- date_event :: YYYY-MM-DD
-- theme :: NA
-- note :: xx/xx
-- status :: InProgess/Validate/NValidate
-
-
-## Points positifs
+- **type**:: #feedback
+- **domain**:: <% "#"+ qcDomain %>
+- **title**:: <% qcFileName %>
+- **level**:: #college_4
+- **status**:: inprogress
+- **created**:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
+- **updated**:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 ---
 
 
+# 1	<% qcFileName %>
 
-## Points négatifs
+
+## 1.1	Points positifs
 ---
 
 
+
+
+## 1.2	Points negatifs
+---
 
 
 
