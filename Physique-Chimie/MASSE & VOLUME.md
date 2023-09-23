@@ -1,4 +1,5 @@
 
+- domain::  #Physique-Chimie
 - masse volumique : 
 	- p = masse / volume
 
@@ -20,7 +21,7 @@
 		- mélange hétérogène l/l
 		- 
 
-# Définitions
+# 1	Définitions
 
 - <span style="background:#fff88f">masse</span> : grandeur liée à la quantité de matière d'un objet
 - <span style="background:#fff88f">volume</span> : la place qui occupe un objet

@@ -8,7 +8,7 @@ tags : #fiche  #Physique-Chimie #corps_pure_melange
 ---
 
 title:: corps_pure_melange
-domaine:: #Physique-Chimie
+domain:: #Physique-Chimie
 author:: Emy Sushi
 statuts:: in Progress
 created:: 2023-03-13 16:04:11

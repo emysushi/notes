@@ -7,10 +7,10 @@
 ## 1.1	Dernières notes
 
 ```dataview
-TABLE dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified" 
-FROM "" -"Templates" - "Banner"
-SORT file.mtime 
-DESC LIMIT 5
+TABLE domain, dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
+FROM "Anglais" or "Chinois" or "Francais" or "Musique" or "Mathematiques" and !"Home"
+SORT domain DESC , file.mtime DESC
+LIMIT 10
 ```
 
 

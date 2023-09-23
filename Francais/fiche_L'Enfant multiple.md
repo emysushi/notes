@@ -3,6 +3,7 @@
 ---
 topic:: #book
 title:: "L'Enfant multiple"
+domain:: #francais
 author:: [Andrée Chedid]
 publisher:: Flammarion
 publish:: 2015-06-17T00:00:00+02:00
@@ -19,7 +20,7 @@ updated:: 2023-02-24 18:32:26
 
 
 
-# Auteur
+# 1	Auteur
 Andrée Chedid
 - nationalité : syro libanaise
 - date naissance/mort :1920 /2011
@@ -32,12 +33,12 @@ Andrée Chedid
 - profession :poète, auteur, romancier, dramaturge 
 - courant littéraire prédilection : humanisme
 
-# Genre 
+# 2	Genre 
 - genre de l'ouvrage : roman / fiction
 - place de l'ouvrage dans la vie de l'auteur : migration du Caire à la France
 - chronologie : 1987
 
-# Le cadre :
+# 3	Le cadre :
 - contexte politique et social : 1975 à 1990 guerre du Liban guerre civile qui cause beaucoup de morts et cause l'exode de 1 millions de personnes .
 - confessionnalisme, ville pauvre
 - période historique : 20ème siècle 
@@ -70,7 +71,7 @@ elle a embaucher Annette pour travailler chez elle
 
 
 
-# passage marquants :
+# 4	passage marquants :
 Omar Jo a perdu ses parents et son bras dans une explosion de leur maison 
 il est allé a Paris ou il a été hébergé chez ses cousins
 il a rencontré maxime qui possédait un manège et lui a rendu la joie de vivre et a accepte de travailler pour lui "gratis "peut après Omar Jo à habité chez lui 
@@ -84,5 +85,5 @@ Maxime veut adopter Omar Jo mais malheureusement se fait renverser par une voitu
  
 
 
-# Appréciation personnelle :
+# 5	Appréciation personnelle :
 j'ai bien aimé se livre car on avait l'impression d'être à coté des personnages on pouvait les imaginer, il y avait plein de détails, quand je m'endormez je pouvais imaginer le manège de toutes les couleurs avec ses fameux chevaux, on pouvait aussi imaginer  toutes les scènes qu'elles soies tristes ou joyeuses .

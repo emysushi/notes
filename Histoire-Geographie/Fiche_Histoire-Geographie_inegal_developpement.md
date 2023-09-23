@@ -5,7 +5,7 @@ tags : #fiche  #Histoire-Geographie #inegalies_richesse
 ---
 
 title:: inegalies_richesse
-domaine:: #Histoire-Geographie
+domain:: #Histoire-Geographie
 author:: EmySushi
 status:: inprogress
 created:: 2023-03-26 17:15:32

@@ -2,6 +2,7 @@
 
 ---
 topic:: #book
+domain:: #francais
 title:: "Les voyages de Gulliver"
 author:: [Jonathan Swift]
 publisher:: Library of Alexandria
@@ -17,7 +18,7 @@ updated: 2023-05-07 17:33:21
 
 ![cover|150](http://books.google.com/books/content?id=4nNcZm3fGigC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api)
 
-# Auteur
+# 1	Auteur
 
 - nationalité : irlandais
 - date naissance/mort : 1667/1745
@@ -30,19 +31,19 @@ updated: 2023-05-07 17:33:21
 - profession : auteur, poète, satiriste, romancier…
 - courant littéraire prédilection : satire (ouvrage littéraire critique sur les mœurs de son époque)
 
-# Genre 
+# 2	Genre 
 - genre de l ouvrage : roman
 - place de l ouvrage dans la vie de l auteur : décrit et compare gouvernement anglais ou il se sent isolé sauf chez les houyhnms (seule société ou il aimerait appartenir)
 - chronologie : 1726
 
-# Le cadre :
+# 3	Le cadre :
 - contexte politique et social : écrit après le krach de 1720 (chute brutale d'actions financières)
 - effondrement de la spéculation (acheté et vendre) ruinant beaucoup de commerçants britanniques.
 - période historique :1870
 - évènements historiques : nouveau métier chirurgien de marine (médecin pratiquant sur le bateau)
 
 
-# Les personnages principaux :
+# 4	Les personnages principaux :
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages
 
@@ -53,7 +54,7 @@ updated: 2023-05-07 17:33:21
 - Lilliputiens : habitants de Lilliput mesurant environ 15 cm
 - Glumdalclitch : petite fille qui s'occupe de lui dans une ferme puis peut à près réside dans le palais
 
-# Résumé bref :
+# 5	Résumé bref :
 
 après un naufrage, gulliver se retrouve sur l'ile de Lilliput, dont les habitants ne mesure que 15 cm
 leur société et plus avancés que celle de l'Angleterre, même si leur peuple passent leur temps faire la guerre à l'ile voisine
@@ -62,7 +63,7 @@ Belfuscu, à cause d'un roi qui a voulut imposer le coté par lequel un œuf à 
 
 Gulliver entreprend un deuxième voyage et se retrouve à Brobdingnag qui sont des géants L'un d'entre eux s'empare de Gulliver pour l'emmener dans sa ferme, où une petite fille, qu'il surnomme Glumdalclitch, s'occupe de lui. Il est par la suite acheté par la cour royale de Brobdingnag et y réside avec sa nourrice, le héros devient un objet de curiosité pour le roi, la reine et la cour, et devient notamment favori de la reine grâce à sa petite taille. Il explique au roi le système politique en Angleterre. Le souverain critique les institutions anglaises. Mais à la suite d'un manque d'attention d'un courtisan qui l'emmenait en balade près d'une falaise, Gulliver se retrouve emporté par un aigle, puis est repêché par des marins, qui le ramènent en Angleterre
 
-# Appréciation personnelle :
+# 6	Appréciation personnelle :
 
 j'ai bien aimé car j'adore les romans d'aventures, il y avait plein de drôles de personnages de détails et de décor 
 que l'on pouvait s'imaginer comme par exemple :
