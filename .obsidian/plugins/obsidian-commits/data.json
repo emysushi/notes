@@ -251,25 +251,25 @@
     },
     "Untitled.md": {
       "size": 0,
-      "tags": 1,
+      "tags": 0,
       "links": 0
     },
     "Crypto/Sans titre.md": {
       "size": 0,
       "tags": 0,
-      "links": 0
+      "links": 1
     },
-    "Dictionary/@maison.md": {
-      "size": 0,
-      "tags": 1,
+    "Dictionary/velo.md": {
+      "size": 65,
+      "tags": 2,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 190,
-      "Create": 109,
-      "Link": 58,
+      "Refactor": 193,
+      "Create": 111,
+      "Link": 61,
       "Expand": 39
     }
   },
@@ -290,7 +290,7 @@
       "12": 15,
       "13": 6,
       "14": 15,
-      "15": 33,
+      "15": 41,
       "16": 84,
       "17": 76,
       "18": 91,
@@ -309,7 +309,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 118
+      "Sun": 126
     }
   },
   "recentCommits": {
@@ -356,6 +356,8 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"@batiment.md\"> @batiment </a>",
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Dictionary/Untitled.md\"> Untitled </a>",
@@ -402,8 +404,6 @@
         "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"().md\"> () </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
@@ -490,7 +490,9 @@
         "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/maison.md\"> maison </a>"
+        "<a class=\"internal-link\" href=\"Dictionary/maison.md\"> maison </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -503,6 +505,8 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/@maison.md\"> @maison </a>",
         "<a class=\"internal-link\" href=\"Dictionary/@batiment.md\"> @batiment </a>",
         "<a class=\"internal-link\" href=\"Dictionary/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Dictionary/maison.md\"> maison </a>",
@@ -551,8 +555,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Linked": [
@@ -584,7 +586,8 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
@@ -598,7 +601,8 @@
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
-        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>"
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>"
       ],
       "Removed Links from": []
     }

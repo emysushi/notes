@@ -1,6 +1,7 @@
 
 
 type:: #dictionary
-term_fr:: maison
-term_en:: home
+term:: velo
+term_lang:: #french
 definition:: NA
+

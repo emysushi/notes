@@ -1,6 +1,13 @@
+```dataview
+TABLE WITHOUT ID
+	link(file.link, title) as Ref,
+	term_fr,
+	term_en
+	
+FROM #dictionary 
+SORT term
+```
 
-
-type:: #dictionary
-term_fr:: Untitled
+term_fr:: velo
 term_en:: NA
 definition:: NA

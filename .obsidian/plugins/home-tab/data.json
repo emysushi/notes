@@ -24,20 +24,24 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Crypto/Sans titre.md",
-      "timestamp": 1695475251488
-    },
-    {
-      "filepath": "Dictionary/@maison.md",
-      "timestamp": 1695475249810
+      "filepath": "Dictionary/velo.md",
+      "timestamp": 1695475652439
     },
     {
       "filepath": "Untitled.md",
-      "timestamp": 1695475109516
+      "timestamp": 1695475611438
     },
     {
-      "filepath": "Crypto/Crypto_introduction.md",
-      "timestamp": 1695475050999
+      "filepath": "Home.md",
+      "timestamp": 1695475554210
+    },
+    {
+      "filepath": "Crypto/Sans titre.md",
+      "timestamp": 1695475494203
+    },
+    {
+      "filepath": "Template/tpl-dictionary.md",
+      "timestamp": 1695475492944
     }
   ],
   "starredFileStore": [],

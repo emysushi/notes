@@ -4,6 +4,6 @@
   "showAddNewNote": true,
   "addNewNoteTemplateFile": "Template/tpl-dictionary",
   "addNewNoteDirectory": "Dictionary",
-  "useCompatibilityMode": false,
+  "useCompatibilityMode": true,
   "leavePopupOpenForXSpaces": 0
 }
