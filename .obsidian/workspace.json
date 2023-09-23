@@ -199,14 +199,29 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "77a3760f1b8b86ab",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "2625249c6b552305",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -227,7 +242,11 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-memos:Memos": false,
-      "periodic-notes:Open this week": false
+      "periodic-notes:Open this week": false,
+      "header-enhancer:Header Enhancer": false,
+      "birthday-tracker:Track birthdays": false,
+      "homepage:Open homepage": false,
+      "juggl:Juggl global graph": false
     }
   },
   "active": "6b6241b0e77316a2",
