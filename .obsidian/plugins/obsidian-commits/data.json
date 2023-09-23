@@ -152,7 +152,7 @@
     "Emc/study_bien et le mal.md": {
       "size": 20,
       "tags": 9,
-      "links": 3
+      "links": 2
     },
     "Technologie/study_Les Téléphones.md": {
       "size": 8253,
@@ -218,12 +218,17 @@
       "size": 2542,
       "tags": 0,
       "links": 1
+    },
+    "[intriguer.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 264,
-      "Create": 129,
+      "Refactor": 265,
+      "Create": 130,
       "Link": 80,
       "Expand": 44
     }
@@ -248,8 +253,8 @@
       "15": 45,
       "16": 97,
       "17": 122,
-      "18": 141,
-      "19": 13,
+      "18": 142,
+      "19": 14,
       "20": 2,
       "21": 8,
       "22": 0,
@@ -264,7 +269,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 239
+      "Sun": 241
     }
   },
   "recentCommits": {
@@ -316,6 +321,7 @@
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"[intriguer.md\"> [intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
         "<a class=\"internal-link\" href=\"Dictionary/blashee.md\"> blashee </a>",
         "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
@@ -363,7 +369,6 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
@@ -597,7 +602,8 @@
         "<a class=\"internal-link\" href=\"Technologie/lesson_Technologie_materiaux_evolution.md\"> lesson_Technologie_materiaux_evolution </a>"
       ],
       "Removed Links from": [
-        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>"
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Emc/study_bien et le mal.md\"> study_bien et le mal </a>"
       ]
     }
   },

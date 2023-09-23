@@ -24,6 +24,14 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Francais/fiche_L'Enfant multiple.md",
+      "timestamp": 1695488740867
+    },
+    {
+      "filepath": "Francais/feedback_2023-05-23.md",
+      "timestamp": 1695488683753
+    },
+    {
       "filepath": "Home.md",
       "timestamp": 1695488428033
     },
@@ -34,14 +42,6 @@
     {
       "filepath": "Emc/study_bien et le mal.md",
       "timestamp": 1695488303015
-    },
-    {
-      "filepath": "Anglais/Dossier_massachusset.md",
-      "timestamp": 1695488294932
-    },
-    {
-      "filepath": "Dictionary_French.md",
-      "timestamp": 1695488291183
     }
   ],
   "starredFileStore": [],

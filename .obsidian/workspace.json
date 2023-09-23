@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "6d2c5c386249bda8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Francais/fiche_L'Enfant multiple.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 445.505859375
+    "width": 316.505859375
   },
   "right": {
     "id": "de72a87206515b52",
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Francais/fiche_L'Enfant multiple.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Francais/fiche_L'Enfant multiple.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Francais/fiche_L'Enfant multiple.md"
               }
             }
           },
@@ -235,11 +248,12 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,8 +282,10 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "4cf19c3f65007ff3",
+  "active": "6d2c5c386249bda8",
   "lastOpenFiles": [
+    "Francais/fiche_L'Enfant multiple.md",
+    "Francais/feedback_2023-05-23.md",
     "Home.md",
     "[intriguer.md",
     "Emc/study_bien et le mal.md",
@@ -294,8 +310,6 @@
     "Histoire-Geographie/study_Géographie.md",
     "Histoire-Geographie/study_ Temps Modernes.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
-    "Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md",
-    "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
