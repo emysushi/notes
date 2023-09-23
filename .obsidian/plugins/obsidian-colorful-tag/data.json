@@ -147,7 +147,7 @@
       "#fiche-11-7-208"
     ],
     "Template/tpl-fiche_histoire-geo.md": [
-      "#fiche-11-7-208"
+      "#lesson-12-13-203"
     ],
     "Cours/Anglais/Dossier_null.md": [
       "#dossier-1-7-8"
@@ -653,9 +653,8 @@
       "1-7-8"
     ],
     "Template/tpl-dictionary.md": [
-      "#dictionary-1-9-10",
-      "#general-2-11-34",
-      "#french-6-22-99"
+      "#dictionary-1-13-14",
+      "#general-2-15-42"
     ],
     "Untitled.md": [],
     "Dictionary/Untitled.md": [
@@ -663,7 +662,7 @@
     ],
     "Dictionary/velo.md": [
       "#dictionary-2-9-11",
-      "#general-3-11-35",
+      "3-11-35",
       "#french-7-22-95",
       "#english-11-32-598"
     ],
@@ -683,6 +682,12 @@
       "#dictionary-1-9-10",
       "#general-2-11-34",
       "#french-6-22-99"
+    ],
+    "Dictionary/stylo.md": [
+      "#dictionary-1-13-14",
+      "#general-2-15-42",
+      "#english-6-22-103",
+      "#french-10-32-210"
     ]
   }
 }

@@ -3,10 +3,10 @@
 - **domain**:: #general 
 
 ++++++++
-- **term**:: {{title}}
-- **term_language**:: NA
+- **term**:: stylo
+- **term_language**:: #english
 - **term_description**:: NA
 ++++++++
-- **term_translate**:: NA
-- **term_translate_language**:: NA
+- **term_translate**:: stylo
+- **term_translate_language**:: #french
 - **term_translate_description**:: NA

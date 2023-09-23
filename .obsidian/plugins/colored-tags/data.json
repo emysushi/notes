@@ -119,7 +119,9 @@
     "dictionary": 113,
     "french": 114,
     "english": 115,
-    "general": 116
+    "general": 116,
+    "lesson": 117,
+    "francais": 118
   },
   "_version": 2
 }

@@ -1,7 +1,7 @@
 
 
 - type:: #dictionary 
-- domain:: #general 
+- domain:: #Francais 
 
 ++++++++
 - **term**:: velo

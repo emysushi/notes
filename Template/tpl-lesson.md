@@ -4,33 +4,31 @@
 <%*
 let qcFileName = await tp.system.prompt("Titre Fiche (ex: Mahomet)")
 let qcDomain = tp.file.folder(false)
-titleName = "Fiche_"+ qcDomain + "_" + qcFileName
+titleName = "lesson_" + qcFileName
 await tp.file.rename(titleName)
 -%>
 
 
-tags : #fiche  <% "#"+qcDomain %> <% "#"+qcFileName %>
-
+---
+- **type**:: #lesson
+- **domain**:: <% "#"+ lower(qcDomain) %>
+- **title**:: <% qcFileName %>
+- **status**:: inprogress
+- **created**:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
+- **updated**:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 ---
 
-title:: <% qcFileName %>
-domaine:: <% "#"+tp.file.folder(false) %>
-author:: EmySushi
-status:: inprogress
-created:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
-updated:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
 
 
 
-
-## Context
+## 0.1	Context
 ---
 
 
 
 
   
-## Timelines
+## 0.2	Timelines
 ---
 
 
@@ -50,7 +48,7 @@ EmySushi la plus jolie
 
 
 
-## Idees a retenir
+## 0.3	Idees a retenir
 ---
 
 
@@ -59,14 +57,14 @@ EmySushi la plus jolie
 
 ---
 
-## Liens
+## 0.4	Liens
 
 Note :  Noter les liens interessant se rapportant au sujet
 
 - liens1
 - liens2
 
-## Outils utiles
+## 0.5	Outils utiles
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais

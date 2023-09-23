@@ -39,19 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionary/velo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9cd2f75b15540626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dictionary/parapluie.md",
+                "file": "Dictionary/stylo.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,19 +60,43 @@
             }
           },
           {
-            "id": "75208ae547d18068",
+            "id": "a3c32190f9b2282c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionary_French.md",
+                "file": "Dictionary/velo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "101198fa0be28646",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dictionary/parapluie.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c46eb13a2f4bb37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Template/tpl-crypto.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -171,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dictionary_French.md",
+                "file": "Template/tpl-crypto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dictionary_French.md",
+                "file": "Template/tpl-crypto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dictionary_French.md"
+                "file": "Template/tpl-crypto.md"
               }
             }
           },
@@ -322,19 +334,26 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "75208ae547d18068",
+  "active": "9c46eb13a2f4bb37",
   "lastOpenFiles": [
+    "Template/tpl-fiche_techno.md",
+    "Template/tpl-lesson.md",
+    "Template/tpl-kanban.md",
+    "Template/tpl-dictionary.md",
+    "Template/tpl-feedback.md",
+    "Anglais/Dossier_massachusset.md",
     "Dictionary_English.md",
-    "Dictionary/velo.md",
+    "Dictionary_French.md",
     "Dictionary/parapluie.md",
+    "Dictionary/velo.md",
+    "Dictionary/ordinateur.md",
+    "Crypto/Sans titre.md",
+    "Dictionary/stylo.md",
+    "Dictionary/STYLO.md",
     "Dictionary/aelo 1 1.md",
     "Dictionary/aelo 1.md",
-    "Dictionary_French.md",
-    "Crypto/Sans titre.md",
-    "Template/tpl-dictionary.md",
     "Home.md",
     "Dictionary/@maison.md",
-    "Anglais/Dossier_massachusset.md",
     "Dictionary/@batiment.md",
     "Dictionary/Sans titre.md",
     "Crypto/Crypto_introduction.md",
@@ -344,14 +363,7 @@
     "Dictionary",
     "Histoire-Geographie/Feedback_2023-04-17.md",
     "Francais/Suivi_Maman.md",
-    "Francais/fiche_Les voyages de Gulliver.md",
-    "Francais/Home.md",
-    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
-    "Francais/fiche_L'Enfant multiple.md",
-    "Francais/feedback_2023-05-23.md",
     "Banner/biblio.jpeg",
-    "Anglais/Verbes.md",
-    "Anglais/Les Ecrants et les Routines.md",
     "devoirs/Sans titre",
     "devoirs",
     "Gallery/Pasted image 20230308173724.png",
