@@ -35,7 +35,7 @@
 
 - [[[[substituer|@substituer]]
 - [[[intriguer|@intriguer]]
-- #Intriguer : 
+- [[[blashee|@blashee]]]
 - #Blasphème : une insulte aux Dieux
 - #Illicite : interdit par la loi
 - #Usurper : s'emparer comme si c'était le nôtre, voler

@@ -48,31 +48,33 @@
             }
           },
           {
-            "id": "cf7e7a656228108a",
+            "id": "ca097779edf6149c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "devoirs/study_bien et le mal.md",
+                "file": "Francais/feedback_2023-05-23.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8fc2bbb32a805071",
+            "id": "5b11fd7714adc2d5",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionary/intriguer.md",
+                "file": "Template/tpl-feedback.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -159,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dictionary/intriguer.md",
+                "file": "Francais/feedback_2023-05-23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dictionary/intriguer.md",
+                "file": "Francais/feedback_2023-05-23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +201,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dictionary/intriguer.md"
+                "file": "Francais/feedback_2023-05-23.md"
               }
             }
           },
@@ -276,21 +278,13 @@
               "type": "Birthday-Tracker",
               "state": {}
             }
-          },
-          {
-            "id": "e36b765cb6446f46",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 12
       }
     ],
     "direction": "horizontal",
-    "width": 559.5
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -319,16 +313,25 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "e36b765cb6446f46",
+  "active": "ca097779edf6149c",
   "lastOpenFiles": [
-    "devoirs/study_bien et le mal.md",
+    "Template/tpl-feedback.md",
+    "Francais/feedback_2023-05-23.md",
+    "Emc/study_Etat de droit.md",
+    "Emc/study_bien et le mal.md",
+    "Histoire-Geographie/study_ Temps Modernes.md",
+    "devoirs/Les Temps Modernes 2.md",
+    "Template/tpl-study.md",
+    "Technologie/study_Les Téléphones.md",
+    "Technologie/study_les drones.md",
+    "Histoire-Geographie/study_Géographie.md",
+    "devoirs/la Géographie 3.md",
+    "devoirs/la Géographie 2.md",
+    "Dictionary/blasheme.md",
     "Dictionary/intriguer.md",
     "Home.md",
-    "Emc/study_Etat de droit.md",
-    "Template/tpl-study.md",
     "Dictionary/substituer.md",
     "Dictionary_French.md",
-    "devoirs/la Géographie 1.md",
     "Dictionary/stylo.md",
     "Emc",
     "Technologie/Dossier signaux radio.md",
@@ -338,16 +341,6 @@
     "Chinois/Home.md",
     "Template/tpl-test.md",
     "Template/tpl-dictionary.md",
-    "Template/tpl-feedback.md",
-    "Template/tpl-feedback.md",
-    "Template/tpl-lesson.md",
-    "Template/tpl-livre.md",
-    "Template/tpl-crypto.md",
-    "Template/tpl-fiche_langues.md",
-    "Template/tpl-fiche_math.md",
-    "Template/tpl-fiche_physique-chimie.md",
-    "Template/tpl-fiche_svt.md",
-    "Template/tpl-fiche_techno.md",
     "Dictionary",
     "Banner/biblio.jpeg",
     "devoirs/Sans titre",

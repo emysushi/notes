@@ -1,6 +1,23 @@
+
+---
+- **type**:: #study
+- **domain**:: #Histoire-Geographie 
+- **title**:: Les Temps Modernes
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 
+- **updated**:: 
+---
+
+
+# 1	LES TEMPS MODERNES
+
+
+
 L'époque moderne est la période historique qui commence à la fin du Moyen-Age et se termine à la Révolution Française (1789) pour les Histories Français. 
 
-# les grandes découvertes 1
+## 1.1	les grandes découvertes 1
+---
 
 L’expression > explorations maritimes entreprises > puissances  européennes (15 et 16-ème). 
 Les monarchies et riches compagnies commerciales financent de grandes expéditions > explorer le monde, cartographier la planète, établir des contacts directs avec l'Afrique, Amérique, Asie et Océanie.
@@ -34,7 +51,8 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 	- la preuve que la terre était ronde
 	- le voyage dura 3 ans
 
-# les grandes découvertes 2
+## 1.2	les grandes découvertes 2
+---
 
 - **conquête du Mexique
 	- les Espagnoles c'étaient installés sur Cuba
@@ -57,3 +75,68 @@ Les monarchies et riches compagnies commerciales financent de grandes expédi
 
 
 <center> ❤️ JE T'AIME PAPA ❤️</center>
+## 1.3	la renaissance
+---
+
+- **renaissance et humanisme 
+	- redécouverte de la pensée et des arts de l'Antiquité grecque/latine > européens (15ème)
+	- les hommes de cette époque étaient > les grandes découvertes
+	- étaient optimistes et très curieux
+	- Nouveau état d'esprit "l'humanisme" (épanouissement sur d'autres valeurs)
+
+- **des œuvres Antique
+	- la renaissance commença en Italie au 15ème 
+	- et se rependit > toute l'Europe 
+		- France
+		- Allemagne
+		-  Pays-Bas
+		- Angleterre
+	- grandes œuvres : 
+		- manuscrits rares chers 
+		- maintenant accessible au grand public
+	- apparition de savants humanismes :
+		- Lèvre d'Etaples, Guillaume Budé (France)
+		- Érasme (Pays-Bas)
+	- 1450 : invention de l'imprimerie (Gutenberg) 
+
+- **poésie et littérature 
+	- Europe > grands poètes :
+		- Tasse
+		- Pléiade
+		- Joachim du Bellay
+		- Pierre de Ronsard
+	- > grands écrivains :
+		- François Rabelais (livre drôle)
+		- Michel de Montaigne
+
+- **Peinture, sculpture et architecture
+	- Moyen Âge : humain représentés sur peinture/sculpture > toujours habillés
+	- les anciens représenter les corps nus > montrer la beauté de la nature humaine
+	- Renaissance : peintres et sculpteur les imitèrent
+	- France : s'inspira > architecture italienne
+	- on bâtit de monuments :
+		- beaux
+		- grands
+		- très décorés
+
+- **grands peintres en Italie :
+	- Raphaël et Michel ange (à 2)
+	- (la chapelle sixtine, fresques des apparts des papes)
+	- Léonard de Vinci (la Joconde)
+	- Titien (paysages)
+
+- **musique
+	- développa > polyphonie (usage simultané harmonieux de voix diff.)
+	- maitres de musique religieuse :
+		- Palestrina
+		- Joaquin Des Près
+	- maitres de la musique profane :
+		- Clément Janequin
+		- Jaques Mauduit
+
+- **Charles Quint (souverain aux 17 couronnes)
+	- 1519 : élu empereur > saint empire romain germanique 
+	- veut assurer l'unité catholique du continent (l'Europe chrétienne)
+	- 1525 : affronte François 1er > bataille de pavie (Italie) 
+	- affronte > empire turc (Soliman le magnifique)
+	- 55 ans : mort du diabète et de la malaria 

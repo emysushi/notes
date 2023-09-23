@@ -3,9 +3,7 @@
 - **domain**:: #general 
 
 ++++++++
-- **term**:: **intriguer**
-
-
+- **term**:: intriguer
 - **term_language**:: #french
 - **term_description**::
 ++++++++

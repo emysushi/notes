@@ -1,4 +1,23 @@
 
+---
+- **type**:: #study
+- **domain**:: #Technologie 
+- **title**:: LES DRONES
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 
+- **updated**:: 
+---
+
+
+
+# 1	LES DRONES
+
+
+
+## 1.1	INTRODUCTION
+---
+
 - **qu'est ce qu'un drones ?
 	- petit avion télécommandés
 	- certains sont programmer > opérer de façon autonome
@@ -29,7 +48,8 @@
 	- régulateur de vitesse 
 	- système émetteur /récepteur de commande
 
-# utilisation des drones
+## 1.2	utilisation des drones
+---
 
 - **la capacité de 
 	- décoller/atterrir partout

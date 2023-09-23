@@ -1,12 +1,26 @@
 
+---
+- **type**:: #study
+- **domain**:: #Technologie 
+- **title**:: Les Téléphones
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 
+- **updated**:: 
+---
 
+# 1	LES TELEPHONES
+
+## 1.1	INTRODUCTION
+---
 
 - **qu'est ce qu'un téléphones ?
 	- appareil électronique
 	- pour discuter : quand > interlocuteurs éloignés
 	- convertit : ondes sonores > signaux > dispositif reproduit la voix 
 
-# processus > appel téléphonique
+## 1.2	processus > appel téléphonique
+---
 
 - **connexion à un réseau**
 	- établir une connexion électrique entre 2 personnes (commutateur téléphonique local)
@@ -26,7 +40,8 @@
 	- réception des signaux électriques
 	- génération d'ondes sonores (vibration membrane : fréquences)
 
-# l'histoire du téléphone
+## 1.3	l'histoire du téléphone
+---
 
 - 1876  (le 1er tel.) :
 	- Antonio Meucci, Elisha Gray et Alexander Graham Bell ;
@@ -84,7 +99,8 @@
 - 2010 (écran tactile) :
 	- accélération des innovations dans le téléphone mobile. La technologie de l'[écran tactile](https://fr.wikipedia.org/wiki/%C3%89cran_tactile "Écran tactile") capacitif permet de se passer des touches et d'offrir un écran de grande taille dans un format qui reste contenu à la taille d'une main. La qualité de ces écrans s'améliore au fil du temps. L'intégration dans les téléphones d'une multitude de [capteurs](https://fr.wikipedia.org/wiki/Capteurs "Capteurs") miniaturisés
 
-# Alexander Graham Bell
+## 1.4	Alexander Graham Bell
+---
 
 - info :
 	- né : 3 Mars 1847 à Edinbourg (Ecosse)
@@ -111,7 +127,8 @@
 	-  1876 : dépose le brevet de son invention le téléphone et réalise son rêve transformer les ondes sonores > impulsions électriques.
 	- 1857-1923 : épouse Mabel Gardiner Hubbard (élève de Bell). Le couple aura quatre enfants.
 
-# les demoiselles du téléphones 
+## 1.5	les demoiselles du téléphones 
+---
 
 - demoiselle du téléphone :
 	- établir les demandes d'appel, puis de les mettre en relation. 

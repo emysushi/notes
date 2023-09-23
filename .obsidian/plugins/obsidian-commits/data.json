@@ -29,41 +29,6 @@
       "tags": 3,
       "links": 0
     },
-    "devoirs/la Géographie 2.md": {
-      "size": 2045,
-      "tags": 0,
-      "links": 0
-    },
-    "devoirs/la Géographie 1.md": {
-      "size": 2611,
-      "tags": 0,
-      "links": 0
-    },
-    "devoirs/Les Téléphones.md": {
-      "size": 8253,
-      "tags": 0,
-      "links": 0
-    },
-    "devoirs/Les Temps Modernes.md": {
-      "size": 3122,
-      "tags": 0,
-      "links": 0
-    },
-    "devoirs/la Géographie 3.md": {
-      "size": 2303,
-      "tags": 0,
-      "links": 0
-    },
-    "devoirs/Les Temps Modernes 2.md": {
-      "size": 2024,
-      "tags": 0,
-      "links": 0
-    },
-    "devoirs/les drones.md": {
-      "size": 2040,
-      "tags": 0,
-      "links": 0
-    },
     "Anglais/Dossier_massachusset.md": {
       "size": 1917,
       "tags": 2,
@@ -229,11 +194,6 @@
       "tags": 2,
       "links": 0
     },
-    "devoirs/study_bien et le mal.md": {
-      "size": 20,
-      "tags": 10,
-      "links": 2
-    },
     "Emc/study_Etat de droit.md": {
       "size": 3010,
       "tags": 0,
@@ -248,14 +208,44 @@
       "size": 246,
       "tags": 4,
       "links": 0
+    },
+    "Dictionary/blasheme.md": {
+      "size": 244,
+      "tags": 3,
+      "links": 0
+    },
+    "Histoire-Geographie/study_Géographie.md": {
+      "size": 7133,
+      "tags": 0,
+      "links": 0
+    },
+    "Technologie/study_les drones.md": {
+      "size": 2507,
+      "tags": 0,
+      "links": 0
+    },
+    "Emc/study_bien et le mal.md": {
+      "size": 20,
+      "tags": 9,
+      "links": 3
+    },
+    "Technologie/study_Les Téléphones.md": {
+      "size": 8253,
+      "tags": 0,
+      "links": 0
+    },
+    "Histoire-Geographie/study_ Temps Modernes.md": {
+      "size": 3122,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 224,
-      "Create": 127,
-      "Link": 75,
-      "Expand": 40
+      "Refactor": 238,
+      "Create": 128,
+      "Link": 77,
+      "Expand": 42
     }
   },
   "dailyCommits": {
@@ -277,8 +267,8 @@
       "14": 15,
       "15": 45,
       "16": 97,
-      "17": 121,
-      "18": 91,
+      "17": 122,
+      "18": 109,
       "19": 13,
       "20": 2,
       "21": 8,
@@ -294,7 +284,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 188
+      "Sun": 207
     }
   },
   "recentCommits": {
@@ -339,9 +329,12 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
-        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
+        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/study_Géographie.md\"> study_Géographie </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_les drones.md\"> study_les drones </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dictionary/blashee.md\"> blashee </a>",
         "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson 1.md\"> tpl-lesson 1 </a>",
@@ -391,10 +384,19 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Bibliotheque_Liste 1.md\"> Bibliotheque_Liste 1 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Bibliotheque_Liste 1.md\"> Bibliotheque_Liste 1 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/study_ Temps Modernes.md\"> study_ Temps Modernes </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_ Temps Modernes.md\"> study_ Temps Modernes </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_Les Téléphones.md\"> study_Les Téléphones </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_Les Téléphones.md\"> study_Les Téléphones </a>",
+        "<a class=\"internal-link\" href=\"Emc/study_bien et le mal.md\"> study_bien et le mal </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_les drones.md\"> study_les drones </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_les drones.md\"> study_les drones </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/study_Géographie.md\"> study_Géographie </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_Géographie.md\"> study_Géographie </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>",
         "<a class=\"internal-link\" href=\"Emc/study_Etat de droit.md\"> study_Etat de droit </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_Etat de droit.md\"> study_Etat de droit </a>",
@@ -435,17 +437,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md\"> Fiche_Histoire-Geographie_inegal_developpement </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-crypto.md\"> tpl-crypto </a>",
-        "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-feed-back.md\"> tpl-feed-back </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
-        "<a class=\"internal-link\" href=\"Feedback_Liste.md\"> Feedback_Liste </a>",
-        "<a class=\"internal-link\" href=\"FRANCAIS.md\"> FRANCAIS </a>",
-        "<a class=\"internal-link\" href=\"suivi maman/Français/FRANCAIS.md\"> FRANCAIS </a>",
-        "<a class=\"internal-link\" href=\"suivi maman/FRANCAIS.md\"> FRANCAIS </a>",
-        "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/les.md\"> les </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants.md\"> Les Ecrants </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>"
+        "<a class=\"internal-link\" href=\"controle_feedback.md\"> controle_feedback </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -490,7 +482,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>"
+        "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -503,6 +496,9 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>",
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Chinois/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-test.md\"> tpl-test </a>",
@@ -550,10 +546,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
-        "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
-        "<a class=\"internal-link\" href=\"Crypto/Training/Crypto_intro_Training.md\"> Crypto_intro_Training </a>"
+        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -587,6 +580,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>"
       ],
       "Removed Tags from": [
@@ -605,6 +599,7 @@
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>"
       ],
       "Removed Links from": []
