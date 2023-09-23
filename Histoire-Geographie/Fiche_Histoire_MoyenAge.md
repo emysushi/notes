@@ -186,7 +186,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- les villages sont crées dans les clairières protégés par des haies
 - Agriculture
 	- **Cycle des cultures (tous les 3 ans):**
-		- 1/3 : sol au repos ( #jachere)
+		- 1/3 : sol au repos ( jachere)
 		- 1/3 : semis blés (octobre), 
 		- 1/3 : semis avoine/orge (printemps) : récolte + rapide
 	- moisson (faux, faucille, fléau) : la paille nourrie le bétail
@@ -196,7 +196,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- grappes coupées 1 par 1 > transportées > foulées > pressées
 	- le vin se conserve mal (vendu dans l 'année')
 - Bétail
-	- pait dans les jachères et montagne ( #transhumance en été)
+	- pait dans les jachères et montagne ( transhumance en été)
 	- le foin est insuffisant pour nourrir le bétail en hiver => abattage en automne
 - Forêts
 	- garder pour le seigneur (chasse)
@@ -398,29 +398,29 @@ ceremonie d'adoubement
 
 ## Les impots :
 
-- #cens 
--  #corvée 
-- #champart 
-- #taille
+- cens 
+-  corvée 
+- champart 
+- taille
 
 
 
 
  # GLOSSAIRE
 ---
-- #adoubement: cérémonie par laquelle on devient chevalier
-- #avoine : L'avoine est cultivée à la fois comme céréale pour son fruit  riche en amidon, et comme plante fourragère à couper en vert pour ses pousses tendres et sucrées qui plaisent aux animaux de la ferme. Elle fait partie des céréales à paille et est utilisée principalement en alimentation animale (notamment des équidés).
-- #amour-courtois : expression désignant au Moyen Âge la façon d'aimer avec courtoisie, respect et honnêteté, sa ou son partenaire, dans le but commun d'atteindre la joie et le bonheur.
-- #banalités : 
-- #blés : 
-- #chaume : Le toit de chaume est un mode de couverture, constitué de paille de blé, de paille de seigle, de tiges de roseaux mais aussi de genêts et de bruyères.
-- #cens : 
-- #créneaux : Un créneau est une ouverture pratiquée au sommet d'un rempart. Cette ouverture permettait aux défenseurs des murailles de voir les assaillants et de tirer des projectiles. Les intervalles pleins laissés entre les créneaux sont les « merlons » ou carnels.
-- #champart : 
-- #chasse-a-courre : La vénerie aussi appelée « chasse à courre » ou encore désignée par « chasse à courre, à cor et à cri », est un mode de chasse qui consiste à poursuivre un animal sauvage avec une meute de chiens courants, jusqu'à le perdre ou le tuer. 
-- #corvée : 
-- #chemin-de-ronde :  voie aménagée en position sommitale, en saillie d’une muraille, d’une courtine ou de tours d’une fortification. Destiné à la circulation des sentinelles, il est généralement protégé par un parapet crénelé et équipé de hourds ou de #machicoulis .
-- #donjon :  tour la plus haute d'un château fort au Moyen Âge, destinée à servir à la fois de point d'observation, de poste de tir et de dernier refuge si le reste de la fortification vient à être pris par un ennemi.
+- adoubement: cérémonie par laquelle on devient chevalier
+- avoine : L'avoine est cultivée à la fois comme céréale pour son fruit  riche en amidon, et comme plante fourragère à couper en vert pour ses pousses tendres et sucrées qui plaisent aux animaux de la ferme. Elle fait partie des céréales à paille et est utilisée principalement en alimentation animale (notamment des équidés).
+- amour-courtois : expression désignant au Moyen Âge la façon d'aimer avec courtoisie, respect et honnêteté, sa ou son partenaire, dans le but commun d'atteindre la joie et le bonheur.
+- banalités : 
+- blés : 
+- chaume : Le toit de chaume est un mode de couverture, constitué de paille de blé, de paille de seigle, de tiges de roseaux mais aussi de genêts et de bruyères.
+- cens : 
+- créneaux : Un créneau est une ouverture pratiquée au sommet d'un rempart. Cette ouverture permettait aux défenseurs des murailles de voir les assaillants et de tirer des projectiles. Les intervalles pleins laissés entre les créneaux sont les « merlons » ou carnels.
+- champart : 
+- chasse-a-courre : La vénerie aussi appelée « chasse à courre » ou encore désignée par « chasse à courre, à cor et à cri », est un mode de chasse qui consiste à poursuivre un animal sauvage avec une meute de chiens courants, jusqu'à le perdre ou le tuer. 
+- corvée : 
+- chemin-de-ronde :  voie aménagée en position sommitale, en saillie d’une muraille, d’une courtine ou de tours d’une fortification. Destiné à la circulation des sentinelles, il est généralement protégé par un parapet crénelé et équipé de hourds ou de machicoulis .
+- donjon :  tour la plus haute d'un château fort au Moyen Âge, destinée à servir à la fois de point d'observation, de poste de tir et de dernier refuge si le reste de la fortification vient à être pris par un ennemi.
 - #douve : fossé rempli d’eau et entourant des châteaux, des bâtiments importants ou encore des villes fortifiées.
 - #écu : 
 - #ecuelle : 

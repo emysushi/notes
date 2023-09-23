@@ -89,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#transhumance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -125,7 +125,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -296,7 +296,7 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "ff9947a85c609aab",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
     "Histoire-Geographie/Feedback_2023-04-17.md",
     "Francais/Suivi_Maman.md",

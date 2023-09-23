@@ -166,7 +166,7 @@
     },
     "Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
       "size": 21057,
-      "tags": 61,
+      "tags": 50,
       "links": 1
     },
     "Mathematiques/Home.md": {
@@ -211,7 +211,7 @@
     },
     "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": {
       "size": 3150,
-      "tags": 10,
+      "tags": 0,
       "links": 0
     },
     "Francais/fiche_Les voyages de Gulliver.md": {
@@ -247,7 +247,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 176,
+      "Refactor": 178,
       "Create": 102,
       "Link": 55,
       "Expand": 39
@@ -267,7 +267,7 @@
       "9": 0,
       "10": 48,
       "11": 5,
-      "12": 13,
+      "12": 15,
       "13": 6,
       "14": 15,
       "15": 11,
@@ -289,7 +289,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 94
+      "Sun": 96
     }
   },
   "recentCommits": {
@@ -571,7 +571,9 @@
         "<a class=\"internal-link\" href=\"Francais/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-livre.md\"> tpl-livre </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Removed Links from": []
     }
