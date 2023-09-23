@@ -9,7 +9,7 @@
 ```dataview
 TABLE domain, dateformat(file.mtime, "dd.MM.yyyy - HH:mm") AS "Last modified"
 FROM "" and  !"Template" and !"Banner" and !"Crypto"
-WHERE file.name !="Home" and file.name !="README"
+WHERE file.name !="Home" and file.name !="README" and file.name !="birthdayNode"
 SORT domain DESC , file.mtime DESC
 LIMIT 10
 ```
@@ -57,8 +57,8 @@ TABLE WITHOUT ID
 	author as Author,
 	join(list(publisher, publish)) as Publisher,
 	created as Date
-FROM "" 
-WHERE #book
+
+WHERE Tags = "Book"
 
 SORT status DESC, file.ctime ASC
 ```

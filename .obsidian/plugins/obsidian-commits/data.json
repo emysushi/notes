@@ -59,16 +59,6 @@
       "tags": 0,
       "links": 0
     },
-    "Dossier_Liste.md": {
-      "size": 297,
-      "tags": 0,
-      "links": 0
-    },
-    "Bibliotheque_Liste.md": {
-      "size": 313,
-      "tags": 0,
-      "links": 0
-    },
     "Dossier/Dossier_serrures.md": {
       "size": 640,
       "tags": 3,
@@ -262,7 +252,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 173,
+      "Refactor": 175,
       "Create": 102,
       "Link": 55,
       "Expand": 39
@@ -282,7 +272,7 @@
       "9": 0,
       "10": 48,
       "11": 5,
-      "12": 10,
+      "12": 12,
       "13": 6,
       "14": 15,
       "15": 11,
@@ -304,7 +294,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 91
+      "Sun": 93
     }
   },
   "recentCommits": {
@@ -495,6 +485,8 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Dossier_Liste.md\"> Dossier_Liste </a>",
+        "<a class=\"internal-link\" href=\"Bibliotheque_Liste.md\"> Bibliotheque_Liste </a>",
         "<a class=\"internal-link\" href=\"histoire.md\"> histoire </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-empty.md\"> tpl-empty </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dossier.md\"> tpl-dossier </a>",
@@ -536,8 +528,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

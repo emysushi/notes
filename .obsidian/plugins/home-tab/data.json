@@ -25,23 +25,19 @@
   "recentFilesStore": [
     {
       "filepath": "Home.md",
-      "timestamp": 1695465866575
+      "timestamp": 1695466057548
+    },
+    {
+      "filepath": "birthdayNode.md",
+      "timestamp": 1695466040222
     },
     {
       "filepath": "Francais/fiche_L'Enfant multiple.md",
       "timestamp": 1695465858115
     },
     {
-      "filepath": "Bibliotheque_Liste.md",
-      "timestamp": 1695465812583
-    },
-    {
       "filepath": "Technologie/LES SERRURES🔐.md",
       "timestamp": 1695465196264
-    },
-    {
-      "filepath": "Technologie/Fiche_Technologie_materiaux_evolution.md",
-      "timestamp": 1695465189165
     }
   ],
   "starredFileStore": [],
