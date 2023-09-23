@@ -251,7 +251,7 @@
     },
     "Template/tpl-feedback.md": {
       "size": 1486,
-      "tags": 0,
+      "tags": 2,
       "links": 0
     }
   },
@@ -259,7 +259,7 @@
     "/": {
       "Refactor": 217,
       "Create": 125,
-      "Link": 71,
+      "Link": 72,
       "Expand": 39
     }
   },
@@ -282,7 +282,7 @@
       "14": 15,
       "15": 45,
       "16": 97,
-      "17": 107,
+      "17": 108,
       "18": 91,
       "19": 13,
       "20": 2,
@@ -299,7 +299,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 174
+      "Sun": 175
     }
   },
   "recentCommits": {
@@ -491,7 +491,8 @@
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Dictionary/stylo.md\"> stylo </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
