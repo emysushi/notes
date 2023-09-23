@@ -55,7 +55,7 @@
       "links": 0
     },
     "devoirs/l'Etat de droit.md": {
-      "size": 2514,
+      "size": 3010,
       "tags": 0,
       "links": 0
     },
@@ -245,7 +245,7 @@
       "Refactor": 220,
       "Create": 125,
       "Link": 72,
-      "Expand": 39
+      "Expand": 40
     }
   },
   "dailyCommits": {
@@ -267,7 +267,7 @@
       "14": 15,
       "15": 45,
       "16": 97,
-      "17": 111,
+      "17": 112,
       "18": 91,
       "19": 13,
       "20": 2,
@@ -284,7 +284,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 178
+      "Sun": 179
     }
   },
   "recentCommits": {
@@ -327,6 +327,7 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
+        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],

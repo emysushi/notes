@@ -1,4 +1,17 @@
 
+
+---
+- **type**:: #study
+- **domain**:: <% "#"+ qcDomain %>
+- **title**:: <% qcFileName %>
+- **level**:: #college_4
+- **status**:: inprogress
+- **created**:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
+- **updated**:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
+---
+
+
+
 **révolution française** : 1789
 
 - **le drapeau de France
@@ -58,7 +71,7 @@
 		- branches de chêne (justice) et d'olivier (paix) 
 		- entourant le motif  
 
-# états de droit, la constitution
+# 1	états de droit, la constitution
 
 - **société = gouvernement
 	- un pouvoir qui oblige tous les individus à obéir aux lois

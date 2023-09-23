@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "devoirs/l'Etat de droit.md",
                 "mode": "source",
                 "source": false
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "devoirs/l'Etat de droit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "devoirs/l'Etat de droit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-study.md"
+                "file": "devoirs/l'Etat de droit.md"
               }
             }
           },
@@ -336,6 +336,8 @@
   },
   "active": "9c46eb13a2f4bb37",
   "lastOpenFiles": [
+    "Emc",
+    "Template/tpl-study.md",
     "Technologie/Dossier signaux radio.md",
     "Technologie/Dossier_serrures.md",
     "devoirs/la Géographie 1.md",
@@ -347,7 +349,6 @@
     "Template/tpl-feedback.md",
     "Template/tpl-feedback.md",
     "Template/tpl-lesson.md",
-    "Template/tpl-study.md",
     "Template/tpl-livre.md",
     "Template/tpl-crypto.md",
     "Template/tpl-fiche_langues.md",
@@ -361,7 +362,6 @@
     "Template/tpl-kanban.md",
     "Anglais/Dossier_massachusset.md",
     "Dictionary_English.md",
-    "Dictionary_French.md",
     "Dictionary",
     "Banner/biblio.jpeg",
     "devoirs/Sans titre",

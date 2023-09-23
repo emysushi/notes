@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "devoirs/l'Etat de droit.md",
+      "timestamp": 1695483836375
+    },
+    {
       "filepath": "Template/tpl-study.md",
       "timestamp": 1695483825588
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "devoirs/la Géographie 1.md",
       "timestamp": 1695483801733
-    },
-    {
-      "filepath": "Template/tpl-block-timeline.md",
-      "timestamp": 1695483793859
     }
   ],
   "starredFileStore": [],
