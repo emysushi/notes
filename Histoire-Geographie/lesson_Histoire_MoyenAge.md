@@ -1,25 +1,18 @@
 
-
-
-tags : #dossier
-
-
+---
+- **type**:: #lesson
+- **domain**:: #Histoire-Geographie 
+- **title**::MoyenAge
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 2023-03-08 14:34:36
+- **updated**:: 2023-03-08 14:34:36
 ---
 
-title:: MoyenAge
-domain:: #Histoire-Geographie 
-author:: EmySushi
-status:: done
-created:: 2023-03-08 14:34:36
-updated:: 2023-03-08 14:34:36
-duedate:: 2023-03-10
-
----
-
-
-[[[civilisation|@civilisation]]]
 
 # 1	LE MOYEN AGE
+
+## 1.1	introduction
 ---
 
 Le Moyen Âge est une période de l'histoire de l'Europe, s'étendant de la fin du V e siècle à la fin du XV e siècle, qui débute avec le déclin de  #empire_romain_occident et se termine par la #renaissance et les #grandes_decouvertes.
@@ -32,7 +25,7 @@ La civilisation médiévale se définit par quatre caractéristiques majeures :
 - une **société cloisonnée** entre une **noblesse militaire**, qui possède la terre, et une **classe paysanne** asservie
 -  enfin, un système de pensée fondé sur la **foi religieuse** et défini par l'Église chrétienne.
 
-# 2	FEODALITE
+## 1.2	FEODALITE
 ---
 Vers 1000 av                                                                                                                                                                                                                               
 iiu JC, les châteaux forts apparaissent contrer les invasions barbares (viking, arabes) :
@@ -47,7 +40,7 @@ iiu JC, les châteaux forts apparaissent contrer les invasions barbares (viking,
 
 La féodalité diffère selon les régions (dans le sud de la France, nombreux chevaliers possèdent leur propre terre)
 
-## 2.1	Les devoirs de chacun
+### 1.2.1	Les devoirs de chacun
 ```col-md
 
 - !!!col
@@ -65,7 +58,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 ```
 
 
-# 3	EVOLUTION DES CHATEAUX FORTS 
+## 1.3	EVOLUTION DES CHATEAUX FORTS 
 ---
 
 * **10-ème siècle:**
@@ -94,7 +87,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	* immense salle éclairées
 
 
-# 4	DEVENIR CHEVALIER
+## 1.4	DEVENIR CHEVALIER
 ---
 
 - **Leçon du maitre d'arme**
@@ -110,7 +103,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- doit attirer l'attention d'un puissant seigneur (donner un fief ? ou une épouse)
 	- s'entourer de valeureux guerrier
 
-## 4.1	ARMES ET ARMURES
+### 1.4.1	ARMES ET ARMURES
+
 
 - Lance
 - la lame (épée)
@@ -120,7 +114,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - harnois blanc (armure plate)
 - bouclier en forme d'amende ( #ecu )
 
-## 4.2	Chevalier et légende
+### 1.4.2	Chevalier et légende
+
 -  Représentation Chevalerie :
 	- ordre immuable (codes, cérémonies ...) vs chaos  (guerres, maladies)
 	- valeurs (honneur, causes défendues )
@@ -134,10 +129,11 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 
-# 5	LA VIE AU CHATEAU
+## 1.5	LA VIE AU CHATEAU
 ---
 
-## 5.1	La vie de cour
+### 1.5.1	La vie de cour
+
 - La cour = espace dans le château ou habite le seigneur + ensemble des personnes qui l'entourent 
 - durant les mois d'hiver (sans guerre) = nécessité d'occuper les chevaliers
 	- **chasse**
@@ -145,7 +141,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- **troubadour:** compositeur, transmission des comtes et légendes (chevalerie, histoire) 
 
 
-## 5.2	Les femmes au château
+### 1.5.2	Les femmes au château
+
 
 * les femmes + mariages = alliances entre familles
 	* offerte ou enlevée pour le mariage (forcée ~15 ans,  par amour)
@@ -157,7 +154,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	* dangereux ( technique médicale absente, maladie) => mortalité infantile oblige à faire beaucoup de bébé 
 	 - nouveau né est confié à la nourrice (allaitement) =>  la durée de l'allaitement retarderait la naissance d'un autre bébé
 
-## 5.3	La table des seigneurs
+### 1.5.3	La table des seigneurs
+
 - fastes :
 	- indication de la richesse, le rang
 	- nourriture abondantes et soignées, belles vaisselles, habits luxueux
@@ -170,7 +168,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- boissons: hypocras (vin au miel et aux épices)
 	- desserts: fruits, fruits secs, gaufres, crêpes, amandes et noisettes macérées dans du miel
 
-## 5.4	La musique
+### 1.5.4	La musique
+
 - tambourin / flute: rythme les pas des danseur lors des fêtes au villages
 - instrument a corde (pincées) :
 	- rebec(ancêtre du violon): notes graves
@@ -179,9 +178,11 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 
-# 6	AGRICULTURE
+## 1.6	AGRICULTURE
+
 ---
-## 6.1	Le travail de la terre
+### 1.6.1	Le travail de la terre
+
 - objectif :** augmenter les surfaces cultivées**
 	- 11-ème siècle: seigneurs poussent les paysans à** défricher les forets**
 	- l'importance du **labour** (charrue tirée par des bœufs): retourner facilement la terre
@@ -205,7 +206,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- réservoir de nourriture pour les paysans (lapins, perdrix, glands, noisettes, champignons
 	- charbons
 
-## 6.2	Se nourrir
+### 1.6.2	Se nourrir
+
 - partout en Europe, les fêtes paysannes célèbrent la terre nourricière:
 - Famines 
 	- debut 11 ième cycle
@@ -216,26 +218,30 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 
-# 7	LES VILLES MEDIEVALES
+## 1.7	LES VILLES MEDIEVALES
 ---
 
 
-## 7.1	Habitats et matériaux
+### 1.7.1	Habitats et matériaux
+
 - pierre près des carrières
 -  bois et de l'argile ailleurs,
 - brique (cout important =>cuisson à haute température)
-## 7.2	Les villes
+### 1.7.2	Les villes
+
 - enserrant d'abord le château (évolution au fil des siècles. Cf château fort) 
 - rues encombrées d'étalages, marchands ambulants
 - villes françaises : saleté malgré règlement existant 
-## 7.3	Le pouvoir des villes
+### 1.7.3	Le pouvoir des villes
+
 - riches bourgeois et grandes familles européennes dominent les villes à partir du 12-ème siècle
 - fils des seigneurs émigrent vers les villes pour y tenter de fructueuses affaires
 - la majorité de la population : ouvrier textile, marchand ambulant, petit boutiquier
 	- payent peux d'impôts
 	- privés de tout droit
 - étrangers et vagabonds : vivent de rapines et charité
-## 7.4	Les métiers
+### 1.7.4	Les métiers
+
 - les métiers regroupent 3 catégories d'individus: 
 	- maitres : 
 		- propriétaire boutique
@@ -265,7 +271,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 > le peuple de Paris vient chercher de l'embauche place de Grève. L'expression être en grève puis faire la grève vient de ce lieux
 
 
-## 7.5	La gestion du savoir
+### 1.7.5	La gestion du savoir
+
 - depuis haut du moyen Age  des écoles sont chargés de la formation des religieux.
 - les écoles se spécialisent par la suite : au 12eme l'école de Paris est spécialisée à l'études des religions et attire de nombreux élèves étrangers et à de maitres 
 - organisation des études
@@ -274,7 +281,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - enseignement gratuit même si les maitre demande de l'argent / cadeaux
 - les universités s'ouvrent à mesure qu'avance la reconquête chrétienne
 
-## 7.6	Fêtes et foires
+### 1.7.6	Fêtes et foires
+
 - spectacles de plein air
 	- musicien, jongleurs, acteurs (la chevalerie, saints) en se déguisant et en dansant
 - au Moyen Age  l'église considère le métier de marchand impure ou malhonnête
@@ -285,7 +293,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- frappés par les seigneurs
 	- présence de changeur qui pèsent pour vérifier leur poids
 - augmentation de la vente à crédit (banquier). Prêt contre intérêt
-## 7.7	Commerces (mers/ports)
+### 1.7.7	Commerces (mers/ports)
+
 - transport maritime 
 	- mieux adapté pour de lourde charge
 	- longues distances
@@ -300,7 +309,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 
 
 
-# 8	LES PAYSANS🌽 
+## 1.8	LES PAYSANS🌽 
+
 ---
 
 
@@ -321,14 +331,16 @@ grand-defrichement --> nouveau-village
 ```
 
 
-## 8.1	<font color="#ff0000">vie des paysans: </font>
+### 1.8.1	<font color="#ff0000">vie des paysans: </font>
+
 - vivent:
 	-  dans de modestes maisons
 	- moins de 40 ans 
 - pas à l'abris:
 	- des intempéries/famine/maladies/guerres 
 
-## 8.2	<font color="#ff0000">Evolution (XI siècle):</font>
+### 1.8.2	<font color="#ff0000">Evolution (XI siècle):</font>
+
 - population augmente:
 	- mieux nourris
 	- progrès techniques 
@@ -337,7 +349,8 @@ grand-defrichement --> nouveau-village
 	- augmentent
 
 
-## 8.3	Le travail annuel
+### 1.8.3	Le travail annuel
+
 
 ```timeline-labeled
 [line-3, body-2]
@@ -384,7 +397,8 @@ content: il tue le/les [cochon](https://fr.vikidia.org/wiki/Cochon "Cochon")(s)
 ![[Pasted image 20230308173724.png]]
 
 
-# 9	LES SEIGNEURS👑
+## 1.9	LES SEIGNEURS👑
+
 ---
 
 
@@ -398,7 +412,7 @@ organisation type d'un château
 moments divertissant ? 
 ceremonie d'adoubement
 
-## 9.1	Les impots :
+### 1.10	Les impots :
 
 - cens 
 -  corvée 

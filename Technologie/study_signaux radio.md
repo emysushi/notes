@@ -1,21 +1,18 @@
 
-tags : #dossier
-
-
+---
+- **type**:: #study
+- **domain**:: #Technologie 
+- **title**:: signaux radio
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 2023-03-23 10:54:58
+- **updated**:: 2023-03-23 10:54:58
 ---
 
-title:: #
-domaine:: #Dossier
-author:: EmySushi
-status:: inprogress
-created:: 2023-03-23 10:54:58
-updated:: 2023-03-23 10:54:58
-duedate:: 2023-03-26
+# 1	les signaux radio 
 
-
+## 1.1	introduction
 ---
-
-# les signaux radio 
 
 - comment peut on les envoyer ?
 	- les signaux: (en m)
@@ -24,7 +21,8 @@ duedate:: 2023-03-26
 	- ondes radio peuvent contenir:
 		- infos, sons, données, images codé
 
-# les définitions
+## 1.2	les définitions
+---
 - qu'est ce qu'un <span style="background:#fff88f">signaux radio</span> ?
 	- permet d'envoyer/recevoir des infos à distance
 	- télécommunication, radiodiffusion, navigation, réseaux informatiques
@@ -42,7 +40,7 @@ duedate:: 2023-03-26
 	- qui fait vibrer l'air, puis les tympans, se qui fait que l'on peut entendre
 	- si on veut parler +fort ou +loin on utilise un porte voix
 
-# déroulement d'une onde
+# 2	déroulement d'une onde
 
 - 1.<span style="background:#fff88f">émission de radio</span>:
 	- quand une personne parle dans un microphone elle émet des ondes sonores qui font vibrer la membrane, et le microphone transforme ses vibration en courant électrique
@@ -56,7 +54,7 @@ duedate:: 2023-03-26
 - 4.<span style="background:#fff88f">émission de radio reçu</span>:
 	- le courant électrique passe par le système de haut-parleur émet des ondes sonores reconstituant le son de la voix de la personne (animateur radio)
 
-# la ionosphère
+# 3	la ionosphère
 
 - <span style="background:#fff88f">ondes en ligne droite</span>:
 	- ondes radio ultracourtes, à très haute fréquences
@@ -69,7 +67,7 @@ duedate:: 2023-03-26
 
 - 
 
-## Outils utiles
+## 3.1	Outils utiles
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais

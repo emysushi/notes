@@ -1,21 +1,20 @@
 
 
-
-
-
-tags : #fiche  #Histoire-Geographie #societe_eglise_pouvoir_politique_occident_féodal
-
+---
+- **type**:: #lesson
+- **domain**:: #Histoire-Geographie
+- **title**:: societe_eglise_pouvoir_politique_occident_féodal
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 2023-04-17 19:23:19
+- **updated**::2023-04-17 19:23:19
 ---
 
-title:: societe_eglise_pouvoir_politique_occident_féodal
-domain:: #Histoire-Geographie
-author:: EmySushi
-status:: inprogress
-created:: 2023-04-17 19:23:19
-updated:: 2023-04-17 19:23:19
+# 1	societe_eglise_pouvoir_politique_occident_féodal
 
+## 1.1	Essor des villes au Moyen-Age
 ---
-# Essor des villes au Moyen-Age
+
 - Moyen-Age
 	- Le Moyen Âge s'étend **du <span style="background:#fff88f">Ve au XVe siècle</span>, soit environ 1000 ans**. Il doit son nom aux hommes de la Renaissance après l'âge d'or de l'Antiquité gréco-romaine.
 	- majorité des habitants: vivent à la campagne
@@ -52,7 +51,8 @@ updated:: 2023-04-17 19:23:19
 	- peuple pauvre: travailleurs pauvres, mendiants, lépreux
 	- autres: clercs, étudiants' migrants
 
-# définitions
+## 1.2	définitions
+---
 
 <span style="background:#fff88f">urbanisation</span> : augmentation de la population et de la taille des villes.
 <span style="background:#fff88f">faubourg</span> : quartier de la ville située autour du bourg en dehors des murailles de la ville.
@@ -71,7 +71,7 @@ Consult : ville du Sud / Echevins : ville du Nord.
 
 
 
-## Outils utiles
+## 1.3	Outils utiles
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais

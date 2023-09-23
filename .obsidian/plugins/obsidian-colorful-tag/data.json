@@ -44,7 +44,12 @@
     "Planning_Semaine/Untitled.md": [],
     "Planning_Semaine/Planning_2023-03-06.md": [],
     "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": [],
-    "Histoire-Geographie/Feedback_2023-04-17.md": []
+    "Histoire-Geographie/Feedback_2023-04-17.md": [],
+    "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": [],
+    "Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md": [],
+    "Technologie/Dossier signaux radio.md": [],
+    "Technologie/Dossier_serrures.md": [],
+    "Technologie/Fiche_Technologie_materiaux_evolution.md": []
   },
   "MetaFileTagDetails": {
     "Planning_Semaine/2023-03-05.md": [
@@ -591,14 +596,9 @@
       "79-2-2059"
     ],
     "Physique-Chimie/MASSE & VOLUME.md": [
-      "#Physique-Chimie-1-12-13"
+      "#Physique-Chimie-14-12-187"
     ],
-    "Technologie/Fiche_Technologie_materiaux_evolution.md": [
-      "5-7-12",
-      "5-15-20",
-      "5-28-33",
-      "10-9-97"
-    ],
+    "Technologie/Fiche_Technologie_materiaux_evolution.md": [],
     "Anglais/Verbes.md": [
       "1-7-8"
     ],
@@ -736,6 +736,65 @@
       "#general-2-15-42",
       "#french-6-22-110",
       "#english-10-32-223"
-    ]
+    ],
+    "Histoire-Geographie/lesson_Histoire_MoyenAge.md": [
+      "#empire_romain_occident-17-146-397",
+      "#renaissance-17-191-442",
+      "#grandes_decouvertes-17-211-462",
+      "#ecu-114-31-3219",
+      "#troubadour-121-49-3451",
+      "#donjon-404-5-14868",
+      "#étrier-444-2-17500",
+      "#gibets-445-2-17513",
+      "#haubert-446-2-17526",
+      "#cotte-de-maille-446-13-17537",
+      "#heaume-447-2-17561",
+      "#meurtrières-448-2-17574",
+      "#machicoulis-449-2-17738",
+      "#orge-450-2-17980",
+      "#pont-levis-451-2-17991",
+      "#reserves-452-2-18008",
+      "#remparts-453-2-18064",
+      "#seigle-454-2-18078",
+      "#Seigneur-455-2-18091",
+      "#seigneurie-456-2-18153",
+      "#taille-457-2-18218",
+      "#torchis-458-2-18254",
+      "#tournoi-459-2-18528",
+      "#tenure-460-2-18542",
+      "#troubadour-461-2-18632",
+      "#paysans-462-2-18735",
+      "#défrichement-463-2-18777",
+      "#fief-464-2-18875",
+      "#vassal-465-2-18988",
+      "#suzerain-466-2-19103",
+      "#serpette-467-2-19163",
+      "#transhumance-468-2-19177",
+      "#fenaison-469-2-19378",
+      "#faux-470-2-19546",
+      "#faucille-471-2-19569",
+      "#moisson-472-2-19596",
+      "#battage-473-2-19610",
+      "#semailles-474-2-19924",
+      "#foulages-475-2-19939",
+      "#chaume-476-2-19953",
+      "#collier-477-2-19966",
+      "#charrue-478-2-19988",
+      "#soc-479-2-20008",
+      "#jachere-480-2-20024"
+    ],
+    "Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md": [
+      "#développement-77-2-1544",
+      "#richesse-78-2-1625",
+      "#pays_pauvre-79-2-1720",
+      "#PIB-81-2-1861",
+      "#IDH-82-2-1970",
+      "#PMA-83-2-2081",
+      "#pays_émergent-84-2-2127"
+    ],
+    "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": [],
+    "Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md": [],
+    "Technologie/Dossier signaux radio.md": [],
+    "Technologie/Dossier_serrures.md": []
   }
 }

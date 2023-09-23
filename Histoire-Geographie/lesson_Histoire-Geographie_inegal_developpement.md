@@ -1,19 +1,20 @@
 
 
-tags : #fiche  #Histoire-Geographie #inegalies_richesse
-
+---
+- **type**:: #lesson
+- **domain**:: #Histoire-Geographie
+- **title**:: inegalies_richesse
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 2023-03-26 17:15:32
+- **updated**:: 2023-03-26 17:15:32
 ---
 
-title:: inegalies_richesse
-domain:: #Histoire-Geographie
-author:: EmySushi
-status:: inprogress
-created:: 2023-03-26 17:15:32
-updated:: 2023-03-26 17:15:32
+# 1	Geographie_inegal_developpement
 
+## 1.1	LES PAYS DEVELOPPES
 ---
 
-# LES PAYS DEVELOPPES
 
 - les pays développés sont des pays:
 	- qui ont un PIB / habitants très élevé
@@ -31,7 +32,9 @@ ont un IDH plus élevé que:
    -2) Russie
    -3) Japon
 
-# LES PAYS EN DEVELOPPEMENT
+## 1.2	LES PAYS EN DEVELOPPEMENT
+---
+
 
 - les pays en développement sont des pays:
 	- qui ont un PIB / habitants très faible
@@ -44,7 +47,8 @@ top 3 des pays en développements:
    -2)Amérique Sud/Centrale
    -3)Asie
 
-# RICHESSE x DEVELOPPEMENT
+## 1.3	RICHESSE x DEVELOPPEMENT
+---
 
 la richesse n'est pas forcement synonyme de développement,
 exemple de pays riche mais en développement:
@@ -64,7 +68,8 @@ pour distinguer la richesse et le développement il y a:
    -le PIB :(mesure la richesse d'un pays)
    -l'IDH :(mesure le niveau de développement d'un pays)
 
-# INEGALITES DE RICHESSE
+## 1.4	INEGALITES DE RICHESSE
+---
 
 
 GLOSSAIRE

@@ -1,4 +1,17 @@
 
+---
+- **type**:: #lesson
+- **domain**:: #Physique-Chimie 
+- **title**:: MASSE & VOLUME
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 
+- **updated**:: 
+---
+
+
+
+
 - domain::  #Physique-Chimie
 - masse volumique : 
 	- p = masse / volume

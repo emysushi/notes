@@ -1,43 +1,31 @@
 
 
-
-
-
-tags : #fiche  #Physique-Chimie #corps_pure_melange
-
+---
+- **type**:: #lesson
+- **domain**:: #Physique-Chimie 
+- **title**:: corps_pure_melange
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 2023-03-13 16:04:11
+- **updated**:: 2023-03-13 16:04:11
 ---
 
-title:: corps_pure_melange
-domain:: #Physique-Chimie
-author:: Emy Sushi
-statuts:: in Progress
-created:: 2023-03-13 16:04:11
-updated:: 2023-03-13 16:04:11
+# 1	corps_pure_melange
 
+## 1.1	mélanges et constituants 
 ---
-# mélanges et constituants 
+
 
 eau minérale: eau + sels minéraux
 les séparer: en chauffant ou en évaporant
 
-
-
-
-
-
-
-
-
-
-
-
-## Définitions
+## 1.2	Définitions
 ---
 <font color="#ff0000">mélange homogène:</font>  mélange ou l'on distingue qu'un seul constituants
 <font color="#ff0000">mélange hétérogène:</font> mélange ou l'on distingue plusieurs constituants 
 
 
-## Idées a retenir
+## 1.3	Idées a retenir
 ---
 
 
@@ -75,14 +63,14 @@ state if_state <<choice>>
 
 ---
 
-## Liens
+## 1.4	Liens
 
 Note :  Noter les liens interessant se rapportant au sujet
 
 - liens1
 - liens2
 
-## Outils utiles
+## 1.5	Outils utiles
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais

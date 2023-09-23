@@ -14,11 +14,6 @@
       "tags": 0,
       "links": 0
     },
-    "README.md": {
-      "size": 196,
-      "tags": 0,
-      "links": 0
-    },
     "Template/tpl-crypto.md": {
       "size": 905,
       "tags": 1,
@@ -42,46 +37,6 @@
     "Anglais/Verbes.md": {
       "size": 24452,
       "tags": 1,
-      "links": 0
-    },
-    "Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": {
-      "size": 3800,
-      "tags": 3,
-      "links": 0
-    },
-    "Mathematiques/Home.md": {
-      "size": 99,
-      "tags": 0,
-      "links": 0
-    },
-    "Musique/Home.md": {
-      "size": 93,
-      "tags": 0,
-      "links": 0
-    },
-    "Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md": {
-      "size": 1804,
-      "tags": 3,
-      "links": 0
-    },
-    "Physique-Chimie/MASSE & VOLUME.md": {
-      "size": 101,
-      "tags": 1,
-      "links": 0
-    },
-    "Svt/Besoins des cellules animales🍗.md": {
-      "size": 89,
-      "tags": 0,
-      "links": 0
-    },
-    "Technologie/Fiche_Technologie_materiaux_evolution.md": {
-      "size": 7509,
-      "tags": 3,
-      "links": 0
-    },
-    "Technologie/Home.md": {
-      "size": 97,
-      "tags": 0,
       "links": 0
     },
     "Francais/fiche_L'Enfant multiple.md": {
@@ -119,24 +74,9 @@
       "tags": 0,
       "links": 0
     },
-    "Technologie/LES SERRURES🔐.md": {
-      "size": 2207,
-      "tags": 0,
-      "links": 1
-    },
     "Template/tpl-dictionary.md": {
       "size": 641,
       "tags": 2,
-      "links": 0
-    },
-    "Technologie/Dossier signaux radio.md": {
-      "size": 3056,
-      "tags": 2,
-      "links": 0
-    },
-    "Technologie/Dossier_serrures.md": {
-      "size": 640,
-      "tags": 3,
       "links": 0
     },
     "Dictionary/velo.md": {
@@ -236,20 +176,55 @@
     },
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md": {
       "size": 21057,
-      "tags": 45,
-      "links": 2
+      "tags": 43,
+      "links": 1
     },
     "Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md": {
       "size": 2126,
-      "tags": 10,
+      "tags": 7,
       "links": 0
+    },
+    "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": {
+      "size": 3800,
+      "tags": 0,
+      "links": 0
+    },
+    "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md": {
+      "size": 1804,
+      "tags": 0,
+      "links": 0
+    },
+    "Physique-Chimie/lesson_MASSE & VOLUME.md": {
+      "size": 101,
+      "tags": 1,
+      "links": 0
+    },
+    "Svt/lesson_Besoins des cellules animales🍗.md": {
+      "size": 89,
+      "tags": 0,
+      "links": 0
+    },
+    "Technologie/study_signaux radio.md": {
+      "size": 3056,
+      "tags": 0,
+      "links": 0
+    },
+    "Technologie/lesson_Technologie_materiaux_evolution.md": {
+      "size": 7509,
+      "tags": 3,
+      "links": 0
+    },
+    "Technologie/study_serrures.md": {
+      "size": 2207,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 243,
+      "Refactor": 263,
       "Create": 129,
-      "Link": 79,
+      "Link": 80,
       "Expand": 43
     }
   },
@@ -273,7 +248,7 @@
       "15": 45,
       "16": 97,
       "17": 122,
-      "18": 118,
+      "18": 139,
       "19": 13,
       "20": 2,
       "21": 8,
@@ -289,7 +264,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 216
+      "Sun": 237
     }
   },
   "recentCommits": {
@@ -393,6 +368,14 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
+        "<a class=\"internal-link\" href=\"Technologie/lesson_Technologie_materiaux_evolution.md\"> lesson_Technologie_materiaux_evolution </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_signaux radio.md\"> study_signaux radio </a>",
+        "<a class=\"internal-link\" href=\"Svt/lesson_Besoins des cellules animales🍗.md\"> lesson_Besoins des cellules animales🍗 </a>",
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_MASSE & VOLUME.md\"> lesson_MASSE & VOLUME </a>",
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md\"> lesson_Physique-Chimie_corps_pure_melange </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md\"> lesson_Histoire-Geographie_inegal_developpement </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/feedback_2023-04-17.md\"> feedback_2023-04-17 </a>",
@@ -435,15 +418,7 @@
         "<a class=\"internal-link\" href=\"Technologie/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
         "<a class=\"internal-link\" href=\"Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>",
-        "<a class=\"internal-link\" href=\"Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>",
-        "<a class=\"internal-link\" href=\"Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md\"> Fiche_Physique-Chimie_corps_pure_melange </a>",
-        "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>",
-        "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales.md\"> Besoins des cellules animales </a>",
-        "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔒.md\"> LES SERRURES🔒 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES.md\"> LES SERRURES </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>"
+        "<a class=\"internal-link\" href=\"Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -490,7 +465,8 @@
         "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>"
+        "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -503,6 +479,11 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"README.md\"> README </a>",
+        "<a class=\"internal-link\" href=\"Technologie/Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
+        "<a class=\"internal-link\" href=\"Musique/Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Mathematiques/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
@@ -548,12 +529,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-07.md\"> Planning_Week_2023-05-07 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-07.md\"> Planning_Week_2023-05-07 </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
@@ -610,9 +586,17 @@
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
         "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
-        "<a class=\"internal-link\" href=\"Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>"
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md\"> lesson_Histoire-Geographie_inegal_developpement </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md\"> lesson_Physique-Chimie_corps_pure_melange </a>",
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md\"> lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_signaux radio.md\"> study_signaux radio </a>"
       ],
-      "Removed Links from": []
+      "Removed Links from": [
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>"
+      ]
     }
   },
   "ignoreList": [],

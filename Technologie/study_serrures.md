@@ -1,4 +1,20 @@
-# C'est quoi ? 
+
+---
+- **type**:: #study
+- **domain**:: #Technologie 
+- **title**:: serrures
+- **level**:: #college_4
+- **status**:: new
+- **created**:: 2023-03-23 10:54:58
+- **updated**:: 2023-03-23 10:54:58
+---
+
+# 1	SERRURES
+
+
+## 1.1	C'est quoi ? 
+---
+
 - les serrures: 
 	- dispositifs de fermeture
 	- exigeant une clé spécifique pour l'ouvrir
@@ -6,7 +22,8 @@
 		- code numérique
 		- caractéristique physique
 
-# Serrures cylindrique à gâchettes
+## 1.2	Serrures cylindrique à gâchettes
+---
 
 - les serrures cylindrique à gâchettes:
 	- pour les fermeture des portes
@@ -35,7 +52,8 @@ qui à son tour retire le pêne du cadre de la porte
 permettant de l'ouvrir
 ![[Schema-vocabulaire-cylindre-mobile.png]]
 
-# Serrures à combinaison
+## 1.3	Serrures à combinaison
+---
 
 - **serrures à combinaison**: contient
 	- des goupilles(montées sur une barre de métal)
@@ -56,7 +74,8 @@ celle ci peuvent passer entre les roues,
 l'arceau est repoussé,
 par la force du ressort de compression
 
-# Serrures biométriques
+## 1.4	Serrures biométriques
+---
 
 **les serrures électronique:**
 grâce à des caractéristique d'un individus (iris, empreintes, image faciale),
@@ -67,7 +86,8 @@ associées aux personnes qui peuvent entrés,
 lorsqu'une personne revient,
 la reconnaissance de ses motifs ouvrira la serrure.
 
-# devinette et infos
+## 1.5	devinette et infos
+---
 
 **peut on ouvrir une serrure sans l'aide d'une clé ?**
 oui, grâce à des épingle à cheveux ,
@@ -78,6 +98,6 @@ les clés utilisés pour ouvrir et fermé les portes blindées,
 (de la chambre forte ou se trouve l'or de la banque d'Angleterre),
 sont **longues de 90 cm**
 
-# et voila j'espère que ça vous a plus !!! 
+et voila j'espère que ça vous a plus !!! 
 
 😀

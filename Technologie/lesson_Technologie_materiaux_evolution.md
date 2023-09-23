@@ -1,24 +1,20 @@
 
 
 
-
-
-tags : #fiche  #Technologie #materiaux_evolution
-
+---
+- **type**:: #lesson
+- **domain**:: #Technologie 
+- **title**:: materiaux_evolution
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 2023-03-13 16:02:40
+- **updated**:: 2023-03-13 16:02:40
 ---
 
-title:: materiaux_evolution
-domain:: #Technologie
-author:: Emy Sushi
-statuts:: in Progress
-created:: 2023-03-13 16:02:40
-updated:: 2023-03-13 16:02:40
-
----
+# 1	materiaux_evolution
 
 
-
-# HABITAT AU COURS DE L HISTOIRE
+## 1.1	HABITAT AU COURS DE L HISTOIRE
 ---
 
 ```timeline-labeled
@@ -61,8 +57,10 @@ content:
 
 ```
 
-# les principaux matériaux en construction
-<<<<<<< HEAD
+## 1.2	les principaux matériaux en construction
+---
+
+
 | Matériau    | pour construire                        | Mise en Œuvre                        | Avantage                                         | Inconvénient            |
 | ----------- | -------------------------------------- | ------------------------------------ | ------------------------------------------------ | ----------------------- |
 | BOIS        | Charpente (toiture), Poutre (plancher) | façonnage scierie                    | isolant, écologique, rapide, résistance humidité | avec un autre matériaux |
@@ -86,16 +84,15 @@ content:
 >>>>>>> main
 
 
-## Fabrication 
+## 1.3	Fabrication 
 
-<<<<<<< HEAD
-### Bois (charpente, poutre) 
+### 1.3.1	Bois (charpente, poutre) 
 
-### Pierre de taille
+### 1.3.2	Pierre de taille
 
-### Ardoise 
+### 1.3.3	Ardoise 
 =======
-## Acier 
+## 1.4	Acier 
 1)agglomération
 2)haut fourneau
 3)cokerie
@@ -104,19 +101,19 @@ content:
 6)station d'affinage
 7)coulée continue
 8)laminoir(machine)
-## Verre 
+## 1.5	Verre 
 1)préparation du lit de fusion
 2)élaboration du verre
 3)mise en forme
 4)recuisson
 5)contrôle des qualités des produits finit
-### Bois (charpente, poutre) 
+### 1.5.1	Bois (charpente, poutre) 
 1)chargement des billons sur la chaine de sciage
 2)écorçage des billons
 3)sciage des billons
 4)séchage des planches
 5)triage des planches
-### Ardoise 
+### 1.5.2	Ardoise 
 1)extraction de l'ardoise dans de larges blocs
 2)coupées au fil diamantaire
 3)acheminer par camions 
@@ -140,7 +137,9 @@ content:
 
 
 
-# Evolution du style architecturale
+## 1.6	Evolution du style architecturale
+---
+
 - **GREC**: (-600 à 400)  
 	-  bâtiment cubique, calcaire
 - **ROMAIN**: (-600 à 600) 
@@ -164,7 +163,7 @@ content:
 
 
 
-## Outils utiles
+## 1.7	Outils utiles
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
 -   [SMMRY](https://smmry.com/) : en ligne, anglais

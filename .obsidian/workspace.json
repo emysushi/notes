@@ -55,26 +55,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "838e1a14e13d30f2",
+            "id": "3c81a86338d60831",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Histoire-Geographie/study_ Temps Modernes.md",
+                "file": "Template/tpl-lesson.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -105,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Substituer",
+                "query": "tag:#college_4",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Histoire-Geographie/study_ Temps Modernes.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Histoire-Geographie/study_ Temps Modernes.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -201,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Histoire-Geographie/study_ Temps Modernes.md"
+                "file": "Home.md"
               }
             }
           },
@@ -280,11 +282,11 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 490.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -313,34 +315,34 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "838e1a14e13d30f2",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
+    "README.md",
+    "Home.md",
+    "Dictionary_French.md",
+    "birthdayNode.md",
+    "Technologie/lesson_Technologie_materiaux_evolution.md",
+    "Technologie/Home.md",
+    "Technologie/study_serrures.md",
+    "Technologie/study_serrures.md",
+    "Template/tpl-lesson.md",
+    "Template/tpl-study.md",
+    "Technologie/study_signaux radio.md",
+    "Svt/lesson_Besoins des cellules animales🍗.md",
+    "Physique-Chimie/lesson_MASSE & VOLUME.md",
+    "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
+    "Histoire-Geographie/study_Géographie.md",
+    "Musique/Home.md",
+    "Mathematiques/Home.md",
+    "Histoire-Geographie/study_ Temps Modernes.md",
+    "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
-    "Template/tpl-lesson.md",
     "Histoire-Geographie/feedback_2023-04-17.md",
     "Francais/fiche_Les voyages de Gulliver.md",
-    "Home.md",
-    "Template/tpl-study.md",
     "Template/tpl-livre.md",
     "Template/tpl-feedback.md",
     "Dictionary_English.md",
-    "Dictionary_French.md",
-    "Dictionary/civilisation.md",
-    "Francais/Suivi_Maman.md",
-    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
-    "Francais/fiche_L'Enfant multiple.md",
-    "Francais/feedback_2023-05-23.md",
-    "Emc/study_Etat de droit.md",
-    "Emc/study_bien et le mal.md",
-    "Histoire-Geographie/study_ Temps Modernes.md",
-    "devoirs/Les Temps Modernes 2.md",
-    "Technologie/study_Les Téléphones.md",
-    "Technologie/study_les drones.md",
-    "Histoire-Geographie/study_Géographie.md",
-    "devoirs/la Géographie 3.md",
-    "devoirs/la Géographie 2.md",
-    "Dictionary/blasheme.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
