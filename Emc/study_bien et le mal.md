@@ -33,7 +33,9 @@
 
 
 
-- [[[[substituer|@substituer]]
+- [[[[substituer|@**substitute**
+artificial and inferior; "ersatz coffee"; "substitute coffee"  
+
 - [[[intriguer|@intriguer]]
 - [[[blashee|@blashee]]]
 - #Blasphème : une insulte aux Dieux

@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "ba611db77aebbcee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "birthdayNode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 357.505859375
+    "width": 445.505859375
   },
   "right": {
     "id": "de72a87206515b52",
@@ -121,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "birthdayNode.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "birthdayNode.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "birthdayNode.md"
+                "file": "Home.md"
               }
             }
           },
@@ -238,13 +225,21 @@
               "type": "Birthday-Tracker",
               "state": {}
             }
+          },
+          {
+            "id": "e47107789253ff50",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
-    "width": 490.5
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,9 +268,15 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false
     }
   },
-  "active": "ba611db77aebbcee",
+  "active": "4cf19c3f65007ff3",
   "lastOpenFiles": [
     "Home.md",
+    "[intriguer.md",
+    "Emc/study_bien et le mal.md",
+    "Anglais/Dossier_massachusset.md",
+    "Dictionary_French.md",
+    "Dictionary_English.md",
+    "birthdayNode.md",
     "Template/tpl-study.md",
     "Template/tpl-livre.md",
     "Template/tpl-lesson.md",
@@ -295,12 +296,6 @@
     "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_inegal_developpement.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
-    "Histoire-Geographie/feedback_2023-04-17.md",
-    "Francais/Suivi_Maman.md",
-    "Francais/fiche_Les voyages de Gulliver.md",
-    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
-    "Francais/fiche_L'Enfant multiple.md",
-    "Francais/feedback_2023-05-23.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
