@@ -1,8 +1,7 @@
 
-tags: #book
 
 ---
-
+topic:: #book
 title:: "Les voyages de Gulliver"
 author:: [Jonathan Swift]
 publisher:: Library of Alexandria

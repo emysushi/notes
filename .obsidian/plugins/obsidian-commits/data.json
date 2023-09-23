@@ -84,16 +84,6 @@
       "tags": 0,
       "links": 0
     },
-    "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": {
-      "size": 3150,
-      "tags": 11,
-      "links": 0
-    },
-    "FicheLecture/fiche_L'Enfant multiple.md": {
-      "size": 3891,
-      "tags": 1,
-      "links": 0
-    },
     "Dossier_Liste.md": {
       "size": 297,
       "tags": 0,
@@ -104,74 +94,9 @@
       "tags": 0,
       "links": 0
     },
-    "Cours/Technologie/Home.md": {
-      "size": 97,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Technologie/Fiche_Technologie_materiaux_evolution.md": {
-      "size": 7509,
-      "tags": 3,
-      "links": 0
-    },
-    "Cours/Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md": {
-      "size": 1804,
-      "tags": 3,
-      "links": 0
-    },
-    "Cours/Musique/Home.md": {
-      "size": 93,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Mathematiques/Home.md": {
-      "size": 99,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Francais/Home.md": {
-      "size": 94,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
-      "size": 21057,
-      "tags": 61,
-      "links": 1
-    },
-    "Cours/Chinois/Home.md": {
-      "size": 93,
-      "tags": 0,
-      "links": 0
-    },
-    "Cours/Anglais/Verbes.md": {
-      "size": 24452,
-      "tags": 1,
-      "links": 0
-    },
-    "Cours/Anglais/Dossier_massachusset.md": {
-      "size": 1917,
-      "tags": 2,
-      "links": 11
-    },
-    "Cours/Svt/Besoins des cellules animales🍗.md": {
-      "size": 89,
-      "tags": 0,
-      "links": 0
-    },
     "Dossier/Dossier_serrures.md": {
       "size": 640,
       "tags": 3,
-      "links": 0
-    },
-    "Cours/Histoire-Geographie/LES SERRURES🔐.md": {
-      "size": 2207,
-      "tags": 0,
-      "links": 1
-    },
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md": {
-      "size": 2126,
-      "tags": 10,
       "links": 0
     },
     "Template/tpl-crypto.md": {
@@ -199,16 +124,6 @@
       "tags": 0,
       "links": 0
     },
-    "Cours/Histoire-Geographie/Feedback_2023-04-17.md": {
-      "size": 0,
-      "tags": 2,
-      "links": 0
-    },
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": {
-      "size": 3800,
-      "tags": 3,
-      "links": 0
-    },
     "Planning_Semaine/Planning_Week_2023-05-08.md": {
       "size": 2033,
       "tags": 15,
@@ -224,19 +139,9 @@
       "tags": 0,
       "links": 0
     },
-    "Cours/Physique-Chimie/MASSE & VOLUME.md": {
-      "size": 101,
-      "tags": 0,
-      "links": 0
-    },
     "Planning_Semaine/Planning_Week_2023-05-22.md": {
       "size": 2037,
       "tags": 14,
-      "links": 0
-    },
-    "Cours/Anglais/Les Ecrants et les Routines.md": {
-      "size": 37,
-      "tags": 0,
       "links": 0
     },
     "Dossier/Dossier signaux radio.md": {
@@ -288,11 +193,106 @@
       "size": 2040,
       "tags": 0,
       "links": 0
+    },
+    "Anglais/Dossier_massachusset.md": {
+      "size": 1917,
+      "tags": 2,
+      "links": 11
+    },
+    "Anglais/Les Ecrants et les Routines.md": {
+      "size": 37,
+      "tags": 0,
+      "links": 0
+    },
+    "Anglais/Verbes.md": {
+      "size": 24452,
+      "tags": 1,
+      "links": 0
+    },
+    "Chinois/Home.md": {
+      "size": 93,
+      "tags": 0,
+      "links": 0
+    },
+    "Francais/Home.md": {
+      "size": 94,
+      "tags": 0,
+      "links": 0
+    },
+    "Histoire-Geographie/Feedback_2023-04-17.md": {
+      "size": 0,
+      "tags": 2,
+      "links": 0
+    },
+    "Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md": {
+      "size": 2126,
+      "tags": 10,
+      "links": 0
+    },
+    "Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md": {
+      "size": 3800,
+      "tags": 3,
+      "links": 0
+    },
+    "Histoire-Geographie/Fiche_Histoire_MoyenAge.md": {
+      "size": 21057,
+      "tags": 61,
+      "links": 1
+    },
+    "Histoire-Geographie/LES SERRURES🔐.md": {
+      "size": 2207,
+      "tags": 0,
+      "links": 1
+    },
+    "Mathematiques/Home.md": {
+      "size": 99,
+      "tags": 0,
+      "links": 0
+    },
+    "Musique/Home.md": {
+      "size": 93,
+      "tags": 0,
+      "links": 0
+    },
+    "Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md": {
+      "size": 1804,
+      "tags": 3,
+      "links": 0
+    },
+    "Physique-Chimie/MASSE & VOLUME.md": {
+      "size": 101,
+      "tags": 0,
+      "links": 0
+    },
+    "Svt/Besoins des cellules animales🍗.md": {
+      "size": 89,
+      "tags": 0,
+      "links": 0
+    },
+    "Technologie/Fiche_Technologie_materiaux_evolution.md": {
+      "size": 7509,
+      "tags": 3,
+      "links": 0
+    },
+    "Technologie/Home.md": {
+      "size": 97,
+      "tags": 0,
+      "links": 0
+    },
+    "Francais/fiche_L'Enfant multiple.md": {
+      "size": 3891,
+      "tags": 1,
+      "links": 0
+    },
+    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": {
+      "size": 3150,
+      "tags": 11,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 135,
+      "Refactor": 154,
       "Create": 101,
       "Link": 52,
       "Expand": 39
@@ -310,7 +310,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 14,
+      "10": 33,
       "11": 3,
       "12": 4,
       "13": 6,
@@ -334,7 +334,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 49
+      "Sun": 68
     }
   },
   "recentCommits": {
@@ -434,6 +434,13 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/les serrures.md\"> les serrures </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
+        "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
+        "<a class=\"internal-link\" href=\"Technologie/Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
+        "<a class=\"internal-link\" href=\"Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>",
+        "<a class=\"internal-link\" href=\"Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>",
+        "<a class=\"internal-link\" href=\"Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md\"> Fiche_Physique-Chimie_corps_pure_melange </a>",
         "<a class=\"internal-link\" href=\"Cours/Svt/besoins des cellules animales.md\"> besoins des cellules animales </a>",
         "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales.md\"> Besoins des cellules animales </a>",
         "<a class=\"internal-link\" href=\"Cours/Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>",
@@ -472,7 +479,12 @@
         "<a class=\"internal-link\" href=\"devoirs/Géographie 3.md\"> Géographie 3 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 3.md\"> la Géographie 3 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes 2.md\"> Les Temps Modernes 2 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
+        "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Dossier_massachusset.md\"> Dossier_massachusset </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>",
+        "<a class=\"internal-link\" href=\"Anglais/Verbes.md\"> Verbes </a>",
+        "<a class=\"internal-link\" href=\"Chinois/Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Francais/Home.md\"> Home </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",

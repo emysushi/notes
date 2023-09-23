@@ -61,7 +61,8 @@
       "#_exercice-8-15-63"
     ],
     "FicheLecture/fiche_L'Enfant multiple.md": [
-      "#book-1-7-8"
+      "#book-1-7-8",
+      "4-8-27"
     ],
     "Cours/Anglais/Dossier_massachusset.md": [
       "#dossier-4-7-123",
@@ -260,7 +261,6 @@
       "#pays_émergent-79-2-2060"
     ],
     "FicheLecture/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md": [
-      "#book-0-6-6",
       "#Alice-44-0-1181",
       "#Lapin-45-0-1279",
       "#Souris-46-0-1355",
@@ -476,9 +476,7 @@
       "#Khan-48-6-1262",
       "#_exercice-48-12-1268"
     ],
-    "FicheLecture/fiche_Les voyages de Gulliver.md": [
-      "#book-1-6-7"
-    ],
+    "FicheLecture/fiche_Les voyages de Gulliver.md": [],
     "suivi maman/Français/FRANCAIS.md": [],
     "Planning_Semaine/Planning_Week_2023-05-22.md": [
       "11-6-57",
@@ -565,6 +563,7 @@
       "28-2-1044",
       "29-2-1068"
     ],
-    "devoirs/Les Temps Modernes.md": []
+    "devoirs/Les Temps Modernes.md": [],
+    "Template/tpl-livre.md": []
   }
 }

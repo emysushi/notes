@@ -1,7 +1,7 @@
-tags: #book
 
 ---
 
+topic:: #book
 title:: "{{title}}"
 author:: [{{author}}]
 publisher:: {{publisher}}

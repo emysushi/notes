@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dossier_Liste.md",
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dossier_Liste.md",
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dossier_Liste.md",
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dossier_Liste.md"
+                "file": "FicheLecture/fiche_Les voyages de Gulliver.md"
               }
             }
           },
@@ -230,10 +230,16 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "6b6241b0e77316a2",
+  "active": "cc433e56d726fa8d",
   "lastOpenFiles": [
-    "Sans titre.md",
+    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
+    "Francais/fiche_L'Enfant multiple.md",
+    "FicheLecture/fiche_Les voyages de Gulliver.md",
+    "Template/tpl-livre.md",
+    "devoirs/l'Etat de droit.md",
+    "Anglais/Dossier_massachusset.md",
     "Dossier_Liste.md",
+    "Sans titre.md",
     "controle_feedback.md",
     "Bibliotheque_Liste.md",
     "().md",
@@ -244,9 +250,7 @@
     "Template/tpl-block-column-modele1.md",
     "Template/tpl-block-column_model3.md",
     "Template/tpl-block-column_model2.md",
-    "Cours/Anglais/Dossier_massachusset.md",
     "Banner/biblio.jpeg",
-    "devoirs/l'Etat de droit.md",
     "devoirs/la Géographie 3.md",
     "devoirs/la Géographie 2.md",
     "devoirs/Les Temps Modernes 2.md",
@@ -257,10 +261,6 @@
     "devoirs/Sans titre",
     "Dossier/Dossier signaux radio.md",
     "devoirs",
-    "Cours/Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
-    "Cours/Histoire-Geographie/Feedback_2023-04-17.md",
-    "Cours/Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
-    "Cours/Anglais/Les Ecrants et les Routines.md",
     "Gallery/Pasted image 20230308173724.png",
     "Gallery/massachussets_embleme.png",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png",

@@ -1,8 +1,7 @@
 
-tags : #book
 
 ---
-
+topic:: #book
 title:: "L'Enfant multiple"
 author:: [Andrée Chedid]
 publisher:: Flammarion
