@@ -149,11 +149,6 @@
       "tags": 0,
       "links": 0
     },
-    "Francais/Home.md": {
-      "size": 94,
-      "tags": 0,
-      "links": 0
-    },
     "Histoire-Geographie/Feedback_2023-04-17.md": {
       "size": 0,
       "tags": 2,
@@ -252,7 +247,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 175,
+      "Refactor": 176,
       "Create": 102,
       "Link": 55,
       "Expand": 39
@@ -272,7 +267,7 @@
       "9": 0,
       "10": 48,
       "11": 5,
-      "12": 12,
+      "12": 13,
       "13": 6,
       "14": 15,
       "15": 11,
@@ -294,7 +289,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 93
+      "Sun": 94
     }
   },
   "recentCommits": {
@@ -485,6 +480,7 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Francais/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Dossier_Liste.md\"> Dossier_Liste </a>",
         "<a class=\"internal-link\" href=\"Bibliotheque_Liste.md\"> Bibliotheque_Liste </a>",
         "<a class=\"internal-link\" href=\"histoire.md\"> histoire </a>",
@@ -528,7 +524,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

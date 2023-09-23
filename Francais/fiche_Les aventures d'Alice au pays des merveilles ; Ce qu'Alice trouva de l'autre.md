@@ -43,16 +43,16 @@ updated: 2023-03-16 20:39:30
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages:
 
-#Alice: personnage principale, jeune fille, qui connaitra des aventures merveilleuses et étranges
-#Lapin: provoque le début de l'aventure, statu officiel au près de la reine
-#Souris: rencontre Alice dans la mare, elles s'entraident pour arriver sur la rive, mais se montre maladroite
-#Chenille: Alice se montre amicale mais la Chenille elle est méprisante mais grâce à elle qu'Alice va pouvoir métriser ses                                 changements de taille
-#Duchesse: allaite un bébé en le traitant méchamment, Alice le sauve mais il se transforme en cochon 
-#Chat:le chat de la duchesse qui n'arrête pas de sourire et révèle à Alice que ce monde est peuplé de fous et peut disparaitre
-#fous:le lièvre le chapelier et le loir accueillent Alice pour prendre le thé et discutent de propos absurdes
-#Reine:elle fait exécuter toute personne qui ne lui obéit pas
-#Roi:il se révèle être un juge partial changeant les lois à sa guise pour mieux asseoir son autoritarisme
-#Jardiniers:carte à jouer serviteurs de la Reine qui repeignent les roses blanches en rouges 
+Alice: personnage principale, jeune fille, qui connaitra des aventures merveilleuses et étranges
+Lapin: provoque le début de l'aventure, statu officiel au près de la reine
+Souris: rencontre Alice dans la mare, elles s'entraident pour arriver sur la rive, mais se montre maladroite
+Chenille: Alice se montre amicale mais la Chenille elle est méprisante mais grâce à elle qu'Alice va pouvoir métriser ses                                 changements de taille
+Duchesse: allaite un bébé en le traitant méchamment, Alice le sauve mais il se transforme en cochon 
+Chat:le chat de la duchesse qui n'arrête pas de sourire et révèle à Alice que ce monde est peuplé de fous et peut disparaitre
+fous:le lièvre le chapelier et le loir accueillent Alice pour prendre le thé et discutent de propos absurdes
+Reine:elle fait exécuter toute personne qui ne lui obéit pas
+Roi:il se révèle être un juge partial changeant les lois à sa guise pour mieux asseoir son autoritarisme
+Jardiniers:carte à jouer serviteurs de la Reine qui repeignent les roses blanches en rouges 
 
 # 5	Résumé bref :
 Alice voit passer un lapin blanc qui est pressé, elle le suit et tombe dans un terrier, et arrive dans une pièce close
