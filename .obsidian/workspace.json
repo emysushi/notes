@@ -51,14 +51,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionary_French.md",
+                "file": "Dictionary/parapluie.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "ec46810924e0cec1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dictionary_French.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -129,7 +143,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.505859375
+    "width": 357.505859375
   },
   "right": {
     "id": "de72a87206515b52",
@@ -296,13 +310,16 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "9cd2f75b15540626",
+  "active": "ec46810924e0cec1",
   "lastOpenFiles": [
-    "Dictionary/velo.md",
+    "Dictionary/parapluie.md",
     "Dictionary_French.md",
-    "Home.md",
     "Crypto/Sans titre.md",
     "Template/tpl-dictionary.md",
+    "Dictionary/velo.md",
+    "Dictionary/aelo 1.md",
+    "Dictionary/aelo 1 1.md",
+    "Home.md",
     "Dictionary/@maison.md",
     "Anglais/Dossier_massachusset.md",
     "Dictionary/@batiment.md",
@@ -323,9 +340,6 @@
     "Anglais/Verbes.md",
     "Anglais/Les Ecrants et les Routines.md",
     "Dossier_Liste.md",
-    "birthdayNode.md",
-    "Bibliotheque_Liste.md",
-    "Technologie/LES SERRURES🔐.md",
     "devoirs/Sans titre",
     "devoirs",
     "Gallery/Pasted image 20230308173724.png",

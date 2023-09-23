@@ -1,24 +1,14 @@
 
-# 1	FRENCH LIST
-```dataview
-LIST
 
+## 0.1	FRENCH LIST
+```dataview
+TABLE rows.file.link as Term, rows.term_language as Lang, rows.term_translate as Translation
 	
 FROM #dictionary 
 WHERE !contains(file.link, "Template") and term_language = "#french"
-SORT term_fr asc
+GROUP BY substring(string(file.name), 0, 1) as Letter
 
 
-```
-
-
-	substring(string(file.name), 0, 1) as Letter
-
-```dataview
-TABLE rows.file.link AS "Name", rows.domain AS "Domain", file.path.substring(0, 2) AS CourseCode
-FROM -"Templates" 
-WHERE !contains(file.path, "Template") and term_language = "#french"
-SORT file.name ASC 
-GROUP BY realm
 
 ```
+

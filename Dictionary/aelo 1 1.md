@@ -1,6 +1,7 @@
 
 
-- type:: #dictionary 
+**type**:: #dictionary 
+
 - domain:: #general 
 
 ++++++++

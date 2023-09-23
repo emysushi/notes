@@ -1,2 +1,2 @@
 
-[[[[velo|@velo]]]]
+[[[[parapluie|@parapluie]]]]

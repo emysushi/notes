@@ -263,13 +263,18 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Dictionary/aelo 1.md": {
+      "size": 669,
+      "tags": 4,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 195,
-      "Create": 111,
-      "Link": 63,
+      "Refactor": 196,
+      "Create": 112,
+      "Link": 64,
       "Expand": 39
     }
   },
@@ -291,7 +296,7 @@
       "13": 6,
       "14": 15,
       "15": 45,
-      "16": 84,
+      "16": 87,
       "17": 76,
       "18": 91,
       "19": 13,
@@ -309,7 +314,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 130
+      "Sun": 133
     }
   },
   "recentCommits": {
@@ -356,6 +361,7 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dictionary/velo 1.md\"> velo 1 </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"@batiment.md\"> @batiment </a>",
@@ -405,10 +411,10 @@
         "<a class=\"internal-link\" href=\"().md\"> () </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Dictionary/aelo 1.md\"> aelo 1 </a>",
         "<a class=\"internal-link\" href=\"Dictionary_French.md\"> Dictionary_French </a>",
         "<a class=\"internal-link\" href=\"Dictionary/@batiment.md\"> @batiment </a>",
         "<a class=\"internal-link\" href=\"Dictionary/@maison.md\"> @maison </a>",
@@ -458,8 +464,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la géographie.md\"> la géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la.md\"> la </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -494,7 +499,8 @@
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>"
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/aelo 1.md\"> aelo 1 </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",

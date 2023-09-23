@@ -653,17 +653,36 @@
       "1-7-8"
     ],
     "Template/tpl-dictionary.md": [
-      "#dictionary-2-7-9"
+      "#dictionary-1-9-10",
+      "#general-2-11-34",
+      "#french-6-22-99"
     ],
     "Untitled.md": [],
     "Dictionary/Untitled.md": [
       "#dictionary-2-7-9"
     ],
     "Dictionary/velo.md": [
-      "#dictionary-2-11-13",
-      "#general-4-11-38",
-      "#french-8-22-98",
-      "#english-12-32-601"
+      "#dictionary-2-9-11",
+      "#general-3-11-35",
+      "#french-7-22-95",
+      "#english-11-32-598"
+    ],
+    "Dictionary/velo 1.md": [
+      "2-11-13",
+      "4-11-38",
+      "8-22-98",
+      "12-32-601"
+    ],
+    "Dictionary/aelo 1 1.md": [
+      "2-11-13",
+      "4-11-38",
+      "8-22-98",
+      "12-32-601"
+    ],
+    "Dictionary/parapluie.md": [
+      "#dictionary-1-9-10",
+      "#general-2-11-34",
+      "#french-6-22-99"
     ]
   }
 }
