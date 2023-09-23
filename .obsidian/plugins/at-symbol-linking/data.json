@@ -1,11 +1,9 @@
 {
-  "limitLinkDirectories": [
-    "Dictionary"
-  ],
+  "limitLinkDirectories": [],
   "includeSymbol": true,
   "showAddNewNote": true,
   "addNewNoteTemplateFile": "Template/tpl-dictionary",
-  "addNewNoteDirectory": "D",
+  "addNewNoteDirectory": "Dictionary",
   "useCompatibilityMode": false,
   "leavePopupOpenForXSpaces": 0
 }

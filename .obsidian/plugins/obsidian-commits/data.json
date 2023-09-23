@@ -59,11 +59,6 @@
       "tags": 0,
       "links": 0
     },
-    "Dossier/Dossier_serrures.md": {
-      "size": 640,
-      "tags": 3,
-      "links": 0
-    },
     "Template/tpl-crypto.md": {
       "size": 905,
       "tags": 1,
@@ -77,11 +72,6 @@
     "Template/tpl-feedback.md": {
       "size": 1500,
       "tags": 1,
-      "links": 0
-    },
-    "Dossier/Dossier signaux radio.md": {
-      "size": 3056,
-      "tags": 2,
       "links": 0
     },
     "devoirs/la Géographie 2.md": {
@@ -248,13 +238,38 @@
       "size": 641,
       "tags": 1,
       "links": 0
+    },
+    "Technologie/Dossier signaux radio.md": {
+      "size": 3056,
+      "tags": 2,
+      "links": 0
+    },
+    "Technologie/Dossier_serrures.md": {
+      "size": 640,
+      "tags": 3,
+      "links": 0
+    },
+    "Untitled.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
+    },
+    "Crypto/Sans titre.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
+    },
+    "Dictionary/@maison.md": {
+      "size": 0,
+      "tags": 1,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 181,
-      "Create": 103,
-      "Link": 56,
+      "Refactor": 190,
+      "Create": 109,
+      "Link": 58,
       "Expand": 39
     }
   },
@@ -275,7 +290,7 @@
       "12": 15,
       "13": 6,
       "14": 15,
-      "15": 16,
+      "15": 33,
       "16": 84,
       "17": 76,
       "18": 91,
@@ -294,7 +309,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 101
+      "Sun": 118
     }
   },
   "recentCommits": {
@@ -341,6 +356,12 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"@batiment.md\"> @batiment </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-crypto 1.md\"> tpl-crypto 1 </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones 1.md\"> Les Téléphones 1 </a>",
@@ -385,15 +406,15 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Dictionary/@batiment.md\"> @batiment </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/@maison.md\"> @maison </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/maison.md\"> maison </a>",
+        "<a class=\"internal-link\" href=\"Technologie/Dossier_serrures.md\"> Dossier_serrures </a>",
+        "<a class=\"internal-link\" href=\"Technologie/Dossier signaux radio.md\"> Dossier signaux radio </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Technologie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
@@ -438,13 +459,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la.md\"> la </a>",
-        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les.md\"> Les </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Les Temps Modernes.md\"> Les Temps Modernes </a>",
-        "<a class=\"internal-link\" href=\"devoirs/l.md\"> l </a>",
-        "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>",
-        "<a class=\"internal-link\" href=\"devoirs/m.md\"> m </a>"
+        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -473,7 +488,9 @@
         "<a class=\"internal-link\" href=\"Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>",
         "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
         "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
+        "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/maison.md\"> maison </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -486,6 +503,9 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Dictionary/@batiment.md\"> @batiment </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/maison.md\"> maison </a>",
         "<a class=\"internal-link\" href=\"Francais/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Dossier_Liste.md\"> Dossier_Liste </a>",
         "<a class=\"internal-link\" href=\"Bibliotheque_Liste.md\"> Bibliotheque_Liste </a>",
@@ -530,9 +550,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

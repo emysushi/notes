@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-dictionary.md",
+                "file": "Crypto/Sans titre.md",
                 "mode": "source",
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-dictionary.md",
+                "file": "Crypto/Sans titre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-dictionary.md",
+                "file": "Crypto/Sans titre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-dictionary.md"
+                "file": "Crypto/Sans titre.md"
               }
             }
           },
@@ -298,8 +298,15 @@
   },
   "active": "ff9947a85c609aab",
   "lastOpenFiles": [
-    "Template/tpl-crypto.md",
+    "Dictionary/@maison.md",
+    "Dictionary/@batiment.md",
+    "Crypto/Sans titre.md",
+    "Untitled.md",
+    "Dictionary/Sans titre.md",
+    "Crypto/Crypto_introduction.md",
+    "Technologie/Dossier_serrures.md",
     "Template/tpl-dictionary.md",
+    "Template/tpl-crypto.md",
     "Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "Dictionary",
     "Histoire-Geographie/Feedback_2023-04-17.md",
@@ -319,13 +326,6 @@
     "Bibliotheque_Liste.md",
     "Technologie/LES SERRURES🔐.md",
     "Technologie/Fiche_Technologie_materiaux_evolution.md",
-    "Svt/Besoins des cellules animales🍗.md",
-    "Physique-Chimie/MASSE & VOLUME.md",
-    "Physique-Chimie/Fiche_Physique-Chimie_corps_pure_melange.md",
-    "Musique/Home.md",
-    "Mathematiques/Home.md",
-    "Histoire-Geographie/Fiche_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
-    "Histoire-Geographie/Fiche_Histoire-Geographie_inegal_developpement.md",
     "devoirs/Sans titre",
     "devoirs",
     "Gallery/Pasted image 20230308173724.png",
