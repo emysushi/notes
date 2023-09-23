@@ -1,3 +1,5 @@
+
+# 1	FRENCH LIST
 ```dataview
 TABLE WITHOUT ID
 	link(file.link, title) as Ref,
@@ -5,9 +7,7 @@ TABLE WITHOUT ID
 	term_en
 	
 FROM #dictionary 
-SORT term
+WHERE !contains(file.path, "Template") and term_language=#french
+SORT term_fr asc
 ```
 
-term_fr:: velo
-term_en:: NA
-definition:: NA

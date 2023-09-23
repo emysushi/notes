@@ -249,11 +249,6 @@
       "tags": 3,
       "links": 0
     },
-    "Untitled.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "Crypto/Sans titre.md": {
       "size": 0,
       "tags": 0,
@@ -261,15 +256,20 @@
     },
     "Dictionary/velo.md": {
       "size": 65,
-      "tags": 1,
+      "tags": 3,
+      "links": 0
+    },
+    "Dictionary_French.md": {
+      "size": 0,
+      "tags": 0,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 194,
+      "Refactor": 195,
       "Create": 111,
-      "Link": 61,
+      "Link": 62,
       "Expand": 39
     }
   },
@@ -290,7 +290,7 @@
       "12": 15,
       "13": 6,
       "14": 15,
-      "15": 42,
+      "15": 44,
       "16": 84,
       "17": 76,
       "18": 91,
@@ -309,7 +309,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 127
+      "Sun": 129
     }
   },
   "recentCommits": {
@@ -409,6 +409,7 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Dictionary_French.md\"> Dictionary_French </a>",
         "<a class=\"internal-link\" href=\"Dictionary/@batiment.md\"> @batiment </a>",
         "<a class=\"internal-link\" href=\"Dictionary/@maison.md\"> @maison </a>",
         "<a class=\"internal-link\" href=\"Dictionary/Sans titre.md\"> Sans titre </a>",
@@ -458,8 +459,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie.md\"> la Géographie </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2.md\"> la Géographie 2 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la.md\"> la </a>",
-        "<a class=\"internal-link\" href=\"devoirs/le bien et le mal.md\"> le bien et le mal </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la.md\"> la </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -491,6 +491,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Dictionary/maison.md\"> maison </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>"
       ],
