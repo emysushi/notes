@@ -8,7 +8,7 @@ TABLE WITHOUT ID
 	substring(French, 0, 2)
 	
 FROM #dictionary 
-WHERE !contains(file.path, "Template") and term_language = "#french"
+WHERE !contains(file., "Template") and term_language = "#french"
 SORT term_fr asc
 ```
 
