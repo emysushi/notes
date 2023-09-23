@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-feedback.md",
+                "file": "Template/tpl-study.md",
                 "mode": "source",
                 "source": false
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-feedback.md",
+                "file": "Template/tpl-study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-feedback.md",
+                "file": "Template/tpl-study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-feedback.md"
+                "file": "Template/tpl-study.md"
               }
             }
           },
@@ -336,32 +336,32 @@
   },
   "active": "9c46eb13a2f4bb37",
   "lastOpenFiles": [
+    "Technologie/Dossier signaux radio.md",
+    "Technologie/Dossier_serrures.md",
+    "devoirs/la Géographie 1.md",
+    "Template/tpl-block-timeline.md",
+    "Crypto/Sans titre.md",
+    "Chinois/Home.md",
+    "Template/tpl-test.md",
+    "Template/tpl-dictionary.md",
     "Template/tpl-feedback.md",
     "Template/tpl-feedback.md",
     "Template/tpl-lesson.md",
     "Template/tpl-study.md",
     "Template/tpl-livre.md",
     "Template/tpl-crypto.md",
-    "Template/tpl-block-timeline.md",
     "Template/tpl-fiche_langues.md",
     "Template/tpl-fiche_math.md",
     "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_svt.md",
     "Template/tpl-fiche_techno.md",
-    "Template/tpl-test.md",
     "Francais/lesson_TEST.md",
     "Francais/lesson_test.md",
     "Francais/lesson_text.md",
-    "Template/tpl-dictionary.md",
     "Template/tpl-kanban.md",
     "Anglais/Dossier_massachusset.md",
     "Dictionary_English.md",
     "Dictionary_French.md",
-    "Dictionary/parapluie.md",
-    "Dictionary/velo.md",
-    "Dictionary/ordinateur.md",
-    "Crypto/Sans titre.md",
-    "Dictionary/stylo.md",
     "Dictionary",
     "Banner/biblio.jpeg",
     "devoirs/Sans titre",

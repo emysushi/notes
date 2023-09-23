@@ -33,14 +33,39 @@ await tp.file.rename(titleName)
 
 
 
-## 1.3	Points positifs
+
+
+
+
+
+```chartsview
+#-----------------#
+#- chart type    -#
+#-----------------#
+type: Radar
+
+#-----------------#
+#- chart data    -#
+#-----------------#
+data:
+  - label: A
+    value: 2
+  - label: B
+    value: 5
+  - label: " C"
+    value: 3
+
+#-----------------#
+#- chart options -#
+#-----------------#
+options:
+  xField: label
+  yField: value
+```
+
+
+
+## 1.3	Axes ameliorations
 ---
-
-
-
-
-## 1.4	Points negatifs
----
-
 
 

@@ -4,11 +4,6 @@
     "/"
   ],
   "filesCheckpoint": {
-    "Template/tpl-test.md": {
-      "size": 2019,
-      "tags": 0,
-      "links": 0
-    },
     "Template/tpl-livre.md": {
       "size": 943,
       "tags": 0,
@@ -92,11 +87,6 @@
     "Anglais/Verbes.md": {
       "size": 24452,
       "tags": 1,
-      "links": 0
-    },
-    "Chinois/Home.md": {
-      "size": 93,
-      "tags": 0,
       "links": 0
     },
     "Histoire-Geographie/Feedback_2023-04-17.md": {
@@ -209,11 +199,6 @@
       "tags": 3,
       "links": 0
     },
-    "Crypto/Sans titre.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 2
-    },
     "Dictionary/velo.md": {
       "size": 65,
       "tags": 4,
@@ -257,7 +242,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 217,
+      "Refactor": 220,
       "Create": 125,
       "Link": 72,
       "Expand": 39
@@ -282,7 +267,7 @@
       "14": 15,
       "15": 45,
       "16": 97,
-      "17": 108,
+      "17": 111,
       "18": 91,
       "19": 13,
       "20": 2,
@@ -299,7 +284,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 175
+      "Sun": 178
     }
   },
   "recentCommits": {
@@ -505,6 +490,9 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"Chinois/Home.md\"> Home </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-test.md\"> tpl-test </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_langues.md\"> tpl-fiche_langues </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-fiche_math.md\"> tpl-fiche_math </a>",
@@ -552,10 +540,7 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Feedback_2023-04-17.md\"> Feedback_2023-04-17 </a>",
         "<a class=\"internal-link\" href=\"Crypto/Crypto_introduction.md\"> Crypto_introduction </a>",
-        "<a class=\"internal-link\" href=\"Crypto/Training/Crypto_intro_Training.md\"> Crypto_intro_Training </a>",
-        "<a class=\"internal-link\" href=\"Crypto/Training/Dossier_introduction.md\"> Dossier_introduction </a>",
-        "<a class=\"internal-link\" href=\"Crypto/Training/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Home.md\"> Home </a>"
+        "<a class=\"internal-link\" href=\"Crypto/Training/Crypto_intro_Training.md\"> Crypto_intro_Training </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",

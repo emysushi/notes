@@ -1,2 +1,0 @@
-[[[stylo|@stylo]]
-[[[ordinateur|@ordinateur]]
