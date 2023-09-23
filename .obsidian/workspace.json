@@ -34,25 +34,13 @@
             }
           },
           {
-            "id": "9fb5e1614ede119d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dictionary/stylo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec46810924e0cec1",
+            "id": "82ff75d69122b48d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionary_French.md",
+                "file": "Template/tpl-study.md",
                 "mode": "source",
                 "source": false
               },
@@ -60,43 +48,31 @@
             }
           },
           {
-            "id": "a3c32190f9b2282c",
+            "id": "cf7e7a656228108a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionary/velo.md",
+                "file": "devoirs/study_bien et le mal.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "101198fa0be28646",
+            "id": "8fc2bbb32a805071",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dictionary/parapluie.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9c46eb13a2f4bb37",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "devoirs/l'Etat de droit.md",
+                "file": "Dictionary/intriguer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +103,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#transhumance",
+                "query": "tag:#Substituer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "devoirs/l'Etat de droit.md",
+                "file": "Dictionary/intriguer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "devoirs/l'Etat de droit.md",
+                "file": "Dictionary/intriguer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "devoirs/l'Etat de droit.md"
+                "file": "Dictionary/intriguer.md"
               }
             }
           },
@@ -334,13 +310,20 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "9c46eb13a2f4bb37",
+  "active": "8fc2bbb32a805071",
   "lastOpenFiles": [
-    "Emc",
+    "devoirs/study_bien et le mal.md",
+    "Dictionary/intriguer.md",
+    "Home.md",
+    "Emc/study_Etat de droit.md",
     "Template/tpl-study.md",
+    "Dictionary/substituer.md",
+    "Dictionary_French.md",
+    "devoirs/la Géographie 1.md",
+    "Dictionary/stylo.md",
+    "Emc",
     "Technologie/Dossier signaux radio.md",
     "Technologie/Dossier_serrures.md",
-    "devoirs/la Géographie 1.md",
     "Template/tpl-block-timeline.md",
     "Crypto/Sans titre.md",
     "Chinois/Home.md",
@@ -356,12 +339,6 @@
     "Template/tpl-fiche_physique-chimie.md",
     "Template/tpl-fiche_svt.md",
     "Template/tpl-fiche_techno.md",
-    "Francais/lesson_TEST.md",
-    "Francais/lesson_test.md",
-    "Francais/lesson_text.md",
-    "Template/tpl-kanban.md",
-    "Anglais/Dossier_massachusset.md",
-    "Dictionary_English.md",
     "Dictionary",
     "Banner/biblio.jpeg",
     "devoirs/Sans titre",
@@ -375,7 +352,6 @@
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
     "Gallery/dossier_serrure",
-    "Gallery/Nouveau dossier",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
   ]

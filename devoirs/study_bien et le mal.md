@@ -1,4 +1,19 @@
 
+---
+- **type**:: #study
+- **domain**:: emc
+- **title**:: bien et le mal
+- **level**:: #college_4
+- **status**:: done
+- **created**:: 
+- **updated**:: 
+---
+
+# 1	BIEN ET MAL
+
+## 1.1	Introduction
+---
+
 - vidéo (à chacun sa morale) :
 	- c'est bien  =  cela ME plait     -->
 	-                                                           subjectivité  -->  pas de désaccord objectif
@@ -13,12 +28,14 @@
 
 
 
+## 2	définitions
+---
 
 
-# définitions
 
-- #Substituer : remplacer, mettre à la place
-- #Intriguer : préparer en secret de mauvaises actions
+- [[[[substituer|@substituer]]
+- [[[intriguer|@intriguer]]
+- #Intriguer : 
 - #Blasphème : une insulte aux Dieux
 - #Illicite : interdit par la loi
 - #Usurper : s'emparer comme si c'était le nôtre, voler

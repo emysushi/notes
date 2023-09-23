@@ -39,11 +39,6 @@
       "tags": 0,
       "links": 0
     },
-    "devoirs/le bien et le mal.md": {
-      "size": 20,
-      "tags": 11,
-      "links": 0
-    },
     "devoirs/Les Téléphones.md": {
       "size": 8253,
       "tags": 0,
@@ -51,11 +46,6 @@
     },
     "devoirs/Les Temps Modernes.md": {
       "size": 3122,
-      "tags": 0,
-      "links": 0
-    },
-    "devoirs/l'Etat de droit.md": {
-      "size": 3010,
       "tags": 0,
       "links": 0
     },
@@ -238,13 +228,33 @@
       "size": 1486,
       "tags": 2,
       "links": 0
+    },
+    "devoirs/study_bien et le mal.md": {
+      "size": 20,
+      "tags": 10,
+      "links": 2
+    },
+    "Emc/study_Etat de droit.md": {
+      "size": 3010,
+      "tags": 0,
+      "links": 0
+    },
+    "Dictionary/substituer.md": {
+      "size": 247,
+      "tags": 4,
+      "links": 0
+    },
+    "Dictionary/intriguer.md": {
+      "size": 246,
+      "tags": 4,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 220,
-      "Create": 125,
-      "Link": 72,
+      "Refactor": 224,
+      "Create": 127,
+      "Link": 75,
       "Expand": 40
     }
   },
@@ -267,7 +277,7 @@
       "14": 15,
       "15": 45,
       "16": 97,
-      "17": 112,
+      "17": 121,
       "18": 91,
       "19": 13,
       "20": 2,
@@ -284,7 +294,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 179
+      "Sun": 188
     }
   },
   "recentCommits": {
@@ -332,6 +342,8 @@
         "<a class=\"internal-link\" href=\"devoirs/l'Etat de droit.md\"> l'Etat de droit </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson 1.md\"> tpl-lesson 1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson 1.md\"> tpl-lesson 1 </a>",
         "<a class=\"internal-link\" href=\"Francais/Untitled.md\"> Untitled </a>",
@@ -380,11 +392,12 @@
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Bibliotheque_Liste 1.md\"> Bibliotheque_Liste 1 </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Emc/study_Etat de droit.md\"> study_Etat de droit </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_Etat de droit.md\"> study_Etat de droit </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
@@ -432,10 +445,7 @@
         "<a class=\"internal-link\" href=\"Cours/Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/les.md\"> les </a>",
         "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants.md\"> Les Ecrants </a>",
-        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier ondes radio.md\"> Dossier ondes radio </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier sign radio.md\"> Dossier sign radio </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier signaux radio.md\"> Dossier signaux radio </a>"
+        "<a class=\"internal-link\" href=\"Cours/Anglais/Les Ecrants et les Routines.md\"> Les Ecrants et les Routines </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
@@ -478,7 +488,9 @@
         "<a class=\"internal-link\" href=\"Dictionary/stylo.md\"> stylo </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -574,7 +586,8 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
-        "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>"
+        "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
@@ -591,7 +604,8 @@
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Dictionary/velo.md\"> velo </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
+        "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>"
       ],
       "Removed Links from": []
     }

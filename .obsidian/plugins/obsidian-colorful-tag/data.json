@@ -699,8 +699,32 @@
       "#college_4-13-14-289"
     ],
     "Template/tpl-study.md": [
-      "#study-10-13-201",
-      "#college_4-13-14-288"
+      "#study-10-13-200",
+      "#college_4-13-14-287"
+    ],
+    "devoirs/study_bien et le mal.md": [
+      "#Intriguer-37-2-932",
+      "#Blasphème-38-2-948",
+      "#Illicite-39-2-985",
+      "#Usurper-40-2-1019",
+      "#Adorer-41-2-1075",
+      "#Convoiter-42-2-1110",
+      "#Adultère-43-2-1144",
+      "#totalitarisme-44-2-1203",
+      "#système-totalitaire-45-2-1224",
+      "#abdiquer-46-2-1249"
+    ],
+    "Dictionary/substituer.md": [
+      "#dictionary-1-13-14",
+      "#general-2-15-42",
+      "#french-6-22-108",
+      "10-32-248"
+    ],
+    "Dictionary/intriguer.md": [
+      "#dictionary-1-13-14",
+      "#general-2-15-42",
+      "#french-6-22-107",
+      "#english-10-32-213"
     ]
   }
 }

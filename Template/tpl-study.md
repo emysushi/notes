@@ -2,7 +2,7 @@
 <%*
 let qcFileName = await tp.system.prompt("Titre Fiche (ex: Mahomet)")
 let qcDomain = tp.file.folder(false)
-titleName = "lesson_" + qcFileName
+titleName = "study_" + qcFileName
 await tp.file.rename(titleName)
 -%>
 

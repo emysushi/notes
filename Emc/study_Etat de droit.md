@@ -2,15 +2,19 @@
 
 ---
 - **type**:: #study
-- **domain**:: <% "#"+ qcDomain %>
-- **title**:: <% qcFileName %>
+- **domain**:: #emc
+- **title**:: Etat de droit
 - **level**:: #college_4
 - **status**:: inprogress
-- **created**:: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
-- **updated**:: <% tp.file.last_modified_date("YYYY-MM-DD HH:mm:ss") %>
+- **created**:: 
+- **updated**::
 ---
 
+# 1	ETAT DE DROIT
 
+
+## 1.1	valeur francaise
+---
 
 **révolution française** : 1789
 
@@ -58,6 +62,8 @@
 	- Les hommes naissent et demeurent libres et égaux en droits.
 	- Les distinctions sociales ne peuvent être fondées que sur l'utilité commune.
 
+## 1.2	passeport
+---
 - **le passeport
 	- **définition** :
 		- Pièce certifiant l'identité et la nationalité délivrée > autorité administrative pour lui permettre de se rendre à l'étranger.
@@ -71,7 +77,8 @@
 		- branches de chêne (justice) et d'olivier (paix) 
 		- entourant le motif  
 
-# 1	états de droit, la constitution
+## 1.3	états de droit, la constitution
+---
 
 - **société = gouvernement
 	- un pouvoir qui oblige tous les individus à obéir aux lois
