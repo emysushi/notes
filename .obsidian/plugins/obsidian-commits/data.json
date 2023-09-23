@@ -59,24 +59,9 @@
       "tags": 0,
       "links": 0
     },
-    "Template/tpl-block-column_model3.md": {
-      "size": 669,
-      "tags": 0,
-      "links": 0
-    },
     "Template/tpl-dossier.md": {
       "size": 840,
       "tags": 1,
-      "links": 0
-    },
-    "Template/tpl-block-column_model2.md": {
-      "size": 402,
-      "tags": 0,
-      "links": 0
-    },
-    "Template/tpl-block-column-modele1.md": {
-      "size": 143,
-      "tags": 0,
       "links": 0
     },
     "README.md": {
@@ -189,11 +174,6 @@
       "tags": 10,
       "links": 0
     },
-    "().md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "Template/tpl-crypto.md": {
       "size": 905,
       "tags": 1,
@@ -259,11 +239,6 @@
       "tags": 0,
       "links": 0
     },
-    "Sans titre.md": {
-      "size": 0,
-      "tags": 0,
-      "links": 0
-    },
     "Dossier/Dossier signaux radio.md": {
       "size": 3056,
       "tags": 2,
@@ -317,7 +292,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 130,
+      "Refactor": 135,
       "Create": 101,
       "Link": 52,
       "Expand": 39
@@ -335,7 +310,7 @@
       "7": 0,
       "8": 0,
       "9": 0,
-      "10": 9,
+      "10": 14,
       "11": 3,
       "12": 4,
       "13": 6,
@@ -359,7 +334,7 @@
       "Thu": 177,
       "Fri": 9,
       "Sat": 0,
-      "Sun": 44
+      "Sun": 49
     }
   },
   "recentCommits": {
@@ -535,6 +510,11 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
+        "<a class=\"internal-link\" href=\"().md\"> () </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-block-column-modele1.md\"> tpl-block-column-modele1 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-block-column_model3.md\"> tpl-block-column_model3 </a>",
+        "<a class=\"internal-link\" href=\"Template/tpl-block-column_model2.md\"> tpl-block-column_model2 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
@@ -564,11 +544,6 @@
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"Cours/Technologie/Dossier_Serrures.md\"> Dossier_Serrures </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
-        "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
