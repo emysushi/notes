@@ -15,7 +15,7 @@ GROUP BY substring(file.link, 0, 1)
 
 
 ```dataview
-TABLE rows.file.link AS "Name", rows.domain AS "Domain" 
+TABLE rows.file.link AS "Name", rows.domain AS "Domain",substring(Name, 0, 2) 
 FROM -"Templates" 
 WHERE !contains(file.path, "Template") and term_language = "#french"
 SORT file.name ASC 
