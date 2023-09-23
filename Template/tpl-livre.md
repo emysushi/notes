@@ -1,23 +1,27 @@
 
 ---
 
-topic:: #book
-title:: "{{title}}"
-author:: [{{author}}]
-publisher:: {{publisher}}
-publish:: {{publishDate}}
-total:: {{totalPage}}
-isbn:: {{isbn10}} {{isbn13}}
-cover:: {{coverUrl}}
-status:: unread
-created:: {{DATE:YYYY-MM-DD HH:mm:ss}}
-updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
+- topic:: #book
+- **level**:: #college_4
+- title:: "{{title}}"
+- author:: [{{author}}]
+- publisher:: {{publisher}}
+- publish:: {{publishDate}}
+- total:: {{totalPage}}v
+- isbn:: {{isbn10}} {{isbn13}}
+- cover:: {{coverUrl}}
+- status:: unread
+- created:: {{DATE:YYYY-MM-DD HH:mm:ss}}
+- updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
 
 ---
 
 ![cover|150]({{coverUrl}})
 
-# Auteur
+# 1	{{title}}
+
+## 1.1	Auteur
+---
 
 - nationalité : 
 - date naissance/mort :
@@ -29,27 +33,38 @@ updated: {{DATE:YYYY-MM-DD HH:mm:ss}}
 - profession :
 - courant littéraire predilection : 
 
-# Genre 
-- genre de l ouvrage :
+## 1.2	Genre 
+---
+
+- genre :: 
 - place de l ouvrage dans la vie de l auteur :
 - chronologie : 
 
-# Le cadre :
+## 1.3	Le cadre :
+---
+
 - contexte politique et social :
 - periode historique :
 - evênements historiques :
 
 
-# Les personnages principaux :
+## 1.4	Les personnages principaux :
+---
+
 
 - liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
 
-# Résumé bref :
+## 1.5	Résumé bref :
+---
 
 
 
-# passage marquants :
+## 1.6	passage marquants :
+---
 
 
 
-# Appréciation personnelle :
+
+## 1.7	Appréciation personnelle :
+---
+

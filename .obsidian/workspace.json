@@ -89,7 +89,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-crypto.md",
+                "file": "Template/tpl-lesson.md",
                 "mode": "source",
                 "source": false
               }
@@ -183,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-crypto.md",
+                "file": "Template/tpl-lesson.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-crypto.md",
+                "file": "Template/tpl-lesson.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +223,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-crypto.md"
+                "file": "Template/tpl-lesson.md"
               }
             }
           },
@@ -336,11 +336,22 @@
   },
   "active": "9c46eb13a2f4bb37",
   "lastOpenFiles": [
-    "Template/tpl-fiche_techno.md",
-    "Template/tpl-lesson.md",
-    "Template/tpl-kanban.md",
-    "Template/tpl-dictionary.md",
+    "Template/tpl-crypto.md",
+    "Template/tpl-block-timeline.md",
     "Template/tpl-feedback.md",
+    "Template/tpl-lesson.md",
+    "Template/tpl-fiche_langues.md",
+    "Template/tpl-fiche_math.md",
+    "Template/tpl-fiche_physique-chimie.md",
+    "Template/tpl-fiche_svt.md",
+    "Template/tpl-fiche_techno.md",
+    "Template/tpl-test.md",
+    "Template/tpl-livre.md",
+    "Francais/lesson_TEST.md",
+    "Francais/lesson_test.md",
+    "Francais/lesson_text.md",
+    "Template/tpl-dictionary.md",
+    "Template/tpl-kanban.md",
     "Anglais/Dossier_massachusset.md",
     "Dictionary_English.md",
     "Dictionary_French.md",
@@ -351,18 +362,7 @@
     "Dictionary/stylo.md",
     "Dictionary/STYLO.md",
     "Dictionary/aelo 1 1.md",
-    "Dictionary/aelo 1.md",
-    "Home.md",
-    "Dictionary/@maison.md",
-    "Dictionary/@batiment.md",
-    "Dictionary/Sans titre.md",
-    "Crypto/Crypto_introduction.md",
-    "Technologie/Dossier_serrures.md",
-    "Template/tpl-crypto.md",
-    "Histoire-Geographie/Fiche_Histoire_MoyenAge.md",
     "Dictionary",
-    "Histoire-Geographie/Feedback_2023-04-17.md",
-    "Francais/Suivi_Maman.md",
     "Banner/biblio.jpeg",
     "devoirs/Sans titre",
     "devoirs",

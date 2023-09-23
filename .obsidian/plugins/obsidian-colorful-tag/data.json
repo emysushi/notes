@@ -688,6 +688,14 @@
       "#general-2-15-42",
       "#english-6-22-103",
       "#french-10-32-210"
+    ],
+    "Template/tpl-lesson.md": [
+      "#lesson-10-13-201",
+      "#college_4-13-14-289"
+    ],
+    "Template/tpl-lesson 1.md": [
+      "10-13-201",
+      "13-14-289"
     ]
   }
 }
