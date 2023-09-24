@@ -16,8 +16,23 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "ab3a7720a441d1a8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Francais/fiche_L'Enfant multiple.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Francais/fiche_L'Enfant multiple.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Francais/fiche_L'Enfant multiple.md"
+                "file": "Home.md"
               }
             }
           },
@@ -252,8 +267,10 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "1e8144f0e3f20db0",
+  "active": "ab3a7720a441d1a8",
   "lastOpenFiles": [
+    "Histoire-Geographie/feedback_2023-04-17.md",
+    "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Francais/fiche_L'Enfant multiple.md",
     "Francais/feedback_2023-05-23.md",
     "Home.md",
@@ -278,8 +295,6 @@
     "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
     "Physique-Chimie/lesson_MASSE & VOLUME.md",
     "Histoire-Geographie/study_Géographie.md",
-    "Histoire-Geographie/study_ Temps Modernes.md",
-    "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
