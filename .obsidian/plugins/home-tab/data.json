@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Technologie/study_sketchup.md",
+      "timestamp": 1695752268646
+    },
+    {
       "filepath": "Home.md",
       "timestamp": 1695752238520
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "Francais/fiche_L'Enfant multiple.md",
       "timestamp": 1695488740867
-    },
-    {
-      "filepath": "Francais/feedback_2023-05-23.md",
-      "timestamp": 1695488683753
     }
   ],
   "starredFileStore": [],
