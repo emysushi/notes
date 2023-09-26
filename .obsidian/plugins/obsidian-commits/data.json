@@ -223,13 +223,18 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "Technologie/study_sketchup.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 265,
-      "Create": 130,
-      "Link": 80,
+      "Create": 131,
+      "Link": 81,
       "Expand": 44
     }
   },
@@ -255,7 +260,7 @@
       "17": 122,
       "18": 142,
       "19": 14,
-      "20": 2,
+      "20": 4,
       "21": 8,
       "22": 0,
       "23": 0
@@ -264,7 +269,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 37,
-      "Tue": 16,
+      "Tue": 18,
       "Wed": 39,
       "Thu": 177,
       "Fri": 9,
@@ -321,6 +326,7 @@
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Technologie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"[intriguer.md\"> [intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
         "<a class=\"internal-link\" href=\"Dictionary/blashee.md\"> blashee </a>",
@@ -369,7 +375,6 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
       ],
@@ -472,7 +477,8 @@
         "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>",
         "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
-        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>"
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Technologie/study_sketchup.md\"> study_sketchup </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
