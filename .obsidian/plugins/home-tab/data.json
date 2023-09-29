@@ -24,12 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Emc/study_bien et le mal.md",
-      "timestamp": 1696007268562
+      "filepath": "Emc/study_citoyen et l'éléction.md",
+      "timestamp": 1696008749696
     },
     {
       "filepath": "Emc/study_Les droits de l'homme.md",
-      "timestamp": 1696001113882
+      "timestamp": 1696008704659
+    },
+    {
+      "filepath": "Emc/study_bien et le mal.md",
+      "timestamp": 1696007268562
     },
     {
       "filepath": "Home.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "Template/tpl-lesson.md",
       "timestamp": 1695999994140
-    },
-    {
-      "filepath": "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
-      "timestamp": 1695999979667
     }
   ],
   "starredFileStore": [],
