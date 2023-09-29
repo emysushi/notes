@@ -62,7 +62,18 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- proportionnel :
 		- taux fixes > montants, TVA 
 	- progressif :
-		- t
+		- taux varie > base imposable
+		- imposition des taux et impôts > revenu
+
+- pour le calculer :
+	- additionne :
+		- tous les revenus annuels > foyer fiscal
+	- soustrait :
+		- charges déductibles
+	- obtient :
+		- revenu net global
+	- divise :
+		- parts fiscales (parents = 1 / enfants = 1/2)
 ## 3.1	Liens
 ---
 
