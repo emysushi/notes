@@ -18,7 +18,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # 1	Les droits de l'homme 
 
 
-# la liberté
+# 2	la liberté
 
 -  droits de l'homme = droits naturels
 
@@ -35,11 +35,13 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		-  pas le droit de nous interdire de ce que nous somme capable
 
 
+# 3	droits humains et de l'homme
 
 
 
 
-## 2.1	Liens
+
+## 3.1	Liens
 ---
 
 Note :  Noter les liens interessant se rapportant au sujet
@@ -49,7 +51,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 2.2	Outils utiles
+## 3.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
