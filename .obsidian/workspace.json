@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emc/study_Les droits de l'enfant.md",
+                "file": "Emc/study_Les droits de l'homme.md",
                 "mode": "source",
                 "source": false
               }
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.505859375
+    "width": 316.505859375,
+    "collapsed": true
   },
   "right": {
     "id": "de72a87206515b52",
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Emc/study_Les droits de l'enfant.md",
+                "file": "Emc/study_Les droits de l'homme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Emc/study_Les droits de l'enfant.md",
+                "file": "Emc/study_Les droits de l'homme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Emc/study_Les droits de l'enfant.md"
+                "file": "Emc/study_Les droits de l'homme.md"
               }
             }
           },
@@ -236,7 +237,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,7 +269,7 @@
   },
   "active": "d1e388d7d4fd12a5",
   "lastOpenFiles": [
-    "Emc/study_Les droits de l'enfant.md",
+    "Emc/study_Les droits de l'homme.md",
     "Home.md",
     "Template/tpl-lesson.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
