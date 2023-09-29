@@ -17,7 +17,8 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 
 # 1	citoyen et l'élection
-# 2	un citoyen
+
+# 2	le citoyen
 
 - que fait le citoyen : 
 	- participe au gouvernement > pays > vote
@@ -32,9 +33,17 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- les candidats > présentent pour occuper une fonction :
 		- maire de ville
 		- député
-		- 
+		- président > république
+	- celui qui a le + de voix > élu
 
-## 2.1	Liens
+# 3	le samu social
+
+- c'est quoi :
+	- service hospitalier disposant d'unités mobiles
+	-  équipées > assurer
+
+
+## 3.1	Liens
 ---
 
 Note :  Noter les liens interessant se rapportant au sujet
@@ -44,7 +53,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 2.2	Outils utiles
+## 3.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
