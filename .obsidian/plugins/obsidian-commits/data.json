@@ -235,7 +235,7 @@
       "links": 0
     },
     "Emc/study_citoyen et l'éléction.md": {
-      "size": 0,
+      "size": 2164,
       "tags": 3,
       "links": 0
     }
@@ -245,7 +245,7 @@
       "Refactor": 267,
       "Create": 133,
       "Link": 83,
-      "Expand": 45
+      "Expand": 46
     }
   },
   "dailyCommits": {
@@ -271,7 +271,7 @@
       "18": 143,
       "19": 16,
       "20": 4,
-      "21": 8,
+      "21": 9,
       "22": 0,
       "23": 0
     }
@@ -282,7 +282,7 @@
       "Tue": 18,
       "Wed": 39,
       "Thu": 177,
-      "Fri": 16,
+      "Fri": 17,
       "Sat": 0,
       "Sun": 241
     }
@@ -334,7 +334,8 @@
         "<a class=\"internal-link\" href=\"Technologie/study_les drones.md\"> study_les drones </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/study_ Temps Modernes.md\"> study_ Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
-        "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>"
+        "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>",
+        "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",

@@ -50,9 +50,20 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- chaque personne peut appeler ce numéro
 		- > signalés une situation de détresse sociale
 
+- EMA :
+	- équipes mobiles d'aide composé
+
+# 3 impôts sur le revenu
 
 
-## 2.1	Liens
+- il y a 3 types d'impôts :
+	- forfaitaire :
+		- couts fixes, contraventions
+	- proportionnel :
+		- taux fixes > montants, TVA 
+	- progressif :
+		- t
+## 3.1	Liens
 ---
 
 Note :  Noter les liens intéressant se rapportant au sujet
@@ -62,7 +73,7 @@ Note :  Noter les liens intéressant se rapportant au sujet
 
 
 
-## 2.2	Outils utiles
+## 3.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
