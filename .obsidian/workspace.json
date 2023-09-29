@@ -18,31 +18,19 @@
             }
           },
           {
-            "id": "d5b93c93cbac4eb9",
+            "id": "d1e388d7d4fd12a5",
             "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
-          },
-          {
-            "id": "ad9c32048ec9aa99",
-            "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Emc/study_Les inegalites.md",
+                "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.505859375,
-    "collapsed": true
+    "width": 316.505859375
   },
   "right": {
     "id": "de72a87206515b52",
@@ -118,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Emc/study_Les inegalites.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Emc/study_Les inegalites.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Emc/study_Les inegalites.md"
               }
             }
           },
@@ -278,10 +265,13 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "ad9c32048ec9aa99",
+  "active": "d1e388d7d4fd12a5",
   "lastOpenFiles": [
-    "Technologie/study_sketchup.md",
+    "Emc/study_Les inegalites.md",
     "Home.md",
+    "Template/tpl-lesson.md",
+    "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
+    "Technologie/study_sketchup.md",
     "Histoire-Geographie/feedback_2023-04-17.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Francais/fiche_L'Enfant multiple.md",
@@ -294,7 +284,6 @@
     "birthdayNode.md",
     "Template/tpl-study.md",
     "Template/tpl-livre.md",
-    "Template/tpl-lesson.md",
     "Template/tpl-feedback.md",
     "Template/tpl-dictionary.md",
     "Template/tpl-crypto.md",
@@ -304,8 +293,6 @@
     "Technologie/study_les drones.md",
     "Technologie/lesson_Technologie_materiaux_evolution.md",
     "Svt/lesson_Besoins des cellules animales🍗.md",
-    "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
-    "Physique-Chimie/lesson_MASSE & VOLUME.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
