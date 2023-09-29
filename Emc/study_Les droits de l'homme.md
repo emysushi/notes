@@ -18,12 +18,23 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # 1	Les droits de l'homme 
 
 
-# 2	la liberté
+# la liberté
 
 -  droits de l'homme = droits naturels
 
 - les différents types de liberté :
-	- expression :
+	- expression : 
+		- dire écrire ce qu'ils veulent > presse, réunions 
+	- entreprendre :
+		- organiser leur propre vie économique
+	- enseignement :
+		- éduquer leur propre enfants 
+	- circulation :
+		- droit de voyager ou ils veulent
+	- résister à l'oppression :
+		-  pas le droit de nous interdire de ce que nous somme capable
+
+
 
 
 
