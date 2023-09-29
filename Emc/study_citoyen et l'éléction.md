@@ -15,10 +15,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 - **updated**:: 2023-09-29 19:32:13
 ---
 
-
-# 1	citoyen et l'élection
-
-# 2	le citoyen
+# 1	1 le citoyen
 
 - que fait le citoyen : 
 	- participe au gouvernement > pays > vote
@@ -36,7 +33,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- président > république
 	- celui qui a le + de voix > élu
 
-# 3	le Samu social
+# 2	2 le Samu social
 
 - c'est quoi :
 	- service hospitalier disposant d'unités mobiles
@@ -47,10 +44,15 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 - les objectifs :
 	- orienter les personnes sans-abri > lieu d'hébergement
-	- 1997, mise en place dans toute la France
+	- 1997, mise en place dans toute la France :
+		- gratuit 
+		- toute l'année
+		- chaque personne peut appeler ce numéro
+		- > signalés une situation de détresse sociale
 
 
-## 3.1	Liens
+
+## 2.1	Liens
 ---
 
 Note :  Noter les liens intéressant se rapportant au sujet
@@ -60,7 +62,7 @@ Note :  Noter les liens intéressant se rapportant au sujet
 
 
 
-## 3.2	Outils utiles
+## 2.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
