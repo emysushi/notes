@@ -18,16 +18,17 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # 1	Les droits de l'homme 
 
 
-## 1.1	Context
----
+# 2	la liberté
 
-- droits de l'homme = droits naturels
-- 
+-  droits de l'homme = droits naturels
+
+- les différents types de liberté :
+	- expression :
 
 
 
 
-## 1.2	Liens
+## 2.1	Liens
 ---
 
 Note :  Noter les liens interessant se rapportant au sujet
@@ -37,7 +38,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 1.3	Outils utiles
+## 2.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
