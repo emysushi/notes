@@ -11,8 +11,6 @@
 
 # 1	BIEN ET MAL
 
-## 1.1	Introduction
----
 
 - vidéo (à chacun sa morale) :
 	- c'est bien  =  cela ME plait     -->
@@ -28,7 +26,7 @@
 
 
 
-## 2	définitions
+## 1.1	définitions
 ---
 
 

@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Emc/study_Les inegalites.md",
+      "filepath": "Emc/study_bien et le mal.md",
+      "timestamp": 1696007268562
+    },
+    {
+      "filepath": "Emc/study_Les droits de l'homme.md",
       "timestamp": 1696001113882
     },
     {
@@ -38,10 +42,6 @@
     {
       "filepath": "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
       "timestamp": 1695999979667
-    },
-    {
-      "filepath": "Technologie/study_sketchup.md",
-      "timestamp": 1695752268646
     }
   ],
   "starredFileStore": [],

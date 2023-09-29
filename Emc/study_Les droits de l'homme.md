@@ -55,7 +55,16 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- collectif et solidaire :
 		- environnement sain, peuples qui s'organisent
 
-- 
+- 1793 :
+	- déclarations des droits de l'homme
+- 1948 :
+	- déclaration universelle des droits de l'homme
+- 1950 :
+	- convention européennes des droits de l'homme
+- 1958 :
+	- DDHC constitution 5eme république
+- 1971 :
+	- conseil constitutionnel reconnait la valeur > DDHC
 
 
 
