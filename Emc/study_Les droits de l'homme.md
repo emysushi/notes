@@ -47,6 +47,14 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 - les droits sont aussi :
 	- appliqués en temps de paix et de guerre
 
+- la déclaration des droits de l'homme (3) :
+	- civils, politiques :
+		- opinons, penser, religion, minorité
+	- économique, sociaux et culturels :
+		- besoins de base, travail, santé
+	- collectif et solidaire :
+		- environnement sain, peuples qui s'organisent
+
 
 
 

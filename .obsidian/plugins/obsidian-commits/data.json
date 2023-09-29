@@ -230,7 +230,7 @@
       "links": 0
     },
     "Emc/study_Les droits de l'homme.md": {
-      "size": 0,
+      "size": 2091,
       "tags": 3,
       "links": 0
     }
@@ -240,7 +240,7 @@
       "Refactor": 267,
       "Create": 132,
       "Link": 82,
-      "Expand": 44
+      "Expand": 45
     }
   },
   "dailyCommits": {
@@ -263,7 +263,7 @@
       "15": 45,
       "16": 97,
       "17": 126,
-      "18": 142,
+      "18": 143,
       "19": 14,
       "20": 4,
       "21": 8,
@@ -277,7 +277,7 @@
       "Tue": 18,
       "Wed": 39,
       "Thu": 177,
-      "Fri": 13,
+      "Fri": 14,
       "Sat": 0,
       "Sun": 241
     }
@@ -328,7 +328,8 @@
         "<a class=\"internal-link\" href=\"Histoire-Geographie/study_Géographie.md\"> study_Géographie </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_les drones.md\"> study_les drones </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/study_ Temps Modernes.md\"> study_ Temps Modernes </a>",
-        "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>"
+        "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
+        "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
