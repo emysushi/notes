@@ -36,17 +36,24 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- président > république
 	- celui qui a le + de voix > élu
 
-# 3	le samu social
+# 3	le Samu social
 
 - c'est quoi :
 	- service hospitalier disposant d'unités mobiles
-	-  équipées > assurer
+	-  équipées > assurer les soins des aux :
+		- malades
+		- blessés
+		- SDF
+
+- les objectifs :
+	- orienter les personnes sans-abri > lieu d'hébergement
+	- 1997, mise en place dans toute la France
 
 
 ## 3.1	Liens
 ---
 
-Note :  Noter les liens interessant se rapportant au sujet
+Note :  Noter les liens intéressant se rapportant au sujet
 
 - liens1
 - liens2
