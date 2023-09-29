@@ -34,18 +34,25 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- résister à l'oppression :
 		-  pas le droit de nous interdire de ce que nous somme capable
 
-
 # 3	droits humains et de l'homme
 
 - 1789 :
 	- les femmes étaient différentes aux hommes
+	- et n'avaient pas les mêmes droits
+- 1997 :
+	- les discriminations apparaissent
+	- droits de l'homme = hommes
+	- droits humains = hommes et femmes
+
+- les droits sont aussi :
+	- appli
 
 
 
 ## 3.1	Liens
 ---
 
-Note :  Noter les liens interessant se rapportant au sujet
+Note :  Noter les liens intéressant se rapportant au sujet
 
 - liens1
 - liens2
