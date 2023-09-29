@@ -17,12 +17,13 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 
 # 1	citoyen et l'élection
+# 2	un citoyen
 
 
 
 
 
-## 1.1	Liens
+## 2.1	Liens
 ---
 
 Note :  Noter les liens interessant se rapportant au sujet
@@ -32,7 +33,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 1.2	Outils utiles
+## 2.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue

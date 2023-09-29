@@ -233,13 +233,18 @@
       "size": 2091,
       "tags": 3,
       "links": 0
+    },
+    "Emc/study_citoyen et l'éléction.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 267,
-      "Create": 132,
-      "Link": 82,
+      "Create": 133,
+      "Link": 83,
       "Expand": 45
     }
   },
@@ -264,7 +269,7 @@
       "16": 97,
       "17": 126,
       "18": 143,
-      "19": 14,
+      "19": 16,
       "20": 4,
       "21": 8,
       "22": 0,
@@ -277,7 +282,7 @@
       "Tue": 18,
       "Wed": 39,
       "Thu": 177,
-      "Fri": 14,
+      "Fri": 16,
       "Sat": 0,
       "Sun": 241
     }
@@ -333,6 +338,7 @@
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Technologie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"[intriguer.md\"> [intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
@@ -381,8 +387,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>",
@@ -485,7 +490,8 @@
         "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_sketchup.md\"> study_sketchup </a>",
-        "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'enfant.md\"> study_Les droits de l'enfant </a>"
+        "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'enfant.md\"> study_Les droits de l'enfant </a>",
+        "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
