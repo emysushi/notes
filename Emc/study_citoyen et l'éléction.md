@@ -19,9 +19,20 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # 1	citoyen et l'élection
 # 2	un citoyen
 
+- que fait le citoyen : 
+	- participe au gouvernement > pays > vote
+	- choisit en votant celui/celle > dirige :
+		- pays, région, ville
+	- se préoccuper > société à laquelle il appartient
+	- vivre / penser > l'organisation du pays et des citoyens
+	- participer > actions communes
+	- exprime sa liberté grâce > la société
 
-
-
+- élections :
+	- les candidats > présentent pour occuper une fonction :
+		- maire de ville
+		- député
+		- 
 
 ## 2.1	Liens
 ---
