@@ -228,12 +228,17 @@
       "size": 0,
       "tags": 3,
       "links": 0
+    },
+    "Emc/study_Les droits de l'enfant.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 265,
-      "Create": 131,
+      "Refactor": 266,
+      "Create": 132,
       "Link": 81,
       "Expand": 44
     }
@@ -257,7 +262,7 @@
       "14": 15,
       "15": 45,
       "16": 97,
-      "17": 122,
+      "17": 124,
       "18": 142,
       "19": 14,
       "20": 4,
@@ -272,7 +277,7 @@
       "Tue": 18,
       "Wed": 39,
       "Thu": 177,
-      "Fri": 9,
+      "Fri": 11,
       "Sat": 0,
       "Sun": 241
     }
@@ -326,6 +331,7 @@
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Technologie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"[intriguer.md\"> [intriguer </a>",
         "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
@@ -375,10 +381,10 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Cours/Histoire-Geographie/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'enfant.md\"> study_Les droits de l'enfant </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
         "<a class=\"internal-link\" href=\"Technologie/lesson_Technologie_materiaux_evolution.md\"> lesson_Technologie_materiaux_evolution </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
@@ -428,8 +434,7 @@
         "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
         "<a class=\"internal-link\" href=\"Technologie/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Technologie/Fiche_Technologie_materiaux_evolution.md\"> Fiche_Technologie_materiaux_evolution </a>",
-        "<a class=\"internal-link\" href=\"Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>",
-        "<a class=\"internal-link\" href=\"Physique-Chimie/MASSE & VOLUME.md\"> MASSE & VOLUME </a>"
+        "<a class=\"internal-link\" href=\"Svt/Besoins des cellules animales🍗.md\"> Besoins des cellules animales🍗 </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures.md\"> Dossier_serrures </a>",
