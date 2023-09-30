@@ -27,7 +27,21 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- les enfants n'ont pas de pudeur (pas encore conscience de leur actes)
 - son espace :
 	- chacun d'entre nous a une intimité
-	- 
+	- ne veulent pas :
+		- révéler aux autres
+		- révéler certaines parties de leur corps
+		- sentiments, émotions, peurs
+- leur espace :
+	- ne veulent pas :
+		- être espionner
+		- être forcer à monter se qu'ils veulent cacher
+	- émission de téléréalité :
+		- montrer aux autres la vie des personnes
+		- > manque de respect
+		- ne se rendent pas comte
+- humain complet :
+	- quelque chose d'intime > corps, sentiments, émotions ...
+
 
 ## 1.1	Liens
 ---
