@@ -253,13 +253,18 @@
       "size": 2191,
       "tags": 7,
       "links": 0
+    },
+    "Histoire-Geographie/lesson_commerce maritime au 18-ème.md": {
+      "size": 0,
+      "tags": 4,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 269,
-      "Create": 136,
-      "Link": 88,
+      "Refactor": 270,
+      "Create": 137,
+      "Link": 89,
       "Expand": 49
     }
   },
@@ -286,7 +291,7 @@
       "18": 146,
       "19": 16,
       "20": 4,
-      "21": 13,
+      "21": 16,
       "22": 0,
       "23": 0
     }
@@ -299,7 +304,7 @@
       "Thu": 177,
       "Fri": 18,
       "Sat": 0,
-      "Sun": 253
+      "Sun": 256
     }
   },
   "recentCommits": {
@@ -356,6 +361,7 @@
         "<a class=\"internal-link\" href=\"Svt/lesson_les risques.md\"> lesson_les risques </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Svt/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
@@ -405,10 +411,10 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_commerce maritime au 18-ème.md\"> lesson_commerce maritime au 18-ème </a>",
         "<a class=\"internal-link\" href=\"Svt/lesson_les risques.md\"> lesson_les risques </a>",
         "<a class=\"internal-link\" href=\"Emc/study_la fraternité nationale.md\"> study_la fraternité nationale </a>",
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>",
@@ -458,10 +464,10 @@
         "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>",
         "<a class=\"internal-link\" href=\"Francais/FRANCAIS.md\"> FRANCAIS </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
-        "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
-        "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>"
+        "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>"
       ],
       "Tagged": [
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_commerce maritime au 18-ème.md\"> lesson_commerce maritime au 18-ème </a>",
         "<a class=\"internal-link\" href=\"Svt/lesson_les risques.md\"> lesson_les risques </a>",
         "<a class=\"internal-link\" href=\"Svt/lesson_les risques sismiques.md\"> lesson_les risques sismiques </a>",
         "<a class=\"internal-link\" href=\"Svt/lesson_les risques sismiques.md\"> lesson_les risques sismiques </a>",
@@ -511,8 +517,7 @@
         "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>",
         "<a class=\"internal-link\" href=\"Dictionary/civilisation.md\"> civilisation </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_Histoire_MoyenAge.md\"> lesson_Histoire_MoyenAge </a>",
-        "<a class=\"internal-link\" href=\"Technologie/study_sketchup.md\"> study_sketchup </a>",
-        "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'enfant.md\"> study_Les droits de l'enfant </a>"
+        "<a class=\"internal-link\" href=\"Technologie/study_sketchup.md\"> study_sketchup </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",

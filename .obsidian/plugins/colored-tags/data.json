@@ -131,7 +131,12 @@
     "épicentre": 125,
     "aléa": 126,
     "enjeu": 127,
-    "magma": 128
+    "magma": 128,
+    "comptoir": 129,
+    "colonie": 130,
+    "empire-colonial": 131,
+    "traites-négrières": 132,
+    "plantation": 133
   },
   "_version": 2
 }

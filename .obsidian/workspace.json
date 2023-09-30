@@ -19,8 +19,12 @@
             "id": "b8dae4d4d66fb5f5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -43,7 +47,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#enjeu",
+                "query": "tag:#traites-négrières",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md"
+              }
             }
           },
           {
@@ -256,6 +264,7 @@
   },
   "active": "b8dae4d4d66fb5f5",
   "lastOpenFiles": [
+    "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "Svt/lesson_les risques.md",
     "Emc/study_la pudeur.md",
     "Emc/study_la fraternité nationale.md",
@@ -281,7 +290,6 @@
     "Template/tpl-dictionary.md",
     "Template/tpl-crypto.md",
     "Technologie/study_signaux radio.md",
-    "Technologie/study_serrures.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
