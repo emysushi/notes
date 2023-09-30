@@ -1,0 +1,56 @@
+---
+trello_plugin_note_id: nTApDpzAc-zwsKTIL5hhv
+trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
+---
+
+
+
+---
+- **type**:: #study
+- **domain**:: #Emc
+- **title**:: la fraternité nationnale
+- **level**:: #college_4
+- **status**:: inprogress
+- **created**:: 2023-09-30 15:08:54
+- **updated**:: 2023-09-30 15:08:54
+---
+
+
+# 1	1 c'est quoi ?
+
+- en tant que citoyen nous avons à cœur l'intérêt général :
+	- ce qui importe > société tout entière 
+- lien qui unit tous les membres > société commune :
+	- comme des frères / sœurs
+- personne non responsable de leur situation (SDF) :
+	- prospérité commune 
+- être solidaire les uns avec les autres :
+	- > aider les autres, participer à des associations / fondations
+	- dans des organisations charitables
+- les droits sociaux permettent à chacun de :
+	- satisfaire ses besoins essentiels (eau, travail, logement…)
+
+- 
+
+
+
+## 1.1	Liens
+---
+
+Note :  Noter les liens intéressant se rapportant au sujet
+
+- liens1
+- liens2
+
+
+
+## 1.2	Outils utiles
+---
+
+-   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
+-   [SMMRY](https://smmry.com/) : en ligne, anglais
+-   [Text Summarizer](http://textsummarization.net/text-summarizer) : en ligne, anglais
+-   [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais
+- [Plot function - Créer un graphique](https://github.com/leonhma/obsidian-functionplot)
+- [Latex - Ecrire des mathématiques](https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques)
+- [GEOGEBRA](https://www.geogebra.org/geometry?lang=fr) : dessiner des formes geometriques 
