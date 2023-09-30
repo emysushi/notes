@@ -240,6 +240,11 @@
       "links": 0
     },
     "Emc/study_la fraternité nationale.md": {
+      "size": 2210,
+      "tags": 3,
+      "links": 0
+    },
+    "Emc/study_la pudeur.md": {
       "size": 0,
       "tags": 3,
       "links": 0
@@ -248,9 +253,9 @@
   "commitTypes": {
     "/": {
       "Refactor": 268,
-      "Create": 134,
-      "Link": 84,
-      "Expand": 47
+      "Create": 135,
+      "Link": 85,
+      "Expand": 48
     }
   },
   "dailyCommits": {
@@ -271,7 +276,7 @@
       "13": 6,
       "14": 15,
       "15": 48,
-      "16": 97,
+      "16": 100,
       "17": 126,
       "18": 143,
       "19": 16,
@@ -289,7 +294,7 @@
       "Thu": 177,
       "Fri": 18,
       "Sat": 0,
-      "Sun": 244
+      "Sun": 247
     }
   },
   "recentCommits": {
@@ -341,9 +346,11 @@
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>",
         "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>",
-        "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>"
+        "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>",
+        "<a class=\"internal-link\" href=\"Emc/study_la fraternité nationale.md\"> study_la fraternité nationale </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Emc/Untitled.md\"> Untitled </a>",
@@ -391,7 +398,6 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"FicheLecture/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
@@ -499,7 +505,8 @@
         "<a class=\"internal-link\" href=\"Technologie/study_sketchup.md\"> study_sketchup </a>",
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'enfant.md\"> study_Les droits de l'enfant </a>",
         "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>",
-        "<a class=\"internal-link\" href=\"Emc/study_la fraternité nationale.md\"> study_la fraternité nationale </a>"
+        "<a class=\"internal-link\" href=\"Emc/study_la fraternité nationale.md\"> study_la fraternité nationale </a>",
+        "<a class=\"internal-link\" href=\"Emc/study_la pudeur.md\"> study_la pudeur </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",

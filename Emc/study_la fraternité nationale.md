@@ -36,7 +36,20 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 # 2	que doivent-t-ils faire :
 
-
+- les citoyens ont à cœur :
+	- le bien commun 
+	- intérêt générale
+	- propriété commune
+- la fraternité :
+	- lien qui unit les membre > société
+	- solidaire les uns des autres
+	- aider les autres
+- les droits :
+	- permettent de satisfaire ses besoins essentiels
+	- sociaux
+- impôts :
+	- l'Etat fournit des allocations > ceux qui en on besoin 
+	- redistribution de l'argent > ensemble de la société
 
 ## 2.1	Liens
 ---

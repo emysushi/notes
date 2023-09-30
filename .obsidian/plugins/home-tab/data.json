@@ -24,7 +24,11 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Emc/study_la fraternité nationnale.md",
+      "filepath": "Emc/study_la pudeur.md",
+      "timestamp": 1696083286109
+    },
+    {
+      "filepath": "Emc/study_la fraternité nationale.md",
       "timestamp": 1696079348879
     },
     {
@@ -38,10 +42,6 @@
     {
       "filepath": "Emc/study_Les droits de l'homme.md",
       "timestamp": 1696008704659
-    },
-    {
-      "filepath": "Emc/study_bien et le mal.md",
-      "timestamp": 1696007268562
     }
   ],
   "starredFileStore": [],

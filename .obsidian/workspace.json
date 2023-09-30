@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "e092a57f99b3e60a",
+            "id": "c662b6d4fb390058",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emc/study_la fraternité nationale.md",
+                "file": "Emc/study_la pudeur.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Emc/study_la fraternité nationale.md",
+                "file": "Emc/study_la pudeur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Emc/study_la fraternité nationale.md",
+                "file": "Emc/study_la pudeur.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Emc/study_la fraternité nationale.md"
+                "file": "Emc/study_la pudeur.md"
               }
             }
           },
@@ -279,8 +279,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "e092a57f99b3e60a",
+  "active": "c662b6d4fb390058",
   "lastOpenFiles": [
+    "Emc/study_la pudeur.md",
     "Emc/study_la fraternité nationale.md",
     "Emc/study_citoyen et l'éléction.md",
     "Home.md",
@@ -306,7 +307,6 @@
     "Technologie/study_signaux radio.md",
     "Technologie/study_serrures.md",
     "Technologie/study_Les Téléphones.md",
-    "Technologie/study_les drones.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
