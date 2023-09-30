@@ -53,7 +53,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 - EMA :
 	- équipes mobiles d'aide composé
 
-# 3 impôts sur le revenu
+# 3	3 impôts sur le revenu
 
 
 - il y a 3 types d'impôts :
@@ -74,6 +74,13 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- revenu net global
 	- divise :
 		- parts fiscales (parents = 1 / enfants = 1/2)
+	- = :
+		- assiette fiscale
+
+- à quoi ça sert :
+	- impôts directs > financer le budget de l'état 
+	- 
+
 ## 3.1	Liens
 ---
 

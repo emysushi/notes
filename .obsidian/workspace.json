@@ -18,31 +18,21 @@
             }
           },
           {
-            "id": "d1e388d7d4fd12a5",
+            "id": "f8f3483fb213ca18",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emc/study_Les droits de l'homme.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "0ea1f1104349c514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Emc/study_citoyen et l'éléction.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Emc/study_citoyen et l'éléction.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Emc/study_citoyen et l'éléction.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Emc/study_citoyen et l'éléction.md"
+                "file": "Home.md"
               }
             }
           },
@@ -248,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -278,7 +267,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "0ea1f1104349c514",
+  "active": "f8f3483fb213ca18",
   "lastOpenFiles": [
     "Emc/study_citoyen et l'éléction.md",
     "Emc/study_Les droits de l'homme.md",

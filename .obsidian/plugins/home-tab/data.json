@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Home.md",
+      "timestamp": 1696059899127
+    },
+    {
       "filepath": "Emc/study_citoyen et l'éléction.md",
       "timestamp": 1696008749696
     },
@@ -34,10 +38,6 @@
     {
       "filepath": "Emc/study_bien et le mal.md",
       "timestamp": 1696007268562
-    },
-    {
-      "filepath": "Home.md",
-      "timestamp": 1696001069541
     },
     {
       "filepath": "Template/tpl-lesson.md",
