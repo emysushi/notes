@@ -14,8 +14,21 @@
 
 # 1	1 les risques sismiques
 
+- les séismes :
+	- sont provoqués > roches se cassent en profondeur > l'action de roche
+	- au niveau de la zone appelé foyer 
+	- la fracture de ces roches produit des ondes > se déplacent dans toutes les directions
+	- quand elle arrivent à la surface elles provoquent de dégâts (failles)
 
-# 2	définition
+# 2	les risques volcaniques
+
+- les volcans :
+	- les éruptions sont provoqués > remontées de magma 
+- les 3 différents types de volcans :
+	- extrusif :
+		- 
+
+# 3	définition
 ___
 
 #aléa: probabilité qu'un évènement ne survienne
@@ -24,8 +37,9 @@ ___
 #magnitude : la puissance (échelle de Richter)
 #contrainte : forces appliqués sur quelque chose
 #épicentre : point de la surface où le séisme a été le plus intense 
+#magma : mélange de matière minérale à très haute températures constitué de solide, liquide, gaz
 
-## 2.1	Liens
+## 3.1	Liens
 ---
 
 Note :  Noter les liens interessant se rapportant au sujet
@@ -35,7 +49,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 2.2	Outils utiles
+## 3.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue

@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Svt/lesson_les risques sismiques.md",
+                "file": "Svt/lesson_les risques.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Svt/lesson_les risques sismiques.md",
+                "file": "Svt/lesson_les risques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Svt/lesson_les risques sismiques.md",
+                "file": "Svt/lesson_les risques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Svt/lesson_les risques sismiques.md"
+                "file": "Svt/lesson_les risques.md"
               }
             }
           },
@@ -279,9 +279,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "3a5f9a633e3fd2af",
+  "active": "84c10dfca4199e38",
   "lastOpenFiles": [
-    "Svt/lesson_les risques sismiques.md",
+    "Svt/lesson_les risques.md",
     "Emc/study_la pudeur.md",
     "Emc/study_la fraternité nationale.md",
     "Emc/study_citoyen et l'éléction.md",

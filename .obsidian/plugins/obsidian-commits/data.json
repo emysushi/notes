@@ -249,7 +249,7 @@
       "tags": 3,
       "links": 0
     },
-    "Svt/lesson_les risques sismiques.md": {
+    "Svt/lesson_les risques.md": {
       "size": 0,
       "tags": 6,
       "links": 0
@@ -257,7 +257,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 268,
+      "Refactor": 269,
       "Create": 136,
       "Link": 87,
       "Expand": 48
@@ -286,7 +286,7 @@
       "18": 146,
       "19": 16,
       "20": 4,
-      "21": 10,
+      "21": 11,
       "22": 0,
       "23": 0
     }
@@ -299,7 +299,7 @@
       "Thu": 177,
       "Fri": 18,
       "Sat": 0,
-      "Sun": 250
+      "Sun": 251
     }
   },
   "recentCommits": {
@@ -408,6 +408,7 @@
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"Svt/lesson_les risques.md\"> lesson_les risques </a>",
         "<a class=\"internal-link\" href=\"Emc/study_la fraternité nationale.md\"> study_la fraternité nationale </a>",
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>",
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'enfant.md\"> study_Les droits de l'enfant </a>",
@@ -457,8 +458,7 @@
         "<a class=\"internal-link\" href=\"Francais/FRANCAIS.md\"> FRANCAIS </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_Les voyages de Gulliver.md\"> fiche_Les voyages de Gulliver </a>",
         "<a class=\"internal-link\" href=\"Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md\"> fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre </a>",
-        "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>",
-        "<a class=\"internal-link\" href=\"Technologie/Home.md\"> Home </a>"
+        "<a class=\"internal-link\" href=\"Francais/fiche_L'Enfant multiple.md\"> fiche_L'Enfant multiple </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Svt/lesson_les risques sismiques.md\"> lesson_les risques sismiques </a>",
