@@ -26,9 +26,24 @@
 	- les éruptions sont provoqués > remontées de magma 
 - les 3 différents types de volcans :
 	- extrusif :
-		- 
+		-  (solide) magma visqueux construisant des dômes. Suivant la viscosité de la lave
+	- effusif :
+		- (liquide) rejette de la lave en fusion à haute température, fluide et qui coule facilement
+	- explosif :
+		- (gazeux) violente explosion de cendres ou de lave sous forme de nuées
 
-# 3	définition
+# 3 l'origine des volcans
+
+- noms des enveloppes :
+	- croute = 0 km
+	- manteau = 30 km
+	- noyau externe = 2900 km
+	- noyau interne = 5100 km
+	- le centre = 6370 km
+- profondeur du magma des volcans :
+	- 100 km (manteau)
+
+# 4	définition
 ___
 
 #aléa: probabilité qu'un évènement ne survienne
@@ -39,7 +54,7 @@ ___
 #épicentre : point de la surface où le séisme a été le plus intense 
 #magma : mélange de matière minérale à très haute températures constitué de solide, liquide, gaz
 
-## 3.1	Liens
+## 4.1	Liens
 ---
 
 Note :  Noter les liens interessant se rapportant au sujet
@@ -49,7 +64,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 3.2	Outils utiles
+## 4.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
