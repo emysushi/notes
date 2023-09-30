@@ -124,7 +124,13 @@
     "francais": 118,
     "college_4": 119,
     "study": 120,
-    "Emc": 121
+    "Emc": 121,
+    "seisme": 122,
+    "magnitude": 123,
+    "contrainte": 124,
+    "épicentre": 125,
+    "aléa": 126,
+    "enjeu": 127
   },
   "_version": 2
 }

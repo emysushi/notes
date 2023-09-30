@@ -35,8 +35,12 @@
             "id": "84c10dfca4199e38",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Svt/lesson_les risques sismiques.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -59,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#college_4",
+                "query": "tag:#enjeu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,12 +98,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 316.505859375
+    "width": 316.505859375,
+    "collapsed": true
   },
   "right": {
     "id": "de72a87206515b52",
@@ -115,6 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Svt/lesson_les risques sismiques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,6 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Svt/lesson_les risques sismiques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +158,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Svt/lesson_les risques sismiques.md"
+              }
             }
           },
           {
@@ -271,8 +279,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
+    "Svt/lesson_les risques sismiques.md",
     "Emc/study_la pudeur.md",
     "Emc/study_la fraternité nationale.md",
     "Emc/study_citoyen et l'éléction.md",
@@ -298,7 +307,6 @@
     "Template/tpl-crypto.md",
     "Technologie/study_signaux radio.md",
     "Technologie/study_serrures.md",
-    "Technologie/study_Les Téléphones.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
