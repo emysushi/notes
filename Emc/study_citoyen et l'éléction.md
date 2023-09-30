@@ -79,7 +79,12 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 - à quoi ça sert :
 	- impôts directs > financer le budget de l'état 
-	- 
+	- et les recettes fiscales
+	- > argent investis > développement et sérénité des pays
+
+- ou l'envoi-t-on :
+	- au service des impôts (France)
+	- centre des finances publiques (foyer fiscal)
 
 ## 3.1	Liens
 ---

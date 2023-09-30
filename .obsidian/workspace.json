@@ -30,9 +30,17 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e092a57f99b3e60a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +131,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +152,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
+              "state": {}
             }
           },
           {
@@ -267,10 +271,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8e83823d24c20602",
+  "active": "cc433e56d726fa8d",
   "lastOpenFiles": [
-    "Home.md",
+    "Emc/Untitled.md",
     "Emc/study_citoyen et l'éléction.md",
+    "Home.md",
     "Emc/study_Les droits de l'homme.md",
     "Emc/study_bien et le mal.md",
     "Template/tpl-lesson.md",
@@ -294,7 +299,6 @@
     "Technologie/study_serrures.md",
     "Technologie/study_Les Téléphones.md",
     "Technologie/study_les drones.md",
-    "Technologie/lesson_Technologie_materiaux_evolution.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
