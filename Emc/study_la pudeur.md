@@ -26,6 +26,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- quand nous nous montrons entièrement aux autres 
 	- les enfants n'ont pas de pudeur (pas encore conscience de leur actes)
 - son espace :
+	- chacun d'entre nous a une intimité
 	- 
 
 ## 1.1	Liens
