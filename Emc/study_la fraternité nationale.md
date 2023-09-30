@@ -16,7 +16,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 ---
 
 
-# 1	1 c'est quoi ?
+# 1 c'est quoi ?
 
 - en tant que citoyen nous avons à cœur l'intérêt général :
 	- ce qui importe > société tout entière 
@@ -30,7 +30,9 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 - les droits sociaux permettent à chacun de :
 	- satisfaire ses besoins essentiels (eau, travail, logement…)
 
-- 
+- grâce à l'impôt, l'Etat peut :
+	- fournir des allocations à ceux qui en ont besoin 
+	- personnes riche redistribue l'argent à la société 
 
 
 
