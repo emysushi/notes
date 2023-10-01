@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Anglais/lesson_how do you feel .md",
+      "timestamp": 1696171127061
+    },
+    {
       "filepath": "Physique-Chimie/lesson_le circuit électrique.md",
       "timestamp": 1696156911993
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "Emc/study_Les droits de l'homme.md",
       "timestamp": 1696150749812
-    },
-    {
-      "filepath": "Emc/study_la pudeur.md",
-      "timestamp": 1696150748903
     }
   ],
   "starredFileStore": [],

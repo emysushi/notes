@@ -11,8 +11,12 @@
             "id": "d580c87535b92aca",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Anglais/lesson_feelings.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Anglais/lesson_feelings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Anglais/lesson_feelings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Anglais/lesson_feelings.md"
+              }
             }
           },
           {
@@ -246,9 +254,9 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "cc433e56d726fa8d",
+  "active": "d580c87535b92aca",
   "lastOpenFiles": [
-    "Anglais/Untitled.md",
+    "Anglais/lesson_feelings.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "Svt/lesson_les risques.md",
