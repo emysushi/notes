@@ -55,7 +55,7 @@ les générateur sont les seuls dipôles isolés qui possèdent une tension entr
 	- si le calibre choisit > plus petit que la valeur à mesurer le Voltmètre indique erreur 
 
 - je retiens :
-	- > mesurer la tension entres les bornes
+	- > mesurer la tension entres les bornes d'un dipôle
 
 
 
