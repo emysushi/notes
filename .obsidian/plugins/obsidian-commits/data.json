@@ -274,7 +274,7 @@
       "tags": 2,
       "links": 0
     },
-    "RevueParent/Untitled.md": {
+    "RevueParent/revue_2023-10-01.md": {
       "size": 0,
       "tags": 0,
       "links": 0
@@ -282,7 +282,7 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 273,
+      "Refactor": 274,
       "Create": 141,
       "Link": 95,
       "Expand": 57
@@ -311,7 +311,7 @@
       "18": 150,
       "19": 16,
       "20": 4,
-      "21": 18,
+      "21": 19,
       "22": 0,
       "23": 0
     }
@@ -324,7 +324,7 @@
       "Thu": 177,
       "Fri": 18,
       "Sat": 0,
-      "Sun": 277
+      "Sun": 278
     }
   },
   "recentCommits": {
@@ -436,6 +436,7 @@
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01.md\"> revue_2023-10-01 </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_how do you feel.md\"> lesson_how do you feel </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le circuit électrique.md\"> lesson_le circuit électrique </a>",
@@ -485,8 +486,7 @@
         "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
         "<a class=\"internal-link\" href=\"feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
         "<a class=\"internal-link\" href=\"birthdayNode.md\"> birthdayNode </a>",
-        "<a class=\"internal-link\" href=\"Home.md\"> Home </a>",
-        "<a class=\"internal-link\" href=\"Francais/Suivi_Maman.md\"> Suivi_Maman </a>"
+        "<a class=\"internal-link\" href=\"Home.md\"> Home </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",

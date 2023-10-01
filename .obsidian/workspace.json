@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RevueParent/lesson_2023-10-01.md",
+                "file": "Svt/lesson_les risques.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "e1f8d64981e9bfea",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RevueParent/revue_2023-10-01.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/lesson_2023-10-01.md",
+                "file": "RevueParent/revue_2023-10-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/lesson_2023-10-01.md",
+                "file": "RevueParent/revue_2023-10-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/lesson_2023-10-01.md"
+                "file": "RevueParent/revue_2023-10-01.md"
               }
             }
           },
@@ -225,7 +240,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,10 +270,11 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "262a5066ffc7f2c2",
+  "active": "e1f8d64981e9bfea",
   "lastOpenFiles": [
+    "Svt/lesson_les risques.md",
+    "RevueParent/revue_2023-10-01.md",
     "Template/tpl-crypto.md",
-    "RevueParent/lesson_2023-10-01.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
     "RevueParent",
     "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
@@ -266,7 +283,6 @@
     "Dictionary_English.md",
     "Dictionary/also.md",
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
-    "Svt/lesson_les risques.md",
     "Emc/study_Les droits de l'homme.md",
     "Emc/study_la pudeur.md",
     "Emc/study_la fraternité nationale.md",
