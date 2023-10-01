@@ -56,7 +56,15 @@ les générateur sont les seuls dipôles isolés qui possèdent une tension entr
 
 - je retiens :
 	- > mesurer la tension entres les bornes d'un dipôle 
-	- il faut placer le Volt mètre
+	- il faut placer le Voltmètre > dérivation par rapport > ce dipôle
+	- la borne COM > Voltmètre doit être placée du côté > borne du générateur
+- la tension entre les bornes du :
+	- générateur = jamais nulle
+	- fil = toujours nulle
+	- lampe allumée = pas nulle 
+- dans un circuit :
+	- fermé = le récepteur récupère la tension du générateur
+	- ouvert = l'interrupteur récupère la tension du générateur
 
 
 
