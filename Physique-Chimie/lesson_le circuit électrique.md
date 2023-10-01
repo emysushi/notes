@@ -39,7 +39,20 @@
 	- 2) on utilise les bornes V et COM
 
 - mesurer la tension :
-	- 
+	- U plie = 4,5 V
+	- U pile ronde = 1,5 V
+	- U lampe =0 V
+	- U interrupteur = 0 V
+	- U moteur = 0 V 
+
+les générateur sont les seuls dipôles isolés qui possèdent une tension entre leurs bornes
+
+- remarques :
+	- pour lire la tension + :
+		- relier la borne COM du Voltmètre
+		- du coté de la borne du générateur
+	- plus le calibre choisit est plut petit > valeur à mesurer
+	- plus la valeur mesurée > présise
 
 
 
