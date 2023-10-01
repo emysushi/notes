@@ -12,7 +12,7 @@
 ---
 
 
-# 1	1 les risques sismiques
+# 1 les risques sismiques
 
 - les séismes :
 	- sont provoqués > roches se cassent en profondeur > l'action de roche
