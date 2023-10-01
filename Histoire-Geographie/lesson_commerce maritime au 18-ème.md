@@ -48,8 +48,12 @@ le grand commerce se développe entre l'Europe et ses colonies esclaves ou march
 	- vers 1750 
 	- communique > campagne fertiles 
 
-- le commerce à Bordeaux :
-	- 
+- le commerce triangulaire à Bordeaux :
+	- à travers l'Océan Atlantique
+	- achètent des esclaves en Afrique
+	- les vendent en Amérique
+	- les produits manufacturés en Europe 
+	- > échangés 
 
 
 
