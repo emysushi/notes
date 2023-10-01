@@ -265,7 +265,7 @@
       "links": 0
     },
     "Anglais/lesson_feelings.md": {
-      "size": 0,
+      "size": 2059,
       "tags": 3,
       "links": 0
     }
@@ -275,7 +275,7 @@
       "Refactor": 273,
       "Create": 139,
       "Link": 92,
-      "Expand": 55
+      "Expand": 56
     }
   },
   "dailyCommits": {
@@ -297,7 +297,7 @@
       "14": 15,
       "15": 49,
       "16": 105,
-      "17": 127,
+      "17": 128,
       "18": 146,
       "19": 16,
       "20": 4,
@@ -314,12 +314,13 @@
       "Thu": 177,
       "Fri": 18,
       "Sat": 0,
-      "Sun": 270
+      "Sun": 271
     }
   },
   "recentCommits": {
     "/": {
       "Expanded": [
+        "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le circuit électrique.md\"> lesson_le circuit électrique </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le circuit électrique.md\"> lesson_le circuit électrique </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_commerce maritime au 18-ème.md\"> lesson_commerce maritime au 18-ème </a>",
@@ -369,7 +370,6 @@
         "<a class=\"internal-link\" href=\"Histoire-Geographie/study_ Temps Modernes.md\"> study_ Temps Modernes </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>",
-        "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>",
         "<a class=\"internal-link\" href=\"Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>"
       ],
       "Created": [

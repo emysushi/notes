@@ -16,7 +16,10 @@
 - les adjectifs possessifs :
 	- mon, ma, mes = My
 	- ton, ta, tes = Your
-	- 
+	- son, sa, ses = His / Her
+	- notre, notre, nos = Our
+	- votre, votre, vos = Your
+	- leur, leur, leurs = Their
 
 # 2	how do You feel 
 
@@ -109,4 +112,4 @@ Note :  Noter les liens intéressant se rapportant au sujet
 -   [Text Compactor](https://www.textcompactor.com/) : en ligne, anglais
 - [Plot function - Créer un graphique](https://github.com/leonhma/obsidian-functionplot)
 - [Latex - Ecrire des mathématiques](https://fr.wikibooks.org/wiki/LaTeX/%C3%89crire_des_math%C3%A9matiques)
-- [GEOGEBRA](https://www.geogebra.org/geometry?lang=fr) : dessiner des formes geometriq
+- [GEOGEBRA](https://www.geogebra.org/geometry?lang=fr) : dessiner des formes geometriques 
