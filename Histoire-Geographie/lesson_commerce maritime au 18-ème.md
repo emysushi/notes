@@ -31,7 +31,21 @@ le grand commerce se développe entre l'Europe et ses colonies esclaves ou march
 	- permet de rejoindre l'Océan Indien 
 	- et l'Asie
 - le commerce triangulaire relie :
+	- l'Europe, Afrique et l'Amérique
+
+# 3 Bordeaux
+
+- Bordeaux est une ville située :
+	- sur la Garonne
+	- Sud-Ouest du royaume de France
+	- proche > estuaire de la Gironde
+	- ouverture > l'Océan Atlantique
+
+- Bordeaux est le premier :
 	- 
+
+
+
 
 
 définitions
@@ -43,7 +57,7 @@ définitions
 #traites-négrières : commerce d'esclaves noirs d'Afrique
 #plantation : grand domaine situé > pays tropical et spécialisé > certaines cultures
 
-## 2.1	Liens
+## 3.1	Liens
 ---
 
 Note :  Noter les liens intéressant se rapportant au sujet
@@ -53,7 +67,7 @@ Note :  Noter les liens intéressant se rapportant au sujet
 
 
 
-## 2.2	Outils utiles
+## 3.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
