@@ -20,15 +20,26 @@
 
 - : ) 
 	- heureux = happy
-	- bien = great
 	- ravi = delighted
 	- excité = excited 
 	- extatique = ecstatic
 
+- : /
+	- ok = okay
+	- bien = great
+	- bien = fine
+	- m’en fiche = don't care
+	- cela ne me dérange pas = don't mind
+	- sentiments mitigés = mixed feelings
+
 - : (
+	- déçu = bummed
 	- triste = sad
+	- malheureux = unhappy
 	- fatigué = tired
-	- 
+	- nerveux = nervous
+	- anxieux = anxious 
+	- inquiet = worried
 
 
 
