@@ -12,14 +12,26 @@
 ---
 # 1	how do you feel 
 
--  
+- adverbes de liaison :
+	- quite
+	- rather
+	- pretty
+	- really
+
+- : ) 
+	- heureux = happy
+	- bien = great
+	- ravi = delighted
+	- excité = excited 
+	- 
 
 
 
 définitions
 
 ---
-
+#instead-of : au lieu de …
+#where-as : tandis que / alors que 
 
 
 ## 1.1	1. Liens
