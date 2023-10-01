@@ -24,6 +24,10 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
+      "filepath": "Physique-Chimie/lesson_le circuit éléctrique.md",
+      "timestamp": 1696156911993
+    },
+    {
       "filepath": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
       "timestamp": 1696150869924
     },
@@ -38,10 +42,6 @@
     {
       "filepath": "Emc/study_la pudeur.md",
       "timestamp": 1696150748903
-    },
-    {
-      "filepath": "Emc/study_la fraternité nationale.md",
-      "timestamp": 1696150747537
     }
   ],
   "starredFileStore": [],
