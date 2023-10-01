@@ -38,6 +38,9 @@
 	- 1) on place le secteur > zone V > calibre 20 V
 	- 2) on utilise les bornes V et COM
 
+- mesurer la tension :
+	- 
+
 
 
 ## 2.1	Liens
