@@ -23,7 +23,9 @@
 	- bien = great
 	- ravi = delighted
 	- excité = excited 
-	- 
+	- extatique = ecstatic
+
+: ()
 
 
 
