@@ -63,7 +63,34 @@ cette croissance > d'embellir et de transformés le port de la ville :
 
 - les marchands s'enrichissent et font construire :
 	- établissement public :
-		- jardin, 
+		- jardin, portes, places, Grand théâtre 
+	- établissement privée :
+		- façades, Ilots, hôtels particulier
+
+# 4	Nantes
+
+- Nantes est le située :
+	-  sur la Loire
+	- l'Ouest du royaume de France
+	- sud > massif armoricain
+
+- Nantes est le premier :
+	- 1er port négrier Français
+	- au 18-ème
+	- avec le navire "Marie-Séraphique"
+
+# 5	La Marie-Séraphique
+
+- La Marie-Séraphique est :
+	- navire négrier
+	- armé par "Jaques-Barthélémy Gruel"
+
+- le voyage :
+	- parti à Paimboeuf
+	- le 1er mai 1790
+	- et acquiert 312 esclave
+	- > Loangue (Angola)
+	- puis quitte l'Afrique
 
 
 
@@ -79,7 +106,7 @@ définitions
 #traites-négrières : commerce d'esclaves noirs d'Afrique
 #plantation : grand domaine situé > pays tropical et spécialisé > certaines cultures
 
-## 3.1	Liens
+## 5.1	Liens
 ---
 
 Note :  Noter les liens intéressant se rapportant au sujet
@@ -89,7 +116,7 @@ Note :  Noter les liens intéressant se rapportant au sujet
 
 
 
-## 3.2	Outils utiles
+## 5.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
