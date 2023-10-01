@@ -11,7 +11,7 @@
 - **updated**:: 2023-09-30 21:24:20
 --- 
 
-# 1 commerce maritime au 18-ème
+# 1	1 commerce maritime au 18-ème
 
 à partir du 16-ème siècle de nouvelles routes de navigation sont ouvertes après :
 les voyages d'exploration, les grandes découvertes et les conquêtes 
@@ -19,21 +19,23 @@ les voyages d'exploration, les grandes découvertes et les conquêtes
 cela permet de coloniser des nouvelles terres en ; Amérique, Afrique et Asie
 le grand commerce se développe entre l'Europe et ses colonies esclaves ou marchandises
 
-# 2 le grand commerce se mondialise
+# 2	2 le grand commerce se mondialise
 
 - maitriser les océans :
 	- atlantique, Indien, pacifique
 - cela permet au principaux Etats Européens :
 	- de montrer leur puissance 
 	- maritime et commerciale
+
 - l'Océan Atlantique :
 	- devient un lieu de commerce intensif
 	- permet de rejoindre l'Océan Indien 
 	- et l'Asie
+
 - le commerce triangulaire relie :
 	- l'Europe, Afrique et l'Amérique
 
-# 3 Bordeaux
+# 3	3 Bordeaux
 
 - Bordeaux est une ville située :
 	- sur la Garonne
@@ -42,6 +44,11 @@ le grand commerce se développe entre l'Europe et ses colonies esclaves ou march
 	- ouverture > l'Océan Atlantique
 
 - Bordeaux est le premier :
+	- port de commerce Français 
+	- vers 1750 
+	- communique > campagne fertiles 
+
+- le commerce à Bordeaux :
 	- 
 
 
