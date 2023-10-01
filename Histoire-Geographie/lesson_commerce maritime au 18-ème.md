@@ -11,7 +11,7 @@
 - **updated**:: 2023-09-30 21:24:20
 --- 
 
-# 1	1 commerce maritime au 18-ème
+# 1 commerce maritime au 18-ème
 
 à partir du 16-ème siècle de nouvelles routes de navigation sont ouvertes après :
 les voyages d'exploration, les grandes découvertes et les conquêtes 
@@ -19,7 +19,7 @@ les voyages d'exploration, les grandes découvertes et les conquêtes
 cela permet de coloniser des nouvelles terres en ; Amérique, Afrique et Asie
 le grand commerce se développe entre l'Europe et ses colonies esclaves ou marchandises
 
-# 2	2 le grand commerce se mondialise
+# 2 le grand commerce se mondialise
 
 - maitriser les océans :
 	- atlantique, Indien, pacifique
@@ -35,7 +35,7 @@ le grand commerce se développe entre l'Europe et ses colonies esclaves ou march
 - le commerce triangulaire relie :
 	- l'Europe, Afrique et l'Amérique
 
-# 3	3 Bordeaux
+# 3 Bordeaux
 
 - Bordeaux est une ville située :
 	- sur la Garonne
@@ -86,11 +86,19 @@ cette croissance > d'embellir et de transformés le port de la ville :
 	- armé par "Jaques-Barthélémy Gruel"
 
 - le voyage :
-	- parti à Paimboeuf
-	- le 1er mai 1790
-	- et acquiert 312 esclave
-	- > Loangue (Angola)
-	- puis quitte l'Afrique
+	- part à Paimboeuf > 1er mai 1769
+	- et acquiert 312 esclave > Loangue (Angola)
+	- puis quitte l'Afrique > 18  décembre 1769
+	- la traversée vers Saint-Domingue dure > 2 mois
+
+- les conditions des esclaves :
+	- hommes et femmes sont séparés
+	- entassés nus > l'entrepont > conditions déplorables
+	- > la mortalité > très forte
+	- les mors > enveloppés de linge > jettes à la mer
+	- des réserves d'eau/nourriture sont stockés > cale
+
+- ils sont ensuite vendus> travailler > plantations
 
 
 
