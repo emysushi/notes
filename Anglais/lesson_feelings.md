@@ -25,7 +25,7 @@
 
 - adverbes d'intensité / liaison :
 	- ++ :
-		- extremelly
+		- extremely
 		- really
 		- very
 	-  = :
