@@ -38,7 +38,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#instead-of",
+                "query": "tag:#would-like-to",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -254,7 +253,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8ab33f368c2d50cb",
+  "active": "3a5f9a633e3fd2af",
   "lastOpenFiles": [
     "Anglais/lesson_feelings.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
