@@ -273,12 +273,17 @@
       "size": 241,
       "tags": 2,
       "links": 0
+    },
+    "RevueParent/Untitled.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 273,
-      "Create": 140,
+      "Create": 141,
       "Link": 95,
       "Expand": 57
     }
@@ -306,7 +311,7 @@
       "18": 150,
       "19": 16,
       "20": 4,
-      "21": 17,
+      "21": 18,
       "22": 0,
       "23": 0
     }
@@ -319,7 +324,7 @@
       "Thu": 177,
       "Fri": 18,
       "Sat": 0,
-      "Sun": 276
+      "Sun": 277
     }
   },
   "recentCommits": {
@@ -378,6 +383,7 @@
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Dictionary/also.md\"> also </a>",
         "<a class=\"internal-link\" href=\"Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/Untitled.md\"> Untitled </a>",
@@ -427,8 +433,7 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures 1.md\"> Dossier_serrures 1 </a>",
-        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",

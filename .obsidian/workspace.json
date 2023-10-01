@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/lesson_feelings.md",
+                "file": "RevueParent/lesson_2023-10-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anglais/lesson_feelings.md",
+                "file": "RevueParent/lesson_2023-10-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anglais/lesson_feelings.md",
+                "file": "RevueParent/lesson_2023-10-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anglais/lesson_feelings.md"
+                "file": "RevueParent/lesson_2023-10-01.md"
               }
             }
           },
@@ -256,11 +256,15 @@
   },
   "active": "262a5066ffc7f2c2",
   "lastOpenFiles": [
+    "Template/tpl-crypto.md",
+    "RevueParent/lesson_2023-10-01.md",
+    "Physique-Chimie/lesson_le circuit électrique.md",
+    "RevueParent",
+    "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
     "Anglais/lesson_feelings.md",
     "Dictionary_French.md",
     "Dictionary_English.md",
     "Dictionary/also.md",
-    "Physique-Chimie/lesson_le circuit électrique.md",
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "Svt/lesson_les risques.md",
     "Emc/study_Les droits de l'homme.md",
@@ -279,9 +283,6 @@
     "[intriguer.md",
     "Anglais/Dossier_massachusset.md",
     "birthdayNode.md",
-    "Template/tpl-study.md",
-    "Template/tpl-livre.md",
-    "Template/tpl-feedback.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",
@@ -295,7 +296,6 @@
     "Crypto/Training",
     "Crypto",
     "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
-    "Gallery/dossier_serrure",
     "PhysiqueChimie/Untitled Diagram.svg",
     "Sans titre.canvas"
   ]
