@@ -52,7 +52,8 @@ les générateur sont les seuls dipôles isolés qui possèdent une tension entr
 		- relier la borne COM du Voltmètre
 		- du coté de la borne du générateur
 	- plus le calibre choisit est plut petit > valeur à mesurer
-	- plus la valeur mesurée > présise
+	- plus la valeur mesurée > précise
+	- si le calibre choisit
 
 
 
