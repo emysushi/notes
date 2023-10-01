@@ -57,7 +57,14 @@ le grand commerce se développe entre l'Europe et ses colonies esclaves ou march
 
 - le commerce à Bordeaux :
 	- malgré une baisse > guerre de 7 ans 
-	- 
+	- son commerce augmente tout au long > 18-ème
+
+cette croissance > d'embellir et de transformés le port de la ville :
+
+- les marchands s'enrichissent et font construire :
+	- établissement public :
+		- jardin, 
+
 
 
 
