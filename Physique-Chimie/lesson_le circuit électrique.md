@@ -13,19 +13,34 @@
 
 # 1	montage en série / dérivation
 
-montage en série :
 - un circuit électrique contient  :
 	- 2 lampes
 	- 1 générateur
-- 
+
+- le montage en série :
+	- les dipôles > placés en ne formant qu'une seule boucle
+	- avec le générateur
+	- si une lampe ne fonctionne pas l'autre s'éteint
+
+- le montage en dérivation :
+	- les dipôles > placés en plusieurs boucle 
+	- avec le générateur
+	- si une lampe ne fonctionne pas l'autre fonctionne
+
+# 2	la tension électrique
+
+- unité de la tension :
+	- la tension électrique s'exprime en Volt (V)
+	- la tension s'exprime avec la lettre (U)
+	- on mesure la tension avec un Voltmètre
+
+- le Voltmètre :
+	- 1) on place le secteur > zone V > calibre 20 V
+	- 2) on utilise les bornes V et COM
 
 
 
-
-
-
-
-## 1.1	Liens
+## 2.1	Liens
 ---
 
 Note :  Noter les liens interessant se rapportant au sujet
@@ -35,7 +50,7 @@ Note :  Noter les liens interessant se rapportant au sujet
 
 
 
-## 1.2	Outils utiles
+## 2.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
