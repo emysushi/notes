@@ -16,15 +16,13 @@
             }
           },
           {
-            "id": "b8dae4d4d66fb5f5",
+            "id": "fdf5fd30c37057d8",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "home-tab-view",
+              "state": {},
+              "pinned": true
             }
           }
         ],
@@ -262,7 +260,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "b8dae4d4d66fb5f5",
+  "active": "fdf5fd30c37057d8",
   "lastOpenFiles": [
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "Svt/lesson_les risques.md",
