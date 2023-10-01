@@ -13,8 +13,25 @@
 
 # 1 commerce maritime au 18-ème
 
-à partir du 16-ème siècle de nouvelles
+à partir du 16-ème siècle de nouvelles routes de navigation sont ouvertes après :
+les voyages d'exploration, les grandes découvertes et les conquêtes 
 
+cela permet de coloniser des nouvelles terres en ; Amérique, Afrique et Asie
+le grand commerce se développe entre l'Europe et ses colonies esclaves ou marchandises
+
+# 2 le grand commerce se mondialise
+
+- maitriser les océans :
+	- atlantique, Indien, pacifique
+- cela permet au principaux Etats Européens :
+	- de montrer leur puissance 
+	- maritime et commerciale
+- l'Océan Atlantique :
+	- devient un lieu de commerce intensif
+	- permet de rejoindre l'Océan Indien 
+	- et l'Asie
+- le commerce triangulaire relie :
+	- 
 
 
 définitions
@@ -26,7 +43,7 @@ définitions
 #traites-négrières : commerce d'esclaves noirs d'Afrique
 #plantation : grand domaine situé > pays tropical et spécialisé > certaines cultures
 
-## 1.1	Liens
+## 2.1	Liens
 ---
 
 Note :  Noter les liens intéressant se rapportant au sujet
@@ -36,7 +53,7 @@ Note :  Noter les liens intéressant se rapportant au sujet
 
 
 
-## 1.2	Outils utiles
+## 2.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
