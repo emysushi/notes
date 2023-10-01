@@ -56,6 +56,7 @@ les générateur sont les seuls dipôles isolés qui possèdent une tension entr
 
 - je retiens :
 	- > mesurer la tension entres les bornes d'un dipôle 
+	- il faut placer le Volt mètre
 
 
 
