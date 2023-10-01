@@ -80,6 +80,29 @@
 	- agaçant = annoying
 	- irritant = irritating
 
+# 5	different Feelings
+
+- good :
+	- confiante = confident
+	- généreux = generous
+	- calme = calm
+	- créative = creative
+	- aventureux = adventurous
+	- déterminer = determined
+	- bien = nice
+	- amicale = friendly
+	- curieux = curious
+	- organisé = organised
+	- intéressé = interesing
+	- agréable = pleasant
+	- gai = cheerful
+
+- bad :
+	- désordonné = messy
+	- timide= shy
+	- nerveux = nervous
+	- fou = pazy
+	- 
 
 
 
@@ -93,7 +116,7 @@ définitions
 
 
 
-## 4.1	1. Liens
+## 5.1	1. Liens
 ---
 
 Note :  Noter les liens intéressant se rapportant au sujet
@@ -103,7 +126,7 @@ Note :  Noter les liens intéressant se rapportant au sujet
 
 
 
-## 4.2	Outils utiles
+## 5.2	Outils utiles
 ---
 
 -   [Resoomer](https://resoomer.com/fr) : en ligne + extension navigateur, multilingue
