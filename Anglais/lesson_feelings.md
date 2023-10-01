@@ -25,7 +25,10 @@
 	- excité = excited 
 	- extatique = ecstatic
 
-: ()
+- : (
+	- triste = sad
+	- fatigué = tired
+	- 
 
 
 
