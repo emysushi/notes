@@ -102,9 +102,9 @@
 	- timide= shy
 	- nerveux = nervous
 	- fou = pazy
-	- 
-
-
+	- solitaire = solitary
+	- susceptible = susceptible
+	- travaille dur = hard working
 
 
 définitions
@@ -113,7 +113,8 @@ définitions
 #would-like-to : aimerais
 #instead-of : au lieu de
 #where-as : tandis que / alors que 
-
+#also : aussi
+[[[also|@also]]]
 
 
 ## 5.1	1. Liens

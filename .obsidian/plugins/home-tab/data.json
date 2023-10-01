@@ -25,23 +25,23 @@
   "recentFilesStore": [
     {
       "filepath": "Anglais/lesson_feelings.md",
-      "timestamp": 1696172402146
+      "timestamp": 1696176125005
+    },
+    {
+      "filepath": "Dictionary_French.md",
+      "timestamp": 1696176096139
+    },
+    {
+      "filepath": "Dictionary_English.md",
+      "timestamp": 1696176093979
+    },
+    {
+      "filepath": "Dictionary/also.md",
+      "timestamp": 1696176074986
     },
     {
       "filepath": "Physique-Chimie/lesson_le circuit électrique.md",
       "timestamp": 1696156911993
-    },
-    {
-      "filepath": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
-      "timestamp": 1696150869924
-    },
-    {
-      "filepath": "Svt/lesson_les risques.md",
-      "timestamp": 1696150828830
-    },
-    {
-      "filepath": "Emc/study_Les droits de l'homme.md",
-      "timestamp": 1696150749812
     }
   ],
   "starredFileStore": [],

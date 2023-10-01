@@ -266,15 +266,20 @@
     },
     "Anglais/lesson_feelings.md": {
       "size": 2531,
-      "tags": 3,
+      "tags": 4,
+      "links": 1
+    },
+    "Dictionary/also.md": {
+      "size": 241,
+      "tags": 2,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 273,
-      "Create": 139,
-      "Link": 92,
+      "Create": 140,
+      "Link": 95,
       "Expand": 57
     }
   },
@@ -298,7 +303,7 @@
       "15": 49,
       "16": 105,
       "17": 129,
-      "18": 146,
+      "18": 150,
       "19": 16,
       "20": 4,
       "21": 17,
@@ -314,7 +319,7 @@
       "Thu": 177,
       "Fri": 18,
       "Sat": 0,
-      "Sun": 272
+      "Sun": 276
     }
   },
   "recentCommits": {
@@ -373,6 +378,7 @@
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"Dictionary/also.md\"> also </a>",
         "<a class=\"internal-link\" href=\"Anglais/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/Untitled.md\"> Untitled </a>",
@@ -422,8 +428,7 @@
         "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures 1.md\"> Dossier_serrures 1 </a>",
         "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
@@ -480,6 +485,8 @@
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
+        "<a class=\"internal-link\" href=\"Dictionary/also.md\"> also </a>",
+        "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_commerce maritime au 18-ème.md\"> lesson_commerce maritime au 18-ème </a>",
         "<a class=\"internal-link\" href=\"Histoire-Geographie/lesson_commerce maritime au 18-ème.md\"> lesson_commerce maritime au 18-ème </a>",
@@ -527,9 +534,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/substituer.md\"> substituer </a>",
-        "<a class=\"internal-link\" href=\"Dictionary/blasheme.md\"> blasheme </a>"
+        "<a class=\"internal-link\" href=\"Dictionary/intriguer.md\"> intriguer </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -628,7 +633,8 @@
         "<a class=\"internal-link\" href=\"Crypto/Sans titre.md\"> Sans titre </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
         "<a class=\"internal-link\" href=\"devoirs/study_bien et le mal.md\"> study_bien et le mal </a>",
-        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>"
+        "<a class=\"internal-link\" href=\"Histoire-Geographie/Fiche_Histoire_MoyenAge.md\"> Fiche_Histoire_MoyenAge </a>",
+        "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>"
       ],
       "Removed Tags from": [
         "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>",
