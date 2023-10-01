@@ -8,33 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "262a5066ffc7f2c2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Svt/lesson_les risques.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1f8d64981e9bfea",
+            "id": "0a36b7b11f4c30dc",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RevueParent/revue_2023-10-01.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "home-tab-view",
+              "state": {},
               "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5,
-    "collapsed": true
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,7 +252,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "e1f8d64981e9bfea",
+  "active": "0a36b7b11f4c30dc",
   "lastOpenFiles": [
     "Svt/lesson_les risques.md",
     "RevueParent/revue_2023-10-01.md",
