@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "42acd5454e11d973",
+        "id": "b39df15b0202292f",
         "type": "tabs",
         "children": [
           {
-            "id": "41d2be6b9020ff16",
+            "id": "b7ed77198be52a04",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -149,14 +149,6 @@
             }
           },
           {
-            "id": "bd57c00706339f74",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
             "id": "e414c1ca18ef9ff8",
             "type": "leaf",
             "state": {
@@ -183,7 +175,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -191,7 +183,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "templates:Insérer le modèle": false,
       "obsidian-gallery:Gallery": false,
       "switcher:Ouvrir le sélecteur rapide": false,
@@ -207,14 +198,15 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "templater-obsidian:Templater": false,
       "birthday-tracker:Track birthdays": false,
+      "completed-task-display:Task Hider": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "41d2be6b9020ff16",
+  "active": "b7ed77198be52a04",
   "lastOpenFiles": [
+    "Home.md",
     "RevueParent/revue_2023-10-01.md",
     "RevueParent/revue_2023-10-02.md",
-    "Home.md",
     "Svt/lesson_les risques.md",
     "Template/tpl-crypto.md",
     "Physique-Chimie/lesson_le circuit électrique.md",

@@ -3,7 +3,6 @@
   "heatmap-calendar",
   "templater-obsidian",
   "obsidian-admonition",
-  "obsidian-tasks-plugin",
   "nldates-obsidian",
   "oz-image-plugin",
   "obsidian-emoji-toolbar",
@@ -33,7 +32,6 @@
   "obsidian-banners",
   "obsidian-wakatime",
   "obsidian-activity-history",
-  "obsidian-advanced-slides",
   "obsidian-image-toolkit",
   "search-on-internet",
   "obsidian-local-images",
@@ -57,5 +55,8 @@
   "tag-search",
   "homepage",
   "obsidian-dictionary-plugin",
-  "obsidian-wordnet-plugin"
+  "obsidian-wordnet-plugin",
+  "obsidian-rewarder",
+  "obsidian-tasks-plugin",
+  "completed-task-display"
 ]
