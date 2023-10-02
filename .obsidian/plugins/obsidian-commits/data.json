@@ -278,12 +278,17 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "RevueParent/revue_2023-10-02.md": {
+      "size": 801,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 274,
-      "Create": 141,
+      "Refactor": 275,
+      "Create": 142,
       "Link": 95,
       "Expand": 57
     }
@@ -310,7 +315,7 @@
       "17": 129,
       "18": 150,
       "19": 16,
-      "20": 4,
+      "20": 6,
       "21": 19,
       "22": 0,
       "23": 0
@@ -318,7 +323,7 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 37,
+      "Mon": 39,
       "Tue": 18,
       "Wed": 39,
       "Thu": 177,
@@ -383,6 +388,7 @@
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01 1.md\"> revue_2023-10-01 1 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Dictionary/also.md\"> also </a>",
         "<a class=\"internal-link\" href=\"Anglais/Untitled.md\"> Untitled </a>",
@@ -432,10 +438,10 @@
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures 1.md\"> Dossier_serrures 1 </a>",
-        "<a class=\"internal-link\" href=\"Sans titre.md\"> Sans titre </a>"
+        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures 1.md\"> Dossier_serrures 1 </a>"
       ],
       "Renamed": [
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01.md\"> revue_2023-10-01 </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_how do you feel.md\"> lesson_how do you feel </a>",
@@ -485,8 +491,7 @@
         "<a class=\"internal-link\" href=\"Technologie/LES SERRURES🔐.md\"> LES SERRURES🔐 </a>",
         "<a class=\"internal-link\" href=\"Francais/feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
         "<a class=\"internal-link\" href=\"feedback_2023-05-23.md\"> feedback_2023-05-23 </a>",
-        "<a class=\"internal-link\" href=\"birthdayNode.md\"> birthdayNode </a>",
-        "<a class=\"internal-link\" href=\"Home.md\"> Home </a>"
+        "<a class=\"internal-link\" href=\"birthdayNode.md\"> birthdayNode </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
