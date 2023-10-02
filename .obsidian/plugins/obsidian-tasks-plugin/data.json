@@ -3,7 +3,7 @@
   "globalFilter": "#todo",
   "removeGlobalFilter": true,
   "taskFormat": "tasksPluginEmoji",
-  "setCreatedDate": false,
+  "setCreatedDate": true,
   "setDoneDate": true,
   "autoSuggestInEditor": true,
   "autoSuggestMinMatch": 0,
