@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RevueParent/revue_2023-10-01.md",
+                "file": "Template/tpl-study.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/revue_2023-10-01.md"
+                "file": "Template/tpl-study.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/revue_2023-10-01.md",
+                "file": "Template/tpl-study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/revue_2023-10-01.md",
+                "file": "Template/tpl-study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,19 +184,8 @@
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
               "state": {}
             }
-          },
-          {
-            "id": "ade930fcc21ac174",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,14 +211,19 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "e47107789253ff50",
+  "active": "bec0f28889395ca3",
   "lastOpenFiles": [
-    "Histoire-Geographie/feedback_2023-04-17.md",
+    "Template/tpl-revue-parent.md",
+    "Template/tpl-lesson.md",
+    "RevueParent/Untitled.md",
+    "Template/tpl-dictionary.md",
+    "Template/tpl-crypto.md",
+    "Template/tpl-feedback.md",
     "RevueParent/revue_2023-10-01.md",
+    "Histoire-Geographie/feedback_2023-04-17.md",
     "Home.md",
     "RevueParent/revue_2023-10-02.md",
     "Svt/lesson_les risques.md",
-    "Template/tpl-crypto.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
     "RevueParent",
     "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
@@ -243,14 +237,9 @@
     "Emc/study_la fraternité nationale.md",
     "Emc/study_citoyen et l'éléction.md",
     "Emc/study_bien et le mal.md",
-    "Template/tpl-lesson.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "Technologie/study_sketchup.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
-    "Francais/fiche_L'Enfant multiple.md",
-    "Francais/feedback_2023-05-23.md",
-    "[intriguer.md",
-    "Anglais/Dossier_massachusset.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",

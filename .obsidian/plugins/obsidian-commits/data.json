@@ -276,20 +276,25 @@
     },
     "RevueParent/revue_2023-10-01.md": {
       "size": 0,
-      "tags": 2,
+      "tags": 6,
       "links": 0
     },
     "RevueParent/revue_2023-10-02.md": {
       "size": 801,
       "tags": 0,
       "links": 0
+    },
+    "Template/tpl-revue-parent.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 275,
-      "Create": 142,
-      "Link": 97,
+      "Refactor": 276,
+      "Create": 144,
+      "Link": 98,
       "Expand": 57
     }
   },
@@ -317,13 +322,13 @@
       "19": 16,
       "20": 6,
       "21": 20,
-      "22": 1,
+      "22": 5,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 41,
+      "Mon": 45,
       "Tue": 18,
       "Wed": 39,
       "Thu": 177,
@@ -388,6 +393,8 @@
         "<a class=\"internal-link\" href=\"Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>"
       ],
       "Created": [
+        "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Template/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01 1.md\"> revue_2023-10-01 1 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Dictionary/also.md\"> also </a>",
@@ -436,9 +443,7 @@
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones 1.md\"> Les Téléphones 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 1 1.md\"> la Géographie 1 1 </a>",
         "<a class=\"internal-link\" href=\"devoirs/la Géographie 2 1.md\"> la Géographie 2 1 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>",
-        "<a class=\"internal-link\" href=\"devoirs/Sans titre.md\"> Sans titre </a>",
-        "<a class=\"internal-link\" href=\"Dossier/Dossier_serrures 1.md\"> Dossier_serrures 1 </a>"
+        "<a class=\"internal-link\" href=\"devoirs/la Géographie 1.md\"> la Géographie 1 </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
@@ -496,6 +501,7 @@
       "Tagged": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01.md\"> revue_2023-10-01 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01.md\"> revue_2023-10-01 </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01.md\"> revue_2023-10-01 </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
         "<a class=\"internal-link\" href=\"Dictionary/also.md\"> also </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
@@ -543,8 +549,7 @@
         "<a class=\"internal-link\" href=\"Dictionary/aelo 1 1.md\"> aelo 1 1 </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Dictionary/stylo.md\"> stylo </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",
@@ -557,6 +562,7 @@
         "<a class=\"internal-link\" href=\"devoirs/les drones.md\"> les drones </a>"
       ],
       "Deleted": [
+        "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"README.md\"> README </a>",
         "<a class=\"internal-link\" href=\"Technologie/Home.md\"> Home </a>",
         "<a class=\"internal-link\" href=\"Technologie/study_serrures.md\"> study_serrures </a>",
@@ -606,8 +612,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-block-column_model2.md\"> tpl-block-column_model2 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-08.md\"> Planning_Week_2023-05-08 </a>",
         "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"Planning_Semaine/Planning_Week_2023-05-07.md\"> Planning_Week_2023-05-07 </a>"
+        "<a class=\"internal-link\" href=\"Planning_Semaine/Untitled.md\"> Untitled </a>"
       ],
       "Linked": [
         "<a class=\"internal-link\" href=\"conflict-files-obsidian-git.md\"> conflict-files-obsidian-git </a>",
