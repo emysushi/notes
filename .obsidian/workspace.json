@@ -30,9 +30,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "e972992f29325ee7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RevueParent/revue_2023-10-01 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "RevueParent/revue_2023-10-01 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "RevueParent/revue_2023-10-01 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "RevueParent/revue_2023-10-01 1.md"
               }
             }
           },
@@ -267,10 +279,12 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "8c02e132865f34e5",
+  "active": "e972992f29325ee7",
   "lastOpenFiles": [
-    "Svt/lesson_les risques.md",
     "RevueParent/revue_2023-10-01.md",
+    "RevueParent/revue_2023-10-01 1.md",
+    "Home.md",
+    "Svt/lesson_les risques.md",
     "Template/tpl-crypto.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
     "RevueParent",
@@ -284,7 +298,6 @@
     "Emc/study_la pudeur.md",
     "Emc/study_la fraternité nationale.md",
     "Emc/study_citoyen et l'éléction.md",
-    "Home.md",
     "Emc/study_bien et le mal.md",
     "Template/tpl-lesson.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
@@ -295,7 +308,6 @@
     "Francais/feedback_2023-05-23.md",
     "[intriguer.md",
     "Anglais/Dossier_massachusset.md",
-    "birthdayNode.md",
     "Emc",
     "Dictionary",
     "Banner/biblio.jpeg",

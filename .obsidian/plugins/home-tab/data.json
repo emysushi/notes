@@ -24,12 +24,16 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "Home.md",
-      "timestamp": 1696272318717
+      "filepath": "RevueParent/revue_2023-10-01 1.md",
+      "timestamp": 1696272499186
     },
     {
       "filepath": "RevueParent/revue_2023-10-01.md",
-      "timestamp": 1696191188728
+      "timestamp": 1696272342764
+    },
+    {
+      "filepath": "Home.md",
+      "timestamp": 1696272318717
     },
     {
       "filepath": "Svt/lesson_les risques.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "Template/tpl-crypto.md",
       "timestamp": 1696189891505
-    },
-    {
-      "filepath": "Physique-Chimie/lesson_le circuit électrique.md",
-      "timestamp": 1696189686450
     }
   ],
   "starredFileStore": [],
