@@ -1,7 +1,7 @@
 {
   "globalQuery": "",
   "globalFilter": "#todo",
-  "removeGlobalFilter": true,
+  "removeGlobalFilter": false,
   "taskFormat": "tasksPluginEmoji",
   "setCreatedDate": true,
   "setDoneDate": true,

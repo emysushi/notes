@@ -21,3 +21,37 @@
     animation-duration: .5s;
     box-shadow: rgb(0 0 0 / 20%) 0 8px 24px;
 }
+
+.smallerScale:hover {
+    scale: .96;
+}
+
+.yearContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    border: 3px solid #3D3D3C;
+    border-radius: 10px;
+    margin-top: 5vh;
+    height: 86%;
+}
+
+.monthContainer {
+    border: 3px solid #3D3D3C;
+}
+
+.monthName {
+    text-align: center;
+}
+
+.personsYearViewContainer {
+    border: 3px solid #3D3D3C;
+    border-radius: 10px;
+    margin: 2vh 2vw;
+    height: 16vh;
+    overflow-y: scroll;
+}
+
+.personsYearViewContainer>p {
+    text-align: center;
+    cursor: pointer;
+}

@@ -27,7 +27,7 @@ __export(main_exports, {
   default: () => BirthdayTrackerPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
 // src/settings.ts
 var import_obsidian = require("obsidian");
@@ -124,16 +124,18 @@ var Person = class {
       this.name,
       this.birthday.toString(),
       this.birthday.getNextBirthdayInDays(),
-      this.birthday.getAge()
+      this.birthday.getAge(),
+      this.birthday.getMonth()
     );
   }
 };
 var PersonDTO = class {
-  constructor(name, birthday, nextBirthdayInDays, age) {
+  constructor(name, birthday, nextBirthdayInDays, age, month) {
     this.name = name;
     this.birthday = birthday;
     this.nextBirthdayInDays = nextBirthdayInDays;
     this.age = age;
+    this.month = month;
   }
 };
 
@@ -199,12 +201,15 @@ var Birthday = class {
   getNextBirthdayInDays() {
     return this.nextBirthday;
   }
+  getMonth() {
+    return this.date.getMonth();
+  }
   toString() {
     return this.str;
   }
 };
 
-// src/view.ts
+// src/views/birthdayTrackerView.ts
 var import_obsidian2 = require("obsidian");
 var BIRTHDAY_TRACKER_VIEW_TYPE = "Birthday-Tracker";
 var BirthdayTrackerView = class extends import_obsidian2.ItemView {
@@ -237,17 +242,98 @@ var BirthdayTrackerView = class extends import_obsidian2.ItemView {
   }
 };
 
+// src/modals/SearchPersonModal.ts
+var import_obsidian4 = require("obsidian");
+
+// src/modals/PersonModal.ts
+var import_obsidian3 = require("obsidian");
+var PersonModal = class extends import_obsidian3.Modal {
+  constructor(app, person) {
+    super(app);
+    this.person = person;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    const div = contentEl.createDiv({ cls: "personContainer smallerScale" });
+    div.createEl("p", { text: "Name: " + this.person.name + " (" + this.person.age + ")" });
+    div.createEl("p", { text: "Days next birthday: " + this.person.nextBirthdayInDays });
+    div.createEl("p", { text: "Birthday: " + this.person.birthday });
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
+// src/modals/SearchPersonModal.ts
+var SearchPersonModal = class extends import_obsidian4.FuzzySuggestModal {
+  constructor(app, persons) {
+    super(app);
+    this.persons = persons;
+  }
+  getItems() {
+    return this.persons;
+  }
+  getItemText(item) {
+    return item.name;
+  }
+  onChooseItem(item, evt) {
+    new PersonModal(this.app, item).open();
+  }
+};
+
+// src/views/yearOverviewView.ts
+var import_obsidian5 = require("obsidian");
+var BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE = "Birthday-Tracker-Year-Overview";
+var MONTHS = ["January", "February", "March", "April", "Mai", "June", "July", "August", "September", "October", "November", "December"];
+var YearOverviewView = class extends import_obsidian5.ItemView {
+  constructor() {
+    super(...arguments);
+    this.icon = "calendar-days";
+    this.persons = [];
+    this.createPerson = (person, personContainer) => {
+      const para = personContainer.createEl("p", { text: person.name });
+      para.onclick = () => new PersonModal(this.app, person).open();
+    };
+  }
+  getViewType() {
+    return BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE;
+  }
+  getDisplayText() {
+    return BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE;
+  }
+  async onOpen() {
+    const { contentEl } = this;
+    contentEl.createEl("h1", { text: "Birthday Tracker - Year Overview" });
+    const container = contentEl.createDiv({ cls: "yearContainer" });
+    for (let i = 0; i < 12; i++) {
+      const month = container.createDiv({ cls: "monthContainer" });
+      month.createEl("h4", { text: MONTHS[i], cls: "monthName" });
+      const personContainer = month.createDiv({ cls: "personsYearViewContainer" });
+      if (this.persons.length === 0)
+        continue;
+      this.persons.filter((p) => p.month == i).forEach((person) => this.createPerson(person, personContainer));
+    }
+  }
+  async updatePersons(persons) {
+    this.persons = persons;
+    const { contentEl } = this;
+    contentEl.empty();
+    await this.onOpen();
+  }
+};
+
 // src/main.ts
-var BirthdayTrackerPlugin = class extends import_obsidian3.Plugin {
+var BirthdayTrackerPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     this.trackBirthdays = async () => {
       const content = await this.fetchContent();
       if (content) {
         this.trackBirthdaysOfContent(content);
-        await this.openView();
+        await this.openBirthdayView();
       } else {
-        new import_obsidian3.Notice("Nothing inside your node");
+        new import_obsidian6.Notice("Nothing inside your node");
       }
     };
     this.trackBirthdaysOfContent = (content) => {
@@ -258,28 +344,60 @@ var BirthdayTrackerPlugin = class extends import_obsidian3.Plugin {
     this.lineContainsPerson = (line) => {
       return line.contains("name=") && line.contains("birthday=");
     };
+    this.openYearView = async () => {
+      const leaves = this.app.workspace.getLeavesOfType(BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE);
+      if (leaves.length == 0) {
+        leaves[0] = this.app.workspace.getLeaf(false);
+        await leaves[0].setViewState({ type: BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE });
+      }
+      const persons = await this.getPersons();
+      await leaves[0].view.updatePersons(persons.map((p) => p.toDTO()));
+      this.app.workspace.revealLeaf(leaves[0]);
+    };
+    this.searchPerson = async () => {
+      await this.fetchContent();
+      if (this.persons.length >= 1) {
+        new SearchPersonModal(this.app, this.persons.map((person) => person.toDTO())).open();
+      } else {
+        new import_obsidian6.Notice("No persons were found");
+      }
+    };
   }
   async onload() {
     await this.loadSettings();
     this.registerView(BIRTHDAY_TRACKER_VIEW_TYPE, (leaf) => new BirthdayTrackerView(leaf));
+    this.registerView(BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE, (leaf) => new YearOverviewView(leaf));
     const ribbonIconEl = this.addRibbonIcon("cake", "Track birthdays", this.trackBirthdays);
     ribbonIconEl.addClass("birthday-tracker-plugin-ribbon-class");
+    this.addCommands();
+    this.addSettingTab(new BirthdayTrackerSettingTab(this.app, this));
+    this.app.workspace.onLayoutReady(() => this.trackBirthdays());
+  }
+  addCommands() {
     this.addCommand({
       id: "track-birthdays",
       name: "Track Birthdays",
       callback: this.trackBirthdays
     });
-    this.addSettingTab(new BirthdayTrackerSettingTab(this.app, this));
-    this.app.workspace.onLayoutReady(() => this.trackBirthdays());
+    this.addCommand({
+      id: "search-person",
+      name: "Search Person",
+      callback: this.searchPerson
+    });
+    this.addCommand({
+      id: "year-overview",
+      name: "Year Overview",
+      callback: this.openYearView
+    });
   }
   onunload() {
   }
   async fetchContent() {
     const file = this.app.vault.getAbstractFileByPath(this.settings.birthdayNodeLocation);
-    if (file && file instanceof import_obsidian3.TFile) {
+    if (file && file instanceof import_obsidian6.TFile) {
       return (await this.app.vault.read(file)).trim();
     }
-    new import_obsidian3.Notice("Node could not be found at location: " + this.settings.birthdayNodeLocation);
+    new import_obsidian6.Notice("Node could not be found at location: " + this.settings.birthdayNodeLocation);
     return void 0;
   }
   collectPersons(content) {
@@ -304,21 +422,28 @@ var BirthdayTrackerPlugin = class extends import_obsidian3.Plugin {
     let message = "Today ";
     personsBirthdayToday.forEach((person) => message = message.concat(person.toDTO().name).concat(", "));
     message = message.substring(0, message.length - 2);
-    new import_obsidian3.Notice(message.concat((personsBirthdayToday.length > 1 ? " have" : " has") + " birthday"));
+    new import_obsidian6.Notice(message.concat((personsBirthdayToday.length > 1 ? " have" : " has") + " birthday"));
   }
-  async openView() {
+  async openBirthdayView() {
     const leaves = this.app.workspace.getLeavesOfType(BIRTHDAY_TRACKER_VIEW_TYPE);
     if (this.persons) {
-      (await this.getView(leaves)).displayPersons(this.persons);
+      (await this.getBirthdayView(leaves)).displayPersons(this.persons);
     }
     this.app.workspace.revealLeaf(leaves[0]);
   }
-  async getView(leaves) {
+  async getBirthdayView(leaves) {
     if (leaves.length == 0) {
       leaves[0] = this.app.workspace.getRightLeaf(false);
       await leaves[0].setViewState({ type: BIRTHDAY_TRACKER_VIEW_TYPE });
     }
     return leaves[0].view;
+  }
+  async getPersons() {
+    const content = await this.fetchContent();
+    if (content) {
+      this.trackBirthdaysOfContent(content);
+    }
+    return this.persons;
   }
   async loadSettings() {
     this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());

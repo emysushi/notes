@@ -231,6 +231,15 @@ var HeaderEnhancerPlugin = class extends import_obsidian2.Plugin {
         }
       }
     ])));
+    this.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([
+      {
+        key: "Backspace",
+        run: (view) => {
+          const success = this.handlePressBackspace(view);
+          return success;
+        }
+      }
+    ])));
     this.addCommand({
       id: "toggle-automatic-numbering",
       name: "Toggle automatic numbering",
@@ -321,6 +330,9 @@ var HeaderEnhancerPlugin = class extends import_obsidian2.Plugin {
     let docCharCount = 0;
     let insertCharCount = 0;
     let insertCharCountBeforePos = 0;
+    if (!isHeader(doc.lineAt(pos).text)) {
+      return false;
+    }
     changes.push({
       from: pos,
       to: pos,
@@ -370,6 +382,32 @@ var HeaderEnhancerPlugin = class extends import_obsidian2.Plugin {
     view.dispatch({
       changes,
       selection: { anchor: pos + 1 + insertCharCountBeforePos },
+      userEvent: "HeaderEnhancer.changeAutoNumbering"
+    });
+    return true;
+  }
+  handlePressBackspace(view) {
+    let state = view.state;
+    let doc = state.doc;
+    const pos = state.selection.main.to;
+    const lineCount = doc.lines;
+    const changes = [];
+    let docCharCount = 0;
+    let insertCharCount = 0;
+    let insertCharCountBeforePos = 0;
+    if (!isHeader(doc.lineAt(pos).text)) {
+      return false;
+    }
+    changes.push({
+      from: pos - 1,
+      to: pos,
+      insert: ""
+    });
+    if (this.settings.isAutoNumbering) {
+    }
+    view.dispatch({
+      changes,
+      selection: { anchor: pos - 1 },
       userEvent: "HeaderEnhancer.changeAutoNumbering"
     });
     return true;

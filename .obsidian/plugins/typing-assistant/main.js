@@ -181,7 +181,7 @@ var CommandMenu = class {
     this.isVisible = function() {
       return !this.menu.hasClass("display-none");
     };
-    this.clear = function() {
+    this.remove = function() {
       this.scrollArea.removeChild(this.menu);
     };
     this.menu = createDiv({ cls: "command", attr: { id: "command-menu" } });
@@ -373,7 +373,7 @@ var SelectionBtns = class {
     this.isVisible = function() {
       return !!document.querySelector(".selection");
     };
-    this.clear = function() {
+    this.remove = function() {
       this.scrollArea.removeChild(this.menu);
     };
     this.menu = createDiv({
@@ -597,7 +597,7 @@ ${codeStr}`,
       }
     };
     const handleSelection = () => {
-      var _a;
+      var _a, _b;
       const selection = (_a = document.getSelection()) == null ? void 0 : _a.toString();
       if (selection) {
         const view = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
@@ -618,7 +618,7 @@ ${codeStr}`,
             break;
           }
         }
-        this.btns.display(lineStyle);
+        (_b = this.btns) == null ? void 0 : _b.display(lineStyle);
       }
     };
     this.linkModal = new InsertLinkModal(this.app, onLinkSubmit);
@@ -660,12 +660,10 @@ ${codeStr}`,
       }
     });
     this.registerDomEvent(document, "click", (evt) => {
-      var _a;
-      if (this.commands.isVisible()) {
-        this.commands.hide();
-      }
-      const selection = (_a = document.getSelection()) == null ? void 0 : _a.toString();
-      if (!selection && this.btns.isVisible()) {
+      var _a, _b, _c;
+      (_a = this.commands) == null ? void 0 : _a.hide();
+      const selection = (_b = document.getSelection()) == null ? void 0 : _b.toString();
+      if (!selection && ((_c = this.btns) == null ? void 0 : _c.isVisible())) {
         this.btns.hide();
       }
     });
@@ -673,8 +671,9 @@ ${codeStr}`,
       handleSelection();
     });
     this.registerDomEvent(document, "keydown", (evt) => {
+      var _a, _b;
       renderEmptyText();
-      if (this.commands.isVisible()) {
+      if ((_a = this.commands) == null ? void 0 : _a.isVisible()) {
         const { key } = evt;
         if (key !== "ArrowUp" && key !== "ArrowDown" && key !== "ArrowLeft" && key !== "ArrowRight") {
           this.commands.hide();
@@ -684,50 +683,48 @@ ${codeStr}`,
           }
         }
       }
-      if (this.btns.isVisible()) {
-        this.btns.hide();
-      }
+      (_b = this.btns) == null ? void 0 : _b.hide();
     });
     const scrollEvent = () => {
-      if (this.btns.isVisible()) {
+      var _a;
+      if ((_a = this.btns) == null ? void 0 : _a.isVisible()) {
         handleSelection();
       }
     };
+    const renderPlugin = () => {
+      var _a, _b, _c, _d, _e;
+      if (this.scrollArea) {
+        this.scrollArea.removeEventListener("scroll", scrollEvent);
+      }
+      const view = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
+      if (!view)
+        return;
+      this.scrollArea = (_a = view.containerEl.querySelector(".cm-scroller")) != null ? _a : void 0;
+      const appHeader = document.querySelector(".titlebar");
+      const viewHeader = view.containerEl.querySelector(".view-header");
+      const headerHeight = ((_b = appHeader == null ? void 0 : appHeader.clientHeight) != null ? _b : 0) + ((_c = viewHeader == null ? void 0 : viewHeader.clientHeight) != null ? _c : 0);
+      if (!this.scrollArea)
+        return;
+      const scrollArea = this.scrollArea;
+      (_d = this.commands) == null ? void 0 : _d.remove();
+      this.commands = new CommandMenu({
+        scrollArea,
+        onMenu: onMenuClick
+      });
+      (_e = this.btns) == null ? void 0 : _e.remove();
+      this.btns = new SelectionBtns({
+        scrollArea,
+        headerHeight,
+        onAction: onSelectionAction
+      });
+      scrollArea == null ? void 0 : scrollArea.addEventListener("scroll", scrollEvent);
+    };
+    renderPlugin();
     this.registerEvent(
-      this.app.workspace.on("active-leaf-change", () => {
-        var _a, _b, _c;
-        if (this.scrollArea) {
-          this.scrollArea.removeEventListener("scroll", scrollEvent);
-        }
-        const view = this.app.workspace.getActiveViewOfType(import_obsidian5.MarkdownView);
-        if (!view)
-          return;
-        this.scrollArea = (_a = view.containerEl.querySelector(".cm-scroller")) != null ? _a : void 0;
-        const appHeader = document.querySelector(".titlebar");
-        const viewHeader = view.containerEl.querySelector(".view-header");
-        const headerHeight = ((_b = appHeader == null ? void 0 : appHeader.clientHeight) != null ? _b : 0) + ((_c = viewHeader == null ? void 0 : viewHeader.clientHeight) != null ? _c : 0);
-        if (!this.scrollArea)
-          return;
-        const scrollArea = this.scrollArea;
-        if (this.commands) {
-          this.commands.clear();
-        }
-        this.commands = new CommandMenu({
-          scrollArea,
-          onMenu: onMenuClick
-        });
-        if (this.btns) {
-          this.btns.clear();
-        }
-        this.btns = new SelectionBtns({
-          scrollArea,
-          headerHeight,
-          onAction: onSelectionAction
-        });
-        scrollArea == null ? void 0 : scrollArea.addEventListener("scroll", scrollEvent);
-      })
+      this.app.workspace.on("active-leaf-change", renderPlugin)
     );
     this.registerDomEvent(document, "input", (evt) => {
+      var _a, _b;
       if (this.linkModal.isOpen)
         return;
       if (evt && evt.data === "/") {
@@ -737,11 +734,9 @@ ${codeStr}`,
         const cursor = view.editor.getCursor();
         const editLine = view.editor.getLine(cursor.line);
         if (editLine.replace(/[\s]*$/, "").length <= cursor.ch) {
-          this.commands.display();
+          (_a = this.commands) == null ? void 0 : _a.display();
         } else {
-          if (this.commands.isVisible()) {
-            this.commands.hide();
-          }
+          (_b = this.commands) == null ? void 0 : _b.hide();
         }
       }
     });
@@ -751,7 +746,10 @@ ${codeStr}`,
         return;
       setTimeout(() => {
         const activeEle = view.containerEl.querySelector(".cm-active");
-        activeEle == null ? void 0 : activeEle.setAttribute("promote-text", "\u{1F4A1}Please input \u2018 / \u2019 for more commands...");
+        activeEle == null ? void 0 : activeEle.setAttribute(
+          "promote-text",
+          "\u{1F4A1}Please input \u2018 / \u2019 for more commands..."
+        );
       }, 50);
     };
     this.registerDomEvent(document, "pointermove", () => {
@@ -766,5 +764,8 @@ ${codeStr}`,
     });
   }
   onunload() {
+    var _a, _b;
+    (_a = this.commands) == null ? void 0 : _a.remove();
+    (_b = this.btns) == null ? void 0 : _b.remove();
   }
 };
