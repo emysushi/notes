@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b39df15b0202292f",
+        "id": "0955b126774aebcb",
         "type": "tabs",
         "children": [
           {
-            "id": "b7ed77198be52a04",
+            "id": "4e15897298171ba0",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -183,12 +183,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templates:Insérer le modèle": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "obsidian-gallery:Gallery": false,
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
-      "command-palette:Ouvrir la palette de commandes": false,
       "obsidian-translator:Translate": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
@@ -202,7 +202,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b7ed77198be52a04",
+  "active": "4e15897298171ba0",
   "lastOpenFiles": [
     "Home.md",
     "RevueParent/revue_2023-10-01.md",
