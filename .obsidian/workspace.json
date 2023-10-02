@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RevueParent/revue_2023-10-02.md",
+                "file": "RevueParent/revue_2023-10-01.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/revue_2023-10-02.md",
+                "file": "RevueParent/revue_2023-10-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/revue_2023-10-02.md",
+                "file": "RevueParent/revue_2023-10-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/revue_2023-10-02.md"
+                "file": "RevueParent/revue_2023-10-01.md"
               }
             }
           },
@@ -214,22 +214,6 @@
             }
           },
           {
-            "id": "77a3760f1b8b86ab",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_nodes",
-              "state": {}
-            }
-          },
-          {
-            "id": "2625249c6b552305",
-            "type": "leaf",
-            "state": {
-              "type": "juggl_style",
-              "state": {}
-            }
-          },
-          {
             "id": "e414c1ca18ef9ff8",
             "type": "leaf",
             "state": {
@@ -246,11 +230,11 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 512.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -273,7 +257,6 @@
       "header-enhancer:Header Enhancer": false,
       "birthday-tracker:Track birthdays": false,
       "homepage:Open homepage": false,
-      "juggl:Juggl global graph": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "obsidian-memos:Memos": false,
       "periodic-notes:Open this week": false
@@ -281,8 +264,8 @@
   },
   "active": "e972992f29325ee7",
   "lastOpenFiles": [
-    "RevueParent/revue_2023-10-01.md",
     "RevueParent/revue_2023-10-02.md",
+    "RevueParent/revue_2023-10-01.md",
     "Home.md",
     "Svt/lesson_les risques.md",
     "Template/tpl-crypto.md",
