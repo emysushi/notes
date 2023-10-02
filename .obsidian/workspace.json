@@ -16,8 +16,23 @@
               "state": {},
               "pinned": true
             }
+          },
+          {
+            "id": "8c02e132865f34e5",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/revue_2023-10-01.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/revue_2023-10-01.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/revue_2023-10-01.md"
+                "file": "Home.md"
               }
             }
           },
@@ -252,7 +267,7 @@
       "periodic-notes:Open this week": false
     }
   },
-  "active": "0a36b7b11f4c30dc",
+  "active": "8c02e132865f34e5",
   "lastOpenFiles": [
     "Svt/lesson_les risques.md",
     "RevueParent/revue_2023-10-01.md",

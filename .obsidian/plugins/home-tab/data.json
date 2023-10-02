@@ -24,8 +24,12 @@
   "unresolvedLinks": false,
   "recentFilesStore": [
     {
-      "filepath": "RevueParent/lesson_2023-10-01.md",
-      "timestamp": 1696190262551
+      "filepath": "Home.md",
+      "timestamp": 1696272318717
+    },
+    {
+      "filepath": "RevueParent/revue_2023-10-01.md",
+      "timestamp": 1696191188728
     },
     {
       "filepath": "Svt/lesson_les risques.md",
@@ -38,10 +42,6 @@
     {
       "filepath": "Physique-Chimie/lesson_le circuit électrique.md",
       "timestamp": 1696189686450
-    },
-    {
-      "filepath": "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
-      "timestamp": 1696189680204
     }
   ],
   "starredFileStore": [],
