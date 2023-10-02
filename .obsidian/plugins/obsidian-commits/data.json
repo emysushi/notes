@@ -276,7 +276,7 @@
     },
     "RevueParent/revue_2023-10-01.md": {
       "size": 0,
-      "tags": 1,
+      "tags": 2,
       "links": 0
     },
     "RevueParent/revue_2023-10-02.md": {
@@ -289,7 +289,7 @@
     "/": {
       "Refactor": 275,
       "Create": 142,
-      "Link": 96,
+      "Link": 97,
       "Expand": 57
     }
   },
@@ -317,13 +317,13 @@
       "19": 16,
       "20": 6,
       "21": 20,
-      "22": 0,
+      "22": 1,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 40,
+      "Mon": 41,
       "Tue": 18,
       "Wed": 39,
       "Thu": 177,
@@ -495,6 +495,7 @@
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01.md\"> revue_2023-10-01 </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-01.md\"> revue_2023-10-01 </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
         "<a class=\"internal-link\" href=\"Dictionary/also.md\"> also </a>",
         "<a class=\"internal-link\" href=\"Anglais/lesson_feelings.md\"> lesson_feelings </a>",
@@ -543,8 +544,7 @@
         "<a class=\"internal-link\" href=\"Template/tpl-dictionary.md\"> tpl-dictionary </a>",
         "<a class=\"internal-link\" href=\"Dictionary/stylo.md\"> stylo </a>",
         "<a class=\"internal-link\" href=\"Template/tpl-lesson.md\"> tpl-lesson </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>",
-        "<a class=\"internal-link\" href=\"Template/tpl-feedback.md\"> tpl-feedback </a>"
+        "<a class=\"internal-link\" href=\"Template/tpl-study.md\"> tpl-study </a>"
       ],
       "Refactored": [
         "<a class=\"internal-link\" href=\"devoirs/Les Téléphones.md\"> Les Téléphones </a>",

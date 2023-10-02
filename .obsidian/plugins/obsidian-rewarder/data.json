@@ -1,0 +1,24 @@
+{
+  "completedTaskCharacter": "☑️",
+  "escapeCharacterBegin": "{",
+  "escapeCharacterEnd": "}",
+  "occurrenceTypes": [
+    {
+      "label": "common",
+      "value": 70
+    },
+    {
+      "label": "rare",
+      "value": 5
+    },
+    {
+      "label": "legendary",
+      "value": 0.5
+    }
+  ],
+  "rewardsFile": "Rewards.md",
+  "saveRewardToDaily": false,
+  "saveTaskToDaily": false,
+  "showModal": true,
+  "useAsInspirational": false
+}

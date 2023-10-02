@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "bec0f28889395ca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "RevueParent/revue_2023-10-01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -40,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#also",
+                "query": "tag:#todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,12 +104,46 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9c36a70ed31f73d5",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "e47107789253ff50",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "6bab969d0d096703",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "RevueParent/revue_2023-10-01.md"
+              }
+            }
+          },
+          {
+            "id": "e414c1ca18ef9ff8",
+            "type": "leaf",
+            "state": {
+              "type": "Birthday-Tracker",
+              "state": {}
+            }
+          },
+          {
             "id": "a0384a097f7e1407",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "RevueParent/revue_2023-10-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "RevueParent/revue_2023-10-01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,36 +178,10 @@
             }
           },
           {
-            "id": "6bab969d0d096703",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
-            }
-          },
-          {
             "id": "5883242f4e5b52d0",
             "type": "leaf",
             "state": {
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
-              "state": {}
-            }
-          },
-          {
-            "id": "e414c1ca18ef9ff8",
-            "type": "leaf",
-            "state": {
-              "type": "Birthday-Tracker",
-              "state": {}
-            }
-          },
-          {
-            "id": "e47107789253ff50",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
               "state": {}
             }
           },
@@ -175,7 +196,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -198,14 +219,14 @@
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "templater-obsidian:Templater": false,
       "birthday-tracker:Track birthdays": false,
-      "completed-task-display:Task Hider": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4e15897298171ba0",
+  "active": "e47107789253ff50",
   "lastOpenFiles": [
-    "Home.md",
+    "Histoire-Geographie/feedback_2023-04-17.md",
     "RevueParent/revue_2023-10-01.md",
+    "Home.md",
     "RevueParent/revue_2023-10-02.md",
     "Svt/lesson_les risques.md",
     "Template/tpl-crypto.md",
@@ -225,7 +246,6 @@
     "Template/tpl-lesson.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "Technologie/study_sketchup.md",
-    "Histoire-Geographie/feedback_2023-04-17.md",
     "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
     "Francais/fiche_L'Enfant multiple.md",
     "Francais/feedback_2023-05-23.md",
