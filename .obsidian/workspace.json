@@ -24,13 +24,15 @@
           {
             "id": "0e915643b3b02dd3",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RevueParent/revue_2023-10-022.md",
+                "file": "RevueParent/revue_2023-10-03.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
@@ -100,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/revue_2023-10-022.md",
+                "file": "RevueParent/revue_2023-10-03.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/revue_2023-10-022.md",
+                "file": "RevueParent/revue_2023-10-03.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/revue_2023-10-022.md"
+                "file": "RevueParent/revue_2023-10-03.md"
               }
             }
           },
@@ -173,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 649.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,10 +197,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "da16a823f16323a0",
+  "active": "0e915643b3b02dd3",
   "lastOpenFiles": [
+    "RevueParent/revue_2023-10-02.md",
     "RevueParent/revue_2023-10-03.md",
-    "RevueParent/revue_2023-10-022.md",
     "Histoire-Geographie/feedback_2023-04-17.md",
     "Home.md",
     "Emc/study_bien et le mal.md"
