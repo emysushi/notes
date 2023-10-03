@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "31e0493f49e2da97",
+            "id": "0e915643b3b02dd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emc/study_bien et le mal.md",
+                "file": "RevueParent/revue_2023-10-022.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Emc/study_bien et le mal.md",
+                "file": "RevueParent/revue_2023-10-022.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Emc/study_bien et le mal.md",
+                "file": "RevueParent/revue_2023-10-022.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Emc/study_bien et le mal.md"
+                "file": "RevueParent/revue_2023-10-022.md"
               }
             }
           },
@@ -195,8 +195,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "31e0493f49e2da97",
+  "active": "da16a823f16323a0",
   "lastOpenFiles": [
-    "Home.md"
+    "RevueParent/revue_2023-10-03.md",
+    "RevueParent/revue_2023-10-022.md",
+    "Histoire-Geographie/feedback_2023-04-17.md",
+    "Home.md",
+    "Emc/study_bien et le mal.md"
   ]
 }

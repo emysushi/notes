@@ -1,7 +1,7 @@
 
 ---
 - **type**:: #study
-- **domain**:: emc
+- **domain**:: #emc
 - **title**:: bien et le mal
 - **level**:: #college_4
 - **status**:: done
