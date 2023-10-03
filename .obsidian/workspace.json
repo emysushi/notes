@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "6814ec6b0a1a2187",
+    "id": "04264224909710a9",
     "type": "split",
     "children": [
       {
-        "id": "0955b126774aebcb",
+        "id": "731d86c5e7231acb",
         "type": "tabs",
         "children": [
           {
-            "id": "4e15897298171ba0",
+            "id": "b728ac86473b0e67",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "bec0f28889395ca3",
+            "id": "31e0493f49e2da97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "Emc/study_bien et le mal.md",
                 "mode": "source",
                 "source": false
               }
@@ -40,38 +40,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c7851dc6d53e4271",
+    "id": "52e59a05f2a85c7f",
     "type": "split",
     "children": [
       {
-        "id": "7a9f239d4b295cad",
+        "id": "13e20e27d5631f3c",
         "type": "tabs",
         "children": [
           {
-            "id": "3a5f9a633e3fd2af",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#todo",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
-            "id": "32c10102c33f44bf",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "cc433e56d726fa8d",
+            "id": "da16a823f16323a0",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -81,69 +58,49 @@
             }
           },
           {
-            "id": "054e78594f61e1ae",
+            "id": "4c55722a607e8c32",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8ceae32f9d6e917",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "de72a87206515b52",
+    "id": "b04988d5c17efa9d",
     "type": "split",
     "children": [
       {
-        "id": "ee2250b28fc2614e",
+        "id": "943615c718e3b105",
         "type": "tabs",
         "children": [
           {
-            "id": "9c36a70ed31f73d5",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
-            }
-          },
-          {
-            "id": "e47107789253ff50",
-            "type": "leaf",
-            "state": {
-              "type": "dictionary-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "6bab969d0d096703",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Template/tpl-study.md"
-              }
-            }
-          },
-          {
-            "id": "e414c1ca18ef9ff8",
-            "type": "leaf",
-            "state": {
-              "type": "Birthday-Tracker",
-              "state": {}
-            }
-          },
-          {
-            "id": "a0384a097f7e1407",
+            "id": "f3ad144320d26451",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "Emc/study_bien et le mal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,19 +112,19 @@
             }
           },
           {
-            "id": "d68bc29e87c4ff6f",
+            "id": "467c624fe296ec88",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-study.md",
+                "file": "Emc/study_bien et le mal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "d2f672a9cfbc3914",
+            "id": "73516b7f8b4e883d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -178,82 +135,68 @@
             }
           },
           {
-            "id": "5883242f4e5b52d0",
+            "id": "5bd3dbf6c046669b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Emc/study_bien et le mal.md"
+              }
+            }
+          },
+          {
+            "id": "b4a88cbaede8b2dd",
             "type": "leaf",
             "state": {
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
               "state": {}
             }
+          },
+          {
+            "id": "9b8cdb48311e0dfe",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "4312cf0f13781aa4",
+            "type": "leaf",
+            "state": {
+              "type": "Birthday-Tracker",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 409.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
+      "obsidian-map-view:Open map view": false,
+      "obsidian-gallery:Gallery": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-translator:Translate": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "birthday-tracker:Track birthdays": false,
+      "homepage:Open homepage": false,
+      "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-gallery:Gallery": false,
-      "obsidian-translator:Translate": false,
-      "obsidian-book-search-plugin:Create new book note": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-map-view:Open map view": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "homepage:Open homepage": false,
-      "obsidian-wordnet-plugin:WordNet Dictionary": false,
-      "templater-obsidian:Templater": false,
-      "birthday-tracker:Track birthdays": false,
       "obsidian-memos:Memos": false
     }
   },
-  "active": "bec0f28889395ca3",
+  "active": "31e0493f49e2da97",
   "lastOpenFiles": [
-    "Template/tpl-revue-parent.md",
-    "Template/tpl-lesson.md",
-    "RevueParent/Untitled.md",
-    "Template/tpl-dictionary.md",
-    "Template/tpl-crypto.md",
-    "Template/tpl-feedback.md",
-    "RevueParent/revue_2023-10-01.md",
-    "Histoire-Geographie/feedback_2023-04-17.md",
-    "Home.md",
-    "RevueParent/revue_2023-10-02.md",
-    "Svt/lesson_les risques.md",
-    "Physique-Chimie/lesson_le circuit électrique.md",
-    "RevueParent",
-    "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
-    "Anglais/lesson_feelings.md",
-    "Dictionary_French.md",
-    "Dictionary_English.md",
-    "Dictionary/also.md",
-    "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
-    "Emc/study_Les droits de l'homme.md",
-    "Emc/study_la pudeur.md",
-    "Emc/study_la fraternité nationale.md",
-    "Emc/study_citoyen et l'éléction.md",
-    "Emc/study_bien et le mal.md",
-    "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
-    "Technologie/study_sketchup.md",
-    "Histoire-Geographie/lesson_Histoire-Geographie_societe_eglise_pouvoir_politique_occident_féodal.md",
-    "Emc",
-    "Dictionary",
-    "Banner/biblio.jpeg",
-    "devoirs/Sans titre",
-    "devoirs",
-    "Gallery/Pasted image 20230308173724.png",
-    "Gallery/massachussets_embleme.png",
-    "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png",
-    "suivi maman/Français",
-    "suivi maman",
-    "Crypto/Training",
-    "Crypto",
-    "Gallery/dossier_serrure/Schema-vocabulaire-cylindre-mobile.png.crdownload",
-    "PhysiqueChimie/Untitled Diagram.svg",
-    "Sans titre.canvas"
+    "Home.md"
   ]
 }
