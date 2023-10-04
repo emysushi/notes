@@ -62,7 +62,7 @@
 	- fatigué = tired
 	- nerveux = nervous
 	- anxieux = anxious 
-	- inquiet = worried*
+	- inquiet = worried**
 
 # 4	It Is …
 
@@ -70,9 +70,9 @@
 	- intéressant = interesting
 	- bien = great
 	- drôle = funny
-	- génial = awesome*
+	- génial = awesome***
 	- incroyable = incredible
-	- stupéfiant= amazing*
+	- stupéfiant= amazing**
 
 - : (
 	- ennuyeux = boring
@@ -88,16 +88,16 @@
 	- créative = creative
 	- aventureux = adventurous
 	- déterminer = determined
-	- bien = nice*
+	- bien = nice**
 	- amicale = friendly
 	- curieux = curious
 	- organisé = organised
 	- intéressé = interesting
-	- agréable = pleasant*
-	- gai = cheerful*
+	- agréable = pleasant***
+	- gai = cheerful****
 
 - bad :
-	- désordonné = messy*
+	- désordonné = messy**
 	- timide= shy
 	- nerveux = nervous
 	- fou = pazy
