@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/lesson_feelings.md",
+                "file": "RevueParent/revue_2023-10-04.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anglais/lesson_feelings.md",
+                "file": "RevueParent/revue_2023-10-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anglais/lesson_feelings.md",
+                "file": "RevueParent/revue_2023-10-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anglais/lesson_feelings.md"
+                "file": "RevueParent/revue_2023-10-04.md"
               }
             }
           },
@@ -198,15 +198,16 @@
   },
   "active": "649d097b6552f63d",
   "lastOpenFiles": [
-    "RevueParent/revue_2023-10-03 1.md",
+    "RevueParent/revue_2023-10-03.md",
+    "RevueParent/revue_2023-10-02.md",
+    "RevueParent/revue_2023-10-01.md",
+    "RevueParent/revue_2023-10-04.md",
     "Anglais/lesson_feelings.md",
+    "RevueParent/revue_2023-10-03 1.md",
     "Anglais/Les Ecrants et les Routines.md",
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
     "Svt/lesson_les risques.md",
-    "RevueParent/revue_2023-10-03.md",
-    "RevueParent/revue_2023-10-02.md",
-    "RevueParent/revue_2023-10-01.md",
     "feed back/lesson_Maths.md",
     "feed back",
     "Banner/biblio.jpeg",

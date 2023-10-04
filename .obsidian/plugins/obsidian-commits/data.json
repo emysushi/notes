@@ -298,13 +298,18 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "RevueParent/revue_2023-10-04.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 2,
-      "Create": 3,
-      "Link": 1,
+      "Create": 4,
+      "Link": 2,
       "Expand": 0
     }
   },
@@ -331,7 +336,7 @@
       "18": 1,
       "19": 0,
       "20": 3,
-      "21": 2,
+      "21": 4,
       "22": 0,
       "23": 0
     }
@@ -340,7 +345,7 @@
     "/": {
       "Mon": 0,
       "Tue": 3,
-      "Wed": 3,
+      "Wed": 5,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -353,13 +358,15 @@
       "Created": [
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"feed back/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03 1.md\"> revue_2023-10-03 1 </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03 1.md\"> revue_2023-10-03 1 </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>"
       ],
       "Tagged": [
-        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03.md\"> revue_2023-10-03 </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03.md\"> revue_2023-10-03 </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-04.md\"> revue_2023-10-04 </a>"
       ],
       "Refactored": [],
       "Deleted": [
