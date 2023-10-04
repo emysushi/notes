@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "feed back/lesson_Maths.md",
+                "file": "Anglais/lesson_feelings.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "feed back/lesson_Maths.md",
+                "file": "Anglais/lesson_feelings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "feed back/lesson_Maths.md",
+                "file": "Anglais/lesson_feelings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "feed back/lesson_Maths.md"
+                "file": "Anglais/lesson_feelings.md"
               }
             }
           },
@@ -198,13 +198,18 @@
   },
   "active": "649d097b6552f63d",
   "lastOpenFiles": [
+    "Anglais/Les Ecrants et les Routines.md",
+    "Anglais/lesson_feelings.md",
+    "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
+    "Physique-Chimie/lesson_le circuit électrique.md",
+    "Svt/lesson_les risques.md",
+    "RevueParent/revue_2023-10-03.md",
+    "RevueParent/revue_2023-10-02.md",
+    "RevueParent/revue_2023-10-01.md",
     "feed back/lesson_Maths.md",
     "feed back",
     "Banner/biblio.jpeg",
-    "Anglais/lesson_feelings.md",
     "Home.md",
-    "RevueParent/revue_2023-10-02.md",
-    "RevueParent/revue_2023-10-03.md",
     "Histoire-Geographie/feedback_2023-04-17.md",
     "Emc/study_bien et le mal.md"
   ]

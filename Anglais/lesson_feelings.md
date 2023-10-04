@@ -67,12 +67,12 @@
 # 4	It Is …
 
 - : )
-	- intéressant = interesing
+	- intéressant = interesting
 	- bien = great
 	- drôle = funny
-	- génial = awesome
+	- génial = awesome*
 	- incroyable = incredible
-	- stupéfiant= amazing
+	- stupéfiant= amazing*
 
 - : (
 	- ennuyeux = boring
@@ -82,22 +82,22 @@
 # 5	different Feelings
 
 - good :
-	- confiante = confident
+	- confiante = confident*
 	- généreux = generous
 	- calme = calm
 	- créative = creative
 	- aventureux = adventurous
 	- déterminer = determined
-	- bien = nice
+	- bien = nice*
 	- amicale = friendly
 	- curieux = curious
 	- organisé = organised
-	- intéressé = interesing
-	- agréable = pleasant
-	- gai = cheerful
+	- intéressé = interesting
+	- agréable = pleasant*
+	- gai = cheerful*
 
 - bad :
-	- désordonné = messy
+	- désordonné = messy*
 	- timide= shy
 	- nerveux = nervous
 	- fou = pazy
