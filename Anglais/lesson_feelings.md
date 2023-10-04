@@ -62,7 +62,7 @@
 	- fatigué = tired
 	- nerveux = nervous
 	- anxieux = anxious 
-	- inquiet = worried
+	- inquiet = worried*
 
 # 4	It Is …
 
