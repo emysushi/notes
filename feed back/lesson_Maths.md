@@ -34,3 +34,4 @@
 - les points - :
 	- je doit plus me faire confiance
 	- et m'entrainer en faisant plus d'exercices
+	- faire du khan (ou pas)
