@@ -17,5 +17,13 @@
 - note :
 	- 14 / 20
 
-- les erreurs :
+- les points + :
+	- j'ai bien appris ma leçon 
+	- je connait mes nombres premiers
+	- je sais faire des calculs de tête
+	- je sais décomposer un nombre
+	- simplifier une fraction
+	- et résoudre un problème
+
+- les points - :
 	- 
