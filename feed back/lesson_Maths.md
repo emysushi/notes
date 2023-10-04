@@ -14,52 +14,8 @@
 
 # Multiples et Diviseurs
 
+- note :
+	- 14 / 20
 
-## 1.1	Contexte
----
-
-
-
-## 1.2	Observations
----
-
-
-
-
-
-
-
-
-
-
-```chartsview
-#-----------------#
-#- chart type    -#
-#-----------------#
-type: Radar
-
-#-----------------#
-#- chart data    -#
-#-----------------#
-data:
-  - label: A
-    value: 2
-  - label: B
-    value: 5
-  - label: " C"
-    value: 3
-
-#-----------------#
-#- chart options -#
-#-----------------#
-options:
-  xField: label
-  yField: value
-```
-
-
-
-## 1.3	Axes ameliorations
----
-
-
+- les erreurs :
+	- 
