@@ -29,10 +29,9 @@
 		- really
 		- very
 	-  = :
+		- pretty
 		- quite
 		- rather
-		- pretty
-		- really
 		- so
 	- - :
 		- not very
