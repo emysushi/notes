@@ -14,16 +14,23 @@
 
 # Multiples et Diviseurs
 
-- note :
-	- 14 / 20
+- notes :
+	- note espérée :
+		- 17 / 20
+	- note obtenue :
+		- 14 / 20
+	- moyenne de la classe :
+		- 10.5 / 20
 
 - les points + :
 	- j'ai bien appris ma leçon 
 	- je connait mes nombres premiers
-	- je sais faire des calculs de tête
-	- je sais décomposer un nombre
-	- simplifier une fraction
-	- et résoudre un problème
+	- je sais :
+		- faire des calculs de tête,
+		- décomposer un nombre,
+		- simplifier une fraction,
+		- et résoudre un problème
 
 - les points - :
-	- 
+	- je doit plus me faire confiance
+	- et m'entrainer en faisant plus d'exercices
