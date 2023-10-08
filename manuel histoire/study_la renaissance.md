@@ -31,6 +31,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 - commença en Italie u 15-ème :
 	- elle se répandit > toute l'Europe
 	- (France, Allemagne, Pays-Bas, Angleterre)
+	- 1450 : invention de l'imprimerie
 	- 
 
 ## 1.2	Liens
