@@ -22,31 +22,15 @@
             }
           },
           {
-            "id": "090ea8c98b3ba6bf",
+            "id": "470177068ef9cdd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "419373bfb2bd29f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "manuel histoire/study_La Réforme.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manuel histoire/study_La Réforme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manuel histoire/study_La Réforme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "manuel histoire/study_La Réforme.md"
-              }
+              "state": {}
             }
           },
           {
@@ -207,13 +187,20 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "419373bfb2bd29f8",
+  "active": "da16a823f16323a0",
   "lastOpenFiles": [
+    "manuel geo/Untitled.md",
+    "manuel Emc/study_la responsabilité.md",
+    "manuel Emc/study_bien et le mal.md",
+    "manuel Emc/study_Les droits de l'homme.md",
+    "manuel Emc/study_Etat de droit.md",
+    "manuel Emc/study_citoyen et l'éléction.md",
+    "manuel Emc/study_la fraternité nationale.md",
+    "manuel histoire/study_La Réforme.md",
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "RevueParent/revue_2023-10-08.md",
     "RevueParent/revue_2023-10-01.md",
     "manuel histoire/study_la renaissance.md",
-    "manuel histoire/study_La Réforme.md",
     "manuel geo",
     "manuel histoire",
     "feed back/lesson_Maths.md",
@@ -228,7 +215,6 @@
     "Svt/lesson_les risques.md",
     "feed back",
     "Banner/biblio.jpeg",
-    "Histoire-Geographie/feedback_2023-04-17.md",
-    "manuel Emc/study_bien et le mal.md"
+    "Histoire-Geographie/feedback_2023-04-17.md"
   ]
 }
