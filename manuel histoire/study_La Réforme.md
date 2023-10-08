@@ -18,7 +18,16 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 # 1	la réforme
 
-mouvement religieux qui s'opposa à l'église catholique en 1520 
+mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au protestantisme
+
+- martin Luther :
+	- moine allemand > prit l'initiative > réforme
+	- opposé à certains aspects > doctrine catholique
+	- concernant > sacrements, Vierge Marie, Saints
+	- pensait que les vérités de la foi > trouvées que dans la bible
+	- mis en accusation devant l'empereur Charles Quint
+	- mais ne se laissa pas faire
+
 
 définition
 
