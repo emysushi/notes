@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "928690c91db8c8cd",
+        "id": "db3f95cabad137c6",
         "type": "tabs",
         "children": [
           {
-            "id": "d11324ab1718df13",
+            "id": "48b754349359f515",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "649d097b6552f63d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RevueParent/revue_2023-10-04.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/revue_2023-10-04.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/revue_2023-10-04.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/revue_2023-10-04.md"
+                "file": "Home.md"
               }
             }
           },
@@ -196,7 +183,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "da16a823f16323a0",
+  "active": "48b754349359f515",
   "lastOpenFiles": [
     "RevueParent/revue_2023-10-03.md",
     "RevueParent/revue_2023-10-02.md",
