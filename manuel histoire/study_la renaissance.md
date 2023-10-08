@@ -23,8 +23,13 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- par les européens > 15/16-ème
 	- les hommes qui faisaient les "grandes découvertes" à cette époque
 	- > optimistes et très curieux > nouvelles perspectives
-	- 
+	- passionnèrent > auteurs de l'Antiquité
+	- décrit et célébré la nature humaine > "humanisme"
 
+# publication des oeuvres antiques
+
+- commença en Italie u 15-ème :
+	- 
 
 ## 1.2	Liens
 ---
