@@ -42,7 +42,11 @@ mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au pr
 	- redirigea un nouveau catéchisme "confession de foi d'Augsbourg"
 	- 2 sacrements au lieu de 7 (baptême et la communion)
 	- plus parlés en latin mais > langues de différents peuples
-	- 
+	- les pasteurs devraient pouvoir se marier et fonder une famille
+
+# l'extension de la réforme
+
+-  l'extension de la réforme
 
 
 
