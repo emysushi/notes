@@ -316,7 +316,7 @@
     },
     "RevueParent/revue_2023-10-08.md": {
       "size": 0,
-      "tags": 4,
+      "tags": 5,
       "links": 0
     }
   },
@@ -324,7 +324,7 @@
     "/": {
       "Refactor": 9,
       "Create": 7,
-      "Link": 5,
+      "Link": 6,
       "Expand": 3
     }
   },
@@ -351,7 +351,7 @@
       "18": 1,
       "19": 0,
       "20": 3,
-      "21": 6,
+      "21": 7,
       "22": 0,
       "23": 0
     }
@@ -364,7 +364,7 @@
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-      "Sun": 16
+      "Sun": 17
     }
   },
   "recentCommits": {
@@ -398,6 +398,7 @@
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-04.md\"> revue_2023-10-04 </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_la renaissance.md\"> study_la renaissance </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>"
       ],
       "Refactored": [],

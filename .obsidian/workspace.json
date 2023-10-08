@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "RevueParent/revue_2023-10-08.md",
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
                 "mode": "source",
                 "source": false
               }
@@ -84,7 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 365.505859375
   },
   "right": {
     "id": "b04988d5c17efa9d",
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/revue_2023-10-08.md",
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/revue_2023-10-08.md",
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/revue_2023-10-08.md"
+                "file": "Histoire-Geographie/lesson_commerce maritime au 18-ème.md"
               }
             }
           },
@@ -173,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 649.5
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +197,8 @@
   },
   "active": "090ea8c98b3ba6bf",
   "lastOpenFiles": [
-    "RevueParent/revue_2023-10-01.md",
     "RevueParent/revue_2023-10-08.md",
+    "RevueParent/revue_2023-10-01.md",
     "manuel histoire/study_la renaissance.md",
     "manuel histoire/study_La Réforme.md",
     "manuel geo",
