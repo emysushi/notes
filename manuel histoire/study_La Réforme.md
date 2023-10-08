@@ -49,7 +49,7 @@ mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au pr
 -  l'extension de la réforme :
 	- pays allemand adoptent la réforme
 	- Charles Quint reste catholique mais autorisa le protestantisme
-	- 
+	- chaque états allemand > décider quelle
 
 
 
