@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "baa686704ae16434",
+            "id": "090ea8c98b3ba6bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manuel histoire/study_la renaissance.md",
+                "file": "RevueParent/revue_2023-10-08.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manuel histoire/study_la renaissance.md",
+                "file": "RevueParent/revue_2023-10-08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manuel histoire/study_la renaissance.md",
+                "file": "RevueParent/revue_2023-10-08.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manuel histoire/study_la renaissance.md"
+                "file": "RevueParent/revue_2023-10-08.md"
               }
             }
           },
@@ -169,12 +169,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 649.5,
-    "collapsed": true
+    "width": 649.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,8 +195,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "baa686704ae16434",
+  "active": "090ea8c98b3ba6bf",
   "lastOpenFiles": [
+    "RevueParent/revue_2023-10-01.md",
+    "RevueParent/revue_2023-10-08.md",
     "manuel histoire/study_la renaissance.md",
     "manuel histoire/study_La Réforme.md",
     "manuel geo",
@@ -206,7 +207,6 @@
     "Home.md",
     "RevueParent/revue_2023-10-03.md",
     "RevueParent/revue_2023-10-02.md",
-    "RevueParent/revue_2023-10-01.md",
     "RevueParent/revue_2023-10-04.md",
     "Anglais/lesson_feelings.md",
     "RevueParent/revue_2023-10-03 1.md",
