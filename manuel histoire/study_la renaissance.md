@@ -35,7 +35,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- oeuvres > manuscrits rares et chers
 	- devenir accessible au public
 	- savants humanistes :
-		- Lefrevre d'Etaples
+		- Lefrèvre d'Etaples
 		- Guillaume Budé
 		- Erasme
 
