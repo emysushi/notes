@@ -16,7 +16,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 ---
 
 
-# 1 martin Luther
+# martin Luther
 
 mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au protestantisme
 
@@ -75,11 +75,13 @@ mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au pr
 	- réunit une grande assemblée : "concile de trente"
 
 - l'assemblée :
-	- 
+	- reformula la doctrine catholique
+	- publie un catéchisme > être enseignée > l'église catholique
 
-
-
-
+- 1540 :
+	- espagnol fonde la "compagnie de Jésus"
+	- adopte beaucoup d'idées humanisme
+	- créa > collège de niveau très élevé
 
 définition
 

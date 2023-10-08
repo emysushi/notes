@@ -22,15 +22,11 @@
             }
           },
           {
-            "id": "0112253b65ca3d61",
+            "id": "baa686704ae16434",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "manuel histoire/study_La Réforme.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -100,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manuel histoire/study_La Réforme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manuel histoire/study_La Réforme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "manuel histoire/study_La Réforme.md"
-              }
+              "state": {}
             }
           },
           {
@@ -196,7 +188,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "0112253b65ca3d61",
+  "active": "baa686704ae16434",
   "lastOpenFiles": [
     "manuel histoire/study_La Réforme.md",
     "manuel geo",
