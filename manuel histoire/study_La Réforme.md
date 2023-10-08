@@ -26,6 +26,7 @@ mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au pr
 	- famille : une femme et 6 enfants
 	- moine allemand >
 	- prit l'initiative > réforme
+
 - sa vie :
 	- opposé à certains aspects > doctrine catholique
 	- concernant > sacrements, Vierge Marie, Saints
@@ -49,7 +50,34 @@ mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au pr
 -  l'extension de la réforme :
 	- pays allemand adoptent la réforme
 	- Charles Quint reste catholique mais autorisa le protestantisme
-	- chaque états allemand > décider quelle
+	- chaque états allemand > décider quelle religion adopter
+	- mais devraient avoir la même religion que son prince
+
+- l'Allemagne se divisa en 2 ensemble d'état :
+	- catholique (Sud)
+	- protestant (Nord)
+
+- Jean Calvin :
+	- fonda une autre branche du protestantisme
+	- le calvinisme
+	- fut adoptées par beaucoup de chrétiens en : 
+	- France, Suisse, Allemagne, Hollande, Angleterre et Amérique
+
+# la contre réforme
+
+- l'église romaine :
+	- défiée > les protestants
+	- corriger les abus de ses richesses
+	- qu'elle employait > confort personnel de ses membres 
+	- mais plutôt > l'éducation de ses fidèles
+	- et > secours aux pauvres
+	- réaffirmer la foi catholique
+	- réunit une grande assemblée : "concile de trente"
+
+- l'assemblée :
+	- 
+
+
 
 
 
