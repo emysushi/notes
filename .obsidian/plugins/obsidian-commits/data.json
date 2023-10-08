@@ -174,36 +174,6 @@
       "tags": 0,
       "links": 0
     },
-    "Emc/study_Les droits de l'homme.md": {
-      "size": 2365,
-      "tags": 3,
-      "links": 0
-    },
-    "Emc/study_la pudeur.md": {
-      "size": 1829,
-      "tags": 3,
-      "links": 0
-    },
-    "Emc/study_la fraternité nationale.md": {
-      "size": 2210,
-      "tags": 3,
-      "links": 0
-    },
-    "Emc/study_Etat de droit.md": {
-      "size": 2961,
-      "tags": 0,
-      "links": 0
-    },
-    "Emc/study_citoyen et l'éléction.md": {
-      "size": 2807,
-      "tags": 3,
-      "links": 0
-    },
-    "Emc/study_bien et le mal.md": {
-      "size": 1346,
-      "tags": 9,
-      "links": 2
-    },
     "Dictionary_French.md": {
       "size": 314,
       "tags": 0,
@@ -303,13 +273,48 @@
       "size": 0,
       "tags": 3,
       "links": 0
+    },
+    "manuel Emc/study_bien et le mal.md": {
+      "size": 1346,
+      "tags": 9,
+      "links": 2
+    },
+    "manuel Emc/study_citoyen et l'éléction.md": {
+      "size": 2807,
+      "tags": 3,
+      "links": 0
+    },
+    "manuel Emc/study_Etat de droit.md": {
+      "size": 2961,
+      "tags": 0,
+      "links": 0
+    },
+    "manuel Emc/study_la fraternité nationale.md": {
+      "size": 2210,
+      "tags": 3,
+      "links": 0
+    },
+    "manuel Emc/study_Les droits de l'homme.md": {
+      "size": 2365,
+      "tags": 3,
+      "links": 0
+    },
+    "manuel Emc/study_la pudeur.md": {
+      "size": 1829,
+      "tags": 3,
+      "links": 0
+    },
+    "manuel histoire/study_La Réforme.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 2,
-      "Create": 4,
-      "Link": 2,
+      "Refactor": 9,
+      "Create": 5,
+      "Link": 3,
       "Expand": 0
     }
   },
@@ -330,7 +335,7 @@
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 0,
+      "15": 9,
       "16": 0,
       "17": 0,
       "18": 1,
@@ -349,7 +354,7 @@
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-      "Sun": 0
+      "Sun": 9
     }
   },
   "recentCommits": {
@@ -359,14 +364,23 @@
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"feed back/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03 1.md\"> revue_2023-10-03 1 </a>",
-        "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
-        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_bien et le mal.md\"> study_bien et le mal </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_citoyen et l'éléction.md\"> study_citoyen et l'éléction </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_Etat de droit.md\"> study_Etat de droit </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_la fraternité nationale.md\"> study_la fraternité nationale </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_Les droits de l'homme.md\"> study_Les droits de l'homme </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_la pudeur.md\"> study_la pudeur </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>"
       ],
       "Tagged": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03.md\"> revue_2023-10-03 </a>",
-        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-04.md\"> revue_2023-10-04 </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-04.md\"> revue_2023-10-04 </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>"
       ],
       "Refactored": [],
       "Deleted": [

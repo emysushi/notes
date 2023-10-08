@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "0112253b65ca3d61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "manuel histoire/study_La Réforme.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -71,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b04988d5c17efa9d",
@@ -88,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "manuel histoire/study_La Réforme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "manuel histoire/study_La Réforme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "manuel histoire/study_La Réforme.md"
               }
             }
           },
@@ -161,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 649.5
+    "width": 649.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,8 +196,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "48b754349359f515",
+  "active": "0112253b65ca3d61",
   "lastOpenFiles": [
+    "manuel histoire/study_La Réforme.md",
+    "manuel geo",
+    "manuel histoire",
+    "feed back/lesson_Maths.md",
+    "Home.md",
     "RevueParent/revue_2023-10-03.md",
     "RevueParent/revue_2023-10-02.md",
     "RevueParent/revue_2023-10-01.md",
@@ -195,11 +213,9 @@
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
     "Svt/lesson_les risques.md",
-    "feed back/lesson_Maths.md",
     "feed back",
     "Banner/biblio.jpeg",
-    "Home.md",
     "Histoire-Geographie/feedback_2023-04-17.md",
-    "Emc/study_bien et le mal.md"
+    "manuel Emc/study_bien et le mal.md"
   ]
 }
