@@ -32,6 +32,17 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- elle se répandit > toute l'Europe
 	- (France, Allemagne, Pays-Bas, Angleterre)
 	- 1450 : invention de l'imprimerie
+	- oeuvres > manuscrits rares et chers
+	- devenir accessible au public
+	- savants humanistes :
+		- Lefrevre d'Etaples
+		- Guillaume Budé
+		- Erasme
+
+# poésie et littérature
+
+- poètes et écrivains :
+	- Tasse = "Jérusalem délivrée"
 	- 
 
 ## 1.2	Liens
