@@ -305,7 +305,7 @@
       "links": 0
     },
     "manuel histoire/study_La Réforme.md": {
-      "size": 0,
+      "size": 2103,
       "tags": 3,
       "links": 0
     }
@@ -315,7 +315,7 @@
       "Refactor": 9,
       "Create": 5,
       "Link": 3,
-      "Expand": 0
+      "Expand": 1
     }
   },
   "dailyCommits": {
@@ -337,7 +337,7 @@
       "14": 0,
       "15": 9,
       "16": 0,
-      "17": 0,
+      "17": 1,
       "18": 1,
       "19": 0,
       "20": 3,
@@ -354,12 +354,14 @@
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-      "Sun": 9
+      "Sun": 10
     }
   },
   "recentCommits": {
     "/": {
-      "Expanded": [],
+      "Expanded": [
+        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>"
+      ],
       "Created": [
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"feed back/Untitled.md\"> Untitled </a>",
