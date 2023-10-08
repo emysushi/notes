@@ -16,19 +16,33 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 ---
 
 
-# 1	la réforme
+# 1 martin Luther
 
 mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au protestantisme
 
 - martin Luther :
 	- né : 10 novembre 1483
-	- mort :
-	- moine allemand > prit l'initiative > réforme
+	- mort : 18 février1546
+	- famille : une femme et 6 enfants
+	- moine allemand >
+	- prit l'initiative > réforme
+- sa vie :
 	- opposé à certains aspects > doctrine catholique
 	- concernant > sacrements, Vierge Marie, Saints
 	- pensait que les vérités de la foi > trouvées que dans la bible
 	- mis en accusation devant l'empereur Charles Quint
 	- mais ne se laissa pas faire
+
+# l'église protestante
+
+- L'église protestante :
+	- au départ > voulait modifier l'église catholique
+	- elle refusa
+	- alors il créa une église indépendante
+	- redirigea un nouveau catéchisme "confession de foi d'Augsbourg"
+	- 2 sacrements au lieu de 7 (baptême et la communion)
+	- 
+
 
 
 définition
