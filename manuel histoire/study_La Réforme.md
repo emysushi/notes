@@ -24,7 +24,8 @@ mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au pr
 	- né : 10 novembre 1483
 	- mort : 18 février1546
 	- famille : une femme et 6 enfants
-	- moine allemand >
+	- moine allemand 
+	- prof de théologie
 	- prit l'initiative > réforme
 
 - sa vie :
@@ -58,8 +59,10 @@ mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au pr
 	- protestant (Nord)
 
 - Jean Calvin :
+	- juriste
 	- fonda une autre branche du protestantisme
-	- le calvinisme
+	- le "calvinisme"
+	- fuit > Suisse
 	- fut adoptées par beaucoup de chrétiens en : 
 	- France, Suisse, Allemagne, Hollande, Angleterre et Amérique
 
