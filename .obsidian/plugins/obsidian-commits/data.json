@@ -321,6 +321,11 @@
     },
     "manuel Emc/study_la responsabilité.md": {
       "size": 0,
+      "tags": 3,
+      "links": 0
+    },
+    "manuel geo/Untitled.md": {
+      "size": 0,
       "tags": 0,
       "links": 0
     }
@@ -328,8 +333,8 @@
   "commitTypes": {
     "/": {
       "Refactor": 10,
-      "Create": 8,
-      "Link": 6,
+      "Create": 9,
+      "Link": 7,
       "Expand": 3
     }
   },
@@ -356,7 +361,7 @@
       "18": 1,
       "19": 0,
       "20": 3,
-      "21": 9,
+      "21": 11,
       "22": 0,
       "23": 0
     }
@@ -369,7 +374,7 @@
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
-      "Sun": 19
+      "Sun": 21
     }
   },
   "recentCommits": {
@@ -387,7 +392,8 @@
         "<a class=\"internal-link\" href=\"manuel histoire/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"manuel geo/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
@@ -406,7 +412,8 @@
         "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_la renaissance.md\"> study_la renaissance </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>",
-        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>"
       ],
       "Refactored": [],
       "Deleted": [

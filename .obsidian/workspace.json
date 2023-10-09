@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "db3f95cabad137c6",
+        "id": "7b7ca107017f2d88",
         "type": "tabs",
         "children": [
           {
-            "id": "48b754349359f515",
+            "id": "55237c2da451318a",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,17 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "470177068ef9cdd5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -161,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -187,9 +182,9 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "da16a823f16323a0",
+  "active": "55237c2da451318a",
   "lastOpenFiles": [
-    "manuel geo/Untitled.md",
+    "manuel geo/study_null.md",
     "manuel Emc/study_la responsabilité.md",
     "manuel Emc/study_bien et le mal.md",
     "manuel Emc/study_Les droits de l'homme.md",
