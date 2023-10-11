@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,7 +196,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d62046fb2ea40b43",
+  "active": "4c55722a607e8c32",
   "lastOpenFiles": [
     "RevueParent/revue_2023-10-08.md",
     "RevueParent/revue_2023-10-11.md",
