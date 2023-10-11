@@ -333,13 +333,18 @@
       "size": 1080,
       "tags": 3,
       "links": 0
+    },
+    "RevueParent/revue_2023-10-11.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 10,
-      "Create": 10,
-      "Link": 8,
+      "Create": 11,
+      "Link": 9,
       "Expand": 3
     }
   },
@@ -365,7 +370,7 @@
       "17": 5,
       "18": 1,
       "19": 0,
-      "20": 5,
+      "20": 7,
       "21": 11,
       "22": 0,
       "23": 0
@@ -375,7 +380,7 @@
     "/": {
       "Mon": 2,
       "Tue": 3,
-      "Wed": 5,
+      "Wed": 7,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -399,7 +404,8 @@
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"manuel geo/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"manuel geo/study_null.md\"> study_null </a>"
+        "<a class=\"internal-link\" href=\"manuel geo/study_null.md\"> study_null </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
@@ -420,7 +426,8 @@
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>",
         "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>",
-        "<a class=\"internal-link\" href=\"manuel geo/study_null.md\"> study_null </a>"
+        "<a class=\"internal-link\" href=\"manuel geo/study_null.md\"> study_null </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>"
       ],
       "Refactored": [],
       "Deleted": [
