@@ -336,7 +336,7 @@
     },
     "RevueParent/revue_2023-10-11.md": {
       "size": 0,
-      "tags": 7,
+      "tags": 8,
       "links": 0
     }
   },
@@ -344,7 +344,7 @@
     "/": {
       "Refactor": 10,
       "Create": 11,
-      "Link": 11,
+      "Link": 12,
       "Expand": 3
     }
   },
@@ -371,7 +371,7 @@
       "18": 1,
       "19": 0,
       "20": 9,
-      "21": 11,
+      "21": 12,
       "22": 0,
       "23": 0
     }
@@ -380,7 +380,7 @@
     "/": {
       "Mon": 2,
       "Tue": 3,
-      "Wed": 9,
+      "Wed": 10,
       "Thu": 0,
       "Fri": 0,
       "Sat": 0,
@@ -427,6 +427,7 @@
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-08.md\"> revue_2023-10-08 </a>",
         "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>",
         "<a class=\"internal-link\" href=\"manuel geo/study_null.md\"> study_null </a>",
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>"
