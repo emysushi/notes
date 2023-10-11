@@ -170,11 +170,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 434.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +196,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4c55722a607e8c32",
+  "active": "d62046fb2ea40b43",
   "lastOpenFiles": [
     "RevueParent/revue_2023-10-08.md",
     "RevueParent/revue_2023-10-11.md",
