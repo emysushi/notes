@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3617ed5cd6263dc6",
+        "id": "cf6880514370e0cb",
         "type": "tabs",
         "children": [
           {
-            "id": "403db9650a66dda0",
+            "id": "ee9735a202bff67f",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "a513882024459163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RevueParent/revue_2023-10-12.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RevueParent/revue_2023-10-12.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "RevueParent/revue_2023-10-12.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RevueParent/revue_2023-10-12.md"
+                "file": "Home.md"
               }
             }
           },
@@ -169,7 +156,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -195,7 +182,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "a513882024459163",
+  "active": "ee9735a202bff67f",
   "lastOpenFiles": [
     "RevueParent/revue_2023-10-11.md",
     "RevueParent/revue_2023-10-12.md",
