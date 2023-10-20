@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ee9735a202bff67f",
+            "id": "dd07de53aabad8b1",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -19,6 +19,16 @@
                 "source": false
               },
               "pinned": true
+            }
+          },
+          {
+            "id": "70b786e399b64d36",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
             }
           }
         ]
@@ -182,11 +192,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ee9735a202bff67f",
+  "active": "dd07de53aabad8b1",
   "lastOpenFiles": [
+    "manuel histoire/study_La Réforme.md",
+    "Home.md",
     "RevueParent/revue_2023-10-11.md",
     "RevueParent/revue_2023-10-12.md",
-    "Home.md",
     "RevueParent/revue_2023-10-08.md",
     "RevueParent/revue_2023-10-04.md",
     "RevueParent/revue_2023-10-03.md",
@@ -199,7 +210,6 @@
     "manuel Emc/study_Etat de droit.md",
     "manuel Emc/study_citoyen et l'éléction.md",
     "manuel Emc/study_la fraternité nationale.md",
-    "manuel histoire/study_La Réforme.md",
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "manuel histoire/study_la renaissance.md",
     "manuel geo",
