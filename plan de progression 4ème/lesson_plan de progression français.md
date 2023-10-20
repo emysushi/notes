@@ -71,8 +71,8 @@
 
 - temps :
 	- faire des Pomodoro
-	- trello
-	- planning
+	- faire trello
+	- faire un planning
 
 - organisation :
 	- organiser mon plan de travail avant de commencer
