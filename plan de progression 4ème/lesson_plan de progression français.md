@@ -18,7 +18,16 @@
 ## 1.1	Contexte
 ---
 
+- contrôle : 
+	- classe grammaticale
+	- dictée
 
+
+- note obtenue : 
+	- 12.5/20
+- note voulue :
+	- 16/20
+- 
 
 ## 1.2	Observations
 ---
