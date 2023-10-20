@@ -45,7 +45,7 @@
 	- regarder des videos
 	- sur cafeyn
 	- sur arte
-	- qur des docments
+	- sur des documents
 
 - lire :
 	- emprunter des livres à la bibliothèque
