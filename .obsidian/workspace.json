@@ -22,29 +22,15 @@
             }
           },
           {
-            "id": "70b786e399b64d36",
+            "id": "651785a58bb92114",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
-          },
-          {
-            "id": "d1935110770f60d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "plan de progression 4ème/lesson_plan de progression français.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "plan de progression 4ème/lesson_plan de progression français.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +112,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "plan de progression 4ème/lesson_plan de progression français.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +133,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "plan de progression 4ème/lesson_plan de progression français.md"
-              }
+              "state": {}
             }
           },
           {
@@ -206,12 +188,12 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "d1935110770f60d1",
+  "active": "651785a58bb92114",
   "lastOpenFiles": [
+    "Home.md",
     "plan de progression 4ème/lesson_plan de progression français.md",
     "plan de progression 4ème",
     "Template/Untitled",
-    "Home.md",
     "manuel histoire/study_La Réforme.md",
     "RevueParent/revue_2023-10-11.md",
     "RevueParent/revue_2023-10-12.md",
