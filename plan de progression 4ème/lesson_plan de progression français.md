@@ -17,7 +17,7 @@
 
 ## 1.1	Contexte
 ---
-rien
+
 
 
 ## 1.2	Observations
@@ -25,41 +25,13 @@ rien
 
 
 
-
-
-
-
-
-
-
-```chartsview
-#-----------------#
-#- chart type    -#
-#-----------------#
-type: Radar
-
-#-----------------#
-#- chart data    -#
-#-----------------#
-data:
-  - label: A
-    value: 2
-  - label: B
-    value: 5
-  - label: " C"
-    value: 3
-
-#-----------------#
-#- chart options -#
-#-----------------#
-options:
-  xField: label
-  yField: value
-```
-
-
-
-## 1.3	Axes ameliorations
+## 1.3	Axes amelioration
 ---
+
+
+
+## 1.4  	organisation personnelle
+---
+
 
 
