@@ -40,7 +40,22 @@
 ## 1.3	Axes amelioration
 ---
 
-- comprendre et s'exprime
+- comprendre et s'exprimer à l'oral :
+	- faire des exposés
+
+- lire :
+	- emprunter des livres à la bibliothèque
+	- lire les manuels
+
+- écrire :
+	- enrichir son vocabulaire
+
+- exercices :
+	- 
+
+
+
+
 
 ## 1.4  	organisation personnelle
 ---
