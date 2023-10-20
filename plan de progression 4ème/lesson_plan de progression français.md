@@ -42,10 +42,12 @@
 
 - comprendre et s'exprimer à l'oral :
 	- faire des exposés
+	- regarder des videos
 
 - lire :
 	- emprunter des livres à la bibliothèque
 	- lire les manuels
+	- becherelle
 
 - écrire :
 	- enrichir son vocabulaire, grammaire, orthographe
@@ -54,7 +56,9 @@
 	- mémoriser
 
 - exercices :
+	- sur google
 	- sur le thème étudier
+	- dans les cahiers de 4ème
 
 
 
@@ -64,7 +68,9 @@
 
 - temps :
 	- faire des Pomodoro
-	- 
+	- trello
+	- planning
 
 - organisation :
+	- organiser mon plan de travail avant de commencer
 	- 
