@@ -54,7 +54,7 @@
 	- mémoriser
 
 - exercices :
-	- 
+	- sur le thème étudier
 
 
 
@@ -62,6 +62,9 @@
 ## 1.4  	organisation personnelle
 ---
 
+- temps :
+	- faire des Pomodoro
+	- 
 
-
-
+- organisation :
+	- 
