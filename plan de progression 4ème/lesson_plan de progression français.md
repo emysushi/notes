@@ -40,7 +40,7 @@
 ## 1.3	Axes amelioration
 ---
 
-
+- comprendre et s'exprime
 
 ## 1.4  	organisation personnelle
 ---
