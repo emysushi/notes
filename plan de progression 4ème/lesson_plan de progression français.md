@@ -48,11 +48,13 @@
 	- lire les manuels
 
 - écrire :
-	- enrichir son vocabulaire
+	- enrichir son vocabulaire, grammaire, orthographe
+	- faire des dictées
+	- faire des fiches
+	- mémoriser
 
 - exercices :
 	- 
-
 
 
 
