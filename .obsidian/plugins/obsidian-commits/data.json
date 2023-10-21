@@ -352,8 +352,8 @@
   },
   "commitTypes": {
     "/": {
-      "Refactor": 10,
-      "Create": 13,
+      "Refactor": 11,
+      "Create": 14,
       "Link": 14,
       "Expand": 3
     }
@@ -375,7 +375,7 @@
       "12": 0,
       "13": 0,
       "14": 0,
-      "15": 9,
+      "15": 11,
       "16": 0,
       "17": 5,
       "18": 1,
@@ -394,7 +394,7 @@
       "Thu": 3,
       "Fri": 1,
       "Sat": 0,
-      "Sun": 21
+      "Sun": 23
     }
   },
   "recentCommits": {
@@ -417,7 +417,8 @@
         "<a class=\"internal-link\" href=\"manuel geo/study_null.md\"> study_null </a>",
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"plan de progression 4ème/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"plan de progression 4ème/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
@@ -448,7 +449,8 @@
       ],
       "Refactored": [],
       "Deleted": [
-        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03 1.md\"> revue_2023-10-03 1 </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03 1.md\"> revue_2023-10-03 1 </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>"
       ],
       "Linked": [],
       "Removed Tags from": [],

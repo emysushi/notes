@@ -22,11 +22,15 @@
             }
           },
           {
-            "id": "651785a58bb92114",
+            "id": "eb1a9a0aaf1e13e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "manuel Emc/study_la responsabilité.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -96,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "manuel Emc/study_la responsabilité.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "manuel Emc/study_la responsabilité.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +139,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "manuel Emc/study_la responsabilité.md"
+              }
             }
           },
           {
@@ -188,8 +196,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "651785a58bb92114",
+  "active": "eb1a9a0aaf1e13e3",
   "lastOpenFiles": [
+    "manuel Emc/Untitled.md",
+    "Anglais/lesson_feelings.md",
     "Home.md",
     "plan de progression 4ème/lesson_plan de progression français.md",
     "plan de progression 4ème",
@@ -214,13 +224,11 @@
     "manuel geo",
     "manuel histoire",
     "feed back/lesson_Maths.md",
-    "Anglais/lesson_feelings.md",
     "RevueParent/revue_2023-10-03 1.md",
     "Anglais/Les Ecrants et les Routines.md",
     "Physique-Chimie/lesson_le circuit électrique.md",
     "Svt/lesson_les risques.md",
     "feed back",
-    "Banner/biblio.jpeg",
-    "Histoire-Geographie/feedback_2023-04-17.md"
+    "Banner/biblio.jpeg"
   ]
 }
