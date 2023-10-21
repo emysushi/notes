@@ -17,21 +17,12 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 # 1 la responsabilité
 
-- 
+- définition :
+	- Obligation ou nécessité morale > répondre / porter garant de
+	- ses actions ou de celles des autres
 
 
 
-
-
-
-
-## 1.2	Liens
----
-
-Note :  Noter les liens interessant se rapportant au sujet
-
-- liens1
-- liens2
 
 
 
