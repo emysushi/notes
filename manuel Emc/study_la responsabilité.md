@@ -28,7 +28,8 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- si vous faites des choses dangereuses
 		- vous courez des risques pour vous et autrui 
 		- dont vous êtes responsable
-	- celui qui prend une charge 
+	- celui qui prend une charge devra ensuite l'assumé jusqu'au bout
+	- 
 
 - c
 
