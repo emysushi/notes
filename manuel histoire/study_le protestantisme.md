@@ -16,43 +16,39 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 ---
 
 
+
+
+
 # 1 introduction
 
 
-- issue > mouvement de la réforme
-- les églises protestantes prônent > foi simple axée sur dieu et la bible
-- attachées > leur liberté de penser et agir
-- ne reconnaissent pas d'autorité centrale et se divisent en courants différents
+- issue > **réforme** 
+- **principe**:
+	- christianisme épuré
+	- condamnent  indulgences 
+	- salut gratuit > seule la foi sauve
+	-  rejettent culte > vierge marie / saints
+	- nient rôle des prêtres
+	- accès libre / direct > bible (guide) = multiples interpretations possible
+	- ne reconnaissent pas d'autorité centrale 
 
-# l'essentiel
+# sacrements
 
-- **les protestants**:
-	- militent > christianisme épuré
-	- condamnent > indulgences et oeuvres
-	- affirment que le salut est gratuit et que seule la foi sauve
-	- croient en la trinité divine
-	- rejettent le culte > vierge marie et des saints
-	- nient le rôle des prêtres
-	- préconisent un accès libre et direct > bible (guide)
-	- encouragent sa traduction > multiplication des interpretations
 
-# les 2 sacrements
-
-- **ils célèbrent**:
-	- le baptême* :
-		- Sacrement à la naissance
-		- marquant l'entrée > l'Eglise catholique.
-	- l'eucharistie* :
-		- Sacrement du christianisme 
-		- commémore et perpétue de sacrifice du Christ
-	- ne croient pas > transformation du pain et du vin (corps et sang du Christ)
+- **baptême 
+	- Sacrement à la naissance
+	- marquant l'entrée > l'Eglise catholique.
+- **l'eucharistie
+	- Sacrement > christianisme 
+	- commémore et perpétue de sacrifice du Christ
+- ne croient pas > transformation du pain / vin (corps et sang du Christ)
 
 # le temple
 
-- **les fidèles**:
-	- se réunissent > temple* :
+- **les fidèles
+	- se réunissent > temple:
 		- (Édifice consacré > culte d'une divinité dépouillé sans ornement)
-	- n'aiment pas les images pieuses* :
+	- n'aiment pas les images pieuses:
 		- (tradition catholique > petites images de dévotion > fidèles)
 	- la chaire* :
 		- (Estrade d'où le pasteur lit la bible et sa prédication)
@@ -61,9 +57,9 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 - **les protestants insistent**:
 	- sacerdoce universel :
-		- (principe religieux chrétien affirme l'égalité > les baptisés )
+		- (principe religieux chrétien > affirme l'égalité des baptisés)
 	- disent que tous les baptisés sont des prêtres
-	- pasteur est chargé de diriger > cérémonies et d'instruire les fidèles
+	- pasteur chargé de diriger > cérémonies / d'instruire les fidèles
 
 - **le pasteur**:
 	- féminin ou masculin
@@ -76,12 +72,16 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # les églises évangéliques
 
 - **la réforme**:
-	- conduit un certain nombre de protestants radicaux >
-	- vers l'évangélisme* :
-		- (doctrine basée > 
-		- foi personnelle, baptême volontaire, lecture bible, l'engagement militant )
+	- conduit un certain nombre de protestants radicaux > vers l'évangélisme* :
+	- (doctrine basée)* :
+		- foi personnelle,
+		- baptême volontaire, 
+		- lecture bible, 
+		- participation > action collective)
+	- les mennonites sont anabaptistes* :
+		- rebaptisent > adultes ayant reçu > sacrement dans l'enfance
+	- refusent l'usage de la force et se tiennent à l'écart 
 	- 
-
 
 
 
