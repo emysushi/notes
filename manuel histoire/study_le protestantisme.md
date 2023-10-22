@@ -64,7 +64,18 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- (principe religieux chrétien affirme l'égalité > les baptisés )
 	- disent que tous les baptisés sont des prêtres
 	- pasteur est chargé de diriger > cérémonies et d'instruire les fidèles
-	- 
+
+- **le pasteur**:
+	- féminin ou masculin
+	- célibataire ou marié
+	- n'appartient pas au clergé hiérarchisé
+	- ex :
+		- martin Luther king 
+		- (pasteur baptiste américain)
+
+# les églises mères
+
+- 
 
 
 
