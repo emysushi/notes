@@ -16,7 +16,17 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 ---
 
 
-
+> [!NOTE] Resume
+> - les 1er protestants = huguenots
+> -  issue > **réforme** 
+> - principe
+> 	- christianisme épuré
+> 	- condamnent  indulgences 
+> 	- salut gratuit > seule la foi sauve
+> 	-  rejettent culte > vierge marie / saints
+> 	- nient rôle des prêtres
+> 	- accès libre / direct > bible (guide) = multiples interpretations possible
+> 	- ne reconnaissent pas d'autorité centrale 
 
 
 # 1 introduction
@@ -69,7 +79,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- martin Luther king 
 		- (pasteur baptiste américain)
 
-# les églises évangéliques
+# églises évangéliques
 
 - **la réforme**:
 	- conduit un certain nombre de protestants radicaux > vers l'évangélisme* :
@@ -77,12 +87,15 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 		- foi personnelle,
 		- baptême volontaire, 
 		- lecture bible, 
-		- participation > action collective)
-	- les mennonites sont anabaptistes* :
+		- participation > action collective
+	- les mennonites sont anabaptistes :
 		- rebaptisent > adultes ayant reçu > sacrement dans l'enfance
 	- refusent l'usage de la force et se tiennent à l'écart 
-	- 
 
+# église anglicane
+
+- Henri VIII romp > pape (1534) qui refuse, et prend la tête de l'église anglaise
+- église anglicane = 50 % catholique 50% protestant
 
 
 

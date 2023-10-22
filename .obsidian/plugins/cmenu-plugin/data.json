@@ -81,6 +81,11 @@
       "id": "obsidian-git:push2",
       "name": "Obsidian Git: Push",
       "icon": "navigate-glyph"
+    },
+    {
+      "id": "editor:insert-callout",
+      "name": "Insert callout",
+      "icon": "lucide-quote"
     }
   ],
   "appendMethod": "workspace",
