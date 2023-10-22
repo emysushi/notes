@@ -261,8 +261,8 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 - Atelier
 	- situés au rez de chaussé
 	- habitation à l'étage
-	- echoppes ouvertent sur la rue
-	- les ouvriers travaillent devant le client (reglement de fabrication = evite la malfacon)
+	- échoppes ouvertent sur la rue
+	- les ouvriers travaillent devant le client (reglement de fabrication = évite la malfacon)
 	- travail sur mesure (tailleur, gantier, cordonnier)
 - tensions sociales existantes
 	- grèves
