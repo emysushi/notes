@@ -34,10 +34,10 @@
             }
           },
           {
-            "id": "83f8fca75e6ad21d",
+            "id": "05a7b554aeef71d6",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:",
+                "query": "tag:#ignace_de_loyola",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,7 +201,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "83f8fca75e6ad21d",
+  "active": "05a7b554aeef71d6",
   "lastOpenFiles": [
     "manuel histoire/study_La Réforme.md",
     "manuel histoire/study_le protestantisme.md",

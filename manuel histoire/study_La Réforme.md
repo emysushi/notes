@@ -21,9 +21,18 @@ tags:
 ---
 
 
+> [!NOTE] resume
+> - mouvement religieux qui s'opposa > l'église catholique (1520) 
+> - aboutit au #protestantisme 
+> - #martin_luther , #jean_calvin , #charles_quint
+> - concile de trente (italie)
+> - compagnie de jesus crée > #ignace_de_loyola (1540) > #jesuites 
+> - 
+
+
 # martin Luther
 
-mouvement religieux qui s'opposa à l'église catholique en 1520 > aboutit au protestantisme
+mouvement religieux qui s'opposa à l'église catholique (1520) > aboutit au protestantisme
 
 - martin Luther :
 	- né : 10 novembre 1483

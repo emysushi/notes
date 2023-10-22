@@ -155,7 +155,14 @@
     "huguenot": 149,
     "reforme": 150,
     "martin_luther": 151,
-    "jean_calvin": 152
+    "jean_calvin": 152,
+    "lu": 153,
+    "Charles-quint": 154,
+    "charles_quint": 155,
+    "ignace": 156,
+    "ignace_de_": 157,
+    "ignace_de_loyola": 158,
+    "jesuites": 159
   },
   "_version": 2
 }
