@@ -206,7 +206,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- réservoir de nourriture pour les paysans (lapins, perdrix, glands, noisettes, champignons
 	- charbons
 
-### 1.6.2	Se nourrir
+### 1.6.2 Se nourrir
 
 - partout en Europe, les fêtes paysannes célèbrent la terre nourricière:
 - Famines 
