@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.505859375
+    "width": 365.505859375,
+    "collapsed": true
   },
   "right": {
     "id": "b04988d5c17efa9d",
@@ -208,7 +209,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c32b5e8e5fefc959",
+  "active": "4312cf0f13781aa4",
   "lastOpenFiles": [
     "manuel histoire/study_le protestantisme.md",
     "manuel histoire/study_La Réforme.md",

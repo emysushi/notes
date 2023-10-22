@@ -76,7 +76,8 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # les églises évangéliques
 
 - **la réforme**:
-	- conduit un certain nombre de protestants radicaux > l'évangéli
+	- conduit un certain nombre de protestants radicaux > l'évangélisme
+	- 
 
 
 
