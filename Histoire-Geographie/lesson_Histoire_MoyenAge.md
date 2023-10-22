@@ -27,8 +27,8 @@ La civilisation médiévale se définit par quatre caractéristiques majeures :
 
 ## 1.2	FEODALITE
 ---
-Vers 1000 av                                                                                                                                                                                                                               
-iiu JC, les châteaux forts apparaissent contrer les invasions barbares (viking, arabes) :
+Vers 1000 av                                                                                                                                                                                                        
+JC, les châteaux forts apparaissent contrer les invasions barbares (viking, arabes) :
 
 - **affaiblissement du pouvoir royal**
 	- frontières peu définies, 
