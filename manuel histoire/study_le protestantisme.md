@@ -63,7 +63,8 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- sacerdoce universel :
 		- (principe religieux chrétien affirme l'égalité > les baptisés )
 	- disent que tous les baptisés sont des prêtres
-	- pasteur > chargé de diriger 
+	- pasteur est chargé de diriger > cérémonies et d'instruire les fidèles
+	- 
 
 
 
