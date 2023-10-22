@@ -150,7 +150,12 @@
     "manuel": 144,
     "Mathe": 145,
     "Mathematique": 146,
-    "s": 147
+    "s": 147,
+    "protestantisme": 148,
+    "huguenot": 149,
+    "reforme": 150,
+    "martin_luther": 151,
+    "jean_calvin": 152
   },
   "_version": 2
 }

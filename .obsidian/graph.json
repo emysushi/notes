@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#college_5",
+  "search": "tag:#martin_luther  ",
   "showTags": true,
   "showAttachments": true,
   "hideUnresolved": true,
@@ -17,6 +17,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.38305939400966593,
-  "close": true
+  "scale": 0.9097613237645499,
+  "close": false
 }

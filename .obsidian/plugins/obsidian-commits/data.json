@@ -351,7 +351,7 @@
     },
     "manuel histoire/study_le protestantisme.md": {
       "size": 2989,
-      "tags": 3,
+      "tags": 4,
       "links": 0
     }
   },
@@ -359,7 +359,7 @@
     "/": {
       "Refactor": 11,
       "Create": 15,
-      "Link": 15,
+      "Link": 16,
       "Expand": 6
     }
   },
@@ -384,7 +384,7 @@
       "16": 2,
       "17": 7,
       "18": 2,
-      "19": 0,
+      "19": 1,
       "20": 12,
       "21": 12,
       "22": 0,
@@ -399,7 +399,7 @@
       "Thu": 3,
       "Fri": 1,
       "Sat": 0,
-      "Sun": 28
+      "Sun": 29
     }
   },
   "recentCommits": {
@@ -455,6 +455,7 @@
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-12.md\"> revue_2023-10-12 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>"
       ],
       "Refactored": [],
