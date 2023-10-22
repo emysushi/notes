@@ -189,7 +189,7 @@ La féodalité diffère selon les régions (dans le sud de la France, nombreux c
 	- les villages sont crées dans les clairières protégés par des haies
 - Agriculture
 	- **Cycle des cultures (tous les 3 ans):**
-		- 1/3 : sol au repos ( jachere)
+		- 1/3 : sol au repos ( jachère)
 		- 1/3 : semis blés (octobre), 
 		- 1/3 : semis avoine/orge (printemps) : récolte + rapide
 	- moisson (faux, faucille, fléau) : la paille nourrie le bétail
