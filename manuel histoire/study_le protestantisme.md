@@ -19,8 +19,29 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # 1 introduction
 
 
-- issue du mouvement de la réforme
-- les églises protestantes prônent une foi simple
+- issue > mouvement de la réforme
+- les églises protestantes prônent > foi simple axée sur dieu et la bible
+- attachées > leur liberté de penser et agir
+- ne reconnaissent pas d'autorité centrale et se divisent en courants différents
+
+# l'essentiel
+
+- **les protestants**:
+	- militent > christianisme épuré
+	- condamnent > indulgences et oeuvres
+	- affirment que le salut est gratuit et que seule la foi sauve
+	- croient en la trinité divine
+	- rejettent le culte > vierge marie et des saints
+	- nient le rôle des prêtres
+	- préconisent un accès libre et direct > bible (guide)
+	- encouragent sa traduction > multiplication des interpretations
+
+# les 2 sacrements
+
+- **ils célèbrent**:
+	- le baptême et l'eucharistie
+	- ne croient pas > transformation du pain et du vin (corps et sang du Christ)
+	- 
 
 
 
