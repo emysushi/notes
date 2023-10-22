@@ -348,13 +348,18 @@
       "size": 0,
       "tags": 0,
       "links": 0
+    },
+    "manuel histoire/study_le protestantisme.md": {
+      "size": 0,
+      "tags": 3,
+      "links": 0
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 11,
-      "Create": 14,
-      "Link": 14,
+      "Create": 15,
+      "Link": 15,
       "Expand": 3
     }
   },
@@ -376,7 +381,7 @@
       "13": 0,
       "14": 0,
       "15": 11,
-      "16": 0,
+      "16": 2,
       "17": 5,
       "18": 1,
       "19": 0,
@@ -394,7 +399,7 @@
       "Thu": 3,
       "Fri": 1,
       "Sat": 0,
-      "Sun": 23
+      "Sun": 25
     }
   },
   "recentCommits": {
@@ -418,7 +423,8 @@
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"plan de progression 4ème/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
@@ -445,7 +451,8 @@
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-12.md\"> revue_2023-10-12 </a>",
-        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>"
+        "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-11.md\"> revue_2023-10-11 </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>"
       ],
       "Refactored": [],
       "Deleted": [

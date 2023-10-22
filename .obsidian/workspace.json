@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "ae7a0f475a91bbb8",
+            "id": "c32b5e8e5fefc959",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
+                "file": "manuel histoire/study_le protestantisme.md",
                 "mode": "source",
                 "source": false
               }
@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#grandes_decouvertes",
+                "query": "path:",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +92,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
+                "file": "manuel histoire/study_le protestantisme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
+                "file": "manuel histoire/study_le protestantisme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Histoire-Geographie/lesson_Histoire_MoyenAge.md"
+                "file": "manuel histoire/study_le protestantisme.md"
               }
             }
           },
@@ -209,11 +208,13 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "4c55722a607e8c32",
+  "active": "c32b5e8e5fefc959",
   "lastOpenFiles": [
+    "manuel histoire/study_le protestantisme.md",
     "manuel histoire/study_La Réforme.md",
     "manuel histoire/study_la renaissance.md",
     "manuel Emc/study_la responsabilité.md",
+    "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "manuel Emc/Untitled.md",
     "Anglais/lesson_feelings.md",
     "Home.md",
@@ -239,8 +240,6 @@
     "feed back/lesson_Maths.md",
     "RevueParent/revue_2023-10-03 1.md",
     "Anglais/Les Ecrants et les Routines.md",
-    "Physique-Chimie/lesson_le circuit électrique.md",
-    "Svt/lesson_les risques.md",
     "feed back",
     "Banner/biblio.jpeg"
   ]
