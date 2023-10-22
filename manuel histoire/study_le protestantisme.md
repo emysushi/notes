@@ -39,9 +39,27 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 # les 2 sacrements
 
 - **ils célèbrent**:
-	- le baptême et l'eucharistie
+	- le baptême* :
+		- Sacrement à la naissance
+		- marquant l'entrée > l'Eglise catholique.
+	- l'eucharistie* :
+		- Sacrement du christianisme 
+		- commémore et perpétue de sacrifice du Christ
 	- ne croient pas > transformation du pain et du vin (corps et sang du Christ)
-	- 
+
+# le temple
+
+- **les fidèles**:
+	- se réunissent > temple* :
+		- (Édifice consacré > culte d'une divinité dépouillé sans ornement)
+	- n'aiment pas les images pieuses* :
+		- (tradition catholique > petites images de dévotion > fidèles)
+	- la chaire* :
+		- (Estrade d'où le pasteur lit la bible et sa prédication)
+
+# le pasteur
+
+- 
 
 
 

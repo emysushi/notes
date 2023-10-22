@@ -350,7 +350,7 @@
       "links": 0
     },
     "manuel histoire/study_le protestantisme.md": {
-      "size": 0,
+      "size": 2106,
       "tags": 3,
       "links": 0
     }
@@ -360,7 +360,7 @@
       "Refactor": 11,
       "Create": 15,
       "Link": 15,
-      "Expand": 3
+      "Expand": 4
     }
   },
   "dailyCommits": {
@@ -382,7 +382,7 @@
       "14": 0,
       "15": 11,
       "16": 2,
-      "17": 5,
+      "17": 6,
       "18": 1,
       "19": 0,
       "20": 12,
@@ -399,7 +399,7 @@
       "Thu": 3,
       "Fri": 1,
       "Sat": 0,
-      "Sun": 25
+      "Sun": 26
     }
   },
   "recentCommits": {
@@ -407,7 +407,8 @@
       "Expanded": [
         "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
-        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>"
+        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
