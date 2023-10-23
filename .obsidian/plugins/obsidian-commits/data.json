@@ -360,7 +360,7 @@
       "links": 0
     },
     "manuel histoire/study_histoire de l'union européenne.md": {
-      "size": 0,
+      "size": 2355,
       "tags": 3,
       "links": 0
     }
@@ -370,7 +370,7 @@
       "Refactor": 13,
       "Create": 17,
       "Link": 25,
-      "Expand": 11
+      "Expand": 12
     }
   },
   "dailyCommits": {
@@ -396,14 +396,14 @@
       "18": 2,
       "19": 6,
       "20": 12,
-      "21": 19,
+      "21": 20,
       "22": 0,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 15,
+      "Mon": 16,
       "Tue": 3,
       "Wed": 10,
       "Thu": 3,
@@ -425,7 +425,8 @@
         "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
-        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>"
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
