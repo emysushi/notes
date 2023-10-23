@@ -12,10 +12,26 @@
 ---
 
 
+> [!NOTE] resume
+> - #le_volt symbole : **V**
+> - unité de force / tension électromotrice (paramètres > générateur électrique )
+> - nom : hommage à Alessandro Volta (inventeur italien > pile voltaïque)
+
+
 # 1	le Volt
 
-- 
+- Le **volt** 
+	- symbole : **V**
+	- unité de force / tension
+	- électromotrice (paramètres > générateur électrique)
+	- nom : hommage à Alessandro Volta (inventeur italien > pile voltaïque (1800) )
 
+- **volt correspond à
+	- potentiel électrique ≠ 2 points > circuit
+	- accélère charge électrique > donnant une énergie
+	- lorsque ce même circuit est parcouru > courant constant de 1 ampère.
+	- la puissance dissipée entre ces 2 points = 1 watt
+	- le volt est ce qui déplace une charge d'un coulomb avec une force de un newton sur une longueur 1 m
 
 
 ## 1.5	Outils utiles
