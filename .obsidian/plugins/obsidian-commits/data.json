@@ -306,7 +306,7 @@
     },
     "manuel histoire/study_La Réforme.md": {
       "size": 3427,
-      "tags": 9,
+      "tags": 10,
       "links": 0
     },
     "manuel histoire/study_la renaissance.md": {
@@ -320,8 +320,8 @@
       "links": 0
     },
     "manuel Emc/study_la responsabilité.md": {
-      "size": 0,
-      "tags": 3,
+      "size": 2130,
+      "tags": 5,
       "links": 0
     },
     "manuel geo/Untitled.md": {
@@ -359,8 +359,8 @@
     "/": {
       "Refactor": 11,
       "Create": 15,
-      "Link": 19,
-      "Expand": 7
+      "Link": 22,
+      "Expand": 8
     }
   },
   "dailyCommits": {
@@ -375,7 +375,7 @@
       "7": 0,
       "8": 0,
       "9": 1,
-      "10": 0,
+      "10": 3,
       "11": 0,
       "12": 0,
       "13": 0,
@@ -384,7 +384,7 @@
       "16": 2,
       "17": 7,
       "18": 2,
-      "19": 5,
+      "19": 6,
       "20": 12,
       "21": 12,
       "22": 0,
@@ -393,13 +393,13 @@
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 2,
+      "Mon": 5,
       "Tue": 3,
       "Wed": 10,
       "Thu": 3,
       "Fri": 1,
       "Sat": 0,
-      "Sun": 33
+      "Sun": 34
     }
   },
   "recentCommits": {
@@ -411,7 +411,8 @@
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
-        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>"
+        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",
@@ -460,7 +461,10 @@
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
-        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>"
+        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>",
+        "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>"
       ],
       "Refactored": [],
       "Deleted": [

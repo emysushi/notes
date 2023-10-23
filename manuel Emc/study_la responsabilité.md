@@ -15,25 +15,40 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 - **updated**:: 2023-10-08 21:54:14
 ---
 
+
+> [!NOTE] resume
+> - #être_responsable > Obligation / nécessité de répondre, porter garant de ses actions, celles des autres
+> - assumer son acte
+> - celui qui prend une charge devra ensuite l'assumé jusqu'au bout
+> - #être_irresponsable > promet n'importe quoi  / qui ne fait rien
+
 # 1 la responsabilité
 
-- définition :
-	- Obligation ou nécessité morale > répondre / porter garant de
+- **définition 
+	- #être_responsable > Obligation ou nécessité morale > répondre / porter garant de
 	- ses actions ou de celles des autres
-	- assume son acte
+	- assumer son acte
+	- #être_irresponsable > promet n'importe quoi  et qui ne font rien > irresponsable
 
-- nos actions :
+- **nos actions 
 	- mes actions et leurs conséquences sont à moi 
 	- celui qui prend une charge devra ensuite l'assumé jusqu'au bout
 	- faire ce que l'on dit > être responsable de ses paroles
-	- promet n'importe quoi  et qui ne font rien > irresponsable
 
- - ex :
-	- si vous faites des choses dangereuses
-	- vous courez des risques pour vous et autrui 
-	- dont vous êtes responsable
+ - **ex 
+	- si vous faites des choses dangereuses:
+		- vous courez des risques pour vous et autrui 
+		- dont vous êtes responsable
 
-- c
+- **ne pas être responsable de se qu'on a choisit
+	-  frères, soeurs, parents
+	- mais s'occuper de notre famille
+- estiment que se qu'ils aiment > charge
+	- doivent en répondre
+
+- **courage 
+	- être responsable nous rend "fier"
+	- mais parfois difficile / fatiguant
 
 
 

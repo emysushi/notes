@@ -8,41 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd07de53aabad8b1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "c32b5e8e5fefc959",
+            "id": "b7ef1b336da81c3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manuel histoire/study_le protestantisme.md",
+                "file": "manuel Emc/study_la responsabilité.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "05a7b554aeef71d6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ignace_de_loyola",
+                "query": "tag:#être_responsable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "manuel Emc/study_la responsabilité.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "manuel Emc/study_la responsabilité.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "manuel Emc/study_la responsabilité.md"
+              }
             }
           },
           {
@@ -201,16 +182,17 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "05a7b554aeef71d6",
+  "active": "b7ef1b336da81c3b",
   "lastOpenFiles": [
-    "manuel histoire/study_La Réforme.md",
+    "manuel geo/study_null.md",
     "manuel histoire/study_le protestantisme.md",
+    "manuel histoire/study_La Réforme.md",
+    "Home.md",
     "manuel histoire/study_la renaissance.md",
     "manuel Emc/study_la responsabilité.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "manuel Emc/Untitled.md",
     "Anglais/lesson_feelings.md",
-    "Home.md",
     "plan de progression 4ème/lesson_plan de progression français.md",
     "plan de progression 4ème",
     "Template/Untitled",
@@ -221,7 +203,6 @@
     "RevueParent/revue_2023-10-03.md",
     "RevueParent/revue_2023-10-02.md",
     "RevueParent/revue_2023-10-01.md",
-    "manuel geo/study_null.md",
     "manuel Emc/study_bien et le mal.md",
     "manuel Emc/study_Les droits de l'homme.md",
     "manuel Emc/study_Etat de droit.md",
