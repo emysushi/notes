@@ -32,6 +32,9 @@
 	- fait référence > quantité d'énergie électrique nécessaire > déplacer charge électrique
 	- le volt > ce qui déplace une charge de 1 coulomb > force de 1 newton > longueur 1 m
 
+- **la pile voltaïque
+	- 
+
 ## 1.5	Outils utiles
 ---
 
