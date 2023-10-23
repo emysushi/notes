@@ -35,8 +35,12 @@
             "id": "e84b916c1505e94d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "manuel histoire/study_histoire de l'union européenne.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -106,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "manuel histoire/study_histoire de l'union européenne.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,6 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "manuel histoire/study_histoire de l'union européenne.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +149,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "manuel histoire/study_histoire de l'union européenne.md"
+              }
             }
           },
           {
@@ -200,6 +208,7 @@
   },
   "active": "e84b916c1505e94d",
   "lastOpenFiles": [
+    "manuel histoire/study_histoire de l'union européenne.md",
     "Physique-Chimie/lesson_le Volt.md",
     "manuel Emc/study_la responsabilité.md",
     "manuel geo/study_null.md",
@@ -229,7 +238,6 @@
     "manuel geo",
     "manuel histoire",
     "feed back/lesson_Maths.md",
-    "RevueParent/revue_2023-10-03 1.md",
     "feed back",
     "Banner/biblio.jpeg"
   ]
