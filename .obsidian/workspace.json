@@ -4,29 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "cf6880514370e0cb",
+        "id": "6e197bfdae29080c",
         "type": "tabs",
         "children": [
-          {
-            "id": "14ca9d5443afe4f5",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "54cf5b1f10de07dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/lesson_le Volt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
           {
             "id": "b568d5f499089dc7",
             "type": "leaf",
@@ -38,9 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5523bf3f35a7b90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physique-Chimie/lesson_le Volt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manuel Emc/study_la responsabilité.md",
+                "file": "Physique-Chimie/lesson_le Volt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manuel Emc/study_la responsabilité.md",
+                "file": "Physique-Chimie/lesson_le Volt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manuel Emc/study_la responsabilité.md"
+                "file": "Physique-Chimie/lesson_le Volt.md"
               }
             }
           },
@@ -202,10 +194,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b568d5f499089dc7",
+  "active": "c5523bf3f35a7b90",
   "lastOpenFiles": [
-    "Physique-Chimie/lesson_le Volt.md",
     "manuel Emc/study_la responsabilité.md",
+    "Physique-Chimie/lesson_le Volt.md",
     "manuel geo/study_null.md",
     "manuel histoire/study_le protestantisme.md",
     "manuel histoire/study_La Réforme.md",
