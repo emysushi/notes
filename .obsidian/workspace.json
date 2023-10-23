@@ -8,18 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7ef1b336da81c3b",
+            "id": "14ca9d5443afe4f5",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "54cf5b1f10de07dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "manuel Emc/study_la responsabilité.md",
+                "file": "Physique-Chimie/lesson_le Volt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +74,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manuel Emc/study_la responsabilité.md",
+                "file": "Physique-Chimie/lesson_le Volt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manuel Emc/study_la responsabilité.md",
+                "file": "Physique-Chimie/lesson_le Volt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manuel Emc/study_la responsabilité.md"
+                "file": "Physique-Chimie/lesson_le Volt.md"
               }
             }
           },
@@ -182,14 +190,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "b7ef1b336da81c3b",
+  "active": "54cf5b1f10de07dc",
   "lastOpenFiles": [
+    "Physique-Chimie/lesson_le Volt.md",
+    "manuel Emc/study_la responsabilité.md",
     "manuel geo/study_null.md",
     "manuel histoire/study_le protestantisme.md",
     "manuel histoire/study_La Réforme.md",
     "Home.md",
     "manuel histoire/study_la renaissance.md",
-    "manuel Emc/study_la responsabilité.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "manuel Emc/Untitled.md",
     "Anglais/lesson_feelings.md",
@@ -213,7 +222,6 @@
     "manuel histoire",
     "feed back/lesson_Maths.md",
     "RevueParent/revue_2023-10-03 1.md",
-    "Anglais/Les Ecrants et les Routines.md",
     "feed back",
     "Banner/biblio.jpeg"
   ]
