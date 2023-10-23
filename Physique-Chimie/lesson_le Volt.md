@@ -18,7 +18,7 @@
 > - nom : hommage à Alessandro Volta (inventeur italien > pile voltaïque)
 
 
-# 1	le Volt
+# 1 le Volt
 
 - Le **volt** 
 	- symbole : **V**
@@ -26,13 +26,12 @@
 	- électromotrice (paramètres > générateur électrique)
 	- nom : hommage à Alessandro Volta (inventeur italien > pile voltaïque (1800) )
 
-- **volt correspond à
-	- potentiel électrique ≠ 2 points > circuit
+- **l'unité
+	- mesurer ≠ de potentiel électrique entre 2 points > circuit = 1 watt
 	- accélère charge électrique > donnant une énergie
-	- lorsque ce même circuit est parcouru > courant constant de 1 ampère.
-	- la puissance dissipée entre ces 2 points = 1 watt
 	- le volt est ce qui déplace une charge d'un coulomb avec une force de un newton sur une longueur 1 m
 
+ Cette unité fait référence à la quantité d'énergie électrique nécessaire > déplacer charge électrique
 
 ## 1.5	Outils utiles
 ---
