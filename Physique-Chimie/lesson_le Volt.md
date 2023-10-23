@@ -39,13 +39,14 @@
 	- création : pile voltaïque (1800)
 	- né :
 
+# la pile voltaïque
 
-- **la pile voltaïque
+- **c'est quoi ?
 	- nom : 
-		- pile à colonne de Volta
-		- pile de Volta 
+		- pile à colonne de Volta :pile de Volta 
 	- 1ère pile électrique
-	- invention : Alessandro Volta > publia un article en 1800
+	- invention : Alessandro Volta 
+	- publia un article (1800)
 
 - **composition de la pile
 	- faite d'un empilement de disques :
@@ -54,6 +55,17 @@
 	- séparés par une couche de tissu
 	 - imprégné d'eau (salée) > l'électrolyte. 
 	- La répétition de ces éléments (zinc + électrolyte + cuivre) est  proportionnelle > tension produite aux bornes de la pile 
+
+- **ses défaut 
+	- saumure : 
+		- qui imprégnait les rondelles de tissu coulait de la pile
+	- disques de feutre :
+		- s'asséchaient rapidement et ne contenaient plus de l'électrolyte
+	- nécessitait :
+		- un espace important > utilisation difficile
+	- polarisable phénomène dû > accumulation d'ions, dégagement d'hydrogène, formation pellicule résistante sur les électrodes d'une pile.
+	- La pellicule augmente la résistance interne de la pile et diminue progressivement le courant débité[4](https://fr.wikipedia.org/wiki/Pile_volta%C3%AFque#cite_note-:1-4).
+
 
 
 ## 1.5	Outils utiles

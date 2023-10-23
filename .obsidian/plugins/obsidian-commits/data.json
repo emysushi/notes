@@ -355,17 +355,17 @@
       "links": 0
     },
     "Physique-Chimie/lesson_le Volt.md": {
-      "size": 2371,
+      "size": 2758,
       "tags": 1,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 12,
+      "Refactor": 13,
       "Create": 16,
       "Link": 23,
-      "Expand": 10
+      "Expand": 11
     }
   },
   "dailyCommits": {
@@ -391,14 +391,14 @@
       "18": 2,
       "19": 6,
       "20": 12,
-      "21": 14,
+      "21": 16,
       "22": 0,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 10,
+      "Mon": 12,
       "Tue": 3,
       "Wed": 10,
       "Thu": 3,
@@ -418,6 +418,7 @@
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
         "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>",
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>"
       ],
@@ -476,6 +477,7 @@
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>"
       ],
       "Refactored": [
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>"
       ],
       "Deleted": [
