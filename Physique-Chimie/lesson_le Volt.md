@@ -15,7 +15,7 @@
 > [!NOTE] resume
 > - #le_volt symbole : **V**
 > - unité de force / tension électromotrice (paramètres > générateur électrique )
-> - nom : hommage à Alessandro Volta (inventeur italien > pile voltaïque)
+> - nom : hommage à #Alessandro_Volta (inventeur italien > pile voltaïque)
 
 
 # 1 le Volt
