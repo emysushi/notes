@@ -355,17 +355,17 @@
       "links": 0
     },
     "Physique-Chimie/lesson_le Volt.md": {
-      "size": 2279,
+      "size": 2371,
       "tags": 1,
       "links": 0
     }
   },
   "commitTypes": {
     "/": {
-      "Refactor": 11,
+      "Refactor": 12,
       "Create": 16,
       "Link": 23,
-      "Expand": 9
+      "Expand": 10
     }
   },
   "dailyCommits": {
@@ -391,14 +391,14 @@
       "18": 2,
       "19": 6,
       "20": 12,
-      "21": 12,
+      "21": 14,
       "22": 0,
       "23": 0
     }
   },
   "weeklyCommits": {
     "/": {
-      "Mon": 8,
+      "Mon": 10,
       "Tue": 3,
       "Wed": 10,
       "Thu": 3,
@@ -418,6 +418,7 @@
         "<a class=\"internal-link\" href=\"manuel histoire/study_le protestantisme.md\"> study_le protestantisme </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_La Réforme.md\"> study_La Réforme </a>",
         "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>",
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>"
       ],
       "Created": [
@@ -474,7 +475,9 @@
         "<a class=\"internal-link\" href=\"manuel Emc/study_la responsabilité.md\"> study_la responsabilité </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>"
       ],
-      "Refactored": [],
+      "Refactored": [
+        "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>"
+      ],
       "Deleted": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03 1.md\"> revue_2023-10-03 1 </a>",
         "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>"

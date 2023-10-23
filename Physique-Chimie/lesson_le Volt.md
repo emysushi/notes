@@ -24,7 +24,7 @@
 	- symbole : **V**
 	- unité de force / tension
 	- électromotrice (paramètres > générateur électrique)
-	- nom : hommage à Alessandro Volta (inventeur italien > pile voltaïque (1800) )
+	- nom : hommage à Alessandro Volta )
 
 - **l'unité
 	- mesurer ≠ de potentiel électrique entre 2 points > circuit = 1 watt
@@ -32,8 +32,29 @@
 	- fait référence > quantité d'énergie électrique nécessaire > déplacer charge électrique
 	- le volt > ce qui déplace une charge de 1 coulomb > force de 1 newton > longueur 1 m
 
+# Alessandro Volta
+
+- **Alessandro
+	- inventeur italien 
+	- création : pile voltaïque (1800)
+	- né :
+
+
 - **la pile voltaïque
-	- 
+	- nom : 
+		- pile à colonne de Volta
+		- pile de Volta 
+	- 1ère pile électrique
+	- invention : Alessandro Volta > publia un article en 1800
+
+- **composition de la pile
+	- faite d'un empilement de disques :
+		- (-) zinc 
+		- (+) cuivre, argent  
+	- séparés par une couche de tissu
+	 - imprégné d'eau (salée) > l'électrolyte. 
+	- La répétition de ces éléments (zinc + électrolyte + cuivre) est  proportionnelle > tension produite aux bornes de la pile 
+
 
 ## 1.5	Outils utiles
 ---
