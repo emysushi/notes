@@ -30,9 +30,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e84b916c1505e94d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +106,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/lesson_le Volt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +122,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/lesson_le Volt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +143,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Physique-Chimie/lesson_le Volt.md"
-              }
+              "state": {}
             }
           },
           {
@@ -194,10 +198,10 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "c5523bf3f35a7b90",
+  "active": "e84b916c1505e94d",
   "lastOpenFiles": [
-    "manuel Emc/study_la responsabilité.md",
     "Physique-Chimie/lesson_le Volt.md",
+    "manuel Emc/study_la responsabilité.md",
     "manuel geo/study_null.md",
     "manuel histoire/study_le protestantisme.md",
     "manuel histoire/study_La Réforme.md",

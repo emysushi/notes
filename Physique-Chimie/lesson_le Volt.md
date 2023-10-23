@@ -29,9 +29,8 @@
 - **l'unité
 	- mesurer ≠ de potentiel électrique entre 2 points > circuit = 1 watt
 	- accélère charge électrique > donnant une énergie
-	- le volt est ce qui déplace une charge d'un coulomb avec une force de un newton sur une longueur 1 m
-
- Cette unité fait référence à la quantité d'énergie électrique nécessaire > déplacer charge électrique
+	- fait référence > quantité d'énergie électrique nécessaire > déplacer charge électrique
+	- le volt > ce qui déplace une charge de 1 coulomb > force de 1 newton > longueur 1 m
 
 ## 1.5	Outils utiles
 ---
