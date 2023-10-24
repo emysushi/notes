@@ -23,8 +23,18 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 
 # 1	histoire de l'union européenne
 
-- **d'où vient elle ?
-	- 
+- **les origines
+	- continent marqué > guerres
+	- désir de paix > incité plusieurs penseurs > proposer une unification politique des pays européens
+
+- **Erasme** :
+	- 1517 (_Plaidoyer pour la paix_),
+- **Emmanuel Kant**
+	- 1795 (_Essai sur la paix perpétuelle_)
+-  **Victor Hugo** 
+	- 1849 (_Discours > Congrès international de la paix de Paris)
+
+
 
 
 ## 1.3	Outils utiles
