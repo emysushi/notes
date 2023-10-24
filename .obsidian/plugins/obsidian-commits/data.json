@@ -360,7 +360,7 @@
       "links": 0
     },
     "manuel histoire/study_histoire de l'union européenne.md": {
-      "size": 2355,
+      "size": 3084,
       "tags": 3,
       "links": 0
     }
@@ -370,7 +370,7 @@
       "Refactor": 13,
       "Create": 17,
       "Link": 25,
-      "Expand": 12
+      "Expand": 13
     }
   },
   "dailyCommits": {
@@ -390,7 +390,7 @@
       "12": 0,
       "13": 0,
       "14": 2,
-      "15": 11,
+      "15": 12,
       "16": 2,
       "17": 7,
       "18": 2,
@@ -404,7 +404,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 16,
-      "Tue": 3,
+      "Tue": 4,
       "Wed": 10,
       "Thu": 3,
       "Fri": 1,
@@ -426,6 +426,7 @@
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
+        "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>"
       ],
       "Created": [

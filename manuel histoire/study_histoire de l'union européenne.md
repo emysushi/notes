@@ -21,20 +21,61 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 > - bla
 
 
-# 1	histoire de l'union européenne
+# 1	les origines de l'union européenne
 
 - **les origines
 	- continent marqué > guerres
 	- désir de paix > incité plusieurs penseurs > proposer une unification politique des pays européens
 
+- **XXe siècle 
+	- l’idée d’une union fédérale fait son chemin. 
+	- Seconde Guerre mondiale (1939-1945)  donna le coup d’envoi > création d’organisations internationales
+	- (ONU, Conseil de l’Europe Communautés européennes)
+
+# les penseurs
+
 - **Erasme** :
-	- 1517 (_Plaidoyer pour la paix_),
+	- 1517 (_Plaidoyer > paix_)
 - **Emmanuel Kant**
-	- 1795 (_Essai sur la paix perpétuelle_)
+	- 1795 (_Essai > paix perpétuelle)
 -  **Victor Hugo** 
 	- 1849 (_Discours > Congrès international de la paix de Paris)
 
-- Au XXe siècle, [l’idée d’une union fédérale fait son chemin](https://www.touteleurope.eu/histoire/1918-1944-l-idee-europeenne-au-debut-du-xxe-siecle/). Mais c’est la **Seconde Guerre mondiale** (1939-1945) qui, une fois terminée, donne le [coup d’envoi](https://www.touteleurope.eu/histoire/1945-1956-les-debuts-de-la-construction-europeenne/) à la création d’organisations internationales telles que l’ONU, le Conseil de l’Europe… et bien sûr les Communautés européennes.
+# La fondation des Communautés
+
+- **9 mai 1950
+	- Robert Schuman:
+		- ministre français > Affaires étrangères 
+		- propose de mettre en commun > productions charbon / acier (France / Allemagne)
+		- > rendre la guerre impensable et matériellement impossible
+	- Considérée = acte de naissance > construction européenne
+	- sa déclaration ouvre la voie > CECA
+
+- **1951 
+	- CECA créée > 6 pays : 
+	- France, Italie, Belgique, Pays-Bas, Luxembourg, (Ouest) Allemagne  
+
+- **1957 
+	- signent les traités de Rome 
+	- 2 nouvelles communauté sont créées : 
+		- **CEE (Communauté économique européenne)
+		- instaurer > marché commun entre ses pays membres 
+		- **CEEA (Communauté européenne de l’énergie atomique) 
+		- assurer > autosuffisance énergétique grâce au nucléaire
+
+# Premiers projets et élargissements
+
+- **1960
+	- 1er projets se concrétisent
+
+- **1962
+	- **PAC (Politique agricole commune)** est lancée 
+
+- **1968
+	- **union douanière** est achevée 
+	- abolit > droits de douane entre les 6 
+	- instaure un tarif douanier commun > frontières extérieures.
+	- Mais c’est aussi l’époque de la crise de la chaise vide : le général de Gaule qui ne veut pas transférer trop de souveraineté à l’organisation, paralyse la CEE en 1965.
 
 
 
