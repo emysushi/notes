@@ -34,6 +34,8 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 -  **Victor Hugo** 
 	- 1849 (_Discours > Congrès international de la paix de Paris)
 
+- Au XXe siècle, [l’idée d’une union fédérale fait son chemin](https://www.touteleurope.eu/histoire/1918-1944-l-idee-europeenne-au-debut-du-xxe-siecle/). Mais c’est la **Seconde Guerre mondiale** (1939-1945) qui, une fois terminée, donne le [coup d’envoi](https://www.touteleurope.eu/histoire/1945-1956-les-debuts-de-la-construction-europeenne/) à la création d’organisations internationales telles que l’ONU, le Conseil de l’Europe… et bien sûr les Communautés européennes.
+
 
 
 
