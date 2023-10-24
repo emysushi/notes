@@ -8,20 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ca82401f659f039d",
+            "id": "04f104bbffe7dac6",
             "type": "leaf",
-            "pinned": true,
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "3efefa064fff26f2",
+            "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "manuel histoire/study_histoire de l'union européenne.md",
+                "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "manuel histoire/study_histoire de l'union européenne.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "manuel histoire/study_histoire de l'union européenne.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "manuel histoire/study_histoire de l'union européenne.md"
               }
             }
           },
@@ -160,7 +167,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434.5
+    "width": 434.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,15 +190,15 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "ca82401f659f039d",
+  "active": "3efefa064fff26f2",
   "lastOpenFiles": [
+    "Home.md",
     "manuel histoire/study_histoire de l'union européenne.md",
     "Physique-Chimie/lesson_le Volt.md",
     "manuel Emc/study_la responsabilité.md",
     "manuel geo/study_null.md",
     "manuel histoire/study_le protestantisme.md",
     "manuel histoire/study_La Réforme.md",
-    "Home.md",
     "manuel histoire/study_la renaissance.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "manuel Emc/Untitled.md",
