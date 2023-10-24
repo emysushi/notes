@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Francais/Le Horla.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +121,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Francais/Le Horla.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +142,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Francais/Le Horla.md"
-              }
+              "state": {}
             }
           },
           {
@@ -202,7 +197,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "54b8d8536e945fe2",
+  "active": "04f104bbffe7dac6",
   "lastOpenFiles": [
     "Francais/Le Horla.md",
     "manuel histoire/study_histoire de l'union européenne.md",

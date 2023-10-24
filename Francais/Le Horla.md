@@ -38,14 +38,14 @@
 ---
 
 - genre : Fantastique psychologique
-- place de l'ouvrage dans la vie de l'auteur : 
+- place de l'ouvrage dans la vie de l'auteur : découvrir le germe de la folie chez l’auteur
 - chronologie : 
 
 ## 1.3	Le cadre :
 ---
 
-- contexte politique et social :
-- période historique :
+- contexte politique et social : 
+- période historique : 
 - évènements historiques : fin du 2nd Empire, Guerre franco-prussienne, 3ème République
 
 
@@ -59,6 +59,9 @@
 
 ## 1.5	Résumé bref :
 ---
+
+Il perçoit un être invisible qui vit à ses côtés et surtout qui occupe sa chambre en son absence et pendant son sommeil. 
+Il appelle cette être le "Horla"
 
 
 
