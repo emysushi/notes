@@ -23,10 +23,10 @@
 ## 1.1	Auteur
 ---
 
-- nom/prénom :
-- nationalité : 
-- date naissance/mort :
-- contexte historique :
+- nom/prénom : Guy de Maupassant
+- nationalité : Français
+- date naissance/mort : 5 août 1850 / 6 juillet 1893
+- contexte historique : 
 - grandes étapes de sa vie :
 	- etape1:
 	- etape2:
