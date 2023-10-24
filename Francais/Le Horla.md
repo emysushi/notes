@@ -26,34 +26,36 @@
 - nom/prénom : Guy de Maupassant
 - nationalité : Français
 - date naissance/mort : 5 août 1850 / 6 juillet 1893
-- contexte historique : 
+- contexte historique : témoin > fin du  2nd Empire, Guerre franco-prussienne, 3ème République
 - grandes étapes de sa vie :
 	- etape1:
 	- etape2:
 	- etape3:
-- profession :
-- courant littéraire predilection : 
+- profession :  Commis > ministère Instruction publique, Journaliste, Écrivain
+- courant littéraire predilection : réalisme
 
 ## 1.2	Genre 
 ---
 
-- genre :
-- place de l ouvrage dans la vie de l'auteur :
+- genre : Fantastique psychologique
+- place de l'ouvrage dans la vie de l'auteur : 
 - chronologie : 
 
 ## 1.3	Le cadre :
 ---
 
 - contexte politique et social :
-- periode historique :
-- evênements historiques :
+- période historique :
+- évènements historiques : fin du 2nd Empire, Guerre franco-prussienne, 3ème République
 
 
 ## 1.4	Les personnages principaux :
 ---
 
 
-- liste des personnages, caractères, profil socio economique, evolution dans le recit, rapport entre les personnages et leurs évolutions
+- liste des personnages, caractères, profil socio économique, évolution dans le recit, rapport entre les personnages et leurs évolutions
+
+
 
 ## 1.5	Résumé bref :
 ---
