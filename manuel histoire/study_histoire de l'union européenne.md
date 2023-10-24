@@ -75,7 +75,7 @@ trello_board_card_id: 63722ae807d5fd02b2b92859;64fe08bc63bc153395eb9818
 	- **union douanière** est achevée 
 	- abolit > droits de douane entre les 6 
 	- instaure un tarif douanier commun > frontières extérieures.
-	- Mais c’est aussi l’époque de la crise de la chaise vide : le général de Gaule qui ne veut pas transférer trop de souveraineté à l’organisation, paralyse la CEE en 1965.
+	- l’époque de la crise de la chaise vide le général de Gaule qui ne veut pas transférer trop de souveraineté à l’organisation, paralyse la CEE en 1965.
 
 
 
