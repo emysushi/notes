@@ -38,8 +38,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a5bc0efd006e6069",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -197,7 +206,7 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "04f104bbffe7dac6",
+  "active": "a5bc0efd006e6069",
   "lastOpenFiles": [
     "Francais/Le Horla.md",
     "manuel histoire/study_histoire de l'union européenne.md",

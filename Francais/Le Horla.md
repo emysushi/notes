@@ -53,19 +53,50 @@
 ---
 
 
-- liste des personnages, caractères, profil socio économique, évolution dans le recit, rapport entre les personnages et leurs évolutions
+- liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
 
 
 
 ## 1.5	Résumé bref :
 ---
 
-Il perçoit un être invisible qui vit à ses côtés et surtout qui occupe sa chambre en son absence et pendant son sommeil. 
+
+> [!NOTE] resume
+> Il perçoit un être invisible qui vit à ses côtés et surtout qui occupe sa chambre en son absence et pendant son sommeil. 
 Il appelle cette être le "Horla"
 
-- Au début de l’histoire :
-	- le narrateur décrit, dans son journal, le paysage qu’il voit en face de sa maison et qu’il apprécie. 
-- Au bout de quelques jours  il commence à écrire qu’il se sent souffrant. Il associe cette **mystérieuse maladie** à une « force » qu’il perçoit dans sa maison et s’émerveille de ce que nous ignorons encore du monde. Il consulte un **médecin** qui lui conseille de prendre des **douches** et lui prescrit du **bromure de potassium**. Cela n’a malheureusement aucun effet sur lui.
+- **début de l’histoire :
+	- décrit dans son journal le paysage qu’il voit en face de sa maison et qu’il apprécie 
+
+- **Au bout de quelques jours 
+	- se sent souffrant
+	- associe cette mystérieuse maladie > force qu’il perçoit dans sa maison 
+	- Il consulte un médecin > conseille et lui prescrit des remèdes
+	- Cela n’a aucun effet sur lui
+	- commence à ressentir une paralysie du sommeil /  sentiments d’effroi > lit la nuit 
+	- impression que quelqu’un est présent 
+	- commence à imaginer que quelqu’un le suit lorsqu’il quitte la maison
+	- décide de se reposer au Mont-Saint-Michel 
+
+- **au Mont-Sait-Michel 
+	- passe un bon séjour 
+	- rencontre un **moine** > raconte de nombreuses légendes locales surnaturelles
+	- ils discutent
+	- Cette discussion laisse le narrateur pensif
+	-  il a bien dormi et ne s’est pas senti mal 
+	- espère être guéri
+
+- **de retour chez lui
+	- découvre que son cocher est également malade 
+	- semble avoir souffert du même mal que lui 
+
+- **Dès le premier soir
+	- ses cauchemars reviennent
+	- remarque que le contenu de sa carafe d’eau se vide pendant la nuit
+	- prépare  du lait pour l’être invisible et constate qu’il disparaît à son tour
+	- Cet être évite cependant de se nourrir et se contente de se nourrir de **l’eau ou du lait** que le narrateur a laissé traîner.
+
+
 
 ## 1.6	passage marquants :
 ---

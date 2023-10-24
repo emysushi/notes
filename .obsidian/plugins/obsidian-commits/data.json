@@ -365,7 +365,7 @@
       "links": 0
     },
     "Francais/Le Horla.md": {
-      "size": 2146,
+      "size": 3141,
       "tags": 0,
       "links": 1
     }
@@ -375,7 +375,7 @@
       "Refactor": 13,
       "Create": 18,
       "Link": 26,
-      "Expand": 14
+      "Expand": 15
     }
   },
   "dailyCommits": {
@@ -401,7 +401,7 @@
       "18": 2,
       "19": 6,
       "20": 12,
-      "21": 21,
+      "21": 22,
       "22": 0,
       "23": 0
     }
@@ -409,7 +409,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 16,
-      "Tue": 7,
+      "Tue": 8,
       "Wed": 10,
       "Thu": 3,
       "Fri": 1,
@@ -433,6 +433,7 @@
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>",
+        "<a class=\"internal-link\" href=\"Francais/Le Horla.md\"> Le Horla </a>",
         "<a class=\"internal-link\" href=\"Francais/Le Horla.md\"> Le Horla </a>"
       ],
       "Created": [
