@@ -96,6 +96,16 @@ Il appelle cette être le "Horla"
 	- prépare  du lait pour l’être invisible et constate qu’il disparaît à son tour
 	- Cet être évite cependant de se nourrir et se contente de se nourrir de **l’eau ou du lait** que le narrateur a laissé traîner.
 
+Il décide de se rendre à **Paris** quelques jours, afin de voir s’il va mieux hors de chez lui. En effet, vingt-quatre à Paris ont suffi à le remettre d’aplomb.
+
+  
+Le 15 juillet, il se rend à dîner chez sa **cousine**, **Madame Sablé**. Il partage le repas avec elle, deux jeunes femmes et le mari de l’une d’elle, le **docteur Parent**. Ce docteur est spécialisé dans les **maladies nerveuses et réussit à hypnotiser Madame Sablé** malgré le fait que personne ne croit en ses pouvoirs ; il réussit à  convaincre cette dernière d’aller demander cinq mille francs à son cousin, ce qu’elle fait. Le médecin finit par faire disparaître les effets de l’hypnose sur **Madame Sablé,** qui ne se souvient plus de rien. Cela trouble beaucoup le narrateur. En effet, cela indique des profondeurs encore plus grandes de ce qui ne peut être compris rationnellement.
+
+De retour chez lui, le narrateur commence à avoir l’impression de voir cette « **main invisible** » pendant la journée. Il commence à se demander s’il n’est pas en train de devenir fou. Chez lui, **les domestiques se querellent** au sujet de **verres brisé**s, la nuit, dans les armoires. [Quant au](https://www.jeteresume.com/quant-ou-quand/) narrateur, il voit une **rose se détacher du buisson** comme si elle était tirée par une main invisible, ce qui l’effraie beaucoup. Il commence à parler de cette force comme de « **Lui**« , puis du « **Horla**« , affirmant qu’il la sent toujours près de lui. Le narrateur affirme avoir vu un **livre ouvert tourner ses pages** de temps à autre, sans aide visible, comme si quelqu’un le lisait.
+
+Il finit par « voir » la créature comme un brouillard dans la nuit et décide qu’il doit la tuer. Il l’attire dans sa chambre et l’y enferme, puis **met le feu à la maison**. Mais le narrateur a oublié que **les domestiques** se trouvaient à l’intérieur de la maison. Ceux-ci ouvrent les fenêtres et crient avant de périr dans les flammes. La maison est devenue « **un bûcher monstrueux**« , selon les termes du narrateur.
+
+À la toute fin de l’histoire, le **10 septembre**, la maison du narrateur est en **cendres**, mais celui-ci se demande s’il a réellement reussi à tuer le **Horla**. Il en conclut que s’il ne l’a pas fait, le **suicide** sera la seule et unique solution pour en finir totalement avec ce **Horla**.
 
 
 ## 1.6	passage marquants :
