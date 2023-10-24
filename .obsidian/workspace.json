@@ -26,9 +26,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "54b8d8536e945fe2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Francais/Le Horla.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "manuel histoire/study_histoire de l'union européenne.md",
+                "file": "Francais/Le Horla.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "manuel histoire/study_histoire de l'union européenne.md",
+                "file": "Francais/Le Horla.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "manuel histoire/study_histoire de l'union européenne.md"
+                "file": "Francais/Le Horla.md"
               }
             }
           },
@@ -190,10 +202,11 @@
       "obsidian-memos:Memos": false
     }
   },
-  "active": "3efefa064fff26f2",
+  "active": "54b8d8536e945fe2",
   "lastOpenFiles": [
-    "Home.md",
+    "Francais/Le Horla.md",
     "manuel histoire/study_histoire de l'union européenne.md",
+    "Home.md",
     "Physique-Chimie/lesson_le Volt.md",
     "manuel Emc/study_la responsabilité.md",
     "manuel geo/study_null.md",
@@ -221,7 +234,6 @@
     "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "manuel geo",
     "manuel histoire",
-    "feed back/lesson_Maths.md",
     "feed back",
     "Banner/biblio.jpeg"
   ]

@@ -363,13 +363,18 @@
       "size": 3084,
       "tags": 3,
       "links": 0
+    },
+    "Francais/Untitled.md": {
+      "size": 0,
+      "tags": 0,
+      "links": 1
     }
   },
   "commitTypes": {
     "/": {
       "Refactor": 13,
-      "Create": 17,
-      "Link": 25,
+      "Create": 18,
+      "Link": 26,
       "Expand": 13
     }
   },
@@ -391,7 +396,7 @@
       "13": 0,
       "14": 2,
       "15": 12,
-      "16": 2,
+      "16": 4,
       "17": 7,
       "18": 2,
       "19": 6,
@@ -404,7 +409,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 16,
-      "Tue": 4,
+      "Tue": 6,
       "Wed": 10,
       "Thu": 3,
       "Fri": 1,
@@ -446,7 +451,8 @@
         "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/Untitled.md\"> Untitled </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/Untitled.md\"> Untitled </a>",
-        "<a class=\"internal-link\" href=\"manuel histoire/Untitled.md\"> Untitled </a>"
+        "<a class=\"internal-link\" href=\"manuel histoire/Untitled.md\"> Untitled </a>",
+        "<a class=\"internal-link\" href=\"Francais/Untitled.md\"> Untitled </a>"
       ],
       "Renamed": [
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-02.md\"> revue_2023-10-02 </a>",
@@ -494,7 +500,9 @@
         "<a class=\"internal-link\" href=\"RevueParent/revue_2023-10-03 1.md\"> revue_2023-10-03 1 </a>",
         "<a class=\"internal-link\" href=\"manuel Emc/Untitled.md\"> Untitled </a>"
       ],
-      "Linked": [],
+      "Linked": [
+        "<a class=\"internal-link\" href=\"Francais/Untitled.md\"> Untitled </a>"
+      ],
       "Removed Tags from": [],
       "Removed Links from": []
     }
