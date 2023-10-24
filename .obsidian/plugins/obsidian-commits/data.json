@@ -365,7 +365,7 @@
       "links": 0
     },
     "Francais/Le Horla.md": {
-      "size": 0,
+      "size": 2146,
       "tags": 0,
       "links": 1
     }
@@ -375,7 +375,7 @@
       "Refactor": 13,
       "Create": 18,
       "Link": 26,
-      "Expand": 13
+      "Expand": 14
     }
   },
   "dailyCommits": {
@@ -401,7 +401,7 @@
       "18": 2,
       "19": 6,
       "20": 12,
-      "21": 20,
+      "21": 21,
       "22": 0,
       "23": 0
     }
@@ -409,7 +409,7 @@
   "weeklyCommits": {
     "/": {
       "Mon": 16,
-      "Tue": 6,
+      "Tue": 7,
       "Wed": 10,
       "Thu": 3,
       "Fri": 1,
@@ -432,7 +432,8 @@
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"Physique-Chimie/lesson_le Volt.md\"> lesson_le Volt </a>",
         "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>",
-        "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>"
+        "<a class=\"internal-link\" href=\"manuel histoire/study_histoire de l'union européenne.md\"> study_histoire de l'union européenne </a>",
+        "<a class=\"internal-link\" href=\"Francais/Le Horla.md\"> Le Horla </a>"
       ],
       "Created": [
         "<a class=\"internal-link\" href=\"RevueParent/Untitled.md\"> Untitled </a>",

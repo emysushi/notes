@@ -63,7 +63,9 @@
 Il perçoit un être invisible qui vit à ses côtés et surtout qui occupe sa chambre en son absence et pendant son sommeil. 
 Il appelle cette être le "Horla"
 
-
+- Au début de l’histoire :
+	- le narrateur décrit, dans son journal, le paysage qu’il voit en face de sa maison et qu’il apprécie. 
+- Au bout de quelques jours  il commence à écrire qu’il se sent souffrant. Il associe cette **mystérieuse maladie** à une « force » qu’il perçoit dans sa maison et s’émerveille de ce que nous ignorons encore du monde. Il consulte un **médecin** qui lui conseille de prendre des **douches** et lui prescrit du **bromure de potassium**. Cela n’a malheureusement aucun effet sur lui.
 
 ## 1.6	passage marquants :
 ---
