@@ -369,6 +369,7 @@ var BirthdayTrackerPlugin = class extends import_obsidian6.Plugin {
     this.registerView(BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE, (leaf) => new YearOverviewView(leaf));
     const ribbonIconEl = this.addRibbonIcon("cake", "Track birthdays", this.trackBirthdays);
     ribbonIconEl.addClass("birthday-tracker-plugin-ribbon-class");
+    this.addRibbonIcon("calendar-days", "Open year overview", this.openYearView);
     this.addCommands();
     this.addSettingTab(new BirthdayTrackerSettingTab(this.app, this));
     this.app.workspace.onLayoutReady(() => this.trackBirthdays());

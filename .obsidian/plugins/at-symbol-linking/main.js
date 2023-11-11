@@ -629,7 +629,7 @@ __export(main_exports, {
   default: () => AtSymbolLinking
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian8 = require("obsidian");
+var import_obsidian10 = require("obsidian");
 
 // src/settings/settings.ts
 var import_obsidian3 = require("obsidian");
@@ -2352,6 +2352,7 @@ var FileSuggest = class extends TextInputSuggest {
 
 // src/settings/settings.ts
 var DEFAULT_SETTINGS = {
+  triggerSymbol: "@",
   limitLinkDirectories: [],
   includeSymbol: true,
   showAddNewNote: false,
@@ -2372,25 +2373,39 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
   constructor(app2, plugin) {
     super(app2, plugin);
     this.plugin = plugin;
+    this.shouldReset = false;
   }
   // On close, reload the plugin
   hide() {
-    this.plugin.reloadPlugin();
+    this.plugin.reloadPlugin(this.shouldReset);
+    this.shouldReset = false;
   }
   display() {
     this.containerEl.empty();
     this.containerEl.appendChild(
       createHeading(this.containerEl, "At Symbol (@) Linking Settings")
     );
+    const triggerSymbolDesc = document.createDocumentFragment();
+    triggerSymbolDesc.append("Type this symbol to trigger the popup.");
+    new import_obsidian3.Setting(this.containerEl).setName("Trigger Symbol").setDesc(triggerSymbolDesc).addText((text) => {
+      text.setPlaceholder("@").setValue(this.plugin.settings.triggerSymbol).onChange((value) => {
+        this.plugin.settings.triggerSymbol = value;
+        this.plugin.saveSettings();
+      });
+      text.inputEl.onblur = () => {
+        this.display();
+        this.validate();
+      };
+    });
     const includeSymbolDesc = document.createDocumentFragment();
     includeSymbolDesc.append(
-      "Include the @ symbol prefixing the final link text",
+      `Include the ${this.plugin.settings.triggerSymbol} symbol prefixing the final link text`,
       includeSymbolDesc.createEl("br"),
       includeSymbolDesc.createEl("em", {
-        text: `E.g. [${this.plugin.settings.includeSymbol ? "@" : ""}evan](./evan)`
+        text: `E.g. [${this.plugin.settings.includeSymbol ? this.plugin.settings.triggerSymbol : ""}evan](./evan)`
       })
     );
-    new import_obsidian3.Setting(this.containerEl).setName("Include @ symbol").setDesc(includeSymbolDesc).addToggle(
+    new import_obsidian3.Setting(this.containerEl).setName(`Include ${this.plugin.settings.triggerSymbol} symbol`).setDesc(includeSymbolDesc).addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.includeSymbol).onChange((value) => {
         this.plugin.settings.includeSymbol = value;
         this.plugin.saveSettings();
@@ -2399,9 +2414,9 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     );
     const ruleDesc = document.createDocumentFragment();
     ruleDesc.append(
-      "@ linking will only source links from the following folders.",
+      `${this.plugin.settings.triggerSymbol} linking will only source links from the following folders.`,
       ruleDesc.createEl("br"),
-      "For example, you might only want contacts in the Contacts/ folder to be linked when you type @.",
+      `For example, you might only want contacts in the Contacts/ folder to be linked when you type ${this.plugin.settings.triggerSymbol}.`,
       ruleDesc.createEl("br"),
       ruleDesc.createEl("em", {
         text: "If no folders are added, links will be sourced from all folders."
@@ -2463,7 +2478,7 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     );
     new import_obsidian3.Setting(this.containerEl).setName("Add new note").setHeading();
     new import_obsidian3.Setting(this.containerEl).setName("Add new note if it doesn't exist").setDesc(
-      "If the note doesn't exist when @ linking, add an option to create the note."
+      `If the note doesn't exist when ${this.plugin.settings.triggerSymbol} linking, add an option to create the note.`
     ).addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.showAddNewNote).onChange((value) => {
         this.plugin.settings.showAddNewNote = value;
@@ -2474,7 +2489,7 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     if (this.plugin.settings.showAddNewNote) {
       const newNoteTemplateDesc = document.createDocumentFragment();
       newNoteTemplateDesc.append(
-        "Template to use when creating a new note from @ link.",
+        `Template to use when creating a new note from ${this.plugin.settings.triggerSymbol} link.`,
         newNoteTemplateDesc.createEl("br"),
         "Uses formats from the ",
         newNoteTemplateDesc.createEl("a", {
@@ -2508,7 +2523,9 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
           this.validate();
         };
       });
-      new import_obsidian3.Setting(this.containerEl).setName("Add new note folder").setDesc("Folder to create new notes in when using @ linking.").addSearch((cb) => {
+      new import_obsidian3.Setting(this.containerEl).setName("Add new note folder").setDesc(
+        `Folder to create new notes in when using ${this.plugin.settings.triggerSymbol} linking.`
+      ).addSearch((cb) => {
         new FolderSuggest(this.app, cb.inputEl);
         cb.setPlaceholder("No folder (root)").setValue(this.plugin.settings.addNewNoteDirectory).onChange(async (newFolder) => {
           this.plugin.settings.addNewNoteDirectory = newFolder.trim();
@@ -2533,6 +2550,7 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     );
     new import_obsidian3.Setting(this.containerEl).setName("Use compatibility mode").setDesc(useCompatibilityModeDesc).addToggle(
       (toggle) => toggle.setValue(this.plugin.settings.useCompatibilityMode).onChange((value) => {
+        this.shouldReset = true;
         this.plugin.settings.useCompatibilityMode = value;
         this.plugin.saveSettings();
         this.plugin.registerPopup();
@@ -2541,7 +2559,7 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     );
     const leavePopupOpenDesc = document.createDocumentFragment();
     leavePopupOpenDesc.append(
-      `When @ linking, you might want to type a full name e.g. "Brandon Sanderson" without the popup closing.`,
+      `When ${this.plugin.settings.triggerSymbol} linking, you might want to type a full name e.g. "Brandon Sanderson" without the popup closing.`,
       leavePopupOpenDesc.createEl("br"),
       leavePopupOpenDesc.createEl("em", {
         text: "When set above 0, you'll need to press escape, return/enter, or type over X spaces to close the popup."
@@ -2567,6 +2585,13 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
       await this.plugin.saveSettings();
       return this.display();
     };
+    if (settings.triggerSymbol.length !== 1) {
+      new import_obsidian3.Notice(`Trigger symbol must be a single character.`);
+      await updateSetting(
+        "triggerSymbol",
+        settings.triggerSymbol.length ? settings.triggerSymbol[0] : "@"
+      );
+    }
     for (let i = 0; i < settings.limitLinkDirectories.length; i++) {
       const folder = settings.limitLinkDirectories[i];
       if (folder === "") {
@@ -2617,9 +2642,11 @@ function createHeading(el, text, level = 2) {
 }
 
 // src/native-suggestion/suggest-popup.ts
-var import_obsidian5 = require("obsidian");
+var import_obsidian7 = require("obsidian");
 var import_language = require("@codemirror/language");
-var import_fuzzysort3 = __toESM(require_fuzzysort());
+
+// src/shared-suggestion/sharedSelectSuggestion.ts
+var import_obsidian5 = require("obsidian");
 
 // src/utils/replace-new-file-vars.ts
 var import_obsidian4 = require("obsidian");
@@ -2667,8 +2694,193 @@ function fileNameNoExtension(path) {
   return (_b = (_a = path.split("/")) == null ? void 0 : _a.pop()) == null ? void 0 : _b.slice(0, -3);
 }
 
+// src/shared-suggestion/sharedSelectSuggestion.ts
+async function sharedSelectSuggestion(app2, settings, value) {
+  var _a, _b, _c, _d, _e, _f, _g, _h;
+  let linkFile;
+  if ((_a = value == null ? void 0 : value.obj) == null ? void 0 : _a.isCreateNewOption) {
+    let newNoteContents = "";
+    if (settings.addNewNoteTemplateFile) {
+      const fileTemplate = app2.vault.getAbstractFileByPath(
+        `${settings.addNewNoteTemplateFile}.md`
+      );
+      newNoteContents = await app2.vault.read(fileTemplate) || "";
+      newNoteContents = await replaceNewFileVars(
+        app2,
+        newNoteContents,
+        fileNameNoExtension((_b = value.obj) == null ? void 0 : _b.filePath)
+      );
+    }
+    try {
+      linkFile = await app2.vault.create(
+        (_c = value.obj) == null ? void 0 : _c.filePath,
+        newNoteContents
+      );
+      value.obj.alias = (_d = value.obj) == null ? void 0 : _d.query;
+    } catch (error) {
+      new import_obsidian5.Notice(
+        `Unable to create new note at path: ${(_e = value.obj) == null ? void 0 : _e.filePath}. Please open an issue on GitHub, https://github.com/Ebonsignori/obsidian-at-symbol-linking/issues`,
+        0
+      );
+      throw error;
+    }
+  }
+  const currentFile = app2.workspace.getActiveFile();
+  if (!linkFile) {
+    linkFile = app2.vault.getAbstractFileByPath(
+      (_f = value.obj) == null ? void 0 : _f.filePath
+    );
+  }
+  let alias = ((_g = value.obj) == null ? void 0 : _g.alias) || "";
+  if (settings.includeSymbol)
+    alias = `${settings.triggerSymbol}${alias || ((_h = value.obj) == null ? void 0 : _h.fileName)}`;
+  let linkText = app2.fileManager.generateMarkdownLink(
+    linkFile,
+    (currentFile == null ? void 0 : currentFile.path) || "",
+    void 0,
+    // we don't care about the subpath
+    alias
+  );
+  if (linkText.includes("\n")) {
+    linkText = linkText.replace(/\n/g, "");
+  }
+  return linkText;
+}
+
+// src/shared-suggestion/sharedRenderSuggestion.ts
+var import_obsidian6 = require("obsidian");
+function sharedRenderSuggestion(value, el) {
+  var _a, _b, _c, _d, _e, _f, _g;
+  el.addClass("at-symbol-linking-suggestion");
+  const context = el.doc.createElement("div");
+  context.addClass("suggestion-context");
+  context.id = "at-symbol-suggestion-context";
+  const title = el.doc.createElement("div");
+  title.addClass("suggestion-title");
+  if (value[0]) {
+    highlightSearch(title, value[0]);
+  } else if ((_a = value.obj) == null ? void 0 : _a.alias) {
+    title.setText((_b = value.obj) == null ? void 0 : _b.alias);
+  } else if (value[1]) {
+    highlightSearch(title, value[1]);
+  } else if ((_c = value.obj) == null ? void 0 : _c.fileName) {
+    title.setText((_d = value.obj) == null ? void 0 : _d.fileName);
+  } else {
+    title.setText("");
+  }
+  const path = el.doc.createElement("div");
+  path.addClass("suggestion-path");
+  path.setText((_f = (_e = value.obj) == null ? void 0 : _e.filePath) == null ? void 0 : _f.slice(0, -3));
+  context.appendChild(title);
+  context.appendChild(path);
+  const aux = el.doc.createElement("div");
+  aux.addClass("suggestion-aux");
+  if ((_g = value == null ? void 0 : value.obj) == null ? void 0 : _g.alias) {
+    const alias = el.doc.createElement("span");
+    alias.addClass("suggestion-flair");
+    alias.ariaLabel = "Alias";
+    (0, import_obsidian6.setIcon)(alias, "forward");
+    aux.appendChild(alias);
+  }
+  el.appendChild(context);
+  el.appendChild(aux);
+}
+
+// src/shared-suggestion/sharedGetSuggestions.ts
+var import_fuzzysort3 = __toESM(require_fuzzysort());
+function sharedGetSuggestions(files, query, settings) {
+  var _a, _b;
+  const options = [];
+  for (const file of files) {
+    if (settings.limitLinkDirectories.length > 0) {
+      let isAllowed = false;
+      for (const folder of settings.limitLinkDirectories) {
+        if (file.path.startsWith(folder)) {
+          isAllowed = true;
+          break;
+        }
+      }
+      if (!isAllowed) {
+        continue;
+      }
+    }
+    const meta = app.metadataCache.getFileCache(file);
+    if ((_a = meta == null ? void 0 : meta.frontmatter) == null ? void 0 : _a.alias) {
+      options.push({
+        fileName: file.basename,
+        filePath: file.path,
+        alias: meta.frontmatter.alias
+      });
+    } else if ((_b = meta == null ? void 0 : meta.frontmatter) == null ? void 0 : _b.aliases) {
+      let aliases = meta.frontmatter.aliases;
+      if (typeof meta.frontmatter.aliases === "string") {
+        aliases = meta.frontmatter.aliases.split(",").map((s) => s.trim());
+      }
+      for (const alias of aliases) {
+        options.push({
+          fileName: file.basename,
+          filePath: file.path,
+          alias
+        });
+      }
+    }
+    options.push({
+      fileName: file.basename,
+      filePath: file.path
+    });
+  }
+  let results = [];
+  if (!query) {
+    results = options.map((option) => ({
+      obj: option
+    })).reverse();
+  } else {
+    results = import_fuzzysort3.default.go(query, options, {
+      keys: ["alias", "fileName"]
+    });
+  }
+  if (settings.showAddNewNote && query) {
+    const hasExistingNote = results.some(
+      (result) => {
+        var _a2;
+        return ((_a2 = result == null ? void 0 : result.obj) == null ? void 0 : _a2.fileName.toLowerCase()) === (query == null ? void 0 : query.toLowerCase());
+      }
+    );
+    if (!hasExistingNote) {
+      results = results.filter(
+        (result) => {
+          var _a2;
+          return !((_a2 = result.obj) == null ? void 0 : _a2.isCreateNewOption);
+        }
+      );
+      const separator = settings.addNewNoteDirectory ? "/" : "";
+      results.push({
+        obj: {
+          isCreateNewOption: true,
+          query,
+          fileName: "Create new note",
+          filePath: `${settings.addNewNoteDirectory.trim()}${separator}${query.trim()}.md`
+        }
+      });
+    }
+  }
+  return results;
+}
+
+// src/utils/valid-file-name.ts
+var validCharRegex = /[a-z0-9\\$\\-\\_\\!\\%\\"\\'\\.\\,\\*\\&\\(\\)\\;\\{\\}\\+\\=\\~\\`\\?\\<\\>)]/i;
+var isValidFileNameCharacter = (char) => {
+  if (char === " ") {
+    return true;
+  }
+  if (char === "\\") {
+    return false;
+  }
+  return validCharRegex.test(char);
+};
+
 // src/native-suggestion/suggest-popup.ts
-var SuggestionPopup = class extends import_obsidian5.EditorSuggest {
+var SuggestionPopup = class extends import_obsidian7.EditorSuggest {
   constructor(app2, settings) {
     super(app2);
     this.firstOpenedCursor = null;
@@ -2688,82 +2900,8 @@ var SuggestionPopup = class extends import_obsidian5.EditorSuggest {
     this.focused = false;
   }
   getSuggestions(context) {
-    var _a, _b;
-    const options = [];
-    for (const file of context.file.vault.getMarkdownFiles()) {
-      if (this.settings.limitLinkDirectories.length > 0) {
-        let isAllowed = false;
-        for (const folder of this.settings.limitLinkDirectories) {
-          if (file.path.startsWith(folder)) {
-            isAllowed = true;
-            break;
-          }
-        }
-        if (!isAllowed) {
-          continue;
-        }
-      }
-      const meta = app.metadataCache.getFileCache(file);
-      if ((_a = meta == null ? void 0 : meta.frontmatter) == null ? void 0 : _a.alias) {
-        options.push({
-          fileName: file.basename,
-          filePath: file.path,
-          alias: meta.frontmatter.alias
-        });
-      } else if ((_b = meta == null ? void 0 : meta.frontmatter) == null ? void 0 : _b.aliases) {
-        let aliases = meta.frontmatter.aliases;
-        if (typeof meta.frontmatter.aliases === "string") {
-          aliases = meta.frontmatter.aliases.split(",").map((s) => s.trim());
-        }
-        for (const alias of aliases) {
-          options.push({
-            fileName: file.basename,
-            filePath: file.path,
-            alias
-          });
-        }
-      }
-      options.push({
-        fileName: file.basename,
-        filePath: file.path
-      });
-    }
-    let results = [];
-    if (!context.query) {
-      results = options.map((option) => ({
-        obj: option
-      })).reverse();
-    } else {
-      results = import_fuzzysort3.default.go(context.query, options, {
-        keys: ["alias", "fileName"]
-      });
-    }
-    if (this.settings.showAddNewNote && context.query) {
-      const hasExistingNote = results.some(
-        (result) => {
-          var _a2, _b2;
-          return ((_a2 = result == null ? void 0 : result.obj) == null ? void 0 : _a2.fileName.toLowerCase()) === ((_b2 = context.query) == null ? void 0 : _b2.toLowerCase());
-        }
-      );
-      if (!hasExistingNote) {
-        results = results.filter(
-          (result) => {
-            var _a2;
-            return !((_a2 = result.obj) == null ? void 0 : _a2.isCreateNewOption);
-          }
-        );
-        const separator = this.settings.addNewNoteDirectory ? "/" : "";
-        results.push({
-          obj: {
-            isCreateNewOption: true,
-            query: context.query,
-            fileName: "Create new note",
-            filePath: `${this.settings.addNewNoteDirectory.trim()}${separator}${context.query.trim()}.md`
-          }
-        });
-      }
-    }
-    return results;
+    const files = context.file.vault.getMarkdownFiles();
+    return sharedGetSuggestions(files, context.query, this.settings);
   }
   onTrigger(cursor, editor) {
     var _a, _b;
@@ -2793,7 +2931,7 @@ var SuggestionPopup = class extends import_obsidian5.EditorSuggest {
     if (isInCodeBlock && !this.firstOpenedCursor) {
       return null;
     }
-    if (typedChar === "@") {
+    if (typedChar === this.settings.triggerSymbol) {
       this.firstOpenedCursor = cursor;
       return {
         start: { ...cursor, ch: cursor.ch - 1 },
@@ -2813,9 +2951,7 @@ var SuggestionPopup = class extends import_obsidian5.EditorSuggest {
     query.startsWith(" ")) {
       return this.closeSuggestion();
     }
-    if (!query || !/[a-z0-9\\$\\-\\_\\!\\%\\"\\'\\.\\,\\*\\&\\(\\)\\;\\{\\}\\+\\=\\~\\`\\?)]/i.test(
-      query
-    )) {
+    if (!query || !isValidFileNameCharacter(typedChar)) {
       return this.closeSuggestion();
     }
     return {
@@ -2825,42 +2961,10 @@ var SuggestionPopup = class extends import_obsidian5.EditorSuggest {
     };
   }
   renderSuggestion(value, el) {
-    var _a, _b, _c, _d, _e, _f, _g;
-    el.addClass("at-symbol-linking-suggestion");
-    const context = el.doc.createElement("div");
-    context.addClass("suggestion-context");
-    const title = el.doc.createElement("div");
-    title.addClass("suggestion-title");
-    if (value[0]) {
-      highlightSearch(title, value[0]);
-    } else if ((_a = value.obj) == null ? void 0 : _a.alias) {
-      title.setText((_b = value.obj) == null ? void 0 : _b.alias);
-    } else if (value[1]) {
-      highlightSearch(title, value[1]);
-    } else if ((_c = value.obj) == null ? void 0 : _c.fileName) {
-      title.setText((_d = value.obj) == null ? void 0 : _d.fileName);
-    } else {
-      title.setText("");
-    }
-    const path = el.doc.createElement("div");
-    path.addClass("suggestion-path");
-    path.setText((_f = (_e = value.obj) == null ? void 0 : _e.filePath) == null ? void 0 : _f.slice(0, -3));
-    context.appendChild(title);
-    context.appendChild(path);
-    const aux = el.doc.createElement("div");
-    aux.addClass("suggestion-aux");
-    if ((_g = value == null ? void 0 : value.obj) == null ? void 0 : _g.alias) {
-      const alias = el.doc.createElement("span");
-      alias.addClass("suggestion-flair");
-      alias.ariaLabel = "Alias";
-      (0, import_obsidian5.setIcon)(alias, "forward");
-      aux.appendChild(alias);
-    }
-    el.appendChild(context);
-    el.appendChild(aux);
+    sharedRenderSuggestion(value, el);
   }
   async selectSuggestion(value) {
-    var _a, _b, _c, _d, _e, _f, _g, _h, _i, _j;
+    var _a, _b;
     const line = ((_a = this.context) == null ? void 0 : _a.editor.getRange(
       {
         line: this.context.start.line,
@@ -2868,56 +2972,14 @@ var SuggestionPopup = class extends import_obsidian5.EditorSuggest {
       },
       this.context.end
     )) || "";
-    let linkFile;
-    if ((_b = value == null ? void 0 : value.obj) == null ? void 0 : _b.isCreateNewOption) {
-      let newNoteContents = "";
-      if (this.settings.addNewNoteTemplateFile) {
-        const fileTemplate = this.app.vault.getAbstractFileByPath(
-          `${this.settings.addNewNoteTemplateFile}.md`
-        );
-        newNoteContents = await this.app.vault.read(fileTemplate) || "";
-        newNoteContents = await replaceNewFileVars(
-          this.app,
-          newNoteContents,
-          fileNameNoExtension((_c = value.obj) == null ? void 0 : _c.filePath)
-        );
-      }
-      try {
-        linkFile = await this.app.vault.create(
-          (_d = value.obj) == null ? void 0 : _d.filePath,
-          newNoteContents
-        );
-        value.obj.alias = (_e = value.obj) == null ? void 0 : _e.query;
-      } catch (error) {
-        new import_obsidian5.Notice(
-          `Unable to create new note at path: ${(_f = value.obj) == null ? void 0 : _f.filePath}. Please open an issue on GitHub, https://github.com/Ebonsignori/obsidian-at-symbol-linking/issues`,
-          0
-        );
-        throw error;
-      }
-    }
-    const currentFile = this.app.workspace.getActiveFile();
-    if (!linkFile) {
-      linkFile = this.app.vault.getAbstractFileByPath(
-        (_g = value.obj) == null ? void 0 : _g.filePath
-      );
-    }
-    let alias = ((_h = value.obj) == null ? void 0 : _h.alias) || ((_i = value.obj) == null ? void 0 : _i.fileName);
-    if (this.settings.includeSymbol)
-      alias = `@${alias}`;
-    let linkText = this.app.fileManager.generateMarkdownLink(
-      linkFile,
-      (currentFile == null ? void 0 : currentFile.path) || "",
-      void 0,
-      // we don't care about the subpath
-      alias
+    const linkText = await sharedSelectSuggestion(
+      this.app,
+      this.settings,
+      value
     );
-    if (linkText.includes("\n")) {
-      linkText = linkText.replace(/\n/g, "");
-    }
-    (_j = this.context) == null ? void 0 : _j.editor.replaceRange(
+    (_b = this.context) == null ? void 0 : _b.editor.replaceRange(
       linkText,
-      { line: this.context.start.line, ch: line.lastIndexOf("@") },
+      { line: this.context.start.line, ch: line.lastIndexOf(this.settings.triggerSymbol) },
       this.context.end
     );
     this.closeSuggestion();
@@ -3077,11 +3139,10 @@ function applyHotKeyHack(_this, app2) {
 // src/compatibility-mode-extension/extension-handler.ts
 var import_language2 = require("@codemirror/language");
 var import_view = require("@codemirror/view");
-var import_obsidian7 = require("obsidian");
+var import_obsidian9 = require("obsidian");
 
 // src/compatibility-mode-extension/extension-popup.ts
-var import_obsidian6 = require("obsidian");
-var import_fuzzysort4 = __toESM(require_fuzzysort());
+var import_obsidian8 = require("obsidian");
 var Suggest2 = class {
   constructor(owner, containerEl, scope) {
     this.owner = owner;
@@ -3163,10 +3224,10 @@ var LinkSuggest = class {
     this.app = app2;
     this.inputEl = inputEl;
     this.settings = settings;
-    this.scope = new import_obsidian6.Scope();
+    this.scope = new import_obsidian8.Scope();
     this.onSelect = onSelect;
     this.suggestEl = createDiv("suggestion-container");
-    if (import_obsidian6.Platform.isMobile) {
+    if (import_obsidian8.Platform.isMobile) {
       this.suggestEl.style.padding = "0";
     } else {
       this.suggestEl.addClass("extension-container-at-symbol-linking");
@@ -3197,14 +3258,14 @@ var LinkSuggest = class {
     this.app.keymap.pushScope(this.scope);
     container.appendChild(this.suggestEl);
     this.popper = createPopper(inputEl, this.suggestEl, {
-      placement: import_obsidian6.Platform.isMobile ? "top" : "bottom-start",
+      placement: import_obsidian8.Platform.isMobile ? "top" : "bottom-start",
       modifiers: [
         {
           name: "flip",
           options: {
             flipVariations: false,
             fallbackPlacements: [
-              import_obsidian6.Platform.isMobile ? "top" : "right"
+              import_obsidian8.Platform.isMobile ? "top" : "right"
             ]
           }
         },
@@ -3212,7 +3273,7 @@ var LinkSuggest = class {
           name: "sameWidth",
           enabled: true,
           fn: ({ state, instance }) => {
-            const targetWidth = import_obsidian6.Platform.isMobile ? "100vw" : `${state.rects.reference.width}px`;
+            const targetWidth = import_obsidian8.Platform.isMobile ? "100vw" : `${state.rects.reference.width}px`;
             if (state.styles.popper.width === targetWidth) {
               return;
             }
@@ -3238,168 +3299,18 @@ var LinkSuggest = class {
     this.inputEl.removeEventListener("blur", this.close.bind(this));
   }
   getSuggestions(query) {
-    var _a, _b;
-    const options = [];
-    for (const file of this.app.vault.getMarkdownFiles()) {
-      if (this.settings.limitLinkDirectories.length > 0) {
-        let isAllowed = false;
-        for (const folder of this.settings.limitLinkDirectories) {
-          if (file.path.startsWith(folder)) {
-            isAllowed = true;
-            break;
-          }
-        }
-        if (!isAllowed) {
-          continue;
-        }
-      }
-      const meta = app.metadataCache.getFileCache(file);
-      if ((_a = meta == null ? void 0 : meta.frontmatter) == null ? void 0 : _a.alias) {
-        options.push({
-          fileName: file.basename,
-          filePath: file.path,
-          alias: meta.frontmatter.alias
-        });
-      } else if ((_b = meta == null ? void 0 : meta.frontmatter) == null ? void 0 : _b.aliases) {
-        let aliases = meta.frontmatter.aliases;
-        if (typeof meta.frontmatter.aliases === "string") {
-          aliases = meta.frontmatter.aliases.split(",").map((s) => s.trim());
-        }
-        for (const alias of aliases) {
-          options.push({
-            fileName: file.basename,
-            filePath: file.path,
-            alias
-          });
-        }
-      }
-      options.push({
-        fileName: file.basename,
-        filePath: file.path
-      });
-    }
-    let results = [];
-    if (!query) {
-      results = options.map((option) => ({
-        obj: option
-      })).reverse();
-    } else {
-      results = import_fuzzysort4.default.go(query, options, {
-        keys: ["alias", "fileName"]
-      });
-    }
-    if (this.settings.showAddNewNote && query) {
-      const hasExistingNote = results.some(
-        (result) => {
-          var _a2;
-          return ((_a2 = result == null ? void 0 : result.obj) == null ? void 0 : _a2.fileName.toLowerCase()) === (query == null ? void 0 : query.toLowerCase());
-        }
-      );
-      if (!hasExistingNote) {
-        results = results.filter(
-          (result) => {
-            var _a2;
-            return !((_a2 = result.obj) == null ? void 0 : _a2.isCreateNewOption);
-          }
-        );
-        const separator = this.settings.addNewNoteDirectory ? "/" : "";
-        results.push({
-          obj: {
-            isCreateNewOption: true,
-            query,
-            fileName: "Create new note",
-            filePath: `${this.settings.addNewNoteDirectory.trim()}${separator}${query.trim()}.md`
-          }
-        });
-      }
-    }
-    return results;
+    const files = this.app.vault.getMarkdownFiles();
+    return sharedGetSuggestions(files, query, this.settings);
   }
   renderSuggestion(value, el) {
-    var _a, _b, _c, _d, _e, _f, _g;
-    el.addClass("at-symbol-linking-suggestion");
-    const context = el.doc.createElement("div");
-    context.addClass("suggestion-context");
-    context.id = "at-symbol-suggestion-context";
-    const title = el.doc.createElement("div");
-    title.addClass("suggestion-title");
-    if (value[0]) {
-      highlightSearch(title, value[0]);
-    } else if ((_a = value.obj) == null ? void 0 : _a.alias) {
-      title.setText((_b = value.obj) == null ? void 0 : _b.alias);
-    } else if (value[1]) {
-      highlightSearch(title, value[1]);
-    } else if ((_c = value.obj) == null ? void 0 : _c.fileName) {
-      title.setText((_d = value.obj) == null ? void 0 : _d.fileName);
-    } else {
-      title.setText("");
-    }
-    const path = el.doc.createElement("div");
-    path.addClass("suggestion-path");
-    path.setText((_f = (_e = value.obj) == null ? void 0 : _e.filePath) == null ? void 0 : _f.slice(0, -3));
-    context.appendChild(title);
-    context.appendChild(path);
-    const aux = el.doc.createElement("div");
-    aux.addClass("suggestion-aux");
-    if ((_g = value == null ? void 0 : value.obj) == null ? void 0 : _g.alias) {
-      const alias = el.doc.createElement("span");
-      alias.addClass("suggestion-flair");
-      alias.ariaLabel = "Alias";
-      (0, import_obsidian6.setIcon)(alias, "forward");
-      aux.appendChild(alias);
-    }
-    el.appendChild(context);
-    el.appendChild(aux);
+    sharedRenderSuggestion(value, el);
   }
   async selectSuggestion(value) {
-    var _a, _b, _c, _d, _e, _f, _g, _h;
-    let linkFile;
-    if ((_a = value == null ? void 0 : value.obj) == null ? void 0 : _a.isCreateNewOption) {
-      let newNoteContents = "";
-      if (this.settings.addNewNoteTemplateFile) {
-        const fileTemplate = this.app.vault.getAbstractFileByPath(
-          `${this.settings.addNewNoteTemplateFile}.md`
-        );
-        newNoteContents = await this.app.vault.read(fileTemplate) || "";
-        newNoteContents = await replaceNewFileVars(
-          this.app,
-          newNoteContents,
-          fileNameNoExtension((_b = value.obj) == null ? void 0 : _b.filePath)
-        );
-      }
-      try {
-        linkFile = await this.app.vault.create(
-          (_c = value.obj) == null ? void 0 : _c.filePath,
-          newNoteContents
-        );
-        value.obj.alias = (_d = value.obj) == null ? void 0 : _d.query;
-      } catch (error) {
-        new import_obsidian6.Notice(
-          `Unable to create new note at path: ${(_e = value.obj) == null ? void 0 : _e.filePath}. Please open an issue on GitHub, https://github.com/Ebonsignori/obsidian-at-symbol-linking/issues`,
-          0
-        );
-        throw error;
-      }
-    }
-    const currentFile = this.app.workspace.getActiveFile();
-    if (!linkFile) {
-      linkFile = this.app.vault.getAbstractFileByPath(
-        (_f = value.obj) == null ? void 0 : _f.filePath
-      );
-    }
-    let alias = ((_g = value.obj) == null ? void 0 : _g.alias) || ((_h = value.obj) == null ? void 0 : _h.fileName);
-    if (this.settings.includeSymbol)
-      alias = `@${alias}`;
-    let linkText = this.app.fileManager.generateMarkdownLink(
-      linkFile,
-      (currentFile == null ? void 0 : currentFile.path) || "",
-      void 0,
-      // we don't care about the subpath
-      alias
+    const linkText = await sharedSelectSuggestion(
+      this.app,
+      this.settings,
+      value
     );
-    if (linkText.includes("\n")) {
-      linkText = linkText.replace(/\n/g, "");
-    }
     this.onSelect(linkText);
   }
 };
@@ -3475,12 +3386,12 @@ function atSymbolTriggerExtension(app2, settings) {
         if (!isInValidContext) {
           return false;
         }
-        if (!this.isOpen && typedChar === "@") {
+        if (!this.isOpen && typedChar === settings.triggerSymbol) {
           return this.openSuggestion();
         } else if (!this.isOpen) {
           return false;
         }
-        const code = event.code.toLowerCase();
+        const key = event.key.toLowerCase();
         if (typedChar === "Backspace") {
           if (this.openQuery.length === 0) {
             return this.closeSuggestion();
@@ -3488,10 +3399,10 @@ function atSymbolTriggerExtension(app2, settings) {
           this.openQuery = this.openQuery.slice(0, -1);
         } else if (typedChar === "Escape") {
           this.closeSuggestion();
-        } else if (code.includes("key") || code.includes("digit") || code == "space") {
-          this.openQuery += typedChar;
-        } else {
+        } else if (!isValidFileNameCharacter(typedChar) || event.altKey || event.metaKey || event.ctrlKey || key.includes("backspace") || key.includes("shift") || key.includes("arrow")) {
           return false;
+        } else {
+          this.openQuery += typedChar;
         }
         if (this.openQuery.split(" ").length - 1 > settings.leavePopupOpenForXSpaces || // Also close if the query starts with a space, regardless of space settings
         this.openQuery.startsWith(" ")) {
@@ -3505,7 +3416,7 @@ function atSymbolTriggerExtension(app2, settings) {
           this.suggestionEl.id = "at-symbol-suggestion-root";
           this.suggestionEl.style.width = "0px";
           this.suggestionEl.style.height = "0px";
-          if (import_obsidian7.Platform.isDesktop) {
+          if (import_obsidian9.Platform.isDesktop) {
             const { left: leftOffset, top: topOffset } = this.view.coordsAtPos(
               (_g = this.firstOpenedCursor) == null ? void 0 : _g.ch
             );
@@ -3590,7 +3501,7 @@ function atSymbolTriggerExtension(app2, settings) {
 }
 
 // src/main.ts
-var AtSymbolLinking = class extends import_obsidian8.Plugin {
+var AtSymbolLinking = class extends import_obsidian10.Plugin {
   constructor() {
     super(...arguments);
     this.reloadingPlugins = false;
@@ -3615,23 +3526,31 @@ var AtSymbolLinking = class extends import_obsidian8.Plugin {
         )
       );
     } else {
-      this._suggestionPopup = new SuggestionPopup(this.app, this.settings);
+      this._suggestionPopup = new SuggestionPopup(
+        this.app,
+        this.settings
+      );
       this.registerEditorSuggest(this._suggestionPopup);
       applyHotKeyHack(this, this.app);
     }
   }
   // Since we can disable/enable modes that register and unregister an editor extension in settings
   // We need to reload the plugin to unregister the existing extension when settings are changed
-  async reloadPlugin() {
+  async reloadPlugin(shouldReset) {
     var _a;
+    if (!shouldReset) {
+      return;
+    }
     if (this.reloadingPlugins)
       return;
     this.reloadingPlugins = true;
     const plugins = this.app.plugins;
-    if (!((_a = plugins == null ? void 0 : plugins.enabledPlugins) == null ? void 0 : _a.has(this.manifest.id)))
+    if (!((_a = plugins == null ? void 0 : plugins.enabledPlugins) == null ? void 0 : _a.has(this.manifest.id))) {
       return;
+    }
     await plugins.disablePlugin(this.manifest.id);
     try {
+      await new Promise((resolve) => setTimeout(resolve, 100));
       await plugins.enablePlugin(this.manifest.id);
     } catch (error) {
     }
