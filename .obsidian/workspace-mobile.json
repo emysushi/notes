@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "6337f5038805e0f8",
+        "id": "a6bb74b75d4e5eee",
         "type": "tabs",
         "children": [
           {
-            "id": "9c6979dfc7fb0d7c",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "576bca2ef76346e1",
+            "id": "64f0e1f203e8a09d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Svt/study_Construction parasismiques.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Crypto/Crypto_introduction.md",
+            "file": "Svt/study_Construction parasismiques.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -117,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Crypto/Crypto_introduction.md",
+            "file": "Svt/study_Construction parasismiques.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -129,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Crypto/Crypto_introduction.md"
+            "file": "Svt/study_Construction parasismiques.md"
           }
         }
       },
@@ -171,8 +156,9 @@
       "birthday-tracker:Open year overview": false
     }
   },
-  "active": "576bca2ef76346e1",
+  "active": "64f0e1f203e8a09d",
   "lastOpenFiles": [
+    "Svt/study_Construction parasismiques.md",
     "Home.md",
     "Dictionary/blasheme.md"
   ]
