@@ -11,44 +11,17 @@
             "id": "04f104bbffe7dac6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3efefa064fff26f2",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "manuel histoire/study_histoire de l'union européenne.md",
+                "file": "Crypto/Crypto_introduction.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "54b8d8536e945fe2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Francais/Le Horla.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a5bc0efd006e6069",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
+              },
+              "icon": "lucide-file",
+              "title": "Crypto_introduction"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -67,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -83,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -91,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -114,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Crypto/Crypto_introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Crypto_introduction"
             }
           },
           {
@@ -130,9 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Crypto/Crypto_introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Crypto_introduction"
             }
           },
           {
@@ -142,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -151,7 +141,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Crypto/Crypto_introduction.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Crypto_introduction"
             }
           },
           {
@@ -159,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "online.tokuhirom.obsidian-pomodoro-plugin",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -167,7 +166,9 @@
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -175,11 +176,43 @@
             "type": "leaf",
             "state": {
               "type": "Birthday-Tracker",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "697b1fc65fdda0b1",
+            "type": "leaf",
+            "state": {
+              "type": "online.tokuhirom.obsidian-pomodoro-plugin",
+              "state": {},
+              "icon": "clock",
+              "title": "Pomodoro timer"
+            }
+          },
+          {
+            "id": "5042399f65d950f0",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo"
+            }
+          },
+          {
+            "id": "79b8246769b4b724",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -188,6 +221,11 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "templater-obsidian:Templater": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-gallery:Gallery": false,
@@ -196,21 +234,19 @@
       "obsidian-translator:Translate": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "birthday-tracker:Track birthdays": false,
+      "birthday-tracker:Open year overview": false,
       "homepage:Open homepage": false,
       "obsidian-wordnet-plugin:WordNet Dictionary": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-memos:Memos": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5bc0efd006e6069",
+  "active": "04f104bbffe7dac6",
   "lastOpenFiles": [
-    "Francais/Le Horla.md",
     "manuel histoire/study_histoire de l'union européenne.md",
+    "Francais/Le Horla.md",
     "Home.md",
+    "Dictionary_French.md",
+    "Dictionary_English.md",
     "Physique-Chimie/lesson_le Volt.md",
     "manuel Emc/study_la responsabilité.md",
     "manuel geo/study_null.md",
@@ -234,8 +270,6 @@
     "manuel Emc/study_Les droits de l'homme.md",
     "manuel Emc/study_Etat de droit.md",
     "manuel Emc/study_citoyen et l'éléction.md",
-    "manuel Emc/study_la fraternité nationale.md",
-    "Histoire-Geographie/lesson_commerce maritime au 18-ème.md",
     "manuel geo",
     "manuel histoire",
     "feed back",

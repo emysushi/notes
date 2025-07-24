@@ -1,5 +1,313 @@
-var w=Object.defineProperty;var y=Object.getOwnPropertyDescriptor;var N=Object.getOwnPropertyNames;var D=Object.prototype.hasOwnProperty;var C=(a,s)=>{for(var t in s)w(a,t,{get:s[t],enumerable:!0})},v=(a,s,t,e)=>{if(s&&typeof s=="object"||typeof s=="function")for(let o of N(s))!D.call(a,o)&&o!==t&&w(a,o,{get:()=>s[o],enumerable:!(e=y(s,o))||e.enumerable});return a};var x=a=>v(w({},"__esModule",{value:!0}),a);var r=(a,s,t)=>new Promise((e,o)=>{var i=d=>{try{g(t.next(d))}catch(S){o(S)}},n=d=>{try{g(t.throw(d))}catch(S){o(S)}},g=d=>d.done?e(d.value):Promise.resolve(d.value).then(i,n);g((t=t.apply(a,s)).next())});var W={};C(W,{default:()=>T});module.exports=x(W);var E=require("obsidian");var u=require("obsidian"),c=class extends u.EditorSuggest{constructor(t){super(t.app);this.plugin=t,this.updatePattern()}updatePattern(){this.pattern=new RegExp(`.*${this.plugin.settings.slashCommandShortcut}(.*)$`)}onTrigger(t,e,o){if(this.plugin.settings.slashCommandEnabled===!1)return;let i=e.getRange({line:t.line,ch:0},{line:t.line,ch:t.ch}),n=this.pattern.exec(i);if(n){let g=n[1];return this.lastEditorSuggestTriggerInfo={start:{line:t.line,ch:t.ch-g.length-this.plugin.settings.slashCommandShortcut.length},end:{line:t.line,ch:t.ch},query:n[1]},this.lastEditorSuggestTriggerInfo}else return null}getSuggestions(t){return this.plugin.dictionarySuggestor.query(t.query)}renderSuggestion(t,e){e.createEl("b",{text:t.Term}),e.createEl("br"),e.appendText(t.Definition)}selectSuggestion(t,e){let o=this.plugin.app.workspace.getActiveViewOfType(u.MarkdownView);this.close(),e.ctrlKey?(new u.Notice(t.Term+` 
-`+t.Definition,6e4),o.editor.replaceRange("",this.lastEditorSuggestTriggerInfo.start,this.lastEditorSuggestTriggerInfo.end)):o.editor.replaceRange(this.plugin.renderDefinitionFromTemplate(t.Term,t.Definition),this.lastEditorSuggestTriggerInfo.start,this.lastEditorSuggestTriggerInfo.end)}};var l=require("obsidian");var p=class extends l.FuzzySuggestModal{constructor(t){super(t.app);this.plugin=t,this.setPlaceholder("type word to lookup in WordNet"),setTimeout(()=>r(this,null,function*(){let e=this.plugin.manifest.dir+"/dict-WordNet.json",o=this.app.vault.adapter;if(yield o.exists(e)){let i=yield o.read(e);this.wordNet=yield JSON.parse(i)}else if(navigator.onLine===!1)new l.Notice("You do not have an internet connection, and the WordNet dictionary cannot be downloaded. Please restore your interent connection and resteart Obsidian",3e4),this.plugin.unload();else{let i=new l.Notice("WordNet dictionary is being downloaded, this may take a few minutes. This message will disappear when the process is complete.",0);try{let n=yield(0,l.request)({url:"https://github.com/TfTHacker/Obsidian-WordNet/releases/download/WordNetJson/dict-WordNet.json"});i.hide(),n==="Not Found"||n==='{"error":"Not Found"}'?(new l.Notice("The WordNet dictionary file is not currently available for download. Please try again later or contact the developer on Twitter: @TfThacker for support.",3e4),this.plugin.unload()):(this.wordNet=yield JSON.parse(n),yield o.write(e,JSON.stringify(this.wordNet)))}catch(n){console.log(`Error in WordNet dictinary: ${n}`),new l.Notice(`An error has occured with the download, please try again later: ${n}`),this.plugin.unload()}}if(yield o.exists(this.plugin.manifest.dir+"/dict-MyDict.json")){let i=yield o.read(this.plugin.manifest.dir+"/dict-MyDict.json");this.customDict=yield JSON.parse(i)}else this.customDict=null}),10)}query(t){let e=[],o=t.toLocaleLowerCase(),i=0;if(this.customDict!=null)for(let n=0;n<this.customDict.length&&i<30;n++)this.customDict[n].SearchTerm.startsWith(o)&&(e.push(this.customDict[n]),i++);i=0;for(let n=0;n<this.wordNet.length&&i<20;n++)this.wordNet[n].SearchTerm.startsWith(o)&&(e.push(this.wordNet[n]),i++);return e}getItems(){let t="";if(this.inputEl.value.trim().length==0){let e=this.app.workspace.getActiveViewOfType(l.MarkdownView);e!=null&&e.getMode()!=null&&e.editor.somethingSelected()&&(t=e.editor.getSelection(),this.inputEl.value=t,this.inputEl.setSelectionRange(0,t.length))}else t=this.inputEl.value.trim();return t===""?[]:this.query(t)}getItemText(t){return t.SearchTerm}onChooseItem(t,e){}renderSuggestion(t,e){e.createEl("b",{text:t.item.Term}),e.createEl("br"),e.appendText(t.item.Definition)}onChooseSuggestion(t,e){let o=this.plugin.app.workspace.getActiveViewOfType(l.MarkdownView);o!=null&&o.getMode()==="source"?o.editor.replaceSelection(this.plugin.renderDefinitionFromTemplate(t.item.Term,t.item.Definition)):new l.Notice(t.item.Term+` 
-`+t.item.Definition,1e4)}};var m=require("obsidian"),b=require("obsidian");var h={enableRibbon:!0,slashCommandEnabled:!0,slashCommandShortcut:";;",insertTemplate:`**{term}**
-{definition}
-`},f=class extends b.PluginSettingTab{constructor(t,e){super(t,e);this.plugin=e}display(){let{containerEl:t}=this;t.empty(),t.createEl("h2",{text:"Obsidian42 - WordNet Dictionary Setting"}),t.createEl("b",{text:"Ribbon Support"}),new m.Setting(t).setName("Enable Ribbon Support").setDesc("Toggle on and off the WordNet dictionary button in the ribbon.").addToggle(i=>{i.setValue(this.plugin.settings.enableRibbon),i.onChange(n=>r(this,null,function*(){this.plugin.settings.enableRibbon=n,this.plugin.settings.enableRibbon===!1?this.plugin.ribbonIcon.remove():this.plugin.configureRibbonCommand(),yield this.plugin.saveSettings()}))}),t.createEl("b",{text:"Slash Command"}),new m.Setting(t).setName("Enable the Slash Command").setDesc("Toggle on and off the slash command.").addToggle(i=>{i.setValue(this.plugin.settings.slashCommandEnabled),i.onChange(n=>r(this,null,function*(){this.plugin.settings.slashCommandEnabled=n,yield this.plugin.saveSettings()}))});let e;new m.Setting(t).setName("Slash Command Characters").setDesc("The characters that will invoke the slash command. The command character cannot be a space.").addExtraButton(i=>{i.setIcon("reset").setTooltip("Reset to default").onClick(()=>r(this,null,function*(){this.plugin.settings.slashCommandShortcut=h.slashCommandShortcut,yield this.plugin.saveSettings(),this.plugin.editSuggester.updatePattern(),e.setValue(this.plugin.settings.slashCommandShortcut)}))}).addText(i=>{e=i,i.setValue(this.plugin.settings.slashCommandShortcut),i.onChange(n=>r(this,null,function*(){let g=n.trim().length===0?h.slashCommandShortcut:n;this.plugin.settings.slashCommandShortcut=g,yield this.plugin.saveSettings(),this.plugin.editSuggester.updatePattern()}))}),t.createEl("b",{text:"Template"});let o;new m.Setting(t).setName("Template for inserting a definition").setDesc("The template used for inserting a WordNet definition. Use {term} for the term looked up and {definition} for the defintion of that term.").addExtraButton(i=>{i.setIcon("reset").setTooltip("Reset to default").onClick(()=>r(this,null,function*(){this.plugin.settings.insertTemplate=h.insertTemplate,yield this.plugin.saveSettings(),o.setValue(this.plugin.settings.insertTemplate)}))}).addTextArea(i=>{o=i,i.setValue(this.plugin.settings.insertTemplate),i.onChange(n=>r(this,null,function*(){let g=n.trim().length===0?h.insertTemplate:n;this.plugin.settings.insertTemplate=g,yield this.plugin.saveSettings()})),i.inputEl.rows=2,i.inputEl.cols=40})}};var T=class extends E.Plugin{configureRibbonCommand(){this.ribbonIcon=this.addRibbonIcon("book-open-check","WordNet Dictionary",()=>r(this,null,function*(){this.dictionarySuggestor.open()}))}onload(){return r(this,null,function*(){console.log("loading WordNet plugin"),yield this.loadSettings(),this.addSettingTab(new f(this.app,this)),this.dictionarySuggestor=new p(this),this.settings.enableRibbon&&this.configureRibbonCommand(),this.addCommand({id:"open-wordnet-suggestor",name:"Look up a word",callback:()=>{this.dictionarySuggestor.open()}}),this.editSuggester=new c(this),this.registerEditorSuggest(this.editSuggester)})}onunload(){console.log("unloading WordNet plugin")}renderDefinitionFromTemplate(t,e){return this.settings.insertTemplate.replace("{term}",t).replace("{definition}",e)}loadSettings(){return r(this,null,function*(){this.settings=Object.assign({},h,yield this.loadData())})}saveSettings(){return r(this,null,function*(){yield this.saveData(this.settings)})}};
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// src/main.ts
+var main_exports = {};
+__export(main_exports, {
+  default: () => WordNetPlugin
+});
+module.exports = __toCommonJS(main_exports);
+var import_obsidian5 = require("obsidian");
+
+// src/EditSuggest.ts
+var import_obsidian = require("obsidian");
+var TheEditorSuggestor = class extends import_obsidian.EditorSuggest {
+  constructor(plugin) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.updatePattern();
+  }
+  updatePattern() {
+    this.pattern = new RegExp(
+      `.*${this.plugin.settings.slashCommandShortcut}(.*)$`
+    );
+  }
+  onTrigger(cursor, editor, _file) {
+    if (this.plugin.settings.slashCommandEnabled === false) return;
+    const range = editor.getRange(
+      { line: cursor.line, ch: 0 },
+      { line: cursor.line, ch: cursor.ch }
+    );
+    const testResults = this.pattern.exec(range);
+    if (!testResults) return null;
+    const suggestText = testResults[1];
+    this.lastEditorSuggestTriggerInfo = {
+      start: {
+        line: cursor.line,
+        ch: cursor.ch - suggestText.length - this.plugin.settings.slashCommandShortcut.length
+      },
+      end: { line: cursor.line, ch: cursor.ch },
+      query: testResults[1]
+    };
+    return this.lastEditorSuggestTriggerInfo;
+  }
+  getSuggestions(context) {
+    return this.plugin.dictionarySuggestor.query(context.query);
+  }
+  renderSuggestion(item, el) {
+    el.createEl("b", { text: item.Term });
+    el.createEl("br");
+    el.appendText(item.Definition);
+  }
+  selectSuggestion(item, evt) {
+    const currentView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian.MarkdownView);
+    this.close();
+    if (evt.ctrlKey) {
+      new import_obsidian.Notice(`${item.Term} 
+${item.Definition}`, 6e4);
+      currentView.editor.replaceRange(
+        "",
+        this.lastEditorSuggestTriggerInfo.start,
+        this.lastEditorSuggestTriggerInfo.end
+      );
+    } else
+      currentView.editor.replaceRange(
+        this.plugin.renderDefinitionFromTemplate(item.Term, item.Definition),
+        this.lastEditorSuggestTriggerInfo.start,
+        this.lastEditorSuggestTriggerInfo.end
+      );
+  }
+};
+
+// src/settings.ts
+var import_obsidian2 = require("obsidian");
+var import_obsidian3 = require("obsidian");
+var DEFAULT_SETTINGS = {
+  slashCommandEnabled: true,
+  slashCommandShortcut: ";;",
+  insertTemplate: "**{term}**\n{definition}\n"
+};
+var WordNetSettingTab = class extends import_obsidian3.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    new import_obsidian2.Setting(containerEl).setName("Slash command").setDesc("Enable the slash command for WordNet.").addToggle((cb) => {
+      cb.setValue(this.plugin.settings.slashCommandEnabled);
+      cb.onChange(async (value) => {
+        this.plugin.settings.slashCommandEnabled = value;
+        await this.plugin.saveSettings();
+      });
+    });
+    let cbShortcut;
+    new import_obsidian2.Setting(containerEl).setName("Slash command characters").setDesc(
+      "The characters that will invoke the slash command. The command character cannot be a space."
+    ).addExtraButton((b) => {
+      b.setIcon("reset").setTooltip("Reset to default").onClick(async () => {
+        this.plugin.settings.slashCommandShortcut = DEFAULT_SETTINGS.slashCommandShortcut;
+        await this.plugin.saveSettings();
+        this.plugin.editSuggester.updatePattern();
+        cbShortcut.setValue(this.plugin.settings.slashCommandShortcut);
+      });
+    }).addText((cb) => {
+      cbShortcut = cb;
+      cb.setValue(this.plugin.settings.slashCommandShortcut);
+      cb.onChange(async (value) => {
+        const newValue = value.trim().length === 0 ? DEFAULT_SETTINGS.slashCommandShortcut : value;
+        this.plugin.settings.slashCommandShortcut = newValue;
+        await this.plugin.saveSettings();
+        this.plugin.editSuggester.updatePattern();
+      });
+    });
+    let cbTemplate;
+    new import_obsidian2.Setting(containerEl).setName("Template for inserting a definition").setDesc(
+      "The template used for inserting a WordNet definition. Use {term} for the term looked up and {definition} for the defintion of that term."
+    ).addExtraButton((b) => {
+      b.setIcon("reset").setTooltip("Reset to default").onClick(async () => {
+        this.plugin.settings.insertTemplate = DEFAULT_SETTINGS.insertTemplate;
+        await this.plugin.saveSettings();
+        cbTemplate.setValue(this.plugin.settings.insertTemplate);
+      });
+    }).addTextArea((cb) => {
+      cbTemplate = cb;
+      cb.setValue(this.plugin.settings.insertTemplate);
+      cb.onChange(async (value) => {
+        const newValue = value.trim().length === 0 ? DEFAULT_SETTINGS.insertTemplate : value;
+        this.plugin.settings.insertTemplate = newValue;
+        await this.plugin.saveSettings();
+      });
+      cb.inputEl.rows = 2;
+      cb.inputEl.cols = 40;
+    });
+  }
+};
+
+// src/suggester.ts
+var import_obsidian4 = require("obsidian");
+var DictionarySuggester = class extends import_obsidian4.FuzzySuggestModal {
+  constructor(plugin) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.setPlaceholder("type word to lookup in WordNet");
+    setTimeout(async () => {
+      const pathWordNetJson = `${this.plugin.manifest.dir}/dict-WordNet.json`;
+      const adapter = this.app.vault.adapter;
+      if (await adapter.exists(pathWordNetJson)) {
+        const fileWordNet = await adapter.read(pathWordNetJson);
+        this.wordNet = await JSON.parse(fileWordNet);
+      } else {
+        if (navigator.onLine === false) {
+          new import_obsidian4.Notice(
+            "You do not have an internet connection, and the WordNet dictionary cannot be downloaded. Please restore your interent connection and resteart Obsidian",
+            3e4
+          );
+          this.plugin.unload();
+        } else {
+          const downloadMessage = new import_obsidian4.Notice(
+            "WordNet dictionary is being downloaded, this may take a few minutes. This message will disappear when the process is complete.",
+            0
+          );
+          try {
+            const response = await (0, import_obsidian4.request)({
+              url: "https://github.com/TfTHacker/Obsidian-WordNet/releases/download/WordNetJson/dict-WordNet.json"
+            });
+            downloadMessage.hide();
+            if (response === "Not Found" || response === `{"error":"Not Found"}`) {
+              new import_obsidian4.Notice(
+                "The WordNet dictionary file is not currently available for download. Please try again later or contact the developer on Twitter: @TfThacker for support.",
+                3e4
+              );
+              this.plugin.unload();
+            } else {
+              this.wordNet = await JSON.parse(response);
+              await adapter.write(
+                pathWordNetJson,
+                JSON.stringify(this.wordNet)
+              );
+            }
+          } catch (e) {
+            new import_obsidian4.Notice(
+              `An error has occured with the download, please try again later: ${e}`
+            );
+            this.plugin.unload();
+          }
+        }
+      }
+      if (await adapter.exists(`${this.plugin.manifest.dir}/dict-MyDict.json`)) {
+        const fileCustomDict = await adapter.read(
+          `${this.plugin.manifest.dir}/dict-MyDict.json`
+        );
+        this.customDict = await JSON.parse(fileCustomDict);
+      } else this.customDict = null;
+    }, 10);
+  }
+  query(term) {
+    const results = [];
+    const searchTerm = term.toLocaleLowerCase();
+    let countOfFoundMatches = 0;
+    if (this.customDict != null) {
+      for (let i = 0; i < this.customDict.length && countOfFoundMatches < 30; i++) {
+        const item = this.customDict[i];
+        if (item.SearchTerm.startsWith(searchTerm)) {
+          results.push(this.customDict[i]);
+          countOfFoundMatches++;
+        }
+      }
+    }
+    countOfFoundMatches = 0;
+    for (let i = 0; i < this.wordNet.length && countOfFoundMatches < 20; i++) {
+      const item = this.wordNet[i];
+      if (item.SearchTerm.startsWith(searchTerm)) {
+        results.push(this.wordNet[i]);
+        countOfFoundMatches++;
+      }
+    }
+    return results;
+  }
+  getItems() {
+    let searchTerm = "";
+    if (this.inputEl.value.trim().length === 0) {
+      const currentView = this.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
+      if (currentView != null && currentView.getMode() !== void 0 && currentView.editor.somethingSelected()) {
+        searchTerm = currentView.editor.getSelection();
+        this.inputEl.value = searchTerm;
+        this.inputEl.setSelectionRange(0, searchTerm.length);
+      }
+    } else searchTerm = this.inputEl.value.trim();
+    return searchTerm === "" ? [] : this.query(searchTerm);
+  }
+  getItemText(item) {
+    return item.SearchTerm;
+  }
+  // @ts-ignore
+  onChooseItem(item, evt) {
+  }
+  renderSuggestion(item, el) {
+    el.createEl("b", { text: item.item.Term });
+    el.createEl("br");
+    el.appendText(item.item.Definition);
+  }
+  onChooseSuggestion(item, evt) {
+    const currentView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
+    if (currentView != null && currentView.getMode() === "source")
+      currentView.editor.replaceSelection(
+        this.plugin.renderDefinitionFromTemplate(
+          item.item.Term,
+          item.item.Definition
+        )
+      );
+    else new import_obsidian4.Notice(`${item.item.Term} 
+${item.item.Definition}`, 1e4);
+  }
+};
+
+// src/main.ts
+var WordNetPlugin = class extends import_obsidian5.Plugin {
+  configureRibbonCommand() {
+    this.ribbonIcon = this.addRibbonIcon(
+      "book-open-check",
+      "WordNet Dictionary",
+      async () => {
+        this.dictionarySuggestor.open();
+      }
+    );
+  }
+  async onload() {
+    console.log("loading WordNet plugin");
+    await this.loadSettings();
+    this.addSettingTab(new WordNetSettingTab(this.app, this));
+    this.dictionarySuggestor = new DictionarySuggester(this);
+    if (this.settings.enableRibbon) this.configureRibbonCommand();
+    this.addCommand({
+      id: "open-wordnet-suggestor",
+      name: "Look up a word",
+      callback: () => {
+        this.dictionarySuggestor.open();
+      }
+    });
+    this.editSuggester = new TheEditorSuggestor(this);
+    this.registerEditorSuggest(this.editSuggester);
+  }
+  onunload() {
+    console.log("unloading WordNet plugin");
+  }
+  renderDefinitionFromTemplate(term, definition) {
+    return this.settings.insertTemplate.replace("{term}", term).replace("{definition}", definition);
+  }
+  async loadSettings() {
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
+};
+
+/* nosourcemap */

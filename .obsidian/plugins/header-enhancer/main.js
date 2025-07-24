@@ -86,7 +86,13 @@ function isHeader(text) {
 // src/utils.ts
 var import_obsidian = require("obsidian");
 var YAML_REGEX = /^---\n(?:((?:.|\n)*?)\n)?---(?=\n|$)/;
-var DEFAULT_YAML_SETTING = ["state on", "start-level h2", "max-level h1", "start-number 1", "separator ."];
+var DEFAULT_YAML_SETTING = [
+  "state on",
+  "start-level h2",
+  "max-level h1",
+  "start-number 1",
+  "separator ."
+];
 function getYaml(editor) {
   var _a;
   const matchResult = editor.getValue().match(YAML_REGEX);
@@ -113,13 +119,248 @@ ${(0, import_obsidian.stringifyYaml)(parsedYaml)}---`;
 
 // src/setting.ts
 var import_obsidian2 = require("obsidian");
+
+// src/i18n/en.ts
+var en_default = {
+  settings: {
+    title: "Header Enhancer Settings",
+    general: "General",
+    language: {
+      name: "Language",
+      desc: "Language for automatic numbering"
+    },
+    statusBar: {
+      name: "Show on Status Bar",
+      desc: "Show current header level on status bar"
+    },
+    autoDetect: {
+      name: "Auto Detect Header Level",
+      desc: "Automatically detect header level based on context"
+    },
+    headerLevel: {
+      start: {
+        name: "Start Header Level",
+        desc: "The starting level for headers"
+      },
+      max: {
+        name: "Max Header Level",
+        desc: "Maximum level for headers"
+      }
+    },
+    autoNumbering: {
+      title: "Header Auto Numbering",
+      enable: {
+        name: "Enable Auto Numbering",
+        desc: "Enable automatic header numbering",
+        notice: "You can only change this option in side bar"
+      },
+      useYaml: {
+        name: "Use YAML",
+        desc: "Use YAML to control the format of header numbers"
+      },
+      headerLevel: {
+        name: "Header Level Settings",
+        desc: "Configure the header level settings"
+      },
+      startNumber: {
+        name: "Start Number",
+        desc: "Start numbering at this number",
+        placeholder: "Enter a number"
+      },
+      separator: {
+        name: "Number Separator",
+        desc: "Separator between numbers (one of '. , / -')",
+        placeholder: "Enter separator"
+      },
+      headerSeparator: {
+        name: "Header Separator",
+        desc: "Separator between header number and text",
+        error: "You can't change header separator when auto numbering is enabled"
+      },
+      format: {
+        name: "Your auto numbering format is",
+        fromLevel: "from H",
+        toLevel: "to H",
+        autoDetect: "[Auto Detect]",
+        manual: "[Manual]"
+      }
+    },
+    font: {
+      title: "Title Font Settings",
+      separate: {
+        name: "Separate Title Font",
+        desc: "Use different font settings for titles",
+        notice: "This feature is not available now, please wait for the next version"
+      },
+      family: {
+        name: "Font Family",
+        desc: "Title font family (inherit from global font by default)",
+        placeholder: "global font"
+      },
+      size: {
+        name: "Font Size",
+        desc: "Title font size (inherit from global font size by default)",
+        placeholder: "global font size"
+      }
+    },
+    reset: {
+      name: "Reset Settings",
+      confirm: "Are you sure you want to reset settings to default?"
+    },
+    moreInfo: "More Information",
+    author: "Author: ",
+    license: "License: ",
+    githubRepo: "Github Repository: ",
+    anyQuestion: "Any questions? Send feedback on "
+  }
+};
+
+// src/i18n/zh.ts
+var zh_default = {
+  settings: {
+    title: "\u6807\u9898\u589E\u5F3A\u8BBE\u7F6E",
+    general: "\u5E38\u89C4",
+    language: {
+      name: "\u8BED\u8A00",
+      desc: "\u81EA\u52A8\u7F16\u53F7\u7684\u8BED\u8A00"
+    },
+    statusBar: {
+      name: "\u5728\u72B6\u6001\u680F\u663E\u793A",
+      desc: "\u5728\u72B6\u6001\u680F\u663E\u793A\u5F53\u524D\u6807\u9898\u7EA7\u522B"
+    },
+    autoDetect: {
+      name: "\u81EA\u52A8\u68C0\u6D4B\u6807\u9898\u7EA7\u522B",
+      desc: "\u6839\u636E\u4E0A\u4E0B\u6587\u81EA\u52A8\u68C0\u6D4B\u6807\u9898\u7EA7\u522B"
+    },
+    headerLevel: {
+      start: {
+        name: "\u8D77\u59CB\u6807\u9898\u7EA7\u522B",
+        desc: "\u6807\u9898\u7684\u8D77\u59CB\u7EA7\u522B"
+      },
+      max: {
+        name: "\u6700\u5927\u6807\u9898\u7EA7\u522B",
+        desc: "\u6807\u9898\u7684\u6700\u5927\u7EA7\u522B"
+      }
+    },
+    autoNumbering: {
+      title: "\u6807\u9898\u81EA\u52A8\u7F16\u53F7",
+      enable: {
+        name: "\u542F\u7528\u81EA\u52A8\u7F16\u53F7",
+        desc: "\u542F\u7528\u6807\u9898\u81EA\u52A8\u7F16\u53F7",
+        notice: "\u6B64\u9009\u9879\u53EA\u80FD\u5728\u4FA7\u8FB9\u680F\u4E2D\u66F4\u6539"
+      },
+      useYaml: {
+        name: "\u4F7F\u7528YAML",
+        desc: "\u4F7F\u7528YAML\u63A7\u5236\u6807\u9898\u7F16\u53F7\u683C\u5F0F"
+      },
+      headerLevel: {
+        name: "\u6807\u9898\u7EA7\u522B\u8BBE\u7F6E",
+        desc: "\u914D\u7F6E\u6807\u9898\u7EA7\u522B\u8BBE\u7F6E"
+      },
+      startNumber: {
+        name: "\u8D77\u59CB\u7F16\u53F7",
+        desc: "\u81EA\u52A8\u7F16\u53F7\u7684\u8D77\u59CB\u6570\u5B57",
+        placeholder: "\u8F93\u5165\u6570\u5B57"
+      },
+      separator: {
+        name: "\u6570\u5B57\u5206\u9694\u7B26",
+        desc: "\u6570\u5B57\u4E4B\u95F4\u7684\u5206\u9694\u7B26\uFF08\u53EF\u9009 '. , / -'\uFF09",
+        placeholder: "\u8F93\u5165\u5206\u9694\u7B26"
+      },
+      headerSeparator: {
+        name: "\u6807\u9898\u5206\u9694\u7B26",
+        desc: "\u6807\u9898\u7F16\u53F7\u548C\u6587\u672C\u4E4B\u95F4\u7684\u5206\u9694\u7B26",
+        error: "\u542F\u7528\u81EA\u52A8\u7F16\u53F7\u65F6\u65E0\u6CD5\u66F4\u6539\u6807\u9898\u5206\u9694\u7B26"
+      },
+      format: {
+        name: "\u4F60\u7684\u81EA\u52A8\u7F16\u53F7\u683C\u5F0F\u662F",
+        fromLevel: "\u4ECE H",
+        toLevel: "\u5230 H",
+        autoDetect: "[\u81EA\u52A8\u68C0\u6D4B]",
+        manual: "[\u624B\u52A8]"
+      }
+    },
+    font: {
+      title: "\u6807\u9898\u5B57\u4F53\u8BBE\u7F6E",
+      separate: {
+        name: "\u72EC\u7ACB\u6807\u9898\u5B57\u4F53",
+        desc: "\u4E3A\u6807\u9898\u4F7F\u7528\u4E0D\u540C\u7684\u5B57\u4F53\u8BBE\u7F6E",
+        notice: "\u6B64\u529F\u80FD\u6682\u4E0D\u53EF\u7528\uFF0C\u8BF7\u7B49\u5F85\u4E0B\u4E00\u4E2A\u7248\u672C"
+      },
+      family: {
+        name: "\u5B57\u4F53\u7CFB\u5217",
+        desc: "\u6807\u9898\u5B57\u4F53\u7CFB\u5217\uFF08\u9ED8\u8BA4\u7EE7\u627F\u5168\u5C40\u5B57\u4F53\uFF09",
+        placeholder: "\u5168\u5C40\u5B57\u4F53"
+      },
+      size: {
+        name: "\u5B57\u4F53\u5927\u5C0F",
+        desc: "\u6807\u9898\u5B57\u4F53\u5927\u5C0F\uFF08\u9ED8\u8BA4\u7EE7\u627F\u5168\u5C40\u5B57\u4F53\u5927\u5C0F\uFF09",
+        placeholder: "\u5168\u5C40\u5B57\u4F53\u5927\u5C0F"
+      }
+    },
+    reset: {
+      name: "\u91CD\u7F6E\u8BBE\u7F6E",
+      confirm: "\u786E\u5B9A\u8981\u5C06\u8BBE\u7F6E\u91CD\u7F6E\u4E3A\u9ED8\u8BA4\u503C\u5417\uFF1F"
+    },
+    moreInfo: "\u66F4\u591A\u4FE1\u606F",
+    author: "\u4F5C\u8005\uFF1A",
+    license: "\u8BB8\u53EF\u8BC1\uFF1A",
+    githubRepo: "Github\u4ED3\u5E93\uFF1A",
+    anyQuestion: "\u6709\u4EFB\u4F55\u95EE\u9898\uFF1F\u8BF7\u5728\u8FD9\u91CC\u53CD\u9988"
+  }
+};
+
+// src/i18n/index.ts
+var translations = {
+  en: en_default,
+  zh: zh_default
+};
+var I18n = class {
+  constructor() {
+    this.currentLanguage = "en";
+  }
+  static getInstance() {
+    if (!I18n.instance) {
+      I18n.instance = new I18n();
+    }
+    return I18n.instance;
+  }
+  setLanguage(lang) {
+    if (translations[lang]) {
+      this.currentLanguage = lang;
+    }
+  }
+  t(key) {
+    const keys = key.split(".");
+    let value = translations[this.currentLanguage];
+    for (const k of keys) {
+      if (value && value[k]) {
+        value = value[k];
+      } else {
+        value = translations["en"];
+        for (const fallbackKey of keys) {
+          if (value && value[fallbackKey]) {
+            value = value[fallbackKey];
+          } else {
+            return key;
+          }
+        }
+      }
+    }
+    return typeof value === "string" ? value : key;
+  }
+};
+
+// src/setting.ts
 var DEFAULT_SETTINGS = {
   language: "en",
   showOnStatusBar: true,
+  isAutoDetectHeaderLevel: false,
+  // TODO: auto detect header level is not available now
   startHeaderLevel: 1,
   maxHeaderLevel: 6,
   isAutoNumbering: true,
-  isUseYaml: true,
+  isUseYaml: false,
   autoNumberingStartNumber: "1",
   autoNumberingSeparator: ".",
   autoNumberingHeaderSeparator: "	",
@@ -134,50 +375,64 @@ var HeaderEnhancerSettingTab = class extends import_obsidian2.PluginSettingTab {
   }
   display() {
     const { containerEl } = this;
+    const i18n = I18n.getInstance();
     containerEl.empty();
-    containerEl.createEl("h1", { text: "Header Enhancer Settings" });
-    containerEl.createEl("h2", { text: "General" });
-    new import_obsidian2.Setting(containerEl).setName("Language").setDesc("Language for automatic numbering").addDropdown((dropdown) => {
+    containerEl.createEl("h1", { text: i18n.t("settings.title") });
+    containerEl.createEl("h2", { text: i18n.t("settings.general") });
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.language.name")).setDesc(i18n.t("settings.language.desc")).addDropdown((dropdown) => {
       dropdown.addOption("en", "English");
-      dropdown.addOption("zh", "Chinese");
+      dropdown.addOption("zh", "\u4E2D\u6587");
       dropdown.setValue(this.plugin.settings.language);
       dropdown.onChange(async (value) => {
         this.plugin.settings.language = value;
+        i18n.setLanguage(value);
         await this.plugin.saveSettings();
+        this.display();
       });
     });
-    new import_obsidian2.Setting(containerEl).setName("Show on status bar").setDesc("Show automatic numbering status on status bar").addToggle((toggle) => {
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.statusBar.name")).setDesc(i18n.t("settings.statusBar.desc")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.showOnStatusBar).onChange(async (value) => {
         this.plugin.settings.showOnStatusBar = value;
         await this.plugin.saveSettings();
         this.plugin.handleShowStateBarChange();
       });
     });
-    containerEl.createEl("h2", { text: "Header Auto Numbering" });
-    new import_obsidian2.Setting(containerEl).setName("Enable").setDesc("Enable auto numbering").setDisabled(true).addToggle((toggle) => {
+    containerEl.createEl("h2", { text: i18n.t("settings.autoNumbering.title") });
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.autoNumbering.enable.name")).setDesc(i18n.t("settings.autoNumbering.enable.desc")).setDisabled(true).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.isAutoNumbering).onChange(async (value) => {
-        new import_obsidian2.Notice("You can only change this option in side bar");
+        new import_obsidian2.Notice(
+          i18n.t("settings.autoNumbering.enable.notice")
+        );
       });
     });
-    new import_obsidian2.Setting(containerEl).setName("Use yaml").setDesc("use yaml control the format of header-number.").addToggle((toggle) => {
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.autoNumbering.useYaml.name")).setDesc(i18n.t("settings.autoNumbering.useYaml.desc")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.isUseYaml).onChange(async (value) => {
         this.plugin.settings.isUseYaml = value;
         await this.plugin.saveSettings();
         this.plugin.handleShowStateBarChange();
       });
     });
-    new import_obsidian2.Setting(containerEl).setName("Numbering header level").setDesc("The range of header level to be numbered").addDropdown((dropdown) => {
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.autoNumbering.headerLevel.name")).setDesc(i18n.t("settings.autoNumbering.headerLevel.desc")).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.isAutoDetectHeaderLevel).onChange(async (value) => {
+        this.plugin.settings.isAutoDetectHeaderLevel = value;
+        await this.plugin.saveSettings();
+        this.display();
+      }).setDisabled(true);
+    }).addDropdown((dropdown) => {
       dropdown.addOption("1", "H1");
       dropdown.addOption("2", "H2");
       dropdown.addOption("3", "H3");
       dropdown.addOption("4", "H4");
       dropdown.addOption("5", "H5");
       dropdown.addOption("6", "H6");
-      dropdown.setValue(this.plugin.settings.startHeaderLevel.toString());
+      dropdown.setValue(
+        this.plugin.settings.startHeaderLevel.toString()
+      );
+      dropdown.setDisabled(this.plugin.settings.isAutoDetectHeaderLevel);
       dropdown.onChange(async (value) => {
         this.plugin.settings.startHeaderLevel = parseInt(value, 10);
         await this.plugin.saveSettings();
-        formatExample.setName("Your auto numbering format is like : 	" + this.plugin.settings.autoNumberingStartNumber + this.plugin.settings.autoNumberingSeparator + "1" + this.plugin.settings.autoNumberingSeparator + "1	from H" + this.plugin.settings.startHeaderLevel + " to H" + this.plugin.settings.maxHeaderLevel);
+        this.display();
       });
     }).addDropdown((dropdown) => {
       dropdown.addOption("1", "H1");
@@ -186,79 +441,104 @@ var HeaderEnhancerSettingTab = class extends import_obsidian2.PluginSettingTab {
       dropdown.addOption("4", "H4");
       dropdown.addOption("5", "H5");
       dropdown.addOption("6", "H6");
-      dropdown.setValue(this.plugin.settings.maxHeaderLevel.toString());
+      dropdown.setValue(
+        this.plugin.settings.maxHeaderLevel.toString()
+      );
+      dropdown.setDisabled(this.plugin.settings.isAutoDetectHeaderLevel);
       dropdown.onChange(async (value) => {
         if (this.checkMaxLevel(parseInt(value, 10))) {
-          this.plugin.settings.maxHeaderLevel = parseInt(value, 10);
+          this.plugin.settings.maxHeaderLevel = parseInt(
+            value,
+            10
+          );
           await this.plugin.saveSettings();
-          formatExample.setName("Your auto numbering format is like : 	" + this.plugin.settings.autoNumberingStartNumber + this.plugin.settings.autoNumberingSeparator + "1" + this.plugin.settings.autoNumberingSeparator + "1	from H" + this.plugin.settings.startHeaderLevel + " to H" + this.plugin.settings.maxHeaderLevel);
+          this.display();
         } else {
-          new import_obsidian2.Notice("Max header level should be greater than or equal to start header level");
+          new import_obsidian2.Notice(
+            "Max header level should be greater than or equal to start header level"
+          );
         }
       });
     });
-    new import_obsidian2.Setting(containerEl).setName("Start number").setDesc("Start numbering at this number").addText((text) => text.setPlaceholder("Enter your secret").setValue(this.plugin.settings.autoNumberingStartNumber).onChange(async (value) => {
-      if (this.checkStartNumber(value)) {
-        this.plugin.settings.autoNumberingStartNumber = value;
-        await this.plugin.saveSettings();
-        formatExample.setName("Your auto numbering format is like : 	" + this.plugin.settings.autoNumberingStartNumber + this.plugin.settings.autoNumberingSeparator + "1" + this.plugin.settings.autoNumberingSeparator + "1	from H" + this.plugin.settings.startHeaderLevel + " to H" + this.plugin.settings.maxHeaderLevel);
-      } else {
-        new import_obsidian2.Notice("Start number should be a number");
-      }
-    }));
-    new import_obsidian2.Setting(containerEl).setName("Separator").setDesc("Separator between numbers. Only support one of '. , / -'").addText((text) => text.setPlaceholder("Enter your separator").setValue(this.plugin.settings.autoNumberingSeparator).onChange(async (value) => {
-      if (this.checkSeparator(value)) {
-        this.plugin.settings.autoNumberingSeparator = value;
-        await this.plugin.saveSettings();
-        formatExample.setName("Your auto numbering format is like : 	" + this.plugin.settings.autoNumberingStartNumber + this.plugin.settings.autoNumberingSeparator + "1" + this.plugin.settings.autoNumberingSeparator + "1	from H" + this.plugin.settings.startHeaderLevel + " to H" + this.plugin.settings.maxHeaderLevel);
-      } else {
-        new import_obsidian2.Notice("Separator should be one of '. , / -'");
-      }
-    }));
-    new import_obsidian2.Setting(containerEl).setName("Header separator").setDesc("Separator between header and number. default is tab").addDropdown((dropdown) => {
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.autoNumbering.startNumber.name")).setDesc(i18n.t("settings.autoNumbering.startNumber.desc")).addText(
+      (text) => text.setPlaceholder(i18n.t("settings.autoNumbering.startNumber.placeholder")).setValue(this.plugin.settings.autoNumberingStartNumber).onChange(async (value) => {
+        if (this.checkStartNumber(value)) {
+          this.plugin.settings.autoNumberingStartNumber = value;
+          await this.plugin.saveSettings();
+          this.display();
+        }
+      })
+    );
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.autoNumbering.separator.name")).setDesc(i18n.t("settings.autoNumbering.separator.desc")).addText(
+      (text) => text.setPlaceholder(i18n.t("settings.autoNumbering.separator.placeholder")).setValue(this.plugin.settings.autoNumberingSeparator).onChange(async (value) => {
+        if (this.checkSeparator(value)) {
+          this.plugin.settings.autoNumberingSeparator = value;
+          await this.plugin.saveSettings();
+          this.display();
+        }
+      })
+    );
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.autoNumbering.headerSeparator.name")).setDesc(i18n.t("settings.autoNumbering.headerSeparator.desc")).addDropdown((dropdown) => {
       dropdown.addOption("	", "Tab");
       dropdown.addOption(" ", "Space");
-      dropdown.setValue(this.plugin.settings.autoNumberingHeaderSeparator);
+      dropdown.setValue(
+        this.plugin.settings.autoNumberingHeaderSeparator
+      );
       dropdown.onChange(async (value) => {
         if (this.checkHeaderSeparator(value)) {
           this.plugin.settings.autoNumberingHeaderSeparator = value;
           await this.plugin.saveSettings();
         } else {
-          new import_obsidian2.Notice("you can't change header separator when auto numbering is enabled");
+          new import_obsidian2.Notice(i18n.t("settings.autoNumbering.headerSeparator.error"));
         }
       });
     });
-    const formatExample = new import_obsidian2.Setting(containerEl).setName(
-      "Your auto numbering format is like : 	" + this.plugin.settings.autoNumberingStartNumber + this.plugin.settings.autoNumberingSeparator + "1" + this.plugin.settings.autoNumberingSeparator + "1	from H" + this.plugin.settings.startHeaderLevel + " to H" + this.plugin.settings.maxHeaderLevel
+    new import_obsidian2.Setting(containerEl).setName(
+      i18n.t("settings.autoNumbering.format.name") + ": 	" + this.plugin.settings.autoNumberingStartNumber + this.plugin.settings.autoNumberingSeparator + "1" + this.plugin.settings.autoNumberingSeparator + "1	" + i18n.t("settings.autoNumbering.format.fromLevel") + " " + this.plugin.settings.startHeaderLevel + " " + i18n.t("settings.autoNumbering.format.toLevel") + " " + this.plugin.settings.maxHeaderLevel + " " + (this.plugin.settings.isAutoDetectHeaderLevel ? i18n.t("settings.autoNumbering.format.autoDetect") : i18n.t("settings.autoNumbering.format.manual"))
     );
-    containerEl.createEl("h2", { text: "Isolate Title Font [W.I.P]" });
-    new import_obsidian2.Setting(containerEl).setName("Enable").setDesc("Isolate title font from content").addToggle((toggle) => {
+    containerEl.createEl("h2", { text: i18n.t("settings.font.title") });
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.font.separate.name")).setDesc(i18n.t("settings.font.separate.desc")).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.isSeparateTitleFont).onChange(async (value) => {
-        new import_obsidian2.Notice("This feature is not available now, please wait for the next version");
+        new import_obsidian2.Notice(i18n.t("settings.font.separate.notice"));
       });
     });
-    new import_obsidian2.Setting(containerEl).setName("Font family").setDesc("Title font family, inherit from global font by default").addText((text) => text.setPlaceholder("global font").setValue(this.plugin.settings.titleFontFamily).onChange(async (value) => {
-      this.plugin.settings.titleFontFamily = value;
-      await this.plugin.saveSettings();
-    }));
-    new import_obsidian2.Setting(containerEl).setName("Font size").setDesc("Title font size, inherit from global font size by default").addText((text) => text.setPlaceholder("global font size").setValue(this.plugin.settings.titleFontSize).onChange(async (value) => {
-      this.plugin.settings.titleFontSize = value;
-      await this.plugin.saveSettings();
-    }));
-    containerEl.createEl("h2", { text: "More Info" });
-    containerEl.createEl("p", { text: "Author: " }).createEl("a", {
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.font.family.name")).setDesc(i18n.t("settings.font.family.desc")).addText(
+      (text) => text.setPlaceholder(i18n.t("settings.font.family.placeholder")).setValue(this.plugin.settings.titleFontFamily).onChange(async (value) => {
+        this.plugin.settings.titleFontFamily = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian2.Setting(containerEl).setName(i18n.t("settings.font.size.name")).setDesc(i18n.t("settings.font.size.desc")).addText(
+      (text) => text.setPlaceholder(i18n.t("settings.font.size.placeholder")).setValue(this.plugin.settings.titleFontSize).onChange(async (value) => {
+        this.plugin.settings.titleFontSize = value;
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian2.Setting(containerEl).addButton((button) => {
+      button.setButtonText(i18n.t("settings.resetSettings.name")).onClick(async () => {
+        if (confirm(
+          i18n.t("settings.resetSettings.confirm")
+        )) {
+          this.plugin.settings = DEFAULT_SETTINGS;
+          await this.plugin.saveSettings();
+          this.display();
+        }
+      });
+    });
+    containerEl.createEl("h2", { text: i18n.t("settings.moreInfo") });
+    containerEl.createEl("p", { text: i18n.t("settings.author") }).createEl("a", {
       text: "Hobee Liu",
       href: "https://github.com/HoBeedzc"
     });
-    containerEl.createEl("p", { text: "License: " }).createEl("a", {
+    containerEl.createEl("p", { text: i18n.t("settings.license") }).createEl("a", {
       text: "MIT",
       href: "https://github.com/HoBeedzc/obsidian-header-enhancer-plugin/blob/master/LICENSE"
     });
-    containerEl.createEl("p", { text: "Github Repo: " }).createEl("a", {
+    containerEl.createEl("p", { text: i18n.t("settings.githubRepo") }).createEl("a", {
       text: "obsidian-header-enhancer",
       href: "https://github.com/HoBeedzc/obsidian-header-enhancer-plugin"
     });
-    containerEl.createEl("p", { text: "Any question? Send feedback on " }).createEl("a", {
+    containerEl.createEl("p", { text: i18n.t("settings.anyQuestion") }).createEl("a", {
       text: "Github Issues",
       href: "https://github.com/HoBeedzc/obsidian-header-enhancer-plugin/issues"
     });
@@ -326,44 +606,58 @@ function getAutoNumberingConfig(setting, editor) {
 var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
   async onload() {
     await this.loadSettings();
-    const ribbonIconEl = this.addRibbonIcon("document", "Header Enhancer", (evt) => {
-      const app2 = this.app;
-      const activeView = app2.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
-      if (!activeView) {
-        new import_obsidian3.Notice("No active MarkdownView, cannot toggle auto numbering.");
-        return;
+    const ribbonIconEl = this.addRibbonIcon(
+      "heading-glyph",
+      "Header Enhancer",
+      (evt) => {
+        const app2 = this.app;
+        const activeView = app2.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
+        if (!activeView) {
+          new import_obsidian3.Notice(
+            "No active MarkdownView, cannot toggle auto numbering."
+          );
+          return;
+        }
+        if (this.settings.isAutoNumbering) {
+          this.settings.isAutoNumbering = false;
+          new import_obsidian3.Notice("Auto numbering is off");
+          this.handleRemoveHeaderNumber(activeView);
+        } else {
+          this.settings.isAutoNumbering = true;
+          new import_obsidian3.Notice("Auto numbering is on");
+          this.handleAddHeaderNumber(activeView);
+        }
+        this.handleShowStateBarChange();
       }
-      if (this.settings.isAutoNumbering) {
-        this.settings.isAutoNumbering = false;
-        new import_obsidian3.Notice("Auto numbering is off");
-        this.handleRemoveHeaderNumber(activeView);
-      } else {
-        this.settings.isAutoNumbering = true;
-        new import_obsidian3.Notice("Auto numbering is on");
-        this.handleAddHeaderNumber(activeView);
-      }
-      this.handleShowStateBarChange();
-    });
+    );
     this.statusBarItemEl = this.addStatusBarItem();
     this.handleShowStateBarChange();
-    this.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([
-      {
-        key: "Enter",
-        run: (view) => {
-          const success = this.handlePressEnter(view);
-          return success;
-        }
-      }
-    ])));
-    this.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([
-      {
-        key: "Backspace",
-        run: (view) => {
-          const success = this.handlePressBackspace(view);
-          return success;
-        }
-      }
-    ])));
+    this.registerEditorExtension(
+      import_state.Prec.highest(
+        import_view.keymap.of([
+          {
+            key: "Enter",
+            run: (view) => {
+              const success = this.handlePressEnter(view);
+              return success;
+            }
+          }
+        ])
+      )
+    );
+    this.registerEditorExtension(
+      import_state.Prec.highest(
+        import_view.keymap.of([
+          {
+            key: "Backspace",
+            run: (view) => {
+              const success = this.handlePressBackspace(view);
+              return success;
+            }
+          }
+        ])
+      )
+    );
     this.addCommand({
       id: "toggle-auto-numbering",
       name: "toggle auto numbering",
@@ -371,7 +665,9 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
         const app2 = this.app;
         const activeView = app2.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
         if (!activeView) {
-          new import_obsidian3.Notice("No active MarkdownView, cannot toggle auto numbering.");
+          new import_obsidian3.Notice(
+            "No active MarkdownView, cannot toggle auto numbering."
+          );
           return;
         }
         if (this.settings.isAutoNumbering) {
@@ -393,7 +689,9 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
         app = this.app;
         const activeView = app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
         if (!activeView) {
-          new import_obsidian3.Notice("No active MarkdownView, cannot add auto numbering yaml.");
+          new import_obsidian3.Notice(
+            "No active MarkdownView, cannot add auto numbering yaml."
+          );
           return;
         } else {
           const editor = activeView.editor;
@@ -413,7 +711,9 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
         app = this.app;
         const activeView = app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
         if (!activeView) {
-          new import_obsidian3.Notice("No active MarkdownView, cannot reset auto numbering yaml.");
+          new import_obsidian3.Notice(
+            "No active MarkdownView, cannot reset auto numbering yaml."
+          );
           return;
         } else {
           const editor = activeView.editor;
@@ -421,7 +721,13 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
           if (yaml === "") {
             new import_obsidian3.Notice("auto numbering yaml not exists");
           } else {
-            const value = ["state on", "first-level h2", "max 1", "start-at 1", "separator ."];
+            const value = [
+              "state on",
+              "first-level h2",
+              "max 1",
+              "start-at 1",
+              "separator ."
+            ];
             setAutoNumberingYaml(editor, value);
           }
         }
@@ -434,7 +740,9 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
         app = this.app;
         const activeView = app.workspace.getActiveViewOfType(import_obsidian3.MarkdownView);
         if (!activeView) {
-          new import_obsidian3.Notice("No active MarkdownView, cannot remove auto numbering yaml.");
+          new import_obsidian3.Notice(
+            "No active MarkdownView, cannot remove auto numbering yaml."
+          );
           return;
         } else {
           const editor = activeView.editor;
@@ -448,12 +756,18 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
       }
     });
     this.addSettingTab(new HeaderEnhancerSettingTab(this.app, this));
-    this.registerInterval(window.setInterval(() => console.log("setInterval"), 5 * 60 * 1e3));
+    this.registerInterval(
+      window.setInterval(() => console.log("setInterval"), 5 * 60 * 1e3)
+    );
   }
   onunload() {
   }
   async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    this.settings = Object.assign(
+      {},
+      DEFAULT_SETTINGS,
+      await this.loadData()
+    );
   }
   async saveSettings() {
     await this.saveData(this.settings);
@@ -461,7 +775,9 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
   handleShowStateBarChange() {
     if (this.settings.showOnStatusBar) {
       const autoNumberingStatus = this.settings.isAutoNumbering ? "On" : "Off";
-      this.statusBarItemEl.setText("Auto Numbering: " + autoNumberingStatus);
+      this.statusBarItemEl.setText(
+        "Auto Numbering: " + autoNumberingStatus
+      );
     } else {
       this.statusBarItemEl.setText("");
     }
@@ -476,21 +792,51 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
     }
     if (config.state) {
       let insertNumber = [Number(config.startNumber) - 1];
+      let isCodeBlock = false;
       for (let i = 0; i <= lineCount; i++) {
         const line = editor.getLine(i);
         docCharCount += line.length;
+        if (line.startsWith("```")) {
+          isCodeBlock = !isCodeBlock;
+          if (line.slice(3).contains("```")) {
+            isCodeBlock = !isCodeBlock;
+          }
+        }
+        if (isCodeBlock) {
+          continue;
+        }
         if (isHeader(line)) {
-          const [headerLevel, realHeaderLevel] = getHeaderLevel(line, config.startLevel);
+          const [headerLevel, realHeaderLevel] = getHeaderLevel(
+            line,
+            config.startLevel
+          );
           if (headerLevel <= 0) {
             continue;
           }
           insertNumber = getNextNumber(insertNumber, headerLevel);
           const insertNumberStr = insertNumber.join(config.separator);
-          if (isNeedInsertNumber(line, this.settings.autoNumberingHeaderSeparator)) {
-            editor.setLine(i, "#".repeat(realHeaderLevel) + " " + insertNumberStr + this.settings.autoNumberingHeaderSeparator + line.substring(realHeaderLevel + 1));
-          } else if (isNeedUpdateNumber(insertNumberStr, line, this.settings.autoNumberingHeaderSeparator)) {
-            const originNumberLength = line.split(this.settings.autoNumberingHeaderSeparator)[0].split(" ")[1].length;
-            editor.setLine(i, "#".repeat(realHeaderLevel) + " " + insertNumberStr + line.substring(realHeaderLevel + originNumberLength + 1));
+          if (isNeedInsertNumber(
+            line,
+            this.settings.autoNumberingHeaderSeparator
+          )) {
+            editor.setLine(
+              i,
+              "#".repeat(realHeaderLevel) + " " + insertNumberStr + this.settings.autoNumberingHeaderSeparator + line.substring(realHeaderLevel + 1)
+            );
+          } else if (isNeedUpdateNumber(
+            insertNumberStr,
+            line,
+            this.settings.autoNumberingHeaderSeparator
+          )) {
+            const originNumberLength = line.split(
+              this.settings.autoNumberingHeaderSeparator
+            )[0].split(" ")[1].length;
+            editor.setLine(
+              i,
+              "#".repeat(realHeaderLevel) + " " + insertNumberStr + line.substring(
+                realHeaderLevel + originNumberLength + 1
+              )
+            );
           }
         }
       }
@@ -505,11 +851,20 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
       for (let i = 0; i <= lineCount; i++) {
         const line = editor.getLine(i);
         if (isHeader(line)) {
-          const [headerLevel, _] = getHeaderLevel(line, config.startLevel);
+          const [headerLevel, _] = getHeaderLevel(
+            line,
+            config.startLevel
+          );
           if (headerLevel <= 0) {
             continue;
           }
-          editor.setLine(i, removeHeaderNumber(line, this.settings.autoNumberingHeaderSeparator));
+          editor.setLine(
+            i,
+            removeHeaderNumber(
+              line,
+              this.settings.autoNumberingHeaderSeparator
+            )
+          );
         }
       }
     }
@@ -545,18 +900,34 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
     });
     if (config.state) {
       let insertNumber = [Number(config.startNumber) - 1];
+      let isCodeBlock = false;
       for (let i = 1; i <= lineCount; i++) {
         const line = doc.line(i);
         const fromPos = line.from;
         docCharCount += line.length;
+        if (line.text.startsWith("```")) {
+          isCodeBlock = !isCodeBlock;
+          if (line.text.slice(3).contains("```")) {
+            isCodeBlock = !isCodeBlock;
+          }
+        }
+        if (isCodeBlock) {
+          continue;
+        }
         if (isHeader(line.text)) {
-          const [headerLevel, realHeaderLevel] = getHeaderLevel(line.text, config.startLevel);
+          const [headerLevel, realHeaderLevel] = getHeaderLevel(
+            line.text,
+            config.startLevel
+          );
           if (headerLevel <= 0) {
             continue;
           }
           insertNumber = getNextNumber(insertNumber, headerLevel);
           const insertNumberStr = insertNumber.join(config.separator);
-          if (isNeedInsertNumber(line.text, this.settings.autoNumberingHeaderSeparator)) {
+          if (isNeedInsertNumber(
+            line.text,
+            this.settings.autoNumberingHeaderSeparator
+          )) {
             if (docCharCount <= pos) {
               insertCharCountBeforePos += insertNumberStr.length + 1;
             }
@@ -567,9 +938,15 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
               to: fromPos + realHeaderLevel + 1,
               insert: insertNumberStr + this.settings.autoNumberingHeaderSeparator
             });
-          } else if (isNeedUpdateNumber(insertNumberStr, line.text, this.settings.autoNumberingHeaderSeparator)) {
+          } else if (isNeedUpdateNumber(
+            insertNumberStr,
+            line.text,
+            this.settings.autoNumberingHeaderSeparator
+          )) {
             const fromPos2 = line.from + realHeaderLevel + 1;
-            const toPos = fromPos2 + line.text.split(this.settings.autoNumberingHeaderSeparator)[0].split(" ")[1].length;
+            const toPos = fromPos2 + line.text.split(
+              this.settings.autoNumberingHeaderSeparator
+            )[0].split(" ")[1].length;
             if (docCharCount <= pos) {
               insertCharCountBeforePos += insertNumberStr.length - toPos + fromPos2;
             }
@@ -618,3 +995,5 @@ var HeaderEnhancerPlugin = class extends import_obsidian3.Plugin {
     return true;
   }
 };
+
+/* nosourcemap */

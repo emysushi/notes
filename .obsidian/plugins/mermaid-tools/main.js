@@ -46,6 +46,12 @@ var ElementCategory = /* @__PURE__ */ ((ElementCategory2) => {
   ElementCategory2["Timeline"] = "Timeline";
   ElementCategory2["C4Diagram"] = "C4Diagram";
   ElementCategory2["QuadrantChart"] = "QuadrantChart";
+  ElementCategory2["SankeyDiagram"] = "SankeyDiagram";
+  ElementCategory2["XyChart"] = "XyChart";
+  ElementCategory2["Kanban"] = "Kanban";
+  ElementCategory2["Architecture"] = "Architecture";
+  ElementCategory2["Block"] = "Block";
+  ElementCategory2["Packet"] = "Packet";
   return ElementCategory2;
 })(ElementCategory || {});
 
@@ -187,8 +193,122 @@ Alice-)John: See you later!`,
       UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
       UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
     
-      UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")`
+      UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")`,
+  SankeyDiagram: `sankey-beta
+
+      %% source,target,value
+      Electricity grid,Over generation / exports,104.453
+      Electricity grid,Heating and cooling - homes,113.726
+      Electricity grid,H2 conversion,27.14`,
+  XyChart: `xychart-beta
+      title "Sales Revenue"
+      x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
+      y-axis "Revenue (in $)" 4000 --> 11000
+      bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+      line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]`,
+  Packet: `packet-beta
+title UDP Packet
+0-15: "Source Port"
+16-31: "Destination Port"
+32-47: "Length"
+48-63: "Checksum"
+64-95: "Data (variable length)"
+`,
+  Kanban: `kanban
+  Todo
+    [Create Documentation]
+    docs[Create Blog about the new diagram]
+  [In progress]
+    id6[Create renderer so that it works in all cases. We also add som extra text here for testing purposes. And some more just for the extra flare.]
+  id9[Ready for deploy]
+    id8[Design grammar]@{ assigned: 'knsv' }
+  id10[Ready for test]
+    id4[Create parsing tests]@{ ticket: MC-2038, assigned: 'K.Sveidqvist', priority: 'High' }
+    id66[last item]@{ priority: 'Very Low', assigned: 'knsv' }
+  id11[Done]
+    id5[define getData]
+    id2[Title of diagram is more than 100 chars when user duplicates diagram with 100 char]@{ ticket: MC-2036, priority: 'Very High'}
+    id3[Update DB function]@{ ticket: MC-2037, assigned: knsv, priority: 'High' }
+
+  id12[Can't reproduce]
+    id3[Weird flickering in Firefox]`,
+  Block: `block-beta
+columns 1
+  db(("DB"))
+  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
+  block:ID
+    A
+    B["A wide one in the middle"]
+    C
+  end
+  space
+  D
+  ID --> D
+  C --> D
+  style B fill:#969,stroke:#333,stroke-width:4px
+`,
+  Architecture: `architecture-beta
+    group api(cloud)[API]
+
+    service db(database)[Database] in api
+    service disk1(disk)[Storage] in api
+    service disk2(disk)[Storage] in api
+    service server(server)[Server] in api
+
+    db:L -- R:server
+    disk1:T -- B:server
+    disk2:T -- B:db
+`
 };
+
+// src/elements/architecture.ts
+var architectureElements = [
+  {
+    id: crypto.randomUUID(),
+    category: "Architecture" /* Architecture */,
+    description: "a sample architecture diagram",
+    content: `architecture-beta
+    group api(cloud)[API]
+
+    service db(database)[Database] in api
+    service disk1(disk)[Storage] in api
+    service disk2(disk)[Storage] in api
+    service server(server)[Server] in api
+
+    db:L -- R:server
+    disk1:T -- B:server
+    disk2:T -- B:db
+`,
+    sortingOrder: 0,
+    isPinned: false
+  }
+];
+
+// src/elements/blockDiagram.ts
+var blockDiagramElements = [
+  {
+    id: crypto.randomUUID(),
+    category: "Block" /* Block */,
+    description: "a sample block diagram",
+    content: `block-beta
+columns 1
+  db(("DB"))
+  blockArrowId6<["&nbsp;&nbsp;&nbsp;"]>(down)
+  block:ID
+    A
+    B["A wide one in the middle"]
+    C
+  end
+  space
+  D
+  ID --> D
+  C --> D
+  style B fill:#969,stroke:#333,stroke-width:4px
+`,
+    sortingOrder: 0,
+    isPinned: false
+  }
+];
 
 // src/elements/c4Diagram.ts
 var c4DiagramElements = [
@@ -541,7 +661,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
-    description: "A node in the form of a circle",
+    description: "Circle",
     content: "id1((Some text))",
     sortingOrder: 6,
     isPinned: false
@@ -549,7 +669,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
-    description: "A node (rhombus)",
+    description: "Rhombus",
     content: "id1{Some text}",
     sortingOrder: 7,
     isPinned: false
@@ -557,9 +677,57 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     category: "Flowchart" /* Flowchart */,
+    description: "Hexagon",
+    content: "id1{{Some text}}",
+    sortingOrder: 8,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Parallelogram skewed right",
+    content: "id1[/Some text/]",
+    sortingOrder: 9,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Parallelogram skewed left",
+    content: "id1[\\Some text\\]",
+    sortingOrder: 10,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Trapezoid",
+    content: "A[/Some text\\]",
+    sortingOrder: 11,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Trapezoid upside down",
+    content: "A[\\Some text/]",
+    sortingOrder: 12,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Double circle node",
+    content: "id1(((Some text)))",
+    sortingOrder: 13,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
     description: "A link with arrow head",
     content: "A-->B",
-    sortingOrder: 8,
+    sortingOrder: 14,
     isPinned: false
   },
   {
@@ -567,7 +735,7 @@ Start --> Stop`,
     category: "Flowchart" /* Flowchart */,
     description: "An open link",
     content: "A --- B",
-    sortingOrder: 9,
+    sortingOrder: 15,
     isPinned: false
   },
   {
@@ -575,7 +743,7 @@ Start --> Stop`,
     category: "Flowchart" /* Flowchart */,
     description: "Text on links",
     content: "A-- This is the text! ---B",
-    sortingOrder: 10,
+    sortingOrder: 16,
     isPinned: false
   },
   {
@@ -583,7 +751,7 @@ Start --> Stop`,
     category: "Flowchart" /* Flowchart */,
     description: "A link with arrow head and text",
     content: "A-->|text|B",
-    sortingOrder: 11,
+    sortingOrder: 17,
     isPinned: false
   },
   {
@@ -591,7 +759,7 @@ Start --> Stop`,
     category: "Flowchart" /* Flowchart */,
     description: "Dotted link",
     content: "A-.->B",
-    sortingOrder: 12,
+    sortingOrder: 18,
     isPinned: false
   },
   {
@@ -599,7 +767,31 @@ Start --> Stop`,
     category: "Flowchart" /* Flowchart */,
     description: "Thick link",
     content: "A ==> B",
-    sortingOrder: 13,
+    sortingOrder: 19,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Invisible link",
+    content: "A ~~~ B",
+    sortingOrder: 20,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Link with circle edge",
+    content: "A --o B",
+    sortingOrder: 21,
+    isPinned: false
+  },
+  {
+    id: crypto.randomUUID(),
+    category: "Flowchart" /* Flowchart */,
+    description: "Link with cross edge",
+    content: "A --x B",
+    sortingOrder: 22,
     isPinned: false
   },
   {
@@ -757,6 +949,35 @@ var gitGraphElements = [
   }
 ];
 
+// src/elements/kanban.ts
+var kanbanElements = [
+  {
+    id: crypto.randomUUID(),
+    category: "Kanban" /* Kanban */,
+    description: "a sample kanban diagram",
+    content: `kanban
+  Todo
+    [Create Documentation]
+    docs[Create Blog about the new diagram]
+  [In progress]
+    id6[Create renderer so that it works in all cases. We also add som extra text here for testing purposes. And some more just for the extra flare.]
+  id9[Ready for deploy]
+    id8[Design grammar]@{ assigned: 'knsv' }
+  id10[Ready for test]
+    id4[Create parsing tests]@{ ticket: MC-2038, assigned: 'K.Sveidqvist', priority: 'High' }
+    id66[last item]@{ priority: 'Very Low', assigned: 'knsv' }
+  id11[Done]
+    id5[define getData]
+    id2[Title of diagram is more than 100 chars when user duplicates diagram with 100 char]@{ ticket: MC-2036, priority: 'Very High'}
+    id3[Update DB function]@{ ticket: MC-2037, assigned: knsv, priority: 'High' }
+
+  id12[Can't reproduce]
+    id3[Weird flickering in Firefox]`,
+    sortingOrder: 0,
+    isPinned: false
+  }
+];
+
 // src/elements/mindMap.ts
 var mindMapElements = [
   {
@@ -852,6 +1073,25 @@ var mindMapElements = [
   }
 ];
 
+// src/elements/packet.ts
+var packetElements = [
+  {
+    id: crypto.randomUUID(),
+    category: "Packet" /* Packet */,
+    description: "a sample packet diagram",
+    content: `packet-beta
+title UDP Packet
+0-15: "Source Port"
+16-31: "Destination Port"
+32-47: "Length"
+48-63: "Checksum"
+64-95: "Data (variable length)"
+`,
+    sortingOrder: 0,
+    isPinned: false
+  }
+];
+
 // src/elements/pieChart.ts
 var pieChartElements = [
   {
@@ -859,9 +1099,9 @@ var pieChartElements = [
     category: "PieChart" /* PieChart */,
     description: "sample pie chart",
     content: `pie title /r/obsidianmd posts by type
-        "Look at my awesome graph" : 85
-        "Look at my cool dashboard" : 14
-        "Moved from Notion, liking it" : 1`,
+        "Graphs" : 85
+        "Dashboards" : 14
+        "Tips" : 1`,
     sortingOrder: 0,
     isPinned: false
   },
@@ -869,8 +1109,7 @@ var pieChartElements = [
     id: crypto.randomUUID(),
     category: "PieChart" /* PieChart */,
     description: "sample pie chart with values shown in legend",
-    content: `pie showdata
-        title /r/obsidianmd posts by type
+    content: `pie showData title /r/obsidianmd posts by type
         "Graphs" : 85
         "Dashboards" : 14
         "Tips" : 1`,
@@ -990,6 +1229,22 @@ var requirementDiagramElements = [
             verifymethod: test
         }`,
     sortingOrder: 4,
+    isPinned: false
+  }
+];
+
+// src/elements/sankeyDiagram.ts
+var sankeyDiagramElements = [
+  {
+    id: crypto.randomUUID(),
+    category: "SankeyDiagram" /* SankeyDiagram */,
+    description: "",
+    content: `sankey-beta
+        %% source,target,value
+        Electricity grid,Over generation / exports,104.453
+        Electricity grid,Heating and cooling - homes,113.726
+        Electricity grid,H2 conversion,27.14`,
+    sortingOrder: 0,
     isPinned: false
   }
 ];
@@ -1227,6 +1482,23 @@ var userJourneyDiagramElements = [
   }
 ];
 
+// src/elements/xyChart.ts
+var xyChartElements = [
+  {
+    id: crypto.randomUUID(),
+    category: "XyChart" /* XyChart */,
+    description: "a sample XYChart diagram",
+    content: `xychart-beta
+        title "Sales Revenue"
+        x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
+        y-axis "Revenue (in $)" 4000 --> 11000
+        bar [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]
+        line [5000, 6000, 7500, 8200, 9500, 10500, 11000, 10200, 9200, 8500, 7000, 6000]`,
+    sortingOrder: 0,
+    isPinned: false
+  }
+];
+
 // src/elements/defaultElements.ts
 var defaultElements = [
   ...flowchartElements,
@@ -1242,7 +1514,13 @@ var defaultElements = [
   ...mindMapElements,
   ...timelineElements,
   ...quadrantElements,
-  ...c4DiagramElements
+  ...c4DiagramElements,
+  ...sankeyDiagramElements,
+  ...xyChartElements,
+  ...packetElements,
+  ...kanbanElements,
+  ...blockDiagramElements,
+  ...architectureElements
 ];
 
 // src/core/elementService.ts
@@ -1260,14 +1538,20 @@ var wrappingsForElementCategories = {
   Mindmap: { defaultWrapping: "mindmap", wrappings: ["mindmap"] },
   Timeline: { defaultWrapping: "timeline", wrappings: null },
   QuadrantChart: { defaultWrapping: "quadrantChart", wrappings: null },
-  C4Diagram: { defaultWrapping: "C4Context", wrappings: null }
+  C4Diagram: { defaultWrapping: "C4Context", wrappings: null },
+  SankeyDiagram: { defaultWrapping: "sankey-beta", wrappings: null },
+  XyChart: { defaultWrapping: "xychart-beta", wrappings: null },
+  Packet: { defaultWrapping: "packet-beta", wrappings: null },
+  Kanban: { defaultWrapping: "kanban", wrappings: null },
+  Block: { defaultWrapping: "block-beta", wrappings: null },
+  Architecture: { defaultWrapping: "architecture-beta", wrappings: null }
 };
 var MermaidElementService = class {
   static DefaultElements() {
     return defaultElements;
   }
   saveElement(element, plugin) {
-    let elementExists = plugin.settings.elements.some((el) => el.id === element.id);
+    const elementExists = plugin.settings.elements.some((el) => el.id === element.id);
     if (elementExists) {
       plugin.settings.elements.forEach((el) => {
         if (el.id === element.id) {
@@ -1281,7 +1565,7 @@ var MermaidElementService = class {
     plugin.saveSettings();
   }
   fixSortOrder(element, plugin) {
-    let elementsFromSameCategory = plugin.settings.elements.filter((element2) => element2.category === element2.category);
+    const elementsFromSameCategory = plugin.settings.elements.filter((element2) => element2.category === element2.category);
     if (elementsFromSameCategory.some((element2) => element2.sortingOrder === element2.sortingOrder)) {
       element.sortingOrder = elementsFromSameCategory.length;
     }
@@ -1298,15 +1582,9 @@ var MermaidElementService = class {
 ${text}
 \`\`\``;
   }
-  withTitle(title, text) {
-    return `${text}
-accTitle: ${title}
-`;
-  }
   wrapAsCompleteDiagram(element) {
-    let wrapping = wrappingsForElementCategories[element.category];
-    let content = element.category === "Mindmap" /* Mindmap */ ? element.content : this.withTitle(element.description, element.content);
-    return (wrapping.wrappings ? wrapping.wrappings.some((w) => element.content.contains(w)) : element.content.contains(wrapping.defaultWrapping)) ? content : wrapping.defaultWrapping + "\n" + content;
+    const wrapping = wrappingsForElementCategories[element.category];
+    return (wrapping.wrappings ? wrapping.wrappings.some((w) => element.content.contains(w)) : element.content.contains(wrapping.defaultWrapping)) ? element.content : wrapping.defaultWrapping + "\n" + element.content;
   }
 };
 
@@ -1325,9 +1603,10 @@ var TextEditorService = class {
     if (!editor)
       throw new NoActiveCursorError();
     content = this._elementService.wrapForPastingIntoEditor(content);
-    let cursor = editor.getCursor();
+    const cursor = editor.getCursor();
     editor.replaceRange(content, cursor);
     editor.setCursor(content.length);
+    editor.focus();
   }
 };
 
@@ -1423,6 +1702,7 @@ var EditMermaidElementModal = class extends import_obsidian2.Modal {
     elementContentEl.style.height = "200px";
     elementContentEl.style.width = "100%";
     elementContentEl.onchange = async (e) => {
+      this._element.content = elementContentEl.value;
       let { svg: svg2 } = await this._mermaid.render(renderEl.id, this._plugin._mermaidElementService.wrapAsCompleteDiagram(this._element));
       renderEl.innerHTML = svg2;
       renderContainerEl.appendChild(renderEl);
@@ -1576,10 +1856,10 @@ var TOOLBAR_ELEMENT_CLASS_NAME = "mermaid-toolbar-element";
 var TOOLBAR_ELEMENTS_CONTAINER_CLASS_NAME = "mermaid-toolbar-elements-container";
 var TOOLBAR_ELEMENTS_CONTAINER_ID = "mermaid-toolbar-elements-container-id";
 async function createMermaidToolbar(topRowButtons, items, selectedCategory, onCategoryChanged, onElementClick) {
-  let container = document.createElement("div");
-  let topRow = container.createDiv();
+  const container = document.createElement("div");
+  const topRow = container.createDiv();
   topRow.addClass("mermaid-toolbar-top-row");
-  let elementsContainer = container.createDiv();
+  const elementsContainer = container.createDiv();
   elementsContainer.addClass(TOOLBAR_ELEMENTS_CONTAINER_CLASS_NAME);
   elementsContainer.setAttr("id", TOOLBAR_ELEMENTS_CONTAINER_ID);
   createDropdown(topRow, elementsContainer, items, selectedCategory, onCategoryChanged, onElementClick);
@@ -1589,12 +1869,12 @@ async function createMermaidToolbar(topRowButtons, items, selectedCategory, onCa
 }
 function createTopRowBtns(parentEl, buttons) {
   buttons.forEach((btn) => {
-    let b = new import_obsidian4.ButtonComponent(parentEl).setClass("clickable-icon").setIcon(btn.iconName).setTooltip(btn.tooltip).onClick(btn.callback);
+    const b = new import_obsidian4.ButtonComponent(parentEl).setClass("clickable-icon").setIcon(btn.iconName).setTooltip(btn.tooltip).onClick(btn.callback);
   });
 }
 function createDropdown(parentEl, elementsContainer, items, selectedCategory, onSelectionChanged, onElClick) {
-  let categories = Object.keys(ElementCategory);
-  let dropdown = new import_obsidian4.DropdownComponent(parentEl);
+  const categories = Object.keys(ElementCategory);
+  const dropdown = new import_obsidian4.DropdownComponent(parentEl);
   categories.forEach((c) => {
     dropdown.addOption(c, c);
   });
@@ -1606,21 +1886,23 @@ function createDropdown(parentEl, elementsContainer, items, selectedCategory, on
 }
 async function recreateElementsSection(sectionContainer, category, items, onElClick) {
   sectionContainer.innerHTML = "";
-  let elemService = new MermaidElementService();
-  let mermaid = await (0, import_obsidian4.loadMermaid)();
-  let filteredSortedItems = items.filter((i) => i.category == category).sort((a, b) => a.sortingOrder - b.sortingOrder);
+  const elemService = new MermaidElementService();
+  const mermaid = await (0, import_obsidian4.loadMermaid)();
+  const filteredSortedItems = items.filter((i) => i.category == category).sort((a, b) => a.sortingOrder - b.sortingOrder);
   filteredSortedItems.forEach(async (elem, index) => {
-    console.log("mermaid element for rendering", elemService.wrapAsCompleteDiagram(elem));
-    let el = createToolbarElement(sectionContainer);
+    const el = createToolbarElement(sectionContainer);
     el.id = `mermaid-toolbar-element-${elem.category}-${index}`;
-    let { svg } = await mermaid.render(el.id, elemService.wrapAsCompleteDiagram(elem));
+    const diagram = elemService.wrapAsCompleteDiagram(elem);
+    console.log(mermaid.detectType(diagram));
+    const { svg } = await mermaid.render(el.id, diagram);
+    el.title = elem.description;
     el.innerHTML = svg;
     el.onclick = (e) => onElClick(elem.content);
     sectionContainer.appendChild(el);
   });
 }
 function createToolbarElement(parentEl) {
-  let itemEl = parentEl.createEl("pre");
+  const itemEl = parentEl.createEl("pre");
   itemEl.addClass(TOOLBAR_ELEMENT_CLASS_NAME);
   return itemEl;
 }
@@ -1722,36 +2004,53 @@ var MermaidPlugin = class extends import_obsidian6.Plugin {
       this.settings.elements.push(...mindMapElements);
       console.log("[Mermaid Tools] added Mindmap elements");
     }
-    ;
     if (!this.settings.elements.some((x) => x.category === "Timeline" /* Timeline */)) {
       this.settings.elements.push(...timelineElements);
       console.log("[Mermaid Tools] added Timeline elements");
     }
-    ;
     if (!this.settings.elements.some((x) => x.category === "QuadrantChart" /* QuadrantChart */)) {
       this.settings.elements.push(...quadrantElements);
       console.log("[Mermaid Tools] added QuadrantChart elements");
     }
-    ;
     if (!this.settings.elements.some((x) => x.category === "C4Diagram" /* C4Diagram */)) {
       this.settings.elements.push(...c4DiagramElements);
       console.log("[Mermaid Tools] added C4 diagram elements");
     }
-    ;
+    if (!this.settings.elements.some((x) => x.category === "Packet" /* Packet */)) {
+      this.settings.elements.push(...packetElements);
+      console.log("[Mermaid Tools] added Packet elements");
+    }
+    if (!this.settings.elements.some((x) => x.category === "Kanban" /* Kanban */)) {
+      this.settings.elements.push(...kanbanElements);
+      console.log("[Mermaid Tools] added Kanban elements");
+    }
+    if (!this.settings.elements.some((x) => x.category === "Block" /* Block */)) {
+      this.settings.elements.push(...blockDiagramElements);
+      console.log("[Mermaid Tools] added Block elements");
+    }
+    if (!this.settings.elements.some((x) => x.category === "Architecture" /* Architecture */)) {
+      this.settings.elements.push(...architectureElements);
+      console.log("[Mermaid Tools] added Architecture diagram elements");
+    }
   }
   async saveSettings() {
     await this.saveData(this.settings);
     await this.activateView();
   }
   async activateView() {
+    var _a;
     this.app.workspace.detachLeavesOfType(MermaidToolbarView.VIEW_TYPE);
-    await this.app.workspace.getRightLeaf(false).setViewState({
+    if (this.app.workspace === null)
+      return;
+    await ((_a = this.app.workspace.getRightLeaf(false)) == null ? void 0 : _a.setViewState({
       type: MermaidToolbarView.VIEW_TYPE,
       active: true
-    });
+    }));
     this.app.workspace.revealLeaf(this.app.workspace.getLeavesOfType(MermaidToolbarView.VIEW_TYPE)[0]);
   }
   insertTextAtCursor(text) {
     this._textEditorService.insertTextAtCursor(this.activeEditor, text);
   }
 };
+
+/* nosourcemap */

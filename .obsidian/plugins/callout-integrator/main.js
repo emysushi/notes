@@ -30,69 +30,100 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 var calloutIntegrator = class extends import_obsidian.Plugin {
   onload() {
-    function anchorHead(head, anchor, move) {
-      if (head.line > anchor.line || head.line == anchor.line && head.ch > anchor.ch) {
-        head.ch += move;
-      } else {
-        anchor.ch += move;
-      }
+    function order(editor) {
+      const head = editor.getCursor("head");
+      const anchor = editor.getCursor("anchor");
+      if (head.line < anchor.line || head.line == anchor.line && head.ch < anchor.ch)
+        return [head, anchor, false];
+      else
+        return [anchor, head, true];
     }
-    function unInt(line) {
+    function setAnchorHead(pos, editor) {
+      if (pos[2])
+        editor.setSelection(pos[0], pos[1]);
+      else
+        editor.setSelection(pos[1], pos[0]);
+    }
+    function unInt(editor, pos) {
+      let str = editor.getLine(pos.line);
       let move = 0;
-      if (line.charAt(0) === ">") {
-        line = line.substring(1);
+      if (str.charAt(0) === ">") {
+        str = str.substring(1);
         move--;
-        if (line.charAt(0) === " ") {
-          line = line.substring(1);
+        if (pos.ch != 0)
+          pos.ch--;
+        if (str.charAt(0) === " ") {
+          str = str.substring(1);
           move--;
+          if (pos.ch != 0)
+            pos.ch--;
         }
       }
-      return [move, line];
+      return [str, pos, move];
+    }
+    function intNoSelection(editor) {
+      const pos = editor.getCursor();
+      const thisLine = editor.getLine(pos.line);
+      editor.setLine(pos.line, "> " + thisLine);
+      if (pos.ch != 0 || thisLine.charAt(0) != ">")
+        editor.setCursor({ line: pos.line, ch: pos.ch + 2 });
+    }
+    function intSelection(editor) {
+      const pos = order(editor);
+      if (pos[0].line - pos[1].line != 0)
+        editor.replaceSelection(editor.getSelection().replace(/\n/g, "\n> "));
+      editor.setLine(pos[0].line, "> " + editor.getLine(pos[0].line));
+      if (pos[0].ch != 0)
+        pos[0].ch += 2;
+      pos[1].ch += 2;
+      setAnchorHead(pos, editor);
+    }
+    function unIntNoSelection(editor) {
+      const pos = editor.getCursor();
+      const thisLine = unInt(editor, pos);
+      editor.setLine(pos.line, thisLine[0]);
+      editor.setCursor(thisLine[1]);
+    }
+    function unIntSelection(editor) {
+      const pos = order(editor);
+      const firstLine = unInt(editor, pos[0]);
+      const lastLine = unInt(editor, pos[1]);
+      pos[0] = firstLine[1];
+      pos[1] = lastLine[1];
+      if (pos[0].line != pos[1].line) {
+        if (pos[1].line - pos[0].line > 1)
+          editor.replaceSelection(editor.getSelection().replace(/\n> /g, "\n"));
+        editor.setLine(lastLine[1].line, lastLine[0]);
+      }
+      editor.setLine(firstLine[1].line, firstLine[0]);
+      setAnchorHead(pos, editor);
     }
     this.addCommand({
       id: "callout-integrate",
       name: "integrate",
+      icon: "chevrons-right",
       editorCallback: (editor) => {
-        if (editor.somethingSelected()) {
-          let sHead = editor.getCursor("head");
-          let sAnchor = editor.getCursor("anchor");
-          editor.replaceSelection("> " + editor.getSelection().replace(/\n/g, "\n> "));
-          anchorHead(sHead, sAnchor, 2);
-          editor.setSelection(sAnchor, sHead);
-        } else {
-          let cursorPos = editor.getCursor();
-          editor.setLine(cursorPos.line, "> " + editor.getLine(cursorPos.line));
-          cursorPos.ch += 2;
-          editor.setCursor(cursorPos);
-        }
+        if (!editor.somethingSelected())
+          intNoSelection(editor);
+        else
+          intSelection(editor);
       }
-      // editorCallback
     });
     this.addCommand({
       id: "callout-unintegrate",
       name: "un-integrate",
+      icon: "chevrons-left",
       editorCallback: (editor) => {
-        if (editor.somethingSelected()) {
-          let sHead = editor.getCursor("head");
-          let sAnchor = editor.getCursor("anchor");
-          let edited = unInt(editor.getSelection());
-          editor.replaceSelection(edited[1].replace(/\n> /g, "\n"));
-          anchorHead(sHead, sAnchor, edited[0]);
-          editor.setSelection(sAnchor, sHead);
-        } else {
-          let cursorPos = editor.getCursor();
-          let edited2 = unInt(editor.getLine(cursorPos.line));
-          cursorPos.ch += edited2[0];
-          editor.setLine(cursorPos.line, edited2[1]);
-          editor.setCursor(cursorPos);
-        }
+        if (!editor.somethingSelected())
+          unIntNoSelection(editor);
+        else
+          unIntSelection(editor);
       }
-      // editorCallback
     });
   }
-  // onload()
   onunload() {
   }
-  // onunload()
 };
-//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsibWFpbi50cyJdLAogICJzb3VyY2VzQ29udGVudCI6IFsiaW1wb3J0IHsgQXBwLCBFZGl0b3IsIEVkaXRvclBvc2l0aW9uLCBNYXJrZG93blZpZXcsIE1vZGFsLCBOb3RpY2UsIFBsdWdpbiwgUGx1Z2luU2V0dGluZ1RhYiwgU2V0dGluZyB9IGZyb20gJ29ic2lkaWFuJztcblxuXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBjYWxsb3V0SW50ZWdyYXRvciBleHRlbmRzIFBsdWdpbiB7XG5cblx0b25sb2FkKCkge1xuXHRcdFxuXG5cdFx0ZnVuY3Rpb24gYW5jaG9ySGVhZChoZWFkOiBFZGl0b3JQb3NpdGlvbiwgYW5jaG9yOiBFZGl0b3JQb3NpdGlvbiwgbW92ZTogbnVtYmVyKTogdm9pZCB7XG5cblx0XHRcdGlmIChoZWFkLmxpbmUgPiBhbmNob3IubGluZSB8fCBoZWFkLmxpbmUgPT0gYW5jaG9yLmxpbmVcblx0XHRcdFx0JiYgaGVhZC5jaCA+IGFuY2hvci5jaCkge1xuXG5cdFx0XHRcdFx0aGVhZC5jaCArPSBtb3ZlO1xuXG5cdFx0XHRcdH0gZWxzZSB7YW5jaG9yLmNoICs9IG1vdmU7fVxuXG5cdFx0fSAvLyBhbmNob3JIZWFkKClcblxuXHRcdGZ1bmN0aW9uIHVuSW50KGxpbmU6IHN0cmluZyk6IFtudW1iZXIsIHN0cmluZ10ge1xuXG5cdFx0XHRsZXQgbW92ZSA9IDA7XG5cblx0XHRcdGlmIChsaW5lLmNoYXJBdCgwKSA9PT0gJz4nKSB7XG5cblx0XHRcdFx0bGluZSA9IGxpbmUuc3Vic3RyaW5nKDEpO1xuXHRcdFx0XHRtb3ZlLS07XG5cblx0XHRcdFx0aWYgKGxpbmUuY2hhckF0KDApID09PSAnICcpIHtcblxuXHRcdFx0XHRcdGxpbmUgPSBsaW5lLnN1YnN0cmluZygxKTtcblx0XHRcdFx0XHRtb3ZlLS07XG5cblx0XHRcdFx0fSAvLyBpZignICcpXG5cblx0XHRcdH0gLy8gaWYoJz4nKVxuXG5cdFx0XHRyZXR1cm4gW21vdmUsIGxpbmVdO1xuXG5cdFx0fSAvLyB1bkludCgpXG5cblxuXG5cdFx0LyoqKiBBRERTIFwiPiBcIiBBVCBCRUdJTk5JTkcgT0YgRUFDSCBMSU5FICoqKi9cblx0XHR0aGlzLmFkZENvbW1hbmQoe1xuXHRcdFx0aWQ6ICdjYWxsb3V0LWludGVncmF0ZScsXG5cdFx0XHRuYW1lOiAnaW50ZWdyYXRlJyxcblx0XHRcdGVkaXRvckNhbGxiYWNrOiAoZWRpdG9yOiBFZGl0b3IpID0+IHtcblxuXHRcdFx0XHRpZiAoZWRpdG9yLnNvbWV0aGluZ1NlbGVjdGVkKCkpIHsgLy8gaWYgdGV4dCBoaWdobGlnaHRlZCAtPiBpbnRlZ3JhdGUgc2VsZWN0aW9uXG5cblx0XHRcdFx0XHRsZXQgc0hlYWQgPSBlZGl0b3IuZ2V0Q3Vyc29yKCdoZWFkJyk7XG5cdFx0XHRcdFx0bGV0IHNBbmNob3IgPSBlZGl0b3IuZ2V0Q3Vyc29yKCdhbmNob3InKTtcblxuXHRcdFx0XHRcdGVkaXRvci5yZXBsYWNlU2VsZWN0aW9uKFwiPiBcIiArIGVkaXRvci5nZXRTZWxlY3Rpb24oKS5yZXBsYWNlKC9cXG4vZywgXCJcXG4+IFwiKSk7XG5cblx0XHRcdFx0XHRhbmNob3JIZWFkKHNIZWFkLCBzQW5jaG9yLCAyKTtcblx0XHRcdFx0XHRlZGl0b3Iuc2V0U2VsZWN0aW9uKHNBbmNob3IsIHNIZWFkKTtcblxuXHRcdFx0XHR9IGVsc2UgeyAvLyBpZiBubyB0ZXh0IGhpZ2hsaWdodGVkIC0+IGludGVncmF0ZSBsaW5lIGNvbnRhaW5pbmcgY3Vyc29yXG5cblx0XHRcdFx0XHRsZXQgY3Vyc29yUG9zID0gZWRpdG9yLmdldEN1cnNvcigpO1xuXG5cdFx0XHRcdFx0ZWRpdG9yLnNldExpbmUoY3Vyc29yUG9zLmxpbmUsIChcIj4gXCIgKyBlZGl0b3IuZ2V0TGluZShjdXJzb3JQb3MubGluZSkpKTtcblx0XHRcdFx0XHRcblx0XHRcdFx0XHRjdXJzb3JQb3MuY2ggKz0gMjtcblx0XHRcdFx0XHRlZGl0b3Iuc2V0Q3Vyc29yKGN1cnNvclBvcyk7XG5cblx0XHRcdFx0fSAvLyBpZi9lbHNlXG5cblx0XHRcdH0gLy8gZWRpdG9yQ2FsbGJhY2tcblx0XHR9KSAvLyBjYWxsb3V0LWludGVncmF0ZVxuXG5cblx0XHR0aGlzLmFkZENvbW1hbmQoe1xuXHRcdFx0aWQ6ICdjYWxsb3V0LXVuaW50ZWdyYXRlJyxcblx0XHRcdG5hbWU6ICd1bi1pbnRlZ3JhdGUnLFxuXHRcdFx0ZWRpdG9yQ2FsbGJhY2s6IChlZGl0b3I6IEVkaXRvcikgPT4ge1xuXG5cdFx0XHRcdGlmIChlZGl0b3Iuc29tZXRoaW5nU2VsZWN0ZWQoKSkgeyAvL2lmIHRleHQgaGlnaGxpZ2h0ZWQgLT4gcmVtb3ZlIGFsbCBcIj4gXCIgZm9sbG93aW5nIGEgbGluZSBicmVha1xuXG5cdFx0XHRcdFx0bGV0IHNIZWFkID0gZWRpdG9yLmdldEN1cnNvcignaGVhZCcpO1xuXHRcdFx0XHRcdGxldCBzQW5jaG9yID0gZWRpdG9yLmdldEN1cnNvcignYW5jaG9yJyk7XG5cblx0XHRcdFx0XHRsZXQgZWRpdGVkID0gdW5JbnQoZWRpdG9yLmdldFNlbGVjdGlvbigpKTtcblxuXHRcdFx0XHRcdGVkaXRvci5yZXBsYWNlU2VsZWN0aW9uKGVkaXRlZFsxXS5yZXBsYWNlKC9cXG4+IC9nLCBcIlxcblwiKSk7XG5cdFx0XHRcdFxuXHRcdFx0XHRcdGFuY2hvckhlYWQoc0hlYWQsIHNBbmNob3IsIGVkaXRlZFswXSk7XG5cdFx0XHRcdFx0ZWRpdG9yLnNldFNlbGVjdGlvbihzQW5jaG9yLCBzSGVhZCk7XG5cdFx0XHRcdFxuXHRcdFx0XHR9IGVsc2UgeyAvL2lmIG5vIHRleHQgaGlnaGxpZ2h0ZWQgLT4gY3V0IFwiPiBcIiBhdCBiZWdpbm5pbmcgb2YgbGluZVxuXG5cdFx0XHRcdFx0bGV0IGN1cnNvclBvcyA9IGVkaXRvci5nZXRDdXJzb3IoKTtcblxuXHRcdFx0XHRcdGxldCBlZGl0ZWQyID0gdW5JbnQoZWRpdG9yLmdldExpbmUoY3Vyc29yUG9zLmxpbmUpKTtcblx0XHRcdFx0XHRjdXJzb3JQb3MuY2ggKz0gZWRpdGVkMlswXTtcblxuXHRcdFx0XHRcdGVkaXRvci5zZXRMaW5lKGN1cnNvclBvcy5saW5lLCBlZGl0ZWQyWzFdKTtcblx0XHRcdFx0XHRlZGl0b3Iuc2V0Q3Vyc29yKGN1cnNvclBvcyk7XG5cdFx0XHRcdFx0XG5cdFx0XHRcdH0gLy8gaWYvZWxzZVxuXG5cdFx0XHR9IC8vIGVkaXRvckNhbGxiYWNrXG5cdFx0fSkgLy8gY2FsbG91dC11bmludGVncmF0ZVxuXG5cdH0gLy8gb25sb2FkKClcblxuXHRvbnVubG9hZCgpIHtcblxuXHR9IC8vIG9udW5sb2FkKClcbn0iXSwKICAibWFwcGluZ3MiOiAiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsc0JBQTRHO0FBRzVHLElBQXFCLG9CQUFyQixjQUErQyx1QkFBTztBQUFBLEVBRXJELFNBQVM7QUFHUixhQUFTLFdBQVcsTUFBc0IsUUFBd0IsTUFBb0I7QUFFckYsVUFBSSxLQUFLLE9BQU8sT0FBTyxRQUFRLEtBQUssUUFBUSxPQUFPLFFBQy9DLEtBQUssS0FBSyxPQUFPLElBQUk7QUFFdkIsYUFBSyxNQUFNO0FBQUEsTUFFWixPQUFPO0FBQUMsZUFBTyxNQUFNO0FBQUEsTUFBSztBQUFBLElBRTVCO0FBRUEsYUFBUyxNQUFNLE1BQWdDO0FBRTlDLFVBQUksT0FBTztBQUVYLFVBQUksS0FBSyxPQUFPLENBQUMsTUFBTSxLQUFLO0FBRTNCLGVBQU8sS0FBSyxVQUFVLENBQUM7QUFDdkI7QUFFQSxZQUFJLEtBQUssT0FBTyxDQUFDLE1BQU0sS0FBSztBQUUzQixpQkFBTyxLQUFLLFVBQVUsQ0FBQztBQUN2QjtBQUFBLFFBRUQ7QUFBQSxNQUVEO0FBRUEsYUFBTyxDQUFDLE1BQU0sSUFBSTtBQUFBLElBRW5CO0FBS0EsU0FBSyxXQUFXO0FBQUEsTUFDZixJQUFJO0FBQUEsTUFDSixNQUFNO0FBQUEsTUFDTixnQkFBZ0IsQ0FBQyxXQUFtQjtBQUVuQyxZQUFJLE9BQU8sa0JBQWtCLEdBQUc7QUFFL0IsY0FBSSxRQUFRLE9BQU8sVUFBVSxNQUFNO0FBQ25DLGNBQUksVUFBVSxPQUFPLFVBQVUsUUFBUTtBQUV2QyxpQkFBTyxpQkFBaUIsT0FBTyxPQUFPLGFBQWEsRUFBRSxRQUFRLE9BQU8sTUFBTSxDQUFDO0FBRTNFLHFCQUFXLE9BQU8sU0FBUyxDQUFDO0FBQzVCLGlCQUFPLGFBQWEsU0FBUyxLQUFLO0FBQUEsUUFFbkMsT0FBTztBQUVOLGNBQUksWUFBWSxPQUFPLFVBQVU7QUFFakMsaUJBQU8sUUFBUSxVQUFVLE1BQU8sT0FBTyxPQUFPLFFBQVEsVUFBVSxJQUFJLENBQUU7QUFFdEUsb0JBQVUsTUFBTTtBQUNoQixpQkFBTyxVQUFVLFNBQVM7QUFBQSxRQUUzQjtBQUFBLE1BRUQ7QUFBQTtBQUFBLElBQ0QsQ0FBQztBQUdELFNBQUssV0FBVztBQUFBLE1BQ2YsSUFBSTtBQUFBLE1BQ0osTUFBTTtBQUFBLE1BQ04sZ0JBQWdCLENBQUMsV0FBbUI7QUFFbkMsWUFBSSxPQUFPLGtCQUFrQixHQUFHO0FBRS9CLGNBQUksUUFBUSxPQUFPLFVBQVUsTUFBTTtBQUNuQyxjQUFJLFVBQVUsT0FBTyxVQUFVLFFBQVE7QUFFdkMsY0FBSSxTQUFTLE1BQU0sT0FBTyxhQUFhLENBQUM7QUFFeEMsaUJBQU8saUJBQWlCLE9BQU8sQ0FBQyxFQUFFLFFBQVEsU0FBUyxJQUFJLENBQUM7QUFFeEQscUJBQVcsT0FBTyxTQUFTLE9BQU8sQ0FBQyxDQUFDO0FBQ3BDLGlCQUFPLGFBQWEsU0FBUyxLQUFLO0FBQUEsUUFFbkMsT0FBTztBQUVOLGNBQUksWUFBWSxPQUFPLFVBQVU7QUFFakMsY0FBSSxVQUFVLE1BQU0sT0FBTyxRQUFRLFVBQVUsSUFBSSxDQUFDO0FBQ2xELG9CQUFVLE1BQU0sUUFBUSxDQUFDO0FBRXpCLGlCQUFPLFFBQVEsVUFBVSxNQUFNLFFBQVEsQ0FBQyxDQUFDO0FBQ3pDLGlCQUFPLFVBQVUsU0FBUztBQUFBLFFBRTNCO0FBQUEsTUFFRDtBQUFBO0FBQUEsSUFDRCxDQUFDO0FBQUEsRUFFRjtBQUFBO0FBQUEsRUFFQSxXQUFXO0FBQUEsRUFFWDtBQUFBO0FBQ0Q7IiwKICAibmFtZXMiOiBbXQp9Cg==
+
+
+/* nosourcemap */

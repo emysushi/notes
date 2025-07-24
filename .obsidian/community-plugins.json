@@ -1,5 +1,4 @@
 [
-  "obsidian-git",
   "templater-obsidian",
   "obsidian-admonition",
   "nldates-obsidian",
@@ -26,18 +25,14 @@
   "table-editor-obsidian",
   "obsidian-icon-folder",
   "obsidian-banners",
-  "obsidian-wakatime",
   "obsidian-image-toolkit",
   "search-on-internet",
   "obsidian-local-images",
-  "obsidian-functionplot",
   "obsidian-timeline",
   "obsidian-icons-plugin",
   "obsidian-footnotes",
   "obsidian-chartsview-plugin",
-  "obsidian-crypto-lookup",
   "obsidian-toggle-case",
-  "typing-assistant",
   "at-symbol-linking",
   "birthday-tracker",
   "colored-tags",
@@ -47,7 +42,9 @@
   "homepage",
   "obsidian-dictionary-plugin",
   "obsidian-wordnet-plugin",
-  "obsidian-rewarder",
   "obsidian-tasks-plugin",
-  "obsidian-plugin-todo"
+  "obsidian-plugin-todo",
+  "obsidian-git",
+  "obsidian-wakatime",
+  "obsidian-colorful-tag"
 ]

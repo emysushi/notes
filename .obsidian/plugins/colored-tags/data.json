@@ -1,8 +1,14 @@
 {
-  "chroma": 16,
-  "lightness": 87,
-  "palette": 16,
-  "seed": 0,
+  "palette": {
+    "seed": 0,
+    "selected": "adaptive-soft",
+    "custom": "e12729-f37324-f8cc1b-72b043-007f4e"
+  },
+  "mixColors": true,
+  "transition": true,
+  "accessibility": {
+    "highTextContrast": false
+  },
   "knownTags": {
     "crypto": 1,
     "introduction": 2,
@@ -167,7 +173,11 @@
     "être_responsable": 161,
     "être_irresponsable": 162,
     "le_volt": 163,
-    "Alessandro_Volta": 164
+    "Alessandro_Volta": 164,
+    "feed": 165,
+    "college_5": 166,
+    "book": 167,
+    "plan": 168
   },
-  "_version": 2
+  "_version": 3
 }

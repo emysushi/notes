@@ -2298,10 +2298,10 @@ var FolderSuggest = class extends TextInputSuggest {
   getSuggestions(inputStr) {
     const abstractFiles = this.app.vault.getAllLoadedFiles();
     const folders = [];
-    const lowerCaseInputStr = inputStr.toLowerCase();
+    const lowerCaseInputStr = inputStr.toLocaleLowerCase();
     abstractFiles.forEach((folder) => {
       var _a;
-      if (folder instanceof import_obsidian2.TFolder && ((_a = folder.path.toLowerCase()) == null ? void 0 : _a.contains(lowerCaseInputStr))) {
+      if (folder instanceof import_obsidian2.TFolder && ((_a = folder.path.toLocaleLowerCase()) == null ? void 0 : _a.contains(lowerCaseInputStr))) {
         folders.push(folder);
       }
     });
@@ -2325,7 +2325,7 @@ var import_fuzzysort2 = __toESM(require_fuzzysort());
 var FileSuggest = class extends TextInputSuggest {
   getSuggestions(inputStr) {
     let abstractFiles = this.app.vault.getAllLoadedFiles();
-    const lowerCaseInputStr = inputStr.toLowerCase();
+    const lowerCaseInputStr = inputStr.toLocaleLowerCase();
     abstractFiles = abstractFiles.filter((file) => {
       return file.path.endsWith(".md");
     });
@@ -2359,7 +2359,11 @@ var DEFAULT_SETTINGS = {
   addNewNoteTemplateFile: "",
   addNewNoteDirectory: "",
   useCompatibilityMode: false,
-  leavePopupOpenForXSpaces: 0
+  leavePopupOpenForXSpaces: 0,
+  // eslint-disable-next-line no-useless-escape
+  invalidCharacterRegex: `[[]^|#]`,
+  invalidCharacterRegexFlags: "i",
+  removeAccents: true
 };
 var arrayMove = (array, fromIndex, toIndex) => {
   if (toIndex < 0 || toIndex === array.length) {
@@ -2382,9 +2386,6 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
   }
   display() {
     this.containerEl.empty();
-    this.containerEl.appendChild(
-      createHeading(this.containerEl, "At Symbol (@) Linking Settings")
-    );
     const triggerSymbolDesc = document.createDocumentFragment();
     triggerSymbolDesc.append("Type this symbol to trigger the popup.");
     new import_obsidian3.Setting(this.containerEl).setName("Trigger Symbol").setDesc(triggerSymbolDesc).addText((text) => {
@@ -2577,8 +2578,49 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
         this.validate();
       };
     });
+    new import_obsidian3.Setting(this.containerEl).setName("Advanced settings").setHeading();
+    const invalidCharacterRegexDesc = document.createDocumentFragment();
+    invalidCharacterRegexDesc.append(
+      invalidCharacterRegexDesc.createEl("br"),
+      "Characters typed that match this regex will not be included in the final search query in compatibility mode.",
+      invalidCharacterRegexDesc.createEl("br"),
+      "In normal mode, the popup will close when an invalid character is typed."
+    );
+    new import_obsidian3.Setting(this.containerEl).setName("Invalid character Regex").setDesc(invalidCharacterRegexDesc).addText((text) => {
+      text.setPlaceholder(this.plugin.settings.invalidCharacterRegex).setValue(this.plugin.settings.invalidCharacterRegex).onChange(async (value) => {
+        this.plugin.settings.invalidCharacterRegex = value;
+        await this.plugin.saveSettings();
+      });
+      text.inputEl.onblur = () => {
+        this.validate("invalidCharacterRegex");
+      };
+    });
+    const invalidCharacterRegexFlagsDesc = document.createDocumentFragment();
+    invalidCharacterRegexFlagsDesc.append(
+      "Flags to use with the invalid character regex."
+    );
+    new import_obsidian3.Setting(this.containerEl).setName("Invalid character Regex flags").setDesc(invalidCharacterRegexFlagsDesc).addText((text) => {
+      text.setPlaceholder(
+        this.plugin.settings.invalidCharacterRegexFlags
+      ).setValue(this.plugin.settings.invalidCharacterRegexFlags).onChange(async (value) => {
+        this.plugin.settings.invalidCharacterRegexFlags = value;
+        await this.plugin.saveSettings();
+      });
+      text.inputEl.onblur = () => {
+        this.validate("invalidCharacterRegexFlags");
+      };
+    });
+    new import_obsidian3.Setting(this.containerEl).setName("Remove accents from search query").setDesc(
+      "e.g. \xE9 -> e when searching or creating links via the popup."
+    ).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.removeAccents).onChange((value) => {
+        this.plugin.settings.removeAccents = value;
+        this.plugin.saveSettings();
+      })
+    );
   }
-  async validate() {
+  async validate(editedSetting) {
+    var _a;
     const settings = this.plugin.settings;
     const updateSetting = async (setting, value) => {
       this.plugin.settings[setting] = value;
@@ -2632,14 +2674,33 @@ var SettingsTab = class extends import_obsidian3.PluginSettingTab {
     if (isNaN(parseInt(settings.leavePopupOpenForXSpaces.toString())) || settings.leavePopupOpenForXSpaces < 0) {
       await updateSetting("leavePopupOpenForXSpaces", 0);
     }
+    if (((_a = settings.invalidCharacterRegex) == null ? void 0 : _a.trim()) === "") {
+      await updateSetting(
+        "invalidCharacterRegex",
+        DEFAULT_SETTINGS.invalidCharacterRegex
+      );
+    }
+    try {
+      new RegExp(
+        settings.invalidCharacterRegex,
+        settings.invalidCharacterRegexFlags
+      );
+    } catch (e) {
+      new import_obsidian3.Notice(`Invalid regex or flags`);
+      if (editedSetting === "invalidCharacterRegex") {
+        await updateSetting(
+          "invalidCharacterRegex",
+          DEFAULT_SETTINGS.invalidCharacterRegex
+        );
+      } else if (editedSetting === "invalidCharacterRegexFlags") {
+        await updateSetting(
+          "invalidCharacterRegexFlags",
+          DEFAULT_SETTINGS.invalidCharacterRegexFlags
+        );
+      }
+    }
   }
 };
-function createHeading(el, text, level = 2) {
-  const heading = el.createEl(`h${level}`, {
-    text
-  });
-  return heading;
-}
 
 // src/native-suggestion/suggest-popup.ts
 var import_obsidian7 = require("obsidian");
@@ -2665,6 +2726,7 @@ async function replaceNewFileVars(app2, templateContent, title) {
       `@ Symbol Linking: Unable to read core plugin templates config at path: ${coreTemplatesConfigPath}`
     );
     console.log(error);
+    return templateContent;
   }
   let dateFormat = "YYYY-MM-DD";
   let timeFormat = "HH:mm";
@@ -2788,6 +2850,13 @@ function sharedRenderSuggestion(value, el) {
 
 // src/shared-suggestion/sharedGetSuggestions.ts
 var import_fuzzysort3 = __toESM(require_fuzzysort());
+
+// src/utils/remove-accents.ts
+function removeAccents(str) {
+  return str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+}
+
+// src/shared-suggestion/sharedGetSuggestions.ts
 function sharedGetSuggestions(files, query, settings) {
   var _a, _b;
   const options = [];
@@ -2807,7 +2876,7 @@ function sharedGetSuggestions(files, query, settings) {
     const meta = app.metadataCache.getFileCache(file);
     if ((_a = meta == null ? void 0 : meta.frontmatter) == null ? void 0 : _a.alias) {
       options.push({
-        fileName: file.basename,
+        fileName: settings.removeAccents ? removeAccents(file.basename) : file.basename,
         filePath: file.path,
         alias: meta.frontmatter.alias
       });
@@ -2818,14 +2887,14 @@ function sharedGetSuggestions(files, query, settings) {
       }
       for (const alias of aliases) {
         options.push({
-          fileName: file.basename,
+          fileName: settings.removeAccents ? removeAccents(file.basename) : file.basename,
           filePath: file.path,
-          alias
+          alias: settings.removeAccents ? removeAccents(alias) : alias
         });
       }
     }
     options.push({
-      fileName: file.basename,
+      fileName: settings.removeAccents ? removeAccents(file.basename) : file.basename,
       filePath: file.path
     });
   }
@@ -2843,7 +2912,7 @@ function sharedGetSuggestions(files, query, settings) {
     const hasExistingNote = results.some(
       (result) => {
         var _a2;
-        return ((_a2 = result == null ? void 0 : result.obj) == null ? void 0 : _a2.fileName.toLowerCase()) === (query == null ? void 0 : query.toLowerCase());
+        return ((_a2 = result == null ? void 0 : result.obj) == null ? void 0 : _a2.fileName.toLocaleLowerCase()) === (query == null ? void 0 : query.toLocaleLowerCase());
       }
     );
     if (!hasExistingNote) {
@@ -2868,15 +2937,17 @@ function sharedGetSuggestions(files, query, settings) {
 }
 
 // src/utils/valid-file-name.ts
-var validCharRegex = /[a-z0-9\\$\\-\\_\\!\\%\\"\\'\\.\\,\\*\\&\\(\\)\\;\\{\\}\\+\\=\\~\\`\\?\\<\\>)]/i;
-var isValidFileNameCharacter = (char) => {
+var isValidFileNameCharacter = (char, settings) => {
   if (char === " ") {
     return true;
   }
   if (char === "\\") {
     return false;
   }
-  return validCharRegex.test(char);
+  return !new RegExp(
+    settings.invalidCharacterRegex,
+    settings.invalidCharacterRegexFlags
+  ).test(char);
 };
 
 // src/native-suggestion/suggest-popup.ts
@@ -2944,20 +3015,20 @@ var SuggestionPopup = class extends import_obsidian7.EditorSuggest {
     } else {
       query = editor.getRange(this.firstOpenedCursor, {
         ...cursor,
-        ch: cursor.ch + 1
+        ch: cursor.ch
       });
     }
     if (query.split(" ").length - 1 > this.settings.leavePopupOpenForXSpaces || // Also close if query starts with a space, regardless of space settings
     query.startsWith(" ")) {
       return this.closeSuggestion();
     }
-    if (!query || !isValidFileNameCharacter(typedChar)) {
+    if (!query || !isValidFileNameCharacter(typedChar, this.settings)) {
       return this.closeSuggestion();
     }
     return {
       start: { ...cursor, ch: cursor.ch - 1 },
       end: cursor,
-      query
+      query: this.settings.removeAccents ? removeAccents(query) : query
     };
   }
   renderSuggestion(value, el) {
@@ -2979,7 +3050,10 @@ var SuggestionPopup = class extends import_obsidian7.EditorSuggest {
     );
     (_b = this.context) == null ? void 0 : _b.editor.replaceRange(
       linkText,
-      { line: this.context.start.line, ch: line.lastIndexOf(this.settings.triggerSymbol) },
+      {
+        line: this.context.start.line,
+        ch: line.lastIndexOf(this.settings.triggerSymbol)
+      },
       this.context.end
     );
     this.closeSuggestion();
@@ -3030,7 +3104,7 @@ function applyHotKeyHack(_this, app2) {
     const modifiers = hotkey.modifiers, key = hotkey.key;
     if (modifiers !== null && (isBypassCommand ? !((_a = context == null ? void 0 : context.modifiers) == null ? void 0 : _a.contains(modifiers)) : modifiers !== context.modifiers))
       return false;
-    return !key || key === context.vkey || !(!context.key || key.toLowerCase() !== context.key.toLowerCase());
+    return !key || key === context.vkey || !(!context.key || key.toLocaleLowerCase() !== context.key.toLocaleLowerCase());
   };
   _this.app.scope.register(
     null,
@@ -3386,12 +3460,14 @@ function atSymbolTriggerExtension(app2, settings) {
         if (!isInValidContext) {
           return false;
         }
+        let justOpened = false;
         if (!this.isOpen && typedChar === settings.triggerSymbol) {
-          return this.openSuggestion();
+          justOpened = true;
+          this.openSuggestion();
         } else if (!this.isOpen) {
           return false;
         }
-        const key = event.key.toLowerCase();
+        const key = event.key.toLocaleLowerCase();
         if (typedChar === "Backspace") {
           if (this.openQuery.length === 0) {
             return this.closeSuggestion();
@@ -3399,14 +3475,17 @@ function atSymbolTriggerExtension(app2, settings) {
           this.openQuery = this.openQuery.slice(0, -1);
         } else if (typedChar === "Escape") {
           this.closeSuggestion();
-        } else if (!isValidFileNameCharacter(typedChar) || event.altKey || event.metaKey || event.ctrlKey || key.includes("backspace") || key.includes("shift") || key.includes("arrow")) {
+        } else if (!isValidFileNameCharacter(typedChar, settings) || event.altKey || event.metaKey || event.ctrlKey || key.includes("backspace") || key.includes("shift") || key.includes("arrow")) {
           return false;
-        } else {
+        } else if (!justOpened) {
           this.openQuery += typedChar;
         }
         if (this.openQuery.split(" ").length - 1 > settings.leavePopupOpenForXSpaces || // Also close if the query starts with a space, regardless of space settings
         this.openQuery.startsWith(" ")) {
           return this.closeSuggestion();
+        }
+        if (settings.removeAccents) {
+          this.openQuery = removeAccents(this.openQuery);
         }
         if (!this.suggestionEl && this.firstOpenedCursor && this.view) {
           const container = app2.dom.appContainerEl;
@@ -3582,3 +3661,5 @@ var AtSymbolLinking = class extends import_obsidian10.Plugin {
     await this.saveData(this.settings);
   }
 };
+
+/* nosourcemap */

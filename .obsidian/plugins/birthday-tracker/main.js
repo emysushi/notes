@@ -29,44 +29,86 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian6 = require("obsidian");
 
-// src/settings.ts
-var import_obsidian = require("obsidian");
-var DEFAULT_SETTINGS = {
-  dateFormatting: "DD/MM/YYYY",
-  birthdayNodeLocation: "birthdayNode.md"
+// src/birthday.ts
+var Birthday = class {
+  constructor(birthdayAsString, dateFormatter) {
+    this.birthdayAsString = birthdayAsString;
+    this.date = dateFormatter.parseToDate(birthdayAsString);
+    this.age = this.determineAge();
+    this.daysTillNextBirthday = this.calcDaysTillNextBirthday();
+  }
+  determineAge() {
+    let age = (/* @__PURE__ */ new Date()).getFullYear() - this.date.getFullYear();
+    return this.hadBirthdayThisYear() ? age : --age;
+  }
+  hadBirthdayThisYear() {
+    const monthPassed = (/* @__PURE__ */ new Date()).getMonth() > this.date.getMonth();
+    const daysPassed = (/* @__PURE__ */ new Date()).getMonth() === this.date.getMonth() && (/* @__PURE__ */ new Date()).getDate() >= this.date.getDate();
+    return monthPassed || daysPassed;
+  }
+  calcDaysTillNextBirthday() {
+    const days = this.calcDays((/* @__PURE__ */ new Date()).getFullYear());
+    if (-days === 0) {
+      return 0;
+    }
+    return days > 0 ? days : this.calcDays((/* @__PURE__ */ new Date()).getFullYear() + 1);
+  }
+  calcDays(newYear) {
+    const dateCurrentYear = new Date(this.date);
+    dateCurrentYear.setFullYear(newYear);
+    const timeDifference = (/* @__PURE__ */ new Date()).getTime() - dateCurrentYear.getTime();
+    return -Math.ceil(timeDifference / (1e3 * 60 * 60 * 24));
+  }
+  compareTo(other) {
+    return this.daysTillNextBirthday - other.daysTillNextBirthday;
+  }
+  hasBirthdayToday() {
+    return this.daysTillNextBirthday === 0;
+  }
+  getAge() {
+    return this.age;
+  }
+  getDaysTillNextBirthday() {
+    return this.daysTillNextBirthday;
+  }
+  getMonth() {
+    return this.date.getMonth();
+  }
+  toString() {
+    return this.birthdayAsString;
+  }
 };
-var BirthdayTrackerSettingTab = class extends import_obsidian.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.dateFormattingSettingsOnChange = async (value) => {
-      let noticeMessage = "Wrong date formatting!!";
-      if (this.isFormattingValid(value)) {
-        this.plugin.settings.dateFormatting = value;
-        await this.plugin.saveSettings();
-        noticeMessage = "Valid date formatting";
-      }
-      new import_obsidian.Notice(noticeMessage);
-    };
-    this.plugin = plugin;
+
+// src/dateFormatter.ts
+var _DefaultDateFormatter = class _DefaultDateFormatter {
+  constructor(format) {
+    this.format = format;
+    this.dayIndex = format.search(_DefaultDateFormatter.DAY_IDENTIFIER);
+    this.monthIndex = format.search(_DefaultDateFormatter.MONTH_IDENTIFIER);
+    this.yearIndex = format.search(_DefaultDateFormatter.YEAR_IDENTIFIER);
   }
-  display() {
-    this.containerEl.empty();
-    this.dateFormattingSettings();
-    this.birthdayNodeLocationSettings();
+  static createFormat(format) {
+    return _DefaultDateFormatter.isValidFormat(format) ? new _DefaultDateFormatter(format) : void 0;
   }
-  dateFormattingSettings() {
-    return new import_obsidian.Setting(this.containerEl).setName("Date formatting").setDesc("Format your dates will be displayed and collected").addText((text) => text.setPlaceholder("Enter your format").setValue(this.plugin.settings.dateFormatting).onChange(async (value) => await this.dateFormattingSettingsOnChange(value)));
+  static isValidFormat(format) {
+    const containsDay = _DefaultDateFormatter.formatContains(
+      _DefaultDateFormatter.DAY_IDENTIFIER,
+      format
+    );
+    const containsMonth = _DefaultDateFormatter.formatContains(
+      _DefaultDateFormatter.MONTH_IDENTIFIER,
+      format
+    );
+    const containsYear = _DefaultDateFormatter.formatContains(
+      _DefaultDateFormatter.YEAR_IDENTIFIER,
+      format
+    );
+    return containsDay && containsMonth && containsYear && !_DefaultDateFormatter.containsInvalidChars(format);
   }
-  isFormattingValid(format) {
-    const containsDoubleD = this.formatContains("DD", format);
-    const containsDoubleM = this.formatContains("MM", format);
-    const containsFourY = this.formatContains("YYYY", format);
-    return containsDoubleD && containsDoubleM && containsFourY && !this.containsInvalidChars(format);
+  static formatContains(subStr, format) {
+    return format.includes(subStr) || format.includes(subStr.toLowerCase());
   }
-  formatContains(subStr, format) {
-    return format.contains(subStr) || format.contains(subStr.toLowerCase());
-  }
-  containsInvalidChars(format) {
+  static containsInvalidChars(format) {
     const invalidChars = [
       "A",
       "B",
@@ -90,20 +132,97 @@ var BirthdayTrackerSettingTab = class extends import_obsidian.PluginSettingTab {
       "V",
       "W",
       "X",
-      "Z"
+      "Z",
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
     ];
     for (const invalidChar in invalidChars) {
-      if (this.formatContains(invalidChar, format)) {
+      if (_DefaultDateFormatter.formatContains(invalidChar, format)) {
         return true;
       }
     }
     return false;
   }
-  birthdayNodeLocationSettings() {
-    return new import_obsidian.Setting(this.containerEl).setName("Birthday node location").setDesc("Location of your Node containing the birthday data with .md as postfix").addTextArea((text) => text.setPlaceholder("Enter the node location").setValue(this.plugin.settings.birthdayNodeLocation).onChange(async (value) => {
-      this.plugin.settings.birthdayNodeLocation = value;
-      await this.plugin.saveSettings();
-    }));
+  parseToDate(dateAsString) {
+    const date = /* @__PURE__ */ new Date();
+    const year = this.extractComponentOfDate(dateAsString, {
+      start: this.yearIndex,
+      end: this.yearIndex + _DefaultDateFormatter.YEAR_IDENTIFIER.length
+    });
+    const month = this.extractComponentOfDate(dateAsString, {
+      start: this.monthIndex,
+      end: this.monthIndex + _DefaultDateFormatter.MONTH_IDENTIFIER.length,
+      offset: 1
+      // needed offset cause Date API returns wrong month of date => WHYYY???
+    });
+    const day = this.extractComponentOfDate(dateAsString, {
+      start: this.dayIndex,
+      end: this.dayIndex + _DefaultDateFormatter.DAY_IDENTIFIER.length
+    });
+    date.setFullYear(year, month, day);
+    return date;
+  }
+  extractComponentOfDate(dateAsString, range) {
+    var _a;
+    return Number.parseInt(dateAsString.substring(range.start, range.end)) - ((_a = range.offset) != null ? _a : 0);
+  }
+};
+_DefaultDateFormatter.DAY_IDENTIFIER = "DD";
+_DefaultDateFormatter.MONTH_IDENTIFIER = "MM";
+_DefaultDateFormatter.YEAR_IDENTIFIER = "YYYY";
+var DefaultDateFormatter = _DefaultDateFormatter;
+
+// src/modals/SearchPersonModal.ts
+var import_obsidian2 = require("obsidian");
+
+// src/modals/PersonModal.ts
+var import_obsidian = require("obsidian");
+var PersonModal = class extends import_obsidian.Modal {
+  constructor(app, person) {
+    super(app);
+    this.person = person;
+  }
+  onOpen() {
+    const { contentEl } = this;
+    const div = contentEl.createDiv({
+      cls: "personContainer smallerScale"
+    });
+    div.createEl("p", {
+      text: `Name: ${this.person.name} (${this.person.age})`
+    });
+    div.createEl("p", {
+      text: `Days next birthday: ${this.person.daysTillNextBirthday}`
+    });
+    div.createEl("p", { text: `Birthday: ${this.person.birthday}` });
+  }
+  onClose() {
+    const { contentEl } = this;
+    contentEl.empty();
+  }
+};
+
+// src/modals/SearchPersonModal.ts
+var SearchPersonModal = class extends import_obsidian2.FuzzySuggestModal {
+  constructor(app, persons) {
+    super(app);
+    this.persons = persons;
+  }
+  getItems() {
+    return this.persons;
+  }
+  getItemText(item) {
+    return item.name;
+  }
+  onChooseItem(item, evt) {
+    new PersonModal(this.app, item).open();
   }
 };
 
@@ -123,96 +242,81 @@ var Person = class {
     return new PersonDTO(
       this.name,
       this.birthday.toString(),
-      this.birthday.getNextBirthdayInDays(),
+      this.birthday.getDaysTillNextBirthday(),
       this.birthday.getAge(),
       this.birthday.getMonth()
     );
   }
 };
 var PersonDTO = class {
-  constructor(name, birthday, nextBirthdayInDays, age, month) {
+  constructor(name, birthday, daysTillNextBirthday, age, month) {
     this.name = name;
     this.birthday = birthday;
-    this.nextBirthdayInDays = nextBirthdayInDays;
+    this.daysTillNextBirthday = daysTillNextBirthday;
     this.age = age;
     this.month = month;
   }
 };
 
-// src/birthday.ts
-var Birthday = class {
-  constructor(str, dateFormatting) {
-    this.str = str;
-    this.convertStringToDate(dateFormatting);
-    this.age = this.determineAge();
-    this.nextBirthday = this.daysTillBirthday();
+// src/settings.ts
+var import_obsidian3 = require("obsidian");
+var DEFAULT_SETTINGS = {
+  dateFormatting: "DD/MM/YYYY",
+  birthdayNodeLocation: "birthdayNode.md",
+  automaticallyOpenBirthdayViewOnStart: true
+};
+var BirthdayTrackerSettingTab = class extends import_obsidian3.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.dateFormattingSettingsOnChange = async (value) => {
+      let noticeMessage = "Wrong date formatting!!";
+      const dateFormatter = DefaultDateFormatter.createFormat(value);
+      if (dateFormatter) {
+        this.plugin.settings.dateFormatting = dateFormatter.format;
+        await this.plugin.saveSettings();
+        noticeMessage = "Valid date formatting";
+      }
+      new import_obsidian3.Notice(noticeMessage);
+    };
+    this.plugin = plugin;
   }
-  convertStringToDate(dateFormatting) {
-    this.date = this.constructDate(
-      dateFormatting.search("DD"),
-      dateFormatting.search("MM"),
-      dateFormatting.search("YYYY")
+  display() {
+    this.containerEl.empty();
+    this.dateFormattingSettings();
+    this.birthdayNodeLocationSettings();
+    this.automaticallyOpenBirthdayViewOnStartSettings();
+  }
+  dateFormattingSettings() {
+    return new import_obsidian3.Setting(this.containerEl).setName("Date formatting").setDesc("Format your dates will be displayed and collected").addText(
+      (text) => text.setPlaceholder("Enter your format").setValue(this.plugin.settings.dateFormatting).onChange(async (v) => await this.dateFormattingSettingsOnChange(v))
     );
   }
-  constructDate(dayIndex, monthIndex, yearIndex) {
-    const date = new Date();
-    date.setFullYear(
-      this.dateNumber(yearIndex, yearIndex + 4),
-      this.dateNumber(monthIndex, monthIndex + 2, 1),
-      // month has one offset
-      this.dateNumber(dayIndex, dayIndex + 2)
+  birthdayNodeLocationSettings() {
+    return new import_obsidian3.Setting(this.containerEl).setName("Birthday node location").setDesc(
+      "Location of your Node containing the birthday data with .md as postfix"
+    ).addTextArea(
+      (text) => text.setPlaceholder("Enter the node location").setValue(this.plugin.settings.birthdayNodeLocation).onChange(async (value) => {
+        this.plugin.settings.birthdayNodeLocation = value;
+        await this.plugin.saveSettings();
+      })
     );
-    return date;
   }
-  dateNumber(start, end, offset) {
-    return parseInt(this.str.substring(start, end)) - (offset != null ? offset : 0);
-  }
-  determineAge() {
-    let age = new Date().getFullYear() - this.date.getFullYear();
-    return this.hadBirthdayThisYear() ? age : --age;
-  }
-  hadBirthdayThisYear() {
-    const monthPassed = new Date().getMonth() > this.date.getMonth();
-    const daysPassed = new Date().getMonth() === this.date.getMonth() && new Date().getDay() >= this.date.getDay();
-    return monthPassed || daysPassed;
-  }
-  daysTillBirthday() {
-    const days = this.calcDays(new Date().getFullYear());
-    if (-days === 0) {
-      return 0;
-    }
-    return days > 0 ? days : this.calcDays(new Date().getFullYear() + 1);
-  }
-  calcDays(newYear) {
-    const dateCurrentYear = new Date(this.date);
-    dateCurrentYear.setFullYear(newYear);
-    const timeDifference = new Date().getTime() - dateCurrentYear.getTime();
-    return -Math.ceil(timeDifference / (1e3 * 60 * 60 * 24));
-  }
-  compareTo(other) {
-    return this.nextBirthday - other.nextBirthday;
-  }
-  hasBirthdayToday() {
-    return this.nextBirthday === 0;
-  }
-  getAge() {
-    return this.age;
-  }
-  getNextBirthdayInDays() {
-    return this.nextBirthday;
-  }
-  getMonth() {
-    return this.date.getMonth();
-  }
-  toString() {
-    return this.str;
+  automaticallyOpenBirthdayViewOnStartSettings() {
+    return new import_obsidian3.Setting(this.containerEl).setName("Automatically open birthday view on startup").setDesc(
+      "If enabled, the birthday view is automatically opened in the right leaf when Obsidian starts"
+    ).addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.automaticallyOpenBirthdayViewOnStart).onChange(async (value) => {
+        this.plugin.settings.automaticallyOpenBirthdayViewOnStart = value;
+        await this.plugin.saveSettings();
+      });
+    });
   }
 };
 
 // src/views/birthdayTrackerView.ts
-var import_obsidian2 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 var BIRTHDAY_TRACKER_VIEW_TYPE = "Birthday-Tracker";
-var BirthdayTrackerView = class extends import_obsidian2.ItemView {
+var BirthdayTrackerView = class extends import_obsidian4.ItemView {
   constructor() {
     super(...arguments);
     this.icon = "cake";
@@ -235,57 +339,36 @@ var BirthdayTrackerView = class extends import_obsidian2.ItemView {
     persons.forEach((person) => this.displayPerson(person.toDTO()));
   }
   displayPerson(person) {
-    const div = this.container.createDiv({ cls: "personContainer" });
-    div.createEl("p", { text: "Name: " + person.name + " (" + person.age + ")" });
-    div.createEl("p", { text: "Days next birthday: " + person.nextBirthdayInDays });
-    div.createEl("p", { text: "Birthday: " + person.birthday });
-  }
-};
-
-// src/modals/SearchPersonModal.ts
-var import_obsidian4 = require("obsidian");
-
-// src/modals/PersonModal.ts
-var import_obsidian3 = require("obsidian");
-var PersonModal = class extends import_obsidian3.Modal {
-  constructor(app, person) {
-    super(app);
-    this.person = person;
-  }
-  onOpen() {
-    const { contentEl } = this;
-    const div = contentEl.createDiv({ cls: "personContainer smallerScale" });
-    div.createEl("p", { text: "Name: " + this.person.name + " (" + this.person.age + ")" });
-    div.createEl("p", { text: "Days next birthday: " + this.person.nextBirthdayInDays });
-    div.createEl("p", { text: "Birthday: " + this.person.birthday });
-  }
-  onClose() {
-    const { contentEl } = this;
-    contentEl.empty();
-  }
-};
-
-// src/modals/SearchPersonModal.ts
-var SearchPersonModal = class extends import_obsidian4.FuzzySuggestModal {
-  constructor(app, persons) {
-    super(app);
-    this.persons = persons;
-  }
-  getItems() {
-    return this.persons;
-  }
-  getItemText(item) {
-    return item.name;
-  }
-  onChooseItem(item, evt) {
-    new PersonModal(this.app, item).open();
+    const div = this.container.createDiv({
+      cls: "personContainer"
+    });
+    div.createEl("p", {
+      text: `Name: ${person.name} (${person.age})`
+    });
+    div.createEl("p", {
+      text: `Days next birthday: ${person.daysTillNextBirthday}`
+    });
+    div.createEl("p", { text: `Birthday: ${person.birthday}` });
   }
 };
 
 // src/views/yearOverviewView.ts
 var import_obsidian5 = require("obsidian");
 var BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE = "Birthday-Tracker-Year-Overview";
-var MONTHS = ["January", "February", "March", "April", "Mai", "June", "July", "August", "September", "October", "November", "December"];
+var MONTHS = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December"
+];
 var YearOverviewView = class extends import_obsidian5.ItemView {
   constructor() {
     super(...arguments);
@@ -309,10 +392,17 @@ var YearOverviewView = class extends import_obsidian5.ItemView {
     for (let i = 0; i < 12; i++) {
       const month = container.createDiv({ cls: "monthContainer" });
       month.createEl("h4", { text: MONTHS[i], cls: "monthName" });
-      const personContainer = month.createDiv({ cls: "personsYearViewContainer" });
-      if (this.persons.length === 0)
+      const personContainer = month.createDiv({
+        cls: "personsYearViewContainer"
+      });
+      if (this.persons.length === 0) {
         continue;
-      this.persons.filter((p) => p.month == i).forEach((person) => this.createPerson(person, personContainer));
+      }
+      for (const person of this.persons) {
+        if (person.month === i) {
+          this.createPerson(person, personContainer);
+        }
+      }
     }
   }
   async updatePersons(persons) {
@@ -327,11 +417,14 @@ var YearOverviewView = class extends import_obsidian5.ItemView {
 var BirthdayTrackerPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
-    this.trackBirthdays = async () => {
+    this.trackBirthdays = async () => await this.trackBirthdaysWithOpenOption(true);
+    this.trackBirthdaysWithOpenOption = async (shouldOpenView) => {
       const content = await this.fetchContent();
       if (content) {
         this.trackBirthdaysOfContent(content);
-        await this.openBirthdayView();
+        if (shouldOpenView) {
+          await this.openBirthdayView();
+        }
       } else {
         new import_obsidian6.Notice("Nothing inside your node");
       }
@@ -345,19 +438,28 @@ var BirthdayTrackerPlugin = class extends import_obsidian6.Plugin {
       return line.contains("name=") && line.contains("birthday=");
     };
     this.openYearView = async () => {
-      const leaves = this.app.workspace.getLeavesOfType(BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE);
-      if (leaves.length == 0) {
+      const leaves = this.app.workspace.getLeavesOfType(
+        BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE
+      );
+      if (leaves.length === 0) {
         leaves[0] = this.app.workspace.getLeaf(false);
-        await leaves[0].setViewState({ type: BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE });
+        await leaves[0].setViewState({
+          type: BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE
+        });
       }
       const persons = await this.getPersons();
-      await leaves[0].view.updatePersons(persons.map((p) => p.toDTO()));
+      await leaves[0].view.updatePersons(
+        persons.map((p) => p.toDTO())
+      );
       this.app.workspace.revealLeaf(leaves[0]);
     };
     this.searchPerson = async () => {
       await this.fetchContent();
       if (this.persons.length >= 1) {
-        new SearchPersonModal(this.app, this.persons.map((person) => person.toDTO())).open();
+        new SearchPersonModal(
+          this.app,
+          this.persons.map((person) => person.toDTO())
+        ).open();
       } else {
         new import_obsidian6.Notice("No persons were found");
       }
@@ -365,14 +467,32 @@ var BirthdayTrackerPlugin = class extends import_obsidian6.Plugin {
   }
   async onload() {
     await this.loadSettings();
-    this.registerView(BIRTHDAY_TRACKER_VIEW_TYPE, (leaf) => new BirthdayTrackerView(leaf));
-    this.registerView(BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE, (leaf) => new YearOverviewView(leaf));
-    const ribbonIconEl = this.addRibbonIcon("cake", "Track birthdays", this.trackBirthdays);
+    this.registerView(
+      BIRTHDAY_TRACKER_VIEW_TYPE,
+      (leaf) => new BirthdayTrackerView(leaf)
+    );
+    this.registerView(
+      BIRTHDAY_TRACKER_YEAR_OVERVIEW_VIEW_TYPE,
+      (leaf) => new YearOverviewView(leaf)
+    );
+    const ribbonIconEl = this.addRibbonIcon(
+      "cake",
+      "Track birthdays",
+      this.trackBirthdays
+    );
     ribbonIconEl.addClass("birthday-tracker-plugin-ribbon-class");
-    this.addRibbonIcon("calendar-days", "Open year overview", this.openYearView);
+    this.addRibbonIcon(
+      "calendar-days",
+      "Open year overview",
+      this.openYearView
+    );
     this.addCommands();
     this.addSettingTab(new BirthdayTrackerSettingTab(this.app, this));
-    this.app.workspace.onLayoutReady(() => this.trackBirthdays());
+    this.app.workspace.onLayoutReady(
+      async () => await this.trackBirthdaysWithOpenOption(
+        this.settings.automaticallyOpenBirthdayViewOnStart
+      )
+    );
   }
   addCommands() {
     this.addCommand({
@@ -394,48 +514,72 @@ var BirthdayTrackerPlugin = class extends import_obsidian6.Plugin {
   onunload() {
   }
   async fetchContent() {
-    const file = this.app.vault.getAbstractFileByPath(this.settings.birthdayNodeLocation);
+    const file = this.app.vault.getAbstractFileByPath(
+      this.settings.birthdayNodeLocation
+    );
     if (file && file instanceof import_obsidian6.TFile) {
       return (await this.app.vault.read(file)).trim();
     }
-    new import_obsidian6.Notice("Node could not be found at location: " + this.settings.birthdayNodeLocation);
+    new import_obsidian6.Notice(
+      `Node could not be found at location: ${this.settings.birthdayNodeLocation}`
+    );
     return void 0;
   }
   collectPersons(content) {
     const persons = [];
-    const splitChar = ";";
     content.split(/\r?\n/).forEach((line) => {
+      var _a, _b, _c, _d, _e, _f;
       if (this.lineContainsPerson(line)) {
-        const name = line.substring(5, line.search(splitChar));
-        const birthday = line.substring(line.search(splitChar) + 11);
-        persons.push(new Person(name, new Birthday(birthday, this.settings.dateFormatting)));
+        const splittedLine = line.split(";");
+        const name = (_c = (_b = (_a = splittedLine[0]) == null ? void 0 : _a.trim().split("=").last()) == null ? void 0 : _b.trim()) != null ? _c : "";
+        const birthdayAsString = (_f = (_e = (_d = splittedLine[1]) == null ? void 0 : _d.replace(" ", "").split("=").last()) == null ? void 0 : _e.trim()) != null ? _f : "";
+        const birthday = new Birthday(
+          birthdayAsString,
+          // biome-ignore lint/style/noNonNullAssertion: Should work, because this check is already done before in settings.ts when dateFormatting is updated
+          DefaultDateFormatter.createFormat(this.settings.dateFormatting)
+        );
+        persons.push(new Person(name, birthday));
       }
     });
     return persons;
   }
   noticeIfBirthdayToday(persons) {
-    const personsBirthdayToday = persons.filter((person) => person.hasBirthdayToday());
+    const personsBirthdayToday = persons.filter(
+      (person) => person.hasBirthdayToday()
+    );
     if (personsBirthdayToday.length !== 0) {
       this.noticeForAllBirthdaysToday(personsBirthdayToday);
     }
   }
   noticeForAllBirthdaysToday(personsBirthdayToday) {
     let message = "Today ";
-    personsBirthdayToday.forEach((person) => message = message.concat(person.toDTO().name).concat(", "));
+    personsBirthdayToday.forEach(
+      // biome-ignore lint: message can be overwritten here
+      (person) => message = message.concat(person.toDTO().name).concat(", ")
+    );
     message = message.substring(0, message.length - 2);
-    new import_obsidian6.Notice(message.concat((personsBirthdayToday.length > 1 ? " have" : " has") + " birthday"));
+    new import_obsidian6.Notice(
+      message.concat(
+        `${personsBirthdayToday.length > 1 ? " have" : " has"} birthday`
+      )
+    );
   }
   async openBirthdayView() {
-    const leaves = this.app.workspace.getLeavesOfType(BIRTHDAY_TRACKER_VIEW_TYPE);
+    const leaves = this.app.workspace.getLeavesOfType(
+      BIRTHDAY_TRACKER_VIEW_TYPE
+    );
     if (this.persons) {
       (await this.getBirthdayView(leaves)).displayPersons(this.persons);
     }
     this.app.workspace.revealLeaf(leaves[0]);
   }
   async getBirthdayView(leaves) {
-    if (leaves.length == 0) {
-      leaves[0] = this.app.workspace.getRightLeaf(false);
-      await leaves[0].setViewState({ type: BIRTHDAY_TRACKER_VIEW_TYPE });
+    if (leaves.length === 0) {
+      const leaf = this.app.workspace.getRightLeaf(false);
+      if (leaf) {
+        leaves[0] = leaf;
+        await leaves[0].setViewState({ type: BIRTHDAY_TRACKER_VIEW_TYPE });
+      }
     }
     return leaves[0].view;
   }
@@ -447,9 +591,11 @@ var BirthdayTrackerPlugin = class extends import_obsidian6.Plugin {
     return this.persons;
   }
   async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    this.settings = { ...DEFAULT_SETTINGS, ...await this.loadData() };
   }
   async saveSettings() {
     await this.saveData(this.settings);
   }
 };
+
+/* nosourcemap */
