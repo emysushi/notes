@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Template/tpl-block-timeline.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Crypto_introduction"
+              "title": "tpl-block-timeline"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Template/tpl-block-timeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Crypto_introduction"
+              "title": "Backlinks for tpl-block-timeline"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Template/tpl-block-timeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Crypto_introduction"
+              "title": "Outgoing links from tpl-block-timeline"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Crypto/Crypto_introduction.md",
+                "file": "Template/tpl-block-timeline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Crypto_introduction"
+              "title": "Outline of tpl-block-timeline"
             }
           },
           {
@@ -242,13 +242,18 @@
   },
   "active": "04f104bbffe7dac6",
   "lastOpenFiles": [
+    "[intriguer.md",
+    "Banner/biblio.jpeg",
+    "Crypto/Crypto_introduction.md",
+    "feed back/lesson_Maths.md",
+    "RevueParent/revue_2023-10-01.md",
     "manuel histoire/study_histoire de l'union européenne.md",
     "Francais/Le Horla.md",
     "Home.md",
     "Dictionary_French.md",
     "Dictionary_English.md",
     "Physique-Chimie/lesson_le Volt.md",
-    "manuel Emc/study_la responsabilité.md",
+    "InstructionCiviqueMorale/study_la responsabilité.md",
     "manuel geo/study_null.md",
     "manuel histoire/study_le protestantisme.md",
     "manuel histoire/study_La Réforme.md",
@@ -265,14 +270,9 @@
     "RevueParent/revue_2023-10-04.md",
     "RevueParent/revue_2023-10-03.md",
     "RevueParent/revue_2023-10-02.md",
-    "RevueParent/revue_2023-10-01.md",
-    "manuel Emc/study_bien et le mal.md",
-    "manuel Emc/study_Les droits de l'homme.md",
-    "manuel Emc/study_Etat de droit.md",
-    "manuel Emc/study_citoyen et l'éléction.md",
+    "InstructionCiviqueMorale/study_bien et le mal.md",
     "manuel geo",
     "manuel histoire",
-    "feed back",
-    "Banner/biblio.jpeg"
+    "Feedback"
   ]
 }
