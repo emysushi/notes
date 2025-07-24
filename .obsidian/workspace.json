@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
+                "file": "Template/tpl-revue-parent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tpl-block-timeline"
+              "title": "tpl-revue-parent"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
+                "file": "Template/tpl-revue-parent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tpl-block-timeline"
+              "title": "Backlinks for tpl-revue-parent"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
+                "file": "Template/tpl-revue-parent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from tpl-block-timeline"
+              "title": "Outgoing links from tpl-revue-parent"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
+                "file": "Template/tpl-revue-parent.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tpl-block-timeline"
+              "title": "Outline of tpl-revue-parent"
             }
           },
           {
@@ -242,6 +242,9 @@
   },
   "active": "04f104bbffe7dac6",
   "lastOpenFiles": [
+    "Template/tpl-dictionary.md",
+    "Template/tpl-block-timeline.md",
+    "Template/tpl-crypto.md",
     "[intriguer.md",
     "Banner/biblio.jpeg",
     "Crypto/Crypto_introduction.md",
@@ -268,9 +271,6 @@
     "RevueParent/revue_2023-10-12.md",
     "RevueParent/revue_2023-10-08.md",
     "RevueParent/revue_2023-10-04.md",
-    "RevueParent/revue_2023-10-03.md",
-    "RevueParent/revue_2023-10-02.md",
-    "InstructionCiviqueMorale/study_bien et le mal.md",
     "manuel geo",
     "manuel histoire",
     "Feedback"
