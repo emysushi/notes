@@ -15,7 +15,6 @@
   "obsidian-book-search-plugin",
   "dataview",
   "mermaid-tools",
-  "obsidian-pomodoro-plugin",
   "obsidian-sakana-widget",
   "obsidian-translator",
   "obsidian-linter",
@@ -46,5 +45,7 @@
   "obsidian-plugin-todo",
   "obsidian-git",
   "obsidian-wakatime",
-  "obsidian-colorful-tag"
+  "obsidian-colorful-tag",
+  "similar-notes",
+  "extended-graph"
 ]

@@ -1,24 +1,26 @@
 {
   "main": {
-    "id": "04264224909710a9",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "92385566260cbc88",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "04f104bbffe7dac6",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "tpl-block-timeline"
+              "title": "Home"
             }
           }
         ]
@@ -152,16 +154,6 @@
             }
           },
           {
-            "id": "b4a88cbaede8b2dd",
-            "type": "leaf",
-            "state": {
-              "type": "online.tokuhirom.obsidian-pomodoro-plugin",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
             "id": "9b8cdb48311e0dfe",
             "type": "leaf",
             "state": {
@@ -179,16 +171,6 @@
               "state": {},
               "icon": "lucide-file",
               "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "697b1fc65fdda0b1",
-            "type": "leaf",
-            "state": {
-              "type": "online.tokuhirom.obsidian-pomodoro-plugin",
-              "state": {},
-              "icon": "clock",
-              "title": "Pomodoro timer"
             }
           },
           {
@@ -212,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -236,17 +218,17 @@
       "birthday-tracker:Track birthdays": false,
       "birthday-tracker:Open year overview": false,
       "homepage:Open homepage": false,
-      "obsidian-wordnet-plugin:WordNet Dictionary": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04f104bbffe7dac6",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Template/tpl-block-timeline.md",
+    "Home.md",
     "birthdayNode.md",
     "Template/tpl-study.md",
     "Template/tpl-revue-parent.md",
     "Template/tpl-dictionary.md",
-    "Template/tpl-block-timeline.md",
     "Template/tpl-crypto.md",
     "[intriguer.md",
     "Banner/biblio.jpeg",
@@ -255,7 +237,6 @@
     "RevueParent/revue_2023-10-01.md",
     "manuel histoire/study_histoire de l'union européenne.md",
     "Francais/Le Horla.md",
-    "Home.md",
     "Dictionary_French.md",
     "Dictionary_English.md",
     "Physique-Chimie/lesson_le Volt.md",
