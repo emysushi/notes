@@ -16,16 +16,16 @@ updated:: 2023-02-24 18:32:26
 ---
 
 # 1	Auteur
-- nom : 
-- nationalité : 
-- date naissance/mort :
+- nom : Madame de Lafayette
+- nationalité : française, parisienne
+- date naissance/mort : 1634-1693
 - contexte historique :
 - grandes étapes de sa vie :
 	- etape1 :  
 	- etape2 : 
 	- etape3 :
 	- etape4 :
-- profession :
+- profession : romancière, épistolière française
 - courant littéraire prédilection : 
 
 # 2	Genre 
