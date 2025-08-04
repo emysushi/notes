@@ -19,11 +19,11 @@ updated:: 2023-02-24 18:32:26
 - nom : Madame de Lafayette
 - nationalité : française, parisienne
 - date naissance/mort : 1634-1693
-- contexte historique :
+- contexte historique : Roi de France et de Navarre 1601-1643
 - grandes étapes de sa vie :
-	- etape1 :  
-	- etape2 : 
-	- etape3 :
+	- etape1 :  son père meurt en 1649 elle n’a que 15 ans
+	- etape2 : demoiselle d'honneur de la reine Anne d'Autriche
+	- etape3 : En 1655, âgée de 22 ans, elle épouse François Motier
 	- etape4 :
 - profession : romancière, épistolière française
 - courant littéraire prédilection : 
