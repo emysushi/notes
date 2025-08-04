@@ -54,6 +54,6 @@ j'ai bien aimé le passage au tout début du second chapitre,
 
 
 # 5	Appréciation personnelle :
-Le livre était assez complexe à comprendre au début du récit, avec le nombre de personnage et leur roles dans l'histoire. au fil de la lecture on relie peu à peu les elements entre eux. Dans l'ensemble je n'ai pas apprécié le livre plus que ça, cela n'a pas était un coup de coeur, mais l'histoire était originale, comme une sorte de biographie ou de journal par le personnage principal,t car l'histoire se passait au règne de Henri II donc vers le 17ème siècle, la plupart des éléments correspondait au temps et lieu réel, sauf la mécanique de l'histoire bien sur, meme si le point de vue etait omniscient.
+Le livre était assez complexe à comprendre au début du récit, le déroulement, le nombre de personnage et leur roles dans l'histoire. au fil de la lecture on relie peu à peu les elements entre eux. Dans l'ensemble je n'ai pas apprécié le livre plus que ça, cela n'a pas était un coup de coeur. Cependant l'histoire était originale, comme une sorte de biographie ou de journal, l'histoire se passait au règne de Henri II donc vers le 17ème siècle, ou elle a etait elle meme écrite par une dame de cette époque, Madame de Lafayette.La plupart des éléments correspondait au temps et lieu réel (17eme) , sauf la mécanique de l'histoire bien sur qui n'est pas la meme dans la vraie vie, le point de vue etait omniscient donc on voit tout de suite que ce n'est pas le cas.
 
 
