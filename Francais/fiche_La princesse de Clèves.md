@@ -30,8 +30,8 @@ updated:: 2023-02-24 18:32:26
 
 # 2	Genre 
 - genre de l'ouvrage : roman
-- place de l'ouvrage dans la vie de l'auteur : 
-- chronologie : 
+- place de l'ouvrage dans la vie de l'auteur : un des premiers romans psychologiques
+- chronologie : 1678
 
 # 3	Le cadre :
 - contexte politique et social : 
