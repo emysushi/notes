@@ -26,7 +26,7 @@ updated:: 2023-02-24 18:32:26
 	- etape3 : En 1655, âgée de 22 ans, elle épouse François Motier
 	- etape4 :
 - profession : romancière, épistolière française
-- courant littéraire prédilection : 
+- courant littéraire prédilection : romanciere
 
 # 2	Genre 
 - genre de l'ouvrage : roman
