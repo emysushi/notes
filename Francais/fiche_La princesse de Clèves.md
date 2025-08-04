@@ -54,3 +54,6 @@ updated:: 2023-02-24 18:32:26
 
 
 # 5	Appréciation personnelle :
+Le livre était assez complexe à comprendre au début du récit 
+
+
