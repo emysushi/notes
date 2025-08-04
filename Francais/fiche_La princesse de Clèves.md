@@ -44,16 +44,16 @@ updated:: 2023-02-24 18:32:26
 - madame de chartres : mere de la princesse, 
 - princesse de chartres (Clèves) : personnage principale
 - vidame de chartres : oncle de la princesse
-- prince de Clèves : futur mari de la princesse 
+- prince de Clèves : futur mari de la princesse, dévouée et sincère envers elle
 - monsieur de Nemours : amant secret de la princesse
-- chevalier de guise : prétendant de la princesse
+- chevalier de guise : prétendant de la princesse lors du bal organisé par sa mere 
 - madame la dauphine : épouse de Francois, fils ainé du roi
 
 # 4	passage marquants :
-
+j'ai bien aimé le passage au tout début du second chapitre, 
 
 
 # 5	Appréciation personnelle :
-Le livre était assez complexe à comprendre au début du récit 
+Le livre était assez complexe à comprendre au début du récit, avec le nombre de personnage et leur roles dans l'histoire. au fil de la lecture on relie peu à peu les elements entre eux. Dans l'ensemble je n'ai pas apprécié le livre plus que ça, cela n'a pas était un coup de coeur, mais l'histoire était originale, comme une sorte de biographie ou de journal par le personnage principal,t car l'histoire se passait au règne de Henri II donc vers le 17ème siècle, la plupart des éléments correspondait au temps et lieu réel, sauf la mécanique de l'histoire bien sur, meme si le point de vue etait omniscient.
 
 
