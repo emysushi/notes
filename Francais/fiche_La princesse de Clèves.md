@@ -42,11 +42,10 @@ updated:: 2023-02-24 18:32:26
  Les personnages principaux :
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
--
 
 
 # 4	passage marquants :
- 
+
 
 
 # 5	Appréciation personnelle :
