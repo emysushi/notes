@@ -11,10 +11,14 @@
             "id": "890b39b2cdfa10a2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Francais/fiche_La princesse de Clèves.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "fiche_La princesse de Clèves"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.505859375
+    "width": 365.505859375,
+    "collapsed": true
   },
   "right": {
     "id": "b04988d5c17efa9d",
@@ -217,6 +222,9 @@
   },
   "active": "890b39b2cdfa10a2",
   "lastOpenFiles": [
+    "Francais/fiche_L'Enfant multiple.md",
+    "Francais/fiche_La princesse de Clèves.md",
+    "Template/tpl-livre.md",
     "Home.md",
     "Template/tpl-block-timeline.md",
     "birthdayNode.md",
@@ -241,11 +249,8 @@
     "manuel histoire/study_la renaissance.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
     "manuel Emc/Untitled.md",
-    "Anglais/lesson_feelings.md",
-    "plan de progression 4ème/lesson_plan de progression français.md",
     "plan de progression 4ème",
     "Template/Untitled",
-    "RevueParent/revue_2023-10-11.md",
     "manuel geo",
     "manuel histoire",
     "Feedback"
