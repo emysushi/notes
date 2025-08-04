@@ -41,9 +41,12 @@ updated:: 2023-02-24 18:32:26
 
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
-- 
-
-
+- madame de chartres : mere de la princesse, 
+- princesse de chartres (Clèves) : personnage principale
+- vidame de chartres : oncle de la princesse
+- prince de Clèves : futur mari de la princesse 
+- monsieur de Nemours : amant secret de la princesse
+- chevalier de guise : prétendant de la princesse
 
 # 4	passage marquants :
 
