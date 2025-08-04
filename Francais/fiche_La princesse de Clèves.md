@@ -47,6 +47,7 @@ updated:: 2023-02-24 18:32:26
 - prince de Clèves : futur mari de la princesse 
 - monsieur de Nemours : amant secret de la princesse
 - chevalier de guise : prétendant de la princesse
+- madame la dauphine : épouse de Francois, fils ainé du roi
 
 # 4	passage marquants :
 
