@@ -8,17 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "890b39b2cdfa10a2",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Francais/fiche_La princesse de Clèves.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "fiche_La princesse de Clèves"
+              "title": "Home"
             }
           }
         ]
@@ -220,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "890b39b2cdfa10a2",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Francais/fiche_L'Enfant multiple.md",
     "Francais/fiche_La princesse de Clèves.md",
+    "Francais/fiche_L'Enfant multiple.md",
     "Template/tpl-livre.md",
     "Home.md",
     "Template/tpl-block-timeline.md",
