@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "fe29afe825081bba",
         "type": "tabs",
         "children": [
           {
-            "id": "651e53b90ec3a4d8",
+            "id": "04dded2311a46a17",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dossier/La chimie des matériaux.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "La chimie des matériaux"
             }
           }
         ]
@@ -217,8 +221,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "651e53b90ec3a4d8",
+  "active": "04dded2311a46a17",
   "lastOpenFiles": [
+    "Dossier/La chimie des matériaux.md",
+    "Dossier",
     "Home.md",
     "Francais/fiche_La princesse de Clèves.md",
     "Francais/fiche_L'Enfant multiple.md",
@@ -245,7 +251,6 @@
     "manuel histoire/study_La Réforme.md",
     "manuel histoire/study_la renaissance.md",
     "Histoire-Geographie/lesson_Histoire_MoyenAge.md",
-    "manuel Emc/Untitled.md",
     "plan de progression 4ème",
     "Template/Untitled",
     "manuel geo",
