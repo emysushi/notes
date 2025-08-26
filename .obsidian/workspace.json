@@ -8,19 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "c4c24390d68036e8",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Dossier/La chimie des matériaux.md",
+                "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "La chimie des matériaux"
             }
           }
         ]
@@ -80,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.505859375
+    "width": 365.505859375,
+    "collapsed": true
   },
   "right": {
     "id": "b04988d5c17efa9d",
@@ -222,11 +221,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c4c24390d68036e8",
   "lastOpenFiles": [
+    "Home.md",
     "Dossier/La chimie des matériaux.md",
     "Dossier",
-    "Home.md",
     "Francais/fiche_La princesse de Clèves.md",
     "Francais/fiche_L'Enfant multiple.md",
     "Template/tpl-livre.md",
