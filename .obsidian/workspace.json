@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "fe29afe825081bba",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "04dded2311a46a17",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dossier/La chimie des matériaux.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "La chimie des matériaux"
+              "title": "Home"
             }
           }
         ]
@@ -78,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.505859375,
-    "collapsed": true
+    "width": 365.505859375
   },
   "right": {
     "id": "b04988d5c17efa9d",
@@ -221,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04dded2311a46a17",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Dossier/La chimie des matériaux.md",
     "Dossier",
