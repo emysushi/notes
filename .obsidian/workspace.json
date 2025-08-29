@@ -22,21 +22,8 @@
               "icon": "lucide-file",
               "title": "Home"
             }
-          },
-          {
-            "id": "bed5da7936544255",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.12"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.12"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -236,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bed5da7936544255",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Home.md",
     "Dossier/La chimie des matériaux.md",
