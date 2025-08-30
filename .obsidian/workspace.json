@@ -27,10 +27,14 @@
             "id": "eb296032c3dd3ceb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Dossier/La chimie des matériaux.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "La chimie des matériaux"
             }
           }
         ],
@@ -91,7 +95,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.505859375
+    "width": 365.505859375,
+    "collapsed": true
   },
   "right": {
     "id": "b04988d5c17efa9d",
