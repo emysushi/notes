@@ -16,6 +16,7 @@ updated:: 2023-02-24 18:32:26
 ---
 
 # 1	Auteur
+
 - nom : Madame de Lafayette
 - nationalité : britannique, londonienne
 - date naissance/mort : 1882 – 1941
@@ -29,11 +30,13 @@ updated:: 2023-02-24 18:32:26
 - courant littéraire prédilection : modernisme
 
 # 2	Genre 
+
 - genre de l'ouvrage : roman biographique
 - place de l'ouvrage dans la vie de l'auteur : oeuvre personnelle, hommage à son amante Vita Sackville-West
 - chronologie : 
 
 # 3	Le cadre :
+
 - contexte politique et social : -société anglaise de l'époque avec des inégalités entre hommes et femmes
 - période historique : du XVIe siècle au XXe siècle
 - événements historiques : règne de la reine Élisabeth premiere, dans l'époque victorienne
@@ -47,9 +50,10 @@ updated:: 2023-02-24 18:32:26
 - L’archiduc / archiduchesse :  personne plutôt étrange qui veut se marier avec Orlando avant et après qu’il devienne une femme
 
 # 4	passage marquants :
+
 j'ai bien aimé le passage au tout début du second chapitre, 
 
 
 # 5	Appréciation personnelle :
-Le livre était assez complexe à comprendre au début du récit, le déroulement, le nombre de personnage et leur roles dans l'histoire. au fil de la lecture on relie peu à peu les elements entre eux. Dans l'ensemble je n'ai pas apprécié le livre plus que ça, cela n'a pas était un coup de coeur. Cependant l'histoire était originale, comme une sorte de biographie ou de journal, l'histoire se passait au règne de Henri II donc vers le 17ème siècle, ou elle a etait elle meme écrite par une dame de cette époque, Madame de Lafayette.La plupart des éléments correspondait au temps et lieu réel (17eme) , sauf la mécanique de l'histoire bien sur qui n'est pas la meme dans la vraie vie, le point de vue etait omniscient donc on voit tout de suite que ce n'est pas le cas.
 
+Au début, j’ai eu du mal à m’immerger dans l’histoire, notamment à cause du style d’écriture et des personnages un peu difficiles à saisir. Mais en poursuivant ma lecture, j’ai mieux compris les liens entre les différents événements. Ce n’est pas un livre que j’ai particulièrement apprécié, ce n’est pas un coup de cœur. Cependant, j’ai trouvé l’histoire originale, un peu comme une biographie rédigée au 17ᵉ siècle, à la manière de Madame de Lafayette. Beaucoup de détails correspondent bien à cette époque, même si le récit n’est pas réel. J’ai aussi apprécié que le narrateur prenne le temps d’expliquer certains éléments, ce qui facilite la compréhension malgré la complexité du texte.
