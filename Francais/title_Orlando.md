@@ -51,9 +51,9 @@ updated:: 2023-02-24 18:32:26
 
 # 4	passage marquants :
 
-j'ai bien aimé le passage au tout début du second chapitre, 
+
 
 
 # 5	Appréciation personnelle :
 
-Au début, j’ai eu du mal à m’immerger dans l’histoire, à cause du style d’écriture et des personnages un peu difficiles à comprendre au départ. Mais en poursuivant ma lecture, j’ai mieux compris les liens entre les différents événements. Ce n’est pas un livre que j’ai particulièrement apprécié, ce n’est pas un coup de cœur. Cependant, j’ai trouvé l’histoire originale, un peu comme une biographie rédigée au 17ᵉ siècle, à la manière de Madame de Lafayette. Beaucoup de détails correspondent bien à cette époque, même si le récit n’est pas réel. J’ai aussi apprécié que le narrateur prenne le temps d’expliquer certains éléments, ce qui facilite la compréhension malgré la complexité du texte.
+Au début, j’ai eu du mal à m’immerger dans l’histoire, à cause du style d’écriture et des personnages un peu difficiles à comprendre au départ. Mais en poursuivant ma lecture, j’ai mieux compris les liens entre les différents événements. Ce n’est pas un livre que j’ai particulièrement apprécié. mais j’ai trouvé l’histoire originale, l'idée d'inventer une histoire ou le personnage principale change de sexe au fil de l'histoire et tres inventif, Beaucoup de détails corresponden à cette époque, même si le récit n’est pas réel. J’ai aussi apprécié que le narrateur prenne le temps d’expliquer certains éléments, ce qui facilite la compréhension malgré la complexité du texte.
