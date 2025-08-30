@@ -17,37 +17,30 @@ updated:: 2023-02-24 18:32:26
 
 # 1	Auteur
 - nom : Madame de Lafayette
-- nationalité : française, parisienne
-- date naissance/mort : 1634 – 1693
-- contexte historique : Roi de France et de Navarre 1601-1643
+- nationalité : britannique, londonienne
+- date naissance/mort : 1882 – 1941
+- contexte historique : Angleterre de l’époque victorienne à l’entre-deux-guerres
 - grandes étapes de sa vie :
-	- etape1 :  son père meurt en 1649 elle n’a que 15 ans
-	- etape2 : demoiselle d'honneur de la reine Anne d'Autriche
-	- etape3 : En 1655, âgée de 22 ans, elle épouse François Motier
-	- etape4 :
-- profession : romancière, épistolière française
-- courant littéraire prédilection : romancière
+	- etape1 : perd sa mère en 1895, ce qui marque le début de troubles psychiques
+	- etape2 : fondatrice du cercle intellectuel du Bloomsbury Group
+	- etape3 : le livre Mrs Dalloway en 1925, la rendra celebre
+	- etape4 : en 1928 elle publie Orlando 
+- profession : romancière,et critique littéraire
+- courant littéraire prédilection : modernisme
 
 # 2	Genre 
-- genre de l'ouvrage : roman
-- place de l'ouvrage dans la vie de l'auteur : un des premiers romans psychologiques
-- chronologie : 1678
+- genre de l'ouvrage : roman biographique
+- place de l'ouvrage dans la vie de l'auteur : oeuvre personnelle, hommage à son amante Vita Sackville-West
+- chronologie : 
 
 # 3	Le cadre :
-- contexte politique et social : 
-- période historique :
-- événements historiques :
-
+- contexte politique et social : -société anglaise de l'époque avec des inégalités entre hommes et femmes
+- période historique : du XVIe siècle au XXe siècle
+- événements historiques : règne de la reine Élisabeth premiere, dans l'époque victorienne
 
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
-- madame de chartres : mere de la princesse, 
-- princesse de chartres (Clèves) : personnage principale
-- vidame de chartres : oncle de la princesse
-- prince de Clèves : futur mari de la princesse, dévouée et sincère envers elle
-- monsieur de Nemours : amant secret de la princesse
-- chevalier de guise : prétendant de la princesse lors du bal organisé par sa mere 
-- madame la dauphine : épouse de Francois, fils ainé du roi
+- 
 
 # 4	passage marquants :
 j'ai bien aimé le passage au tout début du second chapitre, 
