@@ -22,8 +22,19 @@
               "icon": "lucide-file",
               "title": "Home"
             }
+          },
+          {
+            "id": "eb296032c3dd3ceb",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.505859375,
-    "collapsed": true
+    "width": 365.505859375
   },
   "right": {
     "id": "b04988d5c17efa9d",
@@ -223,7 +233,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "eb296032c3dd3ceb",
   "lastOpenFiles": [
     "Home.md",
     "Dossier/La chimie des matériaux.md",
