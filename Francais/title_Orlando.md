@@ -18,7 +18,7 @@ updated:: 2023-02-24 18:32:26
 # 1	Auteur
 - nom : Madame de Lafayette
 - nationalité : française, parisienne
-- date naissance/mort : 1634-1693
+- date naissance/mort : 1634 – 1693
 - contexte historique : Roi de France et de Navarre 1601-1643
 - grandes étapes de sa vie :
 	- etape1 :  son père meurt en 1649 elle n’a que 15 ans
