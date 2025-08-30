@@ -40,7 +40,11 @@ updated:: 2023-02-24 18:32:26
 
 
 - liste des personnages, caractères, profil socio économique, évolution dans le récit, rapport entre les personnages et leurs évolutions
-- 
+- Orlando : C’est le personnage principal de l'histoire, au début, c’est un garçon nobl puis devient une fille et vit très longtemps (plusieurs siècles)
+- Sasha: princesse russe, Orlando tombe amoureux d’elle mais celle-ci le laisse tomber peu de temps aprés
+- Shelmerdine :  un aventurier qui tombe amoureux d’Orlando et ils decident de se marient par la suite
+- La reine Élisabeth :  la reine d’Angleterre affectionne Orlando jeune
+- L’archiduc / archiduchesse :  personne plutôt étrange qui veut se marier avec Orlando avant et après qu’il devienne une femme
 
 # 4	passage marquants :
 j'ai bien aimé le passage au tout début du second chapitre, 
