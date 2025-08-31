@@ -10,7 +10,7 @@ En chimie des matériaux, on distingue 5 grandes familles :
 - 
 - **Organiques** : tissus, matériaux fossilisés, charbon, pétrole
 - _Biodegradabilité et structure complexe_
-- 
+
 - **Composites** : mélange de matériaux (ex. : fibre de verre, fibre de carbone, fibre de bore, béton)
 - _Biodegradabilité et structure complexe_
 
