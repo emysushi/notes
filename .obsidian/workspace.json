@@ -8,17 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "44287e7987853462",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dossier/La chimie des matériaux.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "La chimie des matériaux"
+              "title": "Home"
             }
           }
         ]
@@ -221,10 +223,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44287e7987853462",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "Dossier/La chimie des matériaux.md",
+    "Home.md",
     "Francais/title_Orlando.md",
     "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
     "Francais/feedback_2023-05-23.md",
