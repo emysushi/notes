@@ -29,15 +29,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "52e59a05f2a85c7f",
+    "id": "607ffb7738042cc5",
     "type": "split",
     "children": [
       {
-        "id": "13e20e27d5631f3c",
+        "id": "7e20750f481d80ff",
         "type": "tabs",
         "children": [
           {
-            "id": "da16a823f16323a0",
+            "id": "b03c723cbf5e42a8",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -50,12 +50,12 @@
             }
           },
           {
-            "id": "4c55722a607e8c32",
+            "id": "2de787ab3ec50716",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#être_responsable",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +67,7 @@
             }
           },
           {
-            "id": "c8ceae32f9d6e917",
+            "id": "5bb3298a9b854c59",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,24 +80,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.505859375,
-    "collapsed": true
+    "width": 300
   },
   "right": {
-    "id": "b04988d5c17efa9d",
+    "id": "82f88a445c2b3091",
     "type": "split",
     "children": [
       {
-        "id": "943615c718e3b105",
+        "id": "d1ccfc255ec2bfa8",
         "type": "tabs",
         "children": [
           {
-            "id": "f3ad144320d26451",
+            "id": "736253db309c3673",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,25 +105,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for tpl-block-timeline"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "467c624fe296ec88",
+            "id": "43f0380c12fa26e4",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from tpl-block-timeline"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "73516b7f8b4e883d",
+            "id": "4a73fd33c267647d",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,42 +137,21 @@
             }
           },
           {
-            "id": "5bd3dbf6c046669b",
+            "id": "3ccf498520561500",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Template/tpl-block-timeline.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of tpl-block-timeline"
+              "title": "Outline"
             }
           },
           {
-            "id": "9b8cdb48311e0dfe",
-            "type": "leaf",
-            "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "4312cf0f13781aa4",
-            "type": "leaf",
-            "state": {
-              "type": "Birthday-Tracker",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "5042399f65d950f0",
+            "id": "67a28ebbaf7eefe7",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
@@ -185,31 +161,30 @@
             }
           },
           {
-            "id": "79b8246769b4b724",
+            "id": "9ba3a28f3627fa51",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "Birthday-Tracker",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "cake",
+              "title": "Birthday-Tracker"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 434.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-gallery:Gallery": false,
@@ -225,38 +200,6 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
-    "Dossier/La chimie des matériaux.md",
-    "Francais/title_Orlando.md",
-    "Francais/fiche_Les aventures d'Alice au pays des merveilles ; Ce qu'Alice trouva de l'autre.md",
-    "Francais/feedback_2023-05-23.md",
-    "Francais/fiche_La princesse de Clèves.md",
-    "Francais/Le Horla.md",
-    "Francais/fiche_Olando.md",
-    "Dossier",
-    "Francais/fiche_L'Enfant multiple.md",
-    "Template/tpl-livre.md",
-    "Template/tpl-block-timeline.md",
-    "birthdayNode.md",
-    "Template/tpl-study.md",
-    "Template/tpl-revue-parent.md",
-    "Template/tpl-dictionary.md",
-    "Template/tpl-crypto.md",
-    "[intriguer.md",
-    "Banner/biblio.jpeg",
-    "Crypto/Crypto_introduction.md",
-    "feed back/lesson_Maths.md",
-    "RevueParent/revue_2023-10-01.md",
-    "manuel histoire/study_histoire de l'union européenne.md",
-    "Dictionary_French.md",
-    "Dictionary_English.md",
-    "Physique-Chimie/lesson_le Volt.md",
-    "InstructionCiviqueMorale/study_la responsabilité.md",
-    "manuel geo/study_null.md",
-    "plan de progression 4ème",
-    "Template/Untitled",
-    "manuel geo",
-    "manuel histoire",
-    "Feedback"
+    "Home.md"
   ]
 }
