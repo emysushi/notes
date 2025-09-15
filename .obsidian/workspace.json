@@ -67,7 +67,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -254,12 +254,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ec01adf28106d87",
+  "active": "49b0bc69ee7cca15",
   "lastOpenFiles": [
     "Maths/Calcul littéral.md",
+    "Anglais/Lesson et vocabulaire.md",
     "Ses/Untitled.canvas",
     "Ses/Sciences économiques et sociales.md",
-    "Anglais/Lesson et vocabulaire.md",
     "Ses/Untitled Diagram.svg",
     "Untitled.md",
     "Anglais/Verbes.md",
