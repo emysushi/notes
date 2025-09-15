@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"ee5d3129b9439e74","type":"text","text":"bien","x":-500,"y":-70,"width":250,"height":60,"color":"1"},
+		{"id":"5915e865962eed6b","type":"text","text":"services ","x":-140,"y":-70,"width":250,"height":60,"color":"#446a9c"},
+		{"id":"7e32596f9b84543c","type":"text","text":"services non-marchands","x":0,"y":76,"width":250,"height":60},
+		{"id":"9d130bf985dd5d0a","type":"text","text":"services marchands","x":-280,"y":76,"width":250,"height":60},
+		{"id":"cf06f1c5f178a9cc","type":"text","text":"production de richesses\n(activité humaine qui consiste à créer des biens et services afins de satisfair\n)","x":-320,"y":-260,"width":280,"height":140,"color":"#d9b536"}
+	],
+	"edges":[
+		{"id":"88612100686d7d29","fromNode":"cf06f1c5f178a9cc","fromSide":"right","toNode":"5915e865962eed6b","toSide":"top"},
+		{"id":"99e00ea02ad739cd","fromNode":"cf06f1c5f178a9cc","fromSide":"left","toNode":"ee5d3129b9439e74","toSide":"top"},
+		{"id":"06dec38f1435f72e","fromNode":"5915e865962eed6b","fromSide":"bottom","toNode":"9d130bf985dd5d0a","toSide":"top"},
+		{"id":"f7f9f833bc0853d0","fromNode":"5915e865962eed6b","fromSide":"bottom","toNode":"7e32596f9b84543c","toSide":"top"}
+	]
+}

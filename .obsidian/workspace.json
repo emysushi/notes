@@ -39,14 +39,17 @@
             "id": "49b0bc69ee7cca15",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Ses/Sciences économiques et sociales.md",
-                "mode": "source",
-                "source": false
+                "file": "Ses/Untitled.canvas",
+                "viewState": {
+                  "x": -125,
+                  "y": -22,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Sciences économiques et sociales"
+              "icon": "lucide-layout-dashboard",
+              "title": "Untitled"
             }
           }
         ],
@@ -239,9 +242,11 @@
   },
   "active": "49b0bc69ee7cca15",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Ses/Untitled Diagram.svg",
+    "Ses/Untitled.canvas",
     "Ses/Sciences économiques et sociales.md",
     "Anglais/Lesson et vocabulaire.md",
+    "Untitled.md",
     "Anglais/Verbes.md",
     "Svt/L'organisme pluricellulaire.md",
     "Anglais/lesson_feelings.md",
