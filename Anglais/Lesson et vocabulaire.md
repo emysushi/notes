@@ -20,4 +20,4 @@
 - contrary, against, opposition
 - in my opinion, i would say that, in my perspective, in my point of view
 
-- never < rarely < seldom < sometimes < occasionally < often < usually < always
+never < rarely < seldom < sometimes < occasionally < often < usually < always
