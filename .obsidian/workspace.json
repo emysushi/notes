@@ -44,16 +44,26 @@
                 "file": "Ses/Untitled.canvas",
                 "viewState": {
                   "x": -125,
-                  "y": -22,
+                  "y": -50,
                   "zoom": 0
                 }
               },
               "icon": "lucide-layout-dashboard",
               "title": "Untitled"
             }
+          },
+          {
+            "id": "1ec01adf28106d87",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -240,12 +249,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "49b0bc69ee7cca15",
+  "active": "1ec01adf28106d87",
   "lastOpenFiles": [
-    "Ses/Untitled Diagram.svg",
     "Ses/Untitled.canvas",
     "Ses/Sciences économiques et sociales.md",
     "Anglais/Lesson et vocabulaire.md",
+    "Ses/Untitled Diagram.svg",
     "Untitled.md",
     "Anglais/Verbes.md",
     "Svt/L'organisme pluricellulaire.md",

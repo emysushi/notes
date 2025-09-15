@@ -6,6 +6,6 @@
 - la science politique : 
 	- science qui étudie la conquête et l'exercice du pouvoir politique
 
-- production de richesse 
+
 
 
