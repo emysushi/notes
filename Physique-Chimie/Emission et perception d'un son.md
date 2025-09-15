@@ -11,3 +11,7 @@ la vitesse de propagation d'un signal dépend du milieu de propagation et de sa 
 air < eau < cuivre 
 
 ___
+
+| téra | giga | méga | kilo | hecto |     |     |
+| ---- | ---- | ---- | ---- | ----- | --- | --- |
+|      |      |      |      |       |     |     |
