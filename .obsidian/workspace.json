@@ -11,10 +11,14 @@
             "id": "d963e6f2dca209c0",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Physique-Chimie/Emission et perception d'un son.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Emission et perception d'un son"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -195,6 +200,13 @@
   },
   "active": "d963e6f2dca209c0",
   "lastOpenFiles": [
+    "Physique-Chimie/Emission et perception d'un son/Untitled.md",
+    "Physique-Chimie/Emission et perception d'un son.md",
+    "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
+    "Physique-Chimie/Emission et perception d'un son",
+    "Physique-Chimie/lesson_MASSE & VOLUME.md",
+    "Physique-Chimie/lesson_le Volt.md",
+    "Physique-Chimie/lesson_le circuit électrique.md",
     "Home.md"
   ]
 }
