@@ -8,19 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "d963e6f2dca209c0",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "New tab"
             }
           }
         ]
@@ -175,7 +169,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "d963e6f2dca209c0",
   "lastOpenFiles": [
     "Home.md"
   ]
