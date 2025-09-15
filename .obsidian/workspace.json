@@ -56,10 +56,14 @@
             "id": "1ec01adf28106d87",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Calcul littéral.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Calcul littéral"
             }
           }
         ],
@@ -120,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -251,6 +256,7 @@
   },
   "active": "1ec01adf28106d87",
   "lastOpenFiles": [
+    "Maths/Calcul littéral.md",
     "Ses/Untitled.canvas",
     "Ses/Sciences économiques et sociales.md",
     "Anglais/Lesson et vocabulaire.md",
