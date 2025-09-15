@@ -1,8 +1,8 @@
 {
-  "showLineNumber": true,
+  "showLineNumber": false,
   "spellcheck": true,
   "alwaysUpdateLinks": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",
