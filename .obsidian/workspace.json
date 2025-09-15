@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Emission et perception d'un son"
             }
+          },
+          {
+            "id": "f252eff3a767ae1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Svt/L'organisme pluricellulaire.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "L'organisme pluricellulaire"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -208,10 +223,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d963e6f2dca209c0",
+  "active": "f252eff3a767ae1a",
   "lastOpenFiles": [
-    "Physique-Chimie/Emission et perception d'un son/Untitled.md",
+    "Svt/L'organisme pluricellulaire.md",
+    "Histoire-Géo/lesson_Histoire-Geographie_inegal_developpement.md",
+    "Maths",
+    "Ses",
+    "Fiche de lecture/feedback_2023-05-23.md",
     "Physique-Chimie/Emission et perception d'un son.md",
+    "Physique-Chimie/Emission et perception d'un son/Untitled.md",
     "Physique-Chimie/lesson_Physique-Chimie_corps_pure_melange.md",
     "Physique-Chimie/Emission et perception d'un son",
     "Physique-Chimie/lesson_MASSE & VOLUME.md",
