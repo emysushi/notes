@@ -22,4 +22,7 @@ ___
 
 valeur théorique de la vitesse du son dans l'air : Vson = 331,5 + 0,607 * T
 
-utilisation de l'oscilloscope, du générateur et de l'émetteur 
+- utilisation de :
+	- l'oscilloscope (mesurer et d'afficher une tension en fonction du temps)
+	- du générateur (créent des formes d'ondes électroniques)
+	- et de l'émetteur 
