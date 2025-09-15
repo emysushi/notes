@@ -16,3 +16,10 @@ ___
 | ----- | ---- | ---- | ---- | ----- | ---- | ------- | ----- | ----- | ----- | ----- | ----- |
 | 10^12 | 10^9 | 10^6 | 10^3 | 10^2  | 10^1 |         | 10^-1 | 10^-2 | 10^-3 | 10^-6 | 10^-9 |
 
+___
+
+# TP : mesure de la vitesse du son dans l'air
+
+valeur théorique de la vitesse du son dans l'air : Vson = 331,5 + 0,607 * T
+
+utilisation de l'oscilloscope, du générateur et de l'émetteur 
