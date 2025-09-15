@@ -8,5 +8,6 @@ Une onde sonore est une one mécanique progressive , elle transporte de l'énerg
 
 on a la formule : v = d/t (vitesse en m/s, distance en m, temps en sec)
 la vitesse de propagation d'un signal dépend du milieu de propagation et de sa température 
-air < eau < cuivre < fer
+air < eau < cuivre 
 
+___

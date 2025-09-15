@@ -168,9 +168,19 @@
               "icon": "cake",
               "title": "Birthday-Tracker"
             }
+          },
+          {
+            "id": "45d98a9831a20b79",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
