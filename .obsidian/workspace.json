@@ -8,19 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "2c87d79dbc7e602f",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Maths/Calcul littéral.md",
+                "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Calcul littéral"
             }
           }
         ]
@@ -210,8 +208,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2c87d79dbc7e602f",
   "lastOpenFiles": [
+    "Home.md",
     "Ses/Untitled.canvas",
     "Maths/Calcul littéral.md",
     "Anglais/Lesson et vocabulaire.md",
@@ -232,7 +231,6 @@
     "Physique-Chimie/Emission et perception d'un son",
     "Physique-Chimie/lesson_MASSE & VOLUME.md",
     "Physique-Chimie/lesson_le Volt.md",
-    "Physique-Chimie/lesson_le circuit électrique.md",
-    "Home.md"
+    "Physique-Chimie/lesson_le circuit électrique.md"
   ]
 }
