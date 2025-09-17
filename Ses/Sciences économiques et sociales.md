@@ -15,5 +15,7 @@
 | objectifs | réaliser des profits en vendant des biens/services sur le marché                                            | rechercher l'intérêt général en produisant des services non marchands | rechercher l'utilité sociale et la solidarité en produisant des biens/services |
 | exemples  | total énergie, nike, nutella                                                                                | mairie, hôpital, école, pompier                                       | croix rouge, resto du coeur, spa, fff                                          |
 
-- bien :
-	- produit materiel stockable
+- biens :
+	- objets matériels qui peuvent être échangés, vendus ou stockés
+- services : 
+	- immatériels et reposent sur la mise à disposition d’un savoir-faire technique ou intellectuel
