@@ -11,10 +11,14 @@
             "id": "dd19cff6d72bd003",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Maths/Les ensembles de nombres.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Les ensembles de nombres"
             }
           }
         ]
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -205,9 +210,10 @@
   },
   "active": "dd19cff6d72bd003",
   "lastOpenFiles": [
+    "Maths/Calcul littéral.md",
+    "Maths/Les ensembles de nombres.md",
     "Home.md",
     "Ses/Sciences économiques et sociales.md",
-    "Maths/Calcul littéral.md",
     "Physique-Chimie/Emission et perception d'un son.md",
     "Ses/Untitled.canvas",
     "Anglais/Lesson et vocabulaire.md",
