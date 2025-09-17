@@ -24,4 +24,4 @@
 
 #pétraque : (1304-1374) poète et humaniste italien, considéré comme un précurseur de la Renaissance, connu > son recueil de poèmes "Canzonière" mettant en vers son amour pour Laure de Sade
 #louiseLabé : (1524-1566) poétesse francaise, figure proclammé de l'écriture au feminin, connu > son poème "Sonnet 8" parlant d'amour et de souffrance
-#pierreDeRonsard :  (1524- 1585) poète français
+#pierreDeRonsard :  (1524- 1585) poète français, un des poètes français les plus importants du 16ème
