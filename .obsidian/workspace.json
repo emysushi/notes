@@ -34,9 +34,19 @@
               "icon": "lucide-file",
               "title": "Sciences économiques et sociales"
             }
+          },
+          {
+            "id": "8dfc5555687a35d2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -68,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#s-politique",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,12 +99,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -223,12 +233,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc32c054992e8cfd",
+  "active": "8dfc5555687a35d2",
   "lastOpenFiles": [
+    "Ses/Sciences économiques et sociales.md",
     "Maths/Les ensembles de nombres.md",
     "Physique-Chimie/Emission et perception d'un son.md",
     "Svt/L'organisme pluricellulaire.md",
-    "Ses/Sciences économiques et sociales.md",
     "Ses/Untitled.canvas",
     "Maths/Calcul littéral.md",
     "Home.md",

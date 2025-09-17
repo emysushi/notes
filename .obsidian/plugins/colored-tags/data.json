@@ -177,7 +177,17 @@
     "feed": 165,
     "college_5": 166,
     "book": 167,
-    "plan": 168
+    "plan": 168,
+    "biens": 169,
+    "services": 170,
+    "coût_de_production": 171,
+    "chiffre_d": 172,
+    "chiffre": 173,
+    "rendement": 174,
+    "coût": 175,
+    "s-économique": 176,
+    "sociologie": 177,
+    "s-politique": 178
   },
   "_version": 3
 }
