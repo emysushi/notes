@@ -27,26 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ses/Sciences économiques et sociales.md",
+                "file": "Français/La poésie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sciences économiques et sociales"
-            }
-          },
-          {
-            "id": "8dfc5555687a35d2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "La poésie"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,12 +89,12 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -233,8 +223,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8dfc5555687a35d2",
+  "active": "cc32c054992e8cfd",
   "lastOpenFiles": [
+    "Francais.md",
+    "Français/La poésie.md",
+    "Français",
     "Ses/Sciences économiques et sociales.md",
     "Maths/Les ensembles de nombres.md",
     "Physique-Chimie/Emission et perception d'un son.md",
