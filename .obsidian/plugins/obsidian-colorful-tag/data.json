@@ -900,12 +900,16 @@
       "#s-économique-1-0-1",
       "#sociologie-2-0-95",
       "#s-politique-3-0-181",
-      "#biens-14-1-1668",
-      "#services-15-0-1739",
-      "#coût-16-0-1846",
-      "#chiffre-17-0-1955",
-      "#rendement-18-0-2047",
-      "#PIB-19-0-2127"
+      "#biens-16-1-1676",
+      "#services-17-0-1747",
+      "#coût-18-0-1854",
+      "#chiffre-19-0-1963",
+      "#rendement-20-0-2055",
+      "#PIB-21-0-2135"
+    ],
+    "Français/La poésie.md": [
+      "#pétraque-24-0-748",
+      "#louiseLabé-25-0-891"
     ]
   }
 }

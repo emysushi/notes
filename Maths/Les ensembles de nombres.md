@@ -6,6 +6,8 @@
 - ∈ : appartient
 - ∉ : n'appartient pas
 - ⊆ : est inclu dans
+
+---
 # les nombres entiers 
 
 - entiers naturel :
@@ -15,6 +17,7 @@
 	- nombres entiers positifs ou négatif (+ ou -)
 	- notation ℤ
 
+---
 # les nombres rationnels
 
 - nombre qui s'écrit sous la forme a/b ou a et b sont des entiers relatifs (+ ou -)
@@ -29,7 +32,9 @@
 	- s'écrit avec une partie entière et décimale, éventuellement infinie
 	- notation ℝ
 
-
 | ℕ                 | ℤ                  | ⅅ                   | ℚ                     | ℝ           |
 | ----------------- | ------------------ | ------------------- | --------------------- | ----------- |
 | entiers naturel < | entiers relatifs < | ensemble décimaux < | ensemble rationnels < | nombre réel |
+
+--- 
+
