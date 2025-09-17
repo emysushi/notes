@@ -82,7 +82,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pierreDeRonsard",
+                "query": "tag:#chien",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -241,14 +241,14 @@
   "active": "635c4f3a56776b02",
   "lastOpenFiles": [
     "Français/Comment aborder un texte.md",
+    "Français/La poésie.md",
+    "Maths/Les ensembles de nombres.md",
     "Svt/L'organisme pluricellulaire.md",
     "Ses/Sciences économiques et sociales.md",
     "Physique-Chimie/Emission et perception d'un son.md",
     "Maths/Calcul littéral.md",
-    "Maths/Les ensembles de nombres.md",
     "Anglais/Verbes.md",
     "Anglais/Lesson et vocabulaire.md",
-    "Français/La poésie.md",
     "Francais.md",
     "Français",
     "Ses/Untitled.canvas",
