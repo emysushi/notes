@@ -8,13 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a47cf58e57d57399",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Home"
             }
           }
         ]
@@ -70,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -204,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a47cf58e57d57399",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Home.md",
     "Français/La poésie.md",
