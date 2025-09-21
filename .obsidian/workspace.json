@@ -8,19 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "16aef36c0d4d296c",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "Maths/Les ensembles de nombres.md",
+                "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Les ensembles de nombres"
             }
           }
         ]
@@ -80,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -209,7 +208,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "16aef36c0d4d296c",
   "lastOpenFiles": [
     "Home.md",
     "Français/La poésie.md",

@@ -27,7 +27,7 @@
 	- notation ℚ
 - ensembles décimaux :
 	-  peuvent s'écrire sous la forme 10na où a et n sont des entiers relatifs (+ ou -)
-	- notation ⅅ
+	- notation ⅅ 
 - nombre réel :
 	- s'écrit avec une partie entière et décimale, éventuellement infinie
 	- notation ℝ
