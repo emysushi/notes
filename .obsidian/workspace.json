@@ -8,17 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "16aef36c0d4d296c",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths/Les ensembles de nombres.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "Les ensembles de nombres"
+              "title": "Home"
             }
           }
         ]
@@ -78,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -208,15 +209,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "16aef36c0d4d296c",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Physique-Chimie/Emission et perception d'un son.md",
+    "Maths/Les ensembles de nombres.md",
     "Home.md",
     "Français/La poésie.md",
     "Français/Comment aborder un texte.md",
-    "Maths/Les ensembles de nombres.md",
     "Svt/L'organisme pluricellulaire.md",
     "Ses/Sciences économiques et sociales.md",
-    "Physique-Chimie/Emission et perception d'un son.md",
     "Maths/Calcul littéral.md",
     "Anglais/Verbes.md",
     "Anglais/Lesson et vocabulaire.md",
