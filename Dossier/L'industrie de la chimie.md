@@ -8,7 +8,7 @@ plan exemple :
 
 - L’industrie chimique en France
 	- Poids économique : il s'agit tout de meme d'un secteur qui occupe une place importante dans l'économie notre pays, et se positionne au 3eme rang dans les secteurs français (derriere l'automobile et la metallurgie), avec plus de 200 000 emplois
-	- Principaux pôles : 
+	- Principaux pôles : bien sur nous avons le bassin parisien, suivi du havre, lyon et de marseille
 	- Défis actuels :
 
 - L’industrie chimique en Europe
