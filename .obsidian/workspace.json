@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 206.5
   },
   "right": {
     "id": "82f88a445c2b3091",
@@ -179,14 +179,23 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "755dbc9ce344c43d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
         "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,9 +220,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
     "Physique-Chimie/Emission et perception d'un son.md",
     "Maths/Les ensembles de nombres.md",
-    "Home.md",
     "Français/La poésie.md",
     "Français/Comment aborder un texte.md",
     "Svt/L'organisme pluricellulaire.md",
