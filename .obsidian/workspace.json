@@ -24,15 +24,15 @@
             }
           },
           {
-            "id": "fa34377de1d96dc2",
+            "id": "ed7d67387adb32c8",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.9.14"
+                "currentVersion": "1.11.4"
               },
               "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "title": "Release Notes 1.11.4"
             }
           }
         ],
@@ -232,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa34377de1d96dc2",
+  "active": "ed7d67387adb32c8",
   "lastOpenFiles": [
     "Home.md",
     "Dossier/L'industrie de la chimie.md",
