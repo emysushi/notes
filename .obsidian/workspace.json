@@ -24,15 +24,15 @@
             }
           },
           {
-            "id": "ed7d67387adb32c8",
+            "id": "c1edf9651fb89d5b",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.11.4"
+                "currentVersion": "1.12.7"
               },
               "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.4"
+              "title": "Notes de version 1.12.7"
             }
           }
         ],
@@ -59,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorateur de fichiers"
             }
           },
           {
@@ -213,12 +213,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "canvas:Créer une nouvelle toile": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
+      "bases:Créer une nouvelle base": false,
       "templater-obsidian:Templater": false,
       "obsidian-map-view:Open map view": false,
       "obsidian-gallery:Gallery": false,
@@ -232,7 +232,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ed7d67387adb32c8",
+  "active": "c1edf9651fb89d5b",
   "lastOpenFiles": [
     "Home.md",
     "Dossier/L'industrie de la chimie.md",
